@@ -1,24 +1,18 @@
 
-/* Variables for weights
- * Change the values to cusomize
- * Use integers between 100 and 900
- */
-$thin:        100;
-$extraLight:  200;
-$light:       300;
-$regular:     400;
-$medium:      500;
-$semiBold:    600;
-$bold:        700;
-$extraBold:   800;
-$black:       900;
+// You can customize these weight variables using integers between 100 and 900
+$thin:            100;
+$extraLight:      200;
+$light:           300;
+$regular:         400;
+$medium:          500;
+$semiBold:        600;
+$bold:            700;
+$extraBold:       800;
+$black:           900;
 
-/* Variables for widths
- * Change the values to cusomize
- * Use integers between 60 and 100
- */
-$compressed:     60;
-$extraCondensed: 70;
-$condensed:      80;
-$narrow:         90;
-$normal:         100;
+// You can customize these width variables using integers between 60 and 100
+$compressed:      60;
+$extraCondensed:  70;
+$condensed:       80;
+$narrow:          90;
+$normal:          100; // You can make normal less than 100 if you want

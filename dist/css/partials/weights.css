@@ -1,13 +1,4 @@
 /* @include width-weight(100,100); */
-/* Variables for weights
- * Change the values to cusomize
- * Use integers between 100 and 900
- */
-/* Variables for widths
- * Change the values to cusomize
- * Use integers between 60 and 100
- */
-/* Add these classes for other weights of any variable font */
 .lf-thin {
   font-weight: 100;
   font-variation-settings: "wdth" 100, "wght" 100; }
@@ -43,3 +34,16 @@
 .lf-black {
   font-weight: 900;
   font-variation-settings: "wdth" 100, "wght" 900; }
+
+/* Build your own from the available variables
+ * Widths:  compressed, extraCondensed, condensed, narrow, normal
+ * Weights: thin, extraLight, light, regular, medium, $semiBold, bold, $extraBold, black
+ */
+.lf-compressed-light {
+  font-weight: 300;
+  font-variation-settings: "wdth" 60, "wght" 300; }
+
+.my-custom-class {
+  font-size: 2rem;
+  font-weight: 300;
+  font-variation-settings: "wdth" 60, "wght" 300; }

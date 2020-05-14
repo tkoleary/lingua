@@ -1,7 +1,7 @@
 @import "mixins";
 @import "variables";
 
-/* Add these classes for other weights of any variable font */
+// Helper classes for default weights
 .lf-thin {
   @include width-weight($normal,$thin);
 }
@@ -28,4 +28,20 @@
 }
 .lf-black {
   @include width-weight($normal,$black);
+}
+
+/* Build your own from the available variables
+ * Widths:  compressed, extraCondensed, condensed, narrow, normal
+ * Weights: thin, extraLight, light, regular, medium, $semiBold, bold, $extraBold, black
+ */
+
+// for example...
+.lf-compressed-light {
+  @include width-weight($compressed,$light);
+}
+
+// Or import the mixin to your scss and use it in your own classes
+.my-custom-class {
+  font-size: 2rem;
+  @include width-weight($compressed,$light);
 }

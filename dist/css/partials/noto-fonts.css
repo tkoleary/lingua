@@ -91,53 +91,53 @@
     font-weight: normal;
     font-style: normal; } }
 
-/* font family for normal, all weights */
-.font-noto-sans {
+html {
   font-family: "Noto Sans VF","Noto Sans Regular",sans-serif; }
 
-/* font familiy for italic, all weights */
-.font-noto-sans-italic {
+*:lang(en) em {
   font-family: "Noto Sans Italic VF","Noto Sans Italic",sans-serif; }
 
-/* font familiy for Mono, all weights */
-.font-noto-sans-mono {
+*:lang(en) pre,
+*:lang(en) code {
   font-family: "Noto Sans Mono VF","Noto Sans Mono",monospace; }
 
-/* languages */
-*:lang(ar).font-noto-sans {
+*:lang(ar) {
   font-family: "Noto Sans Arabic VF","Noto Sans Regular",sans-serif;
   direction: rtl; }
 
-*:lang(hy).font-noto-sans {
+*:lang(hy) {
   font-family: "Noto Sans Armenian VF","Noto Sans Regular",sans-serif; }
 
-*:lang(gu).font-noto-sans {
+*:lang(gu) {
   font-family: "Noto Sans Gujarati VF","Noto Sans Regular",sans-serif; }
 
-*:lang(iw).font-noto-sans {
+*:lang(iw) {
   font-family: "Noto Sans Hebrew VF","Noto Sans Regular",sans-serif;
   direction: rtl; }
 
-*:lang(hi).font-noto-sans {
+*:lang(hi) {
   font-family: "Noto Sans Hindi VF","Noto Sans Regular",sans-serif; }
 
-*:lang(km).font-noto-sans {
+*:lang(km) {
   font-family: "Noto Sans Khmer VF","Noto Sans regular",sans-serif; }
 
-*:lang(lo).font-noto-sans {
+*:lang(lo) {
   font-family: "Noto Sans Lao VF","Noto Sans Regular",sans-serif; }
 
-*:lang(ms).font-noto-sans {
+*:lang(ms) {
   font-family: "Noto Sans Malayalam VF","Noto Sans Regular",sans-serif; }
 
-*:lang(ta).font-noto-sans {
+*:lang(pe) {
+  font-family: "Noto Sans Persian VF","Noto Sans Regular",sans-serif; }
+
+*:lang(ta) {
   font-family: "Noto Sans Tamil VF","Noto Sans Regular",sans-serif; }
 
-*:lang(te).font-noto-sans {
+*:lang(te) {
   font-family: "Noto Sans Telugu VF","Noto Sans Regular",sans-serif; }
 
-*:lang(th).font-noto-sans {
+*:lang(th) {
   font-family: "Noto Sans Thai VF","Noto Sans Regular",sans-serif; }
 
-*:lang(ur).font-noto-sans {
+*:lang(ur) {
   font-family: "Noto Sans Urdu VF","Noto Sans Regular",sans-serif; }
