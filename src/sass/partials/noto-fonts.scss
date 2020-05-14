@@ -1,0 +1,229 @@
+
+// The fallback non-variable Noto Sans font
+@font-face {
+  font-family: 'Noto Sans Regular';
+  src:  url('../fonts/latin/static/regular/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/latin/static/regular/NotoSans-Regular.woff') format('woff'),
+        url('../fonts/latin/static/regular/NotoSans-Regular.ttf') format('truetype'),
+        url('../fonts/latin/static/regular/NotoSans-Regular.svg#NotoSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+// The fallback non-variable Noto Sans Italic font
+@font-face {
+  font-family: 'Noto Sans Italic';
+  src:  url('../fonts/latin/static/italic/NotoSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/latin/static/italic/NotoSans-Italic.woff') format('woff'),
+        url('../fonts/latin/static/italic/NotoSans-Italic.ttf') format('truetype'),
+        url('../fonts/latin/static/italic/NotoSans-Italic.svg#NotoSans-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ---------------------- LANGUAGES ---------------------- */
+
+// No variable font is available for Urdu
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  src:  url('../fonts/urdu/static/NotoNastaliqUrdu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/urdu/static/NotoNastaliqUrdu-Regular.woff') format('woff'),
+        url('../fonts/urdu/static/NotoNastaliqUrdu-Regular.ttf') format('truetype'),
+        url('../fonts/urdu/static/NotoNastaliqUrdu-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+// No variable font is available for Persian
+@font-face {
+  font-family: 'Noto Sans Persian';
+  src:  url('../fonts/persian/static/NotoSansOldPersian-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/persian/static/NotoSansOldPersian-Regular.woff') format('woff'),
+        url('../fonts/persian/static/NotoSansOldPersian-Regular.ttf') format('truetype'),
+        url('../fonts/persian/static/NotoSansOldPersian-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+// No variable font is available for Gujarati
+@font-face {
+  font-family: 'Noto Sans Gujarati';
+  src:  url('../fonts/gujarati/static/NotoSansGujarati-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/gujarati/static/NotoSansGujarati-Regular.woff') format('woff'),
+        url('../fonts/gujarati/static/NotoSansGujarati-Regular.ttf') format('truetype'),
+        url('../fonts/gujarati/static/NotoSansGujarati-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@supports ( font-variation-settings: 'wdth' 200 ) {
+  // The variable font of Noto Sans
+  @font-face {
+    font-family: 'Noto Sans VF';
+    src:  url('../fonts/latin/variable/regular/NotoSans-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/latin/variable/regular/NotoSans-VF.woff') format('woff'),
+          url('../fonts/latin/variable/regular/NotoSans-VF.ttf') format('truetype'),
+          url('../fonts/latin/variable/regular/NotoSans-VF.svg#NotoSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // The variable font of Noto Sans Italic
+  @font-face {
+    font-family: 'Noto Sans Italic VF';
+    src:  url('../fonts/latin/variable/italic/NotoSansItalic-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/latin/variable/italic/NotoSansItalic-VF.woff') format('woff'),
+          url('../fonts/latin/variable/italic/NotoSansItalic-VF.ttf') format('truetype'),
+          url('../fonts/latin/variable/italic/NotoSansItalic-VF.svg#NotoSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // The variable font of Noto Sans Mono
+  @font-face {
+    font-family: 'Noto Sans Mono VF';
+    src:  url('../fonts/latin/variable/Mono/NotoSansMono-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/latin/variable/Mono/NotoSansMono-VF.woff') format('woff'),
+          url('../fonts/latin/variable/Mono/NotoSansMono-VF.ttf') format('truetype'),
+          url('../fonts/latin/variable/mono/NotoSansMono-VF.svg#NotoSans-Mono') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // The variable font of Noto Sans Khmer
+  @font-face {
+    font-family: 'Noto Sans Khmer VF';
+    src:  url('../fonts/khmer/variable/NotoSansKhmer-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/khmer/variable/NotoSansKhmer-VF.woff') format('woff'),
+          url('../fonts/khmer/variable/NotoSansKhmer-VF.ttf') format('truetype'),
+          url('../fonts/khmer/variable/NotoSansKhmer-VF.svg#NotoSansKhmer-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // The variable font of Noto Sans Thai
+  @font-face {
+    font-family: 'Noto Sans Thai VF';
+    src:  url('../fonts/thai/variable/NotoSansThai-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/thai/variable/NotoSansThai-VF.woff') format('woff'),
+          url('../fonts/thai/variable/NotoSansThai-VF.ttf') format('truetype'),
+          url('../fonts/thai/variable/NotoSansThai-VF.svg#NotoSansThai-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Arabic
+  @font-face {
+    font-family: 'Noto Sans Arabic VF';
+    src:  url('../fonts/arabic/variable/NotoSansArabic-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/arabic/variable/NotoSansArabic-VF.woff') format('woff'),
+          url('../fonts/arabic/variable/NotoSansArabic-VF.ttf') format('truetype'),
+          url('../fonts/arabic/variable/NotoSansArabic-VF.svg#NotoSansArabic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Armenian
+  @font-face {
+    font-family: 'Noto Sans Armenian VF';
+    src:  url('../fonts/armenian/variable/NotoSansArmenian-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/armenian/variable/NotoSansArmenian-VF.woff') format('woff'),
+          url('../fonts/armenian/variable/NotoSansArmenian-VF.ttf') format('truetype'),
+          url('../fonts/armenian/variable/NotoSansArmenian-VF.svg#NotoSansArmenian-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Hebrew
+  @font-face {
+    font-family: 'Noto Sans Hebrew VF';
+    src:  url('../fonts/hebrew/variable/NotoSansHebrew-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/hebrew/variable/NotoSansHebrew-VF.woff') format('woff'),
+          url('../fonts/hebrew/variable/NotoSansHebrew-VF.ttf') format('truetype'),
+          url('../fonts/hebrew/variable/NotoSansHebrew-VF.svg#NotoSansHebrew-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Malayalam
+  @font-face {
+    font-family: 'Noto Sans Malayalam VF';
+    src:  url('../fonts/malayalam/variable/NotoSansMalayalamUI-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/malayalam/variable/NotoSansMalayalamUI-VF.woff') format('woff'),
+          url('../fonts/malayalam/variable/NotoSansMalayalamUI-VF.ttf') format('truetype'),
+          url('../fonts/malayalam/variable/NotoSansMalayalamUI-VF.svg#NotoSansMalayalam-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Tamil
+  @font-face {
+    font-family: 'Noto Sans Tamil VF';
+    src:  url('../fonts/tamil/variable/NotoSansTamil-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/tamil/variable/NotoSansTamil-VF.woff') format('woff'),
+          url('../fonts/tamil/variable/NotoSansTamil-VF.ttf') format('truetype'),
+          url('../fonts/tamil/variable/NotoSansTamil-VF.svg#NotoSansTamil-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Telugu
+  @font-face {
+    font-family: 'Noto Sans Telugu VF';
+    src:  url('../fonts/telugu/variable/NotoSansTelugu-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/telugu/variable/NotoSansTelugu-VF.woff') format('woff'),
+          url('../fonts/telugu/variable/NotoSansTelugu-VF.ttf') format('truetype'),
+          url('../fonts/telugu/variable/NotoSansTelugu-VF.svg#NotoSansTelugu-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  // Variable fonts for Noto Sans Urdu
+  @font-face {
+    font-family: 'Noto Sans Urdu VF';
+    src:  url('../fonts/urdu/variable/NotoSansUrdu-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/urdu/variable/NotoSansUrdu-VF.woff') format('woff'),
+          url('../fonts/urdu/variable/NotoSansUrdu-VF.ttf') format('truetype'),
+          url('../fonts/urdu/variable/NotoSansUrdu-VF.svg#NotoSansUrdu-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+/* font family for normal, all weights */
+.font-noto-sans {
+  font-family: "Noto Sans VF","Noto Sans Regular",sans-serif;
+}
+/* font familiy for italic, all weights */
+.font-noto-sans-italic {
+  font-family: "Noto Sans Italic VF","Noto Sans Italic",sans-serif
+}
+/* font familiy for Mono, all weights */
+.font-noto-sans-mono {
+  font-family: "Noto Sans Mono VF","Noto Sans Mono",monospace;
+}
+
+/* languages */
+*:lang(ar).font-noto-sans {
+  font-family: "Noto Sans Arabic VF","Noto Sans Regular",sans-serif;
+  direction: rtl;
+}
+*:lang(hy).font-noto-sans {
+  font-family: "Noto Sans Armenian VF","Noto Sans Regular",sans-serif;
+}
+*:lang(gu).font-noto-sans {
+  font-family: "Noto Sans Gujarati VF","Noto Sans Regular",sans-serif;
+}
+*:lang(iw).font-noto-sans {
+  font-family: "Noto Sans Hebrew VF","Noto Sans Regular",sans-serif;
+  direction: rtl;
+}
+*:lang(hi).font-noto-sans {
+  font-family: "Noto Sans Hindi VF","Noto Sans Regular",sans-serif;
+}
+*:lang(km).font-noto-sans {
+  font-family: "Noto Sans Khmer VF","Noto Sans regular",sans-serif;
+}
+*:lang(lo).font-noto-sans {
+  font-family: "Noto Sans Lao VF","Noto Sans Regular",sans-serif;
+}
+*:lang(ms).font-noto-sans {
+  font-family: "Noto Sans Malayalam VF","Noto Sans Regular",sans-serif;
+}
+*:lang(ta).font-noto-sans {
+  font-family: "Noto Sans Tamil VF","Noto Sans Regular",sans-serif;
+}
+*:lang(te).font-noto-sans {
+  font-family: "Noto Sans Telugu VF","Noto Sans Regular",sans-serif;
+}
+*:lang(th).font-noto-sans {
+  font-family: "Noto Sans Thai VF","Noto Sans Regular",sans-serif;
+}
+*:lang(ur).font-noto-sans {
+  font-family: "Noto Sans Urdu VF","Noto Sans Regular",sans-serif;
+}
