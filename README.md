@@ -24,11 +24,8 @@ Every font and script provided by Lingua is available as both serif and sans. Mo
 
 ### How to use Lingua
 
-1. Out of the box
-- To use lingua as is just add link the minified css in <head> after all of your other css files. That will style every language on your site with the noto web fonts. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
+1. *Out of the box* To use lingua as is just add link the minified css in <head> after all of your other css files. That will style every language on your site with the noto web fonts. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
 
-2. With Sass
-- Clone the Lingua repo into your project and either @import Lingua's style.scss into your scss build flow or compile it separately and link the styles as in #1 above.
+2. *With Sass* Clone the Lingua repo into your project and either @import Lingua's style.scss into your scss build flow or compile it separately and link the styles as in #1 above.
 
-3. With NPM
-- Get the NPM module npm i lingua-sass, or yarn add lingua-sass. Then you can import the module into your build.
+3. *With NPM* Get the NPM module npm i lingua-sass, or yarn add lingua-sass. Then you can import the module into your build.
