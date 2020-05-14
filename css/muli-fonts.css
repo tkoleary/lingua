@@ -1,0 +1,192 @@
+
+/* The fallback non-variable Muli font */
+@font-face {
+  font-family: 'Muli Regular';
+  src:  url('../fonts/muli/latin/static/regular/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/muli/latin/static/regular/Muli-Regular.woff') format('woff'),
+        url('../fonts/muli/latin/static/regular/Muli-Regular.ttf') format('truetype'),
+        url('../fonts/muli/latin/static/regular/Muli-Regular.svg#Muli-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* The fallback non-variable Muli Italic font */
+@font-face {
+  font-family: 'Muli Italic';
+  src:  url('../fonts/muli/latin/static/italic/Muli-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/muli/latin/static/italic/Muli-Italic.woff') format('woff'),
+        url('../fonts/muli/latin/static/italic/Muli-Italic.ttf') format('truetype'),
+        url('../fonts/muli/latin/static/italic/Muli-Italic.svg#Muli-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@supports ( font-variation-settings: 'wdth' 200 ) {
+  /* The variable font of Muli */
+  @font-face {
+    font-family: 'Muli VF';
+    src:  url('../fonts/muli/latin/variable/regular/Muli-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/latin/variable/regular/Muli-VF.woff') format('woff'),
+          url('../fonts/muli/latin/variable/regular/Muli-VF.ttf') format('truetype'),
+          url('../fonts/muli/latin/variable/regular/Muli-VF.svg#Muli-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* The variable font of Muli Italic */
+  @font-face {
+    font-family: 'Muli Italic VF';
+    src:  url('../fonts/muli/latin/variable/italic/Muli-Italic-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/latin/variable/italic/Muli-Italic-VF.woff') format('woff'),
+          url('../fonts/muli/latin/variable/italic/Muli-Italic-VF.ttf') format('truetype'),
+          url('../fonts/muli/latin/variable/italic/Muli-Italic-VF.svg#Muli-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* The variable font of Muli Mono */
+  @font-face {
+    font-family: 'Muli Mono VF';
+    src:  url('../fonts/muli/latin/variable/Mono/MuliMono-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/latin/variable/Mono/MuliMono-VF.woff') format('woff'),
+          url('../fonts/muli/latin/variable/Mono/MuliMono-VF.ttf') format('truetype'),
+          url('../fonts/muli/latin/variable/mono/MuliMono-VF.svg#Muli-Mono') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* The variable font of Muli Khmer */
+  @font-face {
+    font-family: 'Muli Khmer VF';
+    src:  url('../fonts/muli/khmer/MuliKhmer-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/khmer/MuliKhmer-VF.woff') format('woff'),
+          url('../fonts/muli/khmer/MuliKhmer-VF.ttf') format('truetype'),
+          url('../fonts/muli/khmer/MuliKhmer-VF.svg#MuliKhmer-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* The variable font of Muli Thai */
+  @font-face {
+    font-family: 'Muli Thai VF';
+    src:  url('../fonts/muli/thai/MuliThai-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/thai/MuliThai-VF.woff') format('woff'),
+          url('../fonts/muli/thai/MuliThai-VF.ttf') format('truetype'),
+          url('../fonts/muli/thai/MuliThai-VF.svg#MuliThai-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Variable fonts for Muli Arabic */
+  @font-face {
+    font-family: 'Muli Arabic VF';
+    src:  url('../fonts/muli/arabic/MuliArabic-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/arabic/MuliArabic-VF.woff') format('woff'),
+          url('../fonts/muli/arabic/MuliArabic-VF.ttf') format('truetype'),
+          url('../fonts/muli/arabic/MuliArabic-VF.svg#MuliArabic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Variable fonts for Muli Armenian */
+  @font-face {
+    font-family: 'Muli Armenian VF';
+    src:  url('../fonts/muli/armenian/MuliArmenian-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/armenian/MuliArmenian-VF.woff') format('woff'),
+          url('../fonts/muli/armenian/MuliArmenian-VF.ttf') format('truetype'),
+          url('../fonts/muli/armenian/MuliArmenian-VF.svg#MuliArmenian-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Variable fonts for Muli Hebrew */
+  @font-face {
+    font-family: 'Muli Hebrew VF';
+    src:  url('../fonts/muli/hebrew/MuliHebrew-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/hebrew/MuliHebrew-VF.woff') format('woff'),
+          url('../fonts/muli/hebrew/MuliHebrew-VF.ttf') format('truetype'),
+          url('../fonts/muli/hebrew/MuliHebrew-VF.svg#MuliHebrew-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Variable fonts for Muli Malayalam */
+  @font-face {
+    font-family: 'Muli Malayalam VF';
+    src:  url('../fonts/muli/malayalam/MuliMalayalam-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/malayalam/MuliMalayalam-VF.woff') format('woff'),
+          url('../fonts/muli/malayalam/MuliMalayalam-VF.ttf') format('truetype'),
+          url('../fonts/muli/malayalam/MuliMalayalam-VF.svg#MuliMalayalam-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /* Variable fonts for Muli Tamil */
+  @font-face {
+    font-family: 'Muli Tamil VF';
+    src:  url('../fonts/muli/tamil/MuliTamil-VF.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/muli/tamil/MuliTamil-VF.woff') format('woff'),
+          url('../fonts/muli/tamil/MuliTamil-VF.ttf') format('truetype'),
+          url('../fonts/muli/tamil/MuliTamil-VF.svg#MuliTamil-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+/* font family for normal, all weights */
+.font-muli {
+  font-family: "Muli VF","Muli Regular",sans-serif;
+}
+/* font familiy for italic, all weights */
+.font-muli-italic {
+  font-family: "Muli Italic VF","Muli Italic",sans-serif
+}
+/* font familiy for Mono, all weights */
+.font-muli-mono {
+  font-family: "Muli Mono VF","Muli Mono",monospace;
+}
+
+/* languages */
+*:lang(ar).font-muli {
+  font-family: "Muli Arabic VF",sans-serif;
+  direction: rtl;
+}
+*:lang(hy).font-muli {
+  font-family: "Muli Armenian VF",sans-serif;
+}
+*:lang(iw).font-muli {
+  font-family: "Muli Hebrew VF",sans-serif;
+  direction: rtl;
+}
+*:lang(km).font-muli {
+  font-family: "Muli Khmer VF",sans-serif;
+}
+*:lang(my).font-muli {
+  font-family: "Muli Malayalam VF",sans-serif;
+}
+*:lang(ta).font-muli {
+  font-family: "Muli Tamil VF",sans-serif;
+}
+*:lang(te).font-muli {
+  font-family: "Muli Telugu VF",sans-serif;
+}
+*:lang(th).font-muli {
+  font-family: "Muli Thai VF",sans-serif;
+}
+
+/* Add these classes for other weights of either normal or italic at the normal width */
+.vf-light {
+  font-variation-settings: 'wdth' 100, 'wght' 330;
+}
+.vf-medium {
+  font-variation-settings: 'wdth' 100, 'wght' 600;
+}
+.vf-bold {
+  font-variation-settings: 'wdth' 100, 'wght' 660;
+}
+.vf-black {
+  font-variation-settings: 'wdth' 100, 'wght' 760;
+}
+/*  Letter-spacing helper classes, latin scripts only, not mono */
+.loose {
+  letter-spacing: .005em; /* use with light weight */
+}
+.tight {
+  letter-spacing: -.008em; /* use with medium weight */
+}
+.tighter {
+  letter-spacing: -.01em; /* use with bold weight */
+}
+.tightest {
+  letter-spacing: -.017em; /* use with black weight */
+}

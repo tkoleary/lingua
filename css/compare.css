@@ -1,0 +1,42 @@
+/* style the 'compare' files */
+
+.label {
+  font-family: 'Texta';
+  font-size: 18px;
+  margin: .5em 0;
+}
+.example {
+  position: relative;
+  min-height: 380px;
+  font-size: 250px;
+  margin: 0;
+}
+.example span,
+.overlay {
+  position: absolute;
+  left: 0;
+}
+.adjust {
+  color: #555555;
+}
+
+/* The adjustments needed to make size, height, spacing of Muli to match Texta */
+.muli {
+  font-size: .83em;
+  line-height: 1.77;
+}
+/* The adjustments needed to make size, height, spacing of Noto to match Texta */
+.noto {
+  font-size: .815em;
+  line-height: 1.8;
+}
+.overlay {
+  font-family: 'Texta';
+  color: magenta;
+  opacity: .5;
+  line-height: 1.5;
+}
+.adjust,
+.overlay {
+  background-color: rgba(0,0,0,0.1)
+}
