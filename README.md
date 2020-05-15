@@ -10,13 +10,17 @@ Google has developed an amazing resource. A set of font families with the ambiti
 
 - **Accessibility.** The Noto fonts have been tested for accessibility and perform extremely well.
 
-- **Performance.** Because Lingua uses variable fonts (wherever available) and only imports the fonts you need based on languages on the page, it's unlikely that you will ever load more than a few font files to any page. Here are some stats on variable font load times.
+- **Performance.** We usee variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. We also the unicode-range property in our @font-face rules so language-specific files are only loaded when glyphs used by that language are called for. It's unlikely that you will ever load more than a few font files to any page. Here are some stats on variable font load times.
 
 - **Design.** Every font and script provided by Lingua is available as both serif and sans. Most are available in 9 weights from thin to black, and the variable fonts can be set at 800 weights and 40 widths. Each of these has automatically generated fallbacks and a range of variables, mixins, and default helper classes to style anything you want.
 
 - **Once for all.** When Lingua is added to your project any font anywhere automatically use the correct script for the language specified by the document or element inheriting whatever style attributes (width, weight, style etc.) applied by your css.
 
 - **Variable font coverage.** Lingua uses the variable fonts currently available in the Noto set which include the following scripts: Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew, Arabic, Khmer, Tegulu, Malayalam, Hindi, Urdu.
+
+### But what if I don't like the Noto fonts?
+
+Noto fonts may not work for your brand or design, but Lingua is still incredibly useful to fill in thee gaps. If for example you have a brand font, but it only covers the Latin unicode blocks, just replace the Noto with your font for those bloacks and let Lingua cover the other half of the world.
 
 ### How to use Lingua
 
