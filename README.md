@@ -2,15 +2,15 @@
 
 ## A typographic solution for every language and script
 
-Leveraging the open-source Noto font families, variable web-fonts and modern front-end build tools, lingua provides a single library to rapidly develop a fully internationalized site without sacrificing design, accessibility or performance.
+Leveraging the open-source Noto font families, variable web-fonts and modern front-end build tools, Lingua provides a single library to rapidly develop a fully internationalized site without sacrificing design, accessibility or performance.
 
 ### The Noto fonts
 
-Google has developed an amazing resource. A set of font families with the ambitious goal of covering every single language and script covered by the Unicode standard. That alone is a compelling reason to use them, but there's more. Because all of the noto fonts are built together you don't have to deal with reconciling the differences in character size, X and cap height or weight that make a multi-font approach painful.
+Google has developed a set of font families with the ambitious goal of covering every language and script in Unicode. That alone is a compelling reason to use them, but there's more. Because all of the noto fonts are built to work together, you don't have to reconcile differences in character size, cap height, weight, or other stylistic variations that plague i18n projects.
 
 - **Accessibility.** The Noto fonts have been tested for accessibility and perform extremely well.
 
-- **Performance.** We usee variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. We also the unicode-range property in our @font-face rules so language-specific files are only loaded when glyphs used by that language are called for. It's unlikely that you will ever load more than a few font files to any page. Here are some stats on variable font load times.
+- **Performance.** We usee variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. We also the `unicode-range` property in our `@font-face` rules so language-specific files are only loaded when glyphs used by that language are called for. It's unlikely that you will ever load more than a few font files to any page. Here are some stats on variable font load times.
 
 - **Design.** Every font and script provided by Lingua is available as both serif and sans. Most are available in 9 weights from thin to black, and the variable fonts can be set at 800 weights and 40 widths. Each of these has automatically generated fallbacks and a range of variables, mixins, and default helper classes to style anything you want.
 
@@ -20,12 +20,22 @@ Google has developed an amazing resource. A set of font families with the ambiti
 
 ### But what if I don't like the Noto fonts?
 
-Noto fonts may not work for your brand or design, but Lingua is still incredibly useful to fill in thee gaps. If for example you have a brand font, but it only covers the Latin unicode blocks, just replace the Noto with your font for those bloacks and let Lingua cover the other half of the world.
+If Noto doesn't work for your brand or design, use Lingua can fill in the gaps. Say your brand font only covers the Latin unicode blocks, just replace Noto with your font for those blocks and let Lingua cover the other half of the world.
 
 ### How to use Lingua
 
-1. **Out of the box** To use lingua as is just add link the minified css in <head> after all of your other css files. That will style every language on your site with the noto web fonts. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
+1. **Out of the box** To use lingua as is just add link the minified css in the `<head>` of your HTML after all of your other css files. That will style every language on your site with the noto web fonts. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
 
-2. **With Sass** Clone the Lingua repo into your project and either @import Lingua's style.scss into your scss build flow or compile it separately and link the styles as in #1 above.
+2. **With Sass** Clone the Lingua repo into your project and either `@import` Lingua's style.scss into your scss build flow or compile it separately and link the styles as in #1 above.
 
-3. **With NPM** Get the NPM module npm i lingua-sass, or yarn add lingua-sass. Then you can import the module into your build.
+3. **With NPM** Get the NPM module `npm i lingua-sass`, or yarn add lingua-sass. Then you can import the module into your build.
+
+### Languages and scripts covered by Lingua
+
+**| Latin   | Greek   | Cyrillic  | Armenian | Georgian | Arabic    | CJK       |**
+  | English | Greek   | Russian   | Armenian | Georgian | Arabian   | Chinese   |
+  | Spanish | Coptic  | Ukrainian |          |          | Urdu      | Japanese  |
+  | French  |         |           |          |          |           | Korean    |
+  | German  |
+  | Dutch   |
+  | Polish  |
