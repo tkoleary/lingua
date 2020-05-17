@@ -1,0 +1,15 @@
+@import "../variables/variables";
+
+// Chinese script languages
+*:lang(zh),
+*:lang(gan),
+*:lang(hak),
+*:lang(hsn),
+*:lang(nan),
+*:lang(wuu),
+*:lang(yue),
+*:lang(za),
+*:lang(lzh), {
+  font-family: $cjk-vf,$base-sf,sans-serif;
+  direction: ltr;
+}

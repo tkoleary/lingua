@@ -1,0 +1,74 @@
+// Font variables
+
+// Latin static
+$base-sf:         'Noto Sans Regular';      // Fallback for when variable fonts are not supported (can be either serif or sans)
+$base-vf:         'Noto Sans Regular VF';   // Loads everywhere, should end in VF
+$base-sans-sf:    'Noto Sans Regular';      // Useful if overall base is a serif
+$base-sans-vf:    'Noto Sans Regular VF';   // Useful if overall base is a serif
+$base-serif-sf:   'Noto Serif Regular';     // Useful if overall base is a sans-serif
+$base-serif-vf:   'Noto Serif Regular VF';  // Useful if overall base is a sans-serif
+$base-mono-sf:    'Noto Mono Regular';      // Useful to explicitly declare your monospace webfont
+$base-mono-vf:    'Noto Sans Mono VF';
+$base-italic-vf:  'Noto Sans Italic VF';    // Variable fonts italics render inconsistently so we explicitly add them separately
+
+// Other variable fonts
+$adlam-vf:        'Noto Sans Adalam VF';
+$arabic-vf:       'Noto Sans Arabic VF';
+$armenian-vf:     'Noto Sans Armenian VF';
+$bengali-vf:      'Noto Sans Bamun VF';
+$bengali-vf:      'Noto Sans Bengali VF';
+$cjk-vf:          'Noto Sans CJK VF';
+$cyrillic-vf:     'Noto Sans Cyrillic VF';
+$devanagari-vf:   'Noto Sans Devanagari VF';
+$ethiopic-vf:     'Noto Sans Ethiopic VF';
+$greek-vf:        'Noto Sans Greek VF';
+$gujarati-vf:     'Noto Sans Gujarati VF';
+$gurmukhi-vf:     'Noto Sans Gurmukhi VF';
+$hangul-Jamo-vf:  'Noto Sans Hangul Jamo VF';
+$hebrew-vf:       'Noto Sans Hebrew VF';
+$japanese-vf:     'Noto Sans Japanese VF';
+$kannada-vf:      'Noto Sans Kannada VF';
+$kkayah-vf:       'Noto Sans Kayah VF';
+$khmer-vf:        'Noto Sans Khmer VF';
+$latin-sans-sf:   $base-sans-sf;
+$latin-sans-vf:   $base-sans-vf;
+$latin-serif-sf:  $base-serif-sf;
+$latin-serif-vf:  $base-serif-vf;
+$latin-italic-vf: $base-italic-vf;
+$latin-mono-sf:   $base-mono-sf;
+$latin-mono-vf:   $base-mono-vf;
+$lao-vf:          'Noto Sans Lao VF';
+$limbu-vf:        'Noto Sans Limbu VF';
+$malayalam-vf:    'Noto Sans Malayalam VF';
+$mongolian-vf:    'Noto Sans Mongolian VF';
+$myanmar-vf:      'Noto Sans Myanmar VF';
+$nko-vf:          'Noto Sans NKo VF';
+$oriya-vf:        'Noto Sans Oriya VF';
+$sinhala-vf:      'Noto Sans Sinhala VF';
+$tai-le-vf:       'Noto Sans Tai Le VF';
+$tamil-vf:        'Noto Sans Tamil VF';
+$telugu-vf:       'Noto Sans Telugu VF';
+$thaana-vf:       'Noto Sans Thaana VF';
+$thai-vf:         'Noto Sans Thai VF';
+$urdu-vf:         'Noto Sans Urdu VF';
+$chinese-vf:      'Noto Sans Chinese VF';
+$korean-vf:       'Noto Sans Korean VF';
+
+// Customize these weight variables using integers between 100 and 900
+$ulight:        100;
+$xight:         200;
+$light:         300;
+$regular:       400;
+$medium:        500;
+$sbold:         600;
+$bold:          700;
+$xbold:         800;
+$ubold:         900;
+
+// Customize these width variables using integers between 60 and 100
+// Note: do not confuse these with font-stretch properties
+$ucondensed:    60;
+$xcondensed:    70;
+$condensed:     80;
+$narrow:        90;
+$normal:        100;

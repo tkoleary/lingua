@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Noto Sans Regular';
-  src: url("../fonts/latin/static/regular/NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/latin/static/regular/NotoSans-Regular.woff") format("woff"), url("../fonts/latin/static/regular/NotoSans-Regular.ttf") format("truetype"), url("../fonts/latin/static/regular/NotoSans-Regular.svg#NotoSans-Regular") format("svg");
+  src: url("../fonts/latin/static/regular/NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/latin/static/regular/NsotoSans-Regular.woff") format("woff"), url("../fonts/latin/static/regular/NotoSans-Regular.ttf") format("truetype"), url("../fonts/latin/static/regu lar/NotoSans-Regular.svg#NotoSans-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   unicode-range: U+0020-024F; }
@@ -40,18 +40,6 @@
     font-style: normal;
     unicode-range: U+0020-024F; }
   @font-face {
-    font-family: 'Noto Sans Khmer VF';
-    src: url("../fonts/khmer/variable/NotoSansKhmer-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/khmer/variable/NotoSansKhmer-VF.woff") format("woff"), url("../fonts/khmer/variable/NotoSansKhmer-VF.ttf") format("truetype"), url("../fonts/khmer/variable/NotoSansKhmer-VF.svg#NotoSansKhmer-Regular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    unicode-range: U+1780-17FF; }
-  @font-face {
-    font-family: 'Noto Sans Thai VF';
-    src: url("../fonts/thai/variable/NotoSansThai-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/thai/variable/NotoSansThai-VF.woff") format("woff"), url("../fonts/thai/variable/NotoSansThai-VF.ttf") format("truetype"), url("../fonts/thai/variable/NotoSansThai-VF.svg#NotoSansThai-Regular") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    unicode-range: U+0E00-0E7F; }
-  @font-face {
     font-family: 'Noto Sans Adlam VF';
     src: url("../fonts/adlam/variable/NotoSansAdlam-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/adlam/variable/NotoSansAdlam-VF.woff") format("woff"), url("../fonts/adlam/variable/NotoSansAdlam-VF.ttf") format("truetype"), url("../fonts/adlam/variable/NotoSansAdlam-VF.svg#NotoSansAdlam-Regular") format("svg");
     font-weight: normal;
@@ -64,14 +52,20 @@
     font-style: normal;
     unicode-range: U+0600-06FF; }
   @font-face {
+    font-family: 'Noto Sans Armenian VF';
+    src: url("../fonts/armenian/variable/NotoSansArmenian-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/armenian/variable/NotoSansArmenian-VF.woff") format("woff"), url("../fonts/armenian/variable/NotoSansArmenian-VF.ttf") format("truetype"), url("../fonts/armenian/variable/NotoSansArmenian-VF.svg#NotoSansArmenian-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0530-058F; }
+  @font-face {
     font-family: 'Noto Sans Bengali VF';
     src: url("../fonts/bengali/variable/NotoSansBengaliUI-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/bengali/variable/NotoSansBengaliUI-VF.woff") format("woff"), url("../fonts/bengali/variable/NotoSansBengaliUI-VF.ttf") format("truetype"), url("../fonts/bengali/variable/NotoSansBengaliUI-VF.svg#NotoSansBengali-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
     unicode-range: U+00-FF, U+980-9FF; }
   @font-face {
-    font-family: 'Noto Sans Armenian VF';
-    src: url("../fonts/armenian/variable/NotoSansArmenian-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/armenian/variable/NotoSansArmenian-VF.woff") format("woff"), url("../fonts/armenian/variable/NotoSansArmenian-VF.ttf") format("truetype"), url("../fonts/armenian/variable/NotoSansArmenian-VF.svg#NotoSansArmenian-Regular") format("svg");
+    font-family: 'Noto Sans Etheopic VF';
+    src: url("../fonts/ethiopic/variable/NotoSansEthiopic-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/ethiopic/variable/NotoSansEtiopic-VF.woff") format("woff"), url("../fonts/ethiopic/variable/NotoSansEthiopic-VF.ttf") format("truetype"), url("../fonts/ethiopic/variable/NotoSansEthiopic-VF.svg#NotoSansArmenian-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0530-058F; }
@@ -100,6 +94,12 @@
     font-style: normal;
     unicode-range: U+0C80-0CFF; }
   @font-face {
+    font-family: 'Noto Sans Khmer VF';
+    src: url("../fonts/khmer/variable/NotoSansKhmer-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/khmer/variable/NotoSansKhmer-VF.woff") format("woff"), url("../fonts/khmer/variable/NotoSansKhmer-VF.ttf") format("truetype"), url("../fonts/khmer/variable/NotoSansKhmer-VF.svg#NotoSansKhmer-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+1780-17FF; }
+  @font-face {
     font-family: 'Noto Sans Malayalam VF';
     src: url("../fonts/malayalam/variable/NotoSansMalayalamUI-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/malayalam/variable/NotoSansMalayalamUI-VF.woff") format("woff"), url("../fonts/malayalam/variable/NotoSansMalayalamUI-VF.ttf") format("truetype"), url("../fonts/malayalam/variable/NotoSansMalayalamUI-VF.svg#NotoSansMalayalam-Regular") format("svg");
     font-weight: normal;
@@ -123,6 +123,12 @@
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0780-07BF; }
+  @font-face {
+    font-family: 'Noto Sans Thai VF';
+    src: url("../fonts/thai/variable/NotoSansThai-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/thai/variable/NotoSansThai-VF.woff") format("woff"), url("../fonts/thai/variable/NotoSansThai-VF.ttf") format("truetype"), url("../fonts/thai/variable/NotoSansThai-VF.svg#NotoSansThai-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0E00-0E7F; }
   @font-face {
     font-family: 'Noto Sans Urdu VF';
     src: url("../fonts/urdu/variable/NotoSansUrdu-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/urdu/variable/NotoSansUrdu-VF.woff") format("woff"), url("../fonts/urdu/variable/NotoSansUrdu-VF.ttf") format("truetype"), url("../fonts/urdu/variable/NotoSansUrdu-VF.svg#NotoSansUrdu-Regular") format("svg");

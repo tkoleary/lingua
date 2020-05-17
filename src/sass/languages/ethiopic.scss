@@ -1,0 +1,13 @@
+@import "../variables/variables";
+
+// Ethiopic script languages
+*:lang(am),
+*:lang(ti),
+*:lang(byn),
+*:lang(om),
+*:lang(tig),
+*:lang(wal),
+*:lang(gez) {
+  font-family: $ethiopic-vf,$base-sf,sans-serif;
+  direction: ltr;
+}

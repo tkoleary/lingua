@@ -1,0 +1,11 @@
+*:lang(zh),
+*:lang(gan),
+*:lang(hak),
+*:lang(hsn),
+*:lang(nan),
+*:lang(wuu),
+*:lang(yue),
+*:lang(za),
+*:lang(lzh) {
+  font-family: "Noto Sans CJK VF", "Noto Sans Regular", sans-serif;
+  direction: ltr; }

@@ -1,2 +1,15 @@
-@import "partials/noto-fonts";
-@import "partials/weights";
+// Import the webfonts
+@import "webfonts/webfonts";
+
+@import "languages/all"; // Set the base font for all languages
+// Import rules to choose the correct script based on :lang
+@import "languages/single-script";
+@import "languages/arabic";
+@import "languages/cyrillic";
+@import "languages/devanagari";
+@import "languages/ethiopic";
+@import "languages/hebrew";
+@import "languages/latin";
+
+// Import the classess for weights and widthss
+@import "webfonts/weights";

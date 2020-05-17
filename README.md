@@ -10,7 +10,9 @@ Google has developed a set of font families with the ambitious goal of covering 
 
 - **Accessibility.** The Noto fonts have been tested for accessibility and perform extremely well.
 
-- **Performance.** We usee variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. We also the `unicode-range` property in our `@font-face` rules so language-specific files are only loaded when glyphs used by that language are called for. It's unlikely that you will ever load more than a few font files to any page. Here are some stats on variable font load times.
+- **Performance.** We usee variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. Here are some [stats](https://css-tricks) on variable font load times.
+
+We also the `unicode-range` property in our `@font-face` rules so language-specific files are only loaded when glyphs used by that language are called for. See [this article](https://css-tricks.com/almanac/properties/u/unicode-range/)for more.
 
 - **Design.** Every font and script provided by Lingua is available as both serif and sans. Most are available in 9 weights from thin to black, and the variable fonts can be set at 800 weights and 40 widths. Each of these has automatically generated fallbacks and a range of variables, mixins, and default helper classes to style anything you want.
 
@@ -31,11 +33,3 @@ If Noto doesn't work for your brand or design, use Lingua can fill in the gaps. 
 3. **With NPM** Get the NPM module `npm i lingua-sass`, or yarn add lingua-sass. Then you can import the module into your build.
 
 ### Languages and scripts covered by Lingua
-
-**| Latin   | Greek   | Cyrillic  | Armenian | Georgian | Arabic    | CJK       |**
-  | English | Greek   | Russian   | Armenian | Georgian | Arabian   | Chinese   |
-  | Spanish | Coptic  | Ukrainian |          |          | Urdu      | Japanese  |
-  | French  |         |           |          |          |           | Korean    |
-  | German  |
-  | Dutch   |
-  | Polish  |

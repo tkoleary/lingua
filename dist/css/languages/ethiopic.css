@@ -1,0 +1,9 @@
+*:lang(am),
+*:lang(ti),
+*:lang(byn),
+*:lang(om),
+*:lang(tig),
+*:lang(wal),
+*:lang(gez) {
+  font-family: "Noto Sans Ethiopic VF", "Noto Sans Regular", sans-serif;
+  direction: ltr; }
