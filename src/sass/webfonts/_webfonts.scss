@@ -1,0 +1,129 @@
+// The web fonts
+
+@import "../mixins/mixins";
+@import "../variables/unicode-range-variables";
+
+// The fallback non-variable font
+@font-face {
+  @include font-face(latin, Noto Sans, NotoSansRegular, SF, static);
+  unicode-range: $latin-range;
+}
+// The fallback non-variable Italic font
+@font-face {
+  @include font-face(latin, Noto Sans, NotoSansItalic, SF, static);
+  unicode-range: $latin-range;
+}
+
+/* ---------------------- LANGUAGES ---------------------- */
+
+// No variable font is available for Gujarati
+@font-face {
+  @include font-face(gujarati, Noto Sans Gujarati, NotoSansGujarati, SF, static);
+  unicode-range: $gujarati-range;
+}
+
+@supports ( font-variation-settings: 'wdth' 200 ) {
+  // The variable base font
+  @font-face {
+    @include font-face(latin, Noto Sans, NotoSans, VF, variable);
+    unicode-range: $latin-range;
+  }
+  // The variable font for Italic
+  @font-face {
+    @include font-face(latin, Noto Sans Italic, NotoSansItalic, VF, variable);
+    unicode-range: $latin-range;
+  }
+  // The variable font for Mono
+  @font-face {
+    @include font-face(latin, Noto Sans Mono, NotoSansMono, VF, variable);
+    unicode-range: $latin-range;
+  }
+  // Variable fonts for Adlam
+  @font-face {
+    @include font-face(adlam, Noto Sans Adlam, NotoSansAdlam, VF, variable);
+    unicode-range: $adlam-range;
+  }
+  // Variable fonts for Arabic
+  @font-face {
+    @include font-face(arabic, Noto Sans Arabic, NotoSansArabic, VF, variable);
+    unicode-range: $arabic-range;
+  }
+  // Variable fonts for Armenian
+  @font-face {
+    @include font-face(armenian, Noto Sans Armenian, NotoSansArmenian, VF, variable);
+    unicode-range: $armenian-range;
+  }
+  // Variable fonts for Bengali
+  @font-face {
+    @include font-face(bengali, Noto Sans Bengali, NotoSansBengali, VF, variable);
+    unicode-range: $bengali-range;
+  }
+  // Variable fonts for Ethiopic
+  @font-face {
+    @include font-face(etheopic, Noto Sans Etheopic, NotoSansEtheopic, VF);
+    unicode-range: $armenian-range;
+  }
+  // Variable fonts for Devanagari (Hindi)
+  @font-face {
+    @include font-face(devanagari, Noto Sans Devanagari, NotoSansDevanagari, VF, variable);
+    unicode-range: $devanagari-range;
+  }
+  // @todo Add Gurmukhi
+  // @todo Add Tai le
+  // @todo Add limbu
+  // @todo Add mongolian
+  // Variable fonts for  Hebrew
+  @font-face {
+    @include font-face(hebrew, Noto Sans Hebrew, NotoSansHebrew, VF, variable);
+    unicode-range: $hebrew-range;
+  }
+  // @todo Add Hangul Jamo
+  // Variable fonts for Japanese
+  @font-face {
+    @include font-face(japanese, Noto Sans Japanese, NotoSansJapanese, VF, variable);
+    unicode-range: $japanese-range;
+  }
+  // Variable fonts for Kannada
+  @font-face {
+    @include font-face(kannada, Noto Sans Kannada, NotoSansKannada, VF, variable);
+    unicode-range: $kannada-range;
+  }
+  // The variable font for Khmer
+  @font-face {
+    @include font-face(khmer, Noto Sans Khmer, NotoSansKhmer, VF, variable);
+    unicode-range: $khmer-range;
+  }
+  // Variable fonts for Malayalam
+  @font-face {
+    @include font-face(malayalam, Noto Sans Malayalam, NotoSansMalayalam, VF, variable);
+    unicode-range: $malayalam-range;
+  }
+  // @todo Add Oriya
+  // @todo Add NKo
+  // @todo Add Sinhala
+  // Variable fonts for Tamil
+  @font-face {
+    @include font-face(tamil, Noto Sans Tamil, NotoSansTamil, VF, variable);
+    unicode-range: $tamil-range;
+  }
+  // Variable fonts for Telugu
+  @font-face {
+    @include font-face(telugu, Noto Sans Telugu, NotoSansTelugu, VF, variable);
+    unicode-range: $telugu-range;
+  }
+  // Variable fonts for Thaana
+  @font-face {
+    @include font-face(thaana, Noto Sans Thaana, NotoSansThaana, VF, variable);
+    unicode-range: $thaana-range;
+  }
+  // The variable font for Thai
+  @font-face {
+    @include font-face(thai, Noto Sans Thai, NotoSansThai, VF, variable);
+    unicode-range: $thai-range;
+  }
+  // Variable fonts for Urdu
+  @font-face {
+    @include font-face(urdu, Noto Sans Urdu, NotoSansUrdu, VF, variable);
+    unicode-range: $urdu-range;
+  }
+}

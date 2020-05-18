@@ -1,0 +1,7 @@
+@import "../variables/variables";
+
+// Hebrew script languages
+*:lang(iw) {
+  font-family: $hebrew-sans-vf,$base-sf,sans-serif;
+  direction: rtl;
+}

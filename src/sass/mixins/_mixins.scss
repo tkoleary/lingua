@@ -1,0 +1,17 @@
+
+// @include width-weight(100,100);
+@mixin width-weight ($width: 100, $weight: 100) {
+  font-weight: $weight;
+  font-variation-settings: 'wdth' $width, 'wght' $weight;
+}
+
+// @include font-face(Khmer, Noto Sans Khmer, NotoSansKhmer, VF);
+@mixin font-face ($script: "latin", $family: "Noto Sans", $file: "NotoSans", $type: "VF", $category: "variable") {
+  font-family: "#{$family} #{$type}";
+  src:  url('../fonts/#{$script}/#{$category}/#{$file}-#{$type}.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/#{$script}/#{$category}/#{$file}-#{$type}.woff') format('woff'),
+        url('../fonts/#{$script}/#{$category}/#{$file}-#{$type}.ttf') format('truetype'),
+        url('../fonts/#{$script}/#{$category}/#{$file}-#{$type}.svg##{$file}-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
