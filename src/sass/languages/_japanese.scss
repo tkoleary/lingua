@@ -1,11 +1,12 @@
 @import "../variables/variables";
 
 // Japanese script languages
-*:lang(ko) {
-  font-family: $jp-sans-regular,$base,sans-serif;
+*:lang(jp) {
+  font-family: $base,$jp-sans-regular,$base-sans-vf,sans-serif;
   direction: ltr;
 
-  & .bold {
-    font-family: $jp-sans-bold,$base,sans-serif;
+  strong,
+  .bold {
+    font-family: $base,$jp-sans-bold,$base-sans-vf,sans-serif;
   }
 }

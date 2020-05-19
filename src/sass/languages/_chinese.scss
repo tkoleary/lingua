@@ -1,6 +1,6 @@
 @import "../variables/variables";
 
-// Chinese script languages
+// Simplified and Traditional Chinese script languages
 *:lang(zh),
 *:lang(gan),
 *:lang(hak),
@@ -10,12 +10,18 @@
 *:lang(yue),
 *:lang(za),
 *:lang(lzh) {
-  font-family: $base,$sc-sans-regular,sans-serif !important;
+  font-family: $base,$sc-sans-regular,$base-sans,sans-serif !important;
   /* font-family: $tc-sans-regular,$base,sans-serif; // Uncomment for traditional chinese */
   direction: ltr;
 
   & .bold {
-    font-family: $base,$sc-sans-bold,sans-serif !important;
+    font-family: $base,$sc-sans-bold,$base-sans,sans-serif !important;
     /* font-family: $sc-sans-bold,$base,sans-serif; // Uncomment for traditional chinese */
+  }
+
+  // In chinese the dot is equivalent to italics
+  em {
+    font-style: normal;
+    text-emphasis: dot;
   }
 }

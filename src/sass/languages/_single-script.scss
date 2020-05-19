@@ -2,47 +2,39 @@
 
 // Modifiers for non-latin scripts
 
-// In chinese the dot is equivalent to italics
-em:lang(zh) {
-  font-style: normal;
-  text-emphasis: dot;
-}
 *:lang(ff) {
-  font-family: $adlam-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $adlam-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(hy) {
-  font-family: $armenian-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $armenian-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(bn) {
-  font-family: $bengali-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $bengali-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(gu) {
-  font-family: $gujarati-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $gujarati-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(kn) {
   font-family: $kannada-sans-vf,$base-vf,$base,sans-serif;
 }
 *:lang(km) {
-  font-family: $khmer-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $khmer-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(lo) {
-  font-family: $lao-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $lao-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(ms) {
-  font-family: $malayalam-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $malayalam-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(ta) {
   font-family: $tamil-sans-vf,$base-vf,$base,sans-serif;
 }
 *:lang(te) {
-  font-family: $telugu-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $telugu-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(th) {
-  font-family: $thai-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $thai-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang() {
-  font-family: $thaana-sans-vf,$base-vf,$base,sans-serif;
-}
-*:lang(ur) {
-  font-family: $urdu-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $thaana-sans-vf,$base-sans-vf,$base,sans-serif;
 }

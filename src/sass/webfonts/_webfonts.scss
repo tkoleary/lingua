@@ -31,7 +31,7 @@
 // No variable fonts are is available for the following
 // Gujarati
 @font-face {
-  @include font-face(Noto, Sans, Gujarati, Regular, Regular, normal, normal);
+  @include font-face (Noto, Sans, Gujarati, Regular, Regular, normal, normal);
   unicode-range: $gujarati-range;
 }
 // Simplified Chinese Regular
@@ -102,10 +102,20 @@
     @include font-face(Noto, Sans, Etheopic, VF, Regular, normal, normal);
     unicode-range: $armenian-range;
   }
+  // Variable sans fonts for Cyrillic
+  @font-face {
+    @include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
+    unicode-range: $cyrillic-range;
+  }
   // Variable sans fonts for Devanagari (Hindi)
   @font-face {
-    @include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
+    @include font-face(Noto, Sans, DevanagariUI, VF, Regular, normal, normal);
     unicode-range: $devanagari-range;
+  }
+  // Variable sans fonts for Greek
+  @font-face {
+    @include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
+    unicode-range: $greek-range;
   }
   // Variable sans fonts for Gurmukhi
   @font-face {
@@ -147,11 +157,10 @@
     @include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
     unicode-range: $hebrew-range;
   }
-  // @todo Add Hangul Jamo
-  // Variable sans fonts for Japanese
+  // Variable sans fonts for Hangul Jamo
   @font-face {
-    @include font-face(Noto, Sans, Japanese, VF, Regular, normal, normal);
-    unicode-range: $japanese-range;
+    @include font-face(Noto, Sans, HangulJamo, VF, Regular, normal, normal);
+    unicode-range: $hangul-jamo-range;
   }
   // Variable sans fonts for Kannada
   @font-face {
@@ -165,7 +174,7 @@
   }
   // Variable sans fonts for Malayalam
   @font-face {
-    @include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
+    @include font-face(Noto, Sans, MalayalamUI, VF, Regular, normal, normal);
     unicode-range: $malayalam-range;
   }
   // Variable sans fonts for Oriya
@@ -200,7 +209,7 @@
   }
   // The variable font for Thai
   @font-face {
-    @include font-face(Noto, Sans Thai, VF, Regular, normal, normal);
+    @include font-face(Noto, Sans, ThaiUI, VF, Regular, normal, normal);
     unicode-range: $thai-range;
   }
   // Variable sans fonts for Urdu

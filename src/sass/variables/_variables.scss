@@ -1,18 +1,9 @@
 // Font variables
 
-// Base fonts
-$base:                  'Noto Sans';              // Fallback for when variable fonts are not supported (can be either serif or sans)
-$base-vf:               'Noto Sans Regular VF';   // Loads everywhere, should end in VF
-$base-sans:             'Noto Sans Regular';      // Useful if overall base is a serif
-$base-sans-vf:          'Noto Sans Regular VF';   // Useful if overall base is a serif
-$base-serif:            'Noto Serif';             // Useful if overall base is a sans-serif
-$base-serif-vf:         'Noto Serif Regular VF';  // Useful if overall base is a sans-serif
-$base-mono:             'Noto Mono Regular';      // Useful to explicitly declare your monospace webfont
-$base-mono-vf:          'Noto Sans Mono VF';
-$base-italic-vf:        'Noto Sans Italic VF';    // Variable fonts italics render inconsistently so we explicitly add them separately
-
 // Static by script, sc=simplified chinese, tc=traditional chinese, kr=korean, jp=japanese
 $gujarati-sans-regular: 'Noto Sans Gujarati Regular';
+$latin-sans:            'Noto Sans';
+$latin-sans-mono:       'Noto Sans Mono';
 $sc-sans-regular:       'Noto Sans SC Regular';
 $sc-sans-bold:          'Noto Sans SC Bold';
 $tc-sans-regular:       'Noto Sans TC Regular';
@@ -28,10 +19,10 @@ $arabic-sans-vf:        'Noto Sans Arabic VF';
 $armenian-sans-vf:      'Noto Sans Armenian VF';
 $bamun-sans-vf:         'Noto Sans Bamun VF';
 $bengali-sans-vf:       'Noto Sans Bengali VF';
-$cyrillic-sans-vf:      'Noto Sans Cyrillic VF';
-$devanagari-sans-vf:    'Noto Sans Devanagari VF';
+$cyrillic-sans-vf:      'Noto Sans LGC VF';
+$devanagari-sans-vf:    'Noto Sans DevanagariUI VF';
 $ethiopic-sans-vf:      'Noto Sans Ethiopic VF';
-$greek-sans-vf:         'Noto Sans Greek VF';
+$greek-sans-vf:         'Noto Sans LGC VF';
 $gujarati-sans-vf:      'Noto Sans Gujarati VF';
 $gurmukhi-sans-vf:      'Noto Sans Gurmukhi VF';
 $hangul-Jamo-sans-vf:   'Noto Sans Hangul Jamo VF';
@@ -40,16 +31,17 @@ $japanese-sans-vf:      'Noto Sans Japanese VF';
 $kannada-sans-vf:       'Noto Sans Kannada VF';
 $kayah-sans-vf:         'Noto Sans Kayah VF';
 $khmer-sans-vf:         'Noto Sans Khmer VF';
-$latin-sans-sf:         $base-sans;
-$latin-sans-vf:         $base-sans-vf;
-$latin-serif-sf:        $base-serif;
-$latin-serif-vf:        $base-serif-vf;
-$latin-italic-vf:       $base-italic-vf;
-$latin-mono-sf:         $base-mono;
-$latin-mono-vf:         $base-mono-vf;
+$latin-sans:            'Noto Sans';
+$latin-sans-vf:         'Noto Sans Regular VF';
+$latin-sans-italic-vf:  'Noto Sans Italic VF';
+$latin-mono:            'Noto Sans Mono';
+$latin-mono-vf:         'Noto Sans Mono VF';
+$latin-serif:           'Noto Serif';
+$latin-serif-vf:        'Noto Serif Regular VF';
+$latin-serif-italic-vf: 'Noto Sans Italic VF';
 $lao-sans-vf:           'Noto Sans Lao VF';
 $limbu-vf:              'Noto Sans Limbu VF';
-$malayalam-sans-vf:     'Noto Sans Malayalam VF';
+$malayalam-sans-vf:     'Noto Sans MalayalamUI VF';
 $mongolian-sans-vf:     'Noto Sans Mongolian VF';
 $myanmar-sans-vf:       'Noto Sans Myanmar VF';
 $nko-sans-vf:           'Noto Sans NKo VF';
@@ -59,7 +51,7 @@ $tai-le-sans-vf:        'Noto Sans Tai Le VF';
 $tamil-sans-vf:         'Noto Sans Tamil VF';
 $telugu-sans-vf:        'Noto Sans Telugu VF';
 $thaana-sans-vf:        'Noto Sans Thaana VF';
-$thai-sans-vf:          'Noto Sans Thai VF';
+$thai-sans-vf:          'Noto Sans ThaiUI VF';
 $urdu-sans-vf:          'Noto Sans Urdu VF';
 $chinese-sans-vf:       'Noto Sans Chinese VF';
 $korean-sans-vf:        'Noto Sans Korean VF';
@@ -82,3 +74,15 @@ $xcondensed:    70;
 $condensed:     80;
 $narrow:        90;
 $normal:        100;
+
+// Base fonts
+$base:                  $latin-sans;            // Fallback for when variable fonts are not supported (can be either serif or sans)
+$base-vf:               $latin-sans-vf;         // Loads everywhere, should end in VF
+$base-sans:             $latin-sans;            // Useful if overall base is a serif
+$base-sans-vf:          $latin-sans-vf;         // Useful if overall base is a serif
+$base-sans-italic-vf:   $latin-sans-italic-vf;  // Variable fonts italics render inconsistently so we explicitly add them separately
+$base-serif:            $latin-serif;           // Useful if overall base is a sans-serif
+$base-serif-vf:         $latin-serif-vf;        // Useful if overall base is a sans-serif
+$base-seerif-italic-vf: $latin-sans-italic-vf;  // Variable fonts italics render inconsistently so we explicitly add them separately
+$base-mono:             $latin-mono;            // Useful to explicitly declare your monospace webfont
+$base-mono-vf:          $latin-mono-vf;

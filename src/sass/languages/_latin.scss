@@ -500,21 +500,22 @@
 *:lang(sga),
 *:lang(vo),
 *:lang(xum),*/
-.lf-latin-sans {
-  font-family: $latin-sans-vf,$latin-sans-sf,sans-serif;
+*:lang(en) {
   direction: ltr;
 
-  & em,
-  .lf-latin-italic  {
-    font-style: normal;
-    font-family: $latin-italic-vf,sans-serif;
-    direction: ltr;
+  .lf-latin-sans {
+    font-family: $latin-sans-vf,$latin-sans,sans-serif;
+
+    em,
+    .lf-latin-italic  {
+      font-style: normal;
+      font-family: $latin-sans-italic-vf,$latin-sans,sans-serif;
+    }
   }
 
-  & pre,
-  & code,
+  pre,
+  code,
   .lf-latin-mono {
-    font-family: $latin-mono-vf,$latin-mono-sf,monospace;
-    direction: ltr;
+    font-family: $latin-mono-vf,$latin-sans-mono,monospace;
   }
 }

@@ -2,10 +2,10 @@
 
 // Korean script languages
 *:lang(ko) {
-  font-family: $kr-sans-regular,$base,sans-serif;
+  font-family: $kr-sans-regular,$base-sans,sans-serif;
   direction: ltr;
 
   & .bold {
-    font-family: $kr-sans-bold,$base,sans-serif;
+    font-family: $kr-sans-bold,$base-sans,sans-serif;
   }
 }
