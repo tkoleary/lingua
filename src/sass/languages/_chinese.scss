@@ -9,7 +9,13 @@
 *:lang(wuu),
 *:lang(yue),
 *:lang(za),
-*:lang(lzh), {
-  font-family: $chinese-s-sans-sf,$base-sf,sans-serif;
+*:lang(lzh) {
+  font-family: $base,$sc-sans-regular,sans-serif !important;
+  /* font-family: $tc-sans-regular,$base,sans-serif; // Uncomment for traditional chinese */
   direction: ltr;
+
+  & .bold {
+    font-family: $base,$sc-sans-bold,sans-serif !important;
+    /* font-family: $sc-sans-bold,$base,sans-serif; // Uncomment for traditional chinese */
+  }
 }

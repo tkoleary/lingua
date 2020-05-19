@@ -65,6 +65,6 @@
 *:lang(xsr),
 *:lang(pi),
 *:lang(sa) {
-  font-family: $devanagari-sans-vf,$base-sf,sans-serif;
+  font-family: $base,$devanagari-sans-vf,sans-serif !important;
   direction: ltr;
 }

@@ -1,16 +1,40 @@
-'use strict';
+const { series, parallel }  = require('gulp');
+const { src, dest }         = require('gulp');
+const sass                  = require('gulp-sass');
+const flatten               = require('gulp-flatten');
+const clean                 = require('gulp-clean');
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+// First clean out the folder for a new build
+function wipe(cb) {
+  return src('./dist', {read: false})
+    .pipe(clean())
+  cb();
+}
 
-sass.compiler = require('node-sass');
+// Then in parallel...
 
-gulp.task('sass', function () {
-  return gulp.src('./src/sass/**/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./dist/css'));
-});
+// Compile the scss files to css
+function css(cb) {
+  return src('./src/sass/**/*.scss')
+    .pipe(sass())
+    .pipe(dest('./dist/css'));
+  cb();
+}
 
-gulp.task('sass:watch', function () {
-  gulp.watch('./src/sass/**/*.scss', ['sass']);
-});
+// Move the fonts from their subfolders to one big folder
+function fonts(cb) {
+  return src('./src/fonts/**/**.*')
+    .pipe(flatten())
+    .pipe(dest('./dist/css/fonts/'));
+  cb();
+}
+
+// Copy over HTML demo files
+function html(cb) {
+  return src('./src/**.*')
+    .pipe(dest('./dist/'));
+  cb();
+}
+
+// Run 'gulp build' for all of the above
+exports.build = series(wipe, parallel(fonts, css, html));

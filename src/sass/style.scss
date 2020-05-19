@@ -2,13 +2,17 @@
 @import "webfonts/webfonts";
 
 @import "languages/all"; // Set the base font for all languages
+
 // Import rules to choose the correct script based on :lang
 @import "languages/single-script";
 @import "languages/arabic";
 @import "languages/cyrillic";
+@import "languages/chinese";
 @import "languages/devanagari";
 @import "languages/ethiopic";
 @import "languages/hebrew";
+@import "languages/japanese";
+@import "languages/korean";
 @import "languages/latin";
 
 // Import the classess for weights and widthss
