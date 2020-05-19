@@ -74,15 +74,3 @@ $xcondensed:    70;
 $condensed:     80;
 $narrow:        90;
 $normal:        100;
-
-// Base fonts
-$base:                  $latin-sans;            // Fallback for when variable fonts are not supported (can be either serif or sans)
-$base-vf:               $latin-sans-vf;         // Loads everywhere, should end in VF
-$base-sans:             $latin-sans;            // Useful if overall base is a serif
-$base-sans-vf:          $latin-sans-vf;         // Useful if overall base is a serif
-$base-sans-italic-vf:   $latin-sans-italic-vf;  // Variable fonts italics render inconsistently so we explicitly add them separately
-$base-serif:            $latin-serif;           // Useful if overall base is a sans-serif
-$base-serif-vf:         $latin-serif-vf;        // Useful if overall base is a sans-serif
-$base-seerif-italic-vf: $latin-sans-italic-vf;  // Variable fonts italics render inconsistently so we explicitly add them separately
-$base-mono:             $latin-mono;            // Useful to explicitly declare your monospace webfont
-$base-mono-vf:          $latin-mono-vf;
