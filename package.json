@@ -6,6 +6,7 @@
     "gulp-font": "^1.0.4",
     "gulp-sass": "^4.1.0",
     "normalize-scss": "^7.0.1",
+    "sass": "^1.26.5",
     "sass-migrator": "^1.2.2"
   }
 }
