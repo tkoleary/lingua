@@ -8,6 +8,8 @@ Leveraging the open-source Noto font families, variable web-fonts and modern fro
 
 Google has developed a set of font families with the ambitious goal of covering every language and script in Unicode. That alone is a compelling reason to use them, but there's more. Because all of the noto fonts are built to work together, you don't have to reconcile differences in character size, cap height, weight, or other stylistic variations that plague i18n projects.
 
+Google intends to releas the master for all of the Noto fonts and when they do it should be possible for any type foundary to use that master as a starting point to extend their own fonts to cover the scripts Noto covers. One of the goals of this project is to make it easy for developers to swap out individual fonts, or the entire Noto set, once more fully internationalizes fonts are available.
+
 - **Accessibility.** The Noto fonts have been tested for accessibility and perform extremely well.
 
 - **Performance.** We usee variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. Here are some [stats](https://css-tricks) on variable font load times.
@@ -16,9 +18,11 @@ We also the `unicode-range` property in our `@font-face` rules so language-speci
 
 - **Design.** Every font and script provided by Lingua is available as both serif and sans. Most are available in 9 weights from thin to black, and the variable fonts can be set at 800 weights and 40 widths. Each of these has automatically generated fallbacks and a range of variables, mixins, and default helper classes to style anything you want.
 
-- **Once for all.** When Lingua is added to your project any font anywhere automatically use the correct script for the language specified by the document or element inheriting whatever style attributes (width, weight, style etc.) applied by your css.
+- **Once for all.** By default Lingua will attempt to automatically provide the right script for each language. We do this by using the `:lang` pseudoclass to load the font for the *most specific* script specified by at the document or element level. CSS attributes, including variable font attributes, can be declared once for all scripts, or customized per script.
 
-- **Variable font coverage.** Lingua uses the variable fonts currently available in the Noto set which include the following scripts: Latin, Greek, Cyrillic, Armenian, Georgian, Hebrew, Arabic, Khmer, Tegulu, Malayalam, Hindi, Urdu.
+For languages that can be rendered in multiple scripts, the default will be the original script for that language, with an option to change the script by uncommenting lines in the multi-script files. For the four largest groups of languages that share scripts, Latin, Arabic, Cyrillic, and Devanagari, the default order of precedence for those scripts is D,A,C,L.
+
+- **Variable fonts.** Lingua uses the variable fonts currently available in the Noto set (see the languages file for a full list). the only scripts currently *not* available as variable fonts are the CJK fonts and Gujarati. Those are provided in regular and bold weights, but others can easily be added.
 
 ### But what if I don't like the Noto fonts?
 
