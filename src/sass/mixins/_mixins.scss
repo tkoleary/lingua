@@ -1,17 +1,1 @@
 
-// @include width-weight(100,100);
-@mixin width-weight ($width: 100, $weight: 100) {
-  font-weight: $weight;
-  font-variation-settings: 'wdth' $width, 'wght' $weight;
-}
-
-// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
-  font-family: "#{$family} #{$type} #{$script} #{$weight}";
-  src:  url('fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-        url('fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-        url('fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
-        url('fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
-  font-weight: $fontWeight;
-  font-style: $fontStyle;
-}

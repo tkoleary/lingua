@@ -1,0 +1,27 @@
+// Languages that could be written in either latin or cyrillic scripts
+
+*:lang(ro).
+*:lang(sr).
+*:lang(gag).
+*:lang(bs).
+*:lang(rom).
+*:lang(se).
+*:lang(tkr).
+*:lang(udm).
+*:lang(ro).
+*:lang(sr).
+*:lang(gag).
+*:lang(bs).
+*:lang(rom).
+*:lang(tkr).
+*:lang(udm) {
+  // Un-comment the block appropriate to your audience
+  
+  // Latin
+  // font-family: $-sans-vf,$latin-sans,sans-serif;
+  // direction: ltr;
+
+  // Cyrillic
+  // font-family: $cyrillic-sans-vf,$cyrillic-sans,sans-serif;
+  // direction: ltr;
+}

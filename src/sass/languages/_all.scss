@@ -1,11 +1,8 @@
-@import "../variables/variables";
-@import "../variables/basefonts";
-
 // Add the base font everywhere
 html {
   font-family: $base-vf,$base,sans-serif;
   font-display: swap; // Comment out if you don't want FOUT
 }
 .lf-sans {
-  font-family: $base-vf,$base-vf,sans-serif;
+  font-family: $base-sans-vf,$base-sans,sans-serif;
 }

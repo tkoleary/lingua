@@ -1,0 +1,48 @@
+// Languages that could be written in either latin or cyrillic or arabic scripts
+
+*:lang(az),
+*:lang(ky),
+*:lang(uz),
+*:lang(tly),
+*:lang(ttt),
+*:lang(ug),
+*:lang(az),
+*:lang(ky),
+*:lang(uz),
+*:lang(tly),
+*:lang(ttt),
+*:lang(ug),
+*:lang(tg),
+*:lang(tk),
+*:lang(inh),
+*:lang(ku),
+*:lang(tg),
+*:lang(tk),
+*:lang(inh),
+*:lang(ku),
+*:lang(az),
+*:lang(ky),
+*:lang(uz),
+*:lang(tly),
+*:lang(ttt),
+*:lang(ug),
+*:lang(tg),
+*:lang(tk),
+*:lang(inh),
+*:lang(ku),
+*:lang(aii),
+*:lang(kk) {
+  // Un-comment the block appropriate to your audience
+
+  // Latin
+  // font-family: $latin-sans-vf,$latin-sans,sans-serif;
+  // direction: ltr;
+
+  // Cyrillic
+  // font-family: $cyrillic-sans-vf,$cyrillic-sans,sans-serif;
+  // direction: ltr;
+
+  // Arabic
+  // font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
+  // direction: rtl;
+}

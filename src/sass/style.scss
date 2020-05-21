@@ -1,9 +1,13 @@
+
+// Import the variables
+@import "variables/variables";
+@import "variables/basefonts";
+
 // Import the webfonts
 @import "webfonts/webfonts";
 
-@import "languages/all"; // Set the base font for all languages
-
-// Un-comment the languages you
+// Set the base font for all languages
+@import "languages/all";
 @import "languages/single-script";
 @import "languages/arabic";
 @import "languages/cyrillic";

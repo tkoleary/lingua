@@ -1,0 +1,24 @@
+// Languages that could be written in either latin or arabic or devanagari scripts
+
+*:lang(hi),
+*:lang(hif),
+*:lang(hi),
+*:lang(hif),
+*:lang(ks),
+*:lang(sd),
+*:lang(ks),
+*:lang(sd) {
+  // Un-comment the block appropriate to your audience
+
+  // Latin
+  // font-family: $latin-sans-vf,$latin-sans,sans-serif;
+  // direction: ltr;
+
+  // Arabic
+  // font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
+  // direction: rtl;
+
+  // Devanagari
+  // font-family: $devanagari-sans-vf,$devanagari-sans,sans-serif;
+  // direction: ltr;
+}

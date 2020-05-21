@@ -16,7 +16,7 @@ function wipe(cb) {
 // Compile the scss files to css
 function css(cb) {
   return src('./src/sass/**/*.scss')
-    .pipe(sass())
+    .pipe(sass({errLogToConsole: true}))
     .pipe(dest('./dist/css'));
   cb();
 }

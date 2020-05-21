@@ -1,5 +1,28 @@
-@import "../mixins/mixins";
-@import "../variables/variables";
+
+// Customize these weight variables using integers between 100 and 900
+$ulight:        100;
+$xight:         200;
+$light:         300;
+$regular:       400;
+$medium:        500;
+$sbold:         600;
+$bold:          700;
+$xbold:         800;
+$ubold:         900;
+
+// Customize these width variables using integers between 60 and 100
+// Note: do not confuse these with font-stretch properties
+$ucondensed:    60;
+$xcondensed:    70;
+$condensed:     80;
+$narrow:        90;
+$normal:        100;
+
+// @include width-weight(100,100);
+@mixin width-weight ($width: 100, $weight: 100) {
+  font-weight: $weight;
+  font-variation-settings: 'wdth' $width, 'wght' $weight;
+}
 
 // Helper classes for default weights
 // Ultralight, AKA Thin
@@ -39,10 +62,9 @@
   @include width-weight($normal,$ubold);
 }
 
-/* Build your own from the available variables
- * Widths:  $uconddensed, $xcondenssed, $condensed, $narrow, $normal,
- * Weights: $ulight, $xlight, $light, $regular, $medium, $sbold, $bold, $xbold, $ubold
- */
+// Build your own from the available variables
+// Widths:  $uconddensed, $xcondenssed, $condensed, $narrow, $normal,
+// Weights: $ulight, $xlight, $light, $regular, $medium, $sbold, $bold, $xbold, $ubold
 
 // for example...
 .lf-ucondensed-light {
