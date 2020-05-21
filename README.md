@@ -34,6 +34,8 @@ If Noto doesn't work for your brand or design, use Lingua can fill in the gaps. 
 
 2. **With Sass** Clone the Lingua repo into your project and either `@import` Lingua's style.scss into your scss build flow or compile it separately and link the styles as in #1 above.
 
-3. **With NPM** Get the NPM module `npm i lingua-sass`, or yarn add lingua-sass. Then you can import the module into your build.
+<!--3. **With NPM** Get the NPM module `npm i lingua-sass`, or yarn add lingua-sass. Then you can import the module into your build.-->
 
 ### Languages and scripts covered by Lingua
+
+Stub

@@ -1,8 +1,11 @@
-const { series, parallel }  = require('gulp');
-const { src, dest }         = require('gulp');
-const sass                  = require('gulp-sass');
-const flatten               = require('gulp-flatten');
-const clean                 = require('gulp-clean');
+const { series }      = require('gulp');
+const { src, dest }   = require('gulp');
+const sass            = require('gulp-sass');
+const flatten         = require('gulp-flatten');
+const clean           = require('gulp-clean');
+const minify          = require('gulp-minify');
+
+sass.compiler         = require('dart-sass');
 
 // First clean out the folder for a new build
 function wipe(cb) {
@@ -18,6 +21,14 @@ function css(cb) {
   return src('./src/sass/**/*.scss')
     .pipe(sass({errLogToConsole: true}))
     .pipe(dest('./dist/css'));
+  cb();
+}
+
+// Complie minified
+function min(cb) {
+  return src('./src/sass/**/*.scss')
+    .pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(dest('dist/css/minified'));
   cb();
 }
 
@@ -37,4 +48,4 @@ function html(cb) {
 }
 
 // Run 'gulp build' for all of the above
-exports.build = series(wipe, parallel(fonts, css, html));
+exports.build = series(wipe, fonts, css, html, min);

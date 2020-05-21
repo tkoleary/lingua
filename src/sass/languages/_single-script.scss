@@ -10,7 +10,11 @@
   font-family: $bengali-sans-vf,$base-sans-vf,$base,sans-serif;
 }
 *:lang(gu) {
-  font-family: $gujarati-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$gujarati-sans,$base-sans-vf,sans-serif;
+
+  strong {
+    font-family: $base,$gujarati-sans-bold,$base-sans-vf,sans-serif;
+  }
 }
 *:lang(kn) {
   font-family: $kannada-sans-vf,$base-vf,$base,sans-serif;
