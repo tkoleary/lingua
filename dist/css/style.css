@@ -230,9 +230,9 @@
     unicode-range: U+1100-11FF, U+A960-A97F;
   }
   @font-face {
-    font-family: "Noto Sans Kannada VF";
-    src: url("fonts/NotoSansKannada-VF.eot");
-    src: url("fonts/NotoSansKannada-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansKannada-VF.woff") format("woff"), url("fonts/NotoSansKannada-VF.ttf") format("truetype"), url("fonts/NotoSansKannada-VF.svg#NotoSansKannada-Regular") format("svg");
+    font-family: "Noto Sans KannadaUI VF";
+    src: url("fonts/NotoSansKannadaUI-VF.eot");
+    src: url("fonts/NotoSansKannadaUI-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansKannadaUI-VF.woff") format("woff"), url("fonts/NotoSansKannadaUI-VF.ttf") format("truetype"), url("fonts/NotoSansKannadaUI-VF.svg#NotoSansKannadaUI-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0C80-0CFF;
@@ -347,7 +347,7 @@ html {
 }
 
 *:lang(kn) {
-  font-family: "Noto Sans", "Noto Sans Kannada VF", "Noto Sans Regular VF", sans-serif;
+  font-family: "Noto Sans", "Noto Sans KannadaUI VF", "Noto Sans Regular VF", sans-serif;
 }
 
 *:lang(km) {
