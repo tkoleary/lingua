@@ -4,6 +4,7 @@
 $adlam-range:       U+1E900-1E95F;
 $arabic-range:      U+0600-06FF;
 $armenian-range:    U+0530-058F;
+$bamum-range:       U+????;
 $bengali-range:     U+00-FF, U+980-9FF;
 $cyrillic-range:    U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 $devanagari-range:  U+0900-097F;
@@ -139,6 +140,11 @@ $korean-range:      U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2
   @font-face {
     @include font-face(Noto, Sans, Armenian, VF, Regular, normal, normal);
     unicode-range: $armenian-range;
+  }
+  // Variable sans fonts for Bamum
+  @font-face {
+    @include font-face(Noto, Sans, Bamum, VF, Regular, normal, normal);
+    unicode-range: $bamum-range;
   }
   // Variable sans fonts for Bengali
   @font-face {

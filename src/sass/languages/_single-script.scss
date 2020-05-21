@@ -2,10 +2,14 @@
 
 *:lang(ff) {
   font-family: $base,$adlam-sans-vf,$base-sans-vf,sans-serif;
-  direction: ltr;
+  direction: rtl;
 }
 *:lang(hy) {
   font-family: $base,$armenian-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
+}
+*:lang(bax) {
+  font-family: $base,$bamum-sans-vf,$base-sans-vf,sans-serif;
   direction: ltr;
 }
 *:lang(bn) {

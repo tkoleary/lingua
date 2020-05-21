@@ -118,6 +118,14 @@
     unicode-range: U+0530-058F;
   }
   @font-face {
+    font-family: "Noto Sans Bamum VF";
+    src: url("fonts/NotoSansBamum-VF.eot");
+    src: url("fonts/NotoSansBamum-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBamum-VF.woff") format("woff"), url("fonts/NotoSansBamum-VF.ttf") format("truetype"), url("fonts/NotoSansBamum-VF.svg#NotoSansBamum-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+????;
+  }
+  @font-face {
     font-family: "Noto Sans BengaliUI VF";
     src: url("fonts/NotoSansBengaliUI-VF.eot");
     src: url("fonts/NotoSansBengaliUI-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBengaliUI-VF.woff") format("woff"), url("fonts/NotoSansBengaliUI-VF.ttf") format("truetype"), url("fonts/NotoSansBengaliUI-VF.svg#NotoSansBengaliUI-Regular") format("svg");
@@ -320,12 +328,17 @@ html {
 }
 
 *:lang(ff) {
-  font-family: "Noto Sans", "Noto Sans Adalam VF", "Noto Sans Regular VF", sans-serif;
-  direction: ltr;
+  font-family: "Noto Sans", "Noto Sans Adlam VF", "Noto Sans Regular VF", sans-serif;
+  direction: rtl;
 }
 
 *:lang(hy) {
   font-family: "Noto Sans", "Noto Sans Armenian VF", "Noto Sans Regular VF", sans-serif;
+  direction: ltr;
+}
+
+*:lang(bax) {
+  font-family: "Noto Sans", "Noto Sans Bamum VF", "Noto Sans Regular VF", sans-serif;
   direction: ltr;
 }
 
