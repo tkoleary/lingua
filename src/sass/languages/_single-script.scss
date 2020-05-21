@@ -1,13 +1,13 @@
 // Modifiers for non-latin scripts
 
 *:lang(ff) {
-  font-family: $adlam-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$adlam-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(hy) {
-  font-family: $armenian-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$armenian-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(bn) {
-  font-family: $bengali-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$bengali-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(gu) {
   font-family: $base,$gujarati-sans,$base-sans-vf,sans-serif;
@@ -17,26 +17,26 @@
   }
 }
 *:lang(kn) {
-  font-family: $kannada-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $base,$kannada-sans-vf,$base-vf,sans-serif;
 }
 *:lang(km) {
-  font-family: $khmer-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$khmer-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(lo) {
-  font-family: $lao-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$lao-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(ms) {
-  font-family: $malayalam-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$malayalam-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(ta) {
-  font-family: $tamil-sans-vf,$base-vf,$base,sans-serif;
+  font-family: $base,$tamil-sans-vf,$base-vf,sans-serif;
 }
 *:lang(te) {
-  font-family: $telugu-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$telugu-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang(th) {
-  font-family: $thai-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$thai-sans-vf,$base-sans-vf,sans-serif;
 }
 *:lang() {
-  font-family: $thaana-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-family: $base,$thaana-sans-vf,$base-sans-vf,sans-serif;
 }
