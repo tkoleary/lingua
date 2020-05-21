@@ -1,8 +1,5 @@
 // Devanagari script languages
-*:lang(hi),
-*:lang(lang),
-*:lang(hi),
-*:lang(hif),
+
 *:lang(ne),
 *:lang(anp),
 *:lang(awa),
@@ -19,7 +16,6 @@
 *:lang(dty),
 *:lang(gbm),
 *:lang(gom),
-*:lang(gon),
 *:lang(gvr),
 *:lang(hne),
 *:lang(hoc),
@@ -30,8 +26,6 @@
 *:lang(khn),
 *:lang(kok),
 *:lang(kru),
-*:lang(ks),
-*:lang(lif),
 *:lang(mag),
 *:lang(mai),
 *:lang(mgp),
@@ -43,26 +37,18 @@
 *:lang(noe),
 *:lang(raj),
 *:lang(rjs),
-*:lang(sat),
 *:lang(sck),
-*:lang(sd),
 *:lang(srx),
 *:lang(swv),
-*:lang(taj),
-*:lang(tdg),
 *:lang(tdh),
 *:lang(thl),
 *:lang(thq),
 *:lang(thr),
 *:lang(tkt),
-*:lang(unr),
-*:lang(unx),
 *:lang(wbr),
 *:lang(wtm),
 *:lang(xnr),
-*:lang(xsr),
-*:lang(pi),
-*:lang(sa) {
+*:lang(xsr) {
   font-family: $base,$devanagari-sans-vf,$base-sans-vf,$base-sans,sans-serif !important;
   direction: ltr;
 }
