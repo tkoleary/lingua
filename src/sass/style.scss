@@ -1,6 +1,7 @@
 
 // Import the variables
-@import "variables/variables";
+@import "variables/serif-vf";
+@import "variables/sans-vf";
 @import "variables/basefonts";
 
 // Import the webfonts
@@ -11,10 +12,10 @@
 @import "languages/single-script";
 @import "languages/arabic";
 @import "languages/cyrillic";
-@import "languages/greek";
 @import "languages/chinese";
 @import "languages/devanagari";
 @import "languages/ethiopic";
+@import "languages/greek";
 @import "languages/hebrew";
 @import "languages/japanese";
 @import "languages/korean";

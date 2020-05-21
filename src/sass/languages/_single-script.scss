@@ -1,42 +1,55 @@
-// Modifiers for non-latin scripts
+// Non-latin scripts
 
 *:lang(ff) {
   font-family: $base,$adlam-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(hy) {
   font-family: $base,$armenian-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(bn) {
   font-family: $base,$bengali-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(gu) {
   font-family: $base,$gujarati-sans,$base-sans-vf,sans-serif;
+  direction: ltr;
 
   strong {
     font-family: $base,$gujarati-sans-bold,$base-sans-vf,sans-serif;
+    direction: ltr;
   }
 }
 *:lang(kn) {
   font-family: $base,$kannada-sans-vf,$base-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(km) {
   font-family: $base,$khmer-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(lo) {
   font-family: $base,$lao-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(ms) {
   font-family: $base,$malayalam-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(ta) {
   font-family: $base,$tamil-sans-vf,$base-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(te) {
   font-family: $base,$telugu-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
 *:lang(th) {
   font-family: $base,$thai-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
 }
-*:lang() {
+*:lang(dv) {
   font-family: $base,$thaana-sans-vf,$base-sans-vf,sans-serif;
+  direction: rtl;
 }
