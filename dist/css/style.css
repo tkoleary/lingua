@@ -251,7 +251,7 @@
     src: url("fonts/NotoSansMongolian-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansMongolian-VF.woff") format("woff"), url("fonts/NotoSansMongolian-VF.ttf") format("truetype"), url("fonts/NotoSansMongolian-VF.svg#NotoSansMongolian-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
-    unicode-range: U+0B80-0BFF;
+    unicode-range: U+1800-18AF, U+11660-1167F;
   }
   @font-face {
     font-family: "Noto Sans NKo VF";
@@ -267,7 +267,7 @@
     src: url("fonts/NotoSansOriya-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansOriya-VF.woff") format("woff"), url("fonts/NotoSansOriya-VF.ttf") format("truetype"), url("fonts/NotoSansOriya-VF.svg#NotoSansOriya-Regular") format("svg");
     font-weight: normal;
     font-style: normal;
-    unicode-range: U+0B80-0BFF;
+    unicode-range: U+0B00-0B7F;
   }
   @font-face {
     font-family: "Noto Sans Sinhala VF";
