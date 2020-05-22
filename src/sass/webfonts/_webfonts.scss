@@ -216,6 +216,11 @@ $korean-range:      U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2
     @include font-face(Noto, Sans, Limbu, VF, Regular, normal, normal);
     unicode-range: $tamil-range;
   }
+  // Variable sans fonts for Lao
+  @font-face {
+    @include font-face(Noto, Sans, LaoUI, VF, Regular, normal, normal);
+    unicode-range: $lao-range;
+  }
   // Variable sans fonts for Malayalam
   @font-face {
     @include font-face(Noto, Sans, MalayalamUI, VF, Regular, normal, normal);

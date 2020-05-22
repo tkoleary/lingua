@@ -238,6 +238,14 @@
     unicode-range: U+0B80-0BFF;
   }
   @font-face {
+    font-family: "Noto Sans LaoUI VF";
+    src: url("fonts/NotoSansLaoUI-VF.eot");
+    src: url("fonts/NotoSansLaoUI-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansLaoUI-VF.woff") format("woff"), url("fonts/NotoSansLaoUI-VF.ttf") format("truetype"), url("fonts/NotoSansLaoUI-VF.svg#NotoSansLaoUI-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0E80-0EFF;
+  }
+  @font-face {
     font-family: "Noto Sans MalayalamUI VF";
     src: url("fonts/NotoSansMalayalamUI-VF.eot");
     src: url("fonts/NotoSansMalayalamUI-VF.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansMalayalamUI-VF.woff") format("woff"), url("fonts/NotoSansMalayalamUI-VF.ttf") format("truetype"), url("fonts/NotoSansMalayalamUI-VF.svg#NotoSansMalayalamUI-Regular") format("svg");
