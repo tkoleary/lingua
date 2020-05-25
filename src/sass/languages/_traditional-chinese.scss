@@ -1,0 +1,12 @@
+// Traditional Chinese script languages
+
+*:lang(yue)
+ {
+  font-family: $base-sans,$tc-sans-regular,$base-sans-vf,sans-serif;
+  direction: ltr;
+
+  strong {
+    font-weight: bold;
+    font-family: $base-sans,$tc-sans-bold,$base-sans-vf,sans-serif;
+  }
+}

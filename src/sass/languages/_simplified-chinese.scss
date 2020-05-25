@@ -1,10 +1,17 @@
 // Simplified Chinese script languages
 
+*:lang(zh),
+*:lang(za),
 *:lang(gan),
 *:lang(hak),
 *:lang(hsn),
 *:lang(nan),
 *:lang(wuu) {
-  font-family: $sc-sans-vf,$base-sans-vf,$base-sans,sans-serif;
+  font-family: $base-sans,$sc-sans-regular,$base-sans-vf,sans-serif;
   direction: ltr;
+
+  strong {
+    font-weight: bold;
+    font-family: $base-sans,$sc-sans-bold,$base-sans-vf,sans-serif;
+  }
 }
