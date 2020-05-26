@@ -1,20 +1,19 @@
-const { series }      = require('gulp');
-const { src, dest }   = require('gulp');
-const sass            = require('gulp-sass');
-const flatten         = require('gulp-flatten');
-const clean           = require('gulp-clean');
-const minify          = require('gulp-minify');
+const { watch, series } = require('gulp');
+const { src, dest }     = require('gulp');
+const sass              = require('gulp-sass');
+const flatten           = require('gulp-flatten');
+const clean             = require('gulp-clean');
+const minify            = require('gulp-minify');
+const browserSync       = require('browser-sync').create();
 
-sass.compiler         = require('dart-sass');
+sass.compiler = require('dart-sass');
 
-// First clean out the folder for a new build
+// Clean out the folder for a new build
 function wipe(cb) {
   return src('./dist', {read: false})
     .pipe(clean())
   cb();
 }
-
-// Then in parallel...
 
 // Compile the scss files to css
 function css(cb) {
@@ -47,5 +46,26 @@ function html(cb) {
   cb();
 }
 
+// Serve locally
+function serve(cb) {
+  browserSync.init({
+    server: {
+      baseDir: "./dist"
+    }
+  });
+  cb();
+}
+
+// Reload on change
+function refresh(cb) {
+  browserSync.reload()
+  cb();
+}
+
 // Run 'gulp build' for all of the above
-exports.build = series(wipe, fonts, css, html, min);
+exports.build = series(wipe, fonts, css, html, min, serve);
+
+// Run 'gulp build' for all of the above
+exports.stream = function() {
+  watch('./src/sass/**/*.scss',series(wipe, fonts, css, html, min, refresh));
+};
