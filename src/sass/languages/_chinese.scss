@@ -1,23 +1,57 @@
 // Simplified and Traditional Chinese script languages
+
+// Where no script is specified default to Simplified, except for yue (Cantonese)
 *:lang(zh),
 *:lang(gan),
 *:lang(hak),
 *:lang(hsn),
 *:lang(nan),
 *:lang(wuu),
-*:lang(yue),
 *:lang(za),
-*:lang(lzh) {
-  font-family: $base,$sc-sans-regular,$base-sans-vf,sans-serif !important;
-  /* font-family: $tc-sans-regular,$base,sans-serif; // Uncomment for traditional chinese */
+*:lang(lzh),
+*:lang(zh-Hans),
+*:lang(gan-Hans),
+*:lang(hak-Hans),
+*:lang(hsn-Hans),
+*:lang(nan-Hans),
+*:lang(wuu-Hans),
+*:lang(yue-Hans),
+*:lang(za-Hans),
+*:lang(lzh-Hans){
+  font-family: $base,$sc-sans-regular,$base-sans-vf,sans-serif;
+  direction: ltr;
+
+  strong {
+    font-weight: bold;
+    font-family: $base,$sc-sans-bold,$base-sans-vf,sans-serif;
+  }
+
+  // In chinese the dot is used for emphasis
+  em {
+    font-style: normal;
+    text-emphasis: dot;
+  }
+}
+
+// For yue and where traditional script is explicit
+*:lang(yue),
+*:lang(zh-Hant),
+*:lang(gan-Hant),
+*:lang(hak-Hant),
+*:lang(hsn-Hant),
+*:lang(nan-Hant),
+*:lang(wuu-Hant),
+*:lang(yue-Hant),
+*:lang(za-Hant),
+*:lang(lzh-Hant) {
+  font-family: $base,$tc-sans-regular,$base-sans-vf,sans-serif;
   direction: ltr;
 
   & .bold {
-    font-family: $base,$sc-sans-bold,$base-sans-vf,sans-serif !important;
-    /* font-family: $sc-sans-bold,$base,sans-serif; // Uncomment for traditional chinese */
+    font-family: $base,$tc-sans-bold,$base-sans-vf,sans-serif;
   }
 
-  // In chinese the dot is equivalent to italics
+  // In chinese the dot is used for emphasis
   em {
     font-style: normal;
     text-emphasis: dot;

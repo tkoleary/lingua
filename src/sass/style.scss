@@ -9,18 +9,20 @@
 
 // Set the base font for all languages
 @import "languages/all";
+@import "languages/latin";
 @import "languages/single-script";
 @import "languages/arabic";
 @import "languages/cyrillic";
-@import "languages/simplified-chinese";
-@import "languages/traditional-chinese";
+@import "languages/chinese";
 @import "languages/devanagari";
 @import "languages/ethiopic";
 @import "languages/greek";
 @import "languages/hebrew";
 @import "languages/japanese";
 @import "languages/korean";
-@import "languages/latin";
+@import "languages/latin-cyrillic";
+@import "languages/latin-cyrillic-arabic";
+@import "languages/latin-arabic-devanagari";
 
 // Import the classess for weights and widths
 @import "webfonts/weights";

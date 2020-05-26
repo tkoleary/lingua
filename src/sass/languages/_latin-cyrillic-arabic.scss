@@ -1,48 +1,64 @@
 // Languages that could be written in either latin or cyrillic or arabic scripts
 
-*:lang(az),
-*:lang(ky),
-*:lang(uz),
-*:lang(tly),
-*:lang(ttt),
-*:lang(ug),
-*:lang(az),
-*:lang(ky),
-*:lang(uz),
-*:lang(tly),
-*:lang(ttt),
-*:lang(ug),
-*:lang(tg),
-*:lang(tk),
-*:lang(inh),
-*:lang(ku),
-*:lang(tg),
-*:lang(tk),
-*:lang(inh),
-*:lang(ku),
-*:lang(az),
-*:lang(ky),
-*:lang(uz),
-*:lang(tly),
-*:lang(ttt),
-*:lang(ug),
-*:lang(tg),
-*:lang(tk),
-*:lang(inh),
-*:lang(ku),
+// Default to arabic, or arabic is explicit
 *:lang(aii),
-*:lang(kk) {
-  // Un-comment the block appropriate to your audience
+*:lang(az),
+*:lang(inh),
+*:lang(ky),
+*:lang(kk),
+*:lang(ku),
+*:lang(tg),
+*:lang(tk),
+*:lang(tly),
+*:lang(ttt),
+*:lang(ug),
+*:lang(uz),
+*:lang(aii-Arab),
+*:lang(az-Arab),
+*:lang(inh-Arab),
+*:lang(ky-Arab),
+*:lang(kk-Arab),
+*:lang(ku-Arab),
+*:lang(tg-Arab),
+*:lang(tk-Arab),
+*:lang(tly-Arab),
+*:lang(ttt-Arab),
+*:lang(ug-Arab),
+*:lang(uz-Arab) {
+  font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
+  direction: rtl;
+}
 
-  // Latin
-  // font-family: $latin-sans-vf,$latin-sans,sans-serif;
-  // direction: ltr;
+// Latin is explicit
+*:lang(aii-Latn),
+*:lang(az-Latn),
+*:lang(inh-Latn),
+*:lang(ky-Latn),
+*:lang(kk-Latn),
+*:lang(ku-Latn),
+*:lang(tg-Latn),
+*:lang(tk-Latn),
+*:lang(tly-Latn),
+*:lang(ttt-Latn),
+*:lang(ug-Latn),
+*:lang(uz-Latn) {
+  font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
+  direction: ltr;
+}
 
-  // Cyrillic
-  // font-family: $cyrillic-sans-vf,$cyrillic-sans,sans-serif;
-  // direction: ltr;
-
-  // Arabic
-  // font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
-  // direction: rtl;
+// Cyrillic is explicit
+*:lang(aii-Cyrl),
+*:lang(az-Cyrl),
+*:lang(inh-Cyrl),
+*:lang(ky-Cyrl),
+*:lang(kk-Cyrl),
+*:lang(ku-Cyrl),
+*:lang(tg-Cyrl),
+*:lang(tk-Cyrl),
+*:lang(tly-Cyrl),
+*:lang(ttt-Cyrl),
+*:lang(ug-Cyrl),
+*:lang(uz-Cyrl) {
+  font-family: $cyrillic-sans-vf,$base-sans-vf,$base,sans-serif;
+  direction: ltr;
 }
