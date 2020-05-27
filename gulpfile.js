@@ -67,5 +67,5 @@ exports.build = series(wipe, fonts, css, html, min, serve);
 
 // Run 'gulp build' for all of the above
 exports.stream = function() {
-  watch('./src/sass/**/*.scss',series(wipe, fonts, css, html, min, refresh));
+  watch('./src/sass/**/*.scss',series(wipe, fonts, css, html, min, serve));
 };
