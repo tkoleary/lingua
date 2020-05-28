@@ -25,6 +25,10 @@
     direction: ltr;
   }
 }
+*:lang(gi) {
+  font-family: $base,$gurmukhi-sans-vf,$base-sans-vf,sans-serif;
+  direction: ltr;
+}
 *:lang(kn) {
   font-family: $base,$kannada-sans-vf,$base-vf,sans-serif;
   direction: ltr;

@@ -24,6 +24,10 @@ $normal:        100;
   font-variation-settings: 'wdth' $width, 'wght' $weight;
 }
 
+strong {
+  @include width-weight($normal,$bold);
+}
+
 // Helper classes for default weights
 // Ultralight, AKA Thin
 .lf-ulight {
@@ -49,7 +53,7 @@ $normal:        100;
 .lf-sbold {
   @include width-weight($normal,$sbold);
 }
-// Regular
+// Bold
 .lf-bold {
   @include width-weight($normal,$bold);
 }

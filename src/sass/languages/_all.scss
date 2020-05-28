@@ -5,4 +5,5 @@ html {
 }
 .lf-sans {
   font-family: $base-sans-vf,$base-sans,sans-serif;
+  font-display: swap; // Comment out if you don't want FOUT
 }

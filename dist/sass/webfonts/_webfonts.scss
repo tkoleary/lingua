@@ -175,8 +175,18 @@ $korean-range:      U+????;
   }
   // Variable sans fonts for Gurmukhi
   @font-face {
-    @include font-face(Noto, Sans, Mongolian, VF, Regular, normal, normal);
-    unicode-range: $mongolian-range;
+    @include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
+    unicode-range: $hebrew-range;
+  }
+  // Variable sans fonts for Hangul Jamo
+  @font-face {
+    @include font-face(Noto, Sans, HangulJamo, VF, Regular, normal, normal);
+    unicode-range: $hangul-jamo-range;
+  }
+  // Variable sans fonts for Hebrew
+  @font-face {
+    @include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
+    unicode-range: $gurmukhi-range;
   }
   // The variable font for Latin, Regular
   @font-face {
@@ -193,16 +203,12 @@ $korean-range:      U+????;
     @include font-face(Noto, Sans, Mono, VF, Mono, normal, normal);
     unicode-range: $latin-range;
   }
-  // Variable sans fonts for  Hebrew
+  // Variable sans fonts for Gurmukhi
   @font-face {
-    @include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
-    unicode-range: $hebrew-range;
+    @include font-face(Noto, Sans, Mongolian, VF, Regular, normal, normal);
+    unicode-range: $mongolian-range;
   }
-  // Variable sans fonts for Hangul Jamo
-  @font-face {
-    @include font-face(Noto, Sans, HangulJamo, VF, Regular, normal, normal);
-    unicode-range: $hangul-jamo-range;
-  }
+
   // Variable sans fonts for Kannada
   @font-face {
     @include font-face(Noto, Sans, KannadaUI, VF, Regular, normal, normal);

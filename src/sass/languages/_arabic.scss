@@ -41,5 +41,6 @@
 *:lang(skr),
 *:lang(trw), {
   font-family: $arabic-sans-vf,$base-sans-vf,$base,sans-serif;
+  font-display: swap; // Comment out if you don't want FOUT
   direction: rtl;
 }
