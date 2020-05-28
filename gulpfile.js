@@ -41,7 +41,7 @@ function fonts(cb) {
 
 // Copy over HTML demo files
 function html(cb) {
-  return src('./src/**.*')
+  return src('./src/**/**.*')
     .pipe(dest('./dist/'));
   cb();
 }
