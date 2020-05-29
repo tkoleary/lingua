@@ -9,7 +9,7 @@
 *:lang(hif-Deva),
 *:lang(ks-Deva),
 *:lang(sd-Deva) {
-	font-family: $devanagari-sans-vf,$base-sans,$base,sans-serif;
+	font-family: $devanagari-sans-vf,$devanagari-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
 }
 
@@ -18,7 +18,7 @@
 *:lang(hif-Arab),
 *:lang(ks-Arab),
 *:lang(sd-Arab) {
-	font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
+	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
 	direction: rtl;
 }
 
@@ -27,6 +27,6 @@
 *:lang(hif-Latn),
 *:lang(ks-Latn),
 *:lang(sd-Latn) {
-	font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
+	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
 }

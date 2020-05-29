@@ -30,6 +30,7 @@ $tamil-range:       U+0B80-0BFF;
 $telugu-range:      U+0C00-0C7F;
 $thaana-range:      U+0780-07BF;
 $thai-range:        U+0E00-0E7F;
+$tibetan-range:     U+????;
 $urdu-range:        U+0600-06FF;
 $chinese-range:     U+????; // U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
 $korean-range:      U+????;
@@ -278,5 +279,9 @@ $korean-range:      U+????;
 	@font-face {
 		@include font-face(Noto, Sans, ThaiUI, VF, Regular, normal, normal);
 		unicode-range: $thai-range;
+	}
+	@font-face {
+		@include font-face(Noto, Sans, Tibetan, VF, Regular, normal, normal);
+		unicode-range: $tibetan-range;
 	}
 }

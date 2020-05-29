@@ -18,12 +18,12 @@
 *:lang(yue-Hans),
 *:lang(za-Hans),
 *:lang(lzh-Hans){
-	font-family: $base,$sc-sans-cdn,$sc-sans-regular,$base-sans-vf,sans-serif;
+	font-family: $base,$sc-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
 	strong {
 		font-weight: bold;
-		font-family: $base,$sc-sans-cdn,$sc-sans-bold,$base-sans-vf,sans-serif;
+		font-family: $base,$sc-sans,$base-sans-vf,sans-serif;
 	}
 
 	// In chinese the dot is used for emphasis
@@ -44,11 +44,12 @@
 *:lang(yue-Hant),
 *:lang(za-Hant),
 *:lang(lzh-Hant) {
-	font-family: $base,$tc-sans-cdn,$tc-sans-regular,$base-sans-vf,sans-serif;
+	font-family: $base,$tc-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
 	& .bold {
-		font-family: $base,$tc-sans-cdn,$tc-sans-bold,$base-sans-vf,sans-serif;
+		font-weight: bold;
+		font-family: $base,$tc-sans,$base-sans-vf,sans-serif;
 	}
 
 	// In chinese the dot is used for emphasis

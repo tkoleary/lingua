@@ -1,0 +1,28 @@
+
+// Import the variables
+@import "variables/basefonts";
+@import "variables/unicode-ranges";
+@import "variables/cdn";
+@import "webfonts/google-cdn";
+
+// Set the base font (fallback)
+@import "script-selectors/all";
+
+// Import files to load scripts based on the :lang property
+@import "script-selectors/latin";
+@import "script-selectors/single-script";
+@import "script-selectors/arabic";
+@import "script-selectors/cyrillic";
+@import "script-selectors/chinese";
+@import "script-selectors/devanagari";
+@import "script-selectors/ethiopic";
+@import "script-selectors/greek";
+@import "script-selectors/hebrew";
+@import "script-selectors/japanese";
+@import "script-selectors/korean";
+@import "script-selectors/latin-cyrillic";
+@import "script-selectors/latin-cyrillic-arabic";
+@import "script-selectors/latin-arabic-devanagari";
+
+// Import the classes for weights and widths
+@import "webfonts/weights";

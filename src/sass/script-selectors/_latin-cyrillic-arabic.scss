@@ -13,7 +13,7 @@
 *:lang(ttt),
 *:lang(ug),
 *:lang(uz) {
-	font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
+	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
 	direction: rtl;
 }
 
@@ -30,7 +30,7 @@
 *:lang(ttt-Latn),
 *:lang(ug-Latn),
 *:lang(uz-Latn) {
-	font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
+	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
 }
 
@@ -47,6 +47,6 @@
 *:lang(ttt-Cyrl),
 *:lang(ug-Cyrl),
 *:lang(uz-Cyrl) {
-	font-family: $cyrillic-sans-vf,$base-sans-vf,$base,sans-serif;
+	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	direction: ltr;
 }
