@@ -1,0 +1,10 @@
+// Korean script languages
+
+*:lang(ko) {
+	font-family: $base,$kr-sans-cdn,$kr-sans-regular,$base-sans-vf,sans-serif;
+	direction: ltr;
+
+	& .bold {
+		font-family: $base,$kr-sans-cdn,$kr-sans-bold,$base-sans-vf,sans-serif;
+	}
+}

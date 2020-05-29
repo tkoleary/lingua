@@ -20,50 +20,50 @@ $normal:        100;
 
 // @include width-weight(100,100);
 @mixin width-weight ($width: 100, $weight: 100) {
-  font-weight: $weight;
-  font-variation-settings: 'wdth' $width, 'wght' $weight;
+	font-weight: $weight;
+	font-variation-settings: 'wdth' $width, 'wght' $weight;
 }
 
 strong {
-  @include width-weight($normal,$bold);
+	@include width-weight($normal,$bold);
 }
 
 // Helper classes for default weights
 // Ultralight, AKA Thin
 .lf-ulight {
-  @include width-weight($normal,$ulight);
+	@include width-weight($normal,$ulight);
 }
 // Extralight
 .lf-xlight {
-  @include width-weight($normal,$xight);
+	@include width-weight($normal,$xight);
 }
 // Light, AKA Book
 .lf-light {
-  @include width-weight($normal,$light);
+	@include width-weight($normal,$light);
 }
 // Regular
 .lf-regular {
-  @include width-weight($normal,$regular);
+	@include width-weight($normal,$regular);
 }
 // Semibold, AKA DemiBold
 .lf-medium {
-  @include width-weight($normal,$medium);
+	@include width-weight($normal,$medium);
 }
 // Semibold
 .lf-sbold {
-  @include width-weight($normal,$sbold);
+	@include width-weight($normal,$sbold);
 }
 // Bold
 .lf-bold {
-  @include width-weight($normal,$bold);
+	@include width-weight($normal,$bold);
 }
 // Extrabold, AKA Heavy
 .lf-xbold {
-  @include width-weight($normal,$xbold);
+	@include width-weight($normal,$xbold);
 }
 // Ultrabold, AKA Black
 .lf-ubold {
-  @include width-weight($normal,$ubold);
+	@include width-weight($normal,$ubold);
 }
 
 // Build your own from the available variables
@@ -72,12 +72,12 @@ strong {
 
 // for example...
 .lf-ucondensed-light {
-  @include width-weight($ucondensed,$light);
+	@include width-weight($ucondensed,$light);
 }
 
 // Or import the mixin to your scss and use it in your own classes
 .my-custom-class {
-  font-size: 2rem;
-  color: #555;
-  @include width-weight($ucondensed,$light);
+	font-size: 2rem;
+	color: #555;
+	@include width-weight($ucondensed,$light);
 }

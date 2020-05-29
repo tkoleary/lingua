@@ -2482,15 +2482,7 @@ html {
 *:lang(rom),
 *:lang(se),
 *:lang(tkr),
-*:lang(udm),
-*:lang(ro-Cyrl),
-*:lang(sr-Cyrl),
-*:lang(gag-Cyrl),
-*:lang(bs-Cyrl),
-*:lang(rom-Cyrl),
-*:lang(se-Cyrl),
-*:lang(tkr-Cyrl),
-*:lang(udm-Cyrl) {
+*:lang(udm) {
   font-family: "Noto Sans LGC VF", "Noto Sans Regular VF", "Noto Sans", sans-serif;
   direction: ltr;
 }
@@ -2518,19 +2510,7 @@ html {
 *:lang(tly),
 *:lang(ttt),
 *:lang(ug),
-*:lang(uz),
-*:lang(aii-Arab),
-*:lang(az-Arab),
-*:lang(inh-Arab),
-*:lang(ky-Arab),
-*:lang(kk-Arab),
-*:lang(ku-Arab),
-*:lang(tg-Arab),
-*:lang(tk-Arab),
-*:lang(tly-Arab),
-*:lang(ttt-Arab),
-*:lang(ug-Arab),
-*:lang(uz-Arab) {
+*:lang(uz) {
   font-family: "Noto Sans Arabic VF", "Noto Sans", "Noto Sans", sans-serif;
   direction: rtl;
 }

@@ -12,23 +12,23 @@
 @import "webfonts/google-cdn";
 
 // Set the base font (fallback)
-@import "languages/all";
+@import "script-selectors/all";
 
 // Import files to load scripts based on the :lang property
-@import "languages/latin";
-@import "languages/single-script";
-@import "languages/arabic";
-@import "languages/cyrillic";
-@import "languages/chinese";
-@import "languages/devanagari";
-@import "languages/ethiopic";
-@import "languages/greek";
-@import "languages/hebrew";
-@import "languages/japanese";
-@import "languages/korean";
-@import "languages/latin-cyrillic";
-@import "languages/latin-cyrillic-arabic";
-@import "languages/latin-arabic-devanagari";
+@import "script-selectors/latin";
+@import "script-selectors/single-script";
+@import "script-selectors/arabic";
+@import "script-selectors/cyrillic";
+@import "script-selectors/chinese";
+@import "script-selectors/devanagari";
+@import "script-selectors/ethiopic";
+@import "script-selectors/greek";
+@import "script-selectors/hebrew";
+@import "script-selectors/japanese";
+@import "script-selectors/korean";
+@import "script-selectors/latin-cyrillic";
+@import "script-selectors/latin-cyrillic-arabic";
+@import "script-selectors/latin-arabic-devanagari";
 
 // Import the classes for weights and widths
 @import "webfonts/weights";

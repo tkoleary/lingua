@@ -1,6 +1,6 @@
 // Languages that could be written in either latin or cyrillic or arabic scripts
 
-// Default to arabic, or arabic is explicit
+// Default to Arabic
 *:lang(aii),
 *:lang(az),
 *:lang(inh),
@@ -12,21 +12,9 @@
 *:lang(tly),
 *:lang(ttt),
 *:lang(ug),
-*:lang(uz),
-*:lang(aii-Arab),
-*:lang(az-Arab),
-*:lang(inh-Arab),
-*:lang(ky-Arab),
-*:lang(kk-Arab),
-*:lang(ku-Arab),
-*:lang(tg-Arab),
-*:lang(tk-Arab),
-*:lang(tly-Arab),
-*:lang(ttt-Arab),
-*:lang(ug-Arab),
-*:lang(uz-Arab) {
-  font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
-  direction: rtl;
+*:lang(uz) {
+	font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
+	direction: rtl;
 }
 
 // Latin is explicit
@@ -42,8 +30,8 @@
 *:lang(ttt-Latn),
 *:lang(ug-Latn),
 *:lang(uz-Latn) {
-  font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
-  direction: ltr;
+	font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
+	direction: ltr;
 }
 
 // Cyrillic is explicit
@@ -59,6 +47,6 @@
 *:lang(ttt-Cyrl),
 *:lang(ug-Cyrl),
 *:lang(uz-Cyrl) {
-  font-family: $cyrillic-sans-vf,$base-sans-vf,$base,sans-serif;
-  direction: ltr;
+	font-family: $cyrillic-sans-vf,$base-sans-vf,$base,sans-serif;
+	direction: ltr;
 }

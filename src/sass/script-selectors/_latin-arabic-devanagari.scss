@@ -9,8 +9,8 @@
 *:lang(hif-Deva),
 *:lang(ks-Deva),
 *:lang(sd-Deva) {
-  font-family: $devanagari-sans-vf,$base-sans,$base,sans-serif;
-  direction: ltr;
+	font-family: $devanagari-sans-vf,$base-sans,$base,sans-serif;
+	direction: ltr;
 }
 
 // Arabic is explicit
@@ -18,8 +18,8 @@
 *:lang(hif-Arab),
 *:lang(ks-Arab),
 *:lang(sd-Arab) {
-  font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
-  direction: rtl;
+	font-family: $arabic-sans-vf,$base-sans,$base,sans-serif;
+	direction: rtl;
 }
 
 // Latin is explicit
@@ -27,6 +27,6 @@
 *:lang(hif-Latn),
 *:lang(ks-Latn),
 *:lang(sd-Latn) {
-  font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
-  direction: ltr;
+	font-family: $latin-sans-vf,$base-sans,$base,sans-serif;
+	direction: ltr;
 }

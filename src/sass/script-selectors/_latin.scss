@@ -288,18 +288,18 @@
 *:lang(zu),
 *:lang(zun),
 *:lang(zza) {
-  font-family: $latin-sans-vf,$latin-sans,sans-serif;
-  direction: ltr;
+	font-family: $latin-sans-vf,$latin-sans,sans-serif;
+	direction: ltr;
 
-  em,
-  .lf-latin-italic {
-    font-style: normal;
-    font-family: $latin-sans-italic-vf,$latin-sans,sans-serif;
-  }
+	em,
+	.lf-latin-italic {
+		font-style: normal;
+		font-family: $latin-sans-italic-vf,$latin-sans,sans-serif;
+	}
 
-  pre,
-  code,
-  .lf-latin-mono {
-    font-family: $latin-mono-vf,$latin-sans-mono,monospace;
-  }
+	pre,
+	code,
+	.lf-latin-mono {
+		font-family: $latin-mono-vf,$latin-sans-mono,monospace;
+	}
 }
