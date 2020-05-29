@@ -4,15 +4,23 @@
 
 Rapidly develop a fully internationalized site without sacrificing aesthetics, accessibility or performance.
 
-- **Performance.** We use variable fonts (wherever available), which reference one font file for every weight dramatiacally reducing page-load times. Here are some [stats](https://css-tricks) on variable font load times. There is also an option to load fonts from the Google CDN (where available), or from your own server.
+### Design centric
 
-We also the `unicode-range` property in our `@font-face` rules so language-specific files are only loaded when glyphs used by that language are called for. See [this article](https://css-tricks.com/almanac/properties/u/unicode-range/)for more.
+Fonts can be configured easily for at a wide variety of weights and widths. Each script has language-specific fallbacks and a range of variables, mixins, and default helper classes to style anything you want.
 
-- **Design.** Most scripts are are available in 9 weights from thin to black, and the variable fonts can be set at 800 weights and 40 widths. Each of these has automatically generated fallbacks and a range of variables, mixins, and default helper classes to style anything you want.
+### Variable fonts
 
-- **Variable fonts.** Lingua uses the variable fonts currently available in the Noto set (see the languages file for a full list). the only scripts currently *not* available as variable fonts are the CJK fonts and Gujarati. Those are provided in regular and bold weights, but others can easily be added.
+Lingua uses the variable fonts currently available in the Noto set (see `script-selectors.scss`). The only exceptions are the CJK fonts and Gujarati. Those are provided as individual files per weight, and can be easily configured to load only the ones you want.
 
-- **Once for all.** Using the `:lang` property, lingua will try to automatically provide the *most specific* script for each language. CSS attributes, including variable font attributes, can be declared once for all scripts, or customized per script.
+### Once for all
+
+Out-of-the-box, Lingua will provide attractive, performant font support for the languages and scripts of 99.8% of the world's population. Using the `:lang` property, lingua will default to the *most specific* script for each language. Any font loading based on `:lang` can be easily configured for your unique region or audience, you can custom-configure any of the scripts as well. CSS properties including variable font attributes, can be also customized per script.
+
+### Performance
+
+We use variable fonts (wherever available), which reference one font file for every weight and can reduce page-load times. Here are some [stats](https://css-tricks) on variable font load times. There is also an option to load fonts from the Google CDN (where available), or from your own server.
+
+We also use the `unicode-range` property to subset `@font-face` rules so fonts are only loaded when glyphs used by unicode block are called for. See [this article](https://css-tricks.com/almanac/properties/u/unicode-range/)for more.
 
 ### The Noto fonts
 
@@ -26,9 +34,13 @@ If Noto doesn't work for your brand or design, use Lingua can fill in the gaps. 
 
 ### How to use Lingua
 
-1. **Out of the box** To use lingua as is just add link the minified css in the `<head>` of your HTML at the end of your other style references. That will style every language on your site for which Lingua has a font. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
+#### 1.Out of the box
 
-2. **With Sass** Clone the Lingua repo into your project and either `@import` Lingua's style.scss into your scss build flow or compile it separately and link the styles as in #1 above.
+To use lingua as is, just link the minified css in the `<head>` of your HTML after your other style references. That will style every language on your site for which Lingua has a font loading the noto fonts from the Google CDN. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
+
+#### 2. In your build
+
+Clone the Lingua repo into your project and either `@import` Lingua's style.scss into your scss build flow or compile it separately. Using Lingua this way you can configure Lingua as you wish. Options include choosing weights and widths, serving fonts yourself or loading from the CDN, turning sprecific scripts on or off, or overriding the default script for any language.
 
 <!--3. **With NPM** Get the NPM module `npm i lingua-sass`, or yarn add lingua-sass. Then you can import the module into your build.-->
 
