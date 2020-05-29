@@ -2336,7 +2336,8 @@ html {
 *:lang(za-Hans) em,
 *:lang(lzh-Hans) em {
   font-style: normal;
-  text-emphasis: dot;
+  -webkit-text-emphasis: dot;
+          text-emphasis: dot;
 }
 
 *:lang(yue),
@@ -2375,7 +2376,8 @@ html {
 *:lang(za-Hant) em,
 *:lang(lzh-Hant) em {
   font-style: normal;
-  text-emphasis: dot;
+  -webkit-text-emphasis: dot;
+          text-emphasis: dot;
 }
 
 *:lang(hi),
