@@ -20,7 +20,7 @@ Out-of-the-box, Lingua will provide attractive, performant font support for the 
 
 We use variable fonts (wherever available), which reference one font file for every weight and can reduce page-load times. Here are some [stats](https://css-tricks) on variable font load times. There is also an option to load fonts from the Google CDN (where available), or from your own server.
 
-We also use the `unicode-range` property to subset `@font-face` rules so fonts are only loaded when glyphs used by unicode block are called for. See [this article](https://css-tricks.com/almanac/properties/u/unicode-range/)for more.
+We also use the `unicode-range` property to subset `@font-face` rules so fonts are only loaded when glyphs used by unicode block are called for. See [this article] (https://css-tricks.com/almanac/properties/u/unicode-range/) for more.
 
 ### The Noto fonts
 
