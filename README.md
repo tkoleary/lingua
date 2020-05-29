@@ -30,11 +30,11 @@ A goal of this project is to make it easy to swap out individual scripts, or an 
 
 ### Don't like the Noto fonts?
 
-If Noto doesn't work for your brand or design, use Lingua can fill in the gaps. Say your brand font only covers the Latin unicode blocks, just replace Noto with your font for those blocks and let Lingua cover the other half of the world.
+If Noto doesn't work for your brand or design, use Lingua can fill in the gaps. Say your brand font only covers the Latin unicode blocks, just replace Noto with your font for those blocks and let the Lingua defaults cover the rest of the world.
 
 ### How to use Lingua
 
-#### 1.Out of the box
+#### 1. Out of the box
 
 To use lingua as is, just link the minified css in the `<head>` of your HTML after your other style references. That will style every language on your site for which Lingua has a font loading the noto fonts from the Google CDN. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
 
