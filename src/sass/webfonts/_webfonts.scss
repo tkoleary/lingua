@@ -32,18 +32,18 @@ $thaana-range:      U+0780-07BF;
 $thai-range:        U+0E00-0E7F;
 $tibetan-range:     U+????;
 $urdu-range:        U+0600-06FF;
-$chinese-range:     U+????; // U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
+$chinese-range:     U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
 $korean-range:      U+????;
 
 // Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
 @mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
 	font-family: "#{$family} #{$type} #{$script} #{$weight}";
-	src:	url('fonts/#{$family}#{$type}#{$script}-#{$weight}.eot');
-	src:	url('fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
+	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot');
+	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
 	font-weight: $fontWeight;
 	font-style: $fontStyle;
 }

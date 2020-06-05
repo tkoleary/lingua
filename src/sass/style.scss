@@ -1,4 +1,84 @@
-// uncomment the build you want
 
-@import "cdn";
-// @import "local";
+// Import the variables
+@import "variables/basefonts";
+@import "variables/local";
+@import "webfonts/webfonts";
+
+// Set the base font (fallback)
+// @import "script-selectors/all";
+
+// Import files to load scripts based on the :lang property
+@import "script-selectors/latin";
+@import "script-selectors/single-script-serif";
+@import "script-selectors/single-script";
+@import "script-selectors/arabic";
+@import "script-selectors/cyrillic";
+@import "script-selectors/chinese";
+@import "script-selectors/devanagari";
+@import "script-selectors/ethiopic";
+@import "script-selectors/greek";
+@import "script-selectors/hebrew";
+@import "script-selectors/japanese";
+@import "script-selectors/korean";
+@import "script-selectors/latin-cyrillic";
+@import "script-selectors/latin-cyrillic-arabic";
+@import "script-selectors/latin-arabic-devanagari";
+
+// Import the classes for weights and widths
+@import "webfonts/weights";
+
+// @todo add fonts for:
+// Hangul jamo
+
+// @todo add examples for:
+// Gurmukhi
+// Limbu
+// NKo
+// Oriya
+// Sinhala
+// Tai le
+
+// @todo add webfont kits for:
+// Gurmukhi
+// Limbu
+// NKo
+// Oriya
+// Sinhala
+// Tai le
+// Adalam sans
+// Bamum sans
+// Bengali sans
+// Devanagari sans
+// DevanagariUI sans
+// Ethiopic sans
+// KannadaUI sans
+// Kayah Li
+// Lao sans
+// LaoUI sans
+// Latin-greek-cyrillic sans
+// Malayalam sans
+// MalayalamUI sans
+// Thaana sans
+
+// @todo add test pages for:
+// Gurmukhi
+// Hangul jamo
+// Limbu
+// NKo
+// Oriya
+// Sinhala
+// Tai le
+// Tibetan
+// Adalam sans
+// Bamum sans
+// Bengali sans
+// Devanagari sans
+// DevanagariUI sans
+// Ethiopic sans
+// KannadaUI sans
+// Kayah Li
+// Lao sans
+// LaoUI sans
+// Malayalam sans
+// MalayalamUI sans
+// Thaana sans

@@ -1,0 +1,70 @@
+// Non-latin scripts -serif
+
+*:lang(ff) {
+	font-family: $base,$adlam-serif-vf,$adlam-serif,$base-serif-vf,serif;
+	direction: rtl;
+}
+*:lang(hy) {
+	font-family: $base,$armenian-serif-vf,$armenian-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(bax) {
+	font-family: $base,$bamum-serif-vf,$bamum-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(bn) {
+	font-family: $base,$bengali-serif-vf,$bengali-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(gu) {
+	font-family: $base,$gujarati-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(gi) {
+	font-family: $base,$gurmukhi-serif-vf,$gurmukhi-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(kn) {
+	font-family: $base,$kannada-serif-vf,$kannada-serif,$base-vf,serif;
+	direction: ltr;
+}
+*:lang(km) {
+	font-family: $base,$khmer-serif-vf,$khmer-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(lo) {
+	font-family: $base,$lao-serif-vf,$lao-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(ms) {
+	font-family: $base,$malayalam-serif-vf,$malayalam-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(or) {
+	font-family: $base,$oriya-serif-vf,$oriya-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(si) {
+	font-family: $base,$sinhala-serif-vf,$sinhala-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(ta) {
+	font-family: $base,$tamil-serif-vf,$tamil-serif,$base-vf,serif;
+	direction: ltr;
+}
+*:lang(te) {
+	font-family: $base,$telugu-serif-vf,$telugu-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(th) {
+	font-family: $base,$thai-serif-vf,$thai-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
+*:lang(dv) {
+	font-family: $base,$thaana-serif-vf,$thaana-serif,$base-serif-vf,serif;
+	direction: rtl;
+}
+*:lang(bo) {
+	font-family: $base,$tibetan-serif-vf,$tibetan-serif,$base-serif-vf,serif;
+	direction: ltr;
+}
