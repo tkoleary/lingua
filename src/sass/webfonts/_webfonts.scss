@@ -21,6 +21,7 @@ $lao-range:         U+0E80-0EFF;
 $latin-range:       U+????; // U+0020-024F;
 $limbu-range:       U+1900-194F;
 $malayalam-range:   U+0D00-0D7F;
+$myanmar-range:   	U+????;
 $mongolian-range:   U+1800-18AF, U+11660-1167F;
 $nko-range:         U+07C0-07FF;
 $oriya-range:       U+0B00-0B7F;
@@ -239,6 +240,11 @@ $korean-range:      U+????;
 	@font-face {
 		@include font-face(Noto, Sans, Mongolian, VF, Regular, normal, normal);
 		unicode-range: $mongolian-range;
+	}
+	// Variable sans fonts for Myanmar
+	@font-face {
+		@include font-face(Noto, Sans, Myanmar, VF, Regular, normal, normal);
+		unicode-range: $myanmar-range;
 	}
 	// Variable sans fonts for NKo
 	@font-face {

@@ -40,6 +40,10 @@
 	font-family: $base,$malayalam-sans-vf,$malayalam-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 }
+*:lang(my) {
+	font-family: $base,$myanmar-sans-vf,$base-sans-vf,sans-serif;
+	direction: ltr;
+}
 *:lang(or) {
 	font-family: $base,$oriya-sans-vf,$oriya-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
@@ -64,7 +68,8 @@
 	font-family: $base,$thaana-sans-vf,$thaana-sans,$base-sans-vf,sans-serif;
 	direction: rtl;
 }
-*:lang(bo) {
+*:lang(bo),
+*:lang(dz) {
 	font-family: $base,$tibetan-sans-vf,$tibetan-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 }

@@ -270,6 +270,14 @@
     unicode-range: U+1800-18AF, U+11660-1167F;
   }
   @font-face {
+    font-family: "Noto Sans Myanmar VF";
+    src: url("../fonts/NotoSansMyanmar-VF.eot");
+    src: url("../fonts/NotoSansMyanmar-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansMyanmar-VF.woff") format("woff"), url("../fonts/NotoSansMyanmar-VF.woff2") format("woff2"), url("../fonts/NotoSansMyanmar-VF.ttf") format("truetype"), url("../fonts/NotoSansMyanmar-VF.svg#NotoSansMyanmar-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+????;
+  }
+  @font-face {
     font-family: "Noto Sans NKo VF";
     src: url("../fonts/NotoSansNKo-VF.eot");
     src: url("../fonts/NotoSansNKo-VF.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansNKo-VF.woff") format("woff"), url("../fonts/NotoSansNKo-VF.woff2") format("woff2"), url("../fonts/NotoSansNKo-VF.ttf") format("truetype"), url("../fonts/NotoSansNKo-VF.svg#NotoSansNKo-Regular") format("svg");
@@ -350,6 +358,7 @@
 *:lang(da),
 *:lang(de),
 *:lang(en),
+*:lang(eo),
 *:lang(es),
 *:lang(et),
 *:lang(fi),
@@ -366,6 +375,7 @@
 *:lang(hr),
 *:lang(ht),
 *:lang(hu),
+*:lang(in),
 *:lang(is),
 *:lang(it),
 *:lang(kl),
@@ -382,6 +392,7 @@
 *:lang(niu),
 *:lang(nl),
 *:lang(nn),
+*:lang(no),
 *:lang(ny),
 *:lang(pap),
 *:lang(pau),
@@ -402,9 +413,11 @@
 *:lang(sw),
 *:lang(tet),
 *:lang(tkl),
+*:lang(tl),
 *:lang(tn),
 *:lang(to),
 *:lang(tpi),
+*:lang(tr),
 *:lang(tvl),
 *:lang(ty),
 *:lang(yo),
@@ -649,6 +662,8 @@
 *:lang(de) .lf-latin-italic,
 *:lang(en) em,
 *:lang(en) .lf-latin-italic,
+*:lang(eo) em,
+*:lang(eo) .lf-latin-italic,
 *:lang(es) em,
 *:lang(es) .lf-latin-italic,
 *:lang(et) em,
@@ -681,6 +696,8 @@
 *:lang(ht) .lf-latin-italic,
 *:lang(hu) em,
 *:lang(hu) .lf-latin-italic,
+*:lang(in) em,
+*:lang(in) .lf-latin-italic,
 *:lang(is) em,
 *:lang(is) .lf-latin-italic,
 *:lang(it) em,
@@ -713,6 +730,8 @@
 *:lang(nl) .lf-latin-italic,
 *:lang(nn) em,
 *:lang(nn) .lf-latin-italic,
+*:lang(no) em,
+*:lang(no) .lf-latin-italic,
 *:lang(ny) em,
 *:lang(ny) .lf-latin-italic,
 *:lang(pap) em,
@@ -753,12 +772,16 @@
 *:lang(tet) .lf-latin-italic,
 *:lang(tkl) em,
 *:lang(tkl) .lf-latin-italic,
+*:lang(tl) em,
+*:lang(tl) .lf-latin-italic,
 *:lang(tn) em,
 *:lang(tn) .lf-latin-italic,
 *:lang(to) em,
 *:lang(to) .lf-latin-italic,
 *:lang(tpi) em,
 *:lang(tpi) .lf-latin-italic,
+*:lang(tr) em,
+*:lang(tr) .lf-latin-italic,
 *:lang(tvl) em,
 *:lang(tvl) .lf-latin-italic,
 *:lang(ty) em,
@@ -1236,6 +1259,9 @@
 *:lang(en) pre,
 *:lang(en) code,
 *:lang(en) .lf-latin-mono,
+*:lang(eo) pre,
+*:lang(eo) code,
+*:lang(eo) .lf-latin-mono,
 *:lang(es) pre,
 *:lang(es) code,
 *:lang(es) .lf-latin-mono,
@@ -1284,6 +1310,9 @@
 *:lang(hu) pre,
 *:lang(hu) code,
 *:lang(hu) .lf-latin-mono,
+*:lang(in) pre,
+*:lang(in) code,
+*:lang(in) .lf-latin-mono,
 *:lang(is) pre,
 *:lang(is) code,
 *:lang(is) .lf-latin-mono,
@@ -1332,6 +1361,9 @@
 *:lang(nn) pre,
 *:lang(nn) code,
 *:lang(nn) .lf-latin-mono,
+*:lang(no) pre,
+*:lang(no) code,
+*:lang(no) .lf-latin-mono,
 *:lang(ny) pre,
 *:lang(ny) code,
 *:lang(ny) .lf-latin-mono,
@@ -1392,6 +1424,9 @@
 *:lang(tkl) pre,
 *:lang(tkl) code,
 *:lang(tkl) .lf-latin-mono,
+*:lang(tl) pre,
+*:lang(tl) code,
+*:lang(tl) .lf-latin-mono,
 *:lang(tn) pre,
 *:lang(tn) code,
 *:lang(tn) .lf-latin-mono,
@@ -1401,6 +1436,9 @@
 *:lang(tpi) pre,
 *:lang(tpi) code,
 *:lang(tpi) .lf-latin-mono,
+*:lang(tr) pre,
+*:lang(tr) code,
+*:lang(tr) .lf-latin-mono,
 *:lang(tvl) pre,
 *:lang(tvl) code,
 *:lang(tvl) .lf-latin-mono,
@@ -2214,6 +2252,11 @@
   direction: ltr;
 }
 
+*:lang(my) {
+  font-family: "Noto Sans", "Noto Sans Myanmar VF", "Noto Sans Regular VF", sans-serif;
+  direction: ltr;
+}
+
 *:lang(or) {
   font-family: "Noto Sans", "Noto Sans Oriya VF", "Noto Sans Oriya Regular", "Noto Sans Regular VF", sans-serif;
   direction: ltr;
@@ -2244,7 +2287,8 @@
   direction: rtl;
 }
 
-*:lang(bo) {
+*:lang(bo),
+*:lang(dz) {
   font-family: "Noto Sans", "Noto Sans Tibetan VF", "Noto Sans Tibetan Regular", "Noto Sans Regular VF", sans-serif;
   direction: ltr;
 }
@@ -2488,6 +2532,7 @@
 *:lang(noe),
 *:lang(raj),
 *:lang(rjs),
+*:lang(sa),
 *:lang(sck),
 *:lang(srx),
 *:lang(swv),
