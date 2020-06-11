@@ -1,6 +1,6 @@
 // Languages that could be written in either latin or cyrillic or arabic scripts
 
-// Default to Arabic
+// Default to Arabic script
 *:lang(aii),
 *:lang(az),
 *:lang(inh),
@@ -17,7 +17,24 @@
 	direction: rtl;
 }
 
-// Latin is explicit
+// Arabic script is explicit
+*:lang(aii-Arab),
+*:lang(az-Arab),
+*:lang(inh-Arab),
+*:lang(ky-Arab),
+*:lang(kk-Arab),
+*:lang(ku-Arab),
+*:lang(tg-Arab),
+*:lang(tk-Arab),
+*:lang(tly-Arab),
+*:lang(ttt-Arab),
+*:lang(ug-Arab),
+*:lang(uz-Arab) {
+	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
+	direction: rtl;
+}
+
+// Latin script is explicit
 *:lang(aii-Latn),
 *:lang(az-Latn),
 *:lang(inh-Latn),
@@ -34,7 +51,7 @@
 	direction: ltr;
 }
 
-// Cyrillic is explicit
+// Cyrillic script is explicit
 *:lang(aii-Cyrl),
 *:lang(az-Cyrl),
 *:lang(inh-Cyrl),

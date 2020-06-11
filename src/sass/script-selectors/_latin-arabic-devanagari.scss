@@ -1,10 +1,15 @@
 // Languages that could be written in either latin or arabic or devanagari scripts
 
-// Default to Devanagari, or Devanagari is explicit
+// Default to Devanagari script wheree no script is specified
 *:lang(hi),
 *:lang(hif),
 *:lang(ks),
-*:lang(sd),
+*:lang(sd) {
+	font-family: $devanagari-sans-vf,$devanagari-sans,$base-sans,$base,sans-serif;
+	direction: ltr;
+}
+
+// Devanagari script is explicit
 *:lang(hi-Deva),
 *:lang(hif-Deva),
 *:lang(ks-Deva),
@@ -13,7 +18,7 @@
 	direction: ltr;
 }
 
-// Arabic is explicit
+// Arabic script is explicit
 *:lang(hi-Arab),
 *:lang(hif-Arab),
 *:lang(ks-Arab),
@@ -22,7 +27,7 @@
 	direction: rtl;
 }
 
-// Latin is explicit
+// Latin script is explicit
 *:lang(hi-Latn),
 *:lang(hif-Latn),
 *:lang(ks-Latn),

@@ -13,6 +13,20 @@
 	direction: ltr;
 }
 
+// Cyrillic is explicit
+*:lang(ro-Cyrl),
+*:lang(sr-Cyrl),
+*:lang(gag-Cyrl),
+*:lang(bs-Cyrl),
+*:lang(rom-Cyrl),
+*:lang(se-Cyrl),
+*:lang(tkr-Cyrl),
+*:lang(udm-Cyrl) {
+	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+	direction: ltr;
+}
+
+
 // Latin is explicit
 *:lang(ro-Latn),
 *:lang(sr-Latn),

@@ -13,6 +13,168 @@
   unicode-range: U+0020-024F;
 }
 @font-face {
+  font-family: "Noto Sans HK";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans HK Regular"), local("NotoSansHK-Regular"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.woff2") format("woff2"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.woff") format("woff"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.ttf") format("truetype"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.svg#NotoSansHK") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans HK";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans HK Medium"), local("NotoSansHK-Medium"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.woff2") format("woff2"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.woff") format("woff"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.ttf") format("truetype"), url("../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.svg#NotoSansHK") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans SC Regular"), local("NotoSansSC-Regular"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff") format("woff"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.ttf") format("truetype"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.svg#NotoSansSC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans SC Medium"), local("NotoSansSC-Medium"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff") format("woff"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.ttf") format("truetype"), url("../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.svg#NotoSansSC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans TC Regular"), local("NotoSansTC-Regular"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2") format("woff2"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff") format("woff"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.ttf") format("truetype"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.svg#NotoSansTC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans TC Medium"), local("NotoSansTC-Medium"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff2") format("woff2"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff") format("woff"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.ttf") format("truetype"), url("../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.svg#NotoSansTC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-sans-jp-v25-latin_japanese-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url("../fonts/noto-sans-jp-v25-latin_japanese-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp-v25-latin_japanese-regular.woff2") format("woff2"), url("../fonts/noto-sans-jp-v25-latin_japanese-regular.woff") format("woff"), url("../fonts/noto-sans-jp-v25-latin_japanese-regular.ttf") format("truetype"), url("../fonts/noto-sans-jp-v25-latin_japanese-regular.svg#NotoSansJP") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-sans-jp-v25-latin_japanese-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans Japanese Medium"), local("NotoSansJapanese-Medium"), url("../fonts/noto-sans-jp-v25-latin_japanese-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-jp-v25-latin_japanese-500.woff2") format("woff2"), url("../fonts/noto-sans-jp-v25-latin_japanese-500.woff") format("woff"), url("../fonts/noto-sans-jp-v25-latin_japanese-500.ttf") format("truetype"), url("../fonts/noto-sans-jp-v25-latin_japanese-500.svg#NotoSansJP") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-sans-kr-v12-latin_korean-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans KR Regular"), local("NotoSansKR-Regular"), url("../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-kr-v12-latin_korean-regular.woff2") format("woff2"), url("../fonts/noto-sans-kr-v12-latin_korean-regular.woff") format("woff"), url("../fonts/noto-sans-kr-v12-latin_korean-regular.ttf") format("truetype"), url("../fonts/noto-sans-kr-v12-latin_korean-regular.svg#NotoSansKR") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-sans-kr-v12-latin_korean-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Sans KR Medium"), local("NotoSansKR-Medium"), url("../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-sans-kr-v12-latin_korean-500.woff2") format("woff2"), url("../fonts/noto-sans-kr-v12-latin_korean-500.woff") format("woff"), url("../fonts/noto-sans-kr-v12-latin_korean-500.ttf") format("truetype"), url("../fonts/noto-sans-kr-v12-latin_korean-500.svg#NotoSansKR") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif SC"), local("NotoSerifSC-Regular"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.woff2") format("woff2"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.woff") format("woff"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.ttf") format("truetype"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.svg#NotoSerifSC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif SC Medium"), local("NotoSerifSC-Medium"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.woff2") format("woff2"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.woff") format("woff"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.ttf") format("truetype"), url("../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.svg#NotoSerifSC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif TC";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif TC"), local("NotoSerifTC-Regular"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.woff2") format("woff2"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.woff") format("woff"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.ttf") format("truetype"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.svg#NotoSerifTC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif TC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif TC Medium"), local("NotoSerifTC-Medium"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.woff2") format("woff2"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.woff") format("woff"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.ttf") format("truetype"), url("../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.svg#NotoSerifTC") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-serif-jp-v7-latin_japanese-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif JP"), local("NotoSerifJP-Regular"), url("../fonts/noto-serif-jp-v7-latin_japanese-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-jp-v7-latin_japanese-regular.woff2") format("woff2"), url("../fonts/noto-serif-jp-v7-latin_japanese-regular.woff") format("woff"), url("../fonts/noto-serif-jp-v7-latin_japanese-regular.ttf") format("truetype"), url("../fonts/noto-serif-jp-v7-latin_japanese-regular.svg#NotoSerifJP") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif JP";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-serif-jp-v7-latin_japanese-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif JP Medium"), local("NotoSerifJP-Medium"), url("../fonts/noto-serif-jp-v7-latin_japanese-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-jp-v7-latin_japanese-500.woff2") format("woff2"), url("../fonts/noto-serif-jp-v7-latin_japanese-500.woff") format("woff"), url("../fonts/noto-serif-jp-v7-latin_japanese-500.ttf") format("truetype"), url("../fonts/noto-serif-jp-v7-latin_japanese-500.svg#NotoSerifJP") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-serif-kr-v6-latin_korean-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif KR Medium"), local("NotoSerifKR-Medium"), url("../fonts/noto-serif-kr-v6-latin_korean-500.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-kr-v6-latin_korean-500.woff2") format("woff2"), url("../fonts/noto-serif-kr-v6-latin_korean-500.woff") format("woff"), url("../fonts/noto-serif-kr-v6-latin_korean-500.ttf") format("truetype"), url("../fonts/noto-serif-kr-v6-latin_korean-500.svg#NotoSerifKR") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-serif-kr-v6-latin_korean-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Noto Serif KR"), local("NotoSerifKR-Regular"), url("../fonts/noto-serif-kr-v6-latin_korean-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/noto-serif-kr-v6-latin_korean-regular.woff2") format("woff2"), url("../fonts/noto-serif-kr-v6-latin_korean-regular.woff") format("woff"), url("../fonts/noto-serif-kr-v6-latin_korean-regular.ttf") format("truetype"), url("../fonts/noto-serif-kr-v6-latin_korean-regular.svg#NotoSerifKR") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
   font-family: "Noto Sans Gujarati Regular";
   src: url("../fonts/NotoSansGujarati-Regular.eot");
   src: url("../fonts/NotoSansGujarati-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansGujarati-Regular.woff") format("woff"), url("../fonts/NotoSansGujarati-Regular.woff2") format("woff2"), url("../fonts/NotoSansGujarati-Regular.ttf") format("truetype"), url("../fonts/NotoSansGujarati-Regular.svg#NotoSansGujarati-Regular") format("svg");
@@ -350,6 +512,27 @@
     unicode-range: U+????;
   }
 }
+.lf-sans {
+  font-family: "Noto Sans Regular VF", "Noto Sans", sans-serif;
+  font-display: swap;
+}
+
+html:lang(en) {
+  font-family: "Noto Sans Regular VF", "Noto Sans", sans-serif;
+  direction: ltr;
+}
+html:lang(en) em,
+html:lang(en) .lf-latin-italic {
+  font-style: normal;
+  font-family: "Noto Sans Italic VF", "Noto Sans", sans-serif;
+}
+html:lang(en) pre,
+html:lang(en) code,
+html:lang(en) .lf-latin-mono {
+  font-family: "Noto Sans Mono VF", "Noto Sans Mono", monospace;
+}
+
+*:lang(**-Latn),
 *:lang(ay),
 *:lang(bi),
 *:lang(ca),
@@ -646,6 +829,8 @@
   font-family: "Noto Sans Regular VF", "Noto Sans", sans-serif;
   direction: ltr;
 }
+*:lang(**-Latn) em,
+*:lang(**-Latn) .lf-latin-italic,
 *:lang(ay) em,
 *:lang(ay) .lf-latin-italic,
 *:lang(bi) em,
@@ -1235,6 +1420,9 @@
   font-style: normal;
   font-family: "Noto Sans Italic VF", "Noto Sans", sans-serif;
 }
+*:lang(**-Latn) pre,
+*:lang(**-Latn) code,
+*:lang(**-Latn) .lf-latin-mono,
 *:lang(ay) pre,
 *:lang(ay) code,
 *:lang(ay) .lf-latin-mono,
@@ -2602,6 +2790,18 @@
   direction: ltr;
 }
 
+*:lang(ro-Cyrl),
+*:lang(sr-Cyrl),
+*:lang(gag-Cyrl),
+*:lang(bs-Cyrl),
+*:lang(rom-Cyrl),
+*:lang(se-Cyrl),
+*:lang(tkr-Cyrl),
+*:lang(udm-Cyrl) {
+  font-family: "Noto Sans LGC VF", "Noto Sans LGC", "Noto Sans Regular VF", "Noto Sans", sans-serif;
+  direction: ltr;
+}
+
 *:lang(ro-Latn),
 *:lang(sr-Latn),
 *:lang(gag-Latn),
@@ -2626,6 +2826,22 @@
 *:lang(ttt),
 *:lang(ug),
 *:lang(uz) {
+  font-family: "Noto Sans Arabic VF", "Noto Sans Arabic Regular", "Noto Sans", "Noto Sans", sans-serif;
+  direction: rtl;
+}
+
+*:lang(aii-Arab),
+*:lang(az-Arab),
+*:lang(inh-Arab),
+*:lang(ky-Arab),
+*:lang(kk-Arab),
+*:lang(ku-Arab),
+*:lang(tg-Arab),
+*:lang(tk-Arab),
+*:lang(tly-Arab),
+*:lang(ttt-Arab),
+*:lang(ug-Arab),
+*:lang(uz-Arab) {
   font-family: "Noto Sans Arabic VF", "Noto Sans Arabic Regular", "Noto Sans", "Noto Sans", sans-serif;
   direction: rtl;
 }
@@ -2665,7 +2881,11 @@
 *:lang(hi),
 *:lang(hif),
 *:lang(ks),
-*:lang(sd),
+*:lang(sd) {
+  font-family: "Noto Sans DevanagariUI VF", "Noto Sans Devanagari Regular", "Noto Sans", "Noto Sans", sans-serif;
+  direction: ltr;
+}
+
 *:lang(hi-Deva),
 *:lang(hif-Deva),
 *:lang(ks-Deva),

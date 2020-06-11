@@ -5,7 +5,7 @@
 @import "webfonts/webfonts";
 
 // Set the base font (fallback)
-// @import "script-selectors/all";
+@import "script-selectors/all";
 
 // Import files to load scripts based on the :lang property
 @import "script-selectors/latin";

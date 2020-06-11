@@ -1,9 +1,26 @@
 // Add the base font everywhere
-html {
-  font-family: $base-vf,$base,sans-serif;
-  font-display: swap; // Comment out if you don't want FOUT
-}
+//html {
+//  font-family: $base-vf,$base,sans-serif;
+//  font-display: swap; // Comment out if you don't want FOUT
+//}
 .lf-sans {
   font-family: $base-sans-vf,$base-sans,sans-serif;
   font-display: swap; // Comment out if you don't want FOUT
+}
+
+html:lang(en) {
+	font-family: $latin-sans-vf,$latin-sans,sans-serif;
+	direction: ltr;
+
+	em,
+	.lf-latin-italic {
+		font-style: normal;
+		font-family: $latin-sans-italic-vf,$latin-sans,sans-serif;
+	}
+
+	pre,
+	code,
+	.lf-latin-mono {
+		font-family: $latin-mono-vf,$latin-mono,monospace;
+	}
 }

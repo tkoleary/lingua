@@ -1,57 +1,53 @@
 // Languages that could be written in either Latin or Arabic scripts
 
-// Default to Arabic
-*:lang(id),
-*:lang(ms),
-*:lang(so),
-*:lang(tr),
+// Default to Arabic script
+*:lang(ar),
 *:lang(bal),
 *:lang(brh),
 *:lang(dyo),
 *:lang(ha),
+*:lang(id),
+*:lang(ms),
+*:lang(so),
 *:lang(sus),
 *:lang(swb),
-*:lang(wo),
-*:lang(id),
-*:lang(ms),
-*:lang(so),
 *:lang(tr),
-*:lang(bal),
-*:lang(brh),
-*:lang(dyo),
-*:lang(ha),
-*:lang(swb),
-*:lang(tru),
-*:lang(ar),
 *:lang(tru),
 *:lang(wo) {
   font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
   direction: rtl;
 }
 
-// Usse Latin where explicit
-*:lang(id-Latn),
-*:lang(ms-Latn),
-*:lang(so-Latn),
-*:lang(tr-Latn),
+// Use Arabic script where explicit
+*:lang(ar-Arab),
+*:lang(bal-Arab),
+*:lang(brh-Arab),
+*:lang(dyo-Arab),
+*:lang(ha-Arab),
+*:lang(id-Arab),
+*:lang(ms-Arab),
+*:lang(so-Arab),
+*:lang(sus-Arab),
+*:lang(swb-Arab),
+*:lang(tr-Arab),
+*:lang(tru-Arab),
+*:lang(wo-Arab) {
+  font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
+  direction: rtl;
+}
+
+// Usse Latin script where explicit
+*:lang(ar-Latn),
 *:lang(bal-Latn),
 *:lang(brh-Latn),
 *:lang(dyo-Latn),
 *:lang(ha-Latn),
+*:lang(id-Latn),
+*:lang(ms-Latn),
+*:lang(so-Latn),
 *:lang(sus-Latn),
 *:lang(swb-Latn),
-*:lang(wo-Latn),
-*:lang(id-Latn),
-*:lang(ms-Latn),
-*:lang(so-Latn),
 *:lang(tr-Latn),
-*:lang(bal-Latn),
-*:lang(brh-Latn),
-*:lang(dyo-Latn),
-*:lang(ha-Latn),
-*:lang(swb-Latn),
-*:lang(tru-Latn),
-*:lang(ar-Latn),
 *:lang(tru-Latn),
 *:lang(wo-Latn) {
   font-family: $latin-sans-vf,$latin-sans,sans-serif;
