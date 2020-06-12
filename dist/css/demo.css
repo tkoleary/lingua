@@ -25,3 +25,27 @@ div div {
   font-size: 1.2em;
   margin-bottom: 0.5em;
 }
+
+/* Render items as columns */
+.lang-grid {
+  -webkit-columns: 4;
+     -moz-columns: 4;
+          columns: 4;
+  -webkit-column-gap: 14px;
+     -moz-column-gap: 14px;
+          column-gap: 14px;
+}
+
+.lang-block {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0 0 14px;
+  padding: 1em;
+}
+.lang-block h3 {
+  font-size: 1.3em;
+  font-weight: 100;
+}
+.lang-block p {
+  font-size: 1em;
+}

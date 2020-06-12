@@ -512,24 +512,22 @@
     unicode-range: U+????;
   }
 }
-.lf-sans {
+html {
   font-family: "Noto Sans Regular VF", "Noto Sans", sans-serif;
   font-display: swap;
-}
-
-html:lang(en) {
-  font-family: "Noto Sans Regular VF", "Noto Sans", sans-serif;
   direction: ltr;
 }
-html:lang(en) em,
-html:lang(en) .lf-latin-italic {
+html em,
+html .lf-latin-italic {
   font-style: normal;
   font-family: "Noto Sans Italic VF", "Noto Sans", sans-serif;
+  font-display: swap;
 }
-html:lang(en) pre,
-html:lang(en) code,
-html:lang(en) .lf-latin-mono {
+html pre,
+html code,
+html .lf-latin-mono {
   font-family: "Noto Sans Mono VF", "Noto Sans Mono", monospace;
+  font-display: swap;
 }
 
 *:lang(**-Latn),

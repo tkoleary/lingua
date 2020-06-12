@@ -20,3 +20,23 @@ div div {
 	font-size: 1.2em;
 	margin-bottom: .5em;
 }
+
+/* Render items as columns */
+.lang-grid {
+	columns: 4;
+	column-gap: 14px;
+}
+.lang-block {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 0 0 14px;
+	padding: 1em;
+
+	h3 {
+		font-size: 1.3em;
+		font-weight: 100;
+	}
+	p {
+		font-size: 1em;
+	}
+}
