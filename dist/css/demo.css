@@ -1,9 +1,38 @@
 html {
   font-size: 16px;
 }
+html * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
 
 body {
   margin: 2em 10%;
+  background-color: #5858a1;
+}
+
+body > h1 {
+  color: #fff;
+  font-size: 2.5em;
+}
+
+body > h1,
+body > h2,
+body > p {
+  color: #fff;
+}
+body > h1 > a:link, body > h1 > a:visited, body > h1 > a:hover,
+body > h2 > a:link,
+body > h2 > a:visited,
+body > h2 > a:hover,
+body > p > a:link,
+body > p > a:visited,
+body > p > a:hover {
+  color: #fff;
 }
 
 h3 {
@@ -28,9 +57,9 @@ div div {
 
 /* Render items as columns */
 .lang-grid {
-  -webkit-columns: 4;
-     -moz-columns: 4;
-          columns: 4;
+  -webkit-columns: 4 200px;
+     -moz-columns: 4 200px;
+          columns: 4 200px;
   -webkit-column-gap: 14px;
      -moz-column-gap: 14px;
           column-gap: 14px;
@@ -38,9 +67,11 @@ div div {
 
 .lang-block {
   display: inline-block;
+  min-width: 100%;
   border: 1px solid #ddd;
   margin: 0 0 14px;
   padding: 1em;
+  background-color: #ffffff;
 }
 .lang-block h3 {
   font-size: 1.3em;
@@ -48,4 +79,8 @@ div div {
 }
 .lang-block p {
   font-size: 1em;
+}
+
+.languages {
+  font-size: 0.85em;
 }

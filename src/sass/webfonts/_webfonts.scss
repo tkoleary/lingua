@@ -4,7 +4,7 @@
 $adlam-range:       U+1E900-1E95F, U+2E41; // Uses reversed comma
 $arabic-range:      U+0600-06FF;
 $armenian-range:    U+0530-058F;
-$bamum-range:       U+????;
+$bamum-range:       U+A6A0-A6FF;
 $bengali-range:     U+00-FF, U+980-9FF;
 $cyrillic-range:    U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 $devanagari-range:  U+0900-097F;
@@ -14,14 +14,14 @@ $gujarati-range:    U+0A80-0AFF;
 $gurmukhi-range:    U+0A00-0A7F;
 $hebrew-range:      U+0590-05FF;
 $hangul-jamo-range: U+1100-11FF, U+A960-A97F;
-$japanese-range:    U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F;
+$japanese-range:    U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F; // @todo create file for subset ranges
 $kannada-range:     U+0C80-0CFF;
 $khmer-range:       U+1780-17FF;
 $lao-range:         U+0E80-0EFF;
 $latin-range:       U+????; // U+0020-024F;
 $limbu-range:       U+1900-194F;
 $malayalam-range:   U+0D00-0D7F;
-$myanmar-range:   	U+????;
+$myanmar-range:   	U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 $mongolian-range:   U+1800-18AF, U+11660-1167F;
 $nko-range:         U+07C0-07FF;
 $oriya-range:       U+0B00-0B7F;
@@ -31,10 +31,10 @@ $tamil-range:       U+0B80-0BFF;
 $telugu-range:      U+0C00-0C7F;
 $thaana-range:      U+0780-07BF;
 $thai-range:        U+0E00-0E7F;
-$tibetan-range:     U+????;
+$tibetan-range:     U+0F00-0FFF;
 $urdu-range:        U+0600-06FF;
-$chinese-range:     U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
-$korean-range:      U+????;
+$chinese-range:     U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F; // @todo create file for subset ranges
+$korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B0-D7FF; // @todo create file for subset ranges
 
 // Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
 @mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
@@ -400,7 +400,7 @@ $korean-range:      U+????;
 	}
 	// Variable sans fonts for Devanagari (Hindi)
 	@font-face {
-		@include font-face(Noto, Sans, DevanagariUI, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
 		unicode-range: $devanagari-range;
 	}
 	// Variable serif fonts for Ethiopic
@@ -413,17 +413,17 @@ $korean-range:      U+????;
 		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
 		unicode-range: $greek-range;
 	}
-	// Variable sans fonts for Gurmukhi
+	// Variable sans fonts for Hebrew
 	@font-face {
 		@include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
 		unicode-range: $hebrew-range;
 	}
 	// Variable sans fonts for Hangul Jamo
 	@font-face {
-		@include font-face(Noto, Sans, HangulJamo, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Hangul Jamo, VF, Regular, normal, normal);
 		unicode-range: $hangul-jamo-range;
 	}
-	// Variable sans fonts for Hebrew
+	// Variable sans fonts for Gurmukhi
 	@font-face {
 		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
 		unicode-range: $gurmukhi-range;
@@ -443,15 +443,9 @@ $korean-range:      U+????;
 		@include font-face(Noto, Sans, Mono, VF, Mono, normal, normal);
 		unicode-range: $latin-range;
 	}
-	// Variable sans fonts for Gurmukhi
-	@font-face {
-		@include font-face(Noto, Sans, Mongolian, VF, Regular, normal, normal);
-		unicode-range: $mongolian-range;
-	}
-
 	// Variable sans fonts for Kannada
 	@font-face {
-		@include font-face(Noto, Sans, KannadaUI, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
 		unicode-range: $kannada-range;
 	}
 	// The Variable font for Khmer
@@ -466,18 +460,13 @@ $korean-range:      U+????;
 	}
 	// Variable sans fonts for Lao
 	@font-face {
-		@include font-face(Noto, Sans, LaoUI, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Lao, VF, Regular, normal, normal);
 		unicode-range: $lao-range;
 	}
 	// Variable sans fonts for Malayalam
 	@font-face {
-		@include font-face(Noto, Sans, MalayalamUI, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
 		unicode-range: $malayalam-range;
-	}
-	// Variable sans fonts for Mongolian
-	@font-face {
-		@include font-face(Noto, Sans, Mongolian, VF, Regular, normal, normal);
-		unicode-range: $mongolian-range;
 	}
 	// Variable sans fonts for Myanmar
 	@font-face {
@@ -497,12 +486,12 @@ $korean-range:      U+????;
 	// Variable sans fonts for Sinhala
 	@font-face {
 		@include font-face(Noto, Sans, Sinhala, VF, Regular, normal, normal);
-		unicode-range: $tamil-range;
+		unicode-range: $sinhala-range;
 	}
 	// Variable sans fonts for Tai Le
 	@font-face {
-		@include font-face(Noto, Sans, TaiLe, VF, Regular, normal, normal);
-		unicode-range: $tamil-range;
+		@include font-face(Noto, Sans, Tai Le, VF, Regular, normal, normal);
+		unicode-range: $tai-le-range;
 	}
 	// Variable sans fonts for Tamil
 	@font-face {
@@ -521,7 +510,7 @@ $korean-range:      U+????;
 	}
 	// The variable font for Thai
 	@font-face {
-		@include font-face(Noto, Sans, ThaiUI, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Thai, VF, Regular, normal, normal);
 		unicode-range: $thai-range;
 	}
 	@font-face {

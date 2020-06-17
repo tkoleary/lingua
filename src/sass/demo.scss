@@ -1,8 +1,35 @@
 html {
 	font-size: 16px;
+
+	* {
+		box-sizing: border-box;
+		word-break: break-word;
+    hyphens: auto;
+	}
 }
 body {
 	margin: 2em 10%;
+	background-color: #5858a1;
+}
+body > h1 {
+	color: #fff;
+	font-size: 2.5em;
+}
+body {
+
+	> h1,
+	> h2,
+	> p {
+		color: #fff;
+
+		> a {
+			&:link,
+			&:visited,
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
 }
 h3 {
 	font-size: 1.1rem;
@@ -23,14 +50,16 @@ div div {
 
 /* Render items as columns */
 .lang-grid {
-	columns: 4;
+	columns: 4 200px;
 	column-gap: 14px;
 }
 .lang-block {
 	display: inline-block;
+	min-width: 100%;
 	border: 1px solid #ddd;
 	margin: 0 0 14px;
 	padding: 1em;
+	background-color: #ffffff;
 
 	h3 {
 		font-size: 1.3em;
@@ -39,4 +68,7 @@ div div {
 	p {
 		font-size: 1em;
 	}
+}
+.languages {
+	font-size: .85em;
 }
