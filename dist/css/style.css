@@ -197,7 +197,7 @@
   src: url("../fonts/NotoSansSC-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansSC-Regular.woff") format("woff"), url("../fonts/NotoSansSC-Regular.woff2") format("woff2"), url("../fonts/NotoSansSC-Regular.ttf") format("truetype"), url("../fonts/NotoSansSC-Regular.svg#NotoSansSC-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF;
 }
 @font-face {
   font-family: "Noto Sans SC Bold";
@@ -205,7 +205,7 @@
   src: url("../fonts/NotoSansSC-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansSC-Bold.woff") format("woff"), url("../fonts/NotoSansSC-Bold.woff2") format("woff2"), url("../fonts/NotoSansSC-Bold.ttf") format("truetype"), url("../fonts/NotoSansSC-Bold.svg#NotoSansSC-bold") format("svg");
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF;
 }
 @font-face {
   font-family: "Noto Sans TC Regular";
@@ -213,7 +213,7 @@
   src: url("../fonts/NotoSansTC-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansTC-Regular.woff") format("woff"), url("../fonts/NotoSansTC-Regular.woff2") format("woff2"), url("../fonts/NotoSansTC-Regular.ttf") format("truetype"), url("../fonts/NotoSansTC-Regular.svg#NotoSansTC-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF;
 }
 @font-face {
   font-family: "Noto Sans TC Bold";
@@ -221,7 +221,7 @@
   src: url("../fonts/NotoSansTC-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansTC-Bold.woff") format("woff"), url("../fonts/NotoSansTC-Bold.woff2") format("woff2"), url("../fonts/NotoSansTC-Bold.ttf") format("truetype"), url("../fonts/NotoSansTC-Bold.svg#NotoSansTC-bold") format("svg");
   font-weight: normal;
   font-style: normal;
-  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F;
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF;
 }
 @font-face {
   font-family: "Noto Sans KR Regular";
