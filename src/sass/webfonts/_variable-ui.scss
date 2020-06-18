@@ -1,14 +1,16 @@
-// The web fonts
+// The variable UI versions of Noto web fonts
+// UI fonts are optimized to fit in confined spaces like buttons and controls
 
 // Use in @font-face rules with: unicode-range: $my-variable;
-$bengali-range:     U+00-FF, U+980-9FF;
-$devanagari-range:  U+0900-097F;
-$kannada-range:     U+0C80-0CFF;
-$lao-range:         U+0E80-0EFF;
-$malayalam-range:   U+0D00-0D7F;
-$thai-range:        U+0E00-0E7F;
+$bengali:     U+00-FF, U+980-9FF;
+$devanagari:  U+0900-097F;
+$kannada:     U+0C80-0CFF;
+$lao:         U+0E80-0EFF;
+$malayalam:   U+0D00-0D7F;
+$thai:        U+0E00-0E7F;
 
-// Differs from the webfonts mixin in that 'UI' is inserted.
+// This mixin is implemented below to generate the @font-face rules for all font files
+// It differs from the variable fonts mixin in that 'UI-' is inserted between script and weight
 // Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
 @mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
 	font-family: "#{$family} #{$type} #{$script} UI #{$weight}";
@@ -20,39 +22,38 @@ $thai-range:        U+0E00-0E7F;
 				url('../fonts/#{$family}#{$type}#{$script}UI-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
 	font-weight: $fontWeight;
 	font-style: $fontStyle;
+	font-display: swap;
 }
-
-// ---------------------UI SCRIPTS VARIABLE ---------------------- //
 
 @supports ( font-variation-settings: 'wdth' 200 ) {
 	// Variable sans fonts for Bangla (Bengali)
 	@font-face {
 		@include font-face(Noto, Sans, Bengali, VF, Regular, normal, normal);
-		unicode-range: $devanagari-range;
+		unicode-range: $devanagari;
 	}
 	// Variable sans fonts for Devanagari
 	@font-face {
 		@include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
-		unicode-range: $devanagari-range;
+		unicode-range: $devanagari;
 	}
 	// Variable sans fonts for Kannada
 	@font-face {
 		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
-		unicode-range: $kannada-range;
+		unicode-range: $kannada;
 	}
 	// Variable sans fonts for Lao
 	@font-face {
 		@include font-face(Noto, Sans, Lao, VF, Regular, normal, normal);
-		unicode-range: $lao-range;
+		unicode-range: $lao;
 	}
 	// Variable sans fonts for Malayalam
 	@font-face {
 		@include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
-		unicode-range: $malayalam-range;
+		unicode-range: $malayalam;
 	}
 	// The variable font for Thai
 	@font-face {
 		@include font-face(Noto, Sans, Thai, VF, Regular, normal, normal);
-		unicode-range: $thai-range;
+		unicode-range: $thai;
 	}
 }

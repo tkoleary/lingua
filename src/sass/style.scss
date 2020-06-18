@@ -2,8 +2,12 @@
 // Import the variables
 @import "variables/basefonts";
 @import "variables/self-host";
-@import "webfonts/webfonts";
-@import "webfonts/ui-webfonts";
+@import "variables/unicode-ranges";
+
+// Import the webfonts
+@import "webfonts/static";
+@import "webfonts/variable";
+@import "webfonts/variable-ui";
 
 // Set the base font (fallback)
 @import "script-selectors/all";
@@ -26,7 +30,7 @@
 @import "script-selectors/latin-arabic-devanagari";
 
 // Import the classes for weights and widths
-@import "webfonts/weights";
+@import "classes/weights";
 
 // @todo add fonts for:
 // Hangul jamo

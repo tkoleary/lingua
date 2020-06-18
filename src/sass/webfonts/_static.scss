@@ -1,53 +1,38 @@
-// The web fonts
+// The static versions of the Noto web fonts
 
 // Use in @font-face rules with: unicode-range: $my-variable;
-$adlam-range:       U+1E900-1E95F, U+2E41; // Uses reversed comma
-$arabic-range:      U+0600-06FF;
-$armenian-range:    U+0530-058F;
-$bamum-range:       U+A6A0-A6FF;
-$bengali-range:     U+00-FF, U+980-9FF;
-$cyrillic-range:    U+0400-04FF, U+0500-052F, U+1C80-1C8F;
-$devanagari-range:  U+0900-097F;
-$ethiopic-range:    U+1200-137F, U+1380-139F, U+2D80-2DDF;
-$greek-range:       U+0370-03FF;
-$gujarati-range:    U+0A80-0AFF;
-$gurmukhi-range:    U+0A00-0A7F;
-$hebrew-range:      U+0590-05FF;
-$hangul-jamo-range: U+1100-11FF, U+A960-A97F;
-$japanese-range:    U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F; // @todo create file for subset ranges
-$kannada-range:     U+0C80-0CFF;
-$khmer-range:       U+1780-17FF;
-$lao-range:         U+0E80-0EFF;
-$latin-range:       U+????; // U+0020-024F;
-$limbu-range:       U+1900-194F;
-$malayalam-range:   U+0D00-0D7F;
-$myanmar-range:   	U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
-$mongolian-range:   U+1800-18AF, U+11660-1167F;
-$nko-range:         U+07C0-07FF;
-$oriya-range:       U+0B00-0B7F;
-$sinhala-range:     U+0D80-0DFF;
-$tai-le-range:      U+1950-197F;
-$tamil-range:       U+0B80-0BFF;
-$telugu-range:      U+0C00-0C7F;
-$thaana-range:      U+0780-07BF;
-$thai-range:        U+0E00-0E7F;
-$tibetan-range:     U+0F00-0FFF;
-$urdu-range:        U+0600-06FF;
-$chinese-range:     U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF; // @todo create file for subset ranges
-$korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B0-D7FF; // @todo create file for subset ranges
-
-// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
-	font-family: "#{$family} #{$type} #{$script} #{$weight}";
-	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot');
-	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
-	font-weight: $fontWeight;
-	font-style: $fontStyle;
-}
+$adlam:       U+1E900-1E95F, U+2E41; // Uses reversed comma
+$arabic:      U+0600-06FF;
+$armenian:    U+0530-058F;
+$bamum:       U+A6A0-A6FF;
+$bengali:     U+00-FF, U+980-9FF;
+$chinese:     U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF; // @todo create subset ranges
+$cyrillic:    U+0400-04FF, U+0500-052F, U+1C80-1C8F;
+$devanagari:  U+0900-097F;
+$ethiopic:    U+1200-137F, U+1380-139F, U+2D80-2DDF;
+$greek:       U+0370-03FF;
+$gujarati:    U+0A80-0AFF;
+$gurmukhi:    U+0A00-0A7F;
+$hangul:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B0-D7FF; // @todo create subset ranges
+$hebrew:      U+0590-05FF;
+$japanese:    U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F; // @todo create subset ranges
+$kannada:     U+0C80-0CFF;
+$khmer:       U+1780-17FF;
+$lao:         U+0E80-0EFF;
+$limbu:       U+1900-194F;
+$malayalam:   U+0D00-0D7F;
+$myanmar:   	U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
+$mongolian:   U+1800-18AF, U+11660-1167F;
+$nko:         U+07C0-07FF;
+$oriya:       U+0B00-0B7F;
+$sinhala:     U+0D80-0DFF;
+$tai-le:      U+1950-197F;
+$tamil:       U+0B80-0BFF;
+$telugu:      U+0C00-0C7F;
+$thaana:      U+0780-07BF;
+$thai:        U+0E00-0E7F;
+$tibetan:     U+0F00-0FFF;
+$urdu:        U+0600-06FF;
 
 // The fallback non-variable font
 @font-face {
@@ -58,6 +43,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
 				url("../fonts/NotoSans-Regular.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
+	font-display: swap;
 	unicode-range: U+0020-024F;
 }
 
@@ -70,6 +56,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
 				url("../fonts/NotoSans-Italic.svg") format("svg");
 	font-weight: normal;
 	font-style: italic;
+	font-display: swap;
 	unicode-range: U+0020-024F;
 }
 
@@ -79,6 +66,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans HK';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans HK Regular'), local('NotoSansHK-Regular'),
        url('../fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -92,6 +80,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans HK';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans HK Medium'), local('NotoSansHK-Medium'),
        url('../fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -105,6 +94,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans SC';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans SC Regular'), local('NotoSansSC-Regular'),
        url('../fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -118,6 +108,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans SC';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans SC Medium'), local('NotoSansSC-Medium'),
        url('../fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -131,6 +122,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans TC';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans TC Regular'), local('NotoSansTC-Regular'),
        url('../fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -144,6 +136,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans TC';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans TC Medium'), local('NotoSansTC-Medium'),
        url('../fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -157,6 +150,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-sans-jp-v25-latin_japanese-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'),
        url('../fonts/noto-sans-jp-v25-latin_japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -170,6 +164,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-sans-jp-v25-latin_japanese-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans Japanese Medium'), local('NotoSansJapanese-Medium'),
        url('../fonts/noto-sans-jp-v25-latin_japanese-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -183,6 +178,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
        url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -196,6 +192,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
        url('../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -211,6 +208,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif SC';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif SC'), local('NotoSerifSC-Regular'),
        url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -224,6 +222,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif SC';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif SC Medium'), local('NotoSerifSC-Medium'),
        url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -237,6 +236,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif TC'), local('NotoSerifTC-Regular'),
        url('../fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -250,6 +250,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif TC';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif TC Medium'), local('NotoSerifTC-Medium'),
        url('../fonts/noto-serif-tc-v7-latin_chinese-traditional-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -263,6 +264,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif JP';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-serif-jp-v7-latin_japanese-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif JP'), local('NotoSerifJP-Regular'),
        url('../fonts/noto-serif-jp-v7-latin_japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -276,6 +278,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif JP';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-serif-jp-v7-latin_japanese-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif JP Medium'), local('NotoSerifJP-Medium'),
        url('../fonts/noto-serif-jp-v7-latin_japanese-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -289,6 +292,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif KR';
   font-style: normal;
   font-weight: 500;
+	font-display: swap;
   src: url('../fonts/noto-serif-kr-v6-latin_korean-500.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif KR Medium'), local('NotoSerifKR-Medium'),
        url('../fonts/noto-serif-kr-v6-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -302,6 +306,7 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
   font-family: 'Noto Serif KR';
   font-style: normal;
   font-weight: 400;
+	font-display: swap;
   src: url('../fonts/noto-serif-kr-v6-latin_korean-regular.eot'); /* IE9 Compat Modes */
   src: local('Noto Serif KR'), local('NotoSerifKR-Regular'),
        url('../fonts/noto-serif-kr-v6-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -311,210 +316,68 @@ $korean-range:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B
        url('../fonts/noto-serif-kr-v6-latin_korean-regular.svg#NotoSerifKR') format('svg'); /* Legacy iOS */
 }
 
-// ---------------------- SCRIPTS STATIC ---------------------- //
+// This mixin is implemented below to generate the @font-face rules for all font files
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
+@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
+	font-family: "#{$family} #{$type} #{$script} #{$weight}";
+	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot');
+	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
+	font-weight: $fontWeight;
+	font-style: $fontStyle;
+	font-display: swap;
+}
 
-// No variable fonts are is available for the following
 // Gujarati regular
 @font-face {
 	@include font-face (Noto, Sans, Gujarati, Regular, Regular, normal, normal);
-	unicode-range: $gujarati-range;
+	unicode-range: $gujarati;
 }
 // Gujarati bold
 @font-face {
 	@include font-face (Noto, Sans, Gujarati, Bold, bold, normal, normal);
-	unicode-range: $gujarati-range;
+	unicode-range: $gujarati;
 }
 // Simplified Chinese Regular
 @font-face {
 	@include font-face(Noto, Sans, SC, Regular, Regular, normal, normal);
-	unicode-range: $chinese-range;
+	unicode-range: $chinese;
 }
 // Simplified Chinese Bold
 @font-face {
 	@include font-face(Noto, Sans, SC, Bold, bold, normal, normal);
-	unicode-range: $chinese-range;
+	unicode-range: $chinese;
 }
 // Traditional Chinese Regular
 @font-face {
 	@include font-face(Noto, Sans, TC, Regular, Regular, normal, normal);
-	unicode-range: $chinese-range;
+	unicode-range: $chinese;
 }
 // Traditional Chinese Bold
 @font-face {
 	@include font-face(Noto, Sans, TC, Bold, bold, normal, normal);
-	unicode-range: $chinese-range;
+	unicode-range: $chinese;
 }
 // Korean Regular
 @font-face {
 	@include font-face(Noto, Sans, KR, Regular, Regular, normal, normal);
-	unicode-range: $korean-range;
+	unicode-range: $hangul;
 }
 // Korean Bold
 @font-face {
 	@include font-face(Noto, Sans, KR, Bold, bold, normal, normal);
-	unicode-range: $korean-range;
+	unicode-range: $hangul;
 }
 // Japanese Regular
 @font-face {
 	@include font-face(Noto, Sans, JP, Regular, Regular, normal, normal);
-	unicode-range: $japanese-range;
+	unicode-range: $japanese;
 }
 // Japanese Bold
 @font-face {
 	@include font-face(Noto, Sans, JP, Bold, bold, normal, normal);
-	unicode-range: $japanese-range;
-}
-
-// ---------------------SCRIPTS VARIABLE ---------------------- //
-
-@supports ( font-variation-settings: 'wdth' 200 ) {
-	// Variable sans fonts for Adlam
-	@font-face {
-		@include font-face(Noto, Sans, Adlam, VF, Regular, normal, normal);
-		unicode-range: $adlam-range;
-	}
-	// Variable sans fonts for Arabic
-	@font-face {
-		@include font-face(Noto, Sans, Arabic, VF, Regular, normal, normal);
-		unicode-range: $arabic-range;
-	}
-	// Variable sans fonts for Armenian
-	@font-face {
-		@include font-face(Noto, Sans, Armenian, VF, Regular, normal, normal);
-		unicode-range: $armenian-range;
-	}
-	// Variable sans fonts for Bamum
-	@font-face {
-		@include font-face(Noto, Sans, Bamum, VF, Regular, normal, normal);
-		unicode-range: $bamum-range;
-	}
-	// Variable sans fonts for Bengali
-	@font-face {
-		@include font-face(Noto, Sans, BengaliUI, VF, Regular, normal, normal);
-		unicode-range: $bengali-range;
-	}
-	// Variable sans fonts for Cyrillic
-	@font-face {
-		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
-		unicode-range: $cyrillic-range;
-	}
-	// Variable sans fonts for Devanagari (Hindi)
-	@font-face {
-		@include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
-		unicode-range: $devanagari-range;
-	}
-	// Variable serif fonts for Ethiopic
-	@font-face {
-		@include font-face(Noto, Serif, Ethiopic, VF, Regular, normal, normal);
-		unicode-range: $ethiopic-range;
-	}
-	// Variable sans fonts for Greek
-	@font-face {
-		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
-		unicode-range: $greek-range;
-	}
-	// Variable sans fonts for Hebrew
-	@font-face {
-		@include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
-		unicode-range: $hebrew-range;
-	}
-	// Variable sans fonts for Hangul Jamo
-	@font-face {
-		@include font-face(Noto, Sans, Hangul Jamo, VF, Regular, normal, normal);
-		unicode-range: $hangul-jamo-range;
-	}
-	// Variable sans fonts for Gurmukhi
-	@font-face {
-		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
-		unicode-range: $gurmukhi-range;
-	}
-	// The variable font for Latin, Regular
-	@font-face {
-		@include font-face(Noto, Sans, Regular, VF, Regular, normal, normal);
-		unicode-range: $latin-range;
-	}
-	// The variable font for Latin, Italic
-	@font-face {
-		@include font-face(Noto, Sans, Italic, VF, Italic, normal, normal);
-		unicode-range: $latin-range;
-	}
-	// The variable font for Latin, Mono
-	@font-face {
-		@include font-face(Noto, Sans, Mono, VF, Mono, normal, normal);
-		unicode-range: $latin-range;
-	}
-	// Variable sans fonts for Kannada
-	@font-face {
-		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
-		unicode-range: $kannada-range;
-	}
-	// The Variable font for Khmer
-	@font-face {
-		@include font-face(Noto, Sans, Khmer, VF, Regular, normal, normal);
-		unicode-range: $khmer-range;
-	}
-	// Variable sans fonts for Limbu
-	@font-face {
-		@include font-face(Noto, Sans, Limbu, VF, Regular, normal, normal);
-		unicode-range: $tamil-range;
-	}
-	// Variable sans fonts for Lao
-	@font-face {
-		@include font-face(Noto, Sans, Lao, VF, Regular, normal, normal);
-		unicode-range: $lao-range;
-	}
-	// Variable sans fonts for Malayalam
-	@font-face {
-		@include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
-		unicode-range: $malayalam-range;
-	}
-	// Variable sans fonts for Myanmar
-	@font-face {
-		@include font-face(Noto, Sans, Myanmar, VF, Regular, normal, normal);
-		unicode-range: $myanmar-range;
-	}
-	// Variable sans fonts for NKo
-	@font-face {
-		@include font-face(Noto, Sans, NKo, VF, Regular, normal, normal);
-		unicode-range: $nko-range;
-	}
-	// Variable sans fonts for Oriya
-	@font-face {
-		@include font-face(Noto, Sans, Oriya, VF, Regular, normal, normal);
-		unicode-range: $oriya-range;
-	}
-	// Variable sans fonts for Sinhala
-	@font-face {
-		@include font-face(Noto, Sans, Sinhala, VF, Regular, normal, normal);
-		unicode-range: $sinhala-range;
-	}
-	// Variable sans fonts for Tai Le
-	@font-face {
-		@include font-face(Noto, Sans, Tai Le, VF, Regular, normal, normal);
-		unicode-range: $tai-le-range;
-	}
-	// Variable sans fonts for Tamil
-	@font-face {
-		@include font-face(Noto, Sans, Tamil, VF, Regular, normal, normal);
-		unicode-range: $tamil-range;
-	}
-	// Variable sans fonts for Telugu
-	@font-face {
-		@include font-face(Noto, Sans, Telugu, VF, Regular, normal, normal);
-		unicode-range: $telugu-range;
-	}
-	// Variable sans fonts for Thaana
-	@font-face {
-		@include font-face(Noto, Sans, Thaana, VF, Regular, normal, normal);
-		unicode-range: $thaana-range;
-	}
-	// The variable font for Thai
-	@font-face {
-		@include font-face(Noto, Sans, Thai, VF, Regular, normal, normal);
-		unicode-range: $thai-range;
-	}
-	@font-face {
-		@include font-face(Noto, Sans, Tibetan, VF, Regular, normal, normal);
-		unicode-range: $tibetan-range;
-	}
+	unicode-range: $japanese;
 }
