@@ -1,39 +1,5 @@
 // The static versions of the Noto web fonts
 
-// Use in @font-face rules with: unicode-range: $my-variable;
-$adlam:       U+1E900-1E95F, U+2E41; // Uses reversed comma
-$arabic:      U+0600-06FF;
-$armenian:    U+0530-058F;
-$bamum:       U+A6A0-A6FF;
-$bengali:     U+00-FF, U+980-9FF;
-$chinese:     U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF; // @todo create subset ranges
-$cyrillic:    U+0400-04FF, U+0500-052F, U+1C80-1C8F;
-$devanagari:  U+0900-097F;
-$ethiopic:    U+1200-137F, U+1380-139F, U+2D80-2DDF;
-$greek:       U+0370-03FF;
-$gujarati:    U+0A80-0AFF;
-$gurmukhi:    U+0A00-0A7F;
-$hangul:      U+AC00-D7AF, U+3130-318F, ‎U+1100-11FF, U+A960-A97F, U+D7B0-D7FF; // @todo create subset ranges
-$hebrew:      U+0590-05FF;
-$japanese:    U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F; // @todo create subset ranges
-$kannada:     U+0C80-0CFF;
-$khmer:       U+1780-17FF;
-$lao:         U+0E80-0EFF;
-$limbu:       U+1900-194F;
-$malayalam:   U+0D00-0D7F;
-$myanmar:   	U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
-$mongolian:   U+1800-18AF, U+11660-1167F;
-$nko:         U+07C0-07FF;
-$oriya:       U+0B00-0B7F;
-$sinhala:     U+0D80-0DFF;
-$tai-le:      U+1950-197F;
-$tamil:       U+0B80-0BFF;
-$telugu:      U+0C00-0C7F;
-$thaana:      U+0780-07BF;
-$thai:        U+0E00-0E7F;
-$tibetan:     U+0F00-0FFF;
-$urdu:        U+0600-06FF;
-
 // The fallback non-variable font
 @font-face {
 	font-family: "Noto Sans";
