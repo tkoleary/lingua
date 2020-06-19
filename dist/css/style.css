@@ -4031,6 +4031,19 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
+*:lang(hoc) {
+  font-family: "Noto Sans", "Noto Sans Warang Citi VF", "Noto Sans Warang Citi Regular", "Noto Sans Regular VF", sans-serif;
+  direction: ltr;
+}
+*:lang(hoc) .lf-sans {
+  font-family: "Noto Sans", "Noto Sans Warang Citi VF", "Noto Sans Warang Citi Regular", "Noto Sans Regular VF", sans-serif;
+  direction: ltr;
+}
+*:lang(hoc) .lf-serif {
+  font-family: "Noto Sans", "", "", "Noto Serif Regular VF", serif;
+  direction: ltr;
+}
+
 *:lang(ro),
 *:lang(sr),
 *:lang(gag),
