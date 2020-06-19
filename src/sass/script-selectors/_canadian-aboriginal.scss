@@ -1,0 +1,14 @@
+// Canadian Aboriginal symbols
+
+*:lang() {
+	font-family: $base,$c-aboriginal-sans-vf,$c-aboriginal-sans,$base-sans-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$c-aboriginal-sans-vf,$c-aboriginal-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$c-aboriginal-serif-vf,$c-aboriginal-serif,$base-serif-vf,serif;
+	}
+}

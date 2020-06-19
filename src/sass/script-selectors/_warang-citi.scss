@@ -1,0 +1,16 @@
+// Warang citi script
+
+*:lang(hoc) {
+	font-family: $base,$warang-citi-sans-vf,$warang-citi-sans,$base-sans-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$warang-citi-sans-vf,$warang-citi-sans,$base-sans-vf,sans-serif;
+		direction: ltr;
+	}
+
+	& .lf-serif {
+		font-family: $base,$warang-citi-serif-vf,$warang-citi-serif,$base-serif-vf,serif;
+		direction: ltr;
+	}
+}

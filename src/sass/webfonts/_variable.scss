@@ -39,8 +39,18 @@
 	}
 	// Variable sans fonts for Bengali
 	@font-face {
-		@include font-face(Noto, Sans, BengaliUI, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, Bengali, VF, Regular, normal, normal);
 		unicode-range: $bengali;
+	}
+	// Variable sans fonts for Unified Canadian Aboriginal
+	@font-face {
+		@include font-face(Noto, Sans, Canadian Aboriginal, VF, Regular, normal, normal);
+		unicode-range: $c-aboriginal;
+	}
+	// Variable sans fonts for Cherokee
+	@font-face {
+		@include font-face(Noto, Sans, Cherokee, VF, Regular, normal, normal);
+		unicode-range: $cherokee;
 	}
 	// Variable sans fonts for Cyrillic
 	@font-face {

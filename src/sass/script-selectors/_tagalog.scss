@@ -1,0 +1,16 @@
+// Tagalog script
+
+*:lang(fil) {
+	font-family: $base,$tagalog-sans-vf,$tagalog-sans,$base-sans-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$tagalog-sans-vf,$tagalog-sans,$base-sans-vf,sans-serif;
+		direction: ltr;
+	}
+
+	& .lf-serif {
+		font-family: $base,$tagalog-serif-vf,$tagalog-serif,$base-serif-vf,serif;
+		direction: ltr;
+	}
+}

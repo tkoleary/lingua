@@ -307,6 +307,11 @@
 	@include font-face (Noto, Sans, Gujarati, Bold, bold, normal, normal);
 	unicode-range: $gujarati;
 }
+// Sans fonts for Unified Canadian Aboriginal
+@font-face {
+	@include font-face(Noto, Sans, Canadian Aboriginal, Regular, Regular, normal, normal);
+	unicode-range: $c-aboriginal;
+}
 // Simplified Chinese Regular
 @font-face {
 	@include font-face(Noto, Sans, SC, Regular, Regular, normal, normal);
