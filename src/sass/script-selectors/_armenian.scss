@@ -3,12 +3,12 @@
 *:lang(hy) {
 	font-family: $base,$armenian-sans-vf,$armenian-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
+}
 
-	& .lf-sans {
-		font-family: $base,$armenian-sans-vf,$armenian-sans,$base-sans-vf,sans-serif;
-	}
+.lf-sans:lang(hy) {
+	font-family: $base,$armenian-sans-vf,$armenian-sans,$base-sans-vf,sans-serif;
+}
 
-	& .lf-serif {
-		font-family: $base,$armenian-serif-vf,$armenian-serif,$base-serif-vf,serif;
-	}
+.lf-serif:lang(hy) {
+	font-family: $base,$armenian-serif-vf,$armenian-serif,$base-serif-vf,serif;
 }

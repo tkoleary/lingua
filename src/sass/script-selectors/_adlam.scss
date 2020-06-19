@@ -3,12 +3,12 @@
 *:lang(ff) {
 	font-family: $base,$adlam-sans-vf,$adlam-sans,$base-sans-vf,sans-serif;
 	direction: rtl;
-
-	& .lf-sans {
-		font-family: $base,$adlam-sans-vf,$adlam-sans,$base-sans-vf,sans-serif;
-	}
-
-	& .lf-serif {
-		font-family: $base,$adlam-serif-vf,$adlam-serif,$base-serif-vf,serif;
-	}
 }
+
+.lf-sans:lang(ff) {
+	font-family: $base,$adlam-sans-vf,$adlam-sans,$base-sans-vf,sans-serif;
+}
+
+//	lf-serif:lang(ff) {
+//		font-family: $base,$adlam-serif-vf,$adlam-serif,$base-serif-vf,serif;
+//	}

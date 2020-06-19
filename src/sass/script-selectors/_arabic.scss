@@ -50,8 +50,8 @@
 			font-family: $base,$arabic-sans-ui-vf,$arabic-sans,$base-sans-vf,sans-serif;
 		}
 	}
-
-	&  .lf-serif {
-		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
-	}
 }
+
+//	.lf-serif:lang(ar) {
+//		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
+//	}

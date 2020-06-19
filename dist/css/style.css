@@ -667,11 +667,9 @@ html .lf-latin-mono {
   font-family: "Noto Sans", "Noto Sans Adlam VF", "Noto Sans Adlam Regular", "Noto Sans Regular VF", sans-serif;
   direction: rtl;
 }
-*:lang(ff) .lf-sans {
+
+.lf-sans:lang(ff) {
   font-family: "Noto Sans", "Noto Sans Adlam VF", "Noto Sans Adlam Regular", "Noto Sans Regular VF", sans-serif;
-}
-*:lang(ff) .lf-serif {
-  font-family: "Noto Sans", "Noto Serif Adlam VF", "Noto Serif Adlam Regular", "Noto Serif Regular VF", serif;
 }
 
 *:lang(ar),
@@ -801,57 +799,17 @@ html .lf-latin-mono {
 *:lang(trw) .lf-sans .lf-ui {
   font-family: "Noto Sans", "Noto Sans Arabic UI VF", "Noto Sans Arabic Regular", "Noto Sans Regular VF", sans-serif;
 }
-*:lang(ar) .lf-serif,
-*:lang(fa) .lf-serif,
-*:lang(ps) .lf-serif,
-*:lang(ur) .lf-serif,
-*:lang(wni) .lf-serif,
-*:lang(zdj) .lf-serif,
-*:lang(aeb) .lf-serif,
-*:lang(arq) .lf-serif,
-*:lang(ars) .lf-serif,
-*:lang(ary) .lf-serif,
-*:lang(arz) .lf-serif,
-*:lang(bej) .lf-serif,
-*:lang(bgn) .lf-serif,
-*:lang(bqi) .lf-serif,
-*:lang(ckb) .lf-serif,
-*:lang(dcc) .lf-serif,
-*:lang(doi) .lf-serif,
-*:lang(fia) .lf-serif,
-*:lang(gbz) .lf-serif,
-*:lang(gjk) .lf-serif,
-*:lang(gju) .lf-serif,
-*:lang(glk) .lf-serif,
-*:lang(haz) .lf-serif,
-*:lang(hnd) .lf-serif,
-*:lang(hno) .lf-serif,
-*:lang(khw) .lf-serif,
-*:lang(kvx) .lf-serif,
-*:lang(kxp) .lf-serif,
-*:lang(lah) .lf-serif,
-*:lang(lki) .lf-serif,
-*:lang(lrc) .lf-serif,
-*:lang(luz) .lf-serif,
-*:lang(mfa) .lf-serif,
-*:lang(mvy) .lf-serif,
-*:lang(mzn) .lf-serif,
-*:lang(prd) .lf-serif,
-*:lang(rmt) .lf-serif,
-*:lang(sdh) .lf-serif,
-*:lang(skr) .lf-serif,
-*:lang(trw) .lf-serif {
-  font-family: "Noto Sans", "Noto Serif Arabic VF", "Noto Serif Arabic Regular", "Noto Serif Regular VF", serif;
-}
 
 *:lang(hy) {
   font-family: "Noto Sans", "Noto Sans Armenian VF", "Noto Sans Armenian Regular", "Noto Sans Regular VF", sans-serif;
   direction: ltr;
 }
-*:lang(hy) .lf-sans {
+
+.lf-sans:lang(hy) {
   font-family: "Noto Sans", "Noto Sans Armenian VF", "Noto Sans Armenian Regular", "Noto Sans Regular VF", sans-serif;
 }
-*:lang(hy) .lf-serif {
+
+.lf-serif:lang(hy) {
   font-family: "Noto Sans", "Noto Serif Armenian VF", "Noto Serif Armenian Regular", "Noto Serif Regular VF", serif;
 }
 
