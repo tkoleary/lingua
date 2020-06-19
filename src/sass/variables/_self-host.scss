@@ -3,18 +3,23 @@
 // STATIC FONTS
 
 // by script, sc=simplified chinese, tc=traditional chinese, kr=korean, jp=japanese
-// Sans
+// Sstatic sans
 $adlam-sans:					'Noto Sans Adlam Regular';
 $arabic-sans:					'Noto Sans Arabic Regular';
 $armenian-sans:				'Noto Sans Armenian Regular';
 $bamum-sans:					'Noto Sans Bamum Regular';
-$bengali-sans:				'Noto Sans Bengali Regular'; // For some reason the Noto font is called Bengali, not Bangla
-$chinese-s-sans:			'Noto Sans SC';
-$chinese-hk-sans:			'Noto Sans HK';
-$chinese-t-sans:			'Noto Sans TC';
-$cyrillic-sans:				'Noto Sans LGC';
+$bengali-sans:				'Noto Sans Bengali Regular'; // The Noto font is named for the language, Bengali, not the script, Bangla
+$brahmi-sans:					'Noto Sans Brahmi Regular';
+$buginese-sans:				'Noto Sans Buginese Regular';
+$buhid-sans:					'Noto Sans Buhid Regular';
+$c-aboriginal-sans:		'Noto Sans Canadian Aboriginal Regular';
+$chinese-s-sans:			'Noto Sans SC'; // Simplified chinese
+$chinese-hk-sans:			'Noto Sans HK'; // Hongkong chinese
+$chinese-t-sans:			'Noto Sans TC'; // Traditional chinese
+$cyrillic-sans:				'Noto Sans LGC'; // combined latin, greek cyrillic
 $devanagari-sans:			'Noto Sans Devanagari Regular';
-$greek-sans:					'Noto Sans LGC';
+$georgian-sans:				''; // No font available
+$greek-sans:					'Noto Sans LGC'; // combined latin, greek cyrillic
 $gujarati-sans:				'Noto Sans Gujarati Regular';
 $gujarati-sans-bold:	'Noto Sans Gujarati Bold';
 $gurmukhi-sans:				'Noto Sans Gurmukhi Regular';
@@ -25,8 +30,6 @@ $kayah-sans:					'Noto Sans Kayah Regular';
 $khmer-sans:					'Noto Sans Khmer Regular';
 $korean-sans:					'Noto Sans KR';
 $latin-sans:					'Noto Sans';
-$latin-sans-italic:		'Noto Sans Italic';
-$latin-serif-italic:	'Noto Sans Italic';
 $lao-sans:						'Noto Sans Lao Regular';
 $limbu:								'Noto Sans Limbu Regular';
 $malayalam-sans:			'Noto Sans Malayalam Regular';
@@ -41,18 +44,27 @@ $telugu-sans:					'Noto Sans Telugu Regular';
 $thaana-sans:					'Noto Sans Thaana Regular';
 $thai-sans:						'Noto Sans Thai Regular';
 $tibetan-sans:				'Noto Sans Tibetan Regular';
-// Serif
+// Static sans Italic
+$latin-sans-italic:		'Noto Sans Italic';
+// Static sans monospace
+$latin-sans-mono:			'Noto Sans Mono';
+
+// Static serif
 $adlam-serif:					'Noto Serif Adlam Regular';
 $arabic-serif:				'Noto Serif Arabic Regular';
 $armenian-serif:			'Noto Serif Armenian Regular';
 $bamum-serif:					'Noto Serif Bamum Regular';
 $bengali-serif:				'Noto Serif Bengali Regular';
-$chinese-s-serif:			'Noto Serif SC';
-$chinese-hk-serif:		'Noto Serif HK';
-$chinese-t-serif:			'Noto Serif TC';
+$brahmi-sans:					''; // No font available
+$buginese-sans:				''; // No font available
+$buhid-sans:					''; // No font available
+$chinese-s-serif:			'Noto Serif SC'; // Simplified chinese
+$chinese-hk-serif:		'Noto Serif HK'; // Hongkong chinese
+$chinese-t-serif:			'Noto Serif TC'; // Traditional chinese
 $cyrillic-serif:			'Noto Serif';
 $devanagari-serif:		'Noto Serif Devanagari';
 $ethiopic-serif:			'Noto Serif Ethiopic Regular';
+$georgian-serif:			'Noto Serif Georgian Regular';
 $greek-serif:					'Noto Serif';
 $gujarati-serif:			'Noto Serif Gujarati Regular';
 $gurmukhi-serif:			'Noto Serif Gurmukhi Regular';
@@ -62,7 +74,6 @@ $kannada-serif:				'Noto Serif Kannada Regular';
 $kayah-serif:					'Noto Serif Kayah Regular';
 $khmer-serif:					'Noto Serif Khmer Regular';
 $latin-serif:					'Noto Serif';
-$latin-serif-italic:	'Noto Serif Italic';
 $lao-serif:						'Noto Serif Lao Regular';
 $limbu:								'Noto Serif Limbu Regular';
 $malayalam-serif:			'Noto Serif Malayalam Regular';
@@ -77,29 +88,36 @@ $telugu-serif:				'Noto Serif Telugu Regular ';
 $thaana-serif:				'Noto Serif Thaana Regular';
 $thai-serif:					'Noto Serif Thai Regular';
 $tibetan-serif:				'Noto Serif Tibetan Regular';
-// Mono
-$latin-mono:					'Noto Sans Mono';
+// Serif Italic
+$latin-serif-italic:	'Noto Serif Italic';
 
 // VARIABLE FONTS
 
-// Sans
+// Variable sans
 $adlam-sans-vf:					'Noto Sans Adlam VF';
 $arabic-sans-vf:				'Noto Sans Arabic VF';
 $armenian-sans-vf:			'Noto Sans Armenian VF';
 $bamum-sans-vf:					'Noto Sans Bamum VF';
 $bengali-sans-vf:				'Noto Sans Bengali VF';
-$cyrillic-sans-vf:			'Noto Sans LGC VF';
+$brahmi-sans-vf:				''; // No variable font available
+$buginese-sans-vf:			''; // No variable font available
+$buhid-sans-vf:					''; // No variable font available
+$c-aboriginal-sans-vf:	'Noto Sans Canadian Aboriginal VF';
+$cham-sans-vf:					'Noto Sans Cham VF';
+$cherokee-sans-vf:			'Noto Sans Cherokee VF';
+$chinese-s-sans-vf:			''; // No variable font available
+$chinese-hk-sans-vf:		''; // No variable font available
+$chinese-t-sans-vf:			''; // No variable font available
+$cyrillic-sans-vf:			'Noto Sans LGC VF'; // combined latin, greek cyrillic
 $devanagari-sans-vf:		'Noto Sans Devanagari VF';
-$greek-sans-vf:					'Noto Sans LGC VF';
+$georgian-sans-vf:			'Noto Sans Georgian VF';
+$greek-sans-vf:					'Noto Sans LGC VF'; // combined latin, greek cyrillic
 $gurmukhi-sans-vf:			'Noto Sans Gurmukhi VF';
-$hangul-Jamo-sans-vf:		'Noto Sans HangulJamo VF';
 $hebrew-sans-vf:				'Noto Sans Hebrew VF';
 $kannada-sans-vf:				'Noto Sans Kannada VF';
 $kayah-sans-vf:					'Noto Sans Kayah VF';
 $khmer-sans-vf:					'Noto Sans Khmer VF';
 $latin-sans-vf:					'Noto Sans Regular VF';
-$latin-sans-italic-vf:	'Noto Sans Italic VF';
-$latin-serif-italic-vf:	'Noto Sans Italic VF';
 $lao-sans-vf:						'Noto Sans Lao VF';
 $limbu-vf:							'Noto Sans Limbu VF';
 $malayalam-sans-vf:			'Noto Sans Malayalam VF';
@@ -114,24 +132,35 @@ $telugu-sans-vf:				'Noto Sans Telugu VF';
 $thaana-sans-vf:				'Noto Sans Thaana VF';
 $thai-sans-vf:					'Noto Sans Thai VF';
 $tibetan-sans-vf:				'Noto Sans Tibetan VF';
-// Serif
+// Variable sans italic
+$elemaic-sans-italic-vf:'Noto Sans Elemaic Italic VF';
+$latin-sans-italic-vf:	'Noto Sans Italic VF';
+// Variable sans mono
+$latin-sans-mono-vf:    'Noto Sans Mono VF';
+
+// Variable serif
 $ethiopic-serif-vf:			'Noto Serif Ethiopic VF';
 $adlam-serif-vf:				'Noto Serif Adlam VF';
 $arabic-serif-vf:				'Noto Serif Arabic VF';
 $armenian-serif-vf:			'Noto Serif Armenian VF';
 $bamum-serif-vf:				'Noto Serif Bamum VF';
 $bengali-serif-vf:			'Noto Serif Bengali VF';
-$cyrillic-serif-vf:			'Noto Serif LGC VF';
+$brahmi-serif-vf:				''; // No variable font available
+$buginese-serif-vf:			''; // No variable font available
+$buhid-serif-vf:				''; // No variable font available
+$chinese-s-serif-vf:		''; // No variable font available
+$chinese-hk-serif-vf:		''; // No variable font available
+$chinese-t-serif-vf:		''; // No variable font available
+$cyrillic-serif-vf:			'Noto Serif LGC VF'; // combined latin, greek cyrillic
 $devanagari-serif-vf:		'Noto Serif Devanagari VF';
-$greek-serif-vf:				'Noto Serif LGC VF';
+$georgian-serif-vf:			'Noto Serif Georgian VF';
+$greek-serif-vf:				'Noto Serif LGC VF'; // combined latin, greek cyrillic
 $gurmukhi-serif-vf:			'Noto Serif Gurmukhi VF';
 $hebrew-serif-vf:				'Noto Serif Hebrew VF';
 $kannada-serif-vf:			'Noto Serif Kannada VF';
 $kayah-serif-vf:				'Noto Serif Kayah VF';
 $khmer-serif-vf:				'Noto Serif Khmer VF';
 $latin-serif-vf:				'Noto Serif Regular VF';
-$latin-serif-italic-vf:	'Noto Serif Italic VF';
-$latin-serif-italic-vf:	'Noto Serif Italic VF';
 $lao-serif-vf:					'Noto Serif Lao VF';
 $limbu-vf:							'Noto Serif Limbu VF';
 $malayalam-serif-vf:		'Noto Serif Malayalam VF';
@@ -146,10 +175,10 @@ $telugu-serif-vf:				'Noto Serif Telugu VF';
 $thaana-serif-vf:				'Noto Serif Thaana VF';
 $thai-serif-vf:					'Noto Serif Thai VF';
 $tibetan-serif-vf:			'Noto Serif Tibetan VF';
-// Mono
-$latin-mono-vf:         'Noto Sans Mono VF';
+// Variable serif italic
+$latin-serif-italic-vf:	'Noto Serif Italic VF';
 
-// UI fonts, designed to be more compact for use in buttons and controls
+// Variable UI fonts, designed to be more compact for use in buttons and controls
 $bengali-sans-ui-vf:			'Noto Sans Bengali UI VF';
 $devanagari-sans-ui-vf:		'Noto Sans Devanagari UI VF';
 $kannada-sans-ui-vf:			'Noto Sans Kannada UI VF';

@@ -327,6 +327,11 @@
 	@include font-face(Noto, Sans, TC, Bold, bold, normal, normal);
 	unicode-range: $chinese;
 }
+// Brahmi regular
+@font-face {
+	@include font-face(Noto, Sans, Brahmi, Bold, bold, normal, normal);
+	unicode-range: $brahmi;
+}
 // Korean Regular
 @font-face {
 	@include font-face(Noto, Sans, KR, Regular, Regular, normal, normal);
