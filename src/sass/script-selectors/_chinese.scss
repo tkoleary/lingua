@@ -17,7 +17,7 @@
 *:lang(wuu-Hans),
 *:lang(yue-Hans),
 *:lang(za-Hans),
-*:lang(lzh-Hans){
+*:lang(lzh-Hans) {
 	font-family: $base,$chinese-s-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
@@ -30,6 +30,10 @@
 	em {
 		font-style: normal;
 		text-emphasis: dot;
+	}
+
+	& .lf-serif {
+		font-family: $base,$chinese-s-serif,$base-serif-vf,serif;
 	}
 }
 
@@ -47,7 +51,7 @@
 	font-family: $base,$chinese-t-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .bold {
+	strong {
 		font-weight: bold;
 		font-family: $base,$chinese-t-sans,$base-sans-vf,sans-serif;
 	}
@@ -56,5 +60,9 @@
 	em {
 		font-style: normal;
 		text-emphasis: dot;
+	}
+
+	& .lf-serif {
+		font-family: $base,$chinese-t-serif,$base-serif-vf,serif;
 	}
 }

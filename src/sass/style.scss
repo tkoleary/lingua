@@ -13,18 +13,35 @@
 @import "script-selectors/all";
 
 // Import files to load scripts based on the :lang property
-@import "script-selectors/latin";
-@import "script-selectors/single-script-serif";
-@import "script-selectors/single-script";
+@import "script-selectors/adlam";
 @import "script-selectors/arabic";
-@import "script-selectors/cyrillic";
+@import "script-selectors/armenian";
+@import "script-selectors/bamum";
+@import "script-selectors/bangla";
 @import "script-selectors/chinese";
+@import "script-selectors/cyrillic";
 @import "script-selectors/devanagari";
 @import "script-selectors/ethiopic";
 @import "script-selectors/greek";
+@import "script-selectors/gujarati";
+@import "script-selectors/gurmukhi";
+@import "script-selectors/hangul";
 @import "script-selectors/hebrew";
 @import "script-selectors/japanese";
-@import "script-selectors/korean";
+@import "script-selectors/kannada";
+@import "script-selectors/khmer";
+@import "script-selectors/latin";
+@import "script-selectors/lao";
+@import "script-selectors/malayalam";
+@import "script-selectors/myanmar";
+@import "script-selectors/oriya";
+@import "script-selectors/sinhala";
+@import "script-selectors/tamil";
+@import "script-selectors/telugu";
+@import "script-selectors/thai";
+@import "script-selectors/tibetan";
+
+// Files for languages that may be written in more than one script
 @import "script-selectors/latin-cyrillic";
 @import "script-selectors/latin-cyrillic-arabic";
 @import "script-selectors/latin-arabic-devanagari";
@@ -33,14 +50,11 @@
 @import "classes/weights";
 
 // @todo add fonts for:
-// Hangul jamo
+//
 
 // @todo add examples for:
-// Gurmukhi
 // Limbu
 // NKo
-// Oriya
-// Sinhala
 // Tai le
 
 // @todo add webfont kits for:

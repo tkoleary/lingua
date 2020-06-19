@@ -11,6 +11,14 @@
 *:lang(udm) {
 	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	direction: ltr;
+
+	& .lf-sans {
+		font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base,serif;
+	}
 }
 
 // Cyrillic is explicit
@@ -24,8 +32,15 @@
 *:lang(udm-Cyrl) {
 	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	direction: ltr;
-}
 
+	& .lf-sans {
+		font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base,serif;
+	}
+}
 
 // Latin is explicit
 *:lang(ro-Latn),
@@ -38,4 +53,12 @@
 *:lang(udm-Latn) {
 	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
+
+	& .lf-sans {
+		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
+	}
 }

@@ -1,0 +1,16 @@
+// Telugu script
+
+*:lang(te) {
+	font-family: $base,$telugu-sans-vf,$telugu-sans,$base-sans-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$telugu-sans-vf,$telugu-sans,$base-sans-vf,sans-serif;
+		direction: ltr;
+	}
+
+	& .lf-serif {
+		font-family: $base,$telugu-serif-vf,$telugu-serif,$base-serif-vf,serif;
+		direction: ltr;
+	}
+}

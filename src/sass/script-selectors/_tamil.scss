@@ -1,0 +1,16 @@
+// Tamil script
+
+*:lang(ta) {
+	font-family: $base,$tamil-sans-vf,$tamil-sans,$base-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$tamil-sans-vf,$tamil-sans,$base-vf,sans-serif;
+		direction: ltr;
+	}
+
+	& .lf-serif {
+		font-family: $base,$tamil-serif-vf,$tamil-serif,$base-vf,serif;
+		direction: ltr;
+	}
+}

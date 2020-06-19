@@ -1,29 +1,5 @@
-// Non-latin scripts -serif
 
-*:lang(ff) {
-	font-family: $base,$adlam-serif-vf,$adlam-serif,$base-serif-vf,serif;
-	direction: rtl;
-}
-*:lang(hy) {
-	font-family: $base,$armenian-serif-vf,$armenian-serif,$base-serif-vf,serif;
-	direction: ltr;
-}
-*:lang(bax) {
-	font-family: $base,$bamum-serif-vf,$bamum-serif,$base-serif-vf,serif;
-	direction: ltr;
-}
-*:lang(bn) {
-	font-family: $base,$bengali-serif-vf,$bengali-serif,$base-serif-vf,serif;
-	direction: ltr;
-}
-*:lang(gu) {
-	font-family: $base,$gujarati-serif,$base-serif-vf,serif;
-	direction: ltr;
-}
-*:lang(gi) {
-	font-family: $base,$gurmukhi-serif-vf,$gurmukhi-serif,$base-serif-vf,serif;
-	direction: ltr;
-}
+
 *:lang(kn) {
 	font-family: $base,$kannada-serif-vf,$kannada-serif,$base-vf,serif;
 	direction: ltr;

@@ -1,0 +1,14 @@
+// Kannada script
+
+*:lang(kn) {
+	font-family: $base,$kannada-sans-vf,$kannada-sans,$base-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$kannada-sans-vf,$kannada-sans,$base-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$kannada-serif-vf,$kannada-serif,$base-vf,serif;
+	}
+}

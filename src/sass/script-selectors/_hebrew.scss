@@ -8,4 +8,12 @@
 *:lang(yi) {
 	font-family: $hebrew-sans-vf,$hebrew-sans,$base-sans-vf,$base-sans,sans-serif;
 	direction: rtl;
+
+	& .lf-sans {
+		font-family: $hebrew-sans-vf,$hebrew-sans,$base-sans-vf,$base-sans,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $hebrew-serif-vf,$hebrew-serif,$base-serif-vf,$base-serif,sans-serif;
+	}
 }

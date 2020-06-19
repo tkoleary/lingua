@@ -1,0 +1,14 @@
+// Bangla (Bengali) script
+
+*:lang(bn) {
+	font-family: $base,$bengali-sans-vf,$bengali-sans,$base-sans-vf,sans-serif;
+	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$bengali-sans-vf,$bengali-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$bengali-serif-vf,$bengali-serif,$base-serif-vf,serif;
+	}
+}

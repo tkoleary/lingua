@@ -308,4 +308,12 @@
 	.lf-latin-mono {
 		font-family: $latin-mono-vf,$latin-mono,monospace;
 	}
+
+	& .lf-sans {
+		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
+	}
 }

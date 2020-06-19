@@ -8,4 +8,12 @@
 	.bold {
 		font-family: $base,$japanese-sans,$base-sans-vf,sans-serif;
 	}
+
+	& .lf-sans {
+		font-family: $base,$japanese-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$japanese-serif,$base-serif-vf,serif;
+	}
 }

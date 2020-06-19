@@ -51,6 +51,14 @@
 *:lang(wtm),
 *:lang(xnr),
 *:lang(xsr) {
-	font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif !important;
+	font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
+	}
 }

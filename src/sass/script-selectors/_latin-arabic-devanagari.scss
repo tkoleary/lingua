@@ -7,6 +7,14 @@
 *:lang(sd) {
 	font-family: $devanagari-sans-vf,$devanagari-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
+	}
 }
 
 // Devanagari script is explicit
@@ -16,6 +24,14 @@
 *:lang(sd-Deva) {
 	font-family: $devanagari-sans-vf,$devanagari-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
+
+	& .lf-sans {
+		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
+	}
 }
 
 // Arabic script is explicit
@@ -25,6 +41,14 @@
 *:lang(sd-Arab) {
 	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
 	direction: rtl;
+
+	&  .lf-sans {
+		font-family: $base,$arabic-sans-vf,$arabic-sans,$base-sans-vf,sans-serif;
+	}
+
+	&  .lf-serif {
+		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
+	}
 }
 
 // Latin script is explicit
@@ -34,4 +58,12 @@
 *:lang(sd-Latn) {
 	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
+
+	& .lf-sans {
+		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
+	}
 }

@@ -1,10 +1,14 @@
-// Korean script languages
+// Hangul (Korean) script languages
 
 *:lang(ko) {
 	font-family: $base,$korean-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .bold {
+	& .lf-sans {
 		font-family: $base,$korean-sans,$base-sans-vf,sans-serif;
+	}
+
+	& .lf-serif {
+		font-family: $base,$korean-serif,$base-serif-vf,serif;
 	}
 }
