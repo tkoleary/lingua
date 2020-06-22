@@ -297,6 +297,11 @@
 	font-display: swap;
 }
 
+// Armenian serif regular
+@font-face {
+	@include font-face (Noto, Serif, Armenian, Regular, Regular, normal, normal);
+	unicode-range: $armenian;
+}
 // Gujarati regular
 @font-face {
 	@include font-face (Noto, Sans, Gujarati, Regular, Regular, normal, normal);

@@ -195,6 +195,15 @@
   /* Legacy iOS */
 }
 @font-face {
+  font-family: "Noto Serif Armenian Regular";
+  src: url("../fonts/NotoSerifArmenian-Regular.eot");
+  src: url("../fonts/NotoSerifArmenian-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerifArmenian-Regular.woff") format("woff"), url("../fonts/NotoSerifArmenian-Regular.woff2") format("woff2"), url("../fonts/NotoSerifArmenian-Regular.ttf") format("truetype"), url("../fonts/NotoSerifArmenian-Regular.svg#NotoSerifArmenian-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0530-058F;
+}
+@font-face {
   font-family: "Noto Sans Gujarati Regular";
   src: url("../fonts/NotoSansGujarati-Regular.eot");
   src: url("../fonts/NotoSansGujarati-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansGujarati-Regular.woff") format("woff"), url("../fonts/NotoSansGujarati-Regular.woff2") format("woff2"), url("../fonts/NotoSansGujarati-Regular.ttf") format("truetype"), url("../fonts/NotoSansGujarati-Regular.svg#NotoSansGujarati-Regular") format("svg");
