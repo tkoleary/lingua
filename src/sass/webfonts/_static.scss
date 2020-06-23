@@ -302,6 +302,16 @@
 	@include font-face (Noto, Serif, Armenian, Regular, Regular, normal, normal);
 	unicode-range: $armenian;
 }
+// Balinese sans regular
+@font-face {
+	@include font-face (Noto, Sans, Balinese, Regular, Regular, normal, normal);
+	unicode-range: $balinese;
+}
+// Bangla (Beengali) sans regular
+@font-face {
+	@include font-face (Noto, Sans, Bengali, Regular, Regular, normal, normal);
+	unicode-range: $bengali;
+}
 // Gujarati regular
 @font-face {
 	@include font-face (Noto, Sans, Gujarati, Regular, Regular, normal, normal);
@@ -317,7 +327,7 @@
 	@include font-face(Noto, Sans, Canadian Aboriginal, Regular, Regular, normal, normal);
 	unicode-range: $c-aboriginal;
 }
-// Simplified Chinese Regular
+/* Simplified Chinese Regular
 @font-face {
 	@include font-face(Noto, Sans, SC, Regular, Regular, normal, normal);
 	unicode-range: $chinese;
@@ -336,13 +346,13 @@
 @font-face {
 	@include font-face(Noto, Sans, TC, Bold, bold, normal, normal);
 	unicode-range: $chinese;
-}
+}*/
 // Brahmi regular
 @font-face {
 	@include font-face(Noto, Sans, Brahmi, Bold, bold, normal, normal);
 	unicode-range: $brahmi;
 }
-// Korean Regular
+/* Korean Regular
 @font-face {
 	@include font-face(Noto, Sans, KR, Regular, Regular, normal, normal);
 	unicode-range: $hangul;
@@ -361,4 +371,8 @@
 @font-face {
 	@include font-face(Noto, Sans, JP, Bold, bold, normal, normal);
 	unicode-range: $japanese;
+}*/
+@font-face {
+	@include font-face(Noto, Sans, Thaana, Regular, Regular, normal, normal);
+	unicode-range: $brahmi;
 }
