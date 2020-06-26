@@ -9,19 +9,20 @@
 *:lang(se),
 *:lang(tkr),
 *:lang(udm) {
-	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base,serif;
+		font-family: $base-serif-vf,$base-serif,$cyrillic-serif-vf,$cyrillic-serif,serif;
 	}
 }
 
 // Cyrillic is explicit
+*:lang(Cyrl),
 *:lang(ro-Cyrl),
 *:lang(sr-Cyrl),
 *:lang(gag-Cyrl),
@@ -30,15 +31,15 @@
 *:lang(se-Cyrl),
 *:lang(tkr-Cyrl),
 *:lang(udm-Cyrl) {
-	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base,serif;
+		font-family: $base-serif-vf,$base-serif,$cyrillic-serif-vf,$cyrillic-serif,serif;
 	}
 }
 

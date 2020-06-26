@@ -1,14 +1,14 @@
 // Gurmukhi script
 
 *:lang(gi) {
-	font-family: $base,$gurmukhi-sans-vf,$gurmukhi-sans,$base-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$gurmukhi-sans-vf,$gurmukhi-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$gurmukhi-sans-vf,$gurmukhi-sans,$base-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$gurmukhi-sans-vf,$gurmukhi-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$gurmukhi-serif-vf,$gurmukhi-serif,$base-serif-vf,serif;
+		font-family: $base-serif-vf,$base,$gurmukhi-serif-vf,$gurmukhi-serif,serif;
 	}
 }

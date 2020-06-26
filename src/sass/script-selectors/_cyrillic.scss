@@ -1,5 +1,6 @@
 // Cyrillic script languages
 
+*:lang(Cyrl),
 *:lang(be),
 *:lang(bg),
 *:lang(mk),
@@ -49,14 +50,14 @@
 *:lang(ude),
 *:lang(xal),
 *:lang(yrk) {
-	font-family: $base,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base-sans,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
 	.lf-sans  {
-		font-family: $base,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base-sans,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base-serif,serif;
+		font-family: $base-serif-vf,$base-serif,$cyrillic-serif-vf,$cyrillic-serif,serif;
 	}
 }

@@ -9,11 +9,11 @@
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
 	}
 
-	& .lf-serif {
-		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
+	.lf-serif {
+		font-family: $base-sans-vf,$base-sans,$devanagari-serif-vf,$devanagari-serif,serif;
 	}
 }
 
@@ -22,48 +22,50 @@
 *:lang(hif-Deva),
 *:lang(ks-Deva),
 *:lang(sd-Deva) {
-	font-family: $devanagari-sans-vf,$devanagari-sans,$base-sans,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
 	}
 
-	& .lf-serif {
-		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
+	.lf-serif {
+		font-family: $base-serif-vf,$base-serif,$devanagari-serif-vf,$devanagari-serif,serif;
 	}
 }
 
 // Arabic script is explicit
+*:lang(Arab),
 *:lang(hi-Arab),
 *:lang(hif-Arab),
 *:lang(ks-Arab),
 *:lang(sd-Arab) {
-	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	direction: rtl;
 
-	&  .lf-sans {
-		font-family: $base,$arabic-sans-vf,$arabic-sans,$base-sans-vf,sans-serif;
+	.lf-sans {
+		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	}
 
-	&  .lf-serif {
-		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
+	.lf-serif {
+		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
 	}
 }
 
 // Latin script is explicit
+*:lang(Latn),
 *:lang(hi-Latn),
 *:lang(hif-Latn),
 *:lang(ks-Latn),
 *:lang(sd-Latn) {
-	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
 	}
 
-	& .lf-serif {
-		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
+	.lf-serif {
+		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
 	}
 }

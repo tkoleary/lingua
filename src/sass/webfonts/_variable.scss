@@ -72,9 +72,34 @@
 		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
 		unicode-range: $greek;
 	}
+	// Variable sans fonts for Gujarati
+	@font-face {
+		@include font-face(Noto, Sans, Gujarati, VF, Regular, normal, normal);
+		unicode-range: $gujarati;
+	}
+	// Variable serif fonts for Gujarati
+	@font-face {
+		@include font-face(Noto, Serif, Gujarati, VF, Regular, normal, normal);
+		unicode-range: $gujarati;
+	}
+	// Variable sans fonts for Gurmukhi
+	@font-face {
+		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
+		unicode-range: $gurmukhi;
+	}
+	// Variable serif fonts for Gurmukhi
+	@font-face {
+		@include font-face(Noto, Serif, Gurmukhi, VF, Regular, normal, normal);
+		unicode-range: $gurmukhi;
+	}
 	// Variable sans fonts for Hebrew
 	@font-face {
 		@include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
+		unicode-range: $hebrew;
+	}
+	// Variable serif fonts for Hebrew
+	@font-face {
+		@include font-face(Noto, Serif, Hebrew, VF, Regular, normal, normal);
 		unicode-range: $hebrew;
 	}
 	// Variable sans fonts for Gurmukhi
@@ -99,15 +124,20 @@
 		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
 		unicode-range: $kannada;
 	}
-	// The Variable font for Khmer
+	// The Variable sans font for Khmer
 	@font-face {
 		@include font-face(Noto, Sans, Khmer, VF, Regular, normal, normal);
+		unicode-range: $khmer;
+	}
+	// The Variable serif font for Khmer
+	@font-face {
+		@include font-face(Noto, Serif, Khmer, VF, Regular, normal, normal);
 		unicode-range: $khmer;
 	}
 	// Variable sans fonts for Limbu
 	@font-face {
 		@include font-face(Noto, Sans, Limbu, VF, Regular, normal, normal);
-		unicode-range: $tamil;
+		unicode-range: $limbu;
 	}
 	// Variable sans fonts for Lao
 	@font-face {
@@ -149,14 +179,29 @@
 		@include font-face(Noto, Sans, Tamil, VF, Regular, normal, normal);
 		unicode-range: $tamil;
 	}
+	// Variable serif fonts for Tamil
+	@font-face {
+		@include font-face(Noto, Serif, Tamil, VF, Regular, normal, normal);
+		unicode-range: $tamil;
+	}
 	// Variable sans fonts for Telugu
 	@font-face {
 		@include font-face(Noto, Sans, Telugu, VF, Regular, normal, normal);
 		unicode-range: $telugu;
 	}
+	// Variable serif fonts for Telugu
+	@font-face {
+		@include font-face(Noto, Serif, Telugu, VF, Regular, normal, normal);
+		unicode-range: $telugu;
+	}
 	// Variable sans fonts for Thaana
 	@font-face {
 		@include font-face(Noto, Sans, Thaana, VF, Regular, normal, normal);
+		unicode-range: $thaana;
+	}
+	// Variable serif fonts for Thaana
+	@font-face {
+		@include font-face(Noto, Serif, Thaana, VF, Regular, normal, normal);
 		unicode-range: $thaana;
 	}
 	// The variable font for Thai

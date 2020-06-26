@@ -1,14 +1,14 @@
 // Oriya script
 
 *:lang(or) {
-	font-family: $base,$oriya-sans-vf,$oriya-sans,$base-sans-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$oriya-sans-vf,$oriya-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$oriya-sans-vf,$oriya-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$oriya-sans-vf,$oriya-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$oriya-serif-vf,$oriya-serif,$base-serif-vf,serif;
+		font-family: $base-serif-vf,$base-serif,$oriya-serif-vf,$oriya-serif,serif;
 	}
 }

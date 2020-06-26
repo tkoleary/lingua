@@ -33,6 +33,11 @@
 		@include font-face-ui(Noto, Sans, Devanagari, VF, Regular, normal, normal);
 		unicode-range: $devanagari;
 	}
+	// Variable sans UI fonts for Khmer
+	@font-face {
+		@include font-face-ui(Noto, Sans, Khmer, VF, Regular, normal, normal);
+		unicode-range: $khmer;
+	}
 	// Variable sans UI fonts for Kannada
 	@font-face {
 		@include font-face-ui(Noto, Sans, Kannada, VF, Regular, normal, normal);
@@ -47,6 +52,16 @@
 	@font-face {
 		@include font-face-ui(Noto, Sans, Malayalam, VF, Regular, normal, normal);
 		unicode-range: $malayalam;
+	}
+	// The variable UI fonts for Tamil
+	@font-face {
+		@include font-face-ui(Noto, Sans, Tamil, VF, Regular, normal, normal);
+		unicode-range: $tamil;
+	}
+	// The variable UI fonts for Telugu
+	@font-face {
+		@include font-face-ui(Noto, Sans, Telugu, VF, Regular, normal, normal);
+		unicode-range: $telugu;
 	}
 	// The variable UI fonts for Thai
 	@font-face {

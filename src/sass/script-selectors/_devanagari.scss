@@ -53,14 +53,14 @@
 *:lang(xnr),
 *:lang(xsr),
 .lf-devanagari {
-	font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
+		font-family: $base-serif-vf,$base-serif,$devanagari-serif-vf,$devanagari-serif,serif;
 	}
 }

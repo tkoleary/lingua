@@ -1,14 +1,18 @@
 // Khmer script
 
 *:lang(km) {
-	font-family: $base,$khmer-sans-vf,$khmer-sans,$base-sans-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$khmer-sans-vf,$khmer-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$khmer-sans-vf,$khmer-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$khmer-sans-vf,$khmer-sans,sans-serif;
 	}
 
-	& .lf-serif {
-		ont-family: $base,$khmer-serif-vf,$khmer-serif,$base-serif-vf,serif;
+	.lf-sans-ui {
+		font-family: $base-sans-vf,$base-sans,$khmer-sans-ui-vf,$khmer-sans,sans-serif;
+	}
+
+	.lf-serif {
+		font-family: $base-serif-vf,$base,$khmer-serif-vf,$khmer-serif,serif;
 	}
 }

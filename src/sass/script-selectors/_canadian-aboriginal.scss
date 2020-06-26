@@ -12,14 +12,14 @@
 *:lang(iu),
 *:lang(nsk),
 *:lang(oj) {
-	font-family: $base,$c-aboriginal-sans-vf,$c-aboriginal-sans,$base-sans-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$c-aboriginal-sans-vf,$c-aboriginal-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$c-aboriginal-sans-vf,$c-aboriginal-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$c-aboriginal-sans-vf,$c-aboriginal-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$c-aboriginal-serif-vf,$c-aboriginal-serif,$base-serif-vf,serif;
+		font-family: $base-serif-vf,$base,$c-aboriginal-serif-vf,$c-aboriginal-serif,serif;
 	}
 }

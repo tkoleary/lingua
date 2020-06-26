@@ -1,18 +1,18 @@
 // Malayalam script
 
 *:lang(ms) {
-	font-family: $base,$malayalam-sans-vf,$malayalam-sans,$base-sans-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$malayalam-sans-vf,$malayalam-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$malayalam-sans-vf,$malayalam-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$malayalam-sans-vf,$malayalam-sans,sans-serif;
 	}
 
 	.lf-sans-ui {
-		font-family: $base,$malayalam-sans-ui-vf,$malayalam-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$malayalam-sans-ui-vf,$malayalam-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$malayalam-serif-vf,$malayalam-serif,$base-serif-vf,serif;
+		font-family: $base-serif-vf,$base-serif,$malayalam-serif-vf,$malayalam-serif,serif;
 	}
 }

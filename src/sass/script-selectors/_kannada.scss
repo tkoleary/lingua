@@ -2,18 +2,18 @@
 
 *:lang(kn),
 .lf-kannada {
-	font-family: $base,$kannada-sans-vf,$kannada-sans,$base-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$kannada-sans-vf,$kannada-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$kannada-sans-vf,$kannada-sans,$base-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$kannada-sans-vf,$kannada-sans,sans-serif;
 	}
 
 	.lf-sans-ui {
-		font-family: $base,$kannada-sans-ui-vf,$kannada-sans,$base-vf,serif;
+		font-family: $base-sans-vf,$base-sans,$kannada-sans-ui-vf,$kannada-sans,serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$kannada-serif-vf,$kannada-serif,$base-vf,serif;
+		font-family: $base-serif-vf,$base-serif,$kannada-serif-vf,$kannada-serif,serif;
 	}
 }

@@ -2,16 +2,13 @@
 
 // Sans-serif
 *:lang(th) {
-	font-family: $base,$thai-sans-vf,$thai-sans,$base-sans-vf,sans-serif;
-	direction: ltr;
+	font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
 
 	.lf-sans {
-		font-family: $base,$thai-sans-vf,$thai-sans,$base-sans-vf,sans-serif;
-		direction: ltr;
+		font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$thai-serif-vf,$thai-serif,$base-serif-vf,serif;
-		direction: ltr;
+		font-family: $base-serif-vf,$base-serif,$thai-serif-vf,$thai-serif,serif;
 	}
 }

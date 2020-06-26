@@ -14,19 +14,20 @@
 *:lang(tr),
 *:lang(tru),
 *:lang(wo) {
-  font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
+  font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
   direction: rtl;
 
-	&  .lf-sans {
-		font-family: $base,$arabic-sans-vf,$arabic-sans,$base-sans-vf,sans-serif;
+	.lf-sans {
+		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	}
 
-	&  .lf-serif {
-		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
+	.lf-serif {
+		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
 	}
 }
 
 // Use Arabic script where explicit
+*:lang(Arab),
 *:lang(ar-Arab),
 *:lang(bal-Arab),
 *:lang(brh-Arab),
@@ -40,19 +41,20 @@
 *:lang(tr-Arab),
 *:lang(tru-Arab),
 *:lang(wo-Arab) {
-  font-family: $arabic-sans-vf,$arabic-sans,sans-serif;
+  font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
   direction: rtl;
 
-	&  .lf-sans {
-		font-family: $base,$arabic-sans-vf,$arabic-sans,$base-sans-vf,sans-serif;
+	.lf-sans {
+		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	}
 
-	&  .lf-serif {
-		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
+	.lf-serif {
+		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
 	}
 }
 
 // Usse Latin script where explicit
+*:lang(Latn),
 *:lang(ar-Latn),
 *:lang(bal-Latn),
 *:lang(brh-Latn),
@@ -66,14 +68,14 @@
 *:lang(tr-Latn),
 *:lang(tru-Latn),
 *:lang(wo-Latn) {
-  font-family: $latin-sans-vf,$latin-sans,sans-serif;
+  font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
   direction: ltr;
 
 	.lf-sans {
-		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	}
 
-	& .lf-serif {
-		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
+	.lf-serif {
+		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
 	}
 }

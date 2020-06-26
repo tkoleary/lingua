@@ -1,14 +1,14 @@
 // Brahmi script
 
 *:lang(Brah) {
-	font-family: $base,$brahmi-sans-vf,$brahmi-sans,$base-sans-vf,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$brahmi-sans-vf,$brahmi-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $base,$brahmi-sans-vf,$brahmi-sans,$base-sans-vf,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$brahmi-sans-vf,$brahmi-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base,$brahmi-serif-vf,$brahmi-serif,$base-serif-vf,serif;
+		font-family: $base-serif-vf,$base,$brahmi-serif-vf,$brahmi-serif,serif;
 	}
 }
