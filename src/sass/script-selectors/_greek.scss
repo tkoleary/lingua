@@ -4,11 +4,11 @@
 	font-family: $greek-sans-vf,$greek-sans,$base-sans-vf,$base-sans,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $greek-sans-vf,$greek-sans,$base-sans-vf,$base-sans,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $greek-serif-vf,$greek-serif,$base-serif-vf,$base-serif,serif;
 	}
 }

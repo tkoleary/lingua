@@ -43,15 +43,11 @@
 	font-family: $base,$arabic-sans-vf,$arabic-sans,$base-sans-vf,sans-serif;
 	direction: rtl;
 
-	&  .lf-sans {
+	.lf-sans {
 		font-family: $base,$arabic-sans-vf,$arabic-sans,$base-sans-vf,sans-serif;
+	}
 
-		&  .lf-ui {
-			font-family: $base,$arabic-sans-ui-vf,$arabic-sans,$base-sans-vf,sans-serif;
-		}
+	.lf-sans-ui {
+		font-family: $base,$arabic-sans-ui-vf,$arabic-sans,$base-sans-vf,sans-serif;
 	}
 }
-
-//	.lf-serif:lang(ar) {
-//		font-family: $base,$arabic-serif-vf,$arabic-serif,$base-serif-vf,serif;
-//	}

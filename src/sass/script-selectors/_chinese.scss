@@ -32,7 +32,7 @@
 		text-emphasis: dot;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$chinese-s-serif,$base-serif-vf,serif;
 	}
 }
@@ -62,7 +62,7 @@
 		text-emphasis: dot;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$chinese-t-serif,$base-serif-vf,serif;
 	}
 }

@@ -4,11 +4,11 @@
 	font-family: $base,$buginese-sans-vf,$buginese-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $base,$buginese-sans-vf,$buginese-sans,$base-sans-vf,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$buginese-serif-vf,$buginese-serif,$base-serif-vf,serif;
 	}
 }

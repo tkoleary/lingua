@@ -4,11 +4,11 @@
 	font-family: $base,$korean-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $base,$korean-sans,$base-sans-vf,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$korean-serif,$base-serif-vf,serif;
 	}
 }

@@ -2,15 +2,17 @@
 
 // Default and sans serif
 *:lang(bo),
-*:lang(dz),
-*:lang(bo) .lf-sans,
-*:lang(dz) .lf-sans {
+*:lang(dz) {
 	font-family: $base,$tibetan-sans-vf,$tibetan-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
-}
 
-*:lang(bo) .lf-serif,
-*:lang(dz) .lf-serif {
-	font-family: $base,$tibetan-serif-vf,$tibetan-serif,$base-serif-vf,serif;
-	direction: ltr;
+	.lf-sans {
+		font-family: $base,$tibetan-sans-vf,$tibetan-sans,$base-sans-vf,sans-serif;
+		direction: ltr;
+	}
+
+	.lf-serif {
+		font-family: $base,$tibetan-serif-vf,$tibetan-serif,$base-serif-vf,serif;
+		direction: ltr;
+	}
 }

@@ -5,14 +5,22 @@
 @import "variables/unicode-ranges";
 
 // Import the webfonts
-@import "webfonts/static";
-@import "webfonts/variable";
 @import "webfonts/variable-ui";
+@import "webfonts/variable";
+@import "webfonts/static";
+
+
 
 // Set the base font (fallback)
 @import "script-selectors/all";
 
 // Import files to load scripts based on the :lang property
+
+// Files for languages that may be written in more than one script
+@import "script-selectors/latin-cyrillic";
+@import "script-selectors/latin-cyrillic-arabic";
+@import "script-selectors/latin-arabic-devanagari";
+
 @import "script-selectors/adlam";
 @import "script-selectors/arabic";
 @import "script-selectors/armenian";
@@ -51,11 +59,6 @@
 @import "script-selectors/tibetan";
 @import "script-selectors/warang-citi";
 
-// Files for languages that may be written in more than one script
-@import "script-selectors/latin-cyrillic";
-@import "script-selectors/latin-cyrillic-arabic";
-@import "script-selectors/latin-arabic-devanagari";
-
 // Import the classes for weights and widths
 @import "classes/weights";
 
@@ -78,18 +81,19 @@
 // Adlam unjoined
 // Armenian static
 // Bengali sans UI VF
+// Buhid sans VF
 // Devanagari sans Vf and UI VF
 // Ethiopic sans VF
 // Elemaic
-// Canadian aboriginal VF
+// Canadian aboriginal VF (eot and svg)
 // Cherokee
 // Devanagari
 // Georgian sans and serif VF
 // Grantha regular and VF
-// Hebrew static
+// Hebrew sans static
 // Kannada sans and serif VF and UI VF
-// Kufi arabic VF
-// Khmer sans UI VF and Serif VF
+// Kufi arabic VF (eot and svg)
+// Khmer Serif VF
 // LGC
 // Naskh Arabic
 // Nushu

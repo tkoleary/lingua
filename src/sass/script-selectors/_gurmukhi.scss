@@ -4,11 +4,11 @@
 	font-family: $base,$gurmukhi-sans-vf,$gurmukhi-sans,$base-vf,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $base,$gurmukhi-sans-vf,$gurmukhi-sans,$base-vf,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$gurmukhi-serif-vf,$gurmukhi-serif,$base-serif-vf,serif;
 	}
 }

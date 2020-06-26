@@ -52,11 +52,11 @@
 	font-family: $base,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base-sans,sans-serif;
 	direction: ltr;
 
-	& .lf-sans  {
+	.lf-sans  {
 		font-family: $base,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base-sans,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base-serif,serif;
 	}
 }

@@ -1,7 +1,6 @@
 // Devanagari script languages
 
-*:lang(hi),
-*:lang(ne),
+*:lang(Deva),
 *:lang(anp),
 *:lang(awa),
 *:lang(bap),
@@ -18,6 +17,7 @@
 *:lang(gbm),
 *:lang(gom),
 *:lang(gvr),
+*:lang(hi),
 *:lang(hne),
 *:lang(hoc),
 *:lang(hoj),
@@ -34,6 +34,7 @@
 *:lang(mrd),
 *:lang(mtr),
 *:lang(mwr),
+*:lang(ne),
 *:lang(new),
 *:lang(noe),
 *:lang(raj),
@@ -50,15 +51,16 @@
 *:lang(wbr),
 *:lang(wtm),
 *:lang(xnr),
-*:lang(xsr) {
+*:lang(xsr),
+.lf-devanagari {
 	font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $base,$devanagari-sans-vf,$devanagari-sans,$base-sans-vf,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$devanagari-serif-vf,$devanagari-serif,$base-serif-vf,serif;
 	}
 }

@@ -4,11 +4,11 @@
 	font-family: $base,$bamum-sans-vf,$bamum-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $base,$bamum-sans-vf,$bamum-sans,$base-sans-vf,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$bamum-serif-vf,$bamum-serif,$base-serif-vf,serif;
 	}
 }

@@ -4,7 +4,7 @@
 // This mixin is implemented below to generate the @font-face rules for all font files
 // It differs from the variable fonts mixin in that 'UI-' is inserted between script and weight
 // Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
+@mixin font-face-ui ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
 	font-family: "#{$family} #{$type} #{$script} UI #{$weight}";
 	src:	url('../fonts/#{$family}#{$type}#{$script}UI-#{$weight}.eot');
 	src:	url('../fonts/#{$family}#{$type}#{$script}UI-#{$weight}.eot?#iefix') format('embedded-opentype'),
@@ -20,37 +20,37 @@
 @supports ( font-variation-settings: 'wdth' 200 ) {
 	// Variable sans UI fonts for Arabic
 	@font-face {
-		@include font-face(Noto, Sans, Arabic, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Arabic, VF, Regular, normal, normal);
 		unicode-range: $arabic;
 	}
 	// Variable sans UI fonts for Bangla (Bengali)
 	@font-face {
-		@include font-face(Noto, Sans, Bengali, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Bengali, VF, Regular, normal, normal);
 		unicode-range: $bengali;
 	}
 	// Variable sans UI fonts for Devanagari
 	@font-face {
-		@include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Devanagari, VF, Regular, normal, normal);
 		unicode-range: $devanagari;
 	}
 	// Variable sans UI fonts for Kannada
 	@font-face {
-		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Kannada, VF, Regular, normal, normal);
 		unicode-range: $kannada;
 	}
 	// Variable sans UI fonts for Lao
 	@font-face {
-		@include font-face(Noto, Sans, Lao, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Lao, VF, Regular, normal, normal);
 		unicode-range: $lao;
 	}
 	// Variable sans UI fonts for Malayalam
 	@font-face {
-		@include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Malayalam, VF, Regular, normal, normal);
 		unicode-range: $malayalam;
 	}
 	// The variable UI fonts for Thai
 	@font-face {
-		@include font-face(Noto, Sans, Thai, VF, Regular, normal, normal);
+		@include font-face-ui(Noto, Sans, Thai, VF, Regular, normal, normal);
 		unicode-range: $thai;
 	}
 }

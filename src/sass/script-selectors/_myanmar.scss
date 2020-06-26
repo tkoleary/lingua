@@ -4,11 +4,11 @@
 	font-family: $base,$myanmar-sans-vf,$base-sans-vf,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $base,$myanmar-sans-vf,$base-sans-vf,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $base,$myanmar-serif-vf,$base-serif-vf,serif;
 	}
 }

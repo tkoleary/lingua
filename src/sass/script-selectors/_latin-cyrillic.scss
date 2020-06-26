@@ -12,11 +12,11 @@
 	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base,serif;
 	}
 }
@@ -33,11 +33,11 @@
 	font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,$base,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $cyrillic-serif-vf,$cyrillic-serif,$base-serif-vf,$base,serif;
 	}
 }
@@ -54,11 +54,11 @@
 	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	direction: ltr;
 
-	& .lf-sans {
+	.lf-sans {
 		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
 	}
 
-	& .lf-serif {
+	.lf-serif {
 		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
 	}
 }
