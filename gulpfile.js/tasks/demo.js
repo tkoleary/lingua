@@ -1,24 +1,23 @@
-const { watch, series } = require('gulp');
-const { src, dest }			= require('gulp');
-const sass							= require('gulp-sass');
-const sourcemaps				= require('gulp-sourcemaps');
-const clean							= require('gulp-clean');
-const minify						= require('gulp-minify');
-const rename						= require('gulp-rename');
-const autoprefixer			= require('gulp-autoprefixer');
-const browserSync				= require('browser-sync').create();
-const metalsmith 				= require('gulp-metalsmith');
+const { series } 			= require('gulp');
+const { src, dest }		= require('gulp');
+const sass						= require('gulp-sass');
+const sourcemaps			= require('gulp-sourcemaps');
+const clean						= require('gulp-clean');
+const minify					= require('gulp-minify');
+const rename					= require('gulp-rename');
+const autoprefixer		= require('gulp-autoprefixer');
+const metalsmith 			= require('gulp-metalsmith');
 
-sass.compiler						= require('dart-sass');
+sass.compiler					= require('dart-sass');
 
 var config = {
 	scss:								'./scss/**/*.scss',
 	autoprefixerOptions: {
 		browsers:					['last 2 versions', '> 5%']
 	},
-	build:							'../../demo_site',
-	buildCss:						['../../demo_site/css'],
-	buildCssMin:				['../../demo_site/css/min'],
+	build:							'./demo_site',
+	buildCss:						['./demo_site/css'],
+	buildCssMin:				['./demo_site/css/min'],
 };
 
 // Clean out the site folder for a new build
@@ -55,21 +54,7 @@ function metal(cb) {
 	cb();
 }
 
-// Serve locally
-function serve(cb) {
-	browserSync.init({
-		server: {
-			baseDir: '../../demo_site'
-		}
-	});
-	cb();
-}
-
-// Reload on change
-function refresh(cb) {
-	browserSync.reload()
-	cb();
-}
-
 // Run 'gulp build' for all of the above
-exports.build = series(metal, compileCss, serve);
+const demo = series(wipe, metal, compileCss);
+
+exports.demo = demo;
