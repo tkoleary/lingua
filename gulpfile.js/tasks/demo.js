@@ -6,18 +6,17 @@ const clean						= require('gulp-clean');
 const minify					= require('gulp-minify');
 const rename					= require('gulp-rename');
 const autoprefixer		= require('gulp-autoprefixer');
-const metalsmith 			= require('gulp-metalsmith');
+const runWintersmith 	= require('run-wintersmith');
 
 sass.compiler					= require('dart-sass');
 
 var config = {
-	scss:								'./scss/**/*.scss',
+	scss:								'../../demo_site/scss/**/*.scss',
 	autoprefixerOptions: {
 		browsers:					['last 2 versions', '> 5%']
 	},
-	build:							'./demo_site',
-	buildCss:						['./demo_site/css'],
-	buildCssMin:				['./demo_site/css/min'],
+	buildCss:						['../../demo_site/contents/css'],
+	build:							'./build/**/**.*',
 };
 
 // Clean out the site folder for a new build
@@ -38,23 +37,22 @@ function compileCss(cb) {
 	}).on('error', sass.logError))
 	.pipe(autoprefixer(config.autoprefixerOptions.browsers))
 	.pipe(dest(config.buildCss,))
-
-	// output the minified version
-	.pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
-	.pipe(sourcemaps.write())
-	.pipe(rename({ extname: '.min.css' }))
-	.pipe(dest(config.buildCssMin))
 	cb();
 }
 
-function metal(cb) {
-	return src('src/demo/**')
-	.pipe(metalsmith())
-	.pipe(dest(config.build));
+function previewDemo(cb) {
+	return src('./demo_site/**')
+	.pipe(runWintersmith.preview());
+	cb();
+}
+
+function buildDemo(cb) {
+	return src('../../demo_site')
+	.pipe(runWintersmith.build());
 	cb();
 }
 
 // Run 'gulp build' for all of the above
-const demo = series(wipe, metal, compileCss);
+const demo = series(wipe, compileCss, buildDemo);
 
 exports.demo = demo;
