@@ -16,12 +16,19 @@ var config = {
 	autoprefixerOptions: {
 		browsers:					['last 2 versions', '> 5%']
 	},
-	buildCss:						['./contents/css'],
+	compiledCss:				'./contents/css',
+	builtFonts:					'./build/fonts',
 };
 
 // Clean out the site folder for a new build
 function wipe(cb) {
-	return src('./contents/css/**.*', {read: false})
+	return src('./contents/css/main.css', {read: false})
+	.pipe(clean({force: true}))
+	cb();
+}
+
+function wipeFonts(cb) {
+	return src(['./build/fonts/*','!./build/fonts'], {read: false})
 	.pipe(clean({force: true}))
 	cb();
 }
@@ -36,7 +43,7 @@ function compileCss(cb) {
 		outputStyle : 'expanded'
 	}).on('error', sass.logError))
 	.pipe(autoprefixer(config.autoprefixerOptions.browsers))
-	.pipe(dest(config.buildCss))
+	.pipe(dest(config.compiledCss))
 	cb();
 }
 
@@ -45,4 +52,4 @@ function watchScss(cb) {
   cb();
 }
 
-task('default', series(compileCss, watchScss));
+task('default', series(wipe, wipeFonts, compileCss, watchScss));

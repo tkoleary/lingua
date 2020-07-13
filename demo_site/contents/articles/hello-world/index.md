@@ -21,7 +21,7 @@ Internationlaize your type
 
 ### Adlam
 
-<span class="leader lf-light">Sans-serif:</span> 𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> 𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.
 
 <details class="languages"><summary><span>Languages</span> </summary>Fulah</details>
 </div>
@@ -30,7 +30,9 @@ Internationlaize your type
 
 ### Arabic
 
-<span class="leader lf-light">Sans-serif:</span> المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+
+<p class="lf-sans-ui"><span class="leader lf-light">Sans UI:</span> المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Arabic, Persian, Pashto, Urdu, Ndzwani Comorian, Ngazidja Comorian, Tunisian Arabic, Algerian Arabic, Najdi Arabic, Moroccan Arabic, Egyptian Arabic, Beja, Western Balochi, Bakhtiari, Central Kurdish, Deccan, Nobiin, Zoroastrian Dari, Kachi Koli, Gujari, Gilaki, Hazaragi, Southern Hindko, Parkari Koli, Wadiyara Koli, Lahnda, Laki, Northern Luri, Southern Luri, Pattani Malay, Indus Kohistani, Mazanderani, Parsi-Dari, Domari, Southern Kurdish, Saraiki, Torwali</details>
 </div>
@@ -40,9 +42,9 @@ Internationlaize your type
 
 ### Armenian
 
-<span class="leader lf-light">Sans-serif:</span> ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:</p>
 
-<span class="leader lf-light">Serif:</span> ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Armenian</details>
 </div>
@@ -51,7 +53,7 @@ Internationlaize your type
 
 ### Bamum
 
-<span class="leader lf-light">Sans-serif:</span> ꚠꚡꚢꚣꚤꚥ ꚦꚧꚨꚩꚪꚫꚬꚭ ꚮꚯꚠꚡꚢꚣ ꚤꚥꚦꚧ ꚨꚩꚪꚫ ꚬꚭꚮꚯ
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ꚠꚡꚢꚣꚤꚥ ꚦꚧꚨꚩꚪꚫꚬꚭ ꚮꚯꚠꚡꚢꚣ ꚤꚥꚦꚧ ꚨꚩꚪꚫ ꚬꚭꚮꚯ</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Bamun (Bamoun)</details></div>
 
@@ -60,9 +62,9 @@ Internationlaize your type
 
 ### Bangla
 
-<span class="leader lf-light">Sans-serif:</span> নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।</p>
 
-<span class="leader lf-light">Serif:</span> নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Bangla, Assamese, Bishnupriya, Garo, Mizo, Rangpuri</details>
 </div>
@@ -71,7 +73,7 @@ Internationlaize your type
 
 ### Cherokee
 
-<span class="leader lf-light">Sans-serif:</span> Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Cherokee</details>
 </div>
@@ -80,9 +82,9 @@ Internationlaize your type
 
 ### Simplified Chinese
 
-<span class="leader lf-light">Sans-serif:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
 
-<span class="leader lf-light">Serif:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese</details></div>
 
@@ -91,9 +93,9 @@ Internationlaize your type
 
 ### Traditional Chinese
 
-<span class="leader lf-light">Sans-serif:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
 
-<span class="leader lf-light">Serif:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese</details>
 </div>
@@ -106,7 +108,7 @@ Internationlaize your type
 
 ### Cyrillic
 
-<span class="leader lf-light">Sans-serif:</span> СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах.
 
 <details class="languages"><summary><span>Languages</span> </summary>Belarusian, Bulgarian, Macedonian, Mongolian, Russian, Ukrainian, Abkhazian, Abaza, Adyghe, Southern Altai, Avaric, Bashkir, Buriat, Chechen, Mari, Shor, Chukot, Crimean Turkish, Chuvash, Dargwa, Dungan, Evenki, Nanai, Kara-Kalpak, Kabardian, Khanty, Khakas, Komi-Permyak, Koryak, Karachay-Balkar, Kumyk, Komi, Lak, Lezghian, Moksha, Mansi, Western Mari, Erzya, Nogai, Ossetic, Rusyn, Sakha, Selkup, Tabassaran, Tatar, Tuvinian, Udihe, Kalmyk, Nenets</details></div>
 
@@ -114,9 +116,9 @@ Internationlaize your type
 
 ### Devanagari
 
-<span class="leader lf-light">Sans-serif:</span> लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं। </p>
 
-<span class="leader lf-light">Serif:</span> लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं। </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Nepali, Angika, Awadhi, Bantawa, Bagheli, Haryanvi, Bhili, Bhilali, Bhojpuri, Kanauji, Braj, Bodo, Bateri, Dotyali, Garhwali, Goan Konkani, Gurung, Chhattisgarhi, Ho, Hadothi, Jumli, Kachhi, Kumaoni, Khandesi, Konkani, Kurukh, Magahi, Maithili, Eastern Magar, Marathi, Western Magar, Mewari, Marwari, Newari, Nimadi, Rajasthani, Rajbanshi, Sadri, Sirmauri, Shekhawati, Thulung, Dangaura Tharu, Kochila Tharu, Rana Tharu, Kathoriya Tharu, Wagdi, Mewati, Kangri, Sherpa</details>
 </div>
@@ -125,8 +127,7 @@ Internationlaize your type
 
 ### Ethiopic
 
-<span class="leader lf-light">Serif:</span> አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡
-
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡ </p>
 <details class="languages"><summary><span>Languages</span> </summary>Amharic, Tigrinya, Blin, Oromo, Tigre, Wolaytta, Geez</details>
 </div>
 
@@ -134,7 +135,7 @@ Internationlaize your type
 
 ### Greek
 
-<span class="leader lf-light">Sans-serif:</span> ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Greek, Balkan Gagauz Turkish, Pontic, Tsakonian, Coptic, Ancient Greek, hebrew, Hebrew, Judeo-Persian, Judeo-Arabic, Ladino, Yiddish, Samaritan Aramaic</details>
 </div>
@@ -143,9 +144,9 @@ Internationlaize your type
 
 ### Gujarati
 
-<span class="leader lf-light">Sans-serif:</span> લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે. </p>
 
-<span class="leader lf-light">Serif:</span> લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે.
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Gujarati</details>
 </div>
@@ -154,9 +155,9 @@ Internationlaize your type
 
 ### Gurmukhi
 
-<span class="leader lf-light">Sans-serif:</span> ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ. </p>
 
-<span class="leader lf-light">Serif:</span> ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Punjabi</details>
 </div>
@@ -165,7 +166,7 @@ Internationlaize your type
 
 ### Hebrew
 
-<span class="leader lf-light">Sans-serif:</span> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Hebrew, Judeo-Persian, Judeo-Arabic, Ladino, Yiddish</details>
 </div>
@@ -174,9 +175,9 @@ Internationlaize your type
 
 ### Japanese
 
-<span class="leader lf-light">Sans-serif:</span> 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。</p>
 
-<span class="leader lf-light">Serif:</span> 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Japanese</details>
 </div>
@@ -189,11 +190,11 @@ Internationlaize your type
 
 ### Kannada
 
-<span class="leader lf-light">Sans-serif:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
 
-<span class="leader lf-light">Serif:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ.
+<p class="lf-sans-ui"><span class="leader lf-light">Sans UI:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
 
-<span class="leader lf-light">Sans UI:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ.
+<p class="lf-serif"><span class="leader lf-light">Sans UI:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Kannada, Tulu</details>
 </div>
@@ -202,11 +203,11 @@ Internationlaize your type
 
 ### Khmer
 
-<span class="leader lf-light">Sans-serif:</span> មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
 
-<span class="leader lf-light">Sans-serif UI:</span> មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។
+<p class="lf-sans-ui"><span class="leader lf-light">Sans UI:</span> មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
 
-<span class="leader lf-light">Serif:</span> មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Khmer</details>
 </div>
@@ -215,9 +216,9 @@ Internationlaize your type
 
 ### Hangeul (Korean)
 
-<span class="leader lf-light">Sans-serif:</span> 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다. </p>
 
-<span class="leader lf-light">Serif:</span> 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다.
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Korean</details>
 </div>
@@ -226,9 +227,9 @@ Internationlaize your type
 
 ### Lao
 
-<span class="leader lf-light">Sans-serif:</span> ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
 
-<span class="leader lf-light">Serif:</span> ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Lao, Hmong Njua</details>
 </div>
@@ -237,9 +238,9 @@ Internationlaize your type
 
 ### Latin
 
-<span class="leader lf-light">Sans-serif:</span> ARTICLE 1: All human beings are born free and equal in dignity and rights.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ARTICLE 1: All human beings are born free and equal in dignity and rights. </p>
 
-<span class="leader lf-light">Serif:</span> ARTICLE 1: All human beings are born free and equal in dignity and rights.
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ARTICLE 1: All human beings are born free and equal in dignity and rights. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Aymara, Bislama, Catalan, Chamorro, Czech, Danish, German, English, Spanish, Estonian, Finnish, Filipino, Fijian, Faroese, French, Irish, Gilbertese, Guarani, Swiss German, Manx, Hiri Motu, Croatian, Haitian Creole, Hungarian, Icelandic, Italian, Kalaallisut, Luxembourgish, Lithuanian, Latvian, Malagasy, Marshallese, Maori, Maltese, Nauru, Norwegian Bokmål, North Ndebele, Niuean, Dutch, Norwegian Nynorsk, Nyanja, Papiamento, Palauan, Polish, Portuguese, Quechua, Rundi, Kinyarwanda, Sango, Slovak, Slovenian, Samoan, Shona, Albanian, Swati, Southern Sotho, Swedish, Swahili, Tetum, Tokelau, Tswana, Tongan, Tok Pisin, Tuvalu, Tahitian, Yoruba, Afar, Abron, Achinese, Acoli, Adangme, Afrikaans, Aghem, Akan, Alabama, Aleut, Gheg Albanian, Amo, Aragonese, Uab Meto, Mapuche, Araona, Arapaho, Arawak, Asu, Asturian, Atikamekw, Bavarian, Basaa, Ghomala, Baoulé, Bemba, Betawi, Bena, Bafut, Bikol, Bini, Banjar, Kom, Buhid, Siksika, Bomu, Koro Wachi, Breton, Akoose, Rinconada Bikol, Bushi, Buginese, Bulu, Bube, Medumba, Jenaama Bozo, Kɛlɛngaxo Bozo, Caddo, Carib, Cayuga, Atsam, Cebuano, Chiga, Chuukese, Chinook Jargon, Choctaw, Cheyenne, Chickasaw, Corsican, Capiznon, Southern East Cree, Northern East Cree, Seselwa Creole French, Kashubian, Tedim Chin, Welsh, Dakota, Taita, Delaware, Dogrib, Dinka, Zarma, Dan, Lower Sorbian, Tomo Kan Dogon, Central Dusun, Duala, Dyula, Embu, Ewe, Efik, Emilian, Ekajuk, Central Yupik, Basque, Ewondo, Extremaduran, Fang, Maasina Fulfulde, Tornedalen Finnish, Fon, Cajun French, Arpitan, Northern Frisian, Eastern Frisian, East Futuna, Central-Eastern Niger Fulfulde, Friulian, Nigerian Fulfulde, Fur, Western Frisian, Ga, Gayo, Gbaya, Guianese Creole French, Scottish Gaelic, Galician, Gorontalo, Gronings, Grebo, Guajajára, Wayuu, Frafra, Gusii, Gwichʼin, Haida, Hawaiian, Hiligaynon, Hmong, Hanunoo, Hopi, Upper Sorbian, Hupa, Herero, Iban, Ibibio, Ifè, Igbo, Inupiaq, Inuinnaqtun, Iloko, Ingrian, Jamaican Creole English, Ngomba, Machame, Kabyle, Kachin, Jju, Kamba, Xaasongaxango, Tyap, Kalanga, Makonde, Kabuverdianu, Koro, Kongo, Komering, Kaingang, Koyra Chiini, Kikuyu, Kirmanjki, Kuanyama, Kako, Kalenjin, Kimbundu, Kosraean, Kpelle, Kanuri, Krio, Kinaray-a, Karelian, Shambala, Bafia, Colognian, Kutenai, Kerinci, Cornish, Langi, Lango (Uganda), Lamba, Tolaki, Limburgish, Ligurian, Livonian, Lakota, Lombard, Madurese, Rotuman, Tiv, Tamashek, Nyasa Tonga, Taroko, Tsonga, Tausug, Tsimshian, Tooro, Tumbuka, Tasawaq, Ulithian, Umbundu, Venda, Venetian, Veps, Virgin Islands Creole English, West Flemish, Main-Franconian, Makhuwa, Votic, Võro, Vunjo, Walloon, Walser, Waray, Washo, Warlpiri, Wallisian, Xavánte, Xhosa, Soga, Yao, Yapese, Yangben, Yemba, Nheengatu, Yucateco, Zaghawa, Zapotec, Zeelandic, Negeri Sembilan Malay, Zulu, Zuni, Zaza</details></div>
 
@@ -247,9 +248,9 @@ Internationlaize your type
 
 ### Malayalam
 
-<span class="leader lf-light">Sans-serif:</span> വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
 
-<span class="leader lf-light">Serif:</span> വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Malayalam</details>
 </div>
@@ -258,9 +259,9 @@ Internationlaize your type
 
 ### Oriya
 
-<span class="leader lf-light">Sans-serif:</span> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି |
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
 
-<span class="leader lf-light">Serif:</span> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି |
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Oriya</details>
 </div>
@@ -273,9 +274,9 @@ Internationlaize your type
 
 ### Sinhala
 
-<span class="leader lf-light">Sans-serif:</span> 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන්
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් </p>
 
-<span class="leader lf-light">Serif:</span> 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන්
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Sinhala</details>
 </div>
@@ -284,11 +285,11 @@ Internationlaize your type
 
 ### Tamil
 
-<span class="leader lf-light">Sans-serif:</span> கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள்
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
 
-<span class="leader lf-light">Sans-serif UI:</span> கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள்
+<p class="lf-sans-ui"><span class="leader lf-light">Sans UI:</span> கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
 
-<span class="leader lf-light">Serif:</span> கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள்
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Tamil, Badaga</details>
 </div>
@@ -297,9 +298,9 @@ Internationlaize your type
 
 ### Telugu
 
-<span class="leader lf-light">Sans-serif:</span> ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
 
-<span class="leader lf-light">Serif:</span> ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు.
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Lambadi, Telugu, Waddar</details>
 </div>
@@ -309,9 +310,9 @@ Internationlaize your type
 
 ### Thai
 
-<span class="leader lf-light">Sans-serif:</span> ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ </p>
 
-<span class="leader lf-light">Serif:</span> ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Thai, Kuy, Northern Khmer, Western Lawa, Eastern Lawa, Southern Thai, Northeastern Thai</details>
 </div>
@@ -320,9 +321,9 @@ Internationlaize your type
 
 ### Tibetan
 
-<span class="leader lf-light">Sans-serif:</span> དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ།
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། </p>
 
-<span class="leader lf-light">Serif:</span> དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ།
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Dzongkha, Tibetan, Tshangla</details></div>
 
@@ -330,9 +331,9 @@ Internationlaize your type
 
 ### Thaana
 
-<span class="leader lf-light">Serif:</span> ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.
+<p class="lf-sans"><span class="leader lf-light">Sans:</span> ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ </p> ގޮތުގައެވެ.
 
-<span class="leader lf-light">Serif:</span> ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.
+<p class="lf-serif"><span class="leader lf-light">Serif:</span> ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ </p> ގޮތުގައެވެ.
 
 <details class="languages"><summary><span>Languages</span> </summary>Divehi</details>
 </div>
