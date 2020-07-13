@@ -1,15 +1,11 @@
 
 // Import the variables
-@import "variables/basefonts";
-@import "variables/self-host";
-@import "variables/unicode-ranges";
+@import "variables/all-variables";
 
 // Import the webfonts
 @import "webfonts/variable-ui";
 @import "webfonts/variable";
 @import "webfonts/static";
-
-
 
 // Set the base font (fallback)
 @import "script-selectors/all";
@@ -25,7 +21,7 @@
 @import "script-selectors/arabic";
 @import "script-selectors/armenian";
 @import "script-selectors/bamum";
-@import "script-selectors/bangla";
+@import "script-selectors/bengali";
 @import "script-selectors/brahmi";
 @import "script-selectors/buginese";
 @import "script-selectors/buhid";
