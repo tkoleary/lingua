@@ -15,7 +15,6 @@
     "gulp-watch": "^5.0.1",
     "normalize-scss": "^7.0.1",
     "run-wintersmith": "^0.0.4",
-    "sass-migrator": "^1.2.2",
     "wintersmith": "^2.5.0"
   }
 }

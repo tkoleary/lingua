@@ -1,0 +1,109 @@
+
+// Import the variables
+@import "variables/basefonts";
+@import "variables/self-host";
+@import "variables/unicode-ranges";
+
+// Import the webfonts
+@import "webfonts/variable-ui";
+@import "webfonts/variable";
+@import "webfonts/static";
+
+
+
+// Set the base font (fallback)
+@import "script-selectors/all";
+
+// Import files to load scripts based on the :lang property
+
+// Files for languages that may be written in more than one script
+@import "script-selectors/latin-cyrillic";
+@import "script-selectors/latin-cyrillic-arabic";
+@import "script-selectors/latin-arabic-devanagari";
+
+@import "script-selectors/adlam";
+@import "script-selectors/arabic";
+@import "script-selectors/armenian";
+@import "script-selectors/bamum";
+@import "script-selectors/bangla";
+@import "script-selectors/brahmi";
+@import "script-selectors/buginese";
+@import "script-selectors/buhid";
+@import "script-selectors/canadian-aboriginal";
+@import "script-selectors/cherokee";
+@import "script-selectors/chinese";
+@import "script-selectors/cyrillic";
+@import "script-selectors/devanagari";
+@import "script-selectors/ethiopic";
+@import "script-selectors/georgian";
+@import "script-selectors/greek";
+@import "script-selectors/gujarati";
+@import "script-selectors/gurmukhi";
+@import "script-selectors/hangul";
+@import "script-selectors/hebrew";
+@import "script-selectors/japanese";
+@import "script-selectors/kannada";
+@import "script-selectors/khmer";
+@import "script-selectors/latin";
+@import "script-selectors/lao";
+@import "script-selectors/limbu";
+@import "script-selectors/malayalam";
+@import "script-selectors/myanmar";
+@import "script-selectors/oriya";
+@import "script-selectors/sinhala";
+@import "script-selectors/tagalog";
+@import "script-selectors/tamil";
+@import "script-selectors/telugu";
+@import "script-selectors/thaana";
+@import "script-selectors/thai";
+@import "script-selectors/tibetan";
+@import "script-selectors/warang-citi";
+
+// Import the classes for weights and widths
+@import "classes/weights";
+
+html,
+body {
+	font-family: $base-sans-vf,$base-sans,sans-serif; // If you want Lingua sanss fonts to be global
+}
+
+// @todo add examples for:
+// Elemaic
+// Georgian
+// Grantha
+// Hanifi-rohingya
+// Hanunoo
+// Kayah
+// Kufi-arabic
+// Limbu
+// NKo
+// Olchiki
+// Tagalog
+// Tai le
+// Takri
+
+// @todo add webfont kits for:
+// Adlam unjoined
+// Armenian static
+// Bengali sans UI VF
+// Buhid sans  VF
+// Devanagari sans Vf and UI VF
+// Ethiopic sans VF
+// Elemaic
+// Canadian aboriginal VF (eot and svg)
+// Cherokee
+// Devanagari
+// Georgian sans and serif VF
+// Grantha regular and VF
+// Hebrew sans static
+// Kannada sans and serif VF and UI VF
+// Kufi arabic VF (eot and svg)
+// Khmer Serif VF
+// LGC
+// Naskh Arabic
+// Nushu
+// Olchiki
+// Rashi Hebrew
+// Sinhala
+// Sora sompeng
+// Tamil slanted

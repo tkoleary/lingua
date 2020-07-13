@@ -5028,3 +5028,8 @@ strong {
   font-weight: 300;
   font-variation-settings: "wdth" 60, "wght" 300;
 }
+
+html,
+body {
+  font-family: "Noto Sans Regular VF", "Noto Sans", sans-serif;
+}

@@ -12,17 +12,16 @@ const browserSync							= require('browser-sync').create();
 sass.compiler									= require('dart-sass');
 
 var config = {
-	scss:								'.scss/**/*.scss',
+	scss:								'./scss/**.*',
 	autoprefixerOptions: {
 		browsers:					['last 2 versions', '> 5%']
 	},
 	buildCss:						['./contents/css'],
-	build:							'./build',
 };
 
 // Clean out the site folder for a new build
 function wipe(cb) {
-	return src(config.build, {read: false})
+	return src('./contents/css/**.*', {read: false})
 	.pipe(clean({force: true}))
 	cb();
 }
@@ -37,40 +36,13 @@ function compileCss(cb) {
 		outputStyle : 'expanded'
 	}).on('error', sass.logError))
 	.pipe(autoprefixer(config.autoprefixerOptions.browsers))
-	.pipe(dest(config.buildCss,))
+	.pipe(dest(config.buildCss))
 	cb();
 }
 
-function previewDemo(cb) {
-	runWintersmith.preview();
-	cb();
+function watchScss(cb) {
+  watch(config.scss, { ignoreInitial: false }, compileCss)
+  cb();
 }
 
-function buildDemo(cb) {
-	runWintersmith.build();
-	cb();
-}
-
-// Serve locally
-function serve(cb) {
-	browserSync.init({
-		server: {
-			baseDir: './demo_site'
-		}
-	});
-	cb();
-}
-
-// Reload on change
-function refresh(cb) {
-	browserSync.reload()
-	cb();
-}
-
-// Watch
-function watchAll(cb) {
-	watch('./**', series(wipe, compileCss, buildDemo, refresh));
-	cb();
-}
-
-task('all', series(wipe, compileCss, buildDemo, serve, watchAll));
+task('default', series(compileCss, watchScss));
