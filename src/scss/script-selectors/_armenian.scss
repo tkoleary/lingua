@@ -1,14 +1,12 @@
 // Armenian script
 
-*:lang(hy) {
+*:lang(hy),
+.lf-sans:lang(hy) {
 	font-family: $base-sans-vf,$base-sans,$armenian-sans-vf,$armenian-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans:lang(hy) {
-		font-family: $base-sans-vf,$base-sans,$armenian-sans-vf,$armenian-sans,sans-serif;
-	}
-
-	.lf-serif:lang(hy) {
-		font-family: $base-serif-vf,$base-serif,$armenian-serif-vf,$armenian-serif,serif;
-	}
+.lf-serif:lang(hy) {
+	font-family: $base-serif-vf,$base-serif,$armenian-serif-vf,$armenian-serif,serif;
+	direction: ltr;
 }

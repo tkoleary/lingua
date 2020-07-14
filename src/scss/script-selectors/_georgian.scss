@@ -1,14 +1,12 @@
 // georgian script
 
-*:lang(ka) {
+*:lang(ka),
+.lf-sans:lang(ka) {
 	font-family: $base-sans-vf,$base-sans,$georgian-sans-vf,$georgian-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$georgian-sans-vf,$georgian-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$georgian-serif-vf,$georgian-serif,serif;
-	}
+.lf-serif:lang(ka) {
+	font-family: $base-serif-vf,$base-serif,$georgian-serif-vf,$georgian-serif,serif;
+	direction: ltr;
 }

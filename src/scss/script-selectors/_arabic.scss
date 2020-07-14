@@ -40,15 +40,13 @@
 *:lang(rmt),
 *:lang(sdh),
 *:lang(skr),
-*:lang(trw) {
+*:lang(trw),
+.lf-sans:lang(Arab) {
 	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	direction: rtl;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
-	}
-
-	.lf-sans-ui {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-ui-vf,$arabic-sans,sans-serif;
-	}
+.lf-sans-ui:lang(Arab) {
+	font-family: $base-sans-vf,$base-sans,$arabic-sans-ui-vf,$arabic-sans,sans-serif;
+	direction: rtl;
 }

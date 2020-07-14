@@ -1,14 +1,12 @@
 // limbu script
 
-*:lang(lif) {
+*:lang(lif),
+.lf-sans:lang(lif) {
 	font-family: $base-sans-vf,$base-sans,$limbu-sans-vf,$limbu-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$limbu-sans-vf,$limbu-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$limbu-serif-vf,$limbu-serif,serif;
-	}
+.lf-serif:lang(lif) {
+	font-family: $base-serif-vf,$base-serif,$limbu-serif-vf,$limbu-serif,serif;
+	direction: ltr;
 }

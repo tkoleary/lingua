@@ -1,6 +1,5 @@
 // languages using Latin script only
 
-*:lang(**-Latn),
 *:lang(Latn),
 *:lang(ay),
 *:lang(bi),
@@ -294,7 +293,8 @@
 *:lang(zmi),
 *:lang(zu),
 *:lang(zun),
-*:lang(zza) {
+*:lang(zza),
+.lf-sans:lang(Latn) {
 	font-family: $latin-sans-vf,$latin-sans,sans-serif;
 	direction: ltr;
 
@@ -309,12 +309,9 @@
 	.lf-latin-mono {
 		font-family: $latin-sans-mono-vf,$latin-sans-mono,monospace;
 	}
+}
 
-	.lf-sans {
-		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
-	}
 
-	.lf-serif {
-		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
-	}
+.lf-serif:lang(Latn) {
+	font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
 }

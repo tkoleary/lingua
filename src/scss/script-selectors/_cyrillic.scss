@@ -49,15 +49,13 @@
 *:lang(tyv),
 *:lang(ude),
 *:lang(xal),
-*:lang(yrk) {
+*:lang(yrk),
+.lf-sans:lang(Cyrl) {
 	font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans  {
-		font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,$base-sans-vf,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$cyrillic-serif-vf,$cyrillic-serif,serif;
-	}
+.lf-serif:lang(Cyrl) {
+	font-family: $base-serif-vf,$base-serif,$cyrillic-serif-vf,$cyrillic-serif,serif;
+	direction: ltr;
 }

@@ -274,7 +274,7 @@
 &lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;bn&quot;&gt;
 
 
-&lt;h3 id=&quot;bangla&quot;&gt;Bangla&lt;/h3&gt;
+&lt;h3 id=&quot;bengali-bangla-&quot;&gt;Bengali (Bangla)&lt;/h3&gt;
 &lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।&lt;/p&gt;
 
 &lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Serif:&lt;/span&gt; নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।&lt;/p&gt;
@@ -282,30 +282,30 @@
 &lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Bangla, Assamese, Bishnupriya, Garo, Mizo, Rangpuri&lt;/details&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;chr&quot;&gt;
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
 
 &lt;h3 id=&quot;cherokee&quot;&gt;Cherokee&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.&lt;/p&gt;
+&lt;p class=&quot;lf-sans&quot; lang=&quot;chr&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.&lt;/p&gt;
 
 &lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Cherokee&lt;/details&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;zh-Hans&quot;&gt;
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
 
 &lt;h3 id=&quot;simplified-chinese&quot;&gt;Simplified Chinese&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
+&lt;p class=&quot;lf-sans&quot; lang=&quot;zh-Hans&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
 
-&lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Serif:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
+&lt;p class=&quot;lf-serif&quot; lang=&quot;zh-Hans&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Serif:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
 
 &lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;&lt;/div&gt;
 
-&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;yue-Hant&quot;&gt;
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
 
 
 &lt;h3 id=&quot;traditional-chinese&quot;&gt;Traditional Chinese&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
+&lt;p class=&quot;lf-sans&quot; lang=&quot;yue-Hant&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
 
-&lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Serif:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
+&lt;p class=&quot;lf-serif&quot; lang=&quot;yue-Hant&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Serif:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
 
 &lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;
 &lt;/div&gt;
@@ -395,7 +395,7 @@
 
 &lt;p class=&quot;lf-sans-ui&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans UI:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
 
-&lt;p class=&quot;lf-serif&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Sans UI:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
+&lt;p class=&quot;lf-serif&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader lf-light&quot;&gt;Serif:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
 
 &lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Kannada, Tulu&lt;/details&gt;
 &lt;/div&gt;

@@ -13,17 +13,16 @@
 *:lang(swb),
 *:lang(tr),
 *:lang(tru),
-*:lang(wo) {
-  font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
-  direction: rtl;
+*:lang(wo),
+.lf-sans:lang(Arab) {
+	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+	direction: rtl;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
-	}
+.lf-serif:lang(Arab) {
+	font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
+	direction: rtl;
+}
 }
 
 // Use Arabic script where explicit

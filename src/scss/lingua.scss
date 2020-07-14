@@ -1,11 +1,11 @@
 
 // Import the variables
-@import "variables/all-variables";
+@import "variables/all";
 
 // Import the webfonts
-@import "webfonts/variable-ui";
-@import "webfonts/variable";
 @import "webfonts/static";
+@import "webfonts/variable";
+@import "webfonts/variable-ui";
 
 // Set the base font (fallback)
 @import "script-selectors/all";
@@ -80,19 +80,18 @@ body {
 
 // @todo add webfont kits for:
 // Adlam unjoined
-// Armenian static
-// Bengali sans UI VF
-// Buhid sans  VF
-// Devanagari sans Vf and UI VF
+// Armenian sans regular and bold static
+// Armenian serif regular static
+// Armenian serif VF
+// Buhid sans VF
+// Devanagari sans Vf serif VF
 // Ethiopic sans VF
-// Elemaic
+// Elemaic VF
 // Canadian aboriginal VF (eot and svg)
 // Cherokee
 // Devanagari
 // Georgian sans and serif VF
 // Grantha regular and VF
-// Hebrew sans static
-// Kannada sans and serif VF and UI VF
 // Kufi arabic VF (eot and svg)
 // Khmer Serif VF
 // LGC

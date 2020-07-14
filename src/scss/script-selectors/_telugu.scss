@@ -1,18 +1,17 @@
 // Telugu script
 
-*:lang(te) {
+*:lang(te),
+.lf-sans:lang(te) {
 	font-family: $base-sans-vf,$base-sans,$telugu-sans-vf,$telugu-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$telugu-sans-vf,$telugu-sans,sans-serif;
-	}
+.lf-sans-ui:lang(te) {
+	font-family: $base-sans-vf,$base-sans,$telugu-sans-ui-vf,$telugu-sans,sans-serif;
+	direction: ltr;
+}
 
-	.lf-sans-ui {
-		font-family: $base-sans-vf,$base-sans,$telugu-sans-ui-vf,$telugu-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$telugu-serif-vf,$telugu-serif,serif;
-	}
+.lf-serif:lang(te) {
+	font-family: $base-serif-vf,$base-serif,$telugu-serif-vf,$telugu-serif,serif;
+	direction: ltr;
 }

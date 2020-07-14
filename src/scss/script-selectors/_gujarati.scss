@@ -1,14 +1,12 @@
 // Gujarati script
 
-*:lang(gu) {
+*:lang(gu),
+.lf-sans:lang(gu) {
 	font-family: $base-sans-vf,$base-sans,$gujarati-sans-vf,$gujarati-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$gujarati-sans-vf,$gujarati-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$gujarati-serif-vf,$gujarati-serif,serif;
-	}
+.lf-serif:lang(gu) {
+	font-family: $base-serif-vf,$base-serif,$gujarati-serif-vf,$gujarati-serif,serif;
+	direction: ltr;
 }

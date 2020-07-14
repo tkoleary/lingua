@@ -1,15 +1,13 @@
 // Tibetan script
 
 *:lang(bo),
-*:lang(dz) {
+*:lang(dz),
+.lf-sans:lang(bo) {
 	font-family: $base-sans-vf,$base-sans,$tibetan-sans-vf,$tibetan-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$tibetan-sans-vf,$tibetan-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-sans-vf,$base-sans,$tibetan-serif-vf,$tibetan-serif,serif;
-	}
+.lf-serif:lang(bo) {
+	font-family: $base-sans-vf,$base-sans,$tibetan-serif-vf,$tibetan-serif,serif;
+	direction: ltr;
 }

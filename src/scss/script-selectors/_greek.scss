@@ -1,14 +1,12 @@
 // Greeek script languages
 
-*:lang(gr) {
+*:lang(gr),
+.lf-sans:lang(gr) {
 	font-family: $base-sans-vf,$base-sans,$greek-sans-vf,$greek-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$greek-sans-vf,$greek-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$greek-serif-vf,$greek-serif,serif;
-	}
+.lf-serif:lang(gr) {
+	font-family: $base-serif-vf,$base-serif,$greek-serif-vf,$greek-serif,serif;
+	direction: ltr;
 }

@@ -1,14 +1,12 @@
 // Lao script
 
-*:lang(lo) {
+*:lang(lo),
+.lf-sans:lang(lo) {
 	font-family: $base-sans-vf,$base-sans,$lao-sans-vf,$lao-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$lao-sans-vf,$lao-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-sans-vf,$base-sans,$lao-serif-vf,$lao-serif,serif;
-	}
+.lf-serif:lang(lo) {
+	font-family: $base-sans-vf,$base-sans,$lao-serif-vf,$lao-serif,serif;
+	direction: ltr;
 }

@@ -1,14 +1,12 @@
 // Sinhala script
 
-*:lang(si) {
+*:lang(si),
+.lf-sans:lang(si) {
 	font-family: $base-sans-vf,$base-sans,$sinhala-sans-vf,$sinhala-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$sinhala-sans-vf,$sinhala-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$sinhala-serif-vf,$sinhala-serif,serif;
-	}
+.lf-serif:lang(si) {
+	font-family: $base-serif-vf,$base-serif,$sinhala-serif-vf,$sinhala-serif,serif;
+	direction: ltr;
 }

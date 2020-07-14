@@ -1,19 +1,12 @@
 // Japanese script languages
 
-*:lang(jp) {
-	font-family: $base-sans-vf,$base-sans,$japanese-sans,sans-serif;
+*:lang(jp),
+.lf-sans:lang(jp) {
+	font-family: $base-sans,$japanese-sans,sans-serif;
 	direction: ltr;
+}
 
-	strong,
-	.bold {
-		font-family: $base-sans-vf,$base-sans,$japanese-sans,sans-serif;
-	}
-
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$japanese-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$japanese-serif,serif;
-	}
+.lf-serif:lang(jp) {
+	font-family: $base-serif,$japanese-serif,serif;
+	direction: ltr;
 }

@@ -5,15 +5,13 @@
 *:lang(jpr),
 *:lang(jrb),
 *:lang(lad),
-*:lang(yi) {
+*:lang(yi),
+.lf-sans:lang(he) {
 	font-family: $base-sans-vf,$base-sans,$hebrew-sans-vf,$hebrew-sans,sans-serif;
 	direction: rtl;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$hebrew-sans-vf,$hebrew-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$hebrew-serif-vf,$hebrew-serif,sans-serif;
-	}
+.lf-serif:lang(he) {
+	font-family: $base-serif-vf,$base-serif,$hebrew-serif-vf,$hebrew-serif,sans-serif;
+	direction: rtl;
 }

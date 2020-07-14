@@ -1,14 +1,12 @@
 // Buginese script
 
-*:lang(bug) {
+*:lang(bug),
+.lf-sans:lang(bug) {
 	font-family: $base-sans-vf,$base-sans,$buginese-sans-vf,$buginese-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$buginese-sans-vf,$buginese-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base,$buginese-serif-vf,$buginese-serif,serif;
-	}
+.lf-serif:lang(bug) {
+	font-family: $base-serif-vf,$base,$buginese-serif-vf,$buginese-serif,serif;
+	direction: ltr;
 }

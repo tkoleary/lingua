@@ -1,14 +1,12 @@
 // Myanmar script
 
-*:lang(my) {
+*:lang(my),
+.lf-sans:lang(my) {
 	font-family: $base-sans-vf,$base-sans,$myanmar-sans-vf,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$myanmar-sans-vf,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$myanmar-serif-vf,serif;
-	}
+.lf-serif:lang(my) {
+	font-family: $base-serif-vf,$base-serif,$myanmar-serif-vf,serif;
+	direction: ltr;
 }

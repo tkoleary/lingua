@@ -11,15 +11,13 @@
 *:lang(den),
 *:lang(iu),
 *:lang(nsk),
-*:lang(oj) {
+*:lang(oj),
+.lf-sans:lang(Cans) {
 	font-family: $base-sans-vf,$base-sans,$c-aboriginal-sans-vf,$c-aboriginal-sans,sans-serif;
 	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$c-aboriginal-sans-vf,$c-aboriginal-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$c-aboriginal-serif-vf,$c-aboriginal-serif,serif;
-	}
+.lf-serif:lang(Cans) {
+	font-family: $base-serif-vf,$base-serif,$c-aboriginal-serif-vf,$c-aboriginal-serif,serif;
+	direction: ltr;
 }

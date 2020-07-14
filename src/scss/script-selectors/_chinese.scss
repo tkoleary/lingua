@@ -18,23 +18,24 @@
 *:lang(wuu-Hans),
 *:lang(yue-Hans),
 *:lang(za-Hans),
-*:lang(lzh-Hans) {
+*:lang(lzh-Hans),
+.lf-sans:lang(zh-Hans) {
 	font-family: $base-sans-vf,$base-sans,$chinese-s-sans,sans-serif;
 	direction: ltr;
-
-	strong {
-		font-weight: bold;
-		font-family: $base-sans-vf,$base-sans,$chinese-s-sans,sans-serif;
-	}
 
 	// In chinese the dot is used for emphasis
 	em {
 		font-style: normal;
 		text-emphasis: dot;
 	}
+}
 
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$chinese-s-serif,serif;
+.lf-serif:lang(zh-Hans) {
+	font-family: $base-serif-vf,$base-serif,$chinese-s-serif,serif;
+
+	em {
+		font-style: normal;
+		text-emphasis: dot;
 	}
 }
 
@@ -49,22 +50,22 @@
 *:lang(wuu-Hant),
 *:lang(yue-Hant),
 *:lang(za-Hant),
-*:lang(lzh-Hant) {
+*:lang(lzh-Hant),
+.lf-sans:lang(yue-Hant) {
 	font-family: $base-sans-vf,$base-sans,$chinese-t-sans,sans-serif;
 	direction: ltr;
 
-	strong {
-		font-weight: bold;
-		font-family: $base-sans-vf,$base-sans,$chinese-t-sans,sans-serif;
-	}
-
-	// In chinese the dot is used for emphasis
 	em {
 		font-style: normal;
 		text-emphasis: dot;
 	}
+}
 
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$chinese-t-serif,serif;
+.lf-serif:lang(yue-Hant) {
+	font-family: $base-serif-vf,$base-serif,$chinese-t-serif,serif;
+
+	em {
+		font-style: normal;
+		text-emphasis: dot;
 	}
 }

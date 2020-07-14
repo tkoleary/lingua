@@ -1,10 +1,7 @@
 // Adlam script
 
-*:lang(ff) {
+*:lang(ff),
+.lf-sans:lang(ff)  {
 	font-family: $base-sans-vf,$base-sans,$adlam-sans-vf,$adlam-sans,sans-serif;
 	direction: rtl;
-
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$adlam-sans-vf,$adlam-sans,sans-serif;
-	}
 }

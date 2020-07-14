@@ -1,13 +1,12 @@
 // Thai script
 
-*:lang(th) {
+*:lang(th),
+.lf-sans:lang(th) {
 	font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
+	direction: ltr;
+}
 
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$thai-serif-vf,$thai-serif,serif;
-	}
+.lf-serif:lang(th) {
+	font-family: $base-serif-vf,$base-serif,$thai-serif-vf,$thai-serif,serif;
+	direction: ltr;
 }

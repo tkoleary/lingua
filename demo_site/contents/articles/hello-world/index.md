@@ -60,7 +60,7 @@ Internationlaize your type
 <div class="tile is-child box lang-block" lang="bn">
 
 
-### Bangla
+### Bengali (Bangla)
 
 <p class="lf-sans"><span class="leader lf-light">Sans:</span> নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।</p>
 
@@ -69,33 +69,33 @@ Internationlaize your type
 <details class="languages"><summary><span>Languages</span> </summary>Bangla, Assamese, Bishnupriya, Garo, Mizo, Rangpuri</details>
 </div>
 
-<div class="tile is-child box lang-block" lang="chr">
+<div class="tile is-child box lang-block">
 
 ### Cherokee
 
-<p class="lf-sans"><span class="leader lf-light">Sans:</span> Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.</p>
+<p class="lf-sans" lang="chr"><span class="leader lf-light">Sans:</span> Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Cherokee</details>
 </div>
 
-<div class="tile is-child box lang-block" lang="zh-Hans">
+<div class="tile is-child box lang-block">
 
 ### Simplified Chinese
 
-<p class="lf-sans"><span class="leader lf-light">Sans:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
+<p class="lf-sans" lang="zh-Hans"><span class="leader lf-light">Sans:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
 
-<p class="lf-serif"><span class="leader lf-light">Serif:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
+<p class="lf-serif" lang="zh-Hans"><span class="leader lf-light">Serif:</span> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese</details></div>
 
-<div class="tile is-child box lang-block" lang="yue-Hant">
+<div class="tile is-child box lang-block">
 
 
 ### Traditional Chinese
 
-<p class="lf-sans"><span class="leader lf-light">Sans:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
+<p class="lf-sans" lang="yue-Hant"><span class="leader lf-light">Sans:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
 
-<p class="lf-serif"><span class="leader lf-light">Serif:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
+<p class="lf-serif" lang="yue-Hant"><span class="leader lf-light">Serif:</span> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese</details>
 </div>
@@ -194,7 +194,7 @@ Internationlaize your type
 
 <p class="lf-sans-ui" lang="kn"><span class="leader lf-light">Sans UI:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
 
-<p class="lf-serif" lang="kn"><span class="leader lf-light">Sans UI:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+<p class="lf-serif" lang="kn"><span class="leader lf-light">Serif:</span> ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Kannada, Tulu</details>
 </div>
