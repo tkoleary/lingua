@@ -20,7 +20,7 @@
 *:lang(za-Hans),
 *:lang(lzh-Hans),
 .lf-sans:lang(zh-Hans) {
-	font-family: $base-sans-vf,$base-sans,$chinese-s-sans,sans-serif;
+	font-family: $base-sans,$chinese-s-sans,sans-serif;
 	direction: ltr;
 
 	// In chinese the dot is used for emphasis
@@ -31,7 +31,7 @@
 }
 
 .lf-serif:lang(zh-Hans) {
-	font-family: $base-serif-vf,$base-serif,$chinese-s-serif,serif;
+	font-family: $base-serif,$chinese-s-serif,serif;
 
 	em {
 		font-style: normal;
@@ -52,7 +52,7 @@
 *:lang(za-Hant),
 *:lang(lzh-Hant),
 .lf-sans:lang(yue-Hant) {
-	font-family: $base-sans-vf,$base-sans,$chinese-t-sans,sans-serif;
+	font-family: $base-sans,$chinese-t-sans,sans-serif;
 	direction: ltr;
 
 	em {
@@ -62,7 +62,28 @@
 }
 
 .lf-serif:lang(yue-Hant) {
-	font-family: $base-serif-vf,$base-serif,$chinese-t-serif,serif;
+	font-family: $base-serif,$chinese-t-serif,serif;
+
+	em {
+		font-style: normal;
+		text-emphasis: dot;
+	}
+}
+
+// For locale Honk Kong
+*:lang(zh-HK),
+.lf-sans:lang(zh-HK) {
+	font-family: $base-sans,$chinese-hk-sans,sans-serif;
+	direction: ltr;
+
+	em {
+		font-style: normal;
+		text-emphasis: dot;
+	}
+}
+
+.lf-serif:lang(zh-HK) {
+	font-family: $base-serif,$chinese-hk-serif,serif;
 
 	em {
 		font-style: normal;

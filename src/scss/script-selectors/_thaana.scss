@@ -1,12 +1,12 @@
 // thaana script
 
-*:lang(div),
-.lf-sans:lang(div) {
+*:lang(dv),
+.lf-sans:lang(dv) {
 	font-family: $base-sans-vf,$base-sans,$thaana-sans-vf,$thaana-sans,sans-serif;
 	direction: rtl;
 }
 
-.lf-serif:lang(div) {
+.lf-serif:lang(dv) {
 	font-family: $base-serif-vf,$base-serif,$thaana-serif-vf,$thaana-serif,serif;
 	direction: rtl;
 }
