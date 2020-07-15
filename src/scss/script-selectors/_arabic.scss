@@ -46,7 +46,8 @@
 	direction: rtl;
 }
 
+.lf-sans-ui:lang(ar),
 .lf-sans-ui:lang(Arab) {
-	font-family: $base-sans-vf,$base-sans,$arabic-sans-ui-vf,$arabic-sans,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$arabic-sans-ui-vf,$arabic-sans-ui,sans-serif;
 	direction: rtl;
 }

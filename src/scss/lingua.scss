@@ -3,8 +3,11 @@
 @import "variables/all";
 
 // Import the webfonts
-@import "webfonts/static";
-@import "webfonts/variable";
+@import "webfonts/static-sans";
+@import "webfonts/static-serif";
+@import "webfonts/variable-sans";
+@import "webfonts/variable-serif";
+@import "webfonts/static-ui";
 @import "webfonts/variable-ui";
 
 // Set the base font (fallback)
@@ -62,43 +65,3 @@ html,
 body {
 	font-family: $base-sans-vf,$base-sans,sans-serif; // If you want Lingua sanss fonts to be global
 }
-
-// @todo add examples for:
-// Elemaic
-// Georgian
-// Grantha
-// Hanifi-rohingya
-// Hanunoo
-// Kayah
-// Kufi-arabic
-// Limbu
-// NKo
-// Olchiki
-// Tagalog
-// Tai le
-// Takri
-
-// @todo add webfont kits for:
-// Adlam unjoined
-// Armenian sans regular and bold static
-// Armenian serif regular static
-// Armenian serif VF
-// Buhid sans VF
-// Devanagari sans Vf serif VF
-// Ethiopic sans VF
-// Elemaic VF
-// Canadian aboriginal VF (eot and svg)
-// Cherokee
-// Devanagari
-// Georgian sans and serif VF
-// Grantha regular and VF
-// Kufi arabic VF (eot and svg)
-// Khmer Serif VF
-// LGC
-// Naskh Arabic
-// Nushu
-// Olchiki
-// Rashi Hebrew
-// Sinhala
-// Sora sompeng
-// Tamil slanted

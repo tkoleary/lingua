@@ -23,7 +23,7 @@
 	font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
 	direction: rtl;
 }
-}
+
 
 // Use Arabic script where explicit
 *:lang(Arab),
@@ -71,7 +71,7 @@
   direction: ltr;
 
 	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
 	}
 
 	.lf-serif {

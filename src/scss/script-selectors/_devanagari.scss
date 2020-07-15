@@ -54,72 +54,9 @@
 *:lang(xsr),
 .lf-devanagari,
 .lf-sans:lang(Deva) {
-	font-family: $base-sans,$devanagari-sans;
+	font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
 }
 
 .lf-serif:lang(Deva) {
-	font-family: $base-serif,$devanagari-serif;
-}
-
-@supports ( font-variation-settings: 'wdth' 200 ) {
-	*:lang(Deva),
-	*:lang(anp),
-	*:lang(awa),
-	*:lang(bap),
-	*:lang(bfy),
-	*:lang(bgc),
-	*:lang(bhb),
-	*:lang(bhi),
-	*:lang(bho),
-	*:lang(bjj),
-	*:lang(bra),
-	*:lang(brx),
-	*:lang(btv),
-	*:lang(dty),
-	*:lang(gbm),
-	*:lang(gom),
-	*:lang(gvr),
-	*:lang(hi),
-	*:lang(hne),
-	*:lang(hoc),
-	*:lang(hoj),
-	*:lang(jml),
-	*:lang(kfr),
-	*:lang(kfy),
-	*:lang(khn),
-	*:lang(kok),
-	*:lang(kru),
-	*:lang(mag),
-	*:lang(mai),
-	*:lang(mgp),
-	*:lang(mr),
-	*:lang(mrd),
-	*:lang(mtr),
-	*:lang(mwr),
-	*:lang(ne),
-	*:lang(new),
-	*:lang(noe),
-	*:lang(raj),
-	*:lang(rjs),
-	*:lang(sa),
-	*:lang(sck),
-	*:lang(srx),
-	*:lang(swv),
-	*:lang(tdh),
-	*:lang(thl),
-	*:lang(thq),
-	*:lang(thr),
-	*:lang(tkt),
-	*:lang(wbr),
-	*:lang(wtm),
-	*:lang(xnr),
-	*:lang(xsr),
-	.lf-devanagari,
-	.lf-sans:lang(Deva) {
-		font-family: $base-sans-vf,$devanagari-sans-vf;
-	}
-
-	.lf-serif:lang(Deva) {
-		font-family: $base-serif-vf,$devanagari-serif-vf;
-	}
+	font-family: $base-serif-vf,$base-serif,$devanagari-serif-vf,$devanagari-serif,serif;
 }

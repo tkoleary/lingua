@@ -13,16 +13,8 @@
 *:lang(ttt),
 *:lang(ug),
 *:lang(uz) {
-	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	direction: rtl;
-
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
-	}
 }
 
 // Arabic script is explicit
@@ -39,16 +31,8 @@
 *:lang(ttt-Arab),
 *:lang(ug-Arab),
 *:lang(uz-Arab) {
-	font-family: $arabic-sans-vf,$arabic-sans,$base-sans,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	direction: rtl;
-
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
-	}
 }
 
 // Latin script is explicit
@@ -67,14 +51,6 @@
 *:lang(uz-Latn) {
 	font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
 	direction: ltr;
-
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
-	}
 }
 
 // Cyrillic script is explicit
@@ -93,12 +69,4 @@
 *:lang(uz-Cyrl) {
 	font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
 	direction: ltr;
-
-	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
-	}
-
-	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$cyrillic-serif-vf,$cyrillic-serif,serif;
-	}
 }

@@ -53,14 +53,14 @@
 *:lang(se-Latn),
 *:lang(tkr-Latn),
 *:lang(udm-Latn) {
-	font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+	font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,$base-sans,sans-serif;
 	direction: ltr;
 
 	.lf-sans {
-		font-family: $latin-sans-vf,$latin-sans,$base-sans,$base,sans-serif;
+		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,$base-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $latin-serif-vf,$latin-serif,$base-serif,$base,serif;
+		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
 	}
 }

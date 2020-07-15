@@ -1,72 +1,96 @@
 // Languages that could be written in either latin or arabic or devanagari scripts
 
 // Default to Devanagari script wheree no script is specified
-*:lang(hi),
-*:lang(hif),
-*:lang(ks),
-*:lang(sd) {
-	font-family: $devanagari-sans-vf,$devanagari-sans,$base-sans,$base,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
 
-	.lf-sans {
+	&:lang(hi),
+	&:lang(hif),
+	&:lang(ks),
+	&:lang(sd) {
 		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
+		direction: ltr;
 	}
+}
+.lf-serif {
 
-	.lf-serif {
+	&:lang(hi),
+	&:lang(hif),
+	&:lang(ks),
+	&:lang(sd) {
 		font-family: $base-sans-vf,$base-sans,$devanagari-serif-vf,$devanagari-serif,serif;
 	}
 }
 
 // Devanagari script is explicit
-*:lang(Deva),
-*:lang(hi-Deva),
-*:lang(hif-Deva),
-*:lang(ks-Deva),
-*:lang(sd-Deva) {
-	font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
 
-	.lf-sans {
+	&:lang(Deva),
+	&:lang(hi-Deva),
+	&:lang(hif-Deva),
+	&:lang(ks-Deva),
+	&:lang(sd-Deva) {
 		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
+		direction: ltr;
 	}
+}
+.lf-serif {
 
-	.lf-serif {
+	&:lang(Deva),
+	&:lang(hi-Deva),
+	&:lang(hif-Deva),
+	&:lang(ks-Deva),
+	&:lang(sd-Deva) {
 		font-family: $base-serif-vf,$base-serif,$devanagari-serif-vf,$devanagari-serif,serif;
 	}
 }
 
 // Arabic script is explicit
-*:lang(Arab),
-*:lang(hi-Arab),
-*:lang(hif-Arab),
-*:lang(ks-Arab),
-*:lang(sd-Arab) {
-	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
-	direction: rtl;
+*,
+.lf-sans {
 
-	.lf-sans {
+	&:lang(Arab),
+	&:lang(hi-Arab),
+	&:lang(hif-Arab),
+	&:lang(ks-Arab),
+	&:lang(sd-Arab) {
 		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+		direction: rtl;
 	}
+}
+.lf-serif {
 
-	.lf-serif {
+	&:lang(Arab),
+	&:lang(hi-Arab),
+	&:lang(hif-Arab),
+	&:lang(ks-Arab),
+	&:lang(sd-Arab) {
 		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
 	}
 }
 
 // Latin script is explicit
-*:lang(Latn),
-*:lang(hi-Latn),
-*:lang(hif-Latn),
-*:lang(ks-Latn),
-*:lang(sd-Latn) {
-	font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
 
-	.lf-sans {
+	&:lang(Latn),
+	&:lang(hi-Latn),
+	&:lang(hif-Latn),
+	&:lang(ks-Latn),
+	&:lang(sd-Latn) {
 		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
+		direction: ltr;
 	}
+}
+.lf-serif {
 
-	.lf-serif {
+	&:lang(Latn),
+	&:lang(hi-Latn),
+	&:lang(hif-Latn),
+	&:lang(ks-Latn),
+	&:lang(sd-Latn) {
 		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
+		direction: ltr;
 	}
 }

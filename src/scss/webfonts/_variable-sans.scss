@@ -1,0 +1,182 @@
+// The 9currently available) variable versions of the Noto web fonts
+
+// This mixin is implemented below to generate the @font-face rules for all font files
+// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
+@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
+	font-family: "#{$family} #{$type} #{$script} #{$weight}";
+	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
+				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
+	font-weight: $fontWeight;
+	font-style: $fontStyle;
+	font-display: swap;
+}
+
+// @supports is used here to load variable fonts only where they are supported
+@supports ( font-variation-settings: 'wdth' 200 ) {
+	// Variable sans fonts for Adlam
+	@font-face {
+		@include font-face(Noto, Sans, Adlam, VF, Regular, normal, normal);
+		unicode-range: $adlam;
+	}
+	// Variable sans fonts for Arabic
+	@font-face {
+		@include font-face(Noto, Sans, Arabic, VF, Regular, normal, normal);
+		unicode-range: $arabic;
+	}
+	// Variable sans fonts for Armenian
+	@font-face {
+		@include font-face(Noto, Sans, Armenian, VF, Regular, normal, normal);
+		unicode-range: $armenian;
+	}
+	// Variable sans fonts for Bamum
+	@font-face {
+		@include font-face(Noto, Sans, Bamum, VF, Regular, normal, normal);
+		unicode-range: $bamum;
+	}
+	// Variable sans fonts for Bengali
+	@font-face {
+		@include font-face(Noto, Sans, Bengali, VF, Regular, normal, normal);
+		unicode-range: $bengali;
+	}
+	// Variable sans fonts for Unified Canadian Aboriginal
+	@font-face {
+		@include font-face(Noto, Sans, Canadian Aboriginal, VF, Regular, normal, normal);
+		unicode-range: $c-aboriginal;
+	}
+	// Variable sans fonts for Cherokee
+	@font-face {
+		@include font-face(Noto, Sans, Cherokee, VF, Regular, normal, normal);
+		unicode-range: $cherokee;
+	}
+	// Variable sans fonts for Cyrillic
+	@font-face {
+		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
+		unicode-range: $cyrillic;
+	}
+	// Variable sans fonts for Devanagari (Hindi)
+	@font-face {
+		@include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
+		unicode-range: $devanagari;
+	}
+	// Variable sans fonts for Greek
+	@font-face {
+		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
+		unicode-range: $greek;
+	}
+	// Variable sans fonts for Gujarati
+	@font-face {
+	 	@include font-face(Noto, Sans, Gujarati, VF, Regular, normal, normal);
+		unicode-range: $gujarati;
+	}
+	// Variable sans fonts for Gurmukhi
+	@font-face {
+		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
+		unicode-range: $gurmukhi;
+	}
+	// Variable sans fonts for Hebrew
+	@font-face {
+		@include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
+		unicode-range: $hebrew;
+	}
+	// Variable sans fonts for Gurmukhi
+	@font-face {
+		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
+		unicode-range: $gurmukhi;
+	}
+	// Variable serif fonts for Gurmukhi
+	@font-face {
+		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
+		unicode-range: $gurmukhi;
+	}
+	// The variable font for Latin, Regular
+	@font-face {
+		@include font-face(Noto, Sans, Regular, VF, Regular, normal, normal);
+	}
+	// The variable font for Latin, Italic
+	@font-face {
+		@include font-face(Noto, Sans, Italic, VF, Italic, normal, normal);
+	}
+	// The variable font for Latin, Mono
+	@font-face {
+		@include font-face(Noto, Sans, Mono, VF, Mono, normal, normal);
+	}
+	// Variable sans fonts for Kannada
+	@font-face {
+		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
+		unicode-range: $kannada;
+	}
+	// The Variable sans font for Khmer
+	@font-face {
+		@include font-face(Noto, Sans, Khmer, VF, Regular, normal, normal);
+		unicode-range: $khmer;
+	}
+	// Variable sans fonts for Limbu
+	@font-face {
+		@include font-face(Noto, Sans, Limbu, VF, Regular, normal, normal);
+		unicode-range: $limbu;
+	}
+	// Variable sans fonts for Lao
+	@font-face {
+		@include font-face(Noto, Sans, Lao, VF, Regular, normal, normal);
+		unicode-range: $lao;
+	}
+	// Variable sans fonts for Malayalam
+	@font-face {
+		@include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
+		unicode-range: $malayalam;
+	}
+	// Variable sans fonts for Myanmar
+	@font-face {
+		@include font-face(Noto, Sans, Myanmar, VF, Regular, normal, normal);
+		unicode-range: $myanmar;
+	}
+	// Variable sans fonts for NKo
+	@font-face {
+		@include font-face(Noto, Sans, NKo, VF, Regular, normal, normal);
+		unicode-range: $nko;
+	}
+	// Variable sans fonts for Oriya
+	@font-face {
+		@include font-face(Noto, Sans, Oriya, VF, Regular, normal, normal);
+		unicode-range: $oriya;
+	}
+	// Variable sans fonts for Sinhala
+	@font-face {
+		@include font-face(Noto, Sans, Sinhala, VF, Regular, normal, normal);
+		unicode-range: $sinhala;
+	}
+	// Variable sans fonts for Tai Le
+	@font-face {
+		@include font-face(Noto, Sans, Tai Le, VF, Regular, normal, normal);
+		unicode-range: $tai-le;
+	}
+	// Variable sans fonts for Tamil
+	@font-face {
+		@include font-face(Noto, Sans, Tamil, VF, Regular, normal, normal);
+		unicode-range: $tamil;
+	}
+	// Variable sans fonts for Telugu
+	@font-face {
+		@include font-face(Noto, Sans, Telugu, VF, Regular, normal, normal);
+		unicode-range: $telugu;
+	}
+	// Variable sans fonts for Thaana
+	@font-face {
+		@include font-face(Noto, Sans, Thaana, VF, Regular, normal, normal);
+		unicode-range: $thaana;
+	}
+	// The variable font for Thai
+	@font-face {
+		@include font-face(Noto, Sans, Thai, VF, Regular, normal, normal);
+		unicode-range: $thai;
+	}
+	// The variable font for Tibetan
+	@font-face {
+	  @include font-face(Noto, Sans, Tibetan, VF, Regular, normal, normal);
+	  unicode-range: $tibetan;
+	}
+}

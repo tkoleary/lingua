@@ -15,3 +15,7 @@
 	font-family: $base-serif-vf,$base-serif,$malayalam-serif-vf,$malayalam-serif,serif;
 	direction: ltr;
 }
+
+*:lang(ms) {
+	overflow-wrap: break-word;
+}
