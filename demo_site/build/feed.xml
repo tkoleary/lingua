@@ -221,6 +221,363 @@
 </description>
     </item>
     <item>
+      <title>Lingua Language Coverage</title>
+      <link>http://localhost:8080/articles/hello-world/</link>
+      <pubDate>Sat, 11 Jul 2020 19:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://localhost:8080/articles/hello-world/</guid>
+      <author></author>
+      <description>&lt;div class=&quot;section&quot;&gt;
+
+&lt;h1 id=&quot;lingua-language-coverage&quot;&gt;Lingua Language Coverage&lt;/h1&gt;
+&lt;p&gt;Internationlaize your type&lt;/p&gt;
+&lt;h2 id=&quot;lingua-supports-50-scripts-and-more-than-1000-languages&quot;&gt;Lingua supports 50+ scripts and more than 1000 languages&lt;/h2&gt;
+&lt;div class=&quot;tile is-ancestor lang-grid&quot;&gt;
+
+&lt;div id=&quot;column-1&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 1 --&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Adlam&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;ff&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Fulah&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Arabic&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;Arab&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.&lt;/p&gt;
+
+&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;Arab&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Arabic, Persian, Pashto, Urdu, Ndzwani Comorian, Ngazidja Comorian, Tunisian Arabic, Algerian Arabic, Najdi Arabic, Moroccan Arabic, Egyptian Arabic, Beja, Western Balochi, Bakhtiari, Central Kurdish, Deccan, Nobiin, Zoroastrian Dari, Kachi Koli, Gujari, Gilaki, Hazaragi, Southern Hindko, Parkari Koli, Wadiyara Koli, Lahnda, Laki, Northern Luri, Southern Luri, Pattani Malay, Indus Kohistani, Mazanderani, Parsi-Dari, Domari, Southern Kurdish, Saraiki, Torwali&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;hy&quot;&gt;
+
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Armenian&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Armenian&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;bax&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Bamum&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ꚠꚡꚢꚣꚤꚥ ꚦꚧꚨꚩꚪꚫꚬꚭ ꚮꚯꚠꚡꚢꚣ ꚤꚥꚦꚧ ꚨꚩꚪꚫ ꚬꚭꚮꚯ&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Bamun (Bamoun)&lt;/details&gt;&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;bn&quot;&gt;
+
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Bengali (Bangla)&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Bangla, Assamese, Bishnupriya, Garo, Mizo, Rangpuri&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Cherokee&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;chr&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Cherokee&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Simplified Chinese&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;zh-Hans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;zh-Hans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Traditional Chinese&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;yue-Hant&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;yue-Hant&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Hong Kong Chinese&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;zh-HK&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;zh-HK&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- End column 1 --&gt;
+
+&lt;div id=&quot;column-2&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 2 --&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Cyrillic&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;ru&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Belarusian, Bulgarian, Macedonian, Mongolian, Russian, Ukrainian, Abkhazian, Abaza, Adyghe, Southern Altai, Avaric, Bashkir, Buriat, Chechen, Mari, Shor, Chukot, Crimean Turkish, Chuvash, Dargwa, Dungan, Evenki, Nanai, Kara-Kalpak, Kabardian, Khanty, Khakas, Komi-Permyak, Koryak, Karachay-Balkar, Kumyk, Komi, Lak, Lezghian, Moksha, Mansi, Western Mari, Erzya, Nogai, Ossetic, Rusyn, Sakha, Selkup, Tabassaran, Tatar, Tuvinian, Udihe, Kalmyk, Nenets&lt;/details&gt;&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Devanagari&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;Deva&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं। &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;Deva&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं। &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Nepali, Angika, Awadhi, Bantawa, Bagheli, Haryanvi, Bhili, Bhilali, Bhojpuri, Kanauji, Braj, Bodo, Bateri, Dotyali, Garhwali, Goan Konkani, Gurung, Chhattisgarhi, Ho, Hadothi, Jumli, Kachhi, Kumaoni, Khandesi, Konkani, Kurukh, Magahi, Maithili, Eastern Magar, Marathi, Western Magar, Mewari, Marwari, Newari, Nimadi, Rajasthani, Rajbanshi, Sadri, Sirmauri, Shekhawati, Thulung, Dangaura Tharu, Kochila Tharu, Rana Tharu, Kathoriya Tharu, Wagdi, Mewati, Kangri, Sherpa&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Ethiopic&lt;/h3&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;am&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡ &lt;/p&gt;
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Amharic, Tigrinya, Blin, Oromo, Tigre, Wolaytta, Geez&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Greek&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot;  lang=&quot;gr&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Greek, Balkan Gagauz Turkish, Pontic, Tsakonian, Coptic, Ancient Greek, hebrew, Hebrew, Judeo-Persian, Judeo-Arabic, Ladino, Yiddish, Samaritan Aramaic&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Gujarati&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;gu&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે. &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;gu&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gujarati&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Gurmukhi&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;gi&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ. &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;gi&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Punjabi&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Hebrew&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;he&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Hebrew, Judeo-Persian, Judeo-Arabic, Ladino, Yiddish&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Japanese&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;jp&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;jp&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Japanese&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- End column 2 --&gt;
+
+&lt;div id=&quot;column-3&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 3 --&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Kannada&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
+
+&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Kannada, Tulu&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Khmer&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;km&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។&lt;/p&gt;
+
+&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;km&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;km&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Khmer&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Hangeul (Korean)&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;ko&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다. &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;ko&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Korean&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Lao&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;lo&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ &lt;/p&gt;
+
+&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;lo&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;lo&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Lao, Hmong Njua&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Latin&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ARTICLE 1: All human beings are born free and equal in dignity and rights.&lt;/p&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans Italic: &lt;/span&gt;&lt;em&gt;ARTICLE 1: All human beings are born free and equal in dignity and rights.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans Mono:&lt;/span&gt;&lt;pre&gt;ARTICLE 1: All human beings are born free and equal in dignity and rights.&lt;/pre&gt;&lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif: &lt;/span&gt;ARTICLE 1: All human beings are born free and equal in dignity and rights. &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif Italic: &lt;/span&gt;&lt;em&gt;ARTICLE 1. All human beings are born free and equal in dignity and rights.&lt;/em&gt;&lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Aymara, Bislama, Catalan, Chamorro, Czech, Danish, German, English, Spanish, Estonian, Finnish, Filipino, Fijian, Faroese, French, Irish, Gilbertese, Guarani, Swiss German, Manx, Hiri Motu, Croatian, Haitian Creole, Hungarian, Icelandic, Italian, Kalaallisut, Luxembourgish, Lithuanian, Latvian, Malagasy, Marshallese, Maori, Maltese, Nauru, Norwegian Bokmål, North Ndebele, Niuean, Dutch, Norwegian Nynorsk, Nyanja, Papiamento, Palauan, Polish, Portuguese, Quechua, Rundi, Kinyarwanda, Sango, Slovak, Slovenian, Samoan, Shona, Albanian, Swati, Southern Sotho, Swedish, Swahili, Tetum, Tokelau, Tswana, Tongan, Tok Pisin, Tuvalu, Tahitian, Yoruba, Afar, Abron, Achinese, Acoli, Adangme, Afrikaans, Aghem, Akan, Alabama, Aleut, Gheg Albanian, Amo, Aragonese, Uab Meto, Mapuche, Araona, Arapaho, Arawak, Asu, Asturian, Atikamekw, Bavarian, Basaa, Ghomala, Baoulé, Bemba, Betawi, Bena, Bafut, Bikol, Bini, Banjar, Kom, Buhid, Siksika, Bomu, Koro Wachi, Breton, Akoose, Rinconada Bikol, Bushi, Buginese, Bulu, Bube, Medumba, Jenaama Bozo, Kɛlɛngaxo Bozo, Caddo, Carib, Cayuga, Atsam, Cebuano, Chiga, Chuukese, Chinook Jargon, Choctaw, Cheyenne, Chickasaw, Corsican, Capiznon, Southern East Cree, Northern East Cree, Seselwa Creole French, Kashubian, Tedim Chin, Welsh, Dakota, Taita, Delaware, Dogrib, Dinka, Zarma, Dan, Lower Sorbian, Tomo Kan Dogon, Central Dusun, Duala, Dyula, Embu, Ewe, Efik, Emilian, Ekajuk, Central Yupik, Basque, Ewondo, Extremaduran, Fang, Maasina Fulfulde, Tornedalen Finnish, Fon, Cajun French, Arpitan, Northern Frisian, Eastern Frisian, East Futuna, Central-Eastern Niger Fulfulde, Friulian, Nigerian Fulfulde, Fur, Western Frisian, Ga, Gayo, Gbaya, Guianese Creole French, Scottish Gaelic, Galician, Gorontalo, Gronings, Grebo, Guajajára, Wayuu, Frafra, Gusii, Gwichʼin, Haida, Hawaiian, Hiligaynon, Hmong, Hanunoo, Hopi, Upper Sorbian, Hupa, Herero, Iban, Ibibio, Ifè, Igbo, Inupiaq, Inuinnaqtun, Iloko, Ingrian, Jamaican Creole English, Ngomba, Machame, Kabyle, Kachin, Jju, Kamba, Xaasongaxango, Tyap, Kalanga, Makonde, Kabuverdianu, Koro, Kongo, Komering, Kaingang, Koyra Chiini, Kikuyu, Kirmanjki, Kuanyama, Kako, Kalenjin, Kimbundu, Kosraean, Kpelle, Kanuri, Krio, Kinaray-a, Karelian, Shambala, Bafia, Colognian, Kutenai, Kerinci, Cornish, Langi, Lango (Uganda), Lamba, Tolaki, Limburgish, Ligurian, Livonian, Lakota, Lombard, Madurese, Rotuman, Tiv, Tamashek, Nyasa Tonga, Taroko, Tsonga, Tausug, Tsimshian, Tooro, Tumbuka, Tasawaq, Ulithian, Umbundu, Venda, Venetian, Veps, Virgin Islands Creole English, West Flemish, Main-Franconian, Makhuwa, Votic, Võro, Vunjo, Walloon, Walser, Waray, Washo, Warlpiri, Wallisian, Xavánte, Xhosa, Soga, Yao, Yapese, Yangben, Yemba, Nheengatu, Yucateco, Zaghawa, Zapotec, Zeelandic, Negeri Sembilan Malay, Zulu, Zuni, Zaza&lt;/details&gt;&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Malayalam&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;ms&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;ms&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Malayalam&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Oriya&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans &quot; lang=&quot;or&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Oriya&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- End column 3 --&gt;
+
+&lt;div id=&quot;column-4&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 4 --&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Sinhala&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;si&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් &lt;/p&gt;
+
+&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;si&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;si&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Sinhala&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Tamil&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;ta&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் &lt;/p&gt;
+
+&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;ta&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;ta&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Tamil, Badaga&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Telugu&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;te&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;te&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Lambadi, Telugu, Waddar&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Thai&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;th&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;th&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Thai, Kuy, Northern Khmer, Western Lawa, Eastern Lawa, Southern Thai, Northeastern Thai&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Tibetan&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;Tibt&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། &lt;/p&gt;
+
+&lt;p class=&quot;lf-serif&quot; lang=&quot;Tibt&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Dzongkha, Tibetan, Tshangla&lt;/details&gt;&lt;/div&gt;
+
+&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
+
+&lt;h3 class=&quot;lf-xlight&quot;&gt;Thaana&lt;/h3&gt;
+
+&lt;p class=&quot;lf-sans&quot; lang=&quot;dv&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ. &lt;/p&gt;
+
+&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Divehi&lt;/details&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- End column 4 --&gt;
+
+&lt;/div&gt;
+</description>
+    </item>
+    <item>
       <title>Variable Sans Fonts</title>
       <link>http://localhost:8080/articles/variable/</link>
       <pubDate>Sat, 11 Jul 2020 19:00:00 -0500</pubDate>
@@ -514,333 +871,6 @@
     &lt;h3 class=&quot;lf-bold&quot;&gt;1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.&lt;/h3&gt;
     &lt;h3 class=&quot;lf-xbold&quot;&gt;1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.&lt;/h3&gt;
     &lt;h3 class=&quot;lf-ubold&quot;&gt;1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.&lt;/h3&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    <item>
-      <title>Lingua Language Coverage</title>
-      <link>http://localhost:8080/articles/hello-world/</link>
-      <pubDate>Sat, 11 Jul 2020 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/hello-world/</guid>
-      <author></author>
-      <description>&lt;div class=&quot;section&quot;&gt;
-
-&lt;h1 id=&quot;lingua-language-coverage&quot;&gt;Lingua Language Coverage&lt;/h1&gt;
-&lt;p&gt;Internationlaize your type&lt;/p&gt;
-&lt;h2 id=&quot;lingua-supports-50-scripts-and-more-than-1000-languages&quot;&gt;Lingua supports 50+ scripts and more than 1000 languages&lt;/h2&gt;
-&lt;div class=&quot;tile is-ancestor lang-grid&quot;&gt;
-
-&lt;div id=&quot;column-1&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 1 --&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;adlam&quot;&gt;Adlam&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;ff&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Fulah&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;arabic&quot;&gt;Arabic&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;Arab&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.&lt;/p&gt;
-
-&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;Arab&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Arabic, Persian, Pashto, Urdu, Ndzwani Comorian, Ngazidja Comorian, Tunisian Arabic, Algerian Arabic, Najdi Arabic, Moroccan Arabic, Egyptian Arabic, Beja, Western Balochi, Bakhtiari, Central Kurdish, Deccan, Nobiin, Zoroastrian Dari, Kachi Koli, Gujari, Gilaki, Hazaragi, Southern Hindko, Parkari Koli, Wadiyara Koli, Lahnda, Laki, Northern Luri, Southern Luri, Pattani Malay, Indus Kohistani, Mazanderani, Parsi-Dari, Domari, Southern Kurdish, Saraiki, Torwali&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;hy&quot;&gt;
-
-
-&lt;h3 id=&quot;armenian&quot;&gt;Armenian&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Armenian&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;bax&quot;&gt;
-
-&lt;h3 id=&quot;bamum&quot;&gt;Bamum&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ꚠꚡꚢꚣꚤꚥ ꚦꚧꚨꚩꚪꚫꚬꚭ ꚮꚯꚠꚡꚢꚣ ꚤꚥꚦꚧ ꚨꚩꚪꚫ ꚬꚭꚮꚯ&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Bamun (Bamoun)&lt;/details&gt;&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot; lang=&quot;bn&quot;&gt;
-
-
-&lt;h3 id=&quot;bengali-bangla-&quot;&gt;Bengali (Bangla)&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে।&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Bangla, Assamese, Bishnupriya, Garo, Mizo, Rangpuri&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;cherokee&quot;&gt;Cherokee&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;chr&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; Ꭰꮿꮩꮈ 1 Ꮒꭶꮣ ꭰꮒᏼꮻ ꭴꮎꮥꮕꭲ ꭴꮎꮪꮣꮄꮣ ꭰꮄ ꭱꮷꮃꭽꮙ ꮎꭲ ꭰꮲꮙꮩꮧ ꭰꮄ ꭴꮒꮂ ꭲᏻꮎꮫꮧꭲ.&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Cherokee&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;simplified-chinese&quot;&gt;Simplified Chinese&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;zh-Hans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;zh-Hans&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第一条所有人民天生都是自由的，有尊严和平等的权利。&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;traditional-chinese&quot;&gt;Traditional Chinese&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;yue-Hant&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;yue-Hant&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;hong-kong-chinese&quot;&gt;Hong Kong Chinese&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;zh-HK&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;zh-HK&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第一條所有人民天生自由，享有尊嚴和權利平等。&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gan Chinese, Hakka Chinese, Xiang Chinese, Min Nan Chinese, Wu Chinese&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;/div&gt; &lt;!-- End column 1 --&gt;
-
-&lt;div id=&quot;column-2&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 2 --&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;cyrillic&quot;&gt;Cyrillic&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;ru&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Belarusian, Bulgarian, Macedonian, Mongolian, Russian, Ukrainian, Abkhazian, Abaza, Adyghe, Southern Altai, Avaric, Bashkir, Buriat, Chechen, Mari, Shor, Chukot, Crimean Turkish, Chuvash, Dargwa, Dungan, Evenki, Nanai, Kara-Kalpak, Kabardian, Khanty, Khakas, Komi-Permyak, Koryak, Karachay-Balkar, Kumyk, Komi, Lak, Lezghian, Moksha, Mansi, Western Mari, Erzya, Nogai, Ossetic, Rusyn, Sakha, Selkup, Tabassaran, Tatar, Tuvinian, Udihe, Kalmyk, Nenets&lt;/details&gt;&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;devanagari&quot;&gt;Devanagari&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;Deva&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं। &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;Deva&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं। &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Nepali, Angika, Awadhi, Bantawa, Bagheli, Haryanvi, Bhili, Bhilali, Bhojpuri, Kanauji, Braj, Bodo, Bateri, Dotyali, Garhwali, Goan Konkani, Gurung, Chhattisgarhi, Ho, Hadothi, Jumli, Kachhi, Kumaoni, Khandesi, Konkani, Kurukh, Magahi, Maithili, Eastern Magar, Marathi, Western Magar, Mewari, Marwari, Newari, Nimadi, Rajasthani, Rajbanshi, Sadri, Sirmauri, Shekhawati, Thulung, Dangaura Tharu, Kochila Tharu, Rana Tharu, Kathoriya Tharu, Wagdi, Mewati, Kangri, Sherpa&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;ethiopic&quot;&gt;Ethiopic&lt;/h3&gt;
-&lt;p class=&quot;lf-serif&quot; lang=&quot;am&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡ &lt;/p&gt;
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Amharic, Tigrinya, Blin, Oromo, Tigre, Wolaytta, Geez&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;greek&quot;&gt;Greek&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot;  lang=&quot;gr&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Greek, Balkan Gagauz Turkish, Pontic, Tsakonian, Coptic, Ancient Greek, hebrew, Hebrew, Judeo-Persian, Judeo-Arabic, Ladino, Yiddish, Samaritan Aramaic&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;gujarati&quot;&gt;Gujarati&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;gu&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે. &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;gu&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; લેખ 1 બધા લોકો સ્વતંત્ર અને સમાન અને સમાનતા અને અધિકારમાં જન્મે છે. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Gujarati&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;gurmukhi&quot;&gt;Gurmukhi&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;gi&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ. &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;gi&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Punjabi&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;hebrew&quot;&gt;Hebrew&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;he&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Hebrew, Judeo-Persian, Judeo-Arabic, Ladino, Yiddish&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;japanese&quot;&gt;Japanese&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;jp&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;jp&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 第１条 すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Japanese&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;/div&gt; &lt;!-- End column 2 --&gt;
-
-&lt;div id=&quot;column-3&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 3 --&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;kannada&quot;&gt;Kannada&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
-
-&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;kn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Kannada, Tulu&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;khmer&quot;&gt;Khmer&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;km&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។&lt;/p&gt;
-
-&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;km&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;km&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Khmer&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;hangeul-korean-&quot;&gt;Hangeul (Korean)&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;ko&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다. &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;ko&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 제 1 조 모든 사람은 자유롭고 존엄성과 권리면에서 동등하게 태어납니다. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Korean&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;lao&quot;&gt;Lao&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;lo&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ &lt;/p&gt;
-
-&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;lo&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;lo&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Lao, Hmong Njua&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;latin&quot;&gt;Latin&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ARTICLE 1: All human beings are born free and equal in dignity and rights.&lt;/p&gt;
-
-&lt;p class=&quot;lf-sans&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans Italic: &lt;/span&gt;&lt;em&gt;ARTICLE 1: All human beings are born free and equal in dignity and rights.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p class=&quot;lf-sans&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans Mono:&lt;/span&gt;&lt;pre&gt;ARTICLE 1: All human beings are born free and equal in dignity and rights.&lt;/pre&gt;&lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif: &lt;/span&gt;ARTICLE 1: All human beings are born free and equal in dignity and rights. &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;Latn&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif Italic: &lt;/span&gt;&lt;em&gt;ARTICLE 1. All human beings are born free and equal in dignity and rights.&lt;/em&gt;&lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Aymara, Bislama, Catalan, Chamorro, Czech, Danish, German, English, Spanish, Estonian, Finnish, Filipino, Fijian, Faroese, French, Irish, Gilbertese, Guarani, Swiss German, Manx, Hiri Motu, Croatian, Haitian Creole, Hungarian, Icelandic, Italian, Kalaallisut, Luxembourgish, Lithuanian, Latvian, Malagasy, Marshallese, Maori, Maltese, Nauru, Norwegian Bokmål, North Ndebele, Niuean, Dutch, Norwegian Nynorsk, Nyanja, Papiamento, Palauan, Polish, Portuguese, Quechua, Rundi, Kinyarwanda, Sango, Slovak, Slovenian, Samoan, Shona, Albanian, Swati, Southern Sotho, Swedish, Swahili, Tetum, Tokelau, Tswana, Tongan, Tok Pisin, Tuvalu, Tahitian, Yoruba, Afar, Abron, Achinese, Acoli, Adangme, Afrikaans, Aghem, Akan, Alabama, Aleut, Gheg Albanian, Amo, Aragonese, Uab Meto, Mapuche, Araona, Arapaho, Arawak, Asu, Asturian, Atikamekw, Bavarian, Basaa, Ghomala, Baoulé, Bemba, Betawi, Bena, Bafut, Bikol, Bini, Banjar, Kom, Buhid, Siksika, Bomu, Koro Wachi, Breton, Akoose, Rinconada Bikol, Bushi, Buginese, Bulu, Bube, Medumba, Jenaama Bozo, Kɛlɛngaxo Bozo, Caddo, Carib, Cayuga, Atsam, Cebuano, Chiga, Chuukese, Chinook Jargon, Choctaw, Cheyenne, Chickasaw, Corsican, Capiznon, Southern East Cree, Northern East Cree, Seselwa Creole French, Kashubian, Tedim Chin, Welsh, Dakota, Taita, Delaware, Dogrib, Dinka, Zarma, Dan, Lower Sorbian, Tomo Kan Dogon, Central Dusun, Duala, Dyula, Embu, Ewe, Efik, Emilian, Ekajuk, Central Yupik, Basque, Ewondo, Extremaduran, Fang, Maasina Fulfulde, Tornedalen Finnish, Fon, Cajun French, Arpitan, Northern Frisian, Eastern Frisian, East Futuna, Central-Eastern Niger Fulfulde, Friulian, Nigerian Fulfulde, Fur, Western Frisian, Ga, Gayo, Gbaya, Guianese Creole French, Scottish Gaelic, Galician, Gorontalo, Gronings, Grebo, Guajajára, Wayuu, Frafra, Gusii, Gwichʼin, Haida, Hawaiian, Hiligaynon, Hmong, Hanunoo, Hopi, Upper Sorbian, Hupa, Herero, Iban, Ibibio, Ifè, Igbo, Inupiaq, Inuinnaqtun, Iloko, Ingrian, Jamaican Creole English, Ngomba, Machame, Kabyle, Kachin, Jju, Kamba, Xaasongaxango, Tyap, Kalanga, Makonde, Kabuverdianu, Koro, Kongo, Komering, Kaingang, Koyra Chiini, Kikuyu, Kirmanjki, Kuanyama, Kako, Kalenjin, Kimbundu, Kosraean, Kpelle, Kanuri, Krio, Kinaray-a, Karelian, Shambala, Bafia, Colognian, Kutenai, Kerinci, Cornish, Langi, Lango (Uganda), Lamba, Tolaki, Limburgish, Ligurian, Livonian, Lakota, Lombard, Madurese, Rotuman, Tiv, Tamashek, Nyasa Tonga, Taroko, Tsonga, Tausug, Tsimshian, Tooro, Tumbuka, Tasawaq, Ulithian, Umbundu, Venda, Venetian, Veps, Virgin Islands Creole English, West Flemish, Main-Franconian, Makhuwa, Votic, Võro, Vunjo, Walloon, Walser, Waray, Washo, Warlpiri, Wallisian, Xavánte, Xhosa, Soga, Yao, Yapese, Yangben, Yemba, Nheengatu, Yucateco, Zaghawa, Zapotec, Zeelandic, Negeri Sembilan Malay, Zulu, Zuni, Zaza&lt;/details&gt;&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;malayalam&quot;&gt;Malayalam&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;ms&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;ms&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; വകുപ്പ്‌ 1\. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Malayalam&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;oriya&quot;&gt;Oriya&lt;/h3&gt;
-&lt;p class=&quot;lf-sans &quot; lang=&quot;or&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Oriya&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;/div&gt; &lt;!-- End column 3 --&gt;
-
-&lt;div id=&quot;column-4&quot; class=&quot;tile is-parent is-3 is-vertical&quot;&gt; &lt;!-- column 4 --&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;sinhala&quot;&gt;Sinhala&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;si&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් &lt;/p&gt;
-
-&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;si&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;si&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Sinhala&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;tamil&quot;&gt;Tamil&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;ta&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் &lt;/p&gt;
-
-&lt;p class=&quot;lf-sans-ui&quot; lang=&quot;ta&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans UI:&lt;/span&gt; கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;ta&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Tamil, Badaga&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;telugu&quot;&gt;Telugu&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;te&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;te&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ఆర్టికల్ 1s ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Lambadi, Telugu, Waddar&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-
-&lt;h3 id=&quot;thai&quot;&gt;Thai&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;th&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;th&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Thai, Kuy, Northern Khmer, Western Lawa, Eastern Lawa, Southern Thai, Northeastern Thai&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;tibetan&quot;&gt;Tibetan&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;Tibt&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། &lt;/p&gt;
-
-&lt;p class=&quot;lf-serif&quot; lang=&quot;Tibt&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Serif:&lt;/span&gt; དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Dzongkha, Tibetan, Tshangla&lt;/details&gt;&lt;/div&gt;
-
-&lt;div class=&quot;tile is-child box lang-block&quot;&gt;
-
-&lt;h3 id=&quot;thaana&quot;&gt;Thaana&lt;/h3&gt;
-&lt;p class=&quot;lf-sans&quot; lang=&quot;dv&quot;&gt;&lt;span class=&quot;leader&quot;&gt;Sans:&lt;/span&gt; ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ. &lt;/p&gt;
-
-&lt;details class=&quot;languages&quot;&gt;&lt;summary&gt;&lt;span&gt;Languages&lt;/span&gt; &lt;/summary&gt;Divehi&lt;/details&gt;
-&lt;/div&gt;
-
-&lt;/div&gt; &lt;!-- End column 4 --&gt;
-
 &lt;/div&gt;
 </description>
     </item>

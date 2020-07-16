@@ -2188,17 +2188,17 @@ html .lf-latin-mono {
 
 *:lang(km),
 .lf-sans:lang(km) {
-  font-family: "Noto Sans VF", "Noto Sans", "Noto Sans Khmer VF", "Noto Sans Khmer Regular", sans-serif;
+  font-family: "Noto Sans Khmer VF", "Noto Sans Khmer Regular", sans-serif;
   direction: ltr;
 }
 
 .lf-sans-ui:lang(km) {
-  font-family: "Noto Sans VF", "Noto Sans", "Noto Sans Khmer UI VF", "Noto Sans Khmer UI Regular", sans-serif;
+  font-family: "Noto Sans Khmer UI VF", "Noto Sans Khmer UI Regular", sans-serif;
   direction: ltr;
 }
 
 .lf-serif:lang(km) {
-  font-family: "Noto Serif VF", "Noto Serif", "Noto Serif Khmer VF", "Noto Serif Khmer Regular", serif;
+  font-family: "Noto Serif Khmer VF", "Noto Serif Khmer Regular", serif;
   direction: ltr;
 }
 
