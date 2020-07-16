@@ -4409,6 +4409,16 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
+/*
+.lf-sans-ui {
+
+	&:lang(Scrp),
+	&:lang(fil) {
+		font-family: $base-sans-vf,$base-sans,$tagalog-sans-ui-vf,$tagalog-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+*/
 .lf-serif:lang(fil) {
   font-family: "Noto Serif VF", "Noto Serif", "", "", serif;
   direction: ltr;

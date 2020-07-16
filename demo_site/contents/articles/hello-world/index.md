@@ -335,6 +335,7 @@ Internationlaize your type
 <details class="languages"><summary><span>Languages</span> </summary>Thai, Kuy, Northern Khmer, Western Lawa, Eastern Lawa, Southern Thai, Northeastern Thai</details>
 </div>
 
+<!--
 <div class="tile is-child box lang-block">
 
 <h3 class="lf-xlight">Tibetan</h3>
@@ -344,6 +345,7 @@ Internationlaize your type
 <p class="lf-serif" lang="Tibt"><span class="leader">Serif:</span> དོན་ཚན་དང་པོ། འགྲོ་བ་མིའི་རིགས་རྒྱུད་ཡོངས་ལ་སྐྱེས་ཙམ་ཉིད་ནས་ཆེ་མཐོངས་དང༌། ཐོབ་ཐངགི་རང་དབང་འདྲ་མཉམ་དུ་ཡོད་ལ། </p>
 
 <details class="languages"><summary><span>Languages</span> </summary>Dzongkha, Tibetan, Tshangla</details></div>
+-->
 
 <div class="tile is-child box lang-block">
 

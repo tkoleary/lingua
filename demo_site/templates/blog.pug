@@ -1,8 +1,5 @@
 
-extends layout
-
 block content
-  include author
   each article in articles
     article.article.intro
       header
@@ -21,7 +18,5 @@ block prepend footer
   div.nav
     if prevPage
       a(href=prevPage.url) &laquo; Newer
-    else
-      a(href='/archive.html') &laquo; Archives
     if nextPage
       a(href=nextPage.url) Next page &raquo;

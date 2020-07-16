@@ -6,7 +6,8 @@
     "description": "Internationalize your type"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+		"wintersmith-livereload"
   ],
   "require": {
     "moment": "moment",
@@ -22,5 +23,9 @@
   },
   "paginator": {
     "perPage": 3
+  },
+	"livereload": {
+    "port": 35729,
+		"liveCSS": true
   }
 }

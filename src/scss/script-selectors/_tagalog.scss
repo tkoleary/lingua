@@ -1,12 +1,31 @@
 // Tagalog script
 
-*:lang(fil),
-.lf-sans:lang(fil) {
-	font-family: $base-sans-vf,$base-sans,$tagalog-sans-vf,$tagalog-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+
+	//&:lang(Scrp),
+	&:lang(fil) {
+		font-family: $base-sans-vf,$base-sans,$tagalog-sans-vf,$tagalog-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(fil) {
-	font-family: $base-serif-vf,$base-serif,$tagalog-serif-vf,$tagalog-serif,serif;
-	direction: ltr;
+/*
+.lf-sans-ui {
+
+	&:lang(Scrp),
+	&:lang(fil) {
+		font-family: $base-sans-vf,$base-sans,$tagalog-sans-ui-vf,$tagalog-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+*/
+
+.lf-serif {
+
+	//&:lang(Scrp),
+	&:lang(fil) {
+		font-family: $base-serif-vf,$base-serif,$tagalog-serif-vf,$tagalog-serif,serif;
+		direction: ltr;
+	}
 }
