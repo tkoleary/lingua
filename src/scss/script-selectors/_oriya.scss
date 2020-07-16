@@ -1,12 +1,29 @@
 // Oriya script
 
-*:lang(or),
-.lf-sans:lang(or) {
-	font-family: $base-sans-vf,$base-sans,$oriya-sans-vf,$oriya-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+
+	//&:lang(Scrp), @todo: get script code
+	&:lang(or) {
+		font-family: $base-sans-vf,$base-sans,$oriya-sans-vf,$oriya-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-//.lf-serif:lang(or) {
-//	font-family: $base-serif-vf,$base-serif,$oriya-serif-vf,$oriya-serif,serif;
-//	direction: ltr;
-//}
+/*.lf-sans-ui {
+
+	//&:lang(Scrp),
+	&:lang(or) {
+		font-family: $base-sans-vf,$base-sans,$oriya-sans-ui-vf,$oriya-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+
+	//&:lang(Scrp),
+	&:lang(or) {
+		font-family: $base-serif-vf,$base-serif,$oriya-serif-vf,$oriya-serif,serif;
+		direction: ltr;
+	}
+}*/

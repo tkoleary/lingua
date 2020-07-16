@@ -1,10 +1,6 @@
 // Ethiopic script languages
 
-*:lang(am),
-*:lang(ti),
-*:lang(byn),
-*:lang(tig),
-*:lang(wal),
+*:lang(am),*:lang(ti),*:lang(byn),*:lang(tig),*:lang(wal),
 .lf-serif:lang(am) {
 	font-family: $base-serif-vf,$base-serif,$ethiopic-serif-vf,$ethiopic-serif,serif;
 	direction: ltr;

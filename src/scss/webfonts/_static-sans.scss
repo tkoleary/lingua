@@ -163,7 +163,7 @@
 	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
 				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
 				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
+				// url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
 				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
 				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
 	font-weight: $fontWeight;

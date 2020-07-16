@@ -1,72 +1,25 @@
 // Languages that could be written in either latin or cyrillic or arabic scripts
 
 // Default to Arabic script
-*:lang(aii),
-*:lang(az),
-*:lang(inh),
-*:lang(ky),
-*:lang(kk),
-*:lang(ku),
-*:lang(tg),
-*:lang(tk),
-*:lang(tly),
-*:lang(ttt),
-*:lang(ug),
-*:lang(uz) {
+*:lang(aii),*:lang(az),*:lang(inh),*:lang(ky),*:lang(kk),*:lang(ku),*:lang(tg),*:lang(tk),*:lang(tly),*:lang(ttt),*:lang(ug),*:lang(uz) {
 	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	direction: rtl;
 }
 
 // Arabic script is explicit
-*:lang(Arab),
-*:lang(aii-Arab),
-*:lang(az-Arab),
-*:lang(inh-Arab),
-*:lang(ky-Arab),
-*:lang(kk-Arab),
-*:lang(ku-Arab),
-*:lang(tg-Arab),
-*:lang(tk-Arab),
-*:lang(tly-Arab),
-*:lang(ttt-Arab),
-*:lang(ug-Arab),
-*:lang(uz-Arab) {
+*:lang(Arab),*:lang(aii-Arab),*:lang(az-Arab),*:lang(inh-Arab),*:lang(ky-Arab),*:lang(kk-Arab),*:lang(ku-Arab),*:lang(tg-Arab),*:lang(tk-Arab),*:lang(tly-Arab),*:lang(ttt-Arab),*:lang(ug-Arab),*:lang(uz-Arab) {
 	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
 	direction: rtl;
 }
 
 // Latin script is explicit
-*:lang(Latn),
-*:lang(aii-Latn),
-*:lang(az-Latn),
-*:lang(inh-Latn),
-*:lang(ky-Latn),
-*:lang(kk-Latn),
-*:lang(ku-Latn),
-*:lang(tg-Latn),
-*:lang(tk-Latn),
-*:lang(tly-Latn),
-*:lang(ttt-Latn),
-*:lang(ug-Latn),
-*:lang(uz-Latn) {
+*:lang(Latn),*:lang(aii-Latn),*:lang(az-Latn),*:lang(inh-Latn),*:lang(ky-Latn),*:lang(kk-Latn),*:lang(ku-Latn),*:lang(tg-Latn),*:lang(tk-Latn),*:lang(tly-Latn),*:lang(ttt-Latn),*:lang(ug-Latn),*:lang(uz-Latn) {
 	font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
 	direction: ltr;
 }
 
 // Cyrillic script is explicit
-*:lang(Cyrl),
-*:lang(aii-Cyrl),
-*:lang(az-Cyrl),
-*:lang(inh-Cyrl),
-*:lang(ky-Cyrl),
-*:lang(kk-Cyrl),
-*:lang(ku-Cyrl),
-*:lang(tg-Cyrl),
-*:lang(tk-Cyrl),
-*:lang(tly-Cyrl),
-*:lang(ttt-Cyrl),
-*:lang(ug-Cyrl),
-*:lang(uz-Cyrl) {
+*:lang(Cyrl),*:lang(aii-Cyrl),*:lang(az-Cyrl),*:lang(inh-Cyrl),*:lang(ky-Cyrl),*:lang(kk-Cyrl),*:lang(ku-Cyrl),*:lang(tg-Cyrl),*:lang(tk-Cyrl),*:lang(tly-Cyrl),*:lang(ttt-Cyrl),*:lang(ug-Cyrl),*:lang(uz-Cyrl) {
 	font-family: $base-sans-vf,$base-sans,$cyrillic-sans-vf,$cyrillic-sans,sans-serif;
 	direction: ltr;
 }

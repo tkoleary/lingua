@@ -1,6 +1,5 @@
 // tai-viet script
 
-
 *,
 .lf-sans {
 
@@ -11,14 +10,14 @@
 	}
 }
 
-.lf-sans-ui {
+/*.lf-sans-ui {
 
 	&:lang(Tavt),
 	&:lang(bit) {
 		font-family: $base-sans-vf,$base-sans,$tai-viet-sans-ui-vf,$tai-viet-sans-ui,sans-serif;
 		direction: ltr;
 	}
-}
+}*/
 
 .lf-serif {
 

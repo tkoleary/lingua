@@ -14,7 +14,7 @@ $buhid:						U+1740-175F;
 $c-aboriginal:		U+1400-167F, U+18B0-18FF; // UCAS and extended
 $cham:						U+AA00-AA5F;
 $cherokee:				U+????; // U+13A0-13FF;
-$chinese:					U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF; // @todo add subset ranges
+$chinese:					U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF; // @todo add latin 1
 $cyrillic:				U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 $devanagari:			U+0900-097F, U+A8E0-A8FF; // Devanagari and extended
 $elemaic:					U+10FE0-10FFF;
@@ -24,11 +24,11 @@ $georgian:				U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F; // Georgian, extended, and 
 $greek:						U+0370-03FF, U+1F00-1FFF; // Greek and coptic, greek extended
 $gujarati:				U+0A80-0AFF;
 $gurmukhi:				U+0A00-0A7F;
-$hangul:					U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+A960-A97F, U+D7B0-D7FF; // With compatibility jamo @todo add subset ranges
+$hangul:					U+1100-11FF, U+3130-318F, U+AC00-D7AF, U+A960-A97F, U+D7B0-D7FF; // With compatibility jamo @todo add latin 1
 $hanifi-rohingya:	U+10D00-10D3F;
 $hanunoo:					U+1720-173F;
 $hebrew:					U+0590-05FF;
-$japanese:				U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F; // Kanji, Hiragana, Katakana, Yen symbol, @todo add subset ranges
+$japanese:				U+A5, U+4E00-9FFF, U+30??, U+FF00-FF9F; // Kanji, Hiragana, Katakana, Yen symbol. @todo add latin 1
 $kannada:					U+0C80-0CFF;
 $kayah:						U+A900-A92F;
 $khmer:						U+1780-17FF, U+19E0-19FF; // Khmer and symbols

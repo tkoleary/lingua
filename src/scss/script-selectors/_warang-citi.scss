@@ -1,12 +1,18 @@
 // Warang citi script
 
-*:lang(hoc),
-.lf-sans:lang(hoc) {
-	font-family: $base-sans-vf,$base-sans,$warang-citi-sans-vf,$warang-citi-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+
+	&:lang(hoc) {
+		font-family: $base-sans-vf,$base-sans,$warang-citi-sans-vf,$warang-citi-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(hoc) {
-	font-family: $base-serif-vf,$base-serif,$warang-citi-serif-vf,$warang-citi-serif,serif;
-	direction: ltr;
+.lf-serif {
+
+	&:lang(hoc) {
+		ont-family: $base-serif-vf,$base-serif,$warang-citi-serif-vf,$warang-citi-serif,serif;
+		direction: ltr;
+	}
 }

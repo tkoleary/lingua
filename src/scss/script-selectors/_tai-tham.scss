@@ -1,6 +1,5 @@
 // Tai-tham script
 
-
 *,
 .lf-sans {
 
@@ -11,14 +10,14 @@
 	}
 }
 
-.lf-sans-ui {
+/*.lf-sans-ui {
 
 	&:lang(Lana),
 	&:lang(kkh) {
 		font-family: $base-sans-vf,$base-sans,$tai-tham-sans-ui-vf,$tai-tham-sans-ui,sans-serif;
 		direction: ltr;
 	}
-}
+}*/
 
 .lf-serif {
 

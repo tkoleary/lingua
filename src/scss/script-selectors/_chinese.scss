@@ -1,24 +1,7 @@
 // Simplified and Traditional Chinese script languages
 
 // Where no script is specified default to Simplified, except for yue (Cantonese)
-*:lang(zh),
-*:lang(gan),
-*:lang(hak),
-*:lang(hsn),
-*:lang(nan),
-*:lang(wuu),
-*:lang(za),
-*:lang(lzh),
-*:lang(Hans),
-*:lang(zh-Hans),
-*:lang(gan-Hans),
-*:lang(hak-Hans),
-*:lang(hsn-Hans),
-*:lang(nan-Hans),
-*:lang(wuu-Hans),
-*:lang(yue-Hans),
-*:lang(za-Hans),
-*:lang(lzh-Hans),
+*:lang(zh),*:lang(gan),*:lang(hak),*:lang(hsn),*:lang(nan),*:lang(wuu),*:lang(za),*:lang(lzh),*:lang(Hans),*:lang(zh-Hans),*:lang(gan-Hans),*:lang(hak-Hans),*:lang(hsn-Hans),*:lang(nan-Hans),*:lang(wuu-Hans),*:lang(yue-Hans),*:lang(za-Hans),*:lang(lzh-Hans),
 .lf-sans:lang(zh-Hans) {
 	font-family: $base-sans,$chinese-s-sans,sans-serif;
 	direction: ltr;
@@ -40,17 +23,7 @@
 }
 
 // For yue and where traditional script is explicit
-*:lang(yue),
-*:lang(Hant),
-*:lang(zh-Hant),
-*:lang(gan-Hant),
-*:lang(hak-Hant),
-*:lang(hsn-Hant),
-*:lang(nan-Hant),
-*:lang(wuu-Hant),
-*:lang(yue-Hant),
-*:lang(za-Hant),
-*:lang(lzh-Hant),
+*:lang(yue),*:lang(Hant),*:lang(zh-Hant),*:lang(gan-Hant),*:lang(hak-Hant),*:lang(hsn-Hant),*:lang(nan-Hant),*:lang(wuu-Hant),*:lang(yue-Hant),*:lang(za-Hant),*:lang(lzh-Hant),
 .lf-sans:lang(yue-Hant) {
 	font-family: $base-sans,$chinese-t-sans,sans-serif;
 	direction: ltr;

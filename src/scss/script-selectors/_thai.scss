@@ -1,12 +1,29 @@
 // Thai script
 
-*:lang(th),
-.lf-sans:lang(th) {
-	font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+
+	&:lang(Thai),
+	&:lang(th) {
+		font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(th) {
-	font-family: $base-serif-vf,$base-serif,$thai-serif-vf,$thai-serif,serif;
-	direction: ltr;
+/*.lf-sans-ui {
+
+	&:lang(Thai),
+	&:lang(th) {
+		font-family: $base-sans-vf,$base-sans,$thai-sans-ui-vf,$thai-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}*/
+
+.lf-serif {
+
+	&:lang(Thai),
+	&:lang(th) {
+		font-family: $base-serif-vf,$base-serif,$thai-serif-vf,$thai-serif,serif;
+		direction: ltr;
+	}
 }

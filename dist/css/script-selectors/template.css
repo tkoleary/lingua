@@ -1,0 +1,29 @@
+/*
+*,
+.lf-sans {
+
+	&:lang(Scrp),
+	&:lang(Lng) {
+		font-family: $base-sans-vf,$base-sans,$~Lang-sans-vf,$~Lang-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-sans-ui {
+
+	&:lang(Scrp),
+	&:lang(Lng) {
+		font-family: $base-sans-vf,$base-sans,$~Lang-sans-ui-vf,$~Lang-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+
+	&:lang(Scrp),
+	&:lang(Lng) {
+		font-family: $base-serif-vf,$base-serif,$~Lang-serif-vf,$~Lang-serif,serif;
+		direction: ltr;
+	}
+}
+*/
