@@ -1,0 +1,30 @@
+// tai-viet script
+
+
+*,
+.lf-sans {
+
+	&:lang(Tavt),
+	&:lang(bit) {
+		font-family: $base-sans-vf,$base-sans,$tai-viet-sans-vf,$tai-viet-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-sans-ui {
+
+	&:lang(Tavt),
+	&:lang(bit) {
+		font-family: $base-sans-vf,$base-sans,$tai-viet-sans-ui-vf,$tai-viet-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+
+	&:lang(Tavt),
+	&:lang(bit) {
+		font-family: $base-serif-vf,$base-serif,$tai-viet-serif-vf,$tai-viet-serif,serif;
+		direction: ltr;
+	}
+}

@@ -1,17 +1,29 @@
 // Tamil script
 
-*:lang(ta),
-.lf-sans:lang(ta) {
-	font-family: $base-sans-vf,$base-sans,$tamil-sans-vf,$tamil-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+
+	&:lang(Taml),
+	&:lang(ta) {
+		font-family: $base-sans-vf,$base-sans,$tamil-sans-vf,$tamil-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-sans-ui:lang(ta) {
-	font-family: $base-sans-vf,$base-sans,$tamil-sans-ui-vf,$tamil-sans-ui,sans-serif;
-	direction: ltr;
+.lf-sans-ui {
+
+	&:lang(Taml),
+	&:lang(ta) {
+		font-family: $base-sans-vf,$base-sans,$tamil-sans-ui-vf,$tamil-sans-ui,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(ta) {
-	font-family: $base-serif-vf,$base-serif,$tamil-serif-vf,$tamil-serif,serif;
-	direction: ltr;
+.lf-serif {
+
+	&:lang(Taml),
+	&:lang(ta) {
+		font-family: $base-serif-vf,$base-serif,$tamil-serif-vf,$tamil-serif,serif;
+		direction: ltr;
+	}
 }

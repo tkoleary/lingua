@@ -1,0 +1,30 @@
+// Tai-tham script
+
+
+*,
+.lf-sans {
+
+	&:lang(Lana),
+	&:lang(kkh) {
+		font-family: $base-sans-vf,$base-sans,$tai-tham-sans-vf,$tai-tham-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-sans-ui {
+
+	&:lang(Lana),
+	&:lang(kkh) {
+		font-family: $base-sans-vf,$base-sans,$tai-tham-sans-ui-vf,$tai-tham-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+
+	&:lang(Lana),
+	&:lang(kkh) {
+		font-family: $base-serif-vf,$base-serif,$tai-tham-serif-vf,$tai-tham-serif,serif;
+		direction: ltr;
+	}
+}

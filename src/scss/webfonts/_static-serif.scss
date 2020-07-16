@@ -275,10 +275,15 @@
 	@include font-face-static(Noto, Serif, Tagalog, Regular, Regular, normal, normal);
 	unicode-range: $tagalog;
 }
-// TaiLe Serif regular
+// Tai Le Serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, TaiLe, Regular, Regular, normal, normal);
 	unicode-range: $tai-le;
+}
+// Tai Tham Serif regular
+@font-face {
+	@include font-face-static(Noto, Serif, TaiTham, Regular, Regular, normal, normal);
+	unicode-range: $tai-tham;
 }
 // Tai Viet Serif regular
 @font-face {

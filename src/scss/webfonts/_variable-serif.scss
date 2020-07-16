@@ -167,8 +167,18 @@
 	}
 	// Variable Serif fonts for Tai Le
 	@font-face {
-		@include font-face(Noto, Serif, Tai Le, VF, Regular, normal, normal);
+		@include font-face(Noto, Serif, TaiLe, VF, Regular, normal, normal);
 		unicode-range: $tai-le;
+	}
+	// Variable Serif fonts for Tai Tham
+	@font-face {
+		@include font-face(Noto, Serif, TaiTham, VF, Regular, normal, normal);
+		unicode-range: $tai-tham;
+	}
+	// Variable Serif fonts for Tai Viet
+	@font-face {
+		@include font-face(Noto, Serif, TaiViet, VF, Regular, normal, normal);
+		unicode-range: $tai-viet;
 	}
 	// Variable serif fonts for Tamil
 	@font-face {

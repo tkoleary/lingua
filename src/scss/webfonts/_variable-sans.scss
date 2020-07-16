@@ -173,8 +173,18 @@
 	}
 	// Variable sans fonts for Tai Le
 	@font-face {
-		@include font-face(Noto, Sans, Tai Le, VF, Regular, normal, normal);
+		@include font-face(Noto, Sans, TaiLe, VF, Regular, normal, normal);
 		unicode-range: $tai-le;
+	}
+	// Variable sans fonts for Tai Tham
+	@font-face {
+		@include font-face(Noto, Sans, TaiTham, VF, Regular, normal, normal);
+		unicode-range: $tai-tham;
+	}
+	// Variable sans fonts for Tai Viet
+	@font-face {
+		@include font-face(Noto, Sans, TaiViet, VF, Regular, normal, normal);
+		unicode-range: $tai-viet;
 	}
 	// Variable sans fonts for Tamil
 	@font-face {

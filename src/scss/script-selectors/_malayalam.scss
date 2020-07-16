@@ -1,21 +1,34 @@
 // Malayalam script
 
-*:lang(ms),
-.lf-sans:lang(ms) {
-	font-family: $base-sans-vf,$base-sans,$malayalam-sans-vf,$malayalam-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+
+	:lang(Mlym),
+	:lang(ms) {
+		font-family: $base-sans-vf,$base-sans,$malayalam-sans-vf,$malayalam-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-sans-ui:lang(ms) {
-	font-family: $base-sans-vf,$base-sans,$malayalam-sans-ui-vf,$malayalam-sans,sans-serif;
-	direction: ltr;
+.lf-sans-ui {
+
+	:lang(Mlym),
+	:lang(ms) {
+		font-family: $base-sans-vf,$base-sans,$malayalam-sans-ui-vf,$malayalam-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(ms) {
-	font-family: $base-serif-vf,$base-serif,$malayalam-serif-vf,$malayalam-serif,serif;
-	direction: ltr;
+.lf-serif {
+
+	:lang(Mlym),
+	:lang(ms)
+		font-family: $base-serif-vf,$base-serif,$malayalam-serif-vf,$malayalam-serif,serif;
+		direction: ltr;
+	}
 }
 
+*:lang(Mlym),
 *:lang(ms) {
-	overflow-wrap: break-word;
+	overflow-wrap: break-word; // @todo investigate W3C Malayalam hyphenation coverage
 }

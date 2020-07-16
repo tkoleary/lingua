@@ -1,0 +1,29 @@
+// Tai-le script
+
+*,
+.lf-sans {
+
+	&:lang(Tale),
+	&:lang(tdd) {
+		font-family: $base-sans-vf,$base-sans,$tai-le-sans-vf,$tai-le-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-sans-ui {
+
+	&:lang(Tale),
+	&:lang(tdd) {
+		font-family: $base-sans-vf,$base-sans,$tai-le-sans-ui-vf,$tai-le-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+
+	&:lang(Tale),
+	&:lang(tdd) {
+		font-family: $base-serif-vf,$base-serif,$tai-le-serif-vf,$tai-le-serif,serif;
+		direction: ltr;
+	}
+}
