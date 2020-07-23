@@ -5,17 +5,9 @@
     <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://localhost:8080</link>
     <description>Internationalize your type</description>
-    <pubDate>Sat, 18 Jul 2020 19:00:00 -0500</pubDate>
+    <pubDate>Sat, 11 Jul 2020 19:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
-    <item>
-      <title>Languages</title>
-      <link>http://localhost:8080/articles/languages/</link>
-      <pubDate>Sat, 18 Jul 2020 19:00:00 -0500</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/languages/</guid>
-      <author></author>
-      <description></description>
-    </item>
     <item>
       <title>Lingua Language Coverage</title>
       <link>http://localhost:8080/articles/hello-world/</link>

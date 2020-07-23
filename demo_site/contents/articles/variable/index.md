@@ -3,6 +3,7 @@ title: Variable Sans Fonts
 author: Kevin Oleary
 date: 2020-07-12
 template: article.pug
+tags: variable
 ---
 
 # Noto fonts

@@ -7,6 +7,7 @@
   },
   "plugins": [
     "./plugins/paginator.coffee",
+		"wintersmith-tag",
 		"wintersmith-livereload"
   ],
   "require": {
@@ -22,8 +23,18 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 3
+		"articles": "articles",
+    "perPage": 12,
+    "first": "/aritcles/index.html",
+    "filename": "articles/%d/index.html"
   },
+	"tag": {
+    "filename": "/articles/%s/%d/index.html"
+  },
+  "ignore": [
+    "**/*.conf",
+    "**/.DS_Store"
+  ],
 	"livereload": {
     "port": 35729,
 		"liveCSS": true

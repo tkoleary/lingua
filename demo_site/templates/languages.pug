@@ -1,8 +1,11 @@
 // languages
 
+block link
+	- var selected = 'languages';
+
 block content
 	
-	- var language = contents.languages[title + '.json'];
+	//- var language = contents.languages[title + '.json'];
 	
 	.section
 		h2 Lingua supports 50+ scripts and more than 1000 languages
@@ -13,3 +16,4 @@ block content
 				each language in languages++
 					.script (scriptName)
 					p.example (example)
+					hr

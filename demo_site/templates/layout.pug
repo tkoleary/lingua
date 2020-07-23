@@ -1,9 +1,12 @@
 doctype html
+
 block vars
 	- var bodyclass = null;
-	- var menu = { 'home': '/', 'about': '/about/'};
+	- var menu = { 'home': '/', 'languages': '/languages/'};
+	
 block link
 		-var selected = 'home'; //default
+		
 html(lang='en')
 	head
 		block head
@@ -18,23 +21,22 @@ html(lang='en')
 			link(rel='stylesheet', href=contents.css['main.css'].url)
 			link(rel='stylesheet', href=contents.css['lingua.min.css'].url)
 	body(class=bodyclass)
-		header.header
-			div.container
-				block header
-					div.logo
-						h1
-							a(href=locals.url)= locals.name
-						p.description= locals.description
-						div#navbar
-					div.buttons
-							each val, key in menu
-								if key === selected 
-									a(href=menu[key])
-										span.active
+		div.container
+			block header
+				div.logo
+					h1
+						a(href=locals.url)= locals.name
+					p.description= locals.description
+					div#navbar
+						div.buttons
+								each val, key in menu
+									if key === selected 
+										a(href=menu[key])
+											span.active
+												span(class='nav-button-'+key)
+									else
+										a(href=menu[key])
 											span(class='nav-button-'+key)
-								else
-									a(href=menu[key])
-										span(class='nav-button-'+key)
 		div#content
 			div.container
 				block content

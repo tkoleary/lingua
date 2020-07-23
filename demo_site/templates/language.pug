@@ -1,7 +1,11 @@
-// languages
+// language
+
+block link
+	- var selected = 'languages';
 
 block content
 	
-	- var language = contents.languages[title + '.json'];
+	//- var language = contents.languages[title + '.json'];
 	
-	h1.script (scriptName)
+	h1.script !{scriptName}
+	p.example #{example}

@@ -1,6 +1,27 @@
 
 extends layout
 
+block link
+	- var selected = 'home'; //default
+	- var tags = env.helpers.getAllTags(); tags.sort(); tags.splice(tags.indexOf("other"),1); tags.push("other")
+	- var selectedTag = tagName
+	
+block content
+	h1= 'Lingua'
+	div#main.m-scene
+		span#tag-nav
+				if !selectedTag
+					span.selected
+						a(href='/articles')="all"
+				else
+					a(href='/articles')="all"
+				each tag in tags
+					if tag === selectedTag
+						span.selected
+							a(href=env.helpers.getTagHome(tag).url)= tag
+					else
+						a(href=env.helpers.getTagHome(tag).url)= tag
+
 block content
 	include languages
 	include blog

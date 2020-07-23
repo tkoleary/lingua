@@ -2,22 +2,25 @@
 extends layout
 
 block append vars
-  - bodyclass = 'article-detail'
+	- bodyclass = 'article-detail'
+	
+block link
+	- var selected = 'home';
 
 block prepend title
-  | #{ page.title + ' - '}
+	| #{ page.title + ' - '}
 
 block header
-  include author
-  h1= page.title
-  p.author
-    | #{ 'Updated by ' }
-    +author(page.metadata.author)
+	//include author
+	h1= page.title
+	//p.author
+	//	| #{ 'Updated by ' }
+	//	+author(page.metadata.author)
 
 block content
-  article.article
-    section.content!= typogr(page.html).typogrify()
+	article.article
+		section.content!= typogr(page.html).typogrify()
 
 block prepend footer
-  div.nav
-    a(href=contents.index.url) &laquo; Full blog
+	div.nav
+		a(href=contents.index.url) &laquo; Home
