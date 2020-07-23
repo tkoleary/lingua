@@ -1,42 +1,42 @@
 {
-  "locals": {
-    "url": "http://localhost:8080",
-    "name": "Lingua",
-    "owner": "Kevin Oleary",
-    "description": "Internationalize your type"
-  },
-  "plugins": [
-    "./plugins/paginator.coffee",
+	"locals": {
+		"url": "http://localhost:8080",
+		"name": "Lingua",
+		"owner": "Kevin Oleary",
+		"description": "Internationalize your type"
+	},
+	"plugins": [
+		"./plugins/paginator.coffee",
 		"wintersmith-tag",
 		"wintersmith-livereload"
-  ],
-  "require": {
-    "moment": "moment",
-    "_": "underscore",
-    "typogr": "typogr"
-  },
-  "pug": {
-    "pretty": true
-  },
-  "markdown": {
-    "smartLists": true,
-    "smartypants": true
-  },
-  "paginator": {
+	],
+	"require": {
+		"moment": "moment",
+		"_": "underscore",
+		"typogr": "typogr"
+	},
+	"pug": {
+		"pretty": true
+	},
+	"markdown": {
+		"smartLists": true,
+		"smartypants": true
+	},
+	"paginator": {
 		"articles": "articles",
-    "perPage": 12,
-    "first": "/aritcles/index.html",
-    "filename": "articles/%d/index.html"
-  },
+		"perPage": 12,
+		"first": "/aritcles/index.html",
+		"filename": "articles/%d/index.html"
+	},
 	"tag": {
-    "filename": "/articles/%s/%d/index.html"
-  },
-  "ignore": [
-    "**/*.conf",
-    "**/.DS_Store"
-  ],
+		"filename": "/articles/%s/%d/index.html"
+	},
+	"ignore": [
+		"**/*.conf",
+		"**/.DS_Store"
+	],
 	"livereload": {
-    "port": 35729,
+		"port": 35729,
 		"liveCSS": true
-  }
+	}
 }
