@@ -6,3 +6,4 @@ yarn-error.log
 # Folders
 
 node_modules
+demo_site/build

@@ -3,16 +3,13 @@ extends layout
 
 block append vars
 	- bodyclass = 'article-detail'
-	
-block link
-	- var selected = 'home';
 
 block prepend title
 	| #{ page.title + ' - '}
 
 block header
 	//include author
-	h1= page.title
+	h1= a(href=article.url)= article.title
 	//p.author
 	//	| #{ 'Updated by ' }
 	//	+author(page.metadata.author)

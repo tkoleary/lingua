@@ -24,12 +24,7 @@
 	},
 	"paginator": {
 		"articles": "articles",
-		"perPage": 12,
-		"first": "/aritcles/index.html",
-		"filename": "articles/%d/index.html"
-	},
-	"tag": {
-		"filename": "/articles/%s/%d/index.html"
+		"perPage": 12
 	},
 	"ignore": [
 		"**/*.conf",

@@ -1,7 +1,8 @@
-// languages
+
+extends layout
 
 block link
-	- var selected = 'languages';
+	- var selected = 'home';
 
 block content
 	
@@ -12,8 +13,6 @@ block content
 		div.tile.is-ancestor.lang-grid
 			#column-1.tile.is-parent.is-3.is-vertical
 				// column 1
-				p #{author}
 				each language in languages++
 					.script (scriptName)
 					p.example (example)
-					hr
