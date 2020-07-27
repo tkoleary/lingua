@@ -10,11 +10,13 @@ module.exports = {
 		lastUpdated: false,
 		sidebar: [
 			["/", "Home"],
-			["/get-started", "Get started"],
-			["/languages", "Languages"]
+			"/guide/",
+			"/guide/languages/",
+			"/guide/test-pages/arabic/"
 		],
 		nav: [
-			{ text: "Home", link: "/" }
+			{ text: "Home", link: "/" },
+			{ text: 'Guide', link: '/guide/' },
 		],
 		displayAllHeaders: true
 	},

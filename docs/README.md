@@ -2,7 +2,7 @@
 home: true
 heroImage: false
 actionText: Get started →
-actionLink: /get-started
+actionLink: /guide/
 
 footer: Copyright © Terrence Kevin Oleary - 2020
 meta:
