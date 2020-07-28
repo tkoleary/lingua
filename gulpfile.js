@@ -11,30 +11,27 @@ const autoprefixer						= require('gulp-autoprefixer');
 sass.compiler									= require('dart-sass');
 
 var config = {
-	source:							'./src/**/**.*',
-	scss:								'./src/scss/**/**.scss',
-	htmlFiles:					'./src/**/*.html',
-	fontFolders:				'./src/fonts/**/**.*',
+	scss:								'./scss/**/**.scss',
+	fontFolders:				'./scss/fonts/**/**.*',
 	autoprefixerOptions: {
 		browsers:						['last 2 versions', '> 5%']
 	},
-	build:							['./dist/*', '!./dist'],
-	buildCss:						['./dist/css'],
-	buildCssMin:				['./dist/css/min'],
-	fontsFlat:					'./dist/css/fonts/',
-	demoCss:						'./demo_site/contents/css',
-	demoFonts:					'./demo_site/contents/fonts'
+	build:							['./css/', '!./'],
+	buildCss:						['./css'],
+	fontsFlat:					'./css/fonts/',
+	docsCss:						'./docs/lingua/',
+	docsFonts:					'./docs/lingua/fonts/',
 };
 
 // Clean out the folder for a new build
-function wipe(cb) {
+function wipeCss(cb) {
 	return src(config.build, {read: false})
 	.pipe(clean())
 	cb();
 }
 
 function wipeFonts(cb) {
-	return src(['./demo_site/contents/fonts/*','!./demo_site/contents/fonts'], {read: false})
+	return src(config.docsFonts, {read: false})
 	.pipe(clean())
 	cb();
 }
@@ -54,8 +51,8 @@ function compileSass(cb) {
 	.pipe(sass.sync({outputStyle: 'compressed'}).on('error', sass.logError))
 	.pipe(sourcemaps.write())
 	.pipe(rename({ extname: '.min.css' }))
-	.pipe(dest(config.buildCssMin))
-	.pipe(dest(config.demoCss))
+	.pipe(dest(config.buildCss))
+	.pipe(dest(config.docsCss))
 	cb();
 }
 
@@ -64,7 +61,7 @@ function fonts(cb) {
 	return src(config.fontFolders)
 	.pipe(flatten())
 	.pipe(dest(config.fontsFlat))
-	.pipe(dest(config.demoFonts))
+	.pipe(dest(config.docsFonts))
 	cb();
 }
 
@@ -73,6 +70,6 @@ function watchScss(cb) {
   cb();
 }
 
-task('default', series(wipe, wipeFonts, fonts, watchScss));
+task('default', series(wipeCss, wipeFonts, fonts, watchScss));
 
-task('wipeAll', series(wipe, wipeFonts));
+task('wipeAll', series(wipeCss, wipeFonts));
