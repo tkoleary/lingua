@@ -1,6 +1,7 @@
 {
 	"name": "Lingua",
 	"version": "0.0.1",
+	"LICENSE": "MIT",
 	"author": {
 		"name": "Terrence Kevin Oleary",
 		"email": "terrenceoleary@gmail.com",
@@ -14,7 +15,6 @@
 		"type": "git",
 		"url": "git+https://github.com/tkoleary/lingua.git"
 	},
-	"license": "MIT",
 	"keywords": [
 		"typography",
 		"internationalization",
@@ -38,6 +38,8 @@
 		"gulp-sourcemaps": "^2.6.5",
 		"gulp-watch": "^5.0.1",
 		"normalize-scss": "^7.0.1",
+		"sass": "^1.26.10",
+		"sass-loader": "^9.0.2",
 		"vuepress": "^1.5.2"
 	},
 	"scripts": {
@@ -46,10 +48,9 @@
 		"docs:build": "vuepress build docs"
 	},
 	"files": [
-    "css",
-    "sass",
-    "lingua.sass",
-    "LICENSE",
-    "README.md"
-  ]
+		"css",
+		"scss",
+		"LICENSE",
+		"README.md"
+	]
 }
