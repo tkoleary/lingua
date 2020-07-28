@@ -2,7 +2,8 @@ module.exports = {
 	title: 'Lingua',
 	description: 'Internationalized Typography',
 	head: [
-		['link', { rel: 'icon', href: '/logo.png' }]
+		['link', { rel: 'icon', href: '/logo.png' }],
+		['link', { rel: 'stylesheet', href: '/lingua/lingua.min.css'}]
 	],
 	plugins: [
 	],

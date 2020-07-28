@@ -1,6 +1,11 @@
+---
+title: Arabic
+lang: en
+---
+
 # Arabic
 
-<table>
+<table lang="ar-Arab">
 	<thead>
 		<tr>
 			<th></th>

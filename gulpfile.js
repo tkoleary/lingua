@@ -22,8 +22,8 @@ var config = {
 	buildCss:						['./dist/css'],
 	buildCssMin:				['./dist/css/min'],
 	fontsFlat:					'./dist/css/fonts/',
-	demoCss:						'./demo_site/contents/css',
-	demoFonts:					'./demo_site/contents/fonts'
+	demoCss:						'./docs/lingua/',
+	demoFonts:					'./docs/lingua/fonts/'
 };
 
 // Clean out the folder for a new build
@@ -34,7 +34,7 @@ function wipe(cb) {
 }
 
 function wipeFonts(cb) {
-	return src(['./demo_site/contents/fonts/*','!./demo_site/contents/fonts'], {read: false})
+	return src(['./docs/lingua/fonts/*','!./docs/lingua/fonts'], {read: false})
 	.pipe(clean())
 	cb();
 }
