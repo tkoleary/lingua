@@ -12,13 +12,13 @@ sass.compiler									= require('dart-sass');
 
 var config = {
 	scss:								'./scss/**/**.scss',
-	fontFolders:				'./scss/fonts/**/**.*',
+	fontFolders:				'./scss/font-folders/**/**.*',
+	fontsFlat:					'./scss/fonts/',
 	autoprefixerOptions: {
 		browsers:						['last 2 versions', '> 5%']
 	},
 	build:							['./css/', '!./'],
 	buildCss:						['./css'],
-	fontsFlat:					'./css/fonts/',
 	docsCss:						'./docs/lingua/',
 	docsFonts:					'./docs/lingua/fonts/',
 };

@@ -39,8 +39,9 @@
 		"gulp-watch": "^5.0.1",
 		"normalize-scss": "^7.0.1",
 		"sass": "^1.26.10",
-		"sass-loader": "^9.0.2",
-		"vuepress": "^1.5.2"
+		"sass-loader": "7.3.1",
+		"vuepress": "^1.5.2",
+		"webpack": "^4.36.0"
 	},
 	"scripts": {
 		"lingua:build": "gulp",
@@ -52,5 +53,8 @@
 		"scss",
 		"LICENSE",
 		"README.md"
-	]
+	],
+	"dependencies": {
+		"webpack-chain": "^6.5.1"
+	}
 }

@@ -3,10 +3,10 @@
 // The fallback non-variable font
 @font-face {
 	font-family: "Noto Sans";
-	src:	url("../fonts/NotoSans-Regular.eot?#iefix") format("embedded-opentype"),
-				url("../fonts/NotoSans-Regular.woff") format("woff"),
-				url("../fonts/NotoSans-Regular.ttf") format("truetype"),
-				url("../fonts/NotoSans-Regular.svg") format("svg");
+	src:	url("#{$font-path}NotoSans-Regular.eot?#iefix") format("embedded-opentype"),
+				url("#{$font-path}NotoSans-Regular.woff") format("woff"),
+				url("#{$font-path}NotoSans-Regular.ttf") format("truetype"),
+				url("#{$font-path}NotoSans-Regular.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -15,10 +15,10 @@
 // The fallback non-variable Italic font
 @font-face {
 	font-family: "Noto Sans Italic";
-	src:	url("../fonts/NotoSans-Italic.eot?#iefix") format("embedded-opentype"),
-				url("../fonts/NotoSans-Italic.woff") format("woff"),
-				url("../fonts/NotoSans-Italic.ttf") format("truetype"),
-				url("../fonts/NotoSans-Italic.svg") format("svg");
+	src:	url("#{$font-path}NotoSans-Italic.eot?#iefix") format("embedded-opentype"),
+				url("#{$font-path}NotoSans-Italic.woff") format("woff"),
+				url("#{$font-path}NotoSans-Italic.ttf") format("truetype"),
+				url("#{$font-path}NotoSans-Italic.svg") format("svg");
 	font-weight: normal;
 	font-style: italic;
 	font-display: swap;
