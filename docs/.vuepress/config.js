@@ -5,8 +5,6 @@ module.exports = {
 		['link', { rel: 'icon', href: '/logo.png' }],
 		['link', { rel: 'stylesheet', href: '/lingua/lingua.min.css'}]
 	],
-	plugins: [
-	],
 	themeConfig: {
 		lastUpdated: false,
 		sidebar: [
@@ -21,4 +19,11 @@ module.exports = {
 		],
 		displayAllHeaders: true
 	},
+	configureWebpack: {
+		resolve: {
+			alias: {
+				'@fonts': '/.vuepress/fonts/'
+			}
+		}
+	}
 };
