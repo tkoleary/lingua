@@ -2,8 +2,7 @@ module.exports = {
 	title: 'Lingua',
 	description: 'Internationalized Typography',
 	head: [
-		['link', { rel: 'icon', href: '/logo.png' }],
-		['link', { rel: 'stylesheet', href: '/lingua/lingua.min.css'}]
+		['link', { rel: 'icon', href: '/logo.png' }]
 	],
 	themeConfig: {
 		lastUpdated: false,
@@ -22,7 +21,7 @@ module.exports = {
 	configureWebpack: {
 		resolve: {
 			alias: {
-				'@fonts': '/.vuepress/fonts/'
+				'@fonts': '../../scss/fonts/'
 			}
 		}
 	}

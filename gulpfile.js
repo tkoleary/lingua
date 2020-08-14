@@ -18,9 +18,9 @@ var config = {
 		browsers:						['last 2 versions', '> 5%']
 	},
 	build:							['./css/', '!./'],
-	buildCss:						['./css'],
-	docsCss:						'./docs/lingua/',
-	docsFonts:					'./docs/lingua/fonts/',
+	buildCss:						['./css/'],
+	buildFonts:					['./css/fonts/'],
+	publicFonts:				['./docs/.vuepress/public/']
 };
 
 // Clean out the folder for a new build
@@ -30,8 +30,9 @@ function wipeCss(cb) {
 	cb();
 }
 
+// Clean out the fonts for a new build
 function wipeFonts(cb) {
-	return src(config.docsFonts, {read: false})
+	return src(config.fontsFlat, {read: false})
 	.pipe(clean())
 	cb();
 }
@@ -52,16 +53,16 @@ function compileSass(cb) {
 	.pipe(sourcemaps.write())
 	.pipe(rename({ extname: '.min.css' }))
 	.pipe(dest(config.buildCss))
-	.pipe(dest(config.docsCss))
 	cb();
 }
 
 // Move the fonts from their subfolders to one big folder
-function fonts(cb) {
+function flattenFonts(cb) {
 	return src(config.fontFolders)
 	.pipe(flatten())
 	.pipe(dest(config.fontsFlat))
-	.pipe(dest(config.docsFonts))
+	.pipe(dest(config.buildFonts))
+	.pipe(dest(config.publicFonts))
 	cb();
 }
 
@@ -70,6 +71,4 @@ function watchScss(cb) {
   cb();
 }
 
-task('default', series(wipeCss, wipeFonts, fonts, watchScss));
-
-task('wipeAll', series(wipeCss, wipeFonts));
+task('default', series(wipeFonts, wipeCss, flattenFonts, watchScss));

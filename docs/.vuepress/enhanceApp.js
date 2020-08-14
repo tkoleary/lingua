@@ -1,4 +1,5 @@
 import './styles/index.scss';
+import './webpack.config.js';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

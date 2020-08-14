@@ -2,22 +2,22 @@
 
 @font-face {
 	font-family: "Noto Serif VF";
-	src: 	url("../fonts/NotoSerifRegular-VF.eot") format("embedded-opentype"),
-				url("../fonts/NotoSerifRegular-VF.eot?#iefix") format("embedded-opentype"),
-				url("../fonts/NotoSerifRegular-VF.woff") format("woff"),
-				url("../fonts/NotoSerifRegular-VF.ttf") format("truetype"),
-				url("../fonts/NotoSerifRegular-VF.svg#NotoSerifRegular-Regular") format("svg");
+	src: 	url('NotoSerifRegular-VF.eot') format('embedded-opentype'),
+				url('NotoSerifRegular-VF.eot?#iefix') format('embedded-opentype'),
+				url('NotoSerifRegular-VF.woff') format('woff'),
+				url('NotoSerifRegular-VF.ttf') format('truetype'),
+				url('NotoSerifRegular-VF.svg#NotoSerifRegular-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "Noto Serif Italic VF";
-	src: 	url("../fonts/NotoSerifItalic-VF.eot") format("embedded-opentype"),
-				url("../fonts/NotoSerifItalic-VF.eot?#iefix") format("embedded-opentype"),
-				url("../fonts/NotoSerifItalic-VF.woff") format("woff"),
-				url("../fonts/NotoSerifItalic-VF.ttf") format("truetype"),
-				url("../fonts/NotoSerifItalic-VF.svg#NotoSerifItalic-Italic") format("svg");
+	src: 	url('NotoSerifItalic-VF.eot') format('embedded-opentype'),
+				url('NotoSerifItalic-VF.eot?#iefix') format('embedded-opentype'),
+				url('NotoSerifItalic-VF.woff') format('woff'),
+				url('NotoSerifItalic-VF.ttf') format('truetype'),
+				url('NotoSerifItalic-VF.svg#NotoSerifItalic-Italic') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -27,12 +27,12 @@
 // Example: @include font-face(Noto, Serif, Cyrillic, VF, Regular, bold, normal);
 @mixin font-face ($family: "Noto", $type: "Serif", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
 	font-family: "#{$family} #{$type} #{$script} #{$weight}";
-	src:	url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				// url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
-				url('../fonts/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
+	src:	url('/#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
+				url('/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
+				url('/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
+				// url('/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
+				url('/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
+				url('/#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
 	font-weight: $fontWeight;
 	font-style: $fontStyle;
 	font-display: swap;
