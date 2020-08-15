@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Noto Serif Arabic Regular";
+  src: url("/NotoSerifArabic-Regular.eot") format("embedded-opentype"), url("/NotoSerifArabic-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifArabic-Regular.woff") format("woff"), url("/NotoSerifArabic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Serif Adlam Regular";
+  src: url("/NotoSerifAdlam-Regular.eot") format("embedded-opentype"), url("/NotoSerifAdlam-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifAdlam-Regular.woff") format("woff"), url("/NotoSerifAdlam-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1E900-1E95F, U+2E41;
+}
+@font-face {
+  font-family: "Noto Serif Armenian Regular";
+  src: url("/NotoSerifArmenian-Regular.eot") format("embedded-opentype"), url("/NotoSerifArmenian-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifArmenian-Regular.woff") format("woff"), url("/NotoSerifArmenian-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0530-058F;
+}
+@font-face {
+  font-family: "Noto Serif Balinese Regular";
+  src: url("/NotoSerifBalinese-Regular.eot") format("embedded-opentype"), url("/NotoSerifBalinese-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifBalinese-Regular.woff") format("woff"), url("/NotoSerifBalinese-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1B00-1B7F;
+}
+@font-face {
+  font-family: "Noto Serif Bengali Regular";
+  src: url("/NotoSerifBengali-Regular.eot") format("embedded-opentype"), url("/NotoSerifBengali-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifBengali-Regular.woff") format("woff"), url("/NotoSerifBengali-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0980-09FF;
+}
+@font-face {
+  font-family: "Noto Serif Brahmi Regular";
+  src: url("/NotoSerifBrahmi-Regular.eot") format("embedded-opentype"), url("/NotoSerifBrahmi-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifBrahmi-Regular.woff") format("woff"), url("/NotoSerifBrahmi-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11000-1107F;
+}
+@font-face {
+  font-family: "Noto Serif Buginese Regular";
+  src: url("/NotoSerifBuginese-Regular.eot") format("embedded-opentype"), url("/NotoSerifBuginese-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifBuginese-Regular.woff") format("woff"), url("/NotoSerifBuginese-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1A00-1A1F;
+}
+@font-face {
+  font-family: "Noto Serif Buhid Regular";
+  src: url("/NotoSerifBuhid-Regular.eot") format("embedded-opentype"), url("/NotoSerifBuhid-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifBuhid-Regular.woff") format("woff"), url("/NotoSerifBuhid-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1740-175F;
+}
+@font-face {
+  font-family: "Noto Serif CanadianAboriginal Regular";
+  src: url("/NotoSerifCanadianAboriginal-Regular.eot") format("embedded-opentype"), url("/NotoSerifCanadianAboriginal-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifCanadianAboriginal-Regular.woff") format("woff"), url("/NotoSerifCanadianAboriginal-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1400-167F, U+18B0-18FF;
+}
+@font-face {
+  font-family: "Noto Serif Devanagari Regular";
+  src: url("/NotoSerifDevanagari-Regular.eot") format("embedded-opentype"), url("/NotoSerifDevanagari-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifDevanagari-Regular.woff") format("woff"), url("/NotoSerifDevanagari-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
+}
+@font-face {
+  font-family: "Noto Serif Ethiopic Regular";
+  src: url("/NotoSerifEthiopic-Regular.eot") format("embedded-opentype"), url("/NotoSerifEthiopic-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifEthiopic-Regular.woff") format("woff"), url("/NotoSerifEthiopic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+@font-face {
+  font-family: "Noto Serif Georgian Regular";
+  src: url("/NotoSerifGeorgian-Regular.eot") format("embedded-opentype"), url("/NotoSerifGeorgian-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifGeorgian-Regular.woff") format("woff"), url("/NotoSerifGeorgian-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
+}
+@font-face {
+  font-family: "Noto Serif Gujarati Regular";
+  src: url("/NotoSerifGujarati-Regular.eot") format("embedded-opentype"), url("/NotoSerifGujarati-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifGujarati-Regular.woff") format("woff"), url("/NotoSerifGujarati-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A80-0AFF;
+}
+@font-face {
+  font-family: "Noto Serif Hanunoo Regular";
+  src: url("/NotoSerifHanunoo-Regular.eot") format("embedded-opentype"), url("/NotoSerifHanunoo-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifHanunoo-Regular.woff") format("woff"), url("/NotoSerifHanunoo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1720-173F;
+}
+@font-face {
+  font-family: "Noto Serif Hebrew Regular";
+  src: url("/NotoSerifHebrew-Regular.eot") format("embedded-opentype"), url("/NotoSerifHebrew-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifHebrew-Regular.woff") format("woff"), url("/NotoSerifHebrew-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0590-05FF;
+}
+@font-face {
+  font-family: "Noto Serif Kannada Regular";
+  src: url("/NotoSerifKannada-Regular.eot") format("embedded-opentype"), url("/NotoSerifKannada-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifKannada-Regular.woff") format("woff"), url("/NotoSerifKannada-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C80-0CFF;
+}
+@font-face {
+  font-family: "Noto Serif Khmer Regular";
+  src: url("/NotoSerifKhmer-Regular.eot") format("embedded-opentype"), url("/NotoSerifKhmer-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifKhmer-Regular.woff") format("woff"), url("/NotoSerifKhmer-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+@font-face {
+  font-family: "Noto Serif Lao Regular";
+  src: url("/NotoSerifLao-Regular.eot") format("embedded-opentype"), url("/NotoSerifLao-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifLao-Regular.woff") format("woff"), url("/NotoSerifLao-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E80-0EFF;
+}
+@font-face {
+  font-family: "Noto Serif Limbu Regular";
+  src: url("/NotoSerifLimbu-Regular.eot") format("embedded-opentype"), url("/NotoSerifLimbu-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifLimbu-Regular.woff") format("woff"), url("/NotoSerifLimbu-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1900-194F;
+}
+@font-face {
+  font-family: "Noto Serif Malayalam Regular";
+  src: url("/NotoSerifMalayalam-Regular.eot") format("embedded-opentype"), url("/NotoSerifMalayalam-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifMalayalam-Regular.woff") format("woff"), url("/NotoSerifMalayalam-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D00-0D7F;
+}
+@font-face {
+  font-family: "Noto Serif Myanmar Regular";
+  src: url("/NotoSerifMyanmar-Regular.eot") format("embedded-opentype"), url("/NotoSerifMyanmar-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifMyanmar-Regular.woff") format("woff"), url("/NotoSerifMyanmar-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
+}
+@font-face {
+  font-family: "Noto Serif NKo Regular";
+  src: url("/NotoSerifNKo-Regular.eot") format("embedded-opentype"), url("/NotoSerifNKo-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifNKo-Regular.woff") format("woff"), url("/NotoSerifNKo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+07C0-07FF;
+}
+@font-face {
+  font-family: "Noto Serif NushuTraditional Regular";
+  src: url("/NotoSerifNushuTraditional-Regular.eot") format("embedded-opentype"), url("/NotoSerifNushuTraditional-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifNushuTraditional-Regular.woff") format("woff"), url("/NotoSerifNushuTraditional-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1B170-1B2FF;
+}
+@font-face {
+  font-family: "Noto Serif Oriya Regular";
+  src: url("/NotoSerifOriya-Regular.eot") format("embedded-opentype"), url("/NotoSerifOriya-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifOriya-Regular.woff") format("woff"), url("/NotoSerifOriya-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B00-0B7F;
+}
+@font-face {
+  font-family: "Noto Serif Sinhala Regular";
+  src: url("/NotoSerifSinhala-Regular.eot") format("embedded-opentype"), url("/NotoSerifSinhala-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifSinhala-Regular.woff") format("woff"), url("/NotoSerifSinhala-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D80-0DFF;
+}
+@font-face {
+  font-family: "Noto Serif Tagalog Regular";
+  src: url("/NotoSerifTagalog-Regular.eot") format("embedded-opentype"), url("/NotoSerifTagalog-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTagalog-Regular.woff") format("woff"), url("/NotoSerifTagalog-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1700-171F;
+}
+@font-face {
+  font-family: "Noto Serif TaiLe Regular";
+  src: url("/NotoSerifTaiLe-Regular.eot") format("embedded-opentype"), url("/NotoSerifTaiLe-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTaiLe-Regular.woff") format("woff"), url("/NotoSerifTaiLe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1950-197F;
+}
+@font-face {
+  font-family: "Noto Serif TaiTham Regular";
+  src: url("/NotoSerifTaiTham-Regular.eot") format("embedded-opentype"), url("/NotoSerifTaiTham-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTaiTham-Regular.woff") format("woff"), url("/NotoSerifTaiTham-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1A20-1AAF;
+}
+@font-face {
+  font-family: "Noto Serif TaiViet Regular";
+  src: url("/NotoSerifTaiViet-Regular.eot") format("embedded-opentype"), url("/NotoSerifTaiViet-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTaiViet-Regular.woff") format("woff"), url("/NotoSerifTaiViet-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+AA80-AADF;
+}
+@font-face {
+  font-family: "Noto Serif Tamil Regular";
+  src: url("/NotoSerifTamil-Regular.eot") format("embedded-opentype"), url("/NotoSerifTamil-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTamil-Regular.woff") format("woff"), url("/NotoSerifTamil-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Serif Telugu Regular";
+  src: url("/NotoSerifTelugu-Regular.eot") format("embedded-opentype"), url("/NotoSerifTelugu-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTelugu-Regular.woff") format("woff"), url("/NotoSerifTelugu-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F;
+}
+@font-face {
+  font-family: "Noto Serif Thai Regular";
+  src: url("/NotoSerifThai-Regular.eot") format("embedded-opentype"), url("/NotoSerifThai-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifThai-Regular.woff") format("woff"), url("/NotoSerifThai-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
+}
+@font-face {
+  font-family: "Noto Serif Tibetan Regular";
+  src: url("/NotoSerifTibetan-Regular.eot") format("embedded-opentype"), url("/NotoSerifTibetan-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifTibetan-Regular.woff") format("woff"), url("/NotoSerifTibetan-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0F00-0FFF;
+}
+@font-face {
+  font-family: "Noto Serif ZanzabarSquare Regular";
+  src: url("/NotoSerifZanzabarSquare-Regular.eot") format("embedded-opentype"), url("/NotoSerifZanzabarSquare-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSerifZanzabarSquare-Regular.woff") format("woff"), url("/NotoSerifZanzabarSquare-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11A00-11A4F;
+}

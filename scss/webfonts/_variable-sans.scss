@@ -1,214 +1,317 @@
 // The (currently available) variable versions of the Noto web fonts
 
-@font-face {
-	font-family: "Noto Sans VF";
-	src: 	url('/NotoSansRegular-VF.eot') format('embedded-opentype'),
-				url('/NotoSansRegular-VF.eot?#iefix') format('embedded-opentype'),
-				url('/NotoSansRegular-VF.woff') format('woff'),
-				url('/NotoSansRegular-VF.ttf') format('truetype'),
-				url('/NotoSansRegular-VF.svg#NotoSansRegular-Regular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Noto Sans Italic VF";
-	src: 	url('/NotoSansItalic-VF.eot') format('embedded-opentype'),
-				url('/NotoSansItalic-VF.eot?#iefix') format('embedded-opentype'),
-				url('/NotoSansItalic-VF.woff') format('woff'),
-				url('/NotoSansItalic-VF.ttf') format('truetype'),
-				url('/NotoSansItalic-VF.svg#NotoSansItalic-Italic') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Noto Sans Mono VF";
-	src: 	url('/NotoSansMono-VF.eot') format('embedded-opentype'),
-				url('/NotoSansMono-VF.eot?#iefix') format('embedded-opentype'),
-				url('/NotoSansMono-VF.woff') format('woff'),
-				url('/NotoSansMono-VF.ttf') format('truetype'),
-				url('/NotoSansMono-VF.svg#NotoSansMono-Mono') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
+@supports (font-variation-settings: "wdth" 200) {
+	@font-face {
+		font-family: "Noto Sans VF";
+		src: 	url("fonts/NotoSansRegular-VF.eot"), format("embedded-opentype"),
+					url("fonts/NotoSansRegular-VF.eot?#iefix"), format("embedded-opentype"),
+					url("fonts/NotoSansRegular-VF.woff") format("woff"),
+					url("fonts/NotoSansRegular-VF.ttf"), format("truetype"),;
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Noto Sans Italic VF";
+		src: 	url("fonts/NotoSansItalic-VF.eot"), format("embedded-opentype"),
+					url("fonts/NotoSansItalic-VF.eot?#iefix"), format("embedded-opentype"),
+					url("fonts/NotoSansItalic-VF.woff"), format("woff"),
+					url("fonts/NotoSansItalic-VF.ttf"), format("truetype"),;
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Noto Sans Mono VF";
+		src: 	url("fonts/NotoSansMono-VF.eot"), format("embedded-opentype"),
+					url("fonts/NotoSansMono-VF.eot?#iefix"), format("embedded-opentype"),
+					url("fonts/NotoSansMono-VF.woff"), format("woff"),
+					url("fonts/NotoSansMono-VF.ttf"), format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	}
 
-// This mixin is implemented below to generate the @font-face rules for all font files
-// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
-	font-family: "#{$family} #{$type} #{$script} #{$weight}";
-	src:	url('#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
-				url('#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				// url('#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
-				url('#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype'),
-				url('#{$family}#{$type}#{$script}-#{$weight}.svg##{$family}#{$type}#{$script}-#{$svgWeight}') format('svg');
-	font-weight: $fontWeight;
-	font-style: $fontStyle;
-	font-display: swap;
-}
+// Below this point generated in mix-webfonts
 
-// @supports is used here to load variable fonts only where they are supported
-@supports ( font-variation-settings: 'wdth' 200 ) {
-	// Variable sans fonts for Adlam
 	@font-face {
-		@include font-face(Noto, Sans, Adlam, VF, Regular, normal, normal);
-		unicode-range: $adlam;
+		font-family: "Noto Sans Adlam VF";
+		src:	url("fonts/NotoSansAdlam-VF.woff") format("woff"),
+					url("fonts/NotoSansAdlam-VF.woff2") format("woff2"),
+					url("fonts/NotoSansAdlam-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1E900-1E95F, U+2E41;
 	}
-	// Variable sans fonts for Arabic
 	@font-face {
-		@include font-face(Noto, Sans, Arabic, VF, Regular, normal, normal);
-		unicode-range: $arabic;
+		font-family: "Noto Sans Arabic VF";
+		src:	url("fonts/NotoSansArabic-VF.woff") format("woff"),
+					//url("fonts/NotoSansArabic-VF.woff2") format("woff2"),
+					url("fonts/NotoSansArabic-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 	}
-	// Variable sans fonts for Armenian
 	@font-face {
-		@include font-face(Noto, Sans, Armenian, VF, Regular, normal, normal);
-		unicode-range: $armenian;
+		font-family: "Noto Sans Armenian VF";
+		src: 	url("fonts/NotoSansArmenian-VF.woff") format("woff"),
+					//url("fonts/NotoSansArmenian-VF.woff2") format("woff2"),
+					url("fonts/NotoSansArmenian-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0530-058F;
 	}
-	// Variable sans fonts for Bamum
 	@font-face {
-		@include font-face(Noto, Sans, Bamum, VF, Regular, normal, normal);
-		unicode-range: $bamum;
+		font-family: "Noto Sans Bamum VF";
+		src: 	url("fonts/NotoSansBamum-VF.woff") format("woff"),
+					url("fonts/NotoSansBamum-VF.woff2") format("woff2"),
+					url("fonts/NotoSansBamum-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+A6A0-A6FF, U+16800-16A3F;
 	}
-	// Variable sans fonts for Bengali
 	@font-face {
-		@include font-face(Noto, Sans, Bengali, VF, Regular, normal, normal);
-		unicode-range: $bengali;
+		font-family: "Noto Sans Bengali VF";
+		src: 	url("fonts/NotoSansBengali-VF.woff") format("woff"),
+					url("fonts/NotoSansBengali-VF.woff2") format("woff2"),
+					url("fonts/NotoSansBengali-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0980-09FF;
 	}
-	// Variable sans fonts for Unified Canadian Aboriginal
 	@font-face {
-		@include font-face(Noto, Sans, Canadian Aboriginal, VF, Regular, normal, normal);
-		unicode-range: $c-aboriginal;
+		font-family: "Noto Sans Canadian Aboriginal VF";
+		src: 	url("fonts/NotoSansCanadianAboriginal-VF.woff") format("woff"),
+					url("fonts/NotoSansCanadianAboriginal-VF.woff2") format("woff2"),
+					url("fonts/NotoSansCanadianAboriginal-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1400-167F, U+18B0-18FF;
 	}
-	// Variable sans fonts for Cherokee
 	@font-face {
-		@include font-face(Noto, Sans, Cherokee, VF, Regular, normal, normal);
-		unicode-range: $cherokee;
+		font-family: "Noto Sans Cherokee VF";
+		src: 	url("fonts/NotoSansCherokee-VF.woff") format("woff"),
+					url("fonts/NotoSansCherokee-VF.woff2") format("woff2"),
+					url("fonts/NotoSansCherokee-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+????;
 	}
-	// Variable sans fonts for Cyrillic
 	@font-face {
-		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
-		unicode-range: $cyrillic;
+		font-family: "Noto Sans LGC VF";
+		src: 	url("fonts/NotoSansLGC-VF.woff") format("woff"),
+					url("fonts/NotoSansLGC-VF.woff2") format("woff2"),
+					url("fonts/NotoSansLGC-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 	}
-	// Variable sans fonts for Devanagari (Hindi)
 	@font-face {
-		@include font-face(Noto, Sans, Devanagari, VF, Regular, normal, normal);
-		unicode-range: $devanagari;
+		font-family: "Noto Sans Devanagari VF";
+		src: 	url("fonts/NotoSansDevanagari-VF.woff") format("woff"),
+					url("fonts/NotoSansDevanagari-VF.woff2") format("woff2"),
+					url("fonts/NotoSansDevanagari-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0900-097F, U+A8E0-A8FF;
 	}
-	// Variable sans fonts for Greek
 	@font-face {
-		@include font-face(Noto, Sans, LGC, VF, Regular, normal, normal);
-		unicode-range: $greek;
+		font-family: "Noto Sans LGC VF";
+		src: 	url("fonts/NotoSansLGC-VF.woff") format("woff"),
+					url("fonts/NotoSansLGC-VF.woff2") format("woff2"),
+					url("fonts/NotoSansLGC-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0370-03FF, U+1F00-1FFF;
 	}
-	// Variable sans fonts for Gujarati
 	@font-face {
-	 	@include font-face(Noto, Sans, Gujarati, VF, Regular, normal, normal);
-		unicode-range: $gujarati;
+		font-family: "Noto Sans Gurmukhi VF";
+		src: 	url("fonts/NotoSansGurmukhi-VF.woff") format("woff"),
+					url("fonts/NotoSansGurmukhi-VF.woff2") format("woff2"),
+					url("fonts/NotoSansGurmukhi-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0A00-0A7F;
 	}
-	// Variable sans fonts for Gurmukhi
 	@font-face {
-		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
-		unicode-range: $gurmukhi;
+		font-family: "Noto Sans Hebrew VF";
+		src: 	url("fonts/NotoSansHebrew-VF.woff") format("woff"),
+					//url("fonts/NotoSansHebrew-VF.woff2") format("woff2"),
+					url("fonts/NotoSansHebrew-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0590-05FF;
 	}
-	// Variable sans fonts for Hebrew
 	@font-face {
-		@include font-face(Noto, Sans, Hebrew, VF, Regular, normal, normal);
-		unicode-range: $hebrew;
+		font-family: "Noto Sans Kannada VF";
+		src: 	url("fonts/NotoSansKannada-VF.woff") format("woff"),
+					url("fonts/NotoSansKannada-VF.woff2") format("woff2"),
+					url("fonts/NotoSansKannada-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0C80-0CFF;
 	}
-	// Variable sans fonts for Gurmukhi
 	@font-face {
-		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
-		unicode-range: $gurmukhi;
+		font-family: "Noto Sans Khmer VF";
+		src: 	url("fonts/NotoSansKhmer-VF.woff") format("woff"),
+					//url("fonts/NotoSansKhmer-VF.woff2") format("woff2"),
+					url("fonts/NotoSansKhmer-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1780-17FF, U+19E0-19FF;
 	}
-	// Variable serif fonts for Gurmukhi
 	@font-face {
-		@include font-face(Noto, Sans, Gurmukhi, VF, Regular, normal, normal);
-		unicode-range: $gurmukhi;
+		font-family: "Noto Sans Lao VF";
+		src: 	url("fonts/NotoSansLao-VF.woff") format("woff"),
+					url("fonts/NotoSansLao-VF.woff2") format("woff2"),
+					url("fonts/NotoSansLao-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0E80-0EFF;
 	}
-	// Variable sans fonts for Kannada
 	@font-face {
-		@include font-face(Noto, Sans, Kannada, VF, Regular, normal, normal);
-		unicode-range: $kannada;
+		font-family: "Noto Sans Lisu VF";
+		src: 	url("fonts/NotoSansLisu-VF.woff") format("woff"),
+					url("fonts/NotoSansLisu-VF.woff2") format("woff2"),
+					url("fonts/NotoSansLisu-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+A4D0-A4FF;
 	}
-	// The Variable sans font for Khmer
 	@font-face {
-		@include font-face(Noto, Sans, Khmer, VF, Regular, normal, normal);
-		unicode-range: $khmer;
+		font-family: "Noto Sans Malayalam VF";
+		src: 	url("fonts/NotoSansMalayalam-VF.woff") format("woff"),
+					url("fonts/NotoSansMalayalam-VF.woff2") format("woff2"),
+					url("fonts/NotoSansMalayalam-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0D00-0D7F;
 	}
-	// Variable sans fonts for Limbu
 	@font-face {
-		@include font-face(Noto, Sans, Limbu, VF, Regular, normal, normal);
-		unicode-range: $limbu;
+		font-family: "Noto Sans Myanmar VF";
+		src: 	url("fonts/NotoSansMyanmar-VF.woff") format("woff"),
+					url("fonts/NotoSansMyanmar-VF.woff2") format("woff2"),
+					url("fonts/NotoSansMyanmar-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 	}
-	// Variable sans fonts for Lao
 	@font-face {
-		@include font-face(Noto, Sans, Lao, VF, Regular, normal, normal);
-		unicode-range: $lao;
+		font-family: "Noto Sans Oriya VF";
+		src: 	url("fonts/NotoSansOriya-VF.woff") format("woff"),
+					url("fonts/NotoSansOriya-VF.woff2") format("woff2"),
+					url("fonts/NotoSansOriya-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0B00-0B7F;
 	}
-	// Variable sans fonts for Malayalam
 	@font-face {
-		@include font-face(Noto, Sans, Malayalam, VF, Regular, normal, normal);
-		unicode-range: $malayalam;
+		font-family: "Noto Sans Sinhala VF";
+		src: 	url("fonts/NotoSansSinhala-VF.woff") format("woff"),
+					url("fonts/NotoSansSinhala-VF.woff2") format("woff2"),
+					url("fonts/NotoSansSinhala-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0D80-0DFF;
 	}
-	// Variable sans fonts for Myanmar
 	@font-face {
-		@include font-face(Noto, Sans, Myanmar, VF, Regular, normal, normal);
-		unicode-range: $myanmar;
+		font-family: "Noto Sans TaiLe VF";
+		src: 	//url("fonts/NotoSansTaiLe-VF.woff") format("woff"),
+					//url("fonts/NotoSansTaiLe-VF.woff2") format("woff2"),
+					url("fonts/NotoSansTaiLe-Regular-VF.ttf") format("truetype"); // @todo remove "regular" from file name
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1950-197F;
 	}
-	// Variable sans fonts for NKo
 	@font-face {
-		@include font-face(Noto, Sans, NKo, VF, Regular, normal, normal);
-		unicode-range: $nko;
+		font-family: "Noto Sans TaiTham VF";
+		src: 	url("fonts/NotoSansTaiTham-VF.woff") format("woff"),
+					url("fonts/NotoSansTaiTham-VF.woff2") format("woff2"),
+					url("fonts/NotoSansTaiTham-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1A20-1AAF;
 	}
-	// Variable sans fonts for Oriya
 	@font-face {
-		@include font-face(Noto, Sans, Oriya, VF, Regular, normal, normal);
-		unicode-range: $oriya;
+		font-family: "Noto Sans TaiViet VF";
+		src: 	//url("fonts/NotoSansTaiViet-VF.woff") format("woff"),
+					//url("fonts/NotoSansTaiViet-VF.woff2") format("woff2"),
+					url("fonts/NotoSansTaiViet-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+AA80-AADF;
 	}
-	// Variable sans fonts for Sinhala
 	@font-face {
-		@include font-face(Noto, Sans, Sinhala, VF, Regular, normal, normal);
-		unicode-range: $sinhala;
+		font-family: "Noto Sans Tamil VF";
+		src: 	url("fonts/NotoSansTamil-VF.woff") format("woff"),
+					//url("fonts/NotoSansTamil-VF.woff2") format("woff2"),
+					url("fonts/NotoSansTamil-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 	}
-	// Variable sans fonts for Tai Le
 	@font-face {
-		@include font-face(Noto, Sans, TaiLe, VF, Regular, normal, normal);
-		unicode-range: $tai-le;
+		font-family: "Noto Sans Telugu VF";
+		src: 	url("fonts/NotoSansTelugu-VF.woff") format("woff"),
+					//url("fonts/NotoSansTelugu-VF.woff2") format("woff2"),
+					url("fonts/NotoSansTelugu-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0C00-0C7F;
 	}
-	// Variable sans fonts for Tai Tham
 	@font-face {
-		@include font-face(Noto, Sans, TaiTham, VF, Regular, normal, normal);
-		unicode-range: $tai-tham;
+		font-family: "Noto Sans Thaana VF";
+		src: 	url("fonts/NotoSansThaana-VF.woff") format("woff"),
+					url("fonts/NotoSansThaana-VF.woff2") format("woff2"),
+					url("fonts/NotoSansThaana-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0780-07BF;
 	}
-	// Variable sans fonts for Tai Viet
 	@font-face {
-		@include font-face(Noto, Sans, TaiViet, VF, Regular, normal, normal);
-		unicode-range: $tai-viet;
+		font-family: "Noto Sans Thai VF";
+		src: 	url("fonts/NotoSansThai-VF.woff") format("woff"),
+					//url("fonts/NotoSansThai-VF.woff2") format("woff2"),
+					url("fonts/NotoSansThai-VF.ttf") format("truetype");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0E00-0E7F;
 	}
-	// Variable sans fonts for Tamil
-	@font-face {
-		@include font-face(Noto, Sans, Tamil, VF, Regular, normal, normal);
-		unicode-range: $tamil;
-	}
-	// Variable sans fonts for Telugu
-	@font-face {
-		@include font-face(Noto, Sans, Telugu, VF, Regular, normal, normal);
-		unicode-range: $telugu;
-	}
-	// Variable sans fonts for Thaana
-	@font-face {
-		@include font-face(Noto, Sans, Thaana, VF, Regular, normal, normal);
-		unicode-range: $thaana;
-	}
-	// The variable font for Thai
-	@font-face {
-		@include font-face(Noto, Sans, Thai, VF, Regular, normal, normal);
-		unicode-range: $thai;
-	}
-	// The variable font for Tibetan
-	@font-face {
-	  @include font-face(Noto, Sans, Tibetan, VF, Regular, normal, normal);
-	  unicode-range: $tibetan;
-	}
+	//@font-face {
+	//	font-family: "Noto Sans Zanzabar Square VF";
+	//	src: 	url("fonts/NotoSansZanzabarSquare-VF.woff") format("woff"),
+	//				url("fonts/NotoSansZanzabarSquare-VF.woff2") format("woff2"),
+	//				url("fonts/NotoSansZanzabarSquare-VF.ttf") format("truetype");
+	//	font-weight: normal;
+	//	font-style: normal;
+	//	font-display: swap;
+	//	unicode-range: U+11A00-11A4F;
+	//}
 }

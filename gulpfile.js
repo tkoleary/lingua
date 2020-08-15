@@ -14,13 +14,15 @@ var config = {
 	scss:								'./scss/**/**.scss',
 	fontFolders:				'./scss/font-folders/**/**.*',
 	fontsFlat:					'./scss/fonts/',
+	webfontsRaw:				'./mix-webfonts/raw/**.*',
+	webfontsMixed:			'./mix-webfonts/mixed/',
 	autoprefixerOptions: {
 		browsers:						['last 2 versions', '> 5%']
 	},
 	build:							['./css/', '!./'],
 	buildCss:						['./css/'],
 	buildFonts:					['./css/fonts/'],
-	publicFonts:				['./docs/.vuepress/public/']
+
 };
 
 // Clean out the folder for a new build
@@ -62,7 +64,6 @@ function flattenFonts(cb) {
 	.pipe(flatten())
 	.pipe(dest(config.fontsFlat))
 	.pipe(dest(config.buildFonts))
-	.pipe(dest(config.publicFonts))
 	cb();
 }
 
@@ -71,4 +72,18 @@ function watchScss(cb) {
   cb();
 }
 
+// Run when new webfonts are added
+function mixWebfonts(cb) {
+	return src(config.webfontsRaw)
+	.pipe(sourcemaps.init())
+	.pipe(sass({
+		outputStyle : 'expanded'
+	}).on('error', sass.logError))
+	.pipe(autoprefixer(config.autoprefixerOptions.browsers))
+	.pipe(dest(config.webfontsMixed))
+	cb();
+}
+
 task('default', series(wipeFonts, wipeCss, flattenFonts, watchScss));
+
+task('mix', series(mixWebfonts));

@@ -1,5 +1,6 @@
 module.exports = {
 	title: 'Lingua',
+	base: '/docs/',
 	description: 'Internationalized Typography',
 	head: [
 		['link', { rel: 'icon', href: '/logo.png' }]
@@ -21,7 +22,7 @@ module.exports = {
 	configureWebpack: {
 		resolve: {
 			alias: {
-				'@fonts': '../../scss/fonts/'
+				'@fonts': './css/fonts/'
 			}
 		}
 	}

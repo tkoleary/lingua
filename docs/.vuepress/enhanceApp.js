@@ -1,5 +1,4 @@
-// import './styles/lingua.min.css';
-// import './webpack.config.js';
+import './styles/import-lingua.scss';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

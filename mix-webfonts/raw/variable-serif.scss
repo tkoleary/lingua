@@ -1,25 +1,5 @@
-// The (currently available) variable versions of the Noto web fonts
-
-@font-face {
-	font-family: "Noto Serif VF";
-	src: 	url('NotoSerifRegular-VF.eot') format('embedded-opentype'),
-				url('NotoSerifRegular-VF.eot?#iefix') format('embedded-opentype'),
-				url('NotoSerifRegular-VF.woff') format('woff'),
-				url('NotoSerifRegular-VF.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Noto Serif Italic VF";
-	src: 	url('NotoSerifItalic-VF.eot') format('embedded-opentype'),
-				url('NotoSerifItalic-VF.eot?#iefix') format('embedded-opentype'),
-				url('NotoSerifItalic-VF.woff') format('woff'),
-				url('NotoSerifItalic-VF.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
+// Import the unicode-range variables
+@import "unicode-ranges";
 
 // This mixin is implemented below to generate the @font-face rules for all font files
 // Example: @include font-face(Noto, Serif, Cyrillic, VF, Regular, bold, normal);
