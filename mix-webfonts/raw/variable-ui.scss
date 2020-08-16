@@ -9,11 +9,8 @@
 // Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
 @mixin font-face-ui ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
 	font-family: "#{$family} #{$type} #{$script} UI #{$weight}";
-	src:	url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff') format('woff'),
-				// url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.ttf') format('truetype');
+	src:	url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff') format('woff'),
+				url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff2') format('woff2');
 	font-weight: $fontWeight;
 	font-style: $fontStyle;
 	font-display: swap;

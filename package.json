@@ -16,12 +16,16 @@
 		"url": "git+https://github.com/tkoleary/lingua.git"
 	},
 	"keywords": [
+		"fonts",
 		"typography",
 		"internationalization",
 		"localization",
 		"css",
 		"sass"
 	],
+	"Dependencies": {
+		"vuepress": "^1.5.2"
+	},
 	"devDependencies": {
 		"dart-sass": "^1.25.0",
 		"gulp": "^4.0.2",
@@ -42,6 +46,7 @@
 		"webpack-chain": "^6.5.1"
 	},
 	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
 		"lingua:build": "gulp",
 		"docs:dev": "vuepress dev docs",
 		"docs:build": "vuepress build docs"

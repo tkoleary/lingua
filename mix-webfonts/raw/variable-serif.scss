@@ -5,11 +5,8 @@
 // Example: @include font-face(Noto, Serif, Cyrillic, VF, Regular, bold, normal);
 @mixin font-face ($family: "Noto", $type: "Serif", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
 	font-family: "#{$family} #{$type} #{$script} #{$weight}";
-	src:	url('/#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				// url('/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
-				url('/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype');
+	src:	url('/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
+				url('/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2');
 	font-weight: $fontWeight;
 	font-style: $fontStyle;
 	font-display: swap;
@@ -18,45 +15,45 @@
 // @supports is used here to load variable fonts only where they are supported
 @supports ( font-variation-settings: 'wdth' 200 ) {
 	// Variable Serif fonts for Adlam
-	@font-face {
-		@include font-face(Noto, Serif, Adlam, VF, Regular, normal, normal);
-		unicode-range: $adlam;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Adlam, VF, Regular, normal, normal);
+	//	unicode-range: $adlam;
+	//}
 	// Variable Serif fonts for Arabic
-	@font-face {
-		@include font-face(Noto, Serif, Arabic, VF, Regular, normal, normal);
-		unicode-range: $arabic;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Arabic, VF, Regular, normal, normal);
+	//	unicode-range: $arabic;
+	//}
 	// Variable Serif fonts for Armenian
-	@font-face {
-		@include font-face(Noto, Serif, Armenian, VF, Regular, normal, normal);
-		unicode-range: $armenian;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Armenian, VF, Regular, normal, normal);
+	//	unicode-range: $armenian;
+	//}
 	// Variable Serif fonts for Bamum
-	@font-face {
-		@include font-face(Noto, Serif, Bamum, VF, Regular, normal, normal);
-		unicode-range: $bamum;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Bamum, VF, Regular, normal, normal);
+	//	unicode-range: $bamum;
+	//}
 	// Variable Serif fonts for Bengali
 	@font-face {
 		@include font-face(Noto, Serif, Bengali, VF, Regular, normal, normal);
 		unicode-range: $bengali;
 	}
 	// Variable Serif fonts for Unified Canadian Aboriginal
-	@font-face {
-		@include font-face(Noto, Serif, Canadian Aboriginal, VF, Regular, normal, normal);
-		unicode-range: $c-aboriginal;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Canadian Aboriginal, VF, Regular, normal, normal);
+	//	unicode-range: $c-aboriginal;
+	//}
 	// Variable Serif fonts for Cherokee
-	@font-face {
-		@include font-face(Noto, Serif, Cherokee, VF, Regular, normal, normal);
-		unicode-range: $cherokee;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Cherokee, VF, Regular, normal, normal);
+	//	unicode-range: $cherokee;
+	//}
 	// Variable Serif fonts for Cyrillic
-	@font-face {
-		@include font-face(Noto, Serif, LGC, VF, Regular, normal, normal);
-		unicode-range: $cyrillic;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, LGC, VF, Regular, normal, normal);
+	//	unicode-range: $cyrillic;
+	//}
 	// Variable Serif fonts for Devanagari (Hindi)
 	@font-face {
 		@include font-face(Noto, Serif, Devanagari, VF, Regular, normal, normal);
@@ -68,10 +65,10 @@
 		unicode-range: $ethiopic;
 	}
 	// Variable Serif fonts for Greek
-	@font-face {
-		@include font-face(Noto, Serif, LGC, VF, Regular, normal, normal);
-		unicode-range: $greek;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, LGC, VF, Regular, normal, normal);
+	//	unicode-range: $greek;
+	//}
 	// Variable serif fonts for Gujarati
 	@font-face {
 		@include font-face(Noto, Serif, Gujarati, VF, Regular, normal, normal);
@@ -87,31 +84,21 @@
 		@include font-face(Noto, Serif, Hebrew, VF, Regular, normal, normal);
 		unicode-range: $hebrew;
 	}
-	// Variable serif fonts for Hebrew
-	@font-face {
-		@include font-face(Noto, Serif, Hebrew, VF, Regular, normal, normal);
-		unicode-range: $hebrew;
-	}
-	// Variable Serif fonts for Gurmukhi
-	@font-face {
-		@include font-face(Noto, Serif, Gurmukhi, VF, Regular, normal, normal);
-		unicode-range: $gurmukhi;
-	}
 	// Variable serif fonts for Kannada
 	@font-face {
 		@include font-face(Noto, Serif, Kannada, VF, Regular, normal, normal);
 		unicode-range: $kannada;
 	}
 	// The Variable serif font for Khmer
-	@font-face {
-		@include font-face(Noto, Serif, Khmer, VF, Regular, normal, normal);
-		unicode-range: $khmer;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Khmer, VF, Regular, normal, normal);
+	//	unicode-range: $khmer;
+	//}
 	// Variable Serif fonts for Limbu
-	@font-face {
-		@include font-face(Noto, Serif, Limbu, VF, Regular, normal, normal);
-		unicode-range: $limbu;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Limbu, VF, Regular, normal, normal);
+	//	unicode-range: $limbu;
+	//}
 	// Variable Serif fonts for Lao
 	@font-face {
 		@include font-face(Noto, Serif, Lao, VF, Regular, normal, normal);
@@ -128,35 +115,35 @@
 		unicode-range: $myanmar;
 	}
 	// Variable Serif fonts for NKo
-	@font-face {
-		@include font-face(Noto, Serif, NKo, VF, Regular, normal, normal);
-		unicode-range: $nko;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, NKo, VF, Regular, normal, normal);
+	//	unicode-range: $nko;
+	//}
 	// Variable Serif fonts for Oriya
-	@font-face {
-		@include font-face(Noto, Serif, Oriya, VF, Regular, normal, normal);
-		unicode-range: $oriya;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, Oriya, VF, Regular, normal, normal);
+	//	unicode-range: $oriya;
+	//}
 	// Variable Serif fonts for Sinhala
 	@font-face {
 		@include font-face(Noto, Serif, Sinhala, VF, Regular, normal, normal);
 		unicode-range: $sinhala;
 	}
 	// Variable Serif fonts for Tai Le
-	@font-face {
-		@include font-face(Noto, Serif, TaiLe, VF, Regular, normal, normal);
-		unicode-range: $tai-le;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, TaiLe, VF, Regular, normal, normal);
+	//	unicode-range: $tai-le;
+	//}
 	// Variable Serif fonts for Tai Tham
-	@font-face {
-		@include font-face(Noto, Serif, TaiTham, VF, Regular, normal, normal);
-		unicode-range: $tai-tham;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, TaiTham, VF, Regular, normal, normal);
+	//	unicode-range: $tai-tham;
+	//}
 	// Variable Serif fonts for Tai Viet
-	@font-face {
-		@include font-face(Noto, Serif, TaiViet, VF, Regular, normal, normal);
-		unicode-range: $tai-viet;
-	}
+	//@font-face {
+	//	@include font-face(Noto, Serif, TaiViet, VF, Regular, normal, normal);
+	//	unicode-range: $tai-viet;
+	//}
 	// Variable serif fonts for Tamil
 	@font-face {
 		@include font-face(Noto, Serif, Tamil, VF, Regular, normal, normal);

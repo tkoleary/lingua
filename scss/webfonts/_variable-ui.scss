@@ -1,90 +1,132 @@
 // The variable UI versions of Noto web fonts
 // UI fonts are optimized to fit in confined spaces like buttons and controls
+// Since support for variable fonts is a subset of support for woff, w only use woff and woff2
 
-// This mixin is implemented below to generate the @font-face rules for all font files
-// It differs from the variable fonts mixin in that 'UI-' is inserted between script and weight
-// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face-ui ($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
-	font-family: "#{$family} #{$type} #{$script} UI #{$weight}";
-	src:	url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff') format('woff'),
-				// url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.ttf') format('truetype');
-	font-weight: $fontWeight;
-	font-style: $fontStyle;
-	font-display: swap;
-}
-
-@supports ( font-variation-settings: 'wdth' 200 ) {
-	// Variable sans UI fonts for Arabic
+@supports (font-variation-settings: "wdth" 200) {
 	@font-face {
-		@include font-face-ui(Noto, Sans, Arabic, VF, Regular, normal, normal);
-		unicode-range: $arabic;
+		font-family: "Noto Sans Arabic UI VF";
+		src: 	url("/NotoSansArabicUI-VF.woff") format("woff"),
+					url("/NotoSansArabicUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 	}
-	// Variable sans UI fonts for Bangla (Bengali)
 	@font-face {
-		@include font-face-ui(Noto, Sans, Bengali, VF, Regular, normal, normal);
-		unicode-range: $bengali;
+		font-family: "Noto Sans Bengali UI VF";
+		src: 	url("/NotoSansBengaliUI-VF.woff") format("woff"),
+					url("/NotoSansBengaliUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0980-09FF;
 	}
-	// Variable sans UI fonts for Devanagari
 	@font-face {
-		@include font-face-ui(Noto, Sans, Devanagari, VF, Regular, normal, normal);
-		unicode-range: $devanagari;
+		font-family: "Noto Sans Devanagari UI VF";
+		src: 	url("/NotoSansDevanagariUI-VF.woff") format("woff"),
+					url("/NotoSansDevanagariUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0900-097F, U+A8E0-A8FF;
 	}
-	// Variable sans UI fonts for Khmer
 	@font-face {
-		@include font-face-ui(Noto, Sans, Khmer, VF, Regular, normal, normal);
-		unicode-range: $khmer;
+		font-family: "Noto Sans Khmer UI VF";
+		src: 	url("/NotoSansKhmerUI-VF.woff") format("woff"),
+					url("/NotoSansKhmerUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1780-17FF, U+19E0-19FF;
 	}
-	// Variable sans UI fonts for Kannada
 	@font-face {
-		@include font-face-ui(Noto, Sans, Kannada, VF, Regular, normal, normal);
-		unicode-range: $kannada;
+		font-family: "Noto Sans Kannada UI VF";
+		src: 	url("/NotoSansKannadaUI-VF.woff") format("woff"),
+					url("/NotoSansKannadaUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0C80-0CFF;
 	}
-	// Variable sans UI fonts for Lao
 	@font-face {
-		@include font-face-ui(Noto, Sans, Lao, VF, Regular, normal, normal);
-		unicode-range: $lao;
+		font-family: "Noto Sans Lao UI VF";
+		src: 	url("/NotoSansLaoUI-VF.woff") format("woff"),
+					url("/NotoSansLaoUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0E80-0EFF;
 	}
-	// Variable sans UI fonts for Malayalam
 	@font-face {
-		@include font-face-ui(Noto, Sans, Malayalam, VF, Regular, normal, normal);
-		unicode-range: $malayalam;
+		font-family: "Noto Sans Malayalam UI VF";
+		src: 	url("/NotoSansMalayalamUI-VF.woff") format("woff"),
+					url("/NotoSansMalayalamUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0D00-0D7F;
 	}
-	// Variable sans UI fonts for Myanmar
 	@font-face {
-		@include font-face-ui(Noto, Sans, Myanmar, VF, Regular, normal, normal);
-		unicode-range: $myanmar;
+		font-family: "Noto Sans Myanmar UI VF";
+		src: 	url("/NotoSansMyanmarUI-VF.woff") format("woff"),
+					url("/NotoSansMyanmarUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 	}
-	// Variable sans UI fonts for Naskh Arabic
 	@font-face {
-		@include font-face-ui(Noto, Sans, Naskh Arabic, VF, Regular, normal, normal);
-		unicode-range: $arabic;
+		font-family: "Noto Sans Naskh Arabic UI VF";
+		src: 	url("/NotoSansNaskh ArabicUI-VF.woff") format("woff"),
+					url("/NotoSansNaskh ArabicUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 	}
-	// Variable sans UI fonts for Oriya
 	@font-face {
-		@include font-face-ui(Noto, Sans, Oriya, VF, Regular, normal, normal);
-		unicode-range: $oriya;
+		font-family: "Noto Sans Oriya UI VF";
+		src: 	url("/NotoSansOriyaUI-VF.woff") format("woff"),
+					url("/NotoSansOriyaUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0B00-0B7F;
 	}
-	// The variable UI fonts for Sinhala
 	@font-face {
-		@include font-face-ui(Noto, Sans, Sinhala, VF, Regular, normal, normal);
-		unicode-range: $sinhala;
+		font-family: "Noto Sans Sinhala UI VF";
+		src: 	url("/NotoSansSinhalaUI-VF.woff") format("woff"),
+					url("/NotoSansSinhalaUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0D80-0DFF;
 	}
-	// The variable UI fonts for Tamil
 	@font-face {
-		@include font-face-ui(Noto, Sans, Tamil, VF, Regular, normal, normal);
-		unicode-range: $tamil;
+		font-family: "Noto Sans Tamil UI VF";
+		src: 	url("/NotoSansTamilUI-VF.woff") format("woff"),
+					url("/NotoSansTamilUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 	}
-	// The variable UI fonts for Telugu
 	@font-face {
-		@include font-face-ui(Noto, Sans, Telugu, VF, Regular, normal, normal);
-		unicode-range: $telugu;
+		font-family: "Noto Sans Telugu UI VF";
+		src: 	url("/NotoSansTeluguUI-VF.woff") format("woff"),
+					url("/NotoSansTeluguUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0C00-0C7F;
 	}
-	// The variable UI fonts for Thai
 	@font-face {
-		@include font-face-ui(Noto, Sans, Thai, VF, Regular, normal, normal);
-		unicode-range: $thai;
+		font-family: "Noto Sans Thai UI VF";
+		src: 	url("/NotoSansThaiUI-VF.woff") format("woff"), 
+					url("/NotoSansThaiUI-VF.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+		unicode-range: U+0E00-0E7F;
 	}
 }
