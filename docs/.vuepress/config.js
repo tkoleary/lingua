@@ -10,11 +10,9 @@ module.exports = {
 		sidebar: [
 			["/", "Home"],
 			"/guide/",
+			"/guide/get-started/",
 			"/guide/languages/",
-			"/guide/languages/test-pages/",
-			"/guide/languages/test-pages/adlam/",
-			"/guide/languages/test-pages/arabic/",
-			"/guide/languages/test-pages/latin/"
+			"/guide/languages/test-pages/"
 		],
 		nav: [
 			{ text: "Home", link: "/" },
