@@ -1,119 +1,119 @@
 @supports (font-variation-settings: "wdth" 200) {
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Bengali VF";
-    src: url("/NotoSerifBengali-VF.woff") format("woff"), url("/NotoSerifBengali-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifBengali-VF.woff") format("woff"), url("fonts/NotoSerifBengali-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0980-09FF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Devanagari VF";
-    src: url("/NotoSerifDevanagari-VF.woff") format("woff"), url("/NotoSerifDevanagari-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifDevanagari-VF.woff") format("woff"), url("fonts/NotoSerifDevanagari-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0900-097F, U+A8E0-A8FF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Ethiopic VF";
-    src: url("/NotoSerifEthiopic-VF.woff") format("woff"), url("/NotoSerifEthiopic-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifEthiopic-VF.woff") format("woff"), url("fonts/NotoSerifEthiopic-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Gujarati VF";
-    src: url("/NotoSerifGujarati-VF.woff") format("woff"), url("/NotoSerifGujarati-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifGujarati-VF.woff") format("woff"), url("fonts/NotoSerifGujarati-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0A80-0AFF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Gurmukhi VF";
-    src: url("/NotoSerifGurmukhi-VF.woff") format("woff"), url("/NotoSerifGurmukhi-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifGurmukhi-VF.woff") format("woff"), url("fonts/NotoSerifGurmukhi-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0A00-0A7F;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Hebrew VF";
-    src: url("/NotoSerifHebrew-VF.woff") format("woff"), url("/NotoSerifHebrew-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifHebrew-VF.woff") format("woff"), url("fonts/NotoSerifHebrew-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0590-05FF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Kannada VF";
-    src: url("/NotoSerifKannada-VF.woff") format("woff"), url("/NotoSerifKannada-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifKannada-VF.woff") format("woff"), url("fonts/NotoSerifKannada-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0C80-0CFF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Lao VF";
-    src: url("/NotoSerifLao-VF.woff") format("woff"), url("/NotoSerifLao-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifLao-VF.woff") format("woff"), url("fonts/NotoSerifLao-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0E80-0EFF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Malayalam VF";
-    src: url("/NotoSerifMalayalam-VF.woff") format("woff"), url("/NotoSerifMalayalam-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifMalayalam-VF.woff") format("woff"), url("fonts/NotoSerifMalayalam-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0D00-0D7F;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Myanmar VF";
-    src: url("/NotoSerifMyanmar-VF.woff") format("woff"), url("/NotoSerifMyanmar-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifMyanmar-VF.woff") format("woff"), url("fonts/NotoSerifMyanmar-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Sinhala VF";
-    src: url("/NotoSerifSinhala-VF.woff") format("woff"), url("/NotoSerifSinhala-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifSinhala-VF.woff") format("woff"), url("fonts/NotoSerifSinhala-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0D80-0DFF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Tamil VF";
-    src: url("/NotoSerifTamil-VF.woff") format("woff"), url("/NotoSerifTamil-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifTamil-VF.woff") format("woff"), url("fonts/NotoSerifTamil-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Telugu VF";
-    src: url("/NotoSerifTelugu-VF.woff") format("woff"), url("/NotoSerifTelugu-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifTelugu-VF.woff") format("woff"), url("fonts/NotoSerifTelugu-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0C00-0C7F;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Thai VF";
-    src: url("/NotoSerifThai-VF.woff") format("woff"), url("/NotoSerifThai-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifThai-VF.woff") format("woff"), url("fonts/NotoSerifThai-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     unicode-range: U+0E00-0E7F;
   }
-  @font-face {
+  @font-face-variable {
     font-family: "Noto Serif Tibetan VF";
-    src: url("/NotoSerifTibetan-VF.woff") format("woff"), url("/NotoSerifTibetan-VF.woff2") format("woff2");
+    src: url("fonts/NotoSerifTibetan-VF.woff") format("woff"), url("fonts/NotoSerifTibetan-VF.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

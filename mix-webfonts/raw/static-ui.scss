@@ -1,23 +1,9 @@
 // Import the unicode-range variables
 @import "unicode-ranges";
+@import "mixins";
 
 // The static UI versions of Noto web fonts
 // UI fonts are optimized to fit in confined spaces like buttons and controls
-
-// This mixin is implemented below to generate the @font-face rules for all font files
-// It differs from the static fonts mixin in that 'UI-' is inserted between script and weight
-// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face-static-ui ($family: "Noto", $type: "Sans", $script: "Arabic", $weight: "Regular", $svgWeight: "Regular", $fontWeight: "normal", $fontStyle: "normal") {
-	font-family: "#{$family} #{$type} #{$script} UI #{$weight}";
-	src:	url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot') format('embedded-opentype');
-	src:	url('/#{$family}#{$type}#{$script}UI-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff') format('woff'),
-				// url('/#{$family}#{$type}#{$script}UI-#{$weight}.woff2') format('woff2'),  @todo: Uncomment when all fonts have Woff2
-				url('/#{$family}#{$type}#{$script}UI-#{$weight}.ttf') format('truetype');
-	font-weight: $fontWeight;
-	font-style: $fontStyle;
-	font-display: swap;
-}
 
 // static sans UI fonts for Arabic
 @font-face {

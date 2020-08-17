@@ -1,19 +1,6 @@
 // Import the unicode-range variables
 @import "unicode-ranges";
-
-// This mixin is implemented below to generate the @font-face rules for all font files
-// Example: @include font-face(Noto, Sans, Cyrillic, VF, Regular, bold, normal);
-@mixin font-face-static($family: "Noto", $type: "Sans", $script: "Cyrillic", $weight: "VF", $svgWeight: "Bold", $fontWeight: "bold", $fontStyle: "normal") {
-	font-family: "#{$family} #{$type} #{$script} #{$weight}";
-	src:	url('fonts/#{$family}#{$type}#{$script}-#{$weight}.eot') format('embedded-opentype'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.eot?#iefix') format('embedded-opentype'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.woff') format('woff'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.woff2') format('woff2'),
-				url('fonts/#{$family}#{$type}#{$script}-#{$weight}.ttf') format('truetype');
-	font-weight: $fontWeight;
-	font-style: $fontStyle;
-	font-display: swap;
-}
+@import "mixins";
 
 // Arabic sans regular
 @font-face {
