@@ -1,16 +1,14 @@
 {
 	"name": "Lingua",
 	"version": "0.0.1",
-	"LICENSE": "MIT",
-	"author": {
-		"name": "Terrence Kevin Oleary",
-		"email": "terrenceoleary@gmail.com",
-		"url": "www.tkoleary.com"
-	},
 	"description": "A frontent library for multilingual web typography",
-	"main": "lingua.scss",
-	"unpkg": "dist/css/lingua.css",
-	"style": "dist/css/min/lingua.min.css",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs",
+		"styles:build": "gulp"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/tkoleary/lingua.git"
@@ -23,6 +21,14 @@
 		"css",
 		"sass"
 	],
+	"author": {
+		"name": "Terrence Kevin Oleary",
+		"email": "terrenceoleary@gmail.com",
+		"url": "www.tkoleary.com"
+	},
+	"LICENSE": "MIT",
+	"unpkg": "dist/css/lingua.css",
+	"style": "dist/css/min/lingua.min.css",
 	"Dependencies": {
 		"vuepress": "^1.5.2"
 	},
@@ -44,12 +50,6 @@
 		"vuepress": "^1.5.2",
 		"webpack": "^4.36.0",
 		"webpack-chain": "^6.5.1"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"lingua:build": "gulp",
-		"docs:dev": "vuepress dev docs",
-		"docs:build": "vuepress build docs"
 	},
 	"files": [
 		"css",

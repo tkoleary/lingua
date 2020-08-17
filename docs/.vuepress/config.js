@@ -11,7 +11,10 @@ module.exports = {
 			["/", "Home"],
 			"/guide/",
 			"/guide/languages/",
-			"/guide/test-pages/arabic/"
+			"/guide/languages/test-pages/",
+			"/guide/languages/test-pages/adlam/",
+			"/guide/languages/test-pages/arabic/",
+			"/guide/languages/test-pages/latin/"
 		],
 		nav: [
 			{ text: "Home", link: "/" },
