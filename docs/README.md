@@ -12,11 +12,11 @@ meta:
     content: Lingua internationalization language script unicode font webfont
 ---
 
-## The web has changed, except internationalization and localization
+## The web has changed, internationalization hasn't
 
-Why do we think it's ok to leave users in the dark when they are looking at the web on a device that hasn't been specifically configured for their language? Do we imagine that speakers of languages with non-latin scripts are never going to look at devices they don't own?
+The web is universal and device-independent, but for internationalization, not so much. We need to recognize that users who speak languages with non-latin scripts often need to browse the web on a device other than their own, multilingual users to see content in different languages, sometimes on the same page, and no user wants to suffer poor UX and broken design because of their language.
 
-Even though Webfonts have been with us for more than a decade and have become central to the design of the web, design for 118n iss a backwater. As soon we find ourselves outside the comfort zone of latin script, we throw up our hands and leave it to device settings, fonts, and user preferences. It's understandable, webfonts can be hard even within the cozy confines of latin, but they shouldn't be. That's Lingua was created.
+Even though Webfonts have been with us for more than a decade and have become central to the design of the web, design for 118n is a backwater. Outside the comfort-zone of latin script, we throw up our hands and leave it to device settings, fonts, and user preferences. It's understandable, webfonts can be hard even within latin, but they shouldn't be. That's why Lingua was created.
 
 ### We believe:
 

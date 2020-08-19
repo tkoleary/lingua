@@ -1,4 +1,5 @@
 import './styles/import-lingua.scss';
+import './styles/custom.scss';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app

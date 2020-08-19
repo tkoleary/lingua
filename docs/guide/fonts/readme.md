@@ -1,5 +1,5 @@
 ---
-title: All scripts
+title: Fonts, all weights and scripts
 lang: en
 ---
 

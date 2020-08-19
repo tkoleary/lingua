@@ -12,7 +12,8 @@ module.exports = {
 			"/guide/",
 			"/guide/get-started/",
 			"/guide/languages/",
-			"/guide/languages/test-pages/"
+			"/guide/fonts/variable/",
+			"/guide/fonts/"
 		],
 		nav: [
 			{ text: "Home", link: "/" },
