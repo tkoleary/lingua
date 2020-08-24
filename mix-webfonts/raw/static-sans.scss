@@ -122,11 +122,13 @@
 	@include font-face-static(Noto, Sans, NKo, Regular, Regular, normal, normal);
 	unicode-range: $nko;
 }
+/*
 // Nushu Traditional regular
 @font-face {
 	@include font-face-static(Noto, Sans, NushuTraditional, Regular, Regular, normal, normal);
 	unicode-range: $nushu;
 }
+*/
 // Oriya sans regular
 @font-face {
 	@include font-face-static(Noto, Sans, Oriya, Regular, Regular, normal, normal);
@@ -187,8 +189,10 @@
 	@include font-face-static(Noto, Sans, Tibetan, Regular, Regular, normal, normal);
 	unicode-range: $tibetan;
 }
+/*
 // ZanzabarSquare sans regular
 @font-face {
 	@include font-face-static(Noto, Sans, ZanzabarSquare, Regular, Regular, normal, normal);
 	unicode-range: $zanzabar;
 }
+*/

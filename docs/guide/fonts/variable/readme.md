@@ -1,247 +1,737 @@
 ---
-title: Variable Width Fonts
+title: Variable Fonts
 lang: en
 ---
 # Variable Fonts
 
-Below are all of the scripts for which we have variable fonts. The variations shown are the helper classes for weights 100 through 900. Those are: `lf-ulight`,`lf-xlight`,`lf-light`,`lf-regular`,`lf-medium`,`lf-sbold`,`lf-bold`,`lf-xbold`, and `lf-ubold`. In your own variables files you can alter the numeric weights for the helper classes to intermediate values eg. `$x-light: 325`. There are also width helper class variables, and you can follow the same pattern to add variables for standard and custom axes. 
+## Sans-serif
+
+Below are all of the scripts for which we have variable fonts. The variations shown are the helper classes for weights 100 through 900. Those are: `lf-ulight`,`lf-xlight`,`lf-light`,`lf-regular`,`lf-medium`,`lf-sbold`,`lf-bold`,`lf-xbold`, and `lf-ubold`. In your own variables files you can alter the numeric weights for the helper classes to intermediate values eg. `$x-light: 325`. There are also width helper class variables, and you can follow the same pattern to add variables for standard and custom axes.
 
 <div lang="hy">
-	<h3 class="lf-light font-label">Armenian</h3>
-	<p class="lf-specimen lf-ulight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-xlight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-light">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-regular">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-medium">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-sbold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-bold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-xbold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
-	<p class="lf-specimen lf-ubold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<h3 class="lf-light font-label">Armenian Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-xlight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-light">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-regular">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-medium">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-sbold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-bold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-xbold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-sans lf-ubold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
 </div>
 
 ***
 
 <div lang="bax">
-	<h3 class="lf-light font-label">Bamum</h3>
-	<p class="lf-specimen lf-ulight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-xlight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-light">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-regular">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-medium">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-sbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-bold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-xbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-	<p class="lf-specimen lf-ubold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<h3 class="lf-light font-label">Bamum Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-xlight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-light">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-regular">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-medium">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-sbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-bold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-xbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-sans lf-ubold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
 </div>
 
 ***
 
 <div lang="bn">
-	<h3 class="lf-light font-label">Bengali</h3>
-	<p class="lf-specimen lf-ulight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-xlight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-light">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-regular">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-medium">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-sbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-bold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-xbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
-	<p class="lf-specimen lf-ubold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<h3 class="lf-light font-label">Bengali Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-xlight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-light">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-regular">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-medium">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-sbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-bold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-xbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans lf-ubold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
 </div>
 
 ***
 
-<div lang="ru">
-	<h3 class="lf-light font-label">Cyrillic</h3>
-	<p class="lf-specimen lf-ulight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-xlight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-light">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-regular">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-medium">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-sbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-bold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-xbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-	<p class="lf-specimen lf-ubold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+<div lang="Cyrl">
+	<h3 class="lf-light font-label">Cyrillic Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-xlight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-light">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-regular">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-medium">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-sbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-bold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-xbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-sans lf-ubold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
 </div>
 
 ***
 
-<div lang="hi">
-	<h3 class="lf-light font-label">Devanagari</h3>
-	<p class="lf-specimen lf-ulight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-xlight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-light">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-regular">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-medium">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-sbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-bold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-xbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
-	<p class="lf-specimen lf-ubold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+<div lang="Deva">
+	<h3 class="lf-light font-label">DevanagariSans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-xlight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-light">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-regular">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-medium">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-sbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-bold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-xbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans lf-ubold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
 </div>
 
 ***
 
+<!--
 <div lang="am">
-	<h3 class="lf-light font-label">Ethiopic</h3>
-	<p class="lf-specimen lf-ulight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-xlight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-light">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-regular">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-medium">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-sbold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-bold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-xbold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
-	<p class="lf-specimen lf-ubold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<h3 class="lf-light font-label">Ethiopic Sans Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-xlight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-light">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-regular">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-medium">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-sbold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-bold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-xbold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-sans lf-ubold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
 </div>
 
 ***
+-->
 
 <div lang="gr">
-	<h3 class="lf-light font-label">Greek</h3>
-	<p class="lf-specimen lf-ulight">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-xlight">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-light">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-regular">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-medium">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-sbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-bold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-xbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-	<p class="lf-specimen lf-ubold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<h3 class="lf-light font-label">Greek Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-xlight">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-light">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-regular">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-medium">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-sbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-bold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-xbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-sans lf-ubold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
 </div>
 
 ***
 
 <div lang="gi">
-	<h3 class="lf-light font-label">Gurmukhi</h3>
-	<p class="lf-specimen lf-ulight">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-xlight">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-light">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-regular">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-medium">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-sbold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-bold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-xbold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
-	<p class="lf-specimen lf-ubold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<h3 class="lf-light font-label">Gurmukhi Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-xlight">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-light">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-regular">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-medium">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-sbold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-bold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-xbold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-sans lf-ubold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
 </div>
 
 ***
 
 <div lang="kn">
-	<h3 class="lf-light font-label">Kannada</h3>
-	<p class="lf-specimen lf-ulight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-xlight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-light">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-regular">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-medium">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-sbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-bold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-xbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
-	<p class="lf-specimen lf-ubold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<h3 class="lf-light font-label">Kannada Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-xlight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-light">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-regular">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-medium">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-sbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-bold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-xbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans lf-ubold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
 </div>
 
 ***
 
 <div lang="km">
-	<h3 class="lf-light font-label">Khmer</h3>
-	<p class="lf-specimen lf-ulight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-xlight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-light">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-regular">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-medium">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-sbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-bold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-xbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
-	<p class="lf-specimen lf-ubold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<h3 class="lf-light font-label">Khmer Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-xlight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-light">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-regular">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-medium">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-sbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-bold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-xbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans lf-ubold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
 </div>
 
 ***
 
 <div lang="lo">
-	<h3 class="lf-light font-label">Lao</h3>
-	<p class="lf-specimen lf-ulight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-xlight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-light">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-regular">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-medium">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-sbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-bold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-xbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
-	<p class="lf-specimen lf-ubold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<h3 class="lf-light font-label">Lao Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-xlight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-light">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-regular">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-medium">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-sbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-bold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-xbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans lf-ubold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
 </div>
 
 ***
 
 <div lang="en">
-	<h3 class="lf-light font-label">Latin - Normal</h3>
-	<p class="lf-specimen lf-ulight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-xlight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-light">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-regular">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-medium">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-sbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-bold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-xbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-	<p class="lf-specimen lf-ubold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<h3 class="lf-light font-label">Latin - Normal Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-xlight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-light">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-regular">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-medium">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-sbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-bold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-xbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-sans lf-ubold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
 </div>
 
 ***
 
 <div lang="ms">
-	<h3 class="lf-light font-label">Malayalam</h3>
-	<p class="lf-specimen lf-ulight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-xlight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-light">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-regular">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-medium">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-sbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-bold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-xbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
-	<p class="lf-specimen lf-ubold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<h3 class="lf-light font-label">Malayalam Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-xlight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-light">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-regular">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-medium">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-sbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-bold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-xbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans lf-ubold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
 </div>
 
 ***
 
 <div lang="ta">
-	<h3 class="lf-light font-label">Tamil</h3>
-	<p class="lf-specimen lf-ulight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள். </p>
-	<p class="lf-specimen lf-xlight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-light">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-regular">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-medium">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-sbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-bold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-xbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
-	<p class="lf-specimen lf-ubold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<h3 class="lf-light font-label">Tamil Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள். </p>
+	<p class="lf-specimen lf-sans lf-xlight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-light">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-regular">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-medium">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-sbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-bold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-xbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans lf-ubold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
 </div>
 
 ***
 
 <div lang="te">
-	<h3 class="lf-light font-label">Telugu</h3>
-	<p class="lf-specimen lf-ulight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు.</p>
-	<p class="lf-specimen lf-xlight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-light">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-regular">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-medium">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-sbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-bold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-xbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
-	<p class="lf-specimen lf-ubold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<h3 class="lf-light font-label">Telugu Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు.</p>
+	<p class="lf-specimen lf-sans lf-xlight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-light">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-regular">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-medium">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-sbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-bold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-xbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans lf-ubold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
 </div>
 
 ***
 
 <div lang="th">
-	<h3 class="lf-light font-label">Thai</h3>
-	<p class="lf-specimen lf-ulight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-xlight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-light">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-regular">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-medium">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-sbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-bold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-xbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
-	<p class="lf-specimen lf-ubold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<h3 class="lf-light font-label">Thai Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-xlight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-light">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-regular">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-medium">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-sbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-bold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-xbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans lf-ubold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+</div>
+
+***
+
+<h3 style="text-align: right">Right-to-left</h3>
+
+<div lang="ff">
+	<h3 class="lf-light font-label">Adlam Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-xlight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-light">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-regular">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-medium">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-sbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-bold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-xbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-sans lf-ubold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+</div>
+
+***
+
+<div lang="ff">
+	<h3 class="lf-light font-label">Adlam unjoined Sans</h3>
+	<p class="lf-specimen lf-unjoined lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-xlight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoinedlf-light">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-regular">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-medium">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-sbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-bold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-xbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-unjoined lf-ubold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+</div>
+
+<div lang="ar">
+	<h3 class="lf-light font-label">Arabic Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-xlight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-light">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-regular">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-medium">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-sbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-bold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-xbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans lf-ubold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+</div>
+
+***
+
+<div lang="Hebr">
+	<h3 class="lf-light font-label">Hebrew Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-light"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-regular"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-medium"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-sbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-bold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-xbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-sans lf-ubold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+</div>
+
+***
+
+<div lang="dv">
+	<h3 class="lf-light font-label">Thaana Sans</h3>
+	<p class="lf-specimen lf-sans lf-ulight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-xlight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-light">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-regular">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-medium">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-sbold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-bold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-xbold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-sans lf-ubold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+</div>
+
+## Sans-serif Italic
+
+With variable fonts, automatic application of italics is inconsistently applied across browsers so the best practice is to have a specific `@font-face` rule and font for italics.
+
+<div lang="en">
+	<h3 class="lf-light font-label">Latin - Italic Sans </h3>
+	<p class="lf-specimen lf-sans lf-italic lf-ulight"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-xlight"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-light"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-regular"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-medium"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-sbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-bold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-xbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-sans lf-italic lf-ubold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+</div>
+
+## Sans-serif UI
+
+UI fonts have characters with more compact shapes (ascenders, descenders, accent marks) to more easily fit inside UI buttons and controls.
+
+<div lang="bn">
+	<h3 class="lf-light font-label">Bengali Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-light">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-regular">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-medium">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-bold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+</div>
+
+***
+
+<div lang="hi">
+	<h3 class="lf-light font-label">Devanagari Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-light">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-regular">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-medium">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-bold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+</div>
+
+<div lang="kn">
+	<h3 class="lf-light font-label">Kannada Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-light">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-regular">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-medium">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-bold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+</div>
+
+***
+
+<div lang="km">
+	<h3 class="lf-light font-label">Khmer Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-light">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-regular">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-medium">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-bold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+</div>
+
+***
+
+<div lang="lo">
+	<h3 class="lf-light font-label">Lao Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-light">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-regular">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-medium">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-bold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+</div>
+
+***
+
+<div lang="ms">
+	<h3 class="lf-light font-label">Malayalam Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-light">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-regular">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-medium">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-bold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+</div>
+
+***
+
+<div lang="ta">
+	<h3 class="lf-light font-label">Tamil Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள். </p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-light">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-regular">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-medium">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-bold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+</div>
+
+***
+
+<div lang="te">
+	<h3 class="lf-light font-label">Telugu Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు.</p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-light">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-regular">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-medium">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-bold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+</div>
+
+***
+
+<div lang="th">
+	<h3 class="lf-light font-label">Thai Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-light">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-regular">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-medium">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-bold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+</div>
+
+***
+
+<h3 style="text-align: right">Sans-serif UI, Right-to-left</h3>
+
+<div lang="ar">
+	<h3 class="lf-light font-label">Arabic Sans UI</h3>
+	<p class="lf-specimen lf-sans-ui lf-ulight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-xlight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-light">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-regular">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-medium">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-sbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-bold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-xbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-sans-ui lf-ubold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+</div>
+
+
+## Serif
+
+<div lang="hy">
+	<h3 class="lf-light font-label">Armenian Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-xlight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-light">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-regular">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-medium">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-sbold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-bold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-xbold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+	<p class="lf-specimen lf-serif lf-ubold">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
+</div>
+
+***
+
+<!--<div lang="bax">
+	<h3 class="lf-light font-label">Bamum Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-xlight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-light">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-regular">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-medium">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-sbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-bold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-xbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+	<p class="lf-specimen lf-serif lf-ubold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
+</div>-->
+
+***
+
+<div lang="bn">
+	<h3 class="lf-light font-label">Bengali Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-xlight">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-light">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-regular">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-medium">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-sbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-bold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-xbold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+	<p class="lf-specimen lf-serif lf-ubold">নিবন্ধ 1 সমস্ত মানুষ মর্যাদা এবং অধিকারে স্বাধীন এবং সমান জন্মগ্রহণ করে। </p>
+</div>
+
+***
+<!--
+<div lang="ru">
+	<h3 class="lf-light font-label">Cyrillic Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-xlight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-light">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-regular">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-medium">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-sbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-bold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-xbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+	<p class="lf-specimen lf-serif lf-ubold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+</div>-->
+
+***
+
+<div lang="hi">
+	<h3 class="lf-light font-label">Devanagari Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-xlight">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-light">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-regular">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-medium">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-sbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-bold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-xbold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+	<p class="lf-specimen lf-serif lf-ubold">लेख 1 सभी लोग गरिमा और अधिकारों में स्वतंत्र और समान पैदा होते हैं।</p>
+</div>
+
+***
+
+<div lang="am">
+	<h3 class="lf-light font-label">Ethiopic Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-xlight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-light">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-regular">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-medium">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-sbold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-bold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-xbold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+	<p class="lf-specimen lf-serif lf-ubold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
+</div>
+
+***
+<!--
+<div lang="gr">
+	<h3 class="lf-light font-label">Greek Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-xlight">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-light">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-regular">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-medium">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-sbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-bold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-xbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+	<p class="lf-specimen lf-serif lf-ubold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
+</div>-->
+
+***
+
+<div lang="gi">
+	<h3 class="lf-light font-label">Gurmukhi Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-xlight">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-light">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-regular">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-medium">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-sbold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-bold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-xbold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+	<p class="lf-specimen lf-serif lf-ubold">ਲੇਖ 1 ਸਾਰੇ ਲੋਕ ਆਜ਼ਾਦ ਹੁੰਦੇ ਹਨ ਅਤੇ ਮਾਣ ਅਤੇ ਅਧਿਕਾਰ ਦੇ ਬਰਾਬਰ ਹੁੰਦੇ ਹਨ.</p>
+</div>
+
+***
+
+<div lang="kn">
+	<h3 class="lf-light font-label">Kannada Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-xlight">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-light">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-regular">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-medium">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-sbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-bold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-xbold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+	<p class="lf-specimen lf-serif lf-ubold">ಲೇಖನ 1 ಎಲ್ಲಾ ಜನರು ಘನತೆ ಮತ್ತು ಹಕ್ಕುಗಳಲ್ಲಿ ಮುಕ್ತ ಮತ್ತು ಸಮಾನವಾಗಿ ಜನಿಸುತ್ತಾರೆ. </p>
+</div>
+
+***
+
+<div lang="km">
+	<h3 class="lf-light font-label">Khmer Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-xlight">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-light">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-regular">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-medium">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-sbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-bold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-xbold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+	<p class="lf-specimen lf-serif lf-ubold">មាត្រា ១ មនុស្សទាំងអស់កើតមកមានសេរីភាពនិងស្មើភាពគ្នាក្នុងសេចក្តីថ្លៃថ្នូរនិងសិទ្ធិ។</p>
+</div>
+
+***
+
+<div lang="lo">
+	<h3 class="lf-light font-label">Lao Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-xlight">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-light">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-regular">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-medium">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-sbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-bold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-xbold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+	<p class="lf-specimen lf-serif lf-ubold">ມາດຕາ 1: ມະນຸດເກີດມາມີສິດເສລີພາບ ແລະ ສະເໝີໜ້າກັນໃນທາງກຽດຕິສັກ ແລະ </p>
+</div>
+
+***
+
+<div lang="en">
+	<h3 class="lf-light font-label">Latin - Normal Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-xlight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-light">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-regular">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-medium">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-sbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-bold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-xbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+	<p class="lf-specimen lf-serif lf-ubold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
+</div>
+
+***
+
+<div lang="ms">
+	<h3 class="lf-light font-label">Malayalam Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-xlight">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-light">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-regular">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-medium">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-sbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-bold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-xbold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+	<p class="lf-specimen lf-serif lf-ubold">വകുപ്പ്‌ 1. മനുഷ്യരെല്ലാവരും തുല്യാവകാശങ്ങളോടും അന്തസ്സോടും </p>
+</div>
+
+***
+
+<div lang="ta">
+	<h3 class="lf-light font-label">Tamil Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள். </p>
+	<p class="lf-specimen lf-serif lf-xlight">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-light">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-regular">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-medium">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-sbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-bold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-xbold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+	<p class="lf-specimen lf-serif lf-ubold">கட்டுரை 1 அனைத்து மக்களும் சுதந்திரமாகவும், கண்ணியத்திலும் உரிமைகளிலும் சமமாக பிறந்தவர்கள் </p>
+</div>
+
+***
+
+<div lang="te">
+	<h3 class="lf-light font-label">Telugu Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు.</p>
+	<p class="lf-specimen lf-serif lf-xlight">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-light">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-regular">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-medium">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-sbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-bold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-xbold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+	<p class="lf-specimen lf-serif lf-ubold">ఆర్టికల్ 1 ప్రజలందరూ స్వేచ్ఛగా మరియు గౌరవంగా మరియు హక్కులలో సమానంగా జన్మించారు. </p>
+</div>
+
+
+***
+
+<div lang="th">
+	<h3 class="lf-light font-label">Thai Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-xlight">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-light">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-regular">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-medium">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-sbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-bold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-xbold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
+	<p class="lf-specimen lf-serif lf-ubold">ข้อ 1 ทุกคนเกิดมาอย่างอิสระและเท่าเทียมกันในศักดิ์ศรีและสิทธิ</p>
 </div>
 
 ***
@@ -249,97 +739,88 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 <h2 style="text-align: right">Right-to-left</h2>
 
 ***
-
+<!--
 <div lang="ff">
-	<h3 class="lf-light font-label">Adlam</h3>
-	<p class="lf-specimen lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-xlight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-light">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-regular">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-medium">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-sbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-bold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-xbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
-	<p class="lf-specimen lf-ubold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<h3 class="lf-light font-label">Adlam Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-xlight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-light">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-regular">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-medium">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-sbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-bold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-xbold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
+	<p class="lf-specimen lf-serif lf-ubold">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
 </div>
 
 ***
 
 <div lang="ar">
-	<h3 class="lf-light font-label">Arabic</h3>
-	<p class="lf-specimen lf-ulight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-xlight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-light">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-regular">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-medium">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-sbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-bold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-xbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-	<p class="lf-specimen lf-ubold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<h3 class="lf-light font-label">Arabic Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-xlight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-light">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-regular">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-medium">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-sbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-bold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-xbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
+	<p class="lf-specimen lf-serif lf-ubold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
 </div>
 
 ***
 
-<div lang="iw">
-	<h3 class="lf-light font-label">Hebrew</h3>
-	<p class="lf-specimen lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-light"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-regular"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-medium"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-sbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-bold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-xbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-	<p class="lf-specimen lf-ubold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+<div lang="Hebr">
+	<h3 class="lf-light font-label">Hebrew Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-light"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-regular"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-medium"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-sbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-bold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-xbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
+	<p class="lf-specimen lf-serif lf-ubold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 </div>
 
 ***
 
 <div lang="dv">
-	<h3 class="lf-light font-label">Thaana</h3>
-	<p class="lf-specimen lf-ulight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-xlight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-light">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-regular">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-medium">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-sbold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-bold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-xbold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-	<p class="lf-specimen lf-ubold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
-</div>
+	<h3 class="lf-light font-label">Thaana Serif</h3>
+	<p class="lf-specimen lf-serif lf-ulight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-xlight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-light">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-regular">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-medium">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-sbold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-bold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-xbold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+	<p class="lf-specimen lf-serif lf-ubold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
+</div>-->
 
-***
-
-
-## Italic
+## Serif Italic
 
 With variable fonts, automativ application of italics is inconsistently applied across browsers so the best practice is to have a specific `@font-face` rule and font for italics.
 
 <div lang="en">
-	<h3 class="lf-light font-label">Latin - Italic</h3>
-	<p class="lf-specimen lf-italic lf-ulight"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-xlight"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-light"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-regular"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-medium"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-sbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-bold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-xbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-	<p class="lf-specimen lf-italic lf-ubold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<h3 class="lf-light font-label">Latin - Italic Serif</h3>
+	<p class="lf-specimen lf-serif lf-italic lf-ulight"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-xlight"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-light"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-regular"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-medium"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-sbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-bold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-xbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
+	<p class="lf-specimen lf-serif lf-italic lf-ubold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
 </div>
-
-***
-
 
 ## Monospace
 
 The monospace font covers Latin, Greek, and Cyrillic. We will add more monospace fonts as they become available.
 
-
-***
-
 <div lang="en">
-	<h3 class="lf-light font-label">Latin</h3>
+	<h3 class="lf-light font-label">Latin Serif</h3>
 	<p class="lf-specimen lf-mono lf-ulight"><code>ARTICLE 1 All people are born free and equal in dignity and rights.</code></p>
 	<p class="lf-specimen lf-mono lf-xlight"><code>ARTICLE 1 All people are born free and equal in dignity and rights.</code></p>
 	<p class="lf-specimen lf-mono lf-light"><code>ARTICLE 1 All people are born free and equal in dignity and rights.</code></p>

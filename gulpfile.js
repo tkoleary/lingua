@@ -12,10 +12,7 @@ sass.compiler									= require('dart-sass');
 
 var config = {
 	scss:								'./scss/**/**.scss',
-	fontFolders:				'./scss/font-folders/**/**.*',
-	fontsFlat:					'./scss/fonts/',
-	webfontsRaw:				'./mix-webfonts/raw/**.*',
-	webfontsMixed:			'./mix-webfonts/mixed/',
+	fonts:							'./scss/fonts/**/**.*',
 	autoprefixerOptions: {
 		browsers:						['last 2 versions', '> 5%']
 	},
@@ -34,7 +31,7 @@ function wipeCss(cb) {
 
 // Clean out the fonts for a new build
 function wipeFonts(cb) {
-	return src(config.fontsFlat, {read: false})
+	return src(config.buildFonts, {read: false})
 	.pipe(clean())
 	cb();
 }
@@ -60,9 +57,8 @@ function compileSass(cb) {
 
 // Move the fonts from their subfolders to one big folder
 function flattenFonts(cb) {
-	return src(config.fontFolders)
+	return src(config.fonts)
 	.pipe(flatten())
-	.pipe(dest(config.fontsFlat))
 	.pipe(dest(config.buildFonts))
 	cb();
 }
@@ -72,18 +68,4 @@ function watchScss(cb) {
   cb();
 }
 
-// Run when new webfonts are added
-function mixWebfonts(cb) {
-	return src(config.webfontsRaw)
-	.pipe(sourcemaps.init())
-	.pipe(sass({
-		outputStyle : 'expanded'
-	}).on('error', sass.logError))
-	.pipe(autoprefixer(config.autoprefixerOptions.browsers))
-	.pipe(dest(config.webfontsMixed))
-	cb();
-}
-
 task('default', series(wipeFonts, wipeCss, flattenFonts, watchScss));
-
-task('mix', series(mixWebfonts));

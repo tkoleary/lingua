@@ -1,13 +1,21 @@
 // Hebrew script languages
 
-*:lang(iw),   // Hebrew deprecated, but keep for backwards compatibility
+*:lang(iw), // Old Hebrew code deprecated, but keep for backwards compatibility
 *:lang(he),*:lang(jpr),*:lang(jrb),*:lang(lad),*:lang(yi),
-.lf-sans:lang(he) {
-	font-family: $base-sans-vf,$base-sans,$hebrew-sans-vf,$hebrew-sans,sans-serif;
-	direction: rtl;
+.lf-sans {
+
+	&:lang(Hebr), // Script
+	&:lang(he) {  // Language
+		font-family: $base-sans-vf,$base-sans,$hebrew-sans-vf,$hebrew-sans,sans-serif;
+		direction: rtl;
+	}
 }
 
-.lf-serif:lang(he) {
-	font-family: $base-serif-vf,$base-serif,$hebrew-serif-vf,$hebrew-serif,sans-serif;
-	direction: rtl;
+.lf-serif {
+
+	&:lang(Hebr), // Script
+	&:lang(he) {	// Language
+		font-family: $base-serif-vf,$base-serif,$hebrew-serif-vf,$hebrew-serif,sans-serif;
+		direction: rtl;
+	}
 }

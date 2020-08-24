@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Noto Sans Arabic UI Regular";
-  src: url("/NotoSansArabicUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansArabicUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansArabicUI-Regular.woff") format("woff"), url("/NotoSansArabicUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansArabicUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +8,7 @@
 }
 @font-face {
   font-family: "Noto Sans Bengali UI Regular";
-  src: url("/NotoSansBengaliUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansBengaliUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansBengaliUI-Regular.woff") format("woff"), url("/NotoSansBengaliUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansBengaliUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,8 +16,7 @@
 }
 @font-face {
   font-family: "Noto Sans Devanagari UI Regular";
-  src: url("/NotoSansDevanagariUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansDevanagariUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansDevanagariUI-Regular.woff") format("woff"), url("/NotoSansDevanagariUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansDevanagariUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,8 +24,7 @@
 }
 @font-face {
   font-family: "Noto Sans Khmer UI Regular";
-  src: url("/NotoSansKhmerUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansKhmerUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansKhmerUI-Regular.woff") format("woff"), url("/NotoSansKhmerUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansKhmerUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -36,8 +32,7 @@
 }
 @font-face {
   font-family: "Noto Sans Kannada UI Regular";
-  src: url("/NotoSansKannadaUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansKannadaUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansKannadaUI-Regular.woff") format("woff"), url("/NotoSansKannadaUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansKannadaUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -45,8 +40,7 @@
 }
 @font-face {
   font-family: "Noto Sans Lao UI Regular";
-  src: url("/NotoSansLaoUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansLaoUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansLaoUI-Regular.woff") format("woff"), url("/NotoSansLaoUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansLaoUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -54,8 +48,7 @@
 }
 @font-face {
   font-family: "Noto Sans Malayalam UI Regular";
-  src: url("/NotoSansMalayalamUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansMalayalamUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansMalayalamUI-Regular.woff") format("woff"), url("/NotoSansMalayalamUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansMalayalamUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -63,8 +56,7 @@
 }
 @font-face {
   font-family: "Noto Sans Myanmar UI Regular";
-  src: url("/NotoSansMyanmarUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansMyanmarUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansMyanmarUI-Regular.woff") format("woff"), url("/NotoSansMyanmarUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansMyanmarUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -72,8 +64,7 @@
 }
 @font-face {
   font-family: "Noto Sans Naskh Arabic UI Regular";
-  src: url("/NotoSansNaskh ArabicUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansNaskh ArabicUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansNaskh ArabicUI-Regular.woff") format("woff"), url("/NotoSansNaskh ArabicUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansNaskh ArabicUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -81,8 +72,7 @@
 }
 @font-face {
   font-family: "Noto Sans Oriya UI Regular";
-  src: url("/NotoSansOriyaUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansOriyaUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansOriyaUI-Regular.woff") format("woff"), url("/NotoSansOriyaUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansOriyaUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -90,8 +80,7 @@
 }
 @font-face {
   font-family: "Noto Sans Sinhala UI Regular";
-  src: url("/NotoSansSinhalaUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansSinhalaUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansSinhalaUI-Regular.woff") format("woff"), url("/NotoSansSinhalaUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansSinhalaUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -99,8 +88,7 @@
 }
 @font-face {
   font-family: "Noto Sans Tamil UI Regular";
-  src: url("/NotoSansTamilUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansTamilUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansTamilUI-Regular.woff") format("woff"), url("/NotoSansTamilUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansTamilUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -108,8 +96,7 @@
 }
 @font-face {
   font-family: "Noto Sans Telugu UI Regular";
-  src: url("/NotoSansTeluguUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansTeluguUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansTeluguUI-Regular.woff") format("woff"), url("/NotoSansTeluguUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansTeluguUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -117,8 +104,7 @@
 }
 @font-face {
   font-family: "Noto Sans Thai UI Regular";
-  src: url("/NotoSansThaiUI-Regular.eot") format("embedded-opentype");
-  src: url("/NotoSansThaiUI-Regular.eot?#iefix") format("embedded-opentype"), url("/NotoSansThaiUI-Regular.woff") format("woff"), url("/NotoSansThaiUI-Regular.ttf") format("truetype");
+  src: url("/NotoSansThaiUI-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

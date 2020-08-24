@@ -37,7 +37,7 @@ lang: en
 
 #### Cyrillic
 
-<p class="lf-sans" lang="ru"> СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
+<p class="lf-sans" lang="Cyrl"> СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
 
 #### Devanagari
 
@@ -137,11 +137,11 @@ lang: en
 
 #### Simplified Chinese
 
-<p class="lf-serif" lang="zh-Hans"> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
+<p class="lf-serif" lang="Hans"> 第一条所有人民天生都是自由的，有尊严和平等的权利。</p>
 
 #### Traditional Chinese
 
-<p class="lf-serif" lang="yue-Hant"> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
+<p class="lf-serif" lang="Hant"> 第一條所有人民天生自由，享有尊嚴和權利平等。</p>
 
 #### Hong Kong Chinese
 

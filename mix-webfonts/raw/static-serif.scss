@@ -1,17 +1,18 @@
 // Import the unicode-range variables
 @import "unicode-ranges";
 @import "mixins";
-
+/*
 // Arabic Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Arabic, Regular, Regular, normal, normal);
-//	unicode-range: $arabic;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Arabic, Regular, Regular, normal, normal);
+	unicode-range: $arabic;
+}
 // Adlam Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Adlam, Regular, Regular, normal, normal);
-//	unicode-range: $adlam;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Adlam, Regular, Regular, normal, normal);
+	unicode-range: $adlam;
+}
+*/
 // Armenian serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, Armenian, Regular, Regular, normal, normal);
@@ -27,26 +28,28 @@
 	@include font-face-static(Noto, Serif, Bengali, Regular, Regular, normal, normal);
 	unicode-range: $bengali;
 }
+/*
 // Brahmi Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Brahmi, Regular, Regular, normal, normal);
-//	unicode-range: $brahmi;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Brahmi, Regular, Regular, normal, normal);
+	unicode-range: $brahmi;
+}
 // Buginese Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Buginese, Regular, Regular, normal, normal);
-//	unicode-range: $buginese;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Buginese, Regular, Regular, normal, normal);
+	unicode-range: $buginese;
+}
 // Buhid Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Buhid, Regular, Regular, normal, normal);
-//	unicode-range: $buhid;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Buhid, Regular, Regular, normal, normal);
+	unicode-range: $buhid;
+}
 // Serif fonts for Unified Canadian Aboriginal
-//@font-face {
-//	@include font-face-static(Noto, Serif, CanadianAboriginal, Regular, Regular, normal, normal);
-//	unicode-range: $c-aboriginal;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, CanadianAboriginal, Regular, Regular, normal, normal);
+	unicode-range: $c-aboriginal;
+}
+*/
 // Devanagari serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, Devanagari, Regular, Regular, normal, normal);
@@ -67,11 +70,13 @@
 	@include font-face-static(Noto, Serif, Gujarati, Regular, Regular, normal, normal);
 	unicode-range: $gujarati;
 }
+/*
 // Hanunoo Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Hanunoo, Regular, Regular, normal, normal);
-//	unicode-range: $hanunoo;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Hanunoo, Regular, Regular, normal, normal);
+	unicode-range: $hanunoo;
+}
+*/
 // Hebrew serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, Hebrew, Regular, Regular, normal, normal);
@@ -92,11 +97,13 @@
 	@include font-face-static(Noto, Serif, Lao, Regular, Regular, normal, normal);
 	unicode-range: $lao;
 }
+/*
 // Limbu serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Limbu, Regular, Regular, normal, normal);
-//	unicode-range: $limbu;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Limbu, Regular, Regular, normal, normal);
+	unicode-range: $limbu;
+}
+*/
 // Malayalam serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, Malayalam, Regular, Regular, normal, normal);
@@ -107,41 +114,44 @@
 	@include font-face-static(Noto, Serif, Myanmar, Regular, Regular, normal, normal);
 	unicode-range: $myanmar;
 }
+/*
 // NKo Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, NKo, Regular, Regular, normal, normal);
-//	unicode-range: $nko;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, NKo, Regular, Regular, normal, normal);
+	unicode-range: $nko;
+}
 // Oriya Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Oriya, Regular, Regular, normal, normal);
-//	unicode-range: $oriya;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Oriya, Regular, Regular, normal, normal);
+	unicode-range: $oriya;
+}
+*/
 // Sinhala serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, Sinhala, Regular, regular, normal, normal);
 	unicode-range: $sinhala;
 }
+/*
 // Tagalog Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, Tagalog, Regular, Regular, normal, normal);
-//	unicode-range: $tagalog;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, Tagalog, Regular, Regular, normal, normal);
+	unicode-range: $tagalog;
+}
 // Tai Le Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, TaiLe, Regular, Regular, normal, normal);
-//	unicode-range: $tai-le;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, TaiLe, Regular, Regular, normal, normal);
+	unicode-range: $tai-le;
+}
 // Tai Tham Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, TaiTham, Regular, Regular, normal, normal);
-//	unicode-range: $tai-tham;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, TaiTham, Regular, Regular, normal, normal);
+	unicode-range: $tai-tham;
+}
 // Tai Viet Serif regular
-//@font-face {
-//	@include font-face-static(Noto, Serif, TaiViet, Regular, Regular, normal, normal);
-//	unicode-range: $tai-viet;
-//}
+@font-face {
+	@include font-face-static(Noto, Serif, TaiViet, Regular, Regular, normal, normal);
+	unicode-range: $tai-viet;
+}
 // Tamil Serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, Tamil, Regular, Regular, normal, normal);
@@ -167,6 +177,7 @@
 	@include font-face-static(Noto, Serif, Tibetan, Regular, Regular, normal, normal);
 	unicode-range: $tibetan;
 }
+/*
 // ZanzabarSquare Serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, ZanzabarSquare, Regular, Regular, normal, normal);
@@ -177,3 +188,4 @@
 	@include font-face-static(Noto, Traditional, Nushu, Regular, Regular, normal, normal);
 	unicode-range: $nushu;
 }
+*/

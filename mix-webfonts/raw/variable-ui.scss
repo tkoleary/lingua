@@ -46,11 +46,13 @@
 		@include font-face-variable-ui(Noto, Sans, Myanmar, VF, Regular, normal, normal);
 		unicode-range: $myanmar;
 	}
+	/*
 	// Variable sans UI fonts for Naskh Arabic
 	@font-face {
 		@include font-face-variable-ui(Noto, Sans, Naskh Arabic, VF, Regular, normal, normal);
 		unicode-range: $arabic;
 	}
+	*/
 	// Variable sans UI fonts for Oriya
 	@font-face {
 		@include font-face-variable-ui(Noto, Sans, Oriya, VF, Regular, normal, normal);

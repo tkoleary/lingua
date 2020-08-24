@@ -1,7 +1,19 @@
 // Adlam script
 
-*:lang(ff),
-.lf-sans:lang(ff)  {
-	font-family: $base-sans-vf,$base-sans,$adlam-sans-vf,$adlam-sans,sans-serif;
-	direction: rtl;
+
+*,
+.lf-sans {
+	&:lang(Adlm),
+	&:lang(ff)  {
+		font-family: $base-sans-vf,$base-sans,$adlam-sans-vf,$adlam-sans,sans-serif;
+		direction: rtl;
+	}
+}
+
+.lf-unjoined {
+	&:lang(Adlm),
+	&:lang(ff) {
+		font-family: $base-sans-vf,$base-sans,$adlam-unjoined-vf,$adlam-unjoined,sans-serif;
+		direction: rtl;
+	}
 }

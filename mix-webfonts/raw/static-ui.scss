@@ -45,11 +45,13 @@
 	@include font-face-static-ui(Noto, Sans, Myanmar, Regular, Regular, normal, normal);
 	unicode-range: $myanmar;
 }
+/*
 // static sans UI fonts for Naskh Arabic
 @font-face {
 	@include font-face-static-ui(Noto, Sans, Naskh Arabic, Regular, Regular, normal, normal);
 	unicode-range: $arabic;
 }
+*/
 // static sans UI fonts for Oriya
 @font-face {
 	@include font-face-static-ui(Noto, Sans, Oriya, Regular, Regular, normal, normal);

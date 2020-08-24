@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Noto Sans Arabic Regular";
-  src: url("fonts/NotoSansArabic-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansArabic-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansArabic-Regular.woff") format("woff"), url("fonts/NotoSansArabic-Regular.woff2") format("woff2"), url("fonts/NotoSansArabic-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansArabic-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 }
 @font-face {
   font-family: "Noto Sans Adlam Regular";
-  src: url("fonts/NotoSansAdlam-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansAdlam-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansAdlam-Regular.woff") format("woff"), url("fonts/NotoSansAdlam-Regular.woff2") format("woff2"), url("fonts/NotoSansAdlam-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansAdlam-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 }
 @font-face {
   font-family: "Noto Sans Armenian Regular";
-  src: url("fonts/NotoSansArmenian-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansArmenian-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansArmenian-Regular.woff") format("woff"), url("fonts/NotoSansArmenian-Regular.woff2") format("woff2"), url("fonts/NotoSansArmenian-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansArmenian-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 }
 @font-face {
   font-family: "Noto Sans Balinese Regular";
-  src: url("fonts/NotoSansBalinese-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansBalinese-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBalinese-Regular.woff") format("woff"), url("fonts/NotoSansBalinese-Regular.woff2") format("woff2"), url("fonts/NotoSansBalinese-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansBalinese-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 }
 @font-face {
   font-family: "Noto Sans Bengali Regular";
-  src: url("fonts/NotoSansBengali-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansBengali-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBengali-Regular.woff") format("woff"), url("fonts/NotoSansBengali-Regular.woff2") format("woff2"), url("fonts/NotoSansBengali-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansBengali-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 }
 @font-face {
   font-family: "Noto Sans Brahmi Regular";
-  src: url("fonts/NotoSansBrahmi-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansBrahmi-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBrahmi-Regular.woff") format("woff"), url("fonts/NotoSansBrahmi-Regular.woff2") format("woff2"), url("fonts/NotoSansBrahmi-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansBrahmi-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -48,7 +48,7 @@
 }
 @font-face {
   font-family: "Noto Sans Buginese Regular";
-  src: url("fonts/NotoSansBuginese-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansBuginese-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBuginese-Regular.woff") format("woff"), url("fonts/NotoSansBuginese-Regular.woff2") format("woff2"), url("fonts/NotoSansBuginese-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansBuginese-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@
 }
 @font-face {
   font-family: "Noto Sans Buhid Regular";
-  src: url("fonts/NotoSansBuhid-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansBuhid-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansBuhid-Regular.woff") format("woff"), url("fonts/NotoSansBuhid-Regular.woff2") format("woff2"), url("fonts/NotoSansBuhid-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansBuhid-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -64,7 +64,7 @@
 }
 @font-face {
   font-family: "Noto Sans CanadianAboriginal Regular";
-  src: url("fonts/NotoSansCanadianAboriginal-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansCanadianAboriginal-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansCanadianAboriginal-Regular.woff") format("woff"), url("fonts/NotoSansCanadianAboriginal-Regular.woff2") format("woff2"), url("fonts/NotoSansCanadianAboriginal-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansCanadianAboriginal-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -72,7 +72,7 @@
 }
 @font-face {
   font-family: "Noto Sans Devanagari Regular";
-  src: url("fonts/NotoSansDevanagari-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansDevanagari-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansDevanagari-Regular.woff") format("woff"), url("fonts/NotoSansDevanagari-Regular.woff2") format("woff2"), url("fonts/NotoSansDevanagari-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansDevanagari-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -80,7 +80,7 @@
 }
 @font-face {
   font-family: "Noto Sans Ethiopic Regular";
-  src: url("fonts/NotoSansEthiopic-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansEthiopic-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansEthiopic-Regular.woff") format("woff"), url("fonts/NotoSansEthiopic-Regular.woff2") format("woff2"), url("fonts/NotoSansEthiopic-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansEthiopic-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -88,7 +88,7 @@
 }
 @font-face {
   font-family: "Noto Sans Georgian Regular";
-  src: url("fonts/NotoSansGeorgian-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansGeorgian-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansGeorgian-Regular.woff") format("woff"), url("fonts/NotoSansGeorgian-Regular.woff2") format("woff2"), url("fonts/NotoSansGeorgian-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansGeorgian-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -96,7 +96,7 @@
 }
 @font-face {
   font-family: "Noto Sans Gujarati Regular";
-  src: url("fonts/NotoSansGujarati-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansGujarati-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansGujarati-Regular.woff") format("woff"), url("fonts/NotoSansGujarati-Regular.woff2") format("woff2"), url("fonts/NotoSansGujarati-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansGujarati-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -104,7 +104,7 @@
 }
 @font-face {
   font-family: "Noto Sans Gurmukhi Regular";
-  src: url("fonts/NotoSansGurmukhi-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansGurmukhi-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansGurmukhi-Regular.woff") format("woff"), url("fonts/NotoSansGurmukhi-Regular.woff2") format("woff2"), url("fonts/NotoSansGurmukhi-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansGurmukhi-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -112,7 +112,7 @@
 }
 @font-face {
   font-family: "Noto Sans Hanunoo Regular";
-  src: url("fonts/NotoSansHanunoo-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansHanunoo-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansHanunoo-Regular.woff") format("woff"), url("fonts/NotoSansHanunoo-Regular.woff2") format("woff2"), url("fonts/NotoSansHanunoo-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansHanunoo-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -120,7 +120,7 @@
 }
 @font-face {
   font-family: "Noto Sans Hebrew Regular";
-  src: url("fonts/NotoSansHebrew-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansHebrew-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansHebrew-Regular.woff") format("woff"), url("fonts/NotoSansHebrew-Regular.woff2") format("woff2"), url("fonts/NotoSansHebrew-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansHebrew-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -128,7 +128,7 @@
 }
 @font-face {
   font-family: "Noto Sans Kannada Regular";
-  src: url("fonts/NotoSansKannada-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansKannada-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansKannada-Regular.woff") format("woff"), url("fonts/NotoSansKannada-Regular.woff2") format("woff2"), url("fonts/NotoSansKannada-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansKannada-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -136,7 +136,7 @@
 }
 @font-face {
   font-family: "Noto Sans Khmer Regular";
-  src: url("fonts/NotoSansKhmer-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansKhmer-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansKhmer-Regular.woff") format("woff"), url("fonts/NotoSansKhmer-Regular.woff2") format("woff2"), url("fonts/NotoSansKhmer-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansKhmer-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -144,7 +144,7 @@
 }
 @font-face {
   font-family: "Noto Sans Lao Regular";
-  src: url("fonts/NotoSansLao-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansLao-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansLao-Regular.woff") format("woff"), url("fonts/NotoSansLao-Regular.woff2") format("woff2"), url("fonts/NotoSansLao-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansLao-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -152,7 +152,7 @@
 }
 @font-face {
   font-family: "Noto Sans Limbu Regular";
-  src: url("fonts/NotoSansLimbu-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansLimbu-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansLimbu-Regular.woff") format("woff"), url("fonts/NotoSansLimbu-Regular.woff2") format("woff2"), url("fonts/NotoSansLimbu-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansLimbu-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -160,7 +160,7 @@
 }
 @font-face {
   font-family: "Noto Sans Lisu Regular";
-  src: url("fonts/NotoSansLisu-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansLisu-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansLisu-Regular.woff") format("woff"), url("fonts/NotoSansLisu-Regular.woff2") format("woff2"), url("fonts/NotoSansLisu-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansLisu-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -168,7 +168,7 @@
 }
 @font-face {
   font-family: "Noto Sans Malayalam Regular";
-  src: url("fonts/NotoSansMalayalam-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansMalayalam-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansMalayalam-Regular.woff") format("woff"), url("fonts/NotoSansMalayalam-Regular.woff2") format("woff2"), url("fonts/NotoSansMalayalam-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansMalayalam-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -176,7 +176,7 @@
 }
 @font-face {
   font-family: "Noto Sans Myanmar Regular";
-  src: url("fonts/NotoSansMyanmar-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansMyanmar-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansMyanmar-Regular.woff") format("woff"), url("fonts/NotoSansMyanmar-Regular.woff2") format("woff2"), url("fonts/NotoSansMyanmar-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansMyanmar-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -184,7 +184,7 @@
 }
 @font-face {
   font-family: "Noto Sans NKo Regular";
-  src: url("fonts/NotoSansNKo-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansNKo-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansNKo-Regular.woff") format("woff"), url("fonts/NotoSansNKo-Regular.woff2") format("woff2"), url("fonts/NotoSansNKo-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansNKo-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -192,7 +192,7 @@
 }
 @font-face {
   font-family: "Noto Sans NushuTraditional Regular";
-  src: url("fonts/NotoSansNushuTraditional-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansNushuTraditional-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansNushuTraditional-Regular.woff") format("woff"), url("fonts/NotoSansNushuTraditional-Regular.woff2") format("woff2"), url("fonts/NotoSansNushuTraditional-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansNushuTraditional-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -200,7 +200,7 @@
 }
 @font-face {
   font-family: "Noto Sans Oriya Regular";
-  src: url("fonts/NotoSansOriya-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansOriya-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansOriya-Regular.woff") format("woff"), url("fonts/NotoSansOriya-Regular.woff2") format("woff2"), url("fonts/NotoSansOriya-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansOriya-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -208,7 +208,7 @@
 }
 @font-face {
   font-family: "Noto Sans OlChiki Regular";
-  src: url("fonts/NotoSansOlChiki-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansOlChiki-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansOlChiki-Regular.woff") format("woff"), url("fonts/NotoSansOlChiki-Regular.woff2") format("woff2"), url("fonts/NotoSansOlChiki-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansOlChiki-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -216,7 +216,7 @@
 }
 @font-face {
   font-family: "Noto Sans Sinhala Regular";
-  src: url("fonts/NotoSansSinhala-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansSinhala-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansSinhala-Regular.woff") format("woff"), url("fonts/NotoSansSinhala-Regular.woff2") format("woff2"), url("fonts/NotoSansSinhala-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansSinhala-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -224,7 +224,7 @@
 }
 @font-face {
   font-family: "Noto Sans Tagalog Regular";
-  src: url("fonts/NotoSansTagalog-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTagalog-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTagalog-Regular.woff") format("woff"), url("fonts/NotoSansTagalog-Regular.woff2") format("woff2"), url("fonts/NotoSansTagalog-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTagalog-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -232,7 +232,7 @@
 }
 @font-face {
   font-family: "Noto Sans TaiLe Regular";
-  src: url("fonts/NotoSansTaiLe-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTaiLe-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTaiLe-Regular.woff") format("woff"), url("fonts/NotoSansTaiLe-Regular.woff2") format("woff2"), url("fonts/NotoSansTaiLe-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTaiLe-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -240,7 +240,7 @@
 }
 @font-face {
   font-family: "Noto Sans TaiTham Regular";
-  src: url("fonts/NotoSansTaiTham-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTaiTham-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTaiTham-Regular.woff") format("woff"), url("fonts/NotoSansTaiTham-Regular.woff2") format("woff2"), url("fonts/NotoSansTaiTham-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTaiTham-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -248,7 +248,7 @@
 }
 @font-face {
   font-family: "Noto Sans TaiViet Regular";
-  src: url("fonts/NotoSansTaiViet-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTaiViet-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTaiViet-Regular.woff") format("woff"), url("fonts/NotoSansTaiViet-Regular.woff2") format("woff2"), url("fonts/NotoSansTaiViet-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTaiViet-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -256,7 +256,7 @@
 }
 @font-face {
   font-family: "Noto Sans Tamil Regular";
-  src: url("fonts/NotoSansTamil-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTamil-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTamil-Regular.woff") format("woff"), url("fonts/NotoSansTamil-Regular.woff2") format("woff2"), url("fonts/NotoSansTamil-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTamil-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -264,7 +264,7 @@
 }
 @font-face {
   font-family: "Noto Sans Telugu Regular";
-  src: url("fonts/NotoSansTelugu-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTelugu-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTelugu-Regular.woff") format("woff"), url("fonts/NotoSansTelugu-Regular.woff2") format("woff2"), url("fonts/NotoSansTelugu-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTelugu-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -272,7 +272,7 @@
 }
 @font-face {
   font-family: "Noto Sans Thai Regular";
-  src: url("fonts/NotoSansThai-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansThai-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansThai-Regular.woff") format("woff"), url("fonts/NotoSansThai-Regular.woff2") format("woff2"), url("fonts/NotoSansThai-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansThai-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -280,7 +280,7 @@
 }
 @font-face {
   font-family: "Noto Sans Thaana Regular";
-  src: url("fonts/NotoSansThaana-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansThaana-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansThaana-Regular.woff") format("woff"), url("fonts/NotoSansThaana-Regular.woff2") format("woff2"), url("fonts/NotoSansThaana-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansThaana-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -288,7 +288,7 @@
 }
 @font-face {
   font-family: "Noto Sans Tibetan Regular";
-  src: url("fonts/NotoSansTibetan-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansTibetan-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansTibetan-Regular.woff") format("woff"), url("fonts/NotoSansTibetan-Regular.woff2") format("woff2"), url("fonts/NotoSansTibetan-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansTibetan-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -296,7 +296,7 @@
 }
 @font-face {
   font-family: "Noto Sans ZanzabarSquare Regular";
-  src: url("fonts/NotoSansZanzabarSquare-Regular.eot") format("embedded-opentype"), url("fonts/NotoSansZanzabarSquare-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/NotoSansZanzabarSquare-Regular.woff") format("woff"), url("fonts/NotoSansZanzabarSquare-Regular.woff2") format("woff2"), url("fonts/NotoSansZanzabarSquare-Regular.ttf") format("truetype");
+  src: url("fonts/NotoSansZanzabarSquare-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

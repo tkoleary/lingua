@@ -1,0 +1,130 @@
+/*
+@font-face-variable {
+  font-family: "Noto Serif Bamum";
+  src: url("fonts/NotoSerifBamum-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifBamum-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+A6A0-A6FF, U+16800-16A3F;
+}
+*/
+@font-face-variable {
+  font-family: "Noto Serif Bengali";
+  src: url("fonts/NotoSerifBengali-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifBengali-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0980-09FF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Devanagari";
+  src: url("fonts/NotoSerifDevanagari-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifDevanagari-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0900-097F, U+A8E0-A8FF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Ethiopic";
+  src: url("fonts/NotoSerifEthiopic-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifEthiopic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Gujarati";
+  src: url("fonts/NotoSerifGujarati-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifGujarati-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A80-0AFF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Gurmukhi";
+  src: url("fonts/NotoSerifGurmukhi-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifGurmukhi-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A00-0A7F;
+}
+@font-face-variable {
+  font-family: "Noto Serif Hebrew";
+  src: url("fonts/NotoSerifHebrew-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifHebrew-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0590-05FF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Kannada";
+  src: url("fonts/NotoSerifKannada-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifKannada-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C80-0CFF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Lao";
+  src: url("fonts/NotoSerifLao-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLao-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E80-0EFF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Malayalam";
+  src: url("fonts/NotoSerifMalayalam-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifMalayalam-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D00-0D7F;
+}
+@font-face-variable {
+  font-family: "Noto Serif Myanmar";
+  src: url("fonts/NotoSerifMyanmar-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifMyanmar-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Sinhala";
+  src: url("fonts/NotoSerifSinhala-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifSinhala-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D80-0DFF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Tamil";
+  src: url("fonts/NotoSerifTamil-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTamil-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face-variable {
+  font-family: "Noto Serif Telugu";
+  src: url("fonts/NotoSerifTelugu-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTelugu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F;
+}
+@font-face-variable {
+  font-family: "Noto Serif Thai";
+  src: url("fonts/NotoSerifThai-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifThai-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
+}
+@font-face-variable {
+  font-family: "Noto Serif Tibetan";
+  src: url("fonts/NotoSerifTibetan-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTibetan-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0F00-0FFF;
+}
