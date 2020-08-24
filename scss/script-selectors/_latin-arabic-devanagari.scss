@@ -8,7 +8,7 @@
 	&:lang(hif),
 	&:lang(ks),
 	&:lang(sd) {
-		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
+		font-family: $base-sans,$devanagari-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -18,7 +18,7 @@
 	&:lang(hif),
 	&:lang(ks),
 	&:lang(sd) {
-		font-family: $base-sans-vf,$base-sans,$devanagari-serif-vf,$devanagari-serif,serif;
+		font-family: $base-sans,$devanagari-serif,serif;
 	}
 }
 
@@ -31,7 +31,7 @@
 	&:lang(hif-Deva),
 	&:lang(ks-Deva),
 	&:lang(sd-Deva) {
-		font-family: $base-sans-vf,$base-sans,$devanagari-sans-vf,$devanagari-sans,sans-serif;
+		font-family: $base-sans,$devanagari-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -42,7 +42,7 @@
 	&:lang(hif-Deva),
 	&:lang(ks-Deva),
 	&:lang(sd-Deva) {
-		font-family: $base-serif-vf,$base-serif,$devanagari-serif-vf,$devanagari-serif,serif;
+		font-family: $base-serif,$devanagari-serif,serif;
 	}
 }
 
@@ -55,7 +55,7 @@
 	&:lang(hif-Arab),
 	&:lang(ks-Arab),
 	&:lang(sd-Arab) {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+		font-family: $base-sans,$arabic-sans,sans-serif;
 		direction: rtl;
 	}
 }
@@ -66,7 +66,7 @@
 	&:lang(hif-Arab),
 	&:lang(ks-Arab),
 	&:lang(sd-Arab) {
-		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
+		font-family: $base-serif,$arabic-serif,serif;
 	}
 }
 
@@ -79,7 +79,7 @@
 	&:lang(hif-Latn),
 	&:lang(ks-Latn),
 	&:lang(sd-Latn) {
-		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
+		font-family: $base-sans,$latin-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -90,7 +90,7 @@
 	&:lang(hif-Latn),
 	&:lang(ks-Latn),
 	&:lang(sd-Latn) {
-		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
+		font-family: $base-serif,$latin-serif,serif;
 		direction: ltr;
 	}
 }

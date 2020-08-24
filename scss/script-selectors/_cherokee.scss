@@ -2,11 +2,11 @@
 
 *:lang(chr),
 .lf-sans:lang(chr) {
-	font-family: $base-sans-vf,$base-sans,$cherokee-sans-vf,$cherokee-sans,sans-serif;
+	font-family: $base-sans,$cherokee-sans,sans-serif;
 	direction: ltr;
 }
 
 .lf-serif:lang(chr) {
-	font-family: $base-serif-vf,$base-serif,$cherokee-serif-vf,$cherokee-serif,serif;
+	font-family: $base-serif,$cherokee-serif,serif;
 	direction: ltr;
 }

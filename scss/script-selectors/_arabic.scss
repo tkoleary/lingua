@@ -2,12 +2,12 @@
 
 *:lang(Arab),*:lang(ar),*:lang(fa),*:lang(ps),*:lang(ur),*:lang(wni),*:lang(zdj),*:lang(aeb),*:lang(arq),*:lang(ars),*:lang(ary),*:lang(arz),*:lang(bej),*:lang(bgn),*:lang(bqi),*:lang(ckb),*:lang(dcc),*:lang(doi),*:lang(fia),*:lang(gbz),*:lang(gjk),*:lang(gju),*:lang(glk),*:lang(haz),*:lang(hnd),*:lang(hno),*:lang(khw),*:lang(kvx),*:lang(kxp),*:lang(lah),*:lang(lki),*:lang(lrc),*:lang(luz),*:lang(mfa),*:lang(mvy),*:lang(mzn),*:lang(prd),*:lang(rmt),*:lang(sdh),*:lang(skr),*:lang(trw),
 .lf-sans:lang(Arab) {
-	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+	font-family: $base-sans,$arabic-sans,sans-serif;
 	direction: rtl;
 }
 
 .lf-sans-ui:lang(ar),
 .lf-sans-ui:lang(Arab) {
-	font-family: $base-sans-vf,$base-sans,$arabic-sans-ui-vf,$arabic-sans-ui,sans-serif;
+	font-family: $base-sans,$arabic-sans-ui,sans-serif;
 	direction: rtl;
 }

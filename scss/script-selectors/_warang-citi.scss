@@ -4,7 +4,7 @@
 .lf-sans {
 
 	&:lang(hoc) {
-		font-family: $base-sans-vf,$base-sans,$warang-citi-sans-vf,$warang-citi-sans,sans-serif;
+		font-family: $base-sans,$warang-citi-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -12,7 +12,7 @@
 .lf-serif {
 
 	&:lang(hoc) {
-		ont-family: $base-serif-vf,$base-serif,$warang-citi-serif-vf,$warang-citi-serif,serif;
+		ont-family: $base-serif,$warang-citi-serif,serif;
 		direction: ltr;
 	}
 }

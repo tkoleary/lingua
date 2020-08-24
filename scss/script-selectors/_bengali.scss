@@ -2,17 +2,17 @@
 
 *:lang(bn),
 .lf-sans:lang(bn) {
-	font-family: $base-sans-vf,$base-sans,$bengali-sans-vf,$bengali-sans,sans-serif;
+	font-family: $base-sans,$devanagari-sans,$bengali-sans,sans-serif; // Bengali borrows Devanagari characters
 	direction: ltr;
 }
 
 *:lang(bn),
 .lf-sans-ui:lang(bn) {
-	font-family: $base-sans-vf,$base-sans,$bengali-sans-ui-vf,$bengali-sans-ui,sans-serif;
+	font-family: $base-sans,$devanagari-sans-ui,$bengali-sans-ui,sans-serif; // Bengali borrows Devanagari characters
 	direction: ltr;
 }
 
 .lf-serif:lang(bn) {
-	font-family: $base-serif-vf,$base-serif,$bengali-serif-vf,$bengali-serif,serif;
+	font-family: $base-serif,$devanagari-serif,$bengali-serif,serif; // Bengali borrows Devanagari characters
 	direction: ltr;
 }

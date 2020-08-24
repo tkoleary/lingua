@@ -2,16 +2,16 @@
 
 *:lang(km),
 .lf-sans:lang(km) {
-	font-family: $khmer-sans-vf,$khmer-sans,sans-serif;
+	font-family: $base-sans,$khmer-sans,sans-serif;
 	direction: ltr;
 }
 
 .lf-sans-ui:lang(km) {
-	font-family: $khmer-sans-ui-vf,$khmer-sans-ui,sans-serif;
+	font-family: $base-sans,$khmer-sans-ui,sans-serif;
 	direction: ltr;
 }
 
 .lf-serif:lang(km) {
-	font-family: $khmer-serif-vf,$khmer-serif,serif;
+	font-family: $base-sans,$khmer-serif,serif;
 	direction: ltr;
 }

@@ -2,16 +2,16 @@
 
 *:lang(lo),
 .lf-sans:lang(lo) {
-	font-family: $base-sans-vf,$base-sans,$lao-sans-vf,$lao-sans,sans-serif;
+	font-family: $base-sans,$lao-sans,sans-serif;
 	direction: ltr;
 }
 
 .lf-sans-ui:lang(lo) {
-	font-family: $base-sans-vf,$base-sans,$lao-sans-ui-vf,$lao-sans-ui,sans-serif;
+	font-family: $base-sans,$lao-sans-ui,sans-serif;
 	direction: ltr;
 }
 
 .lf-serif:lang(lo) {
-	font-family: $base-serif-vf,$base-serif,$lao-serif-vf,$lao-serif,serif;
+	font-family: $base-serif,$lao-serif,serif;
 	direction: ltr;
 }

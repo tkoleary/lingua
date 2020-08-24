@@ -3,40 +3,40 @@
 // Default to Arabic script
 *:lang(ar),*:lang(bal),*:lang(brh),*:lang(dyo),*:lang(ha),*:lang(id),*:lang(ms),*:lang(so),*:lang(sus),*:lang(swb),*:lang(tr),*:lang(tru),*:lang(wo),
 .lf-sans:lang(Arab) {
-	font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+	font-family: $base-sans,$arabic-sans,sans-serif;
 	direction: rtl;
 }
 
 .lf-serif:lang(Arab) {
-	font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
+	font-family: $base-serif,$arabic-serif,serif;
 	direction: rtl;
 }
 
 
 // Use Arabic script where explicit
 *:lang(Arab),*:lang(ar-Arab),*:lang(bal-Arab),*:lang(brh-Arab),*:lang(dyo-Arab),*:lang(ha-Arab),*:lang(id-Arab),*:lang(ms-Arab),*:lang(so-Arab),*:lang(sus-Arab),*:lang(swb-Arab),*:lang(tr-Arab),*:lang(tru-Arab),*:lang(wo-Arab) {
-  font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+  font-family: $base-sans,$arabic-sans,sans-serif;
   direction: rtl;
 
 	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$arabic-sans-vf,$arabic-sans,sans-serif;
+		font-family: $base-sans,$arabic-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$arabic-serif-vf,$arabic-serif,serif;
+		font-family: $base-serif,$arabic-serif,serif;
 	}
 }
 
 // Usse Latin script where explicit
 *:lang(Latn),*:lang(ar-Latn),*:lang(bal-Latn),*:lang(brh-Latn),*:lang(dyo-Latn),*:lang(ha-Latn),*:lang(id-Latn),*:lang(ms-Latn),*:lang(so-Latn),*:lang(sus-Latn),*:lang(swb-Latn),*:lang(tr-Latn),*:lang(tru-Latn),*:lang(wo-Latn) {
-  font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
+  font-family: $base-sans,$latin-sans,sans-serif;
   direction: ltr;
 
 	.lf-sans {
-		font-family: $base-sans-vf,$base-sans,$latin-sans-vf,$latin-sans,sans-serif;
+		font-family: $base-sans,$latin-sans,sans-serif;
 	}
 
 	.lf-serif {
-		font-family: $base-serif-vf,$base-serif,$latin-serif-vf,$latin-serif,serif;
+		font-family: $base-serif,$latin-serif,serif;
 	}
 }

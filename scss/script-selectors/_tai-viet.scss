@@ -5,7 +5,7 @@
 
 	&:lang(Tavt),
 	&:lang(bit) {
-		font-family: $base-sans-vf,$base-sans,$tai-viet-sans-vf,$tai-viet-sans,sans-serif;
+		font-family: $base-sans,$tai-viet-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Tavt),
 	&:lang(bit) {
-		font-family: $base-sans-vf,$base-sans,$tai-viet-sans-ui-vf,$tai-viet-sans-ui,sans-serif;
+		font-family: $base-sans,$tai-viet-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }*/
@@ -23,7 +23,7 @@
 
 	&:lang(Tavt),
 	&:lang(bit) {
-		font-family: $base-serif-vf,$base-serif,$tai-viet-serif-vf,$tai-viet-serif,serif;
+		font-family: $base-serif,$tai-viet-serif,serif;
 		direction: ltr;
 	}
 }

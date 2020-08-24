@@ -5,7 +5,7 @@
 
 	&:lang(Mlym),
 	&:lang(ms) {
-		font-family: $base-sans-vf,$base-sans,$malayalam-sans-vf,$malayalam-sans,sans-serif;
+		font-family: $base-sans,$malayalam-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Mlym),
 	&:lang(ms) {
-		font-family: $base-sans-vf,$base-sans,$malayalam-sans-ui-vf,$malayalam-sans,sans-serif;
+		font-family: $base-sans,$malayalam-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -23,7 +23,7 @@
 
 	&:lang(Mlym),
 	&:lang(ms) {
-		font-family: $base-serif-vf,$base-serif,$malayalam-serif-vf,$malayalam-serif,serif;
+		font-family: $base-serif,$malayalam-serif,serif;
 		direction: ltr;
 	}
 }

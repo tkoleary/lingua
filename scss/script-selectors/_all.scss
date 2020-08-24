@@ -1,21 +1,21 @@
 // Add the base font everywhere
 
 html {
-	font-family: $latin-sans-vf,$latin-sans,sans-serif;
+	font-family: $latin-sans,sans-serif;
 	font-display: swap; // Comment out if you don't want FOUT
 	direction: ltr;
 
 	em,
 	.lf-latin-italic {
-		font-style: normal;
-		font-family: $latin-sans-italic-vf,$latin-sans,sans-serif;
+		font-style: normal; // The character set is italic so we set this to normal
+		font-family: $latin-sans-italic,sans-serif;
 		font-display: swap; // Comment out if you don't want FOUT
 	}
 
 	pre,
 	code,
 	.lf-latin-mono {
-		font-family: $latin-sans-mono-vf,$latin-sans-mono,monospace;
+		font-family: $latin-sans-mono,monospace;
 		font-display: swap; // Comment out if you don't want FOUT
 	}
 }

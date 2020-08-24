@@ -5,7 +5,7 @@
 
 	//&:lang(Scrp), @todo: get script code
 	&:lang(or) {
-		font-family: $base-sans-vf,$base-sans,$oriya-sans-vf,$oriya-sans,sans-serif;
+		font-family: $base-sans,$oriya-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	//&:lang(Scrp),
 	&:lang(or) {
-		font-family: $base-sans-vf,$base-sans,$oriya-sans-ui-vf,$oriya-sans-ui,sans-serif;
+		font-family: $base-sans,$oriya-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
@@ -23,7 +23,7 @@
 
 	//&:lang(Scrp),
 	&:lang(or) {
-		font-family: $base-serif-vf,$base-serif,$oriya-serif-vf,$oriya-serif,serif;
+		font-family: $base-serif,$oriya-serif,serif;
 		direction: ltr;
 	}
 }*/

@@ -6,7 +6,7 @@
 	&:lang(Tibt),
 	&:lang(bo),
 	&:lang(dz) {
-		font-family: $base-sans-vf,$base-sans,$tibetan-sans-vf,$tibetan-sans,sans-serif;
+		font-family: $base-sans,$tibetan-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -16,7 +16,7 @@
 	&:lang(Tibt),
 	&:lang(bo),
 	&:lang(dz)  {
-		font-family: $base-serif-vf,$base-serif,$tibetan-serif-vf,$tibetan-serif,serif;
+		font-family: $base-serif,$tibetan-serif,serif;
 		direction: ltr;
 	}
 }

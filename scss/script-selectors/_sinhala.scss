@@ -5,7 +5,7 @@
 
 	&:lang(Sinh),
 	&:lang(si) {
-		font-family: $base-sans-vf,$base-sans,$sinhala-sans-vf,$sinhala-sans,sans-serif;
+		font-family: $base-sans,$sinhala-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Sinh),
 	&:lang(si) {
-		font-family: $base-sans-vf,$base-sans,$sinhala-sans-ui-vf,$sinhala-sans-ui,sans-serif;
+		font-family: $base-sans,$sinhala-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
@@ -23,7 +23,7 @@
 
 	&:lang(Sinh),
 	&:lang(si) {
-		font-family: $base-serif-vf,$base-serif,$sinhala-serif-vf,$sinhala-serif,serif;
+		font-family: $base-serif,$sinhala-serif,serif;
 		direction: ltr;
 	}
 }

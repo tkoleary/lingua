@@ -5,7 +5,7 @@
 
 	&:lang(Telu),
 	&:lang(te) {
-		font-family: $base-sans-vf,$base-sans,$telugu-sans-vf,$telugu-sans,sans-serif;
+		font-family: $base-sans,$telugu-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Telu),
 	&:lang(te) {
-		font-family: $base-sans-vf,$base-sans,$telugu-sans-ui-vf,$telugu-sans-ui,sans-serif;
+		font-family: $base-sans,$telugu-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
@@ -23,7 +23,7 @@
 
 	&:lang(Telu),
 	&:lang(te) {
-		font-family: $base-serif-vf,$base-serif,$telugu-serif-vf,$telugu-serif,serif;
+		font-family: $base-serif,$telugu-serif,serif;
 		direction: ltr;
 	}
 }

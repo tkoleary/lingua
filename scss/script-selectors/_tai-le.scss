@@ -5,7 +5,7 @@
 
 	&:lang(Tale),
 	&:lang(tdd) {
-		font-family: $base-sans-vf,$base-sans,$tai-le-sans-vf,$tai-le-sans,sans-serif;
+		font-family: $base-sans,$tai-le-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Tale),
 	&:lang(tdd) {
-		font-family: $base-sans-vf,$base-sans,$tai-le-sans-ui-vf,$tai-le-sans-ui,sans-serif;
+		font-family: $base-sans,$tai-le-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }*/
@@ -23,7 +23,7 @@
 
 	&:lang(Tale),
 	&:lang(tdd) {
-		font-family: $base-serif-vf,$base-serif,$tai-le-serif-vf,$tai-le-serif,serif;
+		font-family: $base-serif,$tai-le-serif,serif;
 		direction: ltr;
 	}
 }

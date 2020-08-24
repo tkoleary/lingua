@@ -1,26 +1,21 @@
 // The (currently available) variable versions of the Noto web fonts
 // Since support for variable fonts is a subset of support for woff, w only use woff and woff2
 
-
-/*
 @font-face {
-	font-family: "Noto Serif";
-	src:		//url('NotoSerifRegular-VF.woff2') format('woff2'),
-					url('NotoSerifRegular-VF.woff') format('woff');
-
+  font-family: "Noto Serif Latin";
+  src: 	url("fonts/NotoSerifLatin-VF-subset.woff2") format("woff2"), 
+				url("fonts/NotoSerifLatin-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+	font-family: "Noto Serif Latin Italic";
+	src:	url('fonts/NotoSerifLatinItalic-VF-subset.woff2') format('woff2'),
+				url('fonts/NotoSerifLatinItalic-VF-subset.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
-@font-face {
-	font-family: "Noto Serif Italic";
-	src:	url('NotoSerifItalic-VF.woff2') format('woff2'),
-				url('NotoSerifItalic-VF.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
-*/
-
-@import "factory/variable-serif.scss";
+@import "factory/variable-serif";

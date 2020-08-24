@@ -5,7 +5,7 @@
 
 	&:lang(Lana),
 	&:lang(kkh) {
-		font-family: $base-sans-vf,$base-sans,$tai-tham-sans-vf,$tai-tham-sans,sans-serif;
+		font-family: $base-sans,$tai-tham-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Lana),
 	&:lang(kkh) {
-		font-family: $base-sans-vf,$base-sans,$tai-tham-sans-ui-vf,$tai-tham-sans-ui,sans-serif;
+		font-family: $base-sans,$tai-tham-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }*/
@@ -23,7 +23,7 @@
 
 	&:lang(Lana),
 	&:lang(kkh) {
-		font-family: $base-serif-vf,$base-serif,$tai-tham-serif-vf,$tai-tham-serif,serif;
+		font-family: $base-serif,$tai-tham-serif,serif;
 		direction: ltr;
 	}
 }

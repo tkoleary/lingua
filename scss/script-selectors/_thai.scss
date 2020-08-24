@@ -5,7 +5,7 @@
 
 	&:lang(Thai),
 	&:lang(th) {
-		font-family: $base-sans-vf,$base-sans,$thai-sans-vf,$thai-sans,sans-serif;
+		font-family: $base-sans,$thai-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -14,7 +14,7 @@
 
 	&:lang(Thai),
 	&:lang(th) {
-		font-family: $base-sans-vf,$base-sans,$thai-sans-ui-vf,$thai-sans-ui,sans-serif;
+		font-family: $base-sans,$thai-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
@@ -23,7 +23,7 @@
 
 	&:lang(Thai),
 	&:lang(th) {
-		font-family: $base-serif-vf,$base-serif,$thai-serif-vf,$thai-serif,serif;
+		font-family: $base-serif,$thai-serif,serif;
 		direction: ltr;
 	}
 }

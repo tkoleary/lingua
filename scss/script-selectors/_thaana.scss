@@ -5,7 +5,7 @@
 
 	&:lang(Thaa),
 	&:lang(dv) {
-		font-family: $base-sans-vf,$base-sans,$thaana-sans-vf,$thaana-sans,sans-serif;
+		font-family: $base-sans,$arabic-sans,$thaana-sans,sans-serif; // Thaana borrows some arabic punctuation
 		direction: rtl;
 	}
 }
@@ -15,7 +15,7 @@
 
 	&:lang(Thaa),
 	&:lang(dv) {
-		font-family: $base-serif-vf,$base-serif,$thaana-serif-vf,$thaana-serif,serif;
+		font-family: $base-serif,$arabic-serif,$thaana-serif,serif; // Thaana borrows some arabic punctuation
 		direction: rtl;
 	}
 }

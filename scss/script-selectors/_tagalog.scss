@@ -5,7 +5,7 @@
 
 	//&:lang(Scrp),
 	&:lang(fil) {
-		font-family: $base-sans-vf,$base-sans,$tagalog-sans-vf,$tagalog-sans,sans-serif;
+		font-family: $base-sans,$tagalog-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -15,7 +15,7 @@
 
 	&:lang(Scrp),
 	&:lang(fil) {
-		font-family: $base-sans-vf,$base-sans,$tagalog-sans-ui-vf,$tagalog-sans-ui,sans-serif;
+		font-family: $base-sans,$tagalog-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
@@ -25,7 +25,7 @@
 
 	//&:lang(Scrp),
 	&:lang(fil) {
-		font-family: $base-serif-vf,$base-serif,$tagalog-serif-vf,$tagalog-serif,serif;
+		font-family: $base-serif,$tagalog-serif,serif;
 		direction: ltr;
 	}
 }

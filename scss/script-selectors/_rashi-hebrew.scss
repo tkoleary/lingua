@@ -8,7 +8,7 @@
 	&:lang(jrb),
 	&:lang(lad),
 	&:lang(yi) {
-		font-family: $base-sans-vf,$base-sans,$rashi-hebrew-sans-vf,$rashi-hebrew-sans,sans-serif;
+		font-family: $base-sans,$rashi-hebrew-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -21,7 +21,7 @@
 	&:lang(jrb),
 	&:lang(lad),
 	&:lang(yi) {
-		font-family: $base-serif-vf,$base-serif,$rashi-hebrew-serif-vf,$rashi-hebrew-serif,serif;
+		font-family: $base-serif,$rashi-hebrew-serif,serif;
 		direction: ltr;
 	}
 }

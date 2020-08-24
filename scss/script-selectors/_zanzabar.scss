@@ -5,7 +5,7 @@
 .lf-sans {
 
 	&:lang(za) {
-		font-family: $base-sans-vf,$base-sans,$zanzabar-square-sans-vf,$zanzabar-square-sans,sans-serif;
+		font-family: $base-sans,$zanzabar-square-sans,sans-serif;
 		direction: ltr;
 	}
 }
@@ -13,7 +13,7 @@
 .lf-sans-ui {
 
 	&:lang(za) {
-		font-family: $base-sans-vf,$base-sans,$zanzabar-square-sans-ui-vf,$zanzabar-square-sans-ui,sans-serif;
+		font-family: $base-sans,$zanzabar-square-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
@@ -21,7 +21,7 @@
 .lf-serif {
 
 	&:lang(za) {
-		font-family: $base-serif-vf,$base-serif,$zanzabar-square-serif-vf,$zanzabar-square-serif,serif;
+		font-family: $base-serif,$zanzabar-square-serif,serif;
 		direction: ltr;
 	}
 }

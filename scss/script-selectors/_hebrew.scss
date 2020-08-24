@@ -6,7 +6,7 @@
 
 	&:lang(Hebr), // Script
 	&:lang(he) {  // Language
-		font-family: $base-sans-vf,$base-sans,$hebrew-sans-vf,$hebrew-sans,sans-serif;
+		font-family: $base-sans,$hebrew-sans,sans-serif;
 		direction: rtl;
 	}
 }
@@ -15,7 +15,7 @@
 
 	&:lang(Hebr), // Script
 	&:lang(he) {	// Language
-		font-family: $base-serif-vf,$base-serif,$hebrew-serif-vf,$hebrew-serif,sans-serif;
+		font-family: $base-serif,$hebrew-serif,sans-serif;
 		direction: rtl;
 	}
 }
