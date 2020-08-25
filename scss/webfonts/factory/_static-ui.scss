@@ -62,13 +62,14 @@
   font-display: swap;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
-/*
-// static sans UI fonts for Naskh Arabic
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Naskh Arabic, Regular, Regular, normal, normal);
-	unicode-range: $arabic;
+  font-family: "Noto Sans Naskh Arabic UI";
+  src: url("/NotoSansNaskh ArabicUI-Regular-subset.woff2") format("woff2"), url("/NotoSansNaskh ArabicUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
-*/
 @font-face {
   font-family: "Noto Sans Oriya UI";
   src: url("/NotoSansOriyaUI-Regular-subset.woff2") format("woff2"), url("/NotoSansOriyaUI-Regular-subset.woff") format("woff");

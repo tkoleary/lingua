@@ -12,13 +12,15 @@
   font-style: italic;
   font-display: swap;
 }
+/*
 @font-face {
-  font-family: "Noto Sans Latin Mono";
-  src: url("fonts/NotoSansLatinMono-subset.woff2"), format("woff2"), url("fonts/NotoSansLatinMono-subset.woff"), format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+	font-family: "Noto Sans Latin Mono";
+	src:	url("fonts/NotoSansLatinMono-subset.woff2"), format("woff2"),
+				url("fonts/NotoSansLatinMono-subset.woff"), format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}*/
 @font-face {
   font-family: "Noto Sans HK";
   font-style: normal;
@@ -154,7 +156,7 @@
   unicode-range: U+1740-175F;
 }
 @font-face {
-  font-family: "Noto Sans CanadianAboriginal";
+  font-family: "Noto Sans Canadian Aboriginal";
   src: url("fonts/NotoSansCanadianAboriginal-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansCanadianAboriginal-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -234,6 +236,14 @@
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
+  font-family: "Noto Sans Latin";
+  src: url("fonts/NotoSansLatin-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansLatin-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
+}
+@font-face {
   font-family: "Noto Sans Lao";
   src: url("fonts/NotoSansLao-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansLao-Regular-subset.woff") format("woff");
   font-weight: normal;
@@ -297,7 +307,7 @@
   unicode-range: U+0B00-0B7F;
 }
 @font-face {
-  font-family: "Noto Sans OlChiki";
+  font-family: "Noto Sans Ol Chiki";
   src: url("fonts/NotoSansOlChiki-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansOlChiki-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -321,7 +331,7 @@
   unicode-range: U+1700-171F;
 }
 @font-face {
-  font-family: "Noto Sans TaiLe";
+  font-family: "Noto Sans Tai Le";
   src: url("fonts/NotoSansTaiLe-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansTaiLe-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -329,7 +339,7 @@
   unicode-range: U+1950-197F;
 }
 @font-face {
-  font-family: "Noto Sans TaiTham";
+  font-family: "Noto Sans Tai Tham";
   src: url("fonts/NotoSansTaiTham-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansTaiTham-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -337,7 +347,7 @@
   unicode-range: U+1A20-1AAF;
 }
 @font-face {
-  font-family: "Noto Sans TaiViet";
+  font-family: "Noto Sans Tai Viet";
   src: url("fonts/NotoSansTaiViet-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansTaiViet-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -384,13 +394,14 @@
   font-display: swap;
   unicode-range: U+0F00-0FFF;
 }
-/*
-// ZanzabarSquare sans regular
 @font-face {
-	@include font-face-static(Noto, Sans, ZanzabarSquare, Regular, Regular, normal, normal);
-	unicode-range: $zanzabar;
+  font-family: "Noto Sans Zanzabar Square";
+  src: url("fonts/NotoSansZanzabarSquare-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansZanzabarSquare-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11A00-11A4F;
 }
-*/
 @font-face {
   font-family: "Noto Serif Latin";
   src: url("fonts/NotoSerifLatin-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifLatin-Regular-subset.woff") format("woff");
@@ -553,6 +564,14 @@
   font-display: swap;
   unicode-range: U+0A80-0AFF;
 }
+@font-face {
+  font-family: "Noto Serif Gurmukhi";
+  src: url("fonts/NotoSerifGurmukhi-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifGurmukhi-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A00-0A7F;
+}
 /*
 // Hanunoo Serif regular
 @font-face {
@@ -591,6 +610,14 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+0E80-0EFF;
+}
+@font-face {
+  font-family: "Noto Serif Latin";
+  src: url("fonts/NotoSerifLatin-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifLatin-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
 }
 /*
 // Limbu serif regular
@@ -660,34 +687,49 @@
 @font-face {
 	@include font-face-static(Noto, Serif, TaiViet, Regular, Regular, normal, normal);
 	unicode-range: $tai-viet;
-}
-// Tamil Serif regular
+}*/
 @font-face {
-	@include font-face-static(Noto, Serif, Tamil, Regular, Regular, normal, normal);
-	unicode-range: $tamil;
+  font-family: "Noto Serif Tamil";
+  src: url("fonts/NotoSerifTamil-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifTamil-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
-// Tamil slanted regular
 @font-face {
-	@include font-face-static(Noto, Serif, TamilSlanted, Regular, Regular, normal, normal);
-	unicode-range: $tamil;
+  font-family: "Noto Serif Tamil Slanted";
+  src: url("fonts/NotoSerifTamilSlanted-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifTamilSlanted-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
-// Telugu Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Telugu, Regular, Regular, normal, normal);
-	unicode-range: $telugu;
+  font-family: "Noto Serif Telugu";
+  src: url("fonts/NotoSerifTelugu-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifTelugu-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F;
 }
-// Thai Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Thai, Regular, Regular, normal, normal);
-	unicode-range: $thai;
+  font-family: "Noto Serif Thai";
+  src: url("fonts/NotoSerifThai-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifThai-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
 }
-// Tibetan Serif regular
 @font-face {
-	@include font-face-static(Noto, Serif, Tibetan, Regular, Regular, normal, normal);
-	unicode-range: $tibetan;
+  font-family: "Noto Serif Tibetan";
+  src: url("fonts/NotoSerifTibetan-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifTibetan-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0F00-0FFF;
 }
 /*
-// ZanzabarSquare Serif regular
+// Zanzabar Square Serif regular
 @font-face {
 	@include font-face-static(Noto, Serif, ZanzabarSquare, Regular, Regular, normal, normal);
 	unicode-range: $zanzabar;
@@ -762,13 +804,14 @@
   font-display: swap;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
-/*
-// static sans UI fonts for Naskh Arabic
 @font-face {
-	@include font-face-static-ui(Noto, Sans, Naskh Arabic, Regular, Regular, normal, normal);
-	unicode-range: $arabic;
+  font-family: "Noto Sans Naskh Arabic UI";
+  src: url("/NotoSansNaskh ArabicUI-Regular-subset.woff2") format("woff2"), url("/NotoSansNaskh ArabicUI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
-*/
 @font-face {
   font-family: "Noto Sans Oriya UI";
   src: url("/NotoSansOriyaUI-Regular-subset.woff2") format("woff2"), url("/NotoSansOriyaUI-Regular-subset.woff") format("woff");
@@ -831,16 +874,16 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Noto Sans Adlam";
-  src: url("fonts/NotoSansAdlam-VF-subset.woff2") format("woff2"), url("fonts/NotoSansAdlam-VF-subset.woff") format("woff");
+  font-family: "Noto Sans Adlam Unjoined";
+  src: url("fonts/NotoSansAdlamUnjoined-VF-subset.woff2") format("woff2"), url("fonts/NotoSansAdlamUnjoined-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
   unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
-  font-family: "Noto Sans Adlam Unjoined";
-  src: url("fonts/NotoSansAdlamUnjoined-VF-subset.woff2") format("woff2"), url("fonts/NotoSansAdlamUnjoined-VF-subset.woff") format("woff");
+  font-family: "Noto Sans Adlam";
+  src: url("fonts/NotoSansAdlam-VF-subset.woff2") format("woff2"), url("fonts/NotoSansAdlam-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -879,12 +922,44 @@
   unicode-range: U+0980-09FF;
 }
 @font-face {
-  font-family: "Noto Sans CanadianAboriginal";
+  font-family: "Noto Sans Brahmi";
+  src: url("fonts/NotoSansBrahmi-VF-subset.woff2") format("woff2"), url("fonts/NotoSansBrahmi-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11000-1107F;
+}
+@font-face {
+  font-family: "Noto Sans Buginese";
+  src: url("fonts/NotoSansBuginese-VF-subset.woff2") format("woff2"), url("fonts/NotoSansBuginese-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1A00-1A1F;
+}
+@font-face {
+  font-family: "Noto Sans Buhid";
+  src: url("fonts/NotoSansBuhid-VF-subset.woff2") format("woff2"), url("fonts/NotoSansBuhid-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1740-175F;
+}
+@font-face {
+  font-family: "Noto Sans Canadian Aboriginal";
   src: url("fonts/NotoSansCanadianAboriginal-VF-subset.woff2") format("woff2"), url("fonts/NotoSansCanadianAboriginal-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
   unicode-range: U+1400-167F, U+18B0-18FF;
+}
+@font-face {
+  font-family: "Noto Sans Cham";
+  src: url("fonts/NotoSansCham-VF-subset.woff2") format("woff2"), url("fonts/NotoSansCham-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+AA00-AA5F;
 }
 @font-face {
   font-family: "Noto Sans Cherokee";
@@ -911,6 +986,22 @@
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
+  font-family: "Noto Sans Georgian";
+  src: url("fonts/NotoSansGeorgian-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGeorgian-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
+}
+@font-face {
+  font-family: "Noto Sans Grantha";
+  src: url("fonts/NotoSansGrantha-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGrantha-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11300-1137F;
+}
+@font-face {
   font-family: "Noto Sans LGC";
   src: url("fonts/NotoSansLGC-VF-subset.woff2") format("woff2"), url("fonts/NotoSansLGC-VF-subset.woff") format("woff");
   font-weight: normal;
@@ -918,13 +1009,14 @@
   font-display: swap;
   unicode-range: U+0370-03FF, U+1F00-1FFF;
 }
-/*
-// Variable sans fonts for Gujarati
 @font-face {
-	@include font-face-variable(Noto, Sans, Gujarati, VF, Regular, normal, normal);
-	unicode-range: $gujarati;
+  font-family: "Noto Sans Gujarati";
+  src: url("fonts/NotoSansGujarati-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGujarati-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A80-0AFF;
 }
-*/
 @font-face {
   font-family: "Noto Sans Gurmukhi";
   src: url("fonts/NotoSansGurmukhi-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGurmukhi-VF-subset.woff") format("woff");
@@ -965,13 +1057,22 @@
   font-display: swap;
   unicode-range: U+0E80-0EFF;
 }
-/*
-// Variable sans fonts for Limbu
 @font-face {
-	@include font-face-variable(Noto, Sans, Limbu, VF, Regular, normal, normal);
-	unicode-range: $limbu;
+  font-family: "Noto Sans Latin";
+  src: url("fonts/NotoSansLatin-VF-subset.woff2") format("woff2"), url("fonts/NotoSansLatin-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
 }
-*/
+@font-face {
+  font-family: "Noto Sans Limbu";
+  src: url("fonts/NotoSansLimbu-VF-subset.woff2") format("woff2"), url("fonts/NotoSansLimbu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1900-194F;
+}
 @font-face {
   font-family: "Noto Sans Lisu";
   src: url("fonts/NotoSansLisu-VF-subset.woff2") format("woff2"), url("fonts/NotoSansLisu-VF-subset.woff") format("woff");
@@ -988,6 +1089,12 @@
   font-display: swap;
   unicode-range: U+0D00-0D7F;
 }
+/*
+// Variable Sans fonts for Mongolian
+@font-face {
+	@include font-face-variable(Noto, Sans, Mongolian, VF, Regular, normal, normal);
+	unicode-range: $mongolian;
+}*/
 @font-face {
   font-family: "Noto Sans Myanmar";
   src: url("fonts/NotoSansMyanmar-VF-subset.woff2") format("woff2"), url("fonts/NotoSansMyanmar-VF-subset.woff") format("woff");
@@ -996,13 +1103,28 @@
   font-display: swap;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("fonts/NotoNaskhArabic-VF-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
 /*
 // Variable sans fonts for NKo
 @font-face {
 	@include font-face-variable(Noto, Sans, NKo, VF, Regular, normal, normal);
 	unicode-range: $nko;
+}*/
+@font-face {
+  font-family: "Noto Sans Nushu";
+  src: url("fonts/NotoSansNushu-VF-subset.woff2") format("woff2"), url("fonts/NotoSansNushu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1B170-1B2FF;
 }
-*/
 @font-face {
   font-family: "Noto Sans Oriya";
   src: url("fonts/NotoSansOriya-VF-subset.woff2") format("woff2"), url("fonts/NotoSansOriya-VF-subset.woff") format("woff");
@@ -1011,18 +1133,30 @@
   font-display: swap;
   unicode-range: U+0B00-0B7F;
 }
-/*
-// Variable sans fonts for Sinhala
 @font-face {
-	@include font-face-variable(Noto, Sans, Sinhala, VF, Regular, normal, normal);
-	unicode-range: $sinhala;
+  font-family: "Noto Sans Sinhala";
+  src: url("fonts/NotoSansSinhala-VF-subset.woff2") format("woff2"), url("fonts/NotoSansSinhala-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0D80-0DFF;
 }
-// Variable sans fonts for Tai Le
 @font-face {
-	@include font-face-variable(Noto, Sans, TaiLe, VF, Regular, normal, normal);
-	unicode-range: $tai-le;
+  font-family: "Noto Sans Tagalog";
+  src: url("fonts/NotoSansTagalog-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTagalog-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1700-171F;
 }
-*/
+@font-face {
+  font-family: "Noto Sans TaiLe";
+  src: url("fonts/NotoSansTaiLe-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTaiLe-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1950-197F;
+}
 @font-face {
   font-family: "Noto Sans TaiTham";
   src: url("fonts/NotoSansTaiTham-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTaiTham-VF-subset.woff") format("woff");
@@ -1031,28 +1165,13 @@
   font-display: swap;
   unicode-range: U+1A20-1AAF;
 }
-/*
-// Variable sans fonts for Tai Viet
 @font-face {
-	@include font-face-variable(Noto, Sans, TaiViet, VF, Regular, normal, normal);
-	unicode-range: $tai-viet;
-}
-*/
-@font-face {
-  font-family: "Noto Sans Tamil";
-  src: url("fonts/NotoSansTamil-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTamil-VF-subset.woff") format("woff");
+  font-family: "Noto Sans TaiViet";
+  src: url("fonts/NotoSansTaiViet-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTaiViet-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
-}
-@font-face {
-  font-family: "Noto Sans Telugu";
-  src: url("fonts/NotoSansTelugu-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTelugu-VF-subset.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0C00-0C7F;
+  unicode-range: U+AA80-AADF;
 }
 @font-face {
   font-family: "Noto Sans Thaana";
@@ -1070,18 +1189,60 @@
   font-display: swap;
   unicode-range: U+0E00-0E7F;
 }
+@font-face {
+  font-family: "Noto Sans Takri";
+  src: url("fonts/NotoSansTakri-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTakri-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11680-116CF;
+}
+@font-face {
+  font-family: "Noto Sans Telugu";
+  src: url("fonts/NotoSansTelugu-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTelugu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0C00-0C7F;
+}
+@font-face {
+  font-family: "Noto Sans Tamil";
+  src: url("fonts/NotoSansTamil-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTamil-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Sans Tamil Slanted";
+  src: url("fonts/NotoSansTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTamilSlanted-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
 /*
 // The variable sans font for Tibetan
 @font-face {
   @include font-face-variable(Noto, Sans, Tibetan, VF, Regular, normal, normal);
   unicode-range: $tibetan;
-}
-// Variable sans fonts for Zanzabar Square
+}*/
 @font-face {
-	@include font-face-variable(Noto, Sans, ZanzabarSquare, VF, Regular, normal, normal);
-	unicode-range: $zanzabar;
+  font-family: "Noto Sans Warang Citi VF";
+  src: url("fonts/NotoSansWarangCiti VF-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansWarangCiti VF-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: "normal";
+  font-display: swap;
+  unicode-range: U+118A0-118FF;
 }
-*/
+@font-face {
+  font-family: "Noto Sans Zanzabar Square";
+  src: url("fonts/NotoSansZanzabarSquare-VF-subset.woff2") format("woff2"), url("fonts/NotoSansZanzabarSquare-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+11A00-11A4F;
+}
 @font-face {
   font-family: "Noto Serif Latin";
   src: url("fonts/NotoSerifLatin-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLatin-VF-subset.woff") format("woff");
@@ -1097,17 +1258,18 @@
   font-display: swap;
 }
 /*
-// Variable Serif fonts for Adlam
-@font-face {
-	@include font-face-variable(Noto, Serif, Adlam, VF, Regular, normal, normal);
-	unicode-range: $adlam;
-}
-// Variable Serif fonts for Arabic
 //@font-face {
 	@include font-face-variable(Noto, Serif, Arabic, VF, Regular, normal, normal);
 	unicode-range: $arabic;
+}*/
+@font-face {
+  font-family: "Noto Serif Arabic";
+  src: url("fonts/NotoSerifArabic-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifArabic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
-*/
 @font-face {
   font-family: "Noto Serif Armenian";
   src: url("fonts/NotoSerifArmenian-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifArmenian-VF-subset.woff") format("woff");
@@ -1129,8 +1291,7 @@
 @font-face {
 	@include font-face-variable(Noto, Serif, Bamum, VF, Regular, normal, normal);
 	unicode-range: $bamum;
-}
-*/
+}*/
 @font-face {
   font-family: "Noto Serif Bengali";
   src: url("fonts/NotoSerifBengali-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifBengali-VF-subset.woff") format("woff");
@@ -1140,6 +1301,21 @@
   unicode-range: U+0980-09FF;
 }
 /*
+// Variable Serif fonts for Brahmi
+@font-face {
+	@include font-face-variable(Noto, Serif, Brahmi, VF, Regular, normal, normal);
+	unicode-range: $brahmi;
+}
+// Variable Serif fonts for Buginese
+@font-face {
+	@include font-face-variable(Noto, Serif, Buginese, VF, Regular, normal, normal);
+	unicode-range: $buginese;
+}
+// Variable Serif fonts for Buhid
+@font-face {
+	@include font-face-variable(Noto, Serif, Buhid, VF, Regular, normal, normal);
+	unicode-range: $buhid;
+}
 // Variable Serif fonts for Unified Canadian Aboriginal
 @font-face {
 	@include font-face-variable(Noto, Serif, Canadian Aboriginal, VF, Regular, normal, normal);
@@ -1150,12 +1326,19 @@
 	@include font-face-variable(Noto, Serif, Cherokee, VF, Regular, normal, normal);
 	unicode-range: $cherokee;
 }
-// Variable Serif fonts for Cyrillic
+// Variable Serif fonts for Cham
 @font-face {
-	@include font-face-variable(Noto, Serif, LGC, VF, Regular, normal, normal);
-	unicode-range: $cyrillic;
+	@include font-face-variable(Noto, Serif, Cham, VF, Regular, normal, normal);
+	unicode-range: $cham;
+}*/
+@font-face {
+  font-family: "Noto Serif LGC";
+  src: url("fonts/NotoSerifLGC-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLGC-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 }
-*/
 @font-face {
   font-family: "Noto Serif Devanagari";
   src: url("fonts/NotoSerifDevanagari-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifDevanagari-VF-subset.woff") format("woff");
@@ -1180,13 +1363,14 @@
   font-display: swap;
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
-/*
-// Variable Serif fonts for Greek
-//@font-face {
-	@include font-face-variable(Noto, Serif, LGC, VF, Regular, normal, normal);
-	unicode-range: $greek;
+@font-face {
+  font-family: "Noto Serif LGC";
+  src: url("fonts/NotoSerifLGC-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLGC-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0370-03FF, U+1F00-1FFF;
 }
-*/
 @font-face {
   font-family: "Noto Serif Gujarati";
   src: url("fonts/NotoSerifGujarati-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifGujarati-VF-subset.woff") format("woff");
@@ -1235,18 +1419,28 @@
   font-display: swap;
   unicode-range: U+0E80-0EFF;
 }
+@font-face {
+  font-family: "Noto Serif Latin";
+  src: url("fonts/NotoSerifLatin-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLatin-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-017F, U+0180-024F, U+0370-03FF, U+0259-03C0, U+1E00-1EFF, U+2000-FB02;
+}
 /*
 // Variable Serif fonts for Limbu
 @font-face {
 	@include font-face-variable(Noto, Serif, Limbu, VF, Regular, normal, normal);
 	unicode-range: $limbu;
-}
-// Variable Serif fonts for Lisu
+}*/
 @font-face {
-	@include font-face-variable(Noto, Serif, Lisu, VF, Regular, normal, normal);
-	unicode-range: $lisu;
+  font-family: "Noto Serif Lisu";
+  src: url("fonts/NotoSerifLisu-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifLisu-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+A4D0-A4FF;
 }
-*/
 @font-face {
   font-family: "Noto Serif Malayalam";
   src: url("fonts/NotoSerifMalayalam-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifMalayalam-VF-subset.woff") format("woff");
@@ -1255,6 +1449,12 @@
   font-display: swap;
   unicode-range: U+0D00-0D7F;
 }
+/*
+// Variable Serif fonts for Mongolian
+@font-face {
+	@include font-face-variable(Noto, Serif, Mongolian, VF, Regular, normal, normal);
+	unicode-range: $mongolian;
+}*/
 @font-face {
   font-family: "Noto Serif Myanmar";
   src: url("fonts/NotoSerifMyanmar-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifMyanmar-VF-subset.woff") format("woff");
@@ -1269,12 +1469,16 @@
 	@include font-face-variable(Noto, Serif, NKo, VF, Regular, normal, normal);
 	unicode-range: $nko;
 }
+// Variable Serif fonts for Nushu
+@font-face {
+	@include font-face-variable(Noto, Serif, Nushu, VF, Regular, normal, normal);
+	unicode-range: $nushu;
+}
 // Variable Serif fonts for Oriya
 @font-face {
 	@include font-face-variable(Noto, Serif, Oriya, VF, Regular, normal, normal);
 	unicode-range: $oriya;
-}
-*/
+}*/
 @font-face {
   font-family: "Noto Serif Sinhala";
   src: url("fonts/NotoSerifSinhala-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifSinhala-VF-subset.woff") format("woff");
@@ -1283,9 +1487,43 @@
   font-display: swap;
   unicode-range: U+0D80-0DFF;
 }
+/*
+// Variable Serif fonts for Tagalog
+@font-face {
+	@include font-face-variable(Noto, Serif, Tagalog, VF, Regular, normal, normal);
+	unicode-range: $tagalog;
+}
+// Variable Serif fonts for Tai Le
+@font-face {
+	@include font-face-variable(Noto, Serif, TaiLe, VF, Regular, normal, normal);
+	unicode-range: $tai-le;
+}
+// Variable Serif fonts for Tai Tham
+@font-face {
+	@include font-face-variable(Noto, Serif, TaiTham, VF, Regular, normal, normal);
+	unicode-range: $tai-tham;
+}
+// Variable Serif fonts for Tai Viet
+@font-face {
+	@include font-face-variable(Noto, Serif, TaiViet, VF, Regular, normal, normal);
+	unicode-range: $tai-viet;
+}
+// Variable serif fonts for Takri
+@font-face {
+	@include font-face-variable(Noto, Serif, Takri, VF, Regular, normal, normal);
+	unicode-range: $takri;
+}*/
 @font-face {
   font-family: "Noto Serif Tamil";
   src: url("fonts/NotoSerifTamil-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTamil-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Serif Tamil Slanted";
+  src: url("fonts/NotoSerifTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTamilSlanted-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1299,6 +1537,11 @@
   font-display: swap;
   unicode-range: U+0C00-0C7F;
 }
+/*// The variable serif font for Thaana
+@font-face {
+	@include font-face-variable(Noto, Serif, Thaana, VF, Regular, normal, normal);
+	unicode-range: $thaana;
+}*/
 @font-face {
   font-family: "Noto Serif Thai";
   src: url("fonts/NotoSerifThai-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifThai-VF-subset.woff") format("woff");
@@ -1315,6 +1558,18 @@
   font-display: swap;
   unicode-range: U+0F00-0FFF;
 }
+/*
+// The variable serif for Warang Citi
+@font-face {
+  @include font-face-variable(Noto, Serif, WarangCiti VF, Regular, normal, normal);
+  unicode-range: $warang-citi;
+}
+// Variable serif fonts for Zanzabar Square
+@font-face {
+	@include font-face-variable(Noto, Serif, ZanzabarSquare, VF, Regular, normal, normal);
+	unicode-range: $zanzabar;
+}
+*/
 @font-face {
   font-family: "Noto Sans Arabic UI";
   src: url("fonts/NotoSansArabicUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansArabicUI-VF-subset.woff") format("woff");
@@ -1340,12 +1595,20 @@
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
-  font-family: "Noto Sans Khmer UI";
-  src: url("fonts/NotoSansKhmerUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansKhmerUI-VF-subset.woff") format("woff");
+  font-family: "Noto Sans Gujarati UI";
+  src: url("fonts/NotoSansGujaratiUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGujaratiUI-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+1780-17FF, U+19E0-19FF;
+  unicode-range: U+0A80-0AFF;
+}
+@font-face {
+  font-family: "Noto Sans Gurmukhi UI";
+  src: url("fonts/NotoSansGurmukhiUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansGurmukhiUI-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0A00-0A7F;
 }
 @font-face {
   font-family: "Noto Sans Kannada UI";
@@ -1354,6 +1617,14 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+0C80-0CFF;
+}
+@font-face {
+  font-family: "Noto Sans Khmer UI";
+  src: url("fonts/NotoSansKhmerUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansKhmerUI-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
   font-family: "Noto Sans Lao UI";
@@ -1379,13 +1650,14 @@
   font-display: swap;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
-/*
-// Variable sans UI fonts for Naskh Arabic
 @font-face {
-	@include font-face-variable-ui(Noto, Sans, Naskh Arabic, VF, Regular, normal, normal);
-	unicode-range: $arabic;
+  font-family: "Noto Naskh Arabic UI";
+  src: url("fonts/NotoNaskhArabicUI-VF-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabicUI-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
-*/
 @font-face {
   font-family: "Noto Sans Oriya UI";
   src: url("fonts/NotoSansOriyaUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansOriyaUI-VF-subset.woff") format("woff");
@@ -1394,7 +1666,6 @@
   font-display: swap;
   unicode-range: U+0B00-0B7F;
 }
-/*
 @font-face {
   font-family: "Noto Sans Sinhala UI";
   src: url("fonts/NotoSansSinhalaUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansSinhalaUI-VF-subset.woff") format("woff");
@@ -1403,7 +1674,6 @@
   font-display: swap;
   unicode-range: U+0D80-0DFF;
 }
-*/
 @font-face {
   font-family: "Noto Sans Tamil UI";
   src: url("fonts/NotoSansTamilUI-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTamilUI-VF-subset.woff") format("woff");
@@ -1454,7 +1724,7 @@ html .lf-latin-mono {
   font-family: "Noto Sans Latin", "Noto Sans LGC", sans-serif;
 }
 *:lang(ro) .lf-serif, *:lang(sr) .lf-serif, *:lang(gag) .lf-serif, *:lang(bs) .lf-serif, *:lang(rom) .lf-serif, *:lang(se) .lf-serif, *:lang(tkr) .lf-serif, *:lang(udm) .lf-serif {
-  font-family: "Noto Serif Latin", "Noto Serif", serif;
+  font-family: "Noto Serif Latin", "Noto Serif LGC", serif;
 }
 
 *:lang(Cyrl), *:lang(ro-Cyrl), *:lang(sr-Cyrl), *:lang(gag-Cyrl), *:lang(bs-Cyrl), *:lang(rom-Cyrl), *:lang(se-Cyrl), *:lang(tkr-Cyrl), *:lang(udm-Cyrl) {
@@ -1465,7 +1735,7 @@ html .lf-latin-mono {
   font-family: "Noto Sans Latin", "Noto Sans LGC", sans-serif;
 }
 *:lang(Cyrl) .lf-serif, *:lang(ro-Cyrl) .lf-serif, *:lang(sr-Cyrl) .lf-serif, *:lang(gag-Cyrl) .lf-serif, *:lang(bs-Cyrl) .lf-serif, *:lang(rom-Cyrl) .lf-serif, *:lang(se-Cyrl) .lf-serif, *:lang(tkr-Cyrl) .lf-serif, *:lang(udm-Cyrl) .lf-serif {
-  font-family: "Noto Serif Latin", "Noto Serif", serif;
+  font-family: "Noto Serif Latin", "Noto Serif LGC", serif;
 }
 
 *:lang(Latn), *:lang(ro-Latn), *:lang(sr-Latn), *:lang(gag-Latn), *:lang(bs-Latn), *:lang(rom-Latn), *:lang(se-Latn), *:lang(tkr-Latn), *:lang(udm-Latn) {
@@ -1597,7 +1867,7 @@ html .lf-latin-mono {
 }
 
 .lf-serif:lang(bax) {
-  font-family: "Noto Serif Latin", "Noto Serif Bamum", serif;
+  font-family: "Noto Serif Latin", "", serif;
 }
 
 *:lang(bn),
@@ -1663,7 +1933,7 @@ html .lf-latin-mono {
 
 *:lang(chr),
 .lf-sans:lang(chr) {
-  font-family: "Noto Sans Latin", "", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Cherokee", sans-serif;
   direction: ltr;
 }
 
@@ -1742,7 +2012,7 @@ html .lf-latin-mono {
 }
 
 .lf-serif:lang(Cyrl) {
-  font-family: "Noto Serif Latin", "Noto Serif", serif;
+  font-family: "Noto Serif Latin", "Noto Serif LGC", serif;
   direction: ltr;
 }
 
@@ -1764,7 +2034,7 @@ html .lf-latin-mono {
 
 *:lang(ka),
 .lf-sans:lang(ka) {
-  font-family: "Noto Sans Latin", "", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Georgian", sans-serif;
   direction: ltr;
 }
 
@@ -3065,891 +3335,6 @@ html .lf-latin-mono {
 .lf-sans:lang(zza) em * {
   font-family: "Noto Sans Latin Italic", sans-serif;
 }
-*:lang(Latn) pre,
-*:lang(Latn) code, *:lang(ay) pre,
-*:lang(ay) code, *:lang(bi) pre,
-*:lang(bi) code, *:lang(ca) pre,
-*:lang(ca) code, *:lang(ch) pre,
-*:lang(ch) code, *:lang(cs) pre,
-*:lang(cs) code, *:lang(da) pre,
-*:lang(da) code, *:lang(de) pre,
-*:lang(de) code, *:lang(en) pre,
-*:lang(en) code, *:lang(eo) pre,
-*:lang(eo) code, *:lang(es) pre,
-*:lang(es) code, *:lang(et) pre,
-*:lang(et) code, *:lang(fi) pre,
-*:lang(fi) code, *:lang(fil) pre,
-*:lang(fil) code, *:lang(fj) pre,
-*:lang(fj) code, *:lang(fo) pre,
-*:lang(fo) code, *:lang(fr) pre,
-*:lang(fr) code, *:lang(ga) pre,
-*:lang(ga) code, *:lang(gil) pre,
-*:lang(gil) code, *:lang(gn) pre,
-*:lang(gn) code, *:lang(gsw) pre,
-*:lang(gsw) code, *:lang(gv) pre,
-*:lang(gv) code, *:lang(ho) pre,
-*:lang(ho) code, *:lang(hr) pre,
-*:lang(hr) code, *:lang(ht) pre,
-*:lang(ht) code, *:lang(hu) pre,
-*:lang(hu) code, *:lang(in) pre,
-*:lang(in) code, *:lang(is) pre,
-*:lang(is) code, *:lang(it) pre,
-*:lang(it) code, *:lang(kl) pre,
-*:lang(kl) code, *:lang(lb) pre,
-*:lang(lb) code, *:lang(lt) pre,
-*:lang(lt) code, *:lang(lv) pre,
-*:lang(lv) code, *:lang(mg) pre,
-*:lang(mg) code, *:lang(mh) pre,
-*:lang(mh) code, *:lang(mi) pre,
-*:lang(mi) code, *:lang(mt) pre,
-*:lang(mt) code, *:lang(na) pre,
-*:lang(na) code, *:lang(nb) pre,
-*:lang(nb) code, *:lang(nd) pre,
-*:lang(nd) code, *:lang(niu) pre,
-*:lang(niu) code, *:lang(nl) pre,
-*:lang(nl) code, *:lang(nn) pre,
-*:lang(nn) code, *:lang(no) pre,
-*:lang(no) code, *:lang(ny) pre,
-*:lang(ny) code, *:lang(pap) pre,
-*:lang(pap) code, *:lang(pau) pre,
-*:lang(pau) code, *:lang(pl) pre,
-*:lang(pl) code, *:lang(pt) pre,
-*:lang(pt) code, *:lang(qu) pre,
-*:lang(qu) code, *:lang(rn) pre,
-*:lang(rn) code, *:lang(rw) pre,
-*:lang(rw) code, *:lang(sg) pre,
-*:lang(sg) code, *:lang(sk) pre,
-*:lang(sk) code, *:lang(sl) pre,
-*:lang(sl) code, *:lang(sm) pre,
-*:lang(sm) code, *:lang(sn) pre,
-*:lang(sn) code, *:lang(sq) pre,
-*:lang(sq) code, *:lang(ss) pre,
-*:lang(ss) code, *:lang(st) pre,
-*:lang(st) code, *:lang(sv) pre,
-*:lang(sv) code, *:lang(sw) pre,
-*:lang(sw) code, *:lang(tet) pre,
-*:lang(tet) code, *:lang(tkl) pre,
-*:lang(tkl) code, *:lang(tl) pre,
-*:lang(tl) code, *:lang(tn) pre,
-*:lang(tn) code, *:lang(to) pre,
-*:lang(to) code, *:lang(tpi) pre,
-*:lang(tpi) code, *:lang(tr) pre,
-*:lang(tr) code, *:lang(tvl) pre,
-*:lang(tvl) code, *:lang(ty) pre,
-*:lang(ty) code, *:lang(yo) pre,
-*:lang(yo) code, *:lang(aa) pre,
-*:lang(aa) code, *:lang(abr) pre,
-*:lang(abr) code, *:lang(ace) pre,
-*:lang(ace) code, *:lang(ach) pre,
-*:lang(ach) code, *:lang(ada) pre,
-*:lang(ada) code, *:lang(af) pre,
-*:lang(af) code, *:lang(agq) pre,
-*:lang(agq) code, *:lang(ak) pre,
-*:lang(ak) code, *:lang(akz) pre,
-*:lang(akz) code, *:lang(ale) pre,
-*:lang(ale) code, *:lang(aln) pre,
-*:lang(aln) code, *:lang(amo) pre,
-*:lang(amo) code, *:lang(an) pre,
-*:lang(an) code, *:lang(aoz) pre,
-*:lang(aoz) code, *:lang(arn) pre,
-*:lang(arn) code, *:lang(aro) pre,
-*:lang(aro) code, *:lang(arp) pre,
-*:lang(arp) code, *:lang(arw) pre,
-*:lang(arw) code, *:lang(asa) pre,
-*:lang(asa) code, *:lang(ast) pre,
-*:lang(ast) code, *:lang(atj) pre,
-*:lang(atj) code, *:lang(bar) pre,
-*:lang(bar) code, *:lang(bas) pre,
-*:lang(bas) code, *:lang(bbj) pre,
-*:lang(bbj) code, *:lang(bci) pre,
-*:lang(bci) code, *:lang(bem) pre,
-*:lang(bem) code, *:lang(bew) pre,
-*:lang(bew) code, *:lang(bez) pre,
-*:lang(bez) code, *:lang(bfd) pre,
-*:lang(bfd) code, *:lang(bik) pre,
-*:lang(bik) code, *:lang(bin) pre,
-*:lang(bin) code, *:lang(bjn) pre,
-*:lang(bjn) code, *:lang(bkm) pre,
-*:lang(bkm) code, *:lang(bku) pre,
-*:lang(bku) code, *:lang(bla) pre,
-*:lang(bla) code, *:lang(bmq) pre,
-*:lang(bmq) code, *:lang(bqv) pre,
-*:lang(bqv) code, *:lang(br) pre,
-*:lang(br) code, *:lang(bss) pre,
-*:lang(bss) code, *:lang(bto) pre,
-*:lang(bto) code, *:lang(buc) pre,
-*:lang(buc) code, *:lang(bug) pre,
-*:lang(bug) code, *:lang(bum) pre,
-*:lang(bum) code, *:lang(bvb) pre,
-*:lang(bvb) code, *:lang(byv) pre,
-*:lang(byv) code, *:lang(bze) pre,
-*:lang(bze) code, *:lang(bzx) pre,
-*:lang(bzx) code, *:lang(cad) pre,
-*:lang(cad) code, *:lang(car) pre,
-*:lang(car) code, *:lang(cay) pre,
-*:lang(cay) code, *:lang(cch) pre,
-*:lang(cch) code, *:lang(ceb) pre,
-*:lang(ceb) code, *:lang(cgg) pre,
-*:lang(cgg) code, *:lang(chk) pre,
-*:lang(chk) code, *:lang(chn) pre,
-*:lang(chn) code, *:lang(cho) pre,
-*:lang(cho) code, *:lang(chy) pre,
-*:lang(chy) code, *:lang(cic) pre,
-*:lang(cic) code, *:lang(co) pre,
-*:lang(co) code, *:lang(cps) pre,
-*:lang(cps) code, *:lang(crj) pre,
-*:lang(crj) code, *:lang(crl) pre,
-*:lang(crl) code, *:lang(crs) pre,
-*:lang(crs) code, *:lang(csb) pre,
-*:lang(csb) code, *:lang(ctd) pre,
-*:lang(ctd) code, *:lang(cy) pre,
-*:lang(cy) code, *:lang(dak) pre,
-*:lang(dak) code, *:lang(dav) pre,
-*:lang(dav) code, *:lang(del) pre,
-*:lang(del) code, *:lang(dgr) pre,
-*:lang(dgr) code, *:lang(din) pre,
-*:lang(din) code, *:lang(dje) pre,
-*:lang(dje) code, *:lang(dnj) pre,
-*:lang(dnj) code, *:lang(dsb) pre,
-*:lang(dsb) code, *:lang(dtm) pre,
-*:lang(dtm) code, *:lang(dtp) pre,
-*:lang(dtp) code, *:lang(dua) pre,
-*:lang(dua) code, *:lang(dyu) pre,
-*:lang(dyu) code, *:lang(ebu) pre,
-*:lang(ebu) code, *:lang(ee) pre,
-*:lang(ee) code, *:lang(efi) pre,
-*:lang(efi) code, *:lang(egl) pre,
-*:lang(egl) code, *:lang(eka) pre,
-*:lang(eka) code, *:lang(esu) pre,
-*:lang(esu) code, *:lang(eu) pre,
-*:lang(eu) code, *:lang(ewo) pre,
-*:lang(ewo) code, *:lang(ext) pre,
-*:lang(ext) code, *:lang(fan) pre,
-*:lang(fan) code, *:lang(ffm) pre,
-*:lang(ffm) code, *:lang(fit) pre,
-*:lang(fit) code, *:lang(fon) pre,
-*:lang(fon) code, *:lang(frc) pre,
-*:lang(frc) code, *:lang(frp) pre,
-*:lang(frp) code, *:lang(frr) pre,
-*:lang(frr) code, *:lang(frs) pre,
-*:lang(frs) code, *:lang(fud) pre,
-*:lang(fud) code, *:lang(fuq) pre,
-*:lang(fuq) code, *:lang(fur) pre,
-*:lang(fur) code, *:lang(fuv) pre,
-*:lang(fuv) code, *:lang(fvr) pre,
-*:lang(fvr) code, *:lang(fy) pre,
-*:lang(fy) code, *:lang(gaa) pre,
-*:lang(gaa) code, *:lang(gay) pre,
-*:lang(gay) code, *:lang(gba) pre,
-*:lang(gba) code, *:lang(gcr) pre,
-*:lang(gcr) code, *:lang(gd) pre,
-*:lang(gd) code, *:lang(gl) pre,
-*:lang(gl) code, *:lang(gor) pre,
-*:lang(gor) code, *:lang(gos) pre,
-*:lang(gos) code, *:lang(grb) pre,
-*:lang(grb) code, *:lang(gub) pre,
-*:lang(gub) code, *:lang(guc) pre,
-*:lang(guc) code, *:lang(gur) pre,
-*:lang(gur) code, *:lang(guz) pre,
-*:lang(guz) code, *:lang(gwi) pre,
-*:lang(gwi) code, *:lang(hai) pre,
-*:lang(hai) code, *:lang(haw) pre,
-*:lang(haw) code, *:lang(hil) pre,
-*:lang(hil) code, *:lang(hmn) pre,
-*:lang(hmn) code, *:lang(hnn) pre,
-*:lang(hnn) code, *:lang(hop) pre,
-*:lang(hop) code, *:lang(hsb) pre,
-*:lang(hsb) code, *:lang(hup) pre,
-*:lang(hup) code, *:lang(hz) pre,
-*:lang(hz) code, *:lang(iba) pre,
-*:lang(iba) code, *:lang(ibb) pre,
-*:lang(ibb) code, *:lang(ife) pre,
-*:lang(ife) code, *:lang(ig) pre,
-*:lang(ig) code, *:lang(ik) pre,
-*:lang(ik) code, *:lang(ikt) pre,
-*:lang(ikt) code, *:lang(ilo) pre,
-*:lang(ilo) code, *:lang(izh) pre,
-*:lang(izh) code, *:lang(jam) pre,
-*:lang(jam) code, *:lang(jgo) pre,
-*:lang(jgo) code, *:lang(jmc) pre,
-*:lang(jmc) code, *:lang(kab) pre,
-*:lang(kab) code, *:lang(kac) pre,
-*:lang(kac) code, *:lang(kaj) pre,
-*:lang(kaj) code, *:lang(kam) pre,
-*:lang(kam) code, *:lang(kao) pre,
-*:lang(kao) code, *:lang(kcg) pre,
-*:lang(kcg) code, *:lang(kck) pre,
-*:lang(kck) code, *:lang(kde) pre,
-*:lang(kde) code, *:lang(kea) pre,
-*:lang(kea) code, *:lang(kfo) pre,
-*:lang(kfo) code, *:lang(kg) pre,
-*:lang(kg) code, *:lang(kge) pre,
-*:lang(kge) code, *:lang(kgp) pre,
-*:lang(kgp) code, *:lang(khq) pre,
-*:lang(khq) code, *:lang(ki) pre,
-*:lang(ki) code, *:lang(kiu) pre,
-*:lang(kiu) code, *:lang(kj) pre,
-*:lang(kj) code, *:lang(kkj) pre,
-*:lang(kkj) code, *:lang(kln) pre,
-*:lang(kln) code, *:lang(kmb) pre,
-*:lang(kmb) code, *:lang(kos) pre,
-*:lang(kos) code, *:lang(kpe) pre,
-*:lang(kpe) code, *:lang(kr) pre,
-*:lang(kr) code, *:lang(kri) pre,
-*:lang(kri) code, *:lang(krj) pre,
-*:lang(krj) code, *:lang(krl) pre,
-*:lang(krl) code, *:lang(ksb) pre,
-*:lang(ksb) code, *:lang(ksf) pre,
-*:lang(ksf) code, *:lang(ksh) pre,
-*:lang(ksh) code, *:lang(kut) pre,
-*:lang(kut) code, *:lang(kvr) pre,
-*:lang(kvr) code, *:lang(kw) pre,
-*:lang(kw) code, *:lang(lag) pre,
-*:lang(lag) code, *:lang(laj) pre,
-*:lang(laj) code, *:lang(lam) pre,
-*:lang(lam) code, *:lang(lbw) pre,
-*:lang(lbw) code, *:lang(li) pre,
-*:lang(li) code, *:lang(lij) pre,
-*:lang(lij) code, *:lang(liv) pre,
-*:lang(liv) code, *:lang(lkt) pre,
-*:lang(lkt) code, *:lang(lmo) pre,
-*:lang(lmo) code, *:lang(mad) pre,
-*:lang(mad) code, *:lang(rtm) pre,
-*:lang(rtm) code, *:lang(tiv) pre,
-*:lang(tiv) code, *:lang(tmh) pre,
-*:lang(tmh) code, *:lang(tog) pre,
-*:lang(tog) code, *:lang(trv) pre,
-*:lang(trv) code, *:lang(ts) pre,
-*:lang(ts) code, *:lang(tsg) pre,
-*:lang(tsg) code, *:lang(tsi) pre,
-*:lang(tsi) code, *:lang(ttj) pre,
-*:lang(ttj) code, *:lang(tum) pre,
-*:lang(tum) code, *:lang(twq) pre,
-*:lang(twq) code, *:lang(uli) pre,
-*:lang(uli) code, *:lang(umb) pre,
-*:lang(umb) code, *:lang(ve) pre,
-*:lang(ve) code, *:lang(vec) pre,
-*:lang(vec) code, *:lang(vep) pre,
-*:lang(vep) code, *:lang(vic) pre,
-*:lang(vic) code, *:lang(vls) pre,
-*:lang(vls) code, *:lang(vmf) pre,
-*:lang(vmf) code, *:lang(vmw) pre,
-*:lang(vmw) code, *:lang(vot) pre,
-*:lang(vot) code, *:lang(vro) pre,
-*:lang(vro) code, *:lang(vun) pre,
-*:lang(vun) code, *:lang(wa) pre,
-*:lang(wa) code, *:lang(wae) pre,
-*:lang(wae) code, *:lang(war) pre,
-*:lang(war) code, *:lang(was) pre,
-*:lang(was) code, *:lang(wbp) pre,
-*:lang(wbp) code, *:lang(wls) pre,
-*:lang(wls) code, *:lang(xav) pre,
-*:lang(xav) code, *:lang(xh) pre,
-*:lang(xh) code, *:lang(xog) pre,
-*:lang(xog) code, *:lang(yao) pre,
-*:lang(yao) code, *:lang(yap) pre,
-*:lang(yap) code, *:lang(yav) pre,
-*:lang(yav) code, *:lang(ybb) pre,
-*:lang(ybb) code, *:lang(yrl) pre,
-*:lang(yrl) code, *:lang(yua) pre,
-*:lang(yua) code, *:lang(zag) pre,
-*:lang(zag) code, *:lang(zap) pre,
-*:lang(zap) code, *:lang(zea) pre,
-*:lang(zea) code, *:lang(zmi) pre,
-*:lang(zmi) code, *:lang(zu) pre,
-*:lang(zu) code, *:lang(zun) pre,
-*:lang(zun) code, *:lang(zza) pre,
-*:lang(zza) code,
-.lf-sans:lang(Latn) pre,
-.lf-sans:lang(Latn) code,
-.lf-sans:lang(ay) pre,
-.lf-sans:lang(ay) code,
-.lf-sans:lang(bi) pre,
-.lf-sans:lang(bi) code,
-.lf-sans:lang(ca) pre,
-.lf-sans:lang(ca) code,
-.lf-sans:lang(ch) pre,
-.lf-sans:lang(ch) code,
-.lf-sans:lang(cs) pre,
-.lf-sans:lang(cs) code,
-.lf-sans:lang(da) pre,
-.lf-sans:lang(da) code,
-.lf-sans:lang(de) pre,
-.lf-sans:lang(de) code,
-.lf-sans:lang(en) pre,
-.lf-sans:lang(en) code,
-.lf-sans:lang(eo) pre,
-.lf-sans:lang(eo) code,
-.lf-sans:lang(es) pre,
-.lf-sans:lang(es) code,
-.lf-sans:lang(et) pre,
-.lf-sans:lang(et) code,
-.lf-sans:lang(fi) pre,
-.lf-sans:lang(fi) code,
-.lf-sans:lang(fil) pre,
-.lf-sans:lang(fil) code,
-.lf-sans:lang(fj) pre,
-.lf-sans:lang(fj) code,
-.lf-sans:lang(fo) pre,
-.lf-sans:lang(fo) code,
-.lf-sans:lang(fr) pre,
-.lf-sans:lang(fr) code,
-.lf-sans:lang(ga) pre,
-.lf-sans:lang(ga) code,
-.lf-sans:lang(gil) pre,
-.lf-sans:lang(gil) code,
-.lf-sans:lang(gn) pre,
-.lf-sans:lang(gn) code,
-.lf-sans:lang(gsw) pre,
-.lf-sans:lang(gsw) code,
-.lf-sans:lang(gv) pre,
-.lf-sans:lang(gv) code,
-.lf-sans:lang(ho) pre,
-.lf-sans:lang(ho) code,
-.lf-sans:lang(hr) pre,
-.lf-sans:lang(hr) code,
-.lf-sans:lang(ht) pre,
-.lf-sans:lang(ht) code,
-.lf-sans:lang(hu) pre,
-.lf-sans:lang(hu) code,
-.lf-sans:lang(in) pre,
-.lf-sans:lang(in) code,
-.lf-sans:lang(is) pre,
-.lf-sans:lang(is) code,
-.lf-sans:lang(it) pre,
-.lf-sans:lang(it) code,
-.lf-sans:lang(kl) pre,
-.lf-sans:lang(kl) code,
-.lf-sans:lang(lb) pre,
-.lf-sans:lang(lb) code,
-.lf-sans:lang(lt) pre,
-.lf-sans:lang(lt) code,
-.lf-sans:lang(lv) pre,
-.lf-sans:lang(lv) code,
-.lf-sans:lang(mg) pre,
-.lf-sans:lang(mg) code,
-.lf-sans:lang(mh) pre,
-.lf-sans:lang(mh) code,
-.lf-sans:lang(mi) pre,
-.lf-sans:lang(mi) code,
-.lf-sans:lang(mt) pre,
-.lf-sans:lang(mt) code,
-.lf-sans:lang(na) pre,
-.lf-sans:lang(na) code,
-.lf-sans:lang(nb) pre,
-.lf-sans:lang(nb) code,
-.lf-sans:lang(nd) pre,
-.lf-sans:lang(nd) code,
-.lf-sans:lang(niu) pre,
-.lf-sans:lang(niu) code,
-.lf-sans:lang(nl) pre,
-.lf-sans:lang(nl) code,
-.lf-sans:lang(nn) pre,
-.lf-sans:lang(nn) code,
-.lf-sans:lang(no) pre,
-.lf-sans:lang(no) code,
-.lf-sans:lang(ny) pre,
-.lf-sans:lang(ny) code,
-.lf-sans:lang(pap) pre,
-.lf-sans:lang(pap) code,
-.lf-sans:lang(pau) pre,
-.lf-sans:lang(pau) code,
-.lf-sans:lang(pl) pre,
-.lf-sans:lang(pl) code,
-.lf-sans:lang(pt) pre,
-.lf-sans:lang(pt) code,
-.lf-sans:lang(qu) pre,
-.lf-sans:lang(qu) code,
-.lf-sans:lang(rn) pre,
-.lf-sans:lang(rn) code,
-.lf-sans:lang(rw) pre,
-.lf-sans:lang(rw) code,
-.lf-sans:lang(sg) pre,
-.lf-sans:lang(sg) code,
-.lf-sans:lang(sk) pre,
-.lf-sans:lang(sk) code,
-.lf-sans:lang(sl) pre,
-.lf-sans:lang(sl) code,
-.lf-sans:lang(sm) pre,
-.lf-sans:lang(sm) code,
-.lf-sans:lang(sn) pre,
-.lf-sans:lang(sn) code,
-.lf-sans:lang(sq) pre,
-.lf-sans:lang(sq) code,
-.lf-sans:lang(ss) pre,
-.lf-sans:lang(ss) code,
-.lf-sans:lang(st) pre,
-.lf-sans:lang(st) code,
-.lf-sans:lang(sv) pre,
-.lf-sans:lang(sv) code,
-.lf-sans:lang(sw) pre,
-.lf-sans:lang(sw) code,
-.lf-sans:lang(tet) pre,
-.lf-sans:lang(tet) code,
-.lf-sans:lang(tkl) pre,
-.lf-sans:lang(tkl) code,
-.lf-sans:lang(tl) pre,
-.lf-sans:lang(tl) code,
-.lf-sans:lang(tn) pre,
-.lf-sans:lang(tn) code,
-.lf-sans:lang(to) pre,
-.lf-sans:lang(to) code,
-.lf-sans:lang(tpi) pre,
-.lf-sans:lang(tpi) code,
-.lf-sans:lang(tr) pre,
-.lf-sans:lang(tr) code,
-.lf-sans:lang(tvl) pre,
-.lf-sans:lang(tvl) code,
-.lf-sans:lang(ty) pre,
-.lf-sans:lang(ty) code,
-.lf-sans:lang(yo) pre,
-.lf-sans:lang(yo) code,
-.lf-sans:lang(aa) pre,
-.lf-sans:lang(aa) code,
-.lf-sans:lang(abr) pre,
-.lf-sans:lang(abr) code,
-.lf-sans:lang(ace) pre,
-.lf-sans:lang(ace) code,
-.lf-sans:lang(ach) pre,
-.lf-sans:lang(ach) code,
-.lf-sans:lang(ada) pre,
-.lf-sans:lang(ada) code,
-.lf-sans:lang(af) pre,
-.lf-sans:lang(af) code,
-.lf-sans:lang(agq) pre,
-.lf-sans:lang(agq) code,
-.lf-sans:lang(ak) pre,
-.lf-sans:lang(ak) code,
-.lf-sans:lang(akz) pre,
-.lf-sans:lang(akz) code,
-.lf-sans:lang(ale) pre,
-.lf-sans:lang(ale) code,
-.lf-sans:lang(aln) pre,
-.lf-sans:lang(aln) code,
-.lf-sans:lang(amo) pre,
-.lf-sans:lang(amo) code,
-.lf-sans:lang(an) pre,
-.lf-sans:lang(an) code,
-.lf-sans:lang(aoz) pre,
-.lf-sans:lang(aoz) code,
-.lf-sans:lang(arn) pre,
-.lf-sans:lang(arn) code,
-.lf-sans:lang(aro) pre,
-.lf-sans:lang(aro) code,
-.lf-sans:lang(arp) pre,
-.lf-sans:lang(arp) code,
-.lf-sans:lang(arw) pre,
-.lf-sans:lang(arw) code,
-.lf-sans:lang(asa) pre,
-.lf-sans:lang(asa) code,
-.lf-sans:lang(ast) pre,
-.lf-sans:lang(ast) code,
-.lf-sans:lang(atj) pre,
-.lf-sans:lang(atj) code,
-.lf-sans:lang(bar) pre,
-.lf-sans:lang(bar) code,
-.lf-sans:lang(bas) pre,
-.lf-sans:lang(bas) code,
-.lf-sans:lang(bbj) pre,
-.lf-sans:lang(bbj) code,
-.lf-sans:lang(bci) pre,
-.lf-sans:lang(bci) code,
-.lf-sans:lang(bem) pre,
-.lf-sans:lang(bem) code,
-.lf-sans:lang(bew) pre,
-.lf-sans:lang(bew) code,
-.lf-sans:lang(bez) pre,
-.lf-sans:lang(bez) code,
-.lf-sans:lang(bfd) pre,
-.lf-sans:lang(bfd) code,
-.lf-sans:lang(bik) pre,
-.lf-sans:lang(bik) code,
-.lf-sans:lang(bin) pre,
-.lf-sans:lang(bin) code,
-.lf-sans:lang(bjn) pre,
-.lf-sans:lang(bjn) code,
-.lf-sans:lang(bkm) pre,
-.lf-sans:lang(bkm) code,
-.lf-sans:lang(bku) pre,
-.lf-sans:lang(bku) code,
-.lf-sans:lang(bla) pre,
-.lf-sans:lang(bla) code,
-.lf-sans:lang(bmq) pre,
-.lf-sans:lang(bmq) code,
-.lf-sans:lang(bqv) pre,
-.lf-sans:lang(bqv) code,
-.lf-sans:lang(br) pre,
-.lf-sans:lang(br) code,
-.lf-sans:lang(bss) pre,
-.lf-sans:lang(bss) code,
-.lf-sans:lang(bto) pre,
-.lf-sans:lang(bto) code,
-.lf-sans:lang(buc) pre,
-.lf-sans:lang(buc) code,
-.lf-sans:lang(bug) pre,
-.lf-sans:lang(bug) code,
-.lf-sans:lang(bum) pre,
-.lf-sans:lang(bum) code,
-.lf-sans:lang(bvb) pre,
-.lf-sans:lang(bvb) code,
-.lf-sans:lang(byv) pre,
-.lf-sans:lang(byv) code,
-.lf-sans:lang(bze) pre,
-.lf-sans:lang(bze) code,
-.lf-sans:lang(bzx) pre,
-.lf-sans:lang(bzx) code,
-.lf-sans:lang(cad) pre,
-.lf-sans:lang(cad) code,
-.lf-sans:lang(car) pre,
-.lf-sans:lang(car) code,
-.lf-sans:lang(cay) pre,
-.lf-sans:lang(cay) code,
-.lf-sans:lang(cch) pre,
-.lf-sans:lang(cch) code,
-.lf-sans:lang(ceb) pre,
-.lf-sans:lang(ceb) code,
-.lf-sans:lang(cgg) pre,
-.lf-sans:lang(cgg) code,
-.lf-sans:lang(chk) pre,
-.lf-sans:lang(chk) code,
-.lf-sans:lang(chn) pre,
-.lf-sans:lang(chn) code,
-.lf-sans:lang(cho) pre,
-.lf-sans:lang(cho) code,
-.lf-sans:lang(chy) pre,
-.lf-sans:lang(chy) code,
-.lf-sans:lang(cic) pre,
-.lf-sans:lang(cic) code,
-.lf-sans:lang(co) pre,
-.lf-sans:lang(co) code,
-.lf-sans:lang(cps) pre,
-.lf-sans:lang(cps) code,
-.lf-sans:lang(crj) pre,
-.lf-sans:lang(crj) code,
-.lf-sans:lang(crl) pre,
-.lf-sans:lang(crl) code,
-.lf-sans:lang(crs) pre,
-.lf-sans:lang(crs) code,
-.lf-sans:lang(csb) pre,
-.lf-sans:lang(csb) code,
-.lf-sans:lang(ctd) pre,
-.lf-sans:lang(ctd) code,
-.lf-sans:lang(cy) pre,
-.lf-sans:lang(cy) code,
-.lf-sans:lang(dak) pre,
-.lf-sans:lang(dak) code,
-.lf-sans:lang(dav) pre,
-.lf-sans:lang(dav) code,
-.lf-sans:lang(del) pre,
-.lf-sans:lang(del) code,
-.lf-sans:lang(dgr) pre,
-.lf-sans:lang(dgr) code,
-.lf-sans:lang(din) pre,
-.lf-sans:lang(din) code,
-.lf-sans:lang(dje) pre,
-.lf-sans:lang(dje) code,
-.lf-sans:lang(dnj) pre,
-.lf-sans:lang(dnj) code,
-.lf-sans:lang(dsb) pre,
-.lf-sans:lang(dsb) code,
-.lf-sans:lang(dtm) pre,
-.lf-sans:lang(dtm) code,
-.lf-sans:lang(dtp) pre,
-.lf-sans:lang(dtp) code,
-.lf-sans:lang(dua) pre,
-.lf-sans:lang(dua) code,
-.lf-sans:lang(dyu) pre,
-.lf-sans:lang(dyu) code,
-.lf-sans:lang(ebu) pre,
-.lf-sans:lang(ebu) code,
-.lf-sans:lang(ee) pre,
-.lf-sans:lang(ee) code,
-.lf-sans:lang(efi) pre,
-.lf-sans:lang(efi) code,
-.lf-sans:lang(egl) pre,
-.lf-sans:lang(egl) code,
-.lf-sans:lang(eka) pre,
-.lf-sans:lang(eka) code,
-.lf-sans:lang(esu) pre,
-.lf-sans:lang(esu) code,
-.lf-sans:lang(eu) pre,
-.lf-sans:lang(eu) code,
-.lf-sans:lang(ewo) pre,
-.lf-sans:lang(ewo) code,
-.lf-sans:lang(ext) pre,
-.lf-sans:lang(ext) code,
-.lf-sans:lang(fan) pre,
-.lf-sans:lang(fan) code,
-.lf-sans:lang(ffm) pre,
-.lf-sans:lang(ffm) code,
-.lf-sans:lang(fit) pre,
-.lf-sans:lang(fit) code,
-.lf-sans:lang(fon) pre,
-.lf-sans:lang(fon) code,
-.lf-sans:lang(frc) pre,
-.lf-sans:lang(frc) code,
-.lf-sans:lang(frp) pre,
-.lf-sans:lang(frp) code,
-.lf-sans:lang(frr) pre,
-.lf-sans:lang(frr) code,
-.lf-sans:lang(frs) pre,
-.lf-sans:lang(frs) code,
-.lf-sans:lang(fud) pre,
-.lf-sans:lang(fud) code,
-.lf-sans:lang(fuq) pre,
-.lf-sans:lang(fuq) code,
-.lf-sans:lang(fur) pre,
-.lf-sans:lang(fur) code,
-.lf-sans:lang(fuv) pre,
-.lf-sans:lang(fuv) code,
-.lf-sans:lang(fvr) pre,
-.lf-sans:lang(fvr) code,
-.lf-sans:lang(fy) pre,
-.lf-sans:lang(fy) code,
-.lf-sans:lang(gaa) pre,
-.lf-sans:lang(gaa) code,
-.lf-sans:lang(gay) pre,
-.lf-sans:lang(gay) code,
-.lf-sans:lang(gba) pre,
-.lf-sans:lang(gba) code,
-.lf-sans:lang(gcr) pre,
-.lf-sans:lang(gcr) code,
-.lf-sans:lang(gd) pre,
-.lf-sans:lang(gd) code,
-.lf-sans:lang(gl) pre,
-.lf-sans:lang(gl) code,
-.lf-sans:lang(gor) pre,
-.lf-sans:lang(gor) code,
-.lf-sans:lang(gos) pre,
-.lf-sans:lang(gos) code,
-.lf-sans:lang(grb) pre,
-.lf-sans:lang(grb) code,
-.lf-sans:lang(gub) pre,
-.lf-sans:lang(gub) code,
-.lf-sans:lang(guc) pre,
-.lf-sans:lang(guc) code,
-.lf-sans:lang(gur) pre,
-.lf-sans:lang(gur) code,
-.lf-sans:lang(guz) pre,
-.lf-sans:lang(guz) code,
-.lf-sans:lang(gwi) pre,
-.lf-sans:lang(gwi) code,
-.lf-sans:lang(hai) pre,
-.lf-sans:lang(hai) code,
-.lf-sans:lang(haw) pre,
-.lf-sans:lang(haw) code,
-.lf-sans:lang(hil) pre,
-.lf-sans:lang(hil) code,
-.lf-sans:lang(hmn) pre,
-.lf-sans:lang(hmn) code,
-.lf-sans:lang(hnn) pre,
-.lf-sans:lang(hnn) code,
-.lf-sans:lang(hop) pre,
-.lf-sans:lang(hop) code,
-.lf-sans:lang(hsb) pre,
-.lf-sans:lang(hsb) code,
-.lf-sans:lang(hup) pre,
-.lf-sans:lang(hup) code,
-.lf-sans:lang(hz) pre,
-.lf-sans:lang(hz) code,
-.lf-sans:lang(iba) pre,
-.lf-sans:lang(iba) code,
-.lf-sans:lang(ibb) pre,
-.lf-sans:lang(ibb) code,
-.lf-sans:lang(ife) pre,
-.lf-sans:lang(ife) code,
-.lf-sans:lang(ig) pre,
-.lf-sans:lang(ig) code,
-.lf-sans:lang(ik) pre,
-.lf-sans:lang(ik) code,
-.lf-sans:lang(ikt) pre,
-.lf-sans:lang(ikt) code,
-.lf-sans:lang(ilo) pre,
-.lf-sans:lang(ilo) code,
-.lf-sans:lang(izh) pre,
-.lf-sans:lang(izh) code,
-.lf-sans:lang(jam) pre,
-.lf-sans:lang(jam) code,
-.lf-sans:lang(jgo) pre,
-.lf-sans:lang(jgo) code,
-.lf-sans:lang(jmc) pre,
-.lf-sans:lang(jmc) code,
-.lf-sans:lang(kab) pre,
-.lf-sans:lang(kab) code,
-.lf-sans:lang(kac) pre,
-.lf-sans:lang(kac) code,
-.lf-sans:lang(kaj) pre,
-.lf-sans:lang(kaj) code,
-.lf-sans:lang(kam) pre,
-.lf-sans:lang(kam) code,
-.lf-sans:lang(kao) pre,
-.lf-sans:lang(kao) code,
-.lf-sans:lang(kcg) pre,
-.lf-sans:lang(kcg) code,
-.lf-sans:lang(kck) pre,
-.lf-sans:lang(kck) code,
-.lf-sans:lang(kde) pre,
-.lf-sans:lang(kde) code,
-.lf-sans:lang(kea) pre,
-.lf-sans:lang(kea) code,
-.lf-sans:lang(kfo) pre,
-.lf-sans:lang(kfo) code,
-.lf-sans:lang(kg) pre,
-.lf-sans:lang(kg) code,
-.lf-sans:lang(kge) pre,
-.lf-sans:lang(kge) code,
-.lf-sans:lang(kgp) pre,
-.lf-sans:lang(kgp) code,
-.lf-sans:lang(khq) pre,
-.lf-sans:lang(khq) code,
-.lf-sans:lang(ki) pre,
-.lf-sans:lang(ki) code,
-.lf-sans:lang(kiu) pre,
-.lf-sans:lang(kiu) code,
-.lf-sans:lang(kj) pre,
-.lf-sans:lang(kj) code,
-.lf-sans:lang(kkj) pre,
-.lf-sans:lang(kkj) code,
-.lf-sans:lang(kln) pre,
-.lf-sans:lang(kln) code,
-.lf-sans:lang(kmb) pre,
-.lf-sans:lang(kmb) code,
-.lf-sans:lang(kos) pre,
-.lf-sans:lang(kos) code,
-.lf-sans:lang(kpe) pre,
-.lf-sans:lang(kpe) code,
-.lf-sans:lang(kr) pre,
-.lf-sans:lang(kr) code,
-.lf-sans:lang(kri) pre,
-.lf-sans:lang(kri) code,
-.lf-sans:lang(krj) pre,
-.lf-sans:lang(krj) code,
-.lf-sans:lang(krl) pre,
-.lf-sans:lang(krl) code,
-.lf-sans:lang(ksb) pre,
-.lf-sans:lang(ksb) code,
-.lf-sans:lang(ksf) pre,
-.lf-sans:lang(ksf) code,
-.lf-sans:lang(ksh) pre,
-.lf-sans:lang(ksh) code,
-.lf-sans:lang(kut) pre,
-.lf-sans:lang(kut) code,
-.lf-sans:lang(kvr) pre,
-.lf-sans:lang(kvr) code,
-.lf-sans:lang(kw) pre,
-.lf-sans:lang(kw) code,
-.lf-sans:lang(lag) pre,
-.lf-sans:lang(lag) code,
-.lf-sans:lang(laj) pre,
-.lf-sans:lang(laj) code,
-.lf-sans:lang(lam) pre,
-.lf-sans:lang(lam) code,
-.lf-sans:lang(lbw) pre,
-.lf-sans:lang(lbw) code,
-.lf-sans:lang(li) pre,
-.lf-sans:lang(li) code,
-.lf-sans:lang(lij) pre,
-.lf-sans:lang(lij) code,
-.lf-sans:lang(liv) pre,
-.lf-sans:lang(liv) code,
-.lf-sans:lang(lkt) pre,
-.lf-sans:lang(lkt) code,
-.lf-sans:lang(lmo) pre,
-.lf-sans:lang(lmo) code,
-.lf-sans:lang(mad) pre,
-.lf-sans:lang(mad) code,
-.lf-sans:lang(rtm) pre,
-.lf-sans:lang(rtm) code,
-.lf-sans:lang(tiv) pre,
-.lf-sans:lang(tiv) code,
-.lf-sans:lang(tmh) pre,
-.lf-sans:lang(tmh) code,
-.lf-sans:lang(tog) pre,
-.lf-sans:lang(tog) code,
-.lf-sans:lang(trv) pre,
-.lf-sans:lang(trv) code,
-.lf-sans:lang(ts) pre,
-.lf-sans:lang(ts) code,
-.lf-sans:lang(tsg) pre,
-.lf-sans:lang(tsg) code,
-.lf-sans:lang(tsi) pre,
-.lf-sans:lang(tsi) code,
-.lf-sans:lang(ttj) pre,
-.lf-sans:lang(ttj) code,
-.lf-sans:lang(tum) pre,
-.lf-sans:lang(tum) code,
-.lf-sans:lang(twq) pre,
-.lf-sans:lang(twq) code,
-.lf-sans:lang(uli) pre,
-.lf-sans:lang(uli) code,
-.lf-sans:lang(umb) pre,
-.lf-sans:lang(umb) code,
-.lf-sans:lang(ve) pre,
-.lf-sans:lang(ve) code,
-.lf-sans:lang(vec) pre,
-.lf-sans:lang(vec) code,
-.lf-sans:lang(vep) pre,
-.lf-sans:lang(vep) code,
-.lf-sans:lang(vic) pre,
-.lf-sans:lang(vic) code,
-.lf-sans:lang(vls) pre,
-.lf-sans:lang(vls) code,
-.lf-sans:lang(vmf) pre,
-.lf-sans:lang(vmf) code,
-.lf-sans:lang(vmw) pre,
-.lf-sans:lang(vmw) code,
-.lf-sans:lang(vot) pre,
-.lf-sans:lang(vot) code,
-.lf-sans:lang(vro) pre,
-.lf-sans:lang(vro) code,
-.lf-sans:lang(vun) pre,
-.lf-sans:lang(vun) code,
-.lf-sans:lang(wa) pre,
-.lf-sans:lang(wa) code,
-.lf-sans:lang(wae) pre,
-.lf-sans:lang(wae) code,
-.lf-sans:lang(war) pre,
-.lf-sans:lang(war) code,
-.lf-sans:lang(was) pre,
-.lf-sans:lang(was) code,
-.lf-sans:lang(wbp) pre,
-.lf-sans:lang(wbp) code,
-.lf-sans:lang(wls) pre,
-.lf-sans:lang(wls) code,
-.lf-sans:lang(xav) pre,
-.lf-sans:lang(xav) code,
-.lf-sans:lang(xh) pre,
-.lf-sans:lang(xh) code,
-.lf-sans:lang(xog) pre,
-.lf-sans:lang(xog) code,
-.lf-sans:lang(yao) pre,
-.lf-sans:lang(yao) code,
-.lf-sans:lang(yap) pre,
-.lf-sans:lang(yap) code,
-.lf-sans:lang(yav) pre,
-.lf-sans:lang(yav) code,
-.lf-sans:lang(ybb) pre,
-.lf-sans:lang(ybb) code,
-.lf-sans:lang(yrl) pre,
-.lf-sans:lang(yrl) code,
-.lf-sans:lang(yua) pre,
-.lf-sans:lang(yua) code,
-.lf-sans:lang(zag) pre,
-.lf-sans:lang(zag) code,
-.lf-sans:lang(zap) pre,
-.lf-sans:lang(zap) code,
-.lf-sans:lang(zea) pre,
-.lf-sans:lang(zea) code,
-.lf-sans:lang(zmi) pre,
-.lf-sans:lang(zmi) code,
-.lf-sans:lang(zu) pre,
-.lf-sans:lang(zu) code,
-.lf-sans:lang(zun) pre,
-.lf-sans:lang(zun) code,
-.lf-sans:lang(zza) pre,
-.lf-sans:lang(zza) code {
-  font-family: "Noto Sans Latin Mono", monospace;
-}
 
 .lf-serif:lang(Latn), .lf-serif:lang(ay), .lf-serif:lang(bi), .lf-serif:lang(ca), .lf-serif:lang(ch), .lf-serif:lang(cs), .lf-serif:lang(da), .lf-serif:lang(de), .lf-serif:lang(en), .lf-serif:lang(eo), .lf-serif:lang(es), .lf-serif:lang(et), .lf-serif:lang(fi), .lf-serif:lang(fil), .lf-serif:lang(fj), .lf-serif:lang(fo), .lf-serif:lang(fr), .lf-serif:lang(ga), .lf-serif:lang(gil), .lf-serif:lang(gn), .lf-serif:lang(gsw), .lf-serif:lang(gv), .lf-serif:lang(ho), .lf-serif:lang(hr), .lf-serif:lang(ht), .lf-serif:lang(hu), .lf-serif:lang(in), .lf-serif:lang(is), .lf-serif:lang(it), .lf-serif:lang(kl), .lf-serif:lang(lb), .lf-serif:lang(lt), .lf-serif:lang(lv), .lf-serif:lang(mg), .lf-serif:lang(mh), .lf-serif:lang(mi), .lf-serif:lang(mt), .lf-serif:lang(na), .lf-serif:lang(nb), .lf-serif:lang(nd), .lf-serif:lang(niu), .lf-serif:lang(nl), .lf-serif:lang(nn), .lf-serif:lang(no), .lf-serif:lang(ny), .lf-serif:lang(pap), .lf-serif:lang(pau), .lf-serif:lang(pl), .lf-serif:lang(pt), .lf-serif:lang(qu), .lf-serif:lang(rn), .lf-serif:lang(rw), .lf-serif:lang(sg), .lf-serif:lang(sk), .lf-serif:lang(sl), .lf-serif:lang(sm), .lf-serif:lang(sn), .lf-serif:lang(sq), .lf-serif:lang(ss), .lf-serif:lang(st), .lf-serif:lang(sv), .lf-serif:lang(sw), .lf-serif:lang(tet), .lf-serif:lang(tkl), .lf-serif:lang(tl), .lf-serif:lang(tn), .lf-serif:lang(to), .lf-serif:lang(tpi), .lf-serif:lang(tr), .lf-serif:lang(tvl), .lf-serif:lang(ty), .lf-serif:lang(yo), .lf-serif:lang(aa), .lf-serif:lang(abr), .lf-serif:lang(ace), .lf-serif:lang(ach), .lf-serif:lang(ada), .lf-serif:lang(af), .lf-serif:lang(agq), .lf-serif:lang(ak), .lf-serif:lang(akz), .lf-serif:lang(ale), .lf-serif:lang(aln), .lf-serif:lang(amo), .lf-serif:lang(an), .lf-serif:lang(aoz), .lf-serif:lang(arn), .lf-serif:lang(aro), .lf-serif:lang(arp), .lf-serif:lang(arw), .lf-serif:lang(asa), .lf-serif:lang(ast), .lf-serif:lang(atj), .lf-serif:lang(bar), .lf-serif:lang(bas), .lf-serif:lang(bbj), .lf-serif:lang(bci), .lf-serif:lang(bem), .lf-serif:lang(bew), .lf-serif:lang(bez), .lf-serif:lang(bfd), .lf-serif:lang(bik), .lf-serif:lang(bin), .lf-serif:lang(bjn), .lf-serif:lang(bkm), .lf-serif:lang(bku), .lf-serif:lang(bla), .lf-serif:lang(bmq), .lf-serif:lang(bqv), .lf-serif:lang(br), .lf-serif:lang(bss), .lf-serif:lang(bto), .lf-serif:lang(buc), .lf-serif:lang(bug), .lf-serif:lang(bum), .lf-serif:lang(bvb), .lf-serif:lang(byv), .lf-serif:lang(bze), .lf-serif:lang(bzx), .lf-serif:lang(cad), .lf-serif:lang(car), .lf-serif:lang(cay), .lf-serif:lang(cch), .lf-serif:lang(ceb), .lf-serif:lang(cgg), .lf-serif:lang(chk), .lf-serif:lang(chn), .lf-serif:lang(cho), .lf-serif:lang(chy), .lf-serif:lang(cic), .lf-serif:lang(co), .lf-serif:lang(cps), .lf-serif:lang(crj), .lf-serif:lang(crl), .lf-serif:lang(crs), .lf-serif:lang(csb), .lf-serif:lang(ctd), .lf-serif:lang(cy), .lf-serif:lang(dak), .lf-serif:lang(dav), .lf-serif:lang(del), .lf-serif:lang(dgr), .lf-serif:lang(din), .lf-serif:lang(dje), .lf-serif:lang(dnj), .lf-serif:lang(dsb), .lf-serif:lang(dtm), .lf-serif:lang(dtp), .lf-serif:lang(dua), .lf-serif:lang(dyu), .lf-serif:lang(ebu), .lf-serif:lang(ee), .lf-serif:lang(efi), .lf-serif:lang(egl), .lf-serif:lang(eka), .lf-serif:lang(esu), .lf-serif:lang(eu), .lf-serif:lang(ewo), .lf-serif:lang(ext), .lf-serif:lang(fan), .lf-serif:lang(ffm), .lf-serif:lang(fit), .lf-serif:lang(fon), .lf-serif:lang(frc), .lf-serif:lang(frp), .lf-serif:lang(frr), .lf-serif:lang(frs), .lf-serif:lang(fud), .lf-serif:lang(fuq), .lf-serif:lang(fur), .lf-serif:lang(fuv), .lf-serif:lang(fvr), .lf-serif:lang(fy), .lf-serif:lang(gaa), .lf-serif:lang(gay), .lf-serif:lang(gba), .lf-serif:lang(gcr), .lf-serif:lang(gd), .lf-serif:lang(gl), .lf-serif:lang(gor), .lf-serif:lang(gos), .lf-serif:lang(grb), .lf-serif:lang(gub), .lf-serif:lang(guc), .lf-serif:lang(gur), .lf-serif:lang(guz), .lf-serif:lang(gwi), .lf-serif:lang(hai), .lf-serif:lang(haw), .lf-serif:lang(hil), .lf-serif:lang(hmn), .lf-serif:lang(hnn), .lf-serif:lang(hop), .lf-serif:lang(hsb), .lf-serif:lang(hup), .lf-serif:lang(hz), .lf-serif:lang(iba), .lf-serif:lang(ibb), .lf-serif:lang(ife), .lf-serif:lang(ig), .lf-serif:lang(ik), .lf-serif:lang(ikt), .lf-serif:lang(ilo), .lf-serif:lang(izh), .lf-serif:lang(jam), .lf-serif:lang(jgo), .lf-serif:lang(jmc), .lf-serif:lang(kab), .lf-serif:lang(kac), .lf-serif:lang(kaj), .lf-serif:lang(kam), .lf-serif:lang(kao), .lf-serif:lang(kcg), .lf-serif:lang(kck), .lf-serif:lang(kde), .lf-serif:lang(kea), .lf-serif:lang(kfo), .lf-serif:lang(kg), .lf-serif:lang(kge), .lf-serif:lang(kgp), .lf-serif:lang(khq), .lf-serif:lang(ki), .lf-serif:lang(kiu), .lf-serif:lang(kj), .lf-serif:lang(kkj), .lf-serif:lang(kln), .lf-serif:lang(kmb), .lf-serif:lang(kos), .lf-serif:lang(kpe), .lf-serif:lang(kr), .lf-serif:lang(kri), .lf-serif:lang(krj), .lf-serif:lang(krl), .lf-serif:lang(ksb), .lf-serif:lang(ksf), .lf-serif:lang(ksh), .lf-serif:lang(kut), .lf-serif:lang(kvr), .lf-serif:lang(kw), .lf-serif:lang(lag), .lf-serif:lang(laj), .lf-serif:lang(lam), .lf-serif:lang(lbw), .lf-serif:lang(li), .lf-serif:lang(lij), .lf-serif:lang(liv), .lf-serif:lang(lkt), .lf-serif:lang(lmo), .lf-serif:lang(mad), .lf-serif:lang(rtm), .lf-serif:lang(tiv), .lf-serif:lang(tmh), .lf-serif:lang(tog), .lf-serif:lang(trv), .lf-serif:lang(ts), .lf-serif:lang(tsg), .lf-serif:lang(tsi), .lf-serif:lang(ttj), .lf-serif:lang(tum), .lf-serif:lang(twq), .lf-serif:lang(uli), .lf-serif:lang(umb), .lf-serif:lang(ve), .lf-serif:lang(vec), .lf-serif:lang(vep), .lf-serif:lang(vic), .lf-serif:lang(vls), .lf-serif:lang(vmf), .lf-serif:lang(vmw), .lf-serif:lang(vot), .lf-serif:lang(vro), .lf-serif:lang(vun), .lf-serif:lang(wa), .lf-serif:lang(wae), .lf-serif:lang(war), .lf-serif:lang(was), .lf-serif:lang(wbp), .lf-serif:lang(wls), .lf-serif:lang(xav), .lf-serif:lang(xh), .lf-serif:lang(xog), .lf-serif:lang(yao), .lf-serif:lang(yap), .lf-serif:lang(yav), .lf-serif:lang(ybb), .lf-serif:lang(yrl), .lf-serif:lang(yua), .lf-serif:lang(zag), .lf-serif:lang(zap), .lf-serif:lang(zea), .lf-serif:lang(zmi), .lf-serif:lang(zu), .lf-serif:lang(zun), .lf-serif:lang(zza) {
   font-family: "Noto Serif Latin", serif;
@@ -4249,7 +3634,600 @@ html .lf-latin-mono {
 .lf-serif:lang(zu) em *, .lf-serif:lang(zun) em,
 .lf-serif:lang(zun) em *, .lf-serif:lang(zza) em,
 .lf-serif:lang(zza) em * {
-  font-family: "Noto Serif Latin Italic", serif !important;
+  font-family: "Noto Serif Latin Italic", serif;
+}
+
+pre:lang(Latn), pre:lang(ay), pre:lang(bi), pre:lang(ca), pre:lang(ch), pre:lang(cs), pre:lang(da), pre:lang(de), pre:lang(en), pre:lang(eo), pre:lang(es), pre:lang(et), pre:lang(fi), pre:lang(fil), pre:lang(fj), pre:lang(fo), pre:lang(fr), pre:lang(ga), pre:lang(gil), pre:lang(gn), pre:lang(gsw), pre:lang(gv), pre:lang(ho), pre:lang(hr), pre:lang(ht), pre:lang(hu), pre:lang(in), pre:lang(is), pre:lang(it), pre:lang(kl), pre:lang(lb), pre:lang(lt), pre:lang(lv), pre:lang(mg), pre:lang(mh), pre:lang(mi), pre:lang(mt), pre:lang(na), pre:lang(nb), pre:lang(nd), pre:lang(niu), pre:lang(nl), pre:lang(nn), pre:lang(no), pre:lang(ny), pre:lang(pap), pre:lang(pau), pre:lang(pl), pre:lang(pt), pre:lang(qu), pre:lang(rn), pre:lang(rw), pre:lang(sg), pre:lang(sk), pre:lang(sl), pre:lang(sm), pre:lang(sn), pre:lang(sq), pre:lang(ss), pre:lang(st), pre:lang(sv), pre:lang(sw), pre:lang(tet), pre:lang(tkl), pre:lang(tl), pre:lang(tn), pre:lang(to), pre:lang(tpi), pre:lang(tr), pre:lang(tvl), pre:lang(ty), pre:lang(yo), pre:lang(aa), pre:lang(abr), pre:lang(ace), pre:lang(ach), pre:lang(ada), pre:lang(af), pre:lang(agq), pre:lang(ak), pre:lang(akz), pre:lang(ale), pre:lang(aln), pre:lang(amo), pre:lang(an), pre:lang(aoz), pre:lang(arn), pre:lang(aro), pre:lang(arp), pre:lang(arw), pre:lang(asa), pre:lang(ast), pre:lang(atj), pre:lang(bar), pre:lang(bas), pre:lang(bbj), pre:lang(bci), pre:lang(bem), pre:lang(bew), pre:lang(bez), pre:lang(bfd), pre:lang(bik), pre:lang(bin), pre:lang(bjn), pre:lang(bkm), pre:lang(bku), pre:lang(bla), pre:lang(bmq), pre:lang(bqv), pre:lang(br), pre:lang(bss), pre:lang(bto), pre:lang(buc), pre:lang(bug), pre:lang(bum), pre:lang(bvb), pre:lang(byv), pre:lang(bze), pre:lang(bzx), pre:lang(cad), pre:lang(car), pre:lang(cay), pre:lang(cch), pre:lang(ceb), pre:lang(cgg), pre:lang(chk), pre:lang(chn), pre:lang(cho), pre:lang(chy), pre:lang(cic), pre:lang(co), pre:lang(cps), pre:lang(crj), pre:lang(crl), pre:lang(crs), pre:lang(csb), pre:lang(ctd), pre:lang(cy), pre:lang(dak), pre:lang(dav), pre:lang(del), pre:lang(dgr), pre:lang(din), pre:lang(dje), pre:lang(dnj), pre:lang(dsb), pre:lang(dtm), pre:lang(dtp), pre:lang(dua), pre:lang(dyu), pre:lang(ebu), pre:lang(ee), pre:lang(efi), pre:lang(egl), pre:lang(eka), pre:lang(esu), pre:lang(eu), pre:lang(ewo), pre:lang(ext), pre:lang(fan), pre:lang(ffm), pre:lang(fit), pre:lang(fon), pre:lang(frc), pre:lang(frp), pre:lang(frr), pre:lang(frs), pre:lang(fud), pre:lang(fuq), pre:lang(fur), pre:lang(fuv), pre:lang(fvr), pre:lang(fy), pre:lang(gaa), pre:lang(gay), pre:lang(gba), pre:lang(gcr), pre:lang(gd), pre:lang(gl), pre:lang(gor), pre:lang(gos), pre:lang(grb), pre:lang(gub), pre:lang(guc), pre:lang(gur), pre:lang(guz), pre:lang(gwi), pre:lang(hai), pre:lang(haw), pre:lang(hil), pre:lang(hmn), pre:lang(hnn), pre:lang(hop), pre:lang(hsb), pre:lang(hup), pre:lang(hz), pre:lang(iba), pre:lang(ibb), pre:lang(ife), pre:lang(ig), pre:lang(ik), pre:lang(ikt), pre:lang(ilo), pre:lang(izh), pre:lang(jam), pre:lang(jgo), pre:lang(jmc), pre:lang(kab), pre:lang(kac), pre:lang(kaj), pre:lang(kam), pre:lang(kao), pre:lang(kcg), pre:lang(kck), pre:lang(kde), pre:lang(kea), pre:lang(kfo), pre:lang(kg), pre:lang(kge), pre:lang(kgp), pre:lang(khq), pre:lang(ki), pre:lang(kiu), pre:lang(kj), pre:lang(kkj), pre:lang(kln), pre:lang(kmb), pre:lang(kos), pre:lang(kpe), pre:lang(kr), pre:lang(kri), pre:lang(krj), pre:lang(krl), pre:lang(ksb), pre:lang(ksf), pre:lang(ksh), pre:lang(kut), pre:lang(kvr), pre:lang(kw), pre:lang(lag), pre:lang(laj), pre:lang(lam), pre:lang(lbw), pre:lang(li), pre:lang(lij), pre:lang(liv), pre:lang(lkt), pre:lang(lmo), pre:lang(mad), pre:lang(rtm), pre:lang(tiv), pre:lang(tmh), pre:lang(tog), pre:lang(trv), pre:lang(ts), pre:lang(tsg), pre:lang(tsi), pre:lang(ttj), pre:lang(tum), pre:lang(twq), pre:lang(uli), pre:lang(umb), pre:lang(ve), pre:lang(vec), pre:lang(vep), pre:lang(vic), pre:lang(vls), pre:lang(vmf), pre:lang(vmw), pre:lang(vot), pre:lang(vro), pre:lang(vun), pre:lang(wa), pre:lang(wae), pre:lang(war), pre:lang(was), pre:lang(wbp), pre:lang(wls), pre:lang(xav), pre:lang(xh), pre:lang(xog), pre:lang(yao), pre:lang(yap), pre:lang(yav), pre:lang(ybb), pre:lang(yrl), pre:lang(yua), pre:lang(zag), pre:lang(zap), pre:lang(zea), pre:lang(zmi), pre:lang(zu), pre:lang(zun), pre:lang(zza),
+code:lang(Latn),
+code:lang(ay),
+code:lang(bi),
+code:lang(ca),
+code:lang(ch),
+code:lang(cs),
+code:lang(da),
+code:lang(de),
+code:lang(en),
+code:lang(eo),
+code:lang(es),
+code:lang(et),
+code:lang(fi),
+code:lang(fil),
+code:lang(fj),
+code:lang(fo),
+code:lang(fr),
+code:lang(ga),
+code:lang(gil),
+code:lang(gn),
+code:lang(gsw),
+code:lang(gv),
+code:lang(ho),
+code:lang(hr),
+code:lang(ht),
+code:lang(hu),
+code:lang(in),
+code:lang(is),
+code:lang(it),
+code:lang(kl),
+code:lang(lb),
+code:lang(lt),
+code:lang(lv),
+code:lang(mg),
+code:lang(mh),
+code:lang(mi),
+code:lang(mt),
+code:lang(na),
+code:lang(nb),
+code:lang(nd),
+code:lang(niu),
+code:lang(nl),
+code:lang(nn),
+code:lang(no),
+code:lang(ny),
+code:lang(pap),
+code:lang(pau),
+code:lang(pl),
+code:lang(pt),
+code:lang(qu),
+code:lang(rn),
+code:lang(rw),
+code:lang(sg),
+code:lang(sk),
+code:lang(sl),
+code:lang(sm),
+code:lang(sn),
+code:lang(sq),
+code:lang(ss),
+code:lang(st),
+code:lang(sv),
+code:lang(sw),
+code:lang(tet),
+code:lang(tkl),
+code:lang(tl),
+code:lang(tn),
+code:lang(to),
+code:lang(tpi),
+code:lang(tr),
+code:lang(tvl),
+code:lang(ty),
+code:lang(yo),
+code:lang(aa),
+code:lang(abr),
+code:lang(ace),
+code:lang(ach),
+code:lang(ada),
+code:lang(af),
+code:lang(agq),
+code:lang(ak),
+code:lang(akz),
+code:lang(ale),
+code:lang(aln),
+code:lang(amo),
+code:lang(an),
+code:lang(aoz),
+code:lang(arn),
+code:lang(aro),
+code:lang(arp),
+code:lang(arw),
+code:lang(asa),
+code:lang(ast),
+code:lang(atj),
+code:lang(bar),
+code:lang(bas),
+code:lang(bbj),
+code:lang(bci),
+code:lang(bem),
+code:lang(bew),
+code:lang(bez),
+code:lang(bfd),
+code:lang(bik),
+code:lang(bin),
+code:lang(bjn),
+code:lang(bkm),
+code:lang(bku),
+code:lang(bla),
+code:lang(bmq),
+code:lang(bqv),
+code:lang(br),
+code:lang(bss),
+code:lang(bto),
+code:lang(buc),
+code:lang(bug),
+code:lang(bum),
+code:lang(bvb),
+code:lang(byv),
+code:lang(bze),
+code:lang(bzx),
+code:lang(cad),
+code:lang(car),
+code:lang(cay),
+code:lang(cch),
+code:lang(ceb),
+code:lang(cgg),
+code:lang(chk),
+code:lang(chn),
+code:lang(cho),
+code:lang(chy),
+code:lang(cic),
+code:lang(co),
+code:lang(cps),
+code:lang(crj),
+code:lang(crl),
+code:lang(crs),
+code:lang(csb),
+code:lang(ctd),
+code:lang(cy),
+code:lang(dak),
+code:lang(dav),
+code:lang(del),
+code:lang(dgr),
+code:lang(din),
+code:lang(dje),
+code:lang(dnj),
+code:lang(dsb),
+code:lang(dtm),
+code:lang(dtp),
+code:lang(dua),
+code:lang(dyu),
+code:lang(ebu),
+code:lang(ee),
+code:lang(efi),
+code:lang(egl),
+code:lang(eka),
+code:lang(esu),
+code:lang(eu),
+code:lang(ewo),
+code:lang(ext),
+code:lang(fan),
+code:lang(ffm),
+code:lang(fit),
+code:lang(fon),
+code:lang(frc),
+code:lang(frp),
+code:lang(frr),
+code:lang(frs),
+code:lang(fud),
+code:lang(fuq),
+code:lang(fur),
+code:lang(fuv),
+code:lang(fvr),
+code:lang(fy),
+code:lang(gaa),
+code:lang(gay),
+code:lang(gba),
+code:lang(gcr),
+code:lang(gd),
+code:lang(gl),
+code:lang(gor),
+code:lang(gos),
+code:lang(grb),
+code:lang(gub),
+code:lang(guc),
+code:lang(gur),
+code:lang(guz),
+code:lang(gwi),
+code:lang(hai),
+code:lang(haw),
+code:lang(hil),
+code:lang(hmn),
+code:lang(hnn),
+code:lang(hop),
+code:lang(hsb),
+code:lang(hup),
+code:lang(hz),
+code:lang(iba),
+code:lang(ibb),
+code:lang(ife),
+code:lang(ig),
+code:lang(ik),
+code:lang(ikt),
+code:lang(ilo),
+code:lang(izh),
+code:lang(jam),
+code:lang(jgo),
+code:lang(jmc),
+code:lang(kab),
+code:lang(kac),
+code:lang(kaj),
+code:lang(kam),
+code:lang(kao),
+code:lang(kcg),
+code:lang(kck),
+code:lang(kde),
+code:lang(kea),
+code:lang(kfo),
+code:lang(kg),
+code:lang(kge),
+code:lang(kgp),
+code:lang(khq),
+code:lang(ki),
+code:lang(kiu),
+code:lang(kj),
+code:lang(kkj),
+code:lang(kln),
+code:lang(kmb),
+code:lang(kos),
+code:lang(kpe),
+code:lang(kr),
+code:lang(kri),
+code:lang(krj),
+code:lang(krl),
+code:lang(ksb),
+code:lang(ksf),
+code:lang(ksh),
+code:lang(kut),
+code:lang(kvr),
+code:lang(kw),
+code:lang(lag),
+code:lang(laj),
+code:lang(lam),
+code:lang(lbw),
+code:lang(li),
+code:lang(lij),
+code:lang(liv),
+code:lang(lkt),
+code:lang(lmo),
+code:lang(mad),
+code:lang(rtm),
+code:lang(tiv),
+code:lang(tmh),
+code:lang(tog),
+code:lang(trv),
+code:lang(ts),
+code:lang(tsg),
+code:lang(tsi),
+code:lang(ttj),
+code:lang(tum),
+code:lang(twq),
+code:lang(uli),
+code:lang(umb),
+code:lang(ve),
+code:lang(vec),
+code:lang(vep),
+code:lang(vic),
+code:lang(vls),
+code:lang(vmf),
+code:lang(vmw),
+code:lang(vot),
+code:lang(vro),
+code:lang(vun),
+code:lang(wa),
+code:lang(wae),
+code:lang(war),
+code:lang(was),
+code:lang(wbp),
+code:lang(wls),
+code:lang(xav),
+code:lang(xh),
+code:lang(xog),
+code:lang(yao),
+code:lang(yap),
+code:lang(yav),
+code:lang(ybb),
+code:lang(yrl),
+code:lang(yua),
+code:lang(zag),
+code:lang(zap),
+code:lang(zea),
+code:lang(zmi),
+code:lang(zu),
+code:lang(zun),
+code:lang(zza),
+.lf-mono:lang(Latn),
+.lf-mono:lang(ay),
+.lf-mono:lang(bi),
+.lf-mono:lang(ca),
+.lf-mono:lang(ch),
+.lf-mono:lang(cs),
+.lf-mono:lang(da),
+.lf-mono:lang(de),
+.lf-mono:lang(en),
+.lf-mono:lang(eo),
+.lf-mono:lang(es),
+.lf-mono:lang(et),
+.lf-mono:lang(fi),
+.lf-mono:lang(fil),
+.lf-mono:lang(fj),
+.lf-mono:lang(fo),
+.lf-mono:lang(fr),
+.lf-mono:lang(ga),
+.lf-mono:lang(gil),
+.lf-mono:lang(gn),
+.lf-mono:lang(gsw),
+.lf-mono:lang(gv),
+.lf-mono:lang(ho),
+.lf-mono:lang(hr),
+.lf-mono:lang(ht),
+.lf-mono:lang(hu),
+.lf-mono:lang(in),
+.lf-mono:lang(is),
+.lf-mono:lang(it),
+.lf-mono:lang(kl),
+.lf-mono:lang(lb),
+.lf-mono:lang(lt),
+.lf-mono:lang(lv),
+.lf-mono:lang(mg),
+.lf-mono:lang(mh),
+.lf-mono:lang(mi),
+.lf-mono:lang(mt),
+.lf-mono:lang(na),
+.lf-mono:lang(nb),
+.lf-mono:lang(nd),
+.lf-mono:lang(niu),
+.lf-mono:lang(nl),
+.lf-mono:lang(nn),
+.lf-mono:lang(no),
+.lf-mono:lang(ny),
+.lf-mono:lang(pap),
+.lf-mono:lang(pau),
+.lf-mono:lang(pl),
+.lf-mono:lang(pt),
+.lf-mono:lang(qu),
+.lf-mono:lang(rn),
+.lf-mono:lang(rw),
+.lf-mono:lang(sg),
+.lf-mono:lang(sk),
+.lf-mono:lang(sl),
+.lf-mono:lang(sm),
+.lf-mono:lang(sn),
+.lf-mono:lang(sq),
+.lf-mono:lang(ss),
+.lf-mono:lang(st),
+.lf-mono:lang(sv),
+.lf-mono:lang(sw),
+.lf-mono:lang(tet),
+.lf-mono:lang(tkl),
+.lf-mono:lang(tl),
+.lf-mono:lang(tn),
+.lf-mono:lang(to),
+.lf-mono:lang(tpi),
+.lf-mono:lang(tr),
+.lf-mono:lang(tvl),
+.lf-mono:lang(ty),
+.lf-mono:lang(yo),
+.lf-mono:lang(aa),
+.lf-mono:lang(abr),
+.lf-mono:lang(ace),
+.lf-mono:lang(ach),
+.lf-mono:lang(ada),
+.lf-mono:lang(af),
+.lf-mono:lang(agq),
+.lf-mono:lang(ak),
+.lf-mono:lang(akz),
+.lf-mono:lang(ale),
+.lf-mono:lang(aln),
+.lf-mono:lang(amo),
+.lf-mono:lang(an),
+.lf-mono:lang(aoz),
+.lf-mono:lang(arn),
+.lf-mono:lang(aro),
+.lf-mono:lang(arp),
+.lf-mono:lang(arw),
+.lf-mono:lang(asa),
+.lf-mono:lang(ast),
+.lf-mono:lang(atj),
+.lf-mono:lang(bar),
+.lf-mono:lang(bas),
+.lf-mono:lang(bbj),
+.lf-mono:lang(bci),
+.lf-mono:lang(bem),
+.lf-mono:lang(bew),
+.lf-mono:lang(bez),
+.lf-mono:lang(bfd),
+.lf-mono:lang(bik),
+.lf-mono:lang(bin),
+.lf-mono:lang(bjn),
+.lf-mono:lang(bkm),
+.lf-mono:lang(bku),
+.lf-mono:lang(bla),
+.lf-mono:lang(bmq),
+.lf-mono:lang(bqv),
+.lf-mono:lang(br),
+.lf-mono:lang(bss),
+.lf-mono:lang(bto),
+.lf-mono:lang(buc),
+.lf-mono:lang(bug),
+.lf-mono:lang(bum),
+.lf-mono:lang(bvb),
+.lf-mono:lang(byv),
+.lf-mono:lang(bze),
+.lf-mono:lang(bzx),
+.lf-mono:lang(cad),
+.lf-mono:lang(car),
+.lf-mono:lang(cay),
+.lf-mono:lang(cch),
+.lf-mono:lang(ceb),
+.lf-mono:lang(cgg),
+.lf-mono:lang(chk),
+.lf-mono:lang(chn),
+.lf-mono:lang(cho),
+.lf-mono:lang(chy),
+.lf-mono:lang(cic),
+.lf-mono:lang(co),
+.lf-mono:lang(cps),
+.lf-mono:lang(crj),
+.lf-mono:lang(crl),
+.lf-mono:lang(crs),
+.lf-mono:lang(csb),
+.lf-mono:lang(ctd),
+.lf-mono:lang(cy),
+.lf-mono:lang(dak),
+.lf-mono:lang(dav),
+.lf-mono:lang(del),
+.lf-mono:lang(dgr),
+.lf-mono:lang(din),
+.lf-mono:lang(dje),
+.lf-mono:lang(dnj),
+.lf-mono:lang(dsb),
+.lf-mono:lang(dtm),
+.lf-mono:lang(dtp),
+.lf-mono:lang(dua),
+.lf-mono:lang(dyu),
+.lf-mono:lang(ebu),
+.lf-mono:lang(ee),
+.lf-mono:lang(efi),
+.lf-mono:lang(egl),
+.lf-mono:lang(eka),
+.lf-mono:lang(esu),
+.lf-mono:lang(eu),
+.lf-mono:lang(ewo),
+.lf-mono:lang(ext),
+.lf-mono:lang(fan),
+.lf-mono:lang(ffm),
+.lf-mono:lang(fit),
+.lf-mono:lang(fon),
+.lf-mono:lang(frc),
+.lf-mono:lang(frp),
+.lf-mono:lang(frr),
+.lf-mono:lang(frs),
+.lf-mono:lang(fud),
+.lf-mono:lang(fuq),
+.lf-mono:lang(fur),
+.lf-mono:lang(fuv),
+.lf-mono:lang(fvr),
+.lf-mono:lang(fy),
+.lf-mono:lang(gaa),
+.lf-mono:lang(gay),
+.lf-mono:lang(gba),
+.lf-mono:lang(gcr),
+.lf-mono:lang(gd),
+.lf-mono:lang(gl),
+.lf-mono:lang(gor),
+.lf-mono:lang(gos),
+.lf-mono:lang(grb),
+.lf-mono:lang(gub),
+.lf-mono:lang(guc),
+.lf-mono:lang(gur),
+.lf-mono:lang(guz),
+.lf-mono:lang(gwi),
+.lf-mono:lang(hai),
+.lf-mono:lang(haw),
+.lf-mono:lang(hil),
+.lf-mono:lang(hmn),
+.lf-mono:lang(hnn),
+.lf-mono:lang(hop),
+.lf-mono:lang(hsb),
+.lf-mono:lang(hup),
+.lf-mono:lang(hz),
+.lf-mono:lang(iba),
+.lf-mono:lang(ibb),
+.lf-mono:lang(ife),
+.lf-mono:lang(ig),
+.lf-mono:lang(ik),
+.lf-mono:lang(ikt),
+.lf-mono:lang(ilo),
+.lf-mono:lang(izh),
+.lf-mono:lang(jam),
+.lf-mono:lang(jgo),
+.lf-mono:lang(jmc),
+.lf-mono:lang(kab),
+.lf-mono:lang(kac),
+.lf-mono:lang(kaj),
+.lf-mono:lang(kam),
+.lf-mono:lang(kao),
+.lf-mono:lang(kcg),
+.lf-mono:lang(kck),
+.lf-mono:lang(kde),
+.lf-mono:lang(kea),
+.lf-mono:lang(kfo),
+.lf-mono:lang(kg),
+.lf-mono:lang(kge),
+.lf-mono:lang(kgp),
+.lf-mono:lang(khq),
+.lf-mono:lang(ki),
+.lf-mono:lang(kiu),
+.lf-mono:lang(kj),
+.lf-mono:lang(kkj),
+.lf-mono:lang(kln),
+.lf-mono:lang(kmb),
+.lf-mono:lang(kos),
+.lf-mono:lang(kpe),
+.lf-mono:lang(kr),
+.lf-mono:lang(kri),
+.lf-mono:lang(krj),
+.lf-mono:lang(krl),
+.lf-mono:lang(ksb),
+.lf-mono:lang(ksf),
+.lf-mono:lang(ksh),
+.lf-mono:lang(kut),
+.lf-mono:lang(kvr),
+.lf-mono:lang(kw),
+.lf-mono:lang(lag),
+.lf-mono:lang(laj),
+.lf-mono:lang(lam),
+.lf-mono:lang(lbw),
+.lf-mono:lang(li),
+.lf-mono:lang(lij),
+.lf-mono:lang(liv),
+.lf-mono:lang(lkt),
+.lf-mono:lang(lmo),
+.lf-mono:lang(mad),
+.lf-mono:lang(rtm),
+.lf-mono:lang(tiv),
+.lf-mono:lang(tmh),
+.lf-mono:lang(tog),
+.lf-mono:lang(trv),
+.lf-mono:lang(ts),
+.lf-mono:lang(tsg),
+.lf-mono:lang(tsi),
+.lf-mono:lang(ttj),
+.lf-mono:lang(tum),
+.lf-mono:lang(twq),
+.lf-mono:lang(uli),
+.lf-mono:lang(umb),
+.lf-mono:lang(ve),
+.lf-mono:lang(vec),
+.lf-mono:lang(vep),
+.lf-mono:lang(vic),
+.lf-mono:lang(vls),
+.lf-mono:lang(vmf),
+.lf-mono:lang(vmw),
+.lf-mono:lang(vot),
+.lf-mono:lang(vro),
+.lf-mono:lang(vun),
+.lf-mono:lang(wa),
+.lf-mono:lang(wae),
+.lf-mono:lang(war),
+.lf-mono:lang(was),
+.lf-mono:lang(wbp),
+.lf-mono:lang(wls),
+.lf-mono:lang(xav),
+.lf-mono:lang(xh),
+.lf-mono:lang(xog),
+.lf-mono:lang(yao),
+.lf-mono:lang(yap),
+.lf-mono:lang(yav),
+.lf-mono:lang(ybb),
+.lf-mono:lang(yrl),
+.lf-mono:lang(yua),
+.lf-mono:lang(zag),
+.lf-mono:lang(zap),
+.lf-mono:lang(zea),
+.lf-mono:lang(zmi),
+.lf-mono:lang(zu),
+.lf-mono:lang(zun),
+.lf-mono:lang(zza) {
+  font-family: "Noto Sans Latin Mono", monospace;
+  direction: ltr;
 }
 
 *:lang(lo),
@@ -4397,7 +4375,7 @@ html .lf-latin-mono {
 *:lang(Tale), *:lang(tdd),
 .lf-sans:lang(Tale),
 .lf-sans:lang(tdd) {
-  font-family: "Noto Sans Latin", "Noto Sans TaiLe", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Tai Le", sans-serif;
   direction: ltr;
 }
 
@@ -4410,14 +4388,14 @@ html .lf-latin-mono {
 	}
 }*/
 .lf-serif:lang(Tale), .lf-serif:lang(tdd) {
-  font-family: "Noto Serif Latin", "Noto Serif TaiLe", serif;
+  font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
 *:lang(Lana), *:lang(kkh),
 .lf-sans:lang(Lana),
 .lf-sans:lang(kkh) {
-  font-family: "Noto Sans Latin", "Noto Sans TaiTham", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Tai Tham", sans-serif;
   direction: ltr;
 }
 
@@ -4430,14 +4408,14 @@ html .lf-latin-mono {
 	}
 }*/
 .lf-serif:lang(Lana), .lf-serif:lang(kkh) {
-  font-family: "Noto Serif Latin", "Noto Serif TaiTham", serif;
+  font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
 *:lang(Tavt), *:lang(bit),
 .lf-sans:lang(Tavt),
 .lf-sans:lang(bit) {
-  font-family: "Noto Sans Latin", "Noto Sans TaiViet", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Tai Viet", sans-serif;
   direction: ltr;
 }
 
@@ -4450,7 +4428,7 @@ html .lf-latin-mono {
 	}
 }*/
 .lf-serif:lang(Tavt), .lf-serif:lang(bit) {
-  font-family: "Noto Serif Latin", "Noto Serif TaiViet", serif;
+  font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
@@ -4479,7 +4457,7 @@ html .lf-latin-mono {
 }
 
 .lf-serif:lang(Thaa), .lf-serif:lang(dv) {
-  font-family: "Noto Serif Latin", "Noto Serif Arabic", "Noto Serif Thaana", serif;
+  font-family: "Noto Serif Latin", "Noto Serif Arabic", "", serif;
   direction: rtl;
 }
 

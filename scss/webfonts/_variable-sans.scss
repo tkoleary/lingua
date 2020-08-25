@@ -1,10 +1,9 @@
 // The (currently available) variable versions of the Noto web fonts
 // Since support for variable fonts is a subset of support for woff, w only use woff and woff2
 
-
 @font-face {
   font-family: "Noto Sans Latin";
-  src: 	url("fonts/NotoSansLatin-VF-subset.woff2") format("woff2"), 
+  src: 	url("fonts/NotoSansLatin-VF-subset.woff2") format("woff2"),
 				url("fonts/NotoSansLatin-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
