@@ -97,8 +97,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 	<p class="lf-specimen lf-sans lf-ubold">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
 </div>
 
-***
--->
+***-->
 
 <div lang="gr">
 	<h3 class="lf-light font-label">Greek Sans</h3>
@@ -219,7 +218,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 </div>
 
 ***
-
+<!--
 <div lang="Sinh">
 	<h3 class="lf-light font-label">Sinhala Sans</h3>
 	<p class="lf-specimen lf-sans lf-ulight" lang="si"> 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් </p>
@@ -233,7 +232,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 	<p class="lf-specimen lf-sans lf-ubold" lang="si"> 1 වන වගන්තිය සියලු මනුෂ්‍යයෝ නිදහස්ව උපත ලබා ඇත. ගරුත්වයෙන් හා අයිතිවාසිකම්වලින් සමාන වෙති. යුක්ති අයුක්ති පිළිබඳ හැඟීමෙන් හා හෘදය සාක්ෂියෙන් යුත් ඔවුන් </p>
 </div>
 
-***
+***-->
 
 <div lang="ta">
 	<h3 class="lf-light font-label">Tamil Sans</h3>
@@ -282,7 +281,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 
 <h3 style="text-align: right">Right-to-left</h3>
 
-<div lang="Adlm">
+<div lang="Adlm" style="text-align: right">
 	<h3 class="lf-light font-label">Adlam Sans</h3>
 	<p class="lf-specimen lf-sans lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
 	<p class="lf-specimen lf-sans lf-xlight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
@@ -297,7 +296,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 
 ***
 
-<div lang="Adlm">
+<div lang="Adlm" style="text-align: right">
 	<h3 class="lf-light font-label">Adlam Unjoined</h3>
 	<p class="lf-specimen lf-unjoined lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
 	<p class="lf-specimen lf-unjoined lf-xlight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
@@ -312,7 +311,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 
 ***
 
-<div lang="ar">
+<div lang="ar" style="text-align: right">
 	<h3 class="lf-light font-label">Arabic Sans</h3>
 	<p class="lf-specimen lf-sans lf-ulight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
 	<p class="lf-specimen lf-sans lf-xlight">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
@@ -327,7 +326,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 
 ***
 
-<div lang="Hebr">
+<div lang="Hebr" style="text-align: right">
 	<h3 class="lf-light font-label">Hebrew Sans</h3>
 	<p class="lf-specimen lf-sans lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-sans lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
@@ -342,7 +341,7 @@ Below are all of the scripts for which we have variable fonts. The variations sh
 
 ***
 
-<div lang="dv">
+<div lang="dv" style="text-align: right">
 	<h3 class="lf-light font-label">Thaana Sans</h3>
 	<p class="lf-specimen lf-sans lf-ulight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
 	<p class="lf-specimen lf-sans lf-xlight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
@@ -542,7 +541,8 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 
 ***
 
-<!--<div lang="bax">
+<!--
+<div lang="bax">
 	<h3 class="lf-light font-label">Bamum Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
 	<p class="lf-specimen lf-serif lf-xlight">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
@@ -553,9 +553,9 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-bold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
 	<p class="lf-specimen lf-serif lf-xbold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
 	<p class="lf-specimen lf-serif lf-ubold">1 ꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯꚠꚡꚢꚣꚤꚥꚦꚧꚨꚩꚪꚫꚬꚭꚮꚯ </p>
-</div>-->
+</div>
 
-***
+***-->
 
 <div lang="bn">
 	<h3 class="lf-light font-label">Bengali Serif</h3>
@@ -583,9 +583,9 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-bold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
 	<p class="lf-specimen lf-serif lf-xbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
 	<p class="lf-specimen lf-serif lf-ubold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-</div>-->
+</div>
 
-***
+***-->
 
 <div lang="hi">
 	<h3 class="lf-light font-label">Devanagari Serif</h3>
@@ -603,7 +603,7 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 ***
 
 <div lang="am">
-	<h3 class="lf-light font-label">Ethiopic Serif</h3>
+	<h3 class="lf-sans lf-light font-label">Ethiopic Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
 	<p class="lf-specimen lf-serif lf-xlight">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
 	<p class="lf-specimen lf-serif lf-light">አንቀጽ 1 ሰዎች ሁሉ ሲወለዱ ነፃ እና እኩል ክብርና መብት አላቸው ፡፡</p>
@@ -628,9 +628,9 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-bold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
 	<p class="lf-specimen lf-serif lf-xbold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
 	<p class="lf-specimen lf-serif lf-ubold">ΑΡΘΡΟ 1 Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι με αξιοπρέπεια και δικαιώματα. </p>
-</div>-->
+</div>
 
-***
+***-->
 
 <div lang="gi">
 	<h3 class="lf-light font-label">Gurmukhi Serif</h3>
@@ -693,7 +693,7 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 ***
 
 <div lang="Latn">
-	<h3 class="lf-light font-label">Latin - Normal Serif</h3>
+	<h3 class="lf-light font-label">Latin Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
 	<p class="lf-specimen lf-serif lf-xlight">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
 	<p class="lf-specimen lf-serif lf-light">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
@@ -785,8 +785,8 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 
 <h2 style="text-align: right">Right-to-left</h2>
 
-***
-<!--
+<!--***
+
 <div lang="ff">
 	<h3 class="lf-light font-label">Adlam Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight">𞤑𞤵𞥅𞤤𞤢𞤤 𞤺𞤢𞤣𞤢𞤲𞤢𞤤 𞤋𞤲𞥆𞤢𞤥𞤢 𞤢𞥄𞤣𞤫𞥅𞤶𞤭 𞤬𞤮𞤬 𞤨𞤮𞤼𞤭⹁ 𞤲'𞤣𞤭𞤥𞤯𞤭𞤣𞤭 𞤫 𞤶𞤭𞤦𞤭𞤲𞤢𞤲𞥆𞤣𞤫 𞤼𞤮 𞤦𞤢𞤲𞥆𞤺𞤫 𞤸𞤢𞤳𞥆𞤫𞥅𞤶𞤭.  </p>
@@ -813,12 +813,12 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-bold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
 	<p class="lf-specimen lf-serif lf-xbold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
 	<p class="lf-specimen lf-serif lf-ubold">المادة 1 يولد جميع الناس أحرارًا ومتساوين في الكرامة والحقوق.</p>
-</div>-->
+</div>
 
-***
+***-->
 
 <div lang="Hebr">
-	<h3 class="lf-light font-label">Hebrew Serif</h3>
+	<h3 class="lf-light font-label" style="text-align: right">Hebrew Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-serif lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-serif lf-light"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
@@ -829,9 +829,9 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-xbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-serif lf-ubold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 </div>
-<!--
-***
 
+***
+<!--
 <div lang="dv">
 	<h3 class="lf-light font-label">Thaana Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
@@ -860,7 +860,7 @@ With variable fonts, automativ application of italics is inconsistently applied 
 	<p class="lf-specimen lf-serif lf-italic lf-bold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
 	<p class="lf-specimen lf-serif lf-italic lf-xbold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
 	<p class="lf-specimen lf-serif lf-italic lf-ubold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
-</div>-->
+</div>
 
 ## Monospace
 
@@ -877,4 +877,4 @@ The monospace font covers Latin. We will add more monospace fonts as they become
 	<p class="lf-specimen lf-mono lf-bold"><code>ARTICLE 1 All people are born free and equal in dignity and rights.</code></p>
 	<p class="lf-specimen lf-mono lf-xbold"><code>ARTICLE 1 All people are born free and equal in dignity and rights.</code></p>
 	<p class="lf-specimen lf-mono lf-ubold"><code>ARTICLE 1 All people are born free and equal in dignity and rights.</code></p>
-</div>
+</div>-->

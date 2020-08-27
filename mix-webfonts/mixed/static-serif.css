@@ -151,8 +151,8 @@
   unicode-range: U+0F00-0FFF;
 }
 @font-face {
-  font-family: "Noto Serif ZanzabarSquare Regular";
-  src: url("fonts/NotoSerifZanzabarSquare-Regular.ttf") format("truetype");
+  font-family: "Noto Serif ZanabazarSquare Regular";
+  src: url("fonts/NotoSerifZanabazarSquare-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

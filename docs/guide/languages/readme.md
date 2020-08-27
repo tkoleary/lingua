@@ -2,7 +2,7 @@
 
 ## Supported scripts (45):
 
-Adlam, Arabic, Armenian, Bamum, Bengali, Brahmi, Buginese, Buhid, Canadian-Aboriginal, Cherokee, Chinese, (simplified), Chinese, (traditional), Chinese, (Hong Kong), Cyrillic, Devanagari, Ethiopic, Georgian, Greek, Gujarati, Gurmukhi, Hebrew, Japanese, Kannada, Khmer, Korean, Latin, Lao, Limbu, Malayalam, Myanmar, Naskh Arabic, Oriya, Rashi Hebrew, Sinhala, Tagalog, Tamil, Tai-le, Tai-tham, Tai-viet, Telugu, Thaana, Thai, Tibetan, Warang-citi, Zanzabar square,
+Adlam, Arabic, Armenian, Bamum, Bengali, Brahmi, Buginese, Buhid, Canadian-Aboriginal, Cherokee, Chinese, (simplified), Chinese, (traditional), Chinese, (Hong Kong), Cyrillic, Devanagari, Ethiopic, Georgian, Greek, Gujarati, Gurmukhi, Hebrew, Japanese, Kannada, Khmer, Korean, Latin, Lao, Limbu, Malayalam, Myanmar, Naskh Arabic, Oriya, Rashi Hebrew, Sinhala, Tagalog, Tamil, Tai-le, Tai-tham, Tai-viet, Telugu, Thaana, Thai, Tibetan, Warang-citi, Zanabazar square,
 
 ## Supported languages (487):
 

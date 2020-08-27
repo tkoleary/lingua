@@ -1,7 +1,27 @@
 // Ethiopic script languages
 
-*:lang(am),*:lang(ti),*:lang(byn),*:lang(tig),*:lang(wal),
-.lf-serif:lang(am) {
-	font-family: $base-serif,$ethiopic-serif,serif;
-	direction: ltr;
+
+*,
+.lf-sans {
+
+	&:lang(am),
+	&:lang(ti),
+	&:lang(byn),
+	&:lang(tig),
+	&:lang(wal) {
+		font-family: $base-sans,$ethiopic-serif,serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+
+	&:lang(am),
+	&:lang(ti),
+	&:lang(byn),
+	&:lang(tig),
+	&:lang(wal) {
+		font-family: $base-serif,$ethiopic-serif,serif;
+		direction: ltr;
+	}
 }

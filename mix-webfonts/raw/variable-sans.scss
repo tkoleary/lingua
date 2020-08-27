@@ -168,10 +168,10 @@
 	  @include font-face-variable(Noto, Sans, Tibetan, VF, Regular, normal, normal);
 	  unicode-range: $tibetan;
 	}
-	// Variable sans fonts for Zanzabar Square
+	// Variable sans fonts for Zanabazar Square
 	@font-face {
-		@include font-face-variable(Noto, Sans, ZanzabarSquare, VF, Regular, normal, normal);
-		unicode-range: $zanzabar;
+		@include font-face-variable(Noto, Sans, ZanabazarSquare, VF, Regular, normal, normal);
+		unicode-range: $Zanabazar;
 	}
 	/*
 }
