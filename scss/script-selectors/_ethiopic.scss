@@ -1,9 +1,8 @@
 // Ethiopic script languages
 
-
 *,
 .lf-sans {
-
+	&:lang(Ethi),
 	&:lang(am),
 	&:lang(ti),
 	&:lang(byn),
@@ -15,7 +14,7 @@
 }
 
 .lf-serif {
-
+	&:lang(Ethi),
 	&:lang(am),
 	&:lang(ti),
 	&:lang(byn),

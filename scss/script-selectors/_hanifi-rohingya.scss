@@ -1,0 +1,17 @@
+// Hanifi-Rohingya script
+
+*,
+.lf-sans {
+	&:lang(Rohg) {
+		font-family: $base-sans,$hanifi-rohingya-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+/*
+.lf-serif {
+	&:lang(Rohg) {
+		font-family: $base-serif,$hanifi-rohingya-serif,serif;
+		direction: ltr;
+	}
+}*/

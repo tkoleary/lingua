@@ -1,12 +1,18 @@
 // Buhid script
 
-*:lang(bku),
-.lf-sans:lang(bku) {
-	font-family: $base-sans,$buhid-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Buhd),
+	&:lang(bku) {
+		font-family: $base-sans,$buhid-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(bku){
-	font-family: $base-serif,$buhid-serif,serif;
-	direction: ltr;
+.lf-serif {
+	&:lang(Buhd),
+	&:lang(bku) {
+		font-family: $base-serif,$buhid-serif,serif;
+		direction: ltr;
+	}
 }

@@ -2,8 +2,7 @@
 
 *,
 .lf-sans {
-
-	//&:lang(Scrp),
+	&:lang(Kore),
 	&:lang(ko) {
 		font-family: $korean-sans,sans-serif;
 		direction: ltr;
@@ -11,8 +10,7 @@
 }
 
 /*.lf-sans-ui {
-
-	//&:lang(Scrp),
+	&:lang(Kore),
 	&:lang(ko) {
 		font-family: $korean-sans-ui,sans-serif;
 		direction: ltr;
@@ -20,8 +18,7 @@
 }*/
 
 .lf-serif {
-
-	//&:lang(Scrp),
+	&:lang(Kore),
 	&:lang(ko) {
 		font-family: $korean-serif,serif;
 		direction: ltr;

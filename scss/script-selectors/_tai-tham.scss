@@ -2,7 +2,6 @@
 
 *,
 .lf-sans {
-
 	&:lang(Lana),
 	&:lang(kkh) {
 		font-family: $base-sans,$tai-tham-sans,sans-serif;
@@ -11,7 +10,6 @@
 }
 
 /*.lf-sans-ui {
-
 	&:lang(Lana),
 	&:lang(kkh) {
 		font-family: $base-sans,$tai-tham-sans-ui,sans-serif;
@@ -20,7 +18,6 @@
 }*/
 
 .lf-serif {
-
 	&:lang(Lana),
 	&:lang(kkh) {
 		font-family: $base-serif,$tai-tham-serif,serif;

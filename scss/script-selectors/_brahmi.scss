@@ -1,7 +1,7 @@
 // Brahmi script
 
-*:lang(Brah),
-.lf-sans:lang(Brah) {
+*,
+.lf-sans:lang(Brah){
 	font-family: $base-sans,$brahmi-sans,sans-serif;
 	direction: ltr;
 }

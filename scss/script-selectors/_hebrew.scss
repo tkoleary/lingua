@@ -1,21 +1,56 @@
 // Hebrew script languages
 
-*:lang(iw), // Old Hebrew code deprecated, but keep for backwards compatibility
-*:lang(he),*:lang(jpr),*:lang(jrb),*:lang(lad),*:lang(yi),
+*,
 .lf-sans {
-
-	&:lang(Hebr), // Script
-	&:lang(he) {  // Language
+	&:lang(Hebr),
+	&:lang(iw),
+	&:lang(he),
+	&:lang(jpr),
+	&:lang(jrb),
+	&:lang(lad),
+	&:lang(yi) {
 		font-family: $base-sans,$hebrew-sans,sans-serif;
 		direction: rtl;
 	}
 }
 
 .lf-serif {
-
-	&:lang(Hebr), // Script
-	&:lang(he) {	// Language
+	&:lang(Hebr),
+	&:lang(iw),
+	&:lang(he),
+	&:lang(jpr),
+	&:lang(jrb),
+	&:lang(lad),
+	&:lang(yi) {
 		font-family: $base-serif,$hebrew-serif,sans-serif;
 		direction: rtl;
+	}
+}
+
+// Rashi hebrew script languages
+
+.lf-sans .rashi {
+	&:lang(Hebr),
+	&:lang(iw), // Hebrew deprecated, but keep for backwards compatibility
+	&:lang(he),
+	&:lang(jpr),
+	&:lang(jrb),
+	&:lang(lad),
+	&:lang(yi) {
+		font-family: $base-sans,$rashi-hebrew-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif .rashi {
+	&:lang(Hebr),
+	&:lang(iw), // Hebrew deprecated, but keep for backwards compatibility
+	&:lang(he),
+	&:lang(jpr),
+	&:lang(jrb),
+	&:lang(lad),
+	&:lang(yi) {
+		font-family: $base-serif,$rashi-hebrew-serif,serif;
+		direction: ltr;
 	}
 }

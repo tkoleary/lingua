@@ -2,17 +2,19 @@
 
 *,
 .lf-sans {
-
-	//&:lang(Scrp), @todo: get script code
+	&:lang(Orya),
+	&:lang(ori),
 	&:lang(or) {
 		font-family: $base-sans,$oriya-sans,sans-serif;
 		direction: ltr;
 	}
 }
 
-/*.lf-sans-ui {
+/*
+.lf-sans-ui {
 
-	//&:lang(Scrp),
+	&:lang(Orya),
+	&:lang(ori),
 	&:lang(or) {
 		font-family: $base-sans,$oriya-sans-ui,sans-serif;
 		direction: ltr;
@@ -20,10 +22,11 @@
 }
 
 .lf-serif {
-
-	//&:lang(Scrp),
+	&:lang(Orya),
+	&:lang(ori),
 	&:lang(or) {
 		font-family: $base-serif,$oriya-serif,serif;
 		direction: ltr;
 	}
-}*/
+}
+*/

@@ -1,0 +1,18 @@
+// Grantha script (Sanskrit)
+
+*,
+.lf-sans {
+	&:lang(Gran),
+	&:lang(sa) {
+		font-family: $base-sans,$grantha-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+	&:lang(Gran),
+	&:lang(sa) {
+		font-family: $base-serif,$grantha-serif,serif;
+		direction: ltr;
+	}
+}

@@ -3,7 +3,7 @@
 // Default to Devanagari script wheree no script is specified
 *,
 .lf-sans {
-
+	&:lang(Deva),
 	&:lang(hi),
 	&:lang(hif),
 	&:lang(ks),
@@ -13,7 +13,7 @@
 	}
 }
 .lf-serif {
-
+	&:lang(Deva),
 	&:lang(hi),
 	&:lang(hif),
 	&:lang(ks),
@@ -25,7 +25,6 @@
 // Devanagari script is explicit
 *,
 .lf-sans {
-
 	&:lang(Deva),
 	&:lang(hi-Deva),
 	&:lang(hif-Deva),

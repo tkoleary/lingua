@@ -1,11 +1,17 @@
 // Bamum script
 
-*:lang(bax),
-.lf-sans:lang(bax) {
-	font-family: $base-sans,$bamum-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Bamu),
+	&:lang(bax) {
+		font-family: $base-sans,$bamum-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(bax) {
-	font-family: $base-serif,$bamum-serif,serif;
+.lf-serif {
+	&:lang(Bamu),
+	&:lang(bax) {
+		font-family: $base-serif,$bamum-serif,serif;
+	}
 }

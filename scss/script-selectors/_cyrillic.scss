@@ -1,12 +1,16 @@
 // Cyrillic script languages
 
-*:lang(Cyrl),*:lang(be),*:lang(bg),*:lang(mk),*:lang(mn),*:lang(ru),*:lang(uk),*:lang(ab),*:lang(abq),*:lang(ady),*:lang(alt),*:lang(av),*:lang(ba),*:lang(bua),*:lang(ce),*:lang(chm),*:lang(cjs),*:lang(ckt),*:lang(crh),*:lang(cv),*:lang(dar),*:lang(dng),*:lang(evn),*:lang(gld),*:lang(kaa),*:lang(kbd),*:lang(kca),*:lang(kjh),*:lang(koi),*:lang(kpy),*:lang(krc),*:lang(kum),*:lang(kv),*:lang(lbe),*:lang(lez),*:lang(mdf),*:lang(mns),*:lang(mrj),*:lang(myv),*:lang(nog),*:lang(os),*:lang(rue),*:lang(sah),*:lang(sel),*:lang(tab),*:lang(tt),*:lang(tyv),*:lang(ude),*:lang(xal),*:lang(yrk),
-.lf-sans:lang(Cyrl) {
-	font-family: $base-sans,$cyrillic-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Cyrl),&:lang(be),&:lang(bg),&:lang(mk),&:lang(mn),&:lang(ru),&:lang(uk),&:lang(ab),&:lang(abq),&:lang(ady),&:lang(alt),&:lang(av),&:lang(ba),&:lang(bua),&:lang(ce),&:lang(chm),&:lang(cjs),&:lang(ckt),&:lang(crh),&:lang(cv),&:lang(dar),&:lang(dng),&:lang(evn),&:lang(gld),&:lang(kaa),&:lang(kbd),&:lang(kca),&:lang(kjh),&:lang(koi),&:lang(kpy),&:lang(krc),&:lang(kum),&:lang(kv),&:lang(lbe),&:lang(lez),&:lang(mdf),&:lang(mns),&:lang(mrj),&:lang(myv),&:lang(nog),&:lang(os),&:lang(rue),&:lang(sah),&:lang(sel),&:lang(tab),&:lang(tt),&:lang(tyv),&:lang(ude),&:lang(xal),&:lang(yrk) {
+		font-family: $base-sans,$cyrillic-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(Cyrl) {
-	font-family: $base-serif,$cyrillic-serif,serif;
-	direction: ltr;
+.lf-serif {
+	&:lang(Cyrl),&:lang(be),&:lang(bg),&:lang(mk),&:lang(mn),&:lang(ru),&:lang(uk),&:lang(ab),&:lang(abq),&:lang(ady),&:lang(alt),&:lang(av),&:lang(ba),&:lang(bua),&:lang(ce),&:lang(chm),&:lang(cjs),&:lang(ckt),&:lang(crh),&:lang(cv),&:lang(dar),&:lang(dng),&:lang(evn),&:lang(gld),&:lang(kaa),&:lang(kbd),&:lang(kca),&:lang(kjh),&:lang(koi),&:lang(kpy),&:lang(krc),&:lang(kum),&:lang(kv),&:lang(lbe),&:lang(lez),&:lang(mdf),&:lang(mns),&:lang(mrj),&:lang(myv),&:lang(nog),&:lang(os),&:lang(rue),&:lang(sah),&:lang(sel),&:lang(tab),&:lang(tt),&:lang(tyv),&:lang(ude),&:lang(xal),&:lang(yrk) {
+		font-family: $base-serif,$cyrillic-serif,serif;
+		direction: ltr;
+	}
 }

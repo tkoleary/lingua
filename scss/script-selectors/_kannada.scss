@@ -1,17 +1,26 @@
 // Kannada script
 
-*:lang(kn),
-.lf-sans:lang(kn) {
-	font-family: $base-sans,$kannada-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Knda),
+	&:lang(kn) {
+		font-family: $base-sans,$kannada-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-sans-ui:lang(kn) {
-	font-family: $base-sans,$kannada-sans-ui,sans-serif;
-	direction: ltr;
+.lf-sans-ui {
+	&:lang(Knda),
+	&:lang(kn) {
+		font-family: $base-sans,$kannada-sans-ui,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(kn) {
-	font-family: $base-serif,$kannada-serif,serif;
-	direction: ltr;
+.lf-serif {
+	&:lang(Knda),
+	&:lang(kn) {
+		font-family: $base-serif,$kannada-serif,serif;
+		direction: ltr;
+	}
 }

@@ -1,12 +1,16 @@
 // Canadian Aboriginal symbols
 
-*:lang(Cans),*:lang(chp),*:lang(cr),*:lang(crj),*:lang(crk),*:lang(crl),*:lang(crm),*:lang(csw),*:lang(den),*:lang(iu),*:lang(nsk),*:lang(oj),
-.lf-sans:lang(Cans) {
-	font-family: $base-sans,$c-aboriginal-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Cans),&:lang(chp),&:lang(cr),&:lang(crj),&:lang(crk),&:lang(crl),&:lang(crm),&:lang(csw),&:lang(den),&:lang(iu),&:lang(nsk),&:lang(oj) {
+		font-family: $base-sans,$c-aboriginal-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(Cans) {
-	font-family: $base-serif,$c-aboriginal-serif,serif;
-	direction: ltr;
+.lf-serif {
+	&:lang(Cans),&:lang(chp),&:lang(cr),&:lang(crj),&:lang(crk),&:lang(crl),&:lang(crm),&:lang(csw),&:lang(den),&:lang(iu),&:lang(nsk),&:lang(oj) {
+		font-family: $base-serif,$c-aboriginal-serif,serif;
+		direction: ltr;
+	}
 }

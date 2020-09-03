@@ -2,7 +2,6 @@
 
 *,
 .lf-sans {
-
 	&:lang(Thaa),
 	&:lang(dv) {
 		font-family: $base-sans,$arabic-sans,$thaana-sans,sans-serif; // Thaana borrows some arabic punctuation
@@ -12,7 +11,6 @@
 
 
 .lf-serif {
-
 	&:lang(Thaa),
 	&:lang(dv) {
 		font-family: $base-serif,$arabic-serif,$thaana-serif,serif; // Thaana borrows some arabic punctuation

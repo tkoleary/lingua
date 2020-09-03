@@ -1,0 +1,18 @@
+// Sora-sompeng script
+
+*,
+.lf-sans {
+	&:lang(Sora),
+	&:lang(srb) {
+		font-family: $base-sans,$sora-sompeng-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+	&:lang(Sora),
+	&:lang(srb) {
+		font-family: $base-sans,$sora-sompeng-serif,serif;
+		direction: ltr;
+	}
+}

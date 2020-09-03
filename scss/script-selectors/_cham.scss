@@ -1,0 +1,22 @@
+// Cham script
+
+*,
+.lf-sans {
+	&:lang(Cham),
+	&:lang(cja),
+	&:lang(cjm) {
+		font-family: $base-sans,$cham-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+/*
+.lf-serif {
+	&:lang(Cham),
+	&:lang(cja),
+	&:lang(cjm) {
+		font-family: $base-serif,$cham-serif,serif;
+		direction: ltr;
+	}
+}
+*/

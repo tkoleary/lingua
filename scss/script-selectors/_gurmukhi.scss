@@ -1,12 +1,18 @@
 // Gurmukhi script
 
-*:lang(gi),
-.lf-sans:lang(gi) {
-	font-family: $base-sans,$gurmukhi-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Guru),
+	&:lang(gi) {
+		font-family: $base-sans,$gurmukhi-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(gi) {
-	font-family: $base-serif,$gurmukhi-serif,serif;
-	direction: ltr;
+.lf-serif {
+	&:lang(Guru),
+	&:lang(gi) {
+		font-family: $base-serif,$gurmukhi-serif,serif;
+		direction: ltr;
+	}
 }

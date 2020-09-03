@@ -16,6 +16,7 @@
 // Import files to load scripts based on the :lang property
 
 // Files for languages that may be written in more than one script
+@import "script-selectors/latin-arabic";
 @import "script-selectors/latin-cyrillic";
 @import "script-selectors/latin-cyrillic-arabic";
 @import "script-selectors/latin-arabic-devanagari";
@@ -30,37 +31,47 @@
 @import "script-selectors/buginese";
 @import "script-selectors/buhid";
 @import "script-selectors/canadian-aboriginal";
+@import "script-selectors/cham";
 @import "script-selectors/cherokee";
 @import "script-selectors/chinese";
 @import "script-selectors/cyrillic";
 @import "script-selectors/devanagari";
 @import "script-selectors/ethiopic";
 @import "script-selectors/georgian";
+@import "script-selectors/grantha";
 @import "script-selectors/greek";
 @import "script-selectors/gujarati";
 @import "script-selectors/gurmukhi";
+@import "script-selectors/hanifi-rohingya";
 @import "script-selectors/hebrew";
 @import "script-selectors/japanese";
 @import "script-selectors/kannada";
 @import "script-selectors/khmer";
 @import "script-selectors/korean";
-@import "script-selectors/latin";
 @import "script-selectors/lao";
+@import "script-selectors/latin";
 @import "script-selectors/limbu";
+@import "script-selectors/lisu";
 @import "script-selectors/malayalam";
 @import "script-selectors/myanmar";
+//@import "script-selectors/naskh-arabic";
+@import "script-selectors/nko";
 @import "script-selectors/oriya";
+//@import "script-selectors/rashi-hebrew";
 @import "script-selectors/sinhala";
+@import "script-selectors/sora-sompeng";
 @import "script-selectors/tagalog";
-@import "script-selectors/tamil";
+//@import "script-selectors/takri";
 @import "script-selectors/tai-le";
 @import "script-selectors/tai-tham";
 @import "script-selectors/tai-viet";
+@import "script-selectors/tamil";
 @import "script-selectors/telugu";
 @import "script-selectors/thaana";
 @import "script-selectors/thai";
 @import "script-selectors/tibetan";
 @import "script-selectors/warang-citi";
+@import "script-selectors/zanabazar";
 
 // Import the classes for weights and widths
 @import "classes/weights";

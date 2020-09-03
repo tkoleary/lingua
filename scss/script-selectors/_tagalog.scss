@@ -2,8 +2,7 @@
 
 *,
 .lf-sans {
-
-	//&:lang(Scrp),
+	&:lang(Tglg),
 	&:lang(fil) {
 		font-family: $base-sans,$tagalog-sans,sans-serif;
 		direction: ltr;
@@ -12,8 +11,7 @@
 
 /*
 .lf-sans-ui {
-
-	&:lang(Scrp),
+	&:lang(Tglg),
 	&:lang(fil) {
 		font-family: $base-sans,$tagalog-sans-ui,sans-serif;
 		direction: ltr;
@@ -22,8 +20,7 @@
 */
 
 .lf-serif {
-
-	//&:lang(Scrp),
+	&:lang(Tglg),
 	&:lang(fil) {
 		font-family: $base-serif,$tagalog-serif,serif;
 		direction: ltr;

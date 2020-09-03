@@ -1,12 +1,18 @@
 // Cherokee script
 
-*:lang(chr),
-.lf-sans:lang(chr) {
-	font-family: $base-sans,$cherokee-sans,sans-serif;
-	direction: ltr;
+*,
+.lf-sans {
+	&:lang(Cher),
+	&:lang(chr) {
+		font-family: $base-sans,$cherokee-sans,sans-serif;
+		direction: ltr;
+	}
 }
 
-.lf-serif:lang(chr) {
-	font-family: $base-serif,$cherokee-serif,serif;
-	direction: ltr;
+.lf-serif {
+	&:lang(Cher),
+	&:lang(chr) {
+		font-family: $base-serif,$cherokee-serif,serif;
+		direction: ltr;
+	}
 }

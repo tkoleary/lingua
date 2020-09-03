@@ -1,0 +1,22 @@
+// N'Ko script
+
+*,
+.lf-sans {
+	&:lang(Nkoo),
+	&:lang(bm),
+	&:lang(man),
+	&:lang(nqo)  {
+		font-family: $base-sans,$nko-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+	&:lang(Nkoo),
+	&:lang(bm),
+	&:lang(man),
+	&:lang(nqo)  {
+		font-family: $base-serif,$nko-serif,serif;
+		direction: ltr;
+	}
+}

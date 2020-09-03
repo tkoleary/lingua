@@ -1167,7 +1167,7 @@
   unicode-range: U+1A20-1AAF;
 }
 @font-face {
-  font-family: "Noto Sans TaiViet";
+  font-family: "Noto Sans Tai Viet";
   src: url("fonts/NotoSansTaiViet-VF-subset.woff2") format("woff2"), url("fonts/NotoSansTaiViet-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -1717,6 +1717,59 @@ html .lf-latin-mono {
   font-display: swap;
 }
 
+*:lang(Arab), *:lang(ar), *:lang(bal), *:lang(brh), *:lang(dyo), *:lang(ha), *:lang(id), *:lang(ms), *:lang(so), *:lang(sus), *:lang(swb), *:lang(tr), *:lang(tru), *:lang(wo),
+.lf-sans:lang(Arab),
+.lf-sans:lang(ar),
+.lf-sans:lang(bal),
+.lf-sans:lang(brh),
+.lf-sans:lang(dyo),
+.lf-sans:lang(ha),
+.lf-sans:lang(id),
+.lf-sans:lang(ms),
+.lf-sans:lang(so),
+.lf-sans:lang(sus),
+.lf-sans:lang(swb),
+.lf-sans:lang(tr),
+.lf-sans:lang(tru),
+.lf-sans:lang(wo) {
+  font-family: "Noto Sans Latin", "Noto Sans Arabic", sans-serif;
+  direction: rtl;
+}
+
+.lf-serif:lang(Arab) {
+  font-family: "Noto Serif Latin", "Noto Serif Arabic", serif;
+  direction: rtl;
+}
+
+/*
+// Use Arabic script where explicit
+&:lang(Arab),&:lang(ar-Arab),&:lang(bal-Arab),&:lang(brh-Arab),&:lang(dyo-Arab),&:lang(ha-Arab),&:lang(id-Arab),&:lang(ms-Arab),&:lang(so-Arab),&:lang(sus-Arab),&:lang(swb-Arab),&:lang(tr-Arab),&:lang(tru-Arab),&:lang(wo-Arab) {
+  font-family: $base-sans,$arabic-sans,sans-serif;
+  direction: rtl;
+
+	.lf-sans {
+		font-family: $base-sans,$arabic-sans,sans-serif;
+	}
+
+	.lf-serif {
+		font-family: $base-serif,$arabic-serif,serif;
+	}
+}
+
+// Usse Latin script where explicit
+&:lang(Latn),&:lang(ar-Latn),&:lang(bal-Latn),&:lang(brh-Latn),&:lang(dyo-Latn),&:lang(ha-Latn),&:lang(id-Latn),&:lang(ms-Latn),&:lang(so-Latn),&:lang(sus-Latn),&:lang(swb-Latn),&:lang(tr-Latn),&:lang(tru-Latn),&:lang(wo-Latn) {
+  font-family: $base-sans,$latin-sans,sans-serif;
+  direction: ltr;
+
+	.lf-sans {
+		font-family: $base-sans,$latin-sans,sans-serif;
+	}
+
+	.lf-serif {
+		font-family: $base-serif,$latin-serif,serif;
+	}
+}
+*/
 *:lang(ro), *:lang(sr), *:lang(gag), *:lang(bs), *:lang(rom), *:lang(se), *:lang(tkr), *:lang(udm) {
   font-family: "Noto Sans Latin", "Noto Sans LGC", sans-serif;
   direction: ltr;
@@ -1770,7 +1823,8 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-*:lang(hi), *:lang(hif), *:lang(ks), *:lang(sd),
+*:lang(Deva), *:lang(hi), *:lang(hif), *:lang(ks), *:lang(sd),
+.lf-sans:lang(Deva),
 .lf-sans:lang(hi),
 .lf-sans:lang(hif),
 .lf-sans:lang(ks),
@@ -1779,7 +1833,7 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-.lf-serif:lang(hi), .lf-serif:lang(hif), .lf-serif:lang(ks), .lf-serif:lang(sd) {
+.lf-serif:lang(Deva), .lf-serif:lang(hi), .lf-serif:lang(hif), .lf-serif:lang(ks), .lf-serif:lang(sd) {
   font-family: "Noto Sans Latin", "Noto Serif Devanagari", serif;
 }
 
@@ -1884,50 +1938,62 @@ html .lf-latin-mono {
   direction: rtl;
 }
 
-.lf-sans-ui:lang(Arab), .lf-sans-ui:lang(ar) {
+.lf-sans-ui:lang(Arab), .lf-sans-ui:lang(ar), .lf-sans-ui:lang(fa), .lf-sans-ui:lang(ps), .lf-sans-ui:lang(ur), .lf-sans-ui:lang(wni), .lf-sans-ui:lang(zdj), .lf-sans-ui:lang(aeb), .lf-sans-ui:lang(arq), .lf-sans-ui:lang(ars), .lf-sans-ui:lang(ary), .lf-sans-ui:lang(arz), .lf-sans-ui:lang(bej), .lf-sans-ui:lang(bgn), .lf-sans-ui:lang(bqi), .lf-sans-ui:lang(ckb), .lf-sans-ui:lang(dcc), .lf-sans-ui:lang(doi), .lf-sans-ui:lang(fia), .lf-sans-ui:lang(gbz), .lf-sans-ui:lang(gjk), .lf-sans-ui:lang(gju), .lf-sans-ui:lang(glk), .lf-sans-ui:lang(haz), .lf-sans-ui:lang(hnd), .lf-sans-ui:lang(hno), .lf-sans-ui:lang(khw), .lf-sans-ui:lang(kvx), .lf-sans-ui:lang(kxp), .lf-sans-ui:lang(lah), .lf-sans-ui:lang(lki), .lf-sans-ui:lang(lrc), .lf-sans-ui:lang(luz), .lf-sans-ui:lang(mfa), .lf-sans-ui:lang(mvy), .lf-sans-ui:lang(mzn), .lf-sans-ui:lang(prd), .lf-sans-ui:lang(rmt), .lf-sans-ui:lang(sdh), .lf-sans-ui:lang(skr), .lf-sans-ui:lang(trw) {
   font-family: "Noto Sans Latin", "Noto Sans Arabic UI", sans-serif;
   direction: rtl;
 }
 
-*:lang(hy),
+.lf-sans .lf-naskh:lang(Arab), .lf-sans .lf-naskh:lang(ar), .lf-sans .lf-naskh:lang(fa), .lf-sans .lf-naskh:lang(ps), .lf-sans .lf-naskh:lang(ur), .lf-sans .lf-naskh:lang(wni), .lf-sans .lf-naskh:lang(zdj), .lf-sans .lf-naskh:lang(aeb), .lf-sans .lf-naskh:lang(arq), .lf-sans .lf-naskh:lang(ars), .lf-sans .lf-naskh:lang(ary), .lf-sans .lf-naskh:lang(arz), .lf-sans .lf-naskh:lang(bej), .lf-sans .lf-naskh:lang(bgn), .lf-sans .lf-naskh:lang(bqi), .lf-sans .lf-naskh:lang(ckb), .lf-sans .lf-naskh:lang(dcc), .lf-sans .lf-naskh:lang(doi), .lf-sans .lf-naskh:lang(fia), .lf-sans .lf-naskh:lang(gbz), .lf-sans .lf-naskh:lang(gjk), .lf-sans .lf-naskh:lang(gju), .lf-sans .lf-naskh:lang(glk), .lf-sans .lf-naskh:lang(haz), .lf-sans .lf-naskh:lang(hnd), .lf-sans .lf-naskh:lang(hno), .lf-sans .lf-naskh:lang(khw), .lf-sans .lf-naskh:lang(kvx), .lf-sans .lf-naskh:lang(kxp), .lf-sans .lf-naskh:lang(lah), .lf-sans .lf-naskh:lang(lki), .lf-sans .lf-naskh:lang(lrc), .lf-sans .lf-naskh:lang(luz), .lf-sans .lf-naskh:lang(mfa), .lf-sans .lf-naskh:lang(mvy), .lf-sans .lf-naskh:lang(mzn), .lf-sans .lf-naskh:lang(prd), .lf-sans .lf-naskh:lang(rmt), .lf-sans .lf-naskh:lang(sdh), .lf-sans .lf-naskh:lang(skr), .lf-sans .lf-naskh:lang(trw) {
+  font-family: "Noto Sans Latin", "Noto Naskh Arabic", sans-serif;
+  direction: rtl;
+}
+
+.lf-serif .lf-naskh:lang(Arab), .lf-serif .lf-naskh:lang(ar), .lf-serif .lf-naskh:lang(fa), .lf-serif .lf-naskh:lang(ps), .lf-serif .lf-naskh:lang(ur), .lf-serif .lf-naskh:lang(wni), .lf-serif .lf-naskh:lang(zdj), .lf-serif .lf-naskh:lang(aeb), .lf-serif .lf-naskh:lang(arq), .lf-serif .lf-naskh:lang(ars), .lf-serif .lf-naskh:lang(ary), .lf-serif .lf-naskh:lang(arz), .lf-serif .lf-naskh:lang(bej), .lf-serif .lf-naskh:lang(bgn), .lf-serif .lf-naskh:lang(bqi), .lf-serif .lf-naskh:lang(ckb), .lf-serif .lf-naskh:lang(dcc), .lf-serif .lf-naskh:lang(doi), .lf-serif .lf-naskh:lang(fia), .lf-serif .lf-naskh:lang(gbz), .lf-serif .lf-naskh:lang(gjk), .lf-serif .lf-naskh:lang(gju), .lf-serif .lf-naskh:lang(glk), .lf-serif .lf-naskh:lang(haz), .lf-serif .lf-naskh:lang(hnd), .lf-serif .lf-naskh:lang(hno), .lf-serif .lf-naskh:lang(khw), .lf-serif .lf-naskh:lang(kvx), .lf-serif .lf-naskh:lang(kxp), .lf-serif .lf-naskh:lang(lah), .lf-serif .lf-naskh:lang(lki), .lf-serif .lf-naskh:lang(lrc), .lf-serif .lf-naskh:lang(luz), .lf-serif .lf-naskh:lang(mfa), .lf-serif .lf-naskh:lang(mvy), .lf-serif .lf-naskh:lang(mzn), .lf-serif .lf-naskh:lang(prd), .lf-serif .lf-naskh:lang(rmt), .lf-serif .lf-naskh:lang(sdh), .lf-serif .lf-naskh:lang(skr), .lf-serif .lf-naskh:lang(trw) {
+  font-family: "Noto Sans Latin", "Noto Naskh Arabic", sans-serif;
+  direction: rtl;
+}
+
+*:lang(Armn), *:lang(hy),
+.lf-sans:lang(Armn),
 .lf-sans:lang(hy) {
   font-family: "Noto Sans Latin", "Noto Sans Armenian", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(hy) {
+.lf-serif:lang(Armn), .lf-serif:lang(hy) {
   font-family: "Noto Serif Latin", "Noto Serif Armenian", serif;
   direction: ltr;
 }
 
-*:lang(bax),
+*:lang(Bamu), *:lang(bax),
+.lf-sans:lang(Bamu),
 .lf-sans:lang(bax) {
   font-family: "Noto Sans Latin", "Noto Sans Bamum", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(bax) {
+.lf-serif:lang(Bamu), .lf-serif:lang(bax) {
   font-family: "Noto Serif Latin", "", serif;
 }
 
-*:lang(bn),
+*:lang(Beng), *:lang(bn),
+.lf-sans:lang(Beng),
 .lf-sans:lang(bn) {
   font-family: "Noto Sans Latin", "Noto Sans Devanagari", "Noto Sans Bengali", sans-serif;
   direction: ltr;
 }
 
-*:lang(bn),
-.lf-sans-ui:lang(bn) {
+.lf-sans-ui:lang(Beng), .lf-sans-ui:lang(bn) {
   font-family: "Noto Sans Latin", "Noto Sans Devanagari UI", "Noto Sans Bengali UI", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(bn) {
+.lf-serif:lang(Beng), .lf-serif:lang(bn) {
   font-family: "Noto Serif Latin", "Noto Serif Devanagari", "Noto Serif Bengali", serif;
   direction: ltr;
 }
 
-*:lang(Brah),
+*,
 .lf-sans:lang(Brah) {
   font-family: "Noto Sans Latin", "Noto Sans Brahmi", sans-serif;
   direction: ltr;
@@ -1938,46 +2004,78 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-*:lang(bug),
+*:lang(Bugi), *:lang(bug),
+.lf-sans:lang(Bugi),
 .lf-sans:lang(bug) {
   font-family: "Noto Sans Latin", "Noto Sans Buginese", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(bug) {
+.lf-serif:lang(Bugi), .lf-serif:lang(bug) {
   font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
-*:lang(bku),
+*:lang(Buhd), *:lang(bku),
+.lf-sans:lang(Buhd),
 .lf-sans:lang(bku) {
   font-family: "Noto Sans Latin", "Noto Sans Buhid", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(bku) {
+.lf-serif:lang(Buhd), .lf-serif:lang(bku) {
   font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
 *:lang(Cans), *:lang(chp), *:lang(cr), *:lang(crj), *:lang(crk), *:lang(crl), *:lang(crm), *:lang(csw), *:lang(den), *:lang(iu), *:lang(nsk), *:lang(oj),
-.lf-sans:lang(Cans) {
+.lf-sans:lang(Cans),
+.lf-sans:lang(chp),
+.lf-sans:lang(cr),
+.lf-sans:lang(crj),
+.lf-sans:lang(crk),
+.lf-sans:lang(crl),
+.lf-sans:lang(crm),
+.lf-sans:lang(csw),
+.lf-sans:lang(den),
+.lf-sans:lang(iu),
+.lf-sans:lang(nsk),
+.lf-sans:lang(oj) {
   font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(Cans) {
+.lf-serif:lang(Cans), .lf-serif:lang(chp), .lf-serif:lang(cr), .lf-serif:lang(crj), .lf-serif:lang(crk), .lf-serif:lang(crl), .lf-serif:lang(crm), .lf-serif:lang(csw), .lf-serif:lang(den), .lf-serif:lang(iu), .lf-serif:lang(nsk), .lf-serif:lang(oj) {
   font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
-*:lang(chr),
+*:lang(Cham), *:lang(cja), *:lang(cjm),
+.lf-sans:lang(Cham),
+.lf-sans:lang(cja),
+.lf-sans:lang(cjm) {
+  font-family: "Noto Sans Latin", "Noto Sans Cham", sans-serif;
+  direction: ltr;
+}
+
+/*
+.lf-serif {
+	&:lang(Cham),
+	&:lang(cja),
+	&:lang(cjm) {
+		font-family: $base-serif,$cham-serif,serif;
+		direction: ltr;
+	}
+}
+*/
+*:lang(Cher), *:lang(chr),
+.lf-sans:lang(Cher),
 .lf-sans:lang(chr) {
   font-family: "Noto Sans Latin", "Noto Sans Cherokee", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(chr) {
+.lf-serif:lang(Cher), .lf-serif:lang(chr) {
   font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
@@ -2046,27 +2144,129 @@ html .lf-latin-mono {
 }
 
 *:lang(Cyrl), *:lang(be), *:lang(bg), *:lang(mk), *:lang(mn), *:lang(ru), *:lang(uk), *:lang(ab), *:lang(abq), *:lang(ady), *:lang(alt), *:lang(av), *:lang(ba), *:lang(bua), *:lang(ce), *:lang(chm), *:lang(cjs), *:lang(ckt), *:lang(crh), *:lang(cv), *:lang(dar), *:lang(dng), *:lang(evn), *:lang(gld), *:lang(kaa), *:lang(kbd), *:lang(kca), *:lang(kjh), *:lang(koi), *:lang(kpy), *:lang(krc), *:lang(kum), *:lang(kv), *:lang(lbe), *:lang(lez), *:lang(mdf), *:lang(mns), *:lang(mrj), *:lang(myv), *:lang(nog), *:lang(os), *:lang(rue), *:lang(sah), *:lang(sel), *:lang(tab), *:lang(tt), *:lang(tyv), *:lang(ude), *:lang(xal), *:lang(yrk),
-.lf-sans:lang(Cyrl) {
+.lf-sans:lang(Cyrl),
+.lf-sans:lang(be),
+.lf-sans:lang(bg),
+.lf-sans:lang(mk),
+.lf-sans:lang(mn),
+.lf-sans:lang(ru),
+.lf-sans:lang(uk),
+.lf-sans:lang(ab),
+.lf-sans:lang(abq),
+.lf-sans:lang(ady),
+.lf-sans:lang(alt),
+.lf-sans:lang(av),
+.lf-sans:lang(ba),
+.lf-sans:lang(bua),
+.lf-sans:lang(ce),
+.lf-sans:lang(chm),
+.lf-sans:lang(cjs),
+.lf-sans:lang(ckt),
+.lf-sans:lang(crh),
+.lf-sans:lang(cv),
+.lf-sans:lang(dar),
+.lf-sans:lang(dng),
+.lf-sans:lang(evn),
+.lf-sans:lang(gld),
+.lf-sans:lang(kaa),
+.lf-sans:lang(kbd),
+.lf-sans:lang(kca),
+.lf-sans:lang(kjh),
+.lf-sans:lang(koi),
+.lf-sans:lang(kpy),
+.lf-sans:lang(krc),
+.lf-sans:lang(kum),
+.lf-sans:lang(kv),
+.lf-sans:lang(lbe),
+.lf-sans:lang(lez),
+.lf-sans:lang(mdf),
+.lf-sans:lang(mns),
+.lf-sans:lang(mrj),
+.lf-sans:lang(myv),
+.lf-sans:lang(nog),
+.lf-sans:lang(os),
+.lf-sans:lang(rue),
+.lf-sans:lang(sah),
+.lf-sans:lang(sel),
+.lf-sans:lang(tab),
+.lf-sans:lang(tt),
+.lf-sans:lang(tyv),
+.lf-sans:lang(ude),
+.lf-sans:lang(xal),
+.lf-sans:lang(yrk) {
   font-family: "Noto Sans Latin", "Noto Sans LGC", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(Cyrl) {
+.lf-serif:lang(Cyrl), .lf-serif:lang(be), .lf-serif:lang(bg), .lf-serif:lang(mk), .lf-serif:lang(mn), .lf-serif:lang(ru), .lf-serif:lang(uk), .lf-serif:lang(ab), .lf-serif:lang(abq), .lf-serif:lang(ady), .lf-serif:lang(alt), .lf-serif:lang(av), .lf-serif:lang(ba), .lf-serif:lang(bua), .lf-serif:lang(ce), .lf-serif:lang(chm), .lf-serif:lang(cjs), .lf-serif:lang(ckt), .lf-serif:lang(crh), .lf-serif:lang(cv), .lf-serif:lang(dar), .lf-serif:lang(dng), .lf-serif:lang(evn), .lf-serif:lang(gld), .lf-serif:lang(kaa), .lf-serif:lang(kbd), .lf-serif:lang(kca), .lf-serif:lang(kjh), .lf-serif:lang(koi), .lf-serif:lang(kpy), .lf-serif:lang(krc), .lf-serif:lang(kum), .lf-serif:lang(kv), .lf-serif:lang(lbe), .lf-serif:lang(lez), .lf-serif:lang(mdf), .lf-serif:lang(mns), .lf-serif:lang(mrj), .lf-serif:lang(myv), .lf-serif:lang(nog), .lf-serif:lang(os), .lf-serif:lang(rue), .lf-serif:lang(sah), .lf-serif:lang(sel), .lf-serif:lang(tab), .lf-serif:lang(tt), .lf-serif:lang(tyv), .lf-serif:lang(ude), .lf-serif:lang(xal), .lf-serif:lang(yrk) {
   font-family: "Noto Serif Latin", "Noto Serif LGC", serif;
   direction: ltr;
 }
 
 *:lang(Deva), *:lang(anp), *:lang(awa), *:lang(bap), *:lang(bfy), *:lang(bgc), *:lang(bhb), *:lang(bhi), *:lang(bho), *:lang(bjj), *:lang(bra), *:lang(brx), *:lang(btv), *:lang(dty), *:lang(gbm), *:lang(gom), *:lang(gvr), *:lang(hi), *:lang(hne), *:lang(hoc), *:lang(hoj), *:lang(jml), *:lang(kfr), *:lang(kfy), *:lang(khn), *:lang(kok), *:lang(kru), *:lang(mag), *:lang(mai), *:lang(mgp), *:lang(mr), *:lang(mrd), *:lang(mtr), *:lang(mwr), *:lang(ne), *:lang(new), *:lang(noe), *:lang(raj), *:lang(rjs), *:lang(sa), *:lang(sck), *:lang(srx), *:lang(swv), *:lang(tdh), *:lang(thl), *:lang(thq), *:lang(thr), *:lang(tkt), *:lang(wbr), *:lang(wtm), *:lang(xnr), *:lang(xsr),
-.lf-devanagari,
-.lf-sans:lang(Deva) {
+.lf-sans:lang(Deva),
+.lf-sans:lang(anp),
+.lf-sans:lang(awa),
+.lf-sans:lang(bap),
+.lf-sans:lang(bfy),
+.lf-sans:lang(bgc),
+.lf-sans:lang(bhb),
+.lf-sans:lang(bhi),
+.lf-sans:lang(bho),
+.lf-sans:lang(bjj),
+.lf-sans:lang(bra),
+.lf-sans:lang(brx),
+.lf-sans:lang(btv),
+.lf-sans:lang(dty),
+.lf-sans:lang(gbm),
+.lf-sans:lang(gom),
+.lf-sans:lang(gvr),
+.lf-sans:lang(hi),
+.lf-sans:lang(hne),
+.lf-sans:lang(hoc),
+.lf-sans:lang(hoj),
+.lf-sans:lang(jml),
+.lf-sans:lang(kfr),
+.lf-sans:lang(kfy),
+.lf-sans:lang(khn),
+.lf-sans:lang(kok),
+.lf-sans:lang(kru),
+.lf-sans:lang(mag),
+.lf-sans:lang(mai),
+.lf-sans:lang(mgp),
+.lf-sans:lang(mr),
+.lf-sans:lang(mrd),
+.lf-sans:lang(mtr),
+.lf-sans:lang(mwr),
+.lf-sans:lang(ne),
+.lf-sans:lang(new),
+.lf-sans:lang(noe),
+.lf-sans:lang(raj),
+.lf-sans:lang(rjs),
+.lf-sans:lang(sa),
+.lf-sans:lang(sck),
+.lf-sans:lang(srx),
+.lf-sans:lang(swv),
+.lf-sans:lang(tdh),
+.lf-sans:lang(thl),
+.lf-sans:lang(thq),
+.lf-sans:lang(thr),
+.lf-sans:lang(tkt),
+.lf-sans:lang(wbr),
+.lf-sans:lang(wtm),
+.lf-sans:lang(xnr),
+.lf-sans:lang(xsr) {
   font-family: "Noto Sans Latin", "Noto Sans Devanagari", sans-serif;
+  direction: ltr;
 }
 
-.lf-serif:lang(Deva) {
+.lf-serif:lang(Deva), .lf-serif:lang(anp), .lf-serif:lang(awa), .lf-serif:lang(bap), .lf-serif:lang(bfy), .lf-serif:lang(bgc), .lf-serif:lang(bhb), .lf-serif:lang(bhi), .lf-serif:lang(bho), .lf-serif:lang(bjj), .lf-serif:lang(bra), .lf-serif:lang(brx), .lf-serif:lang(btv), .lf-serif:lang(dty), .lf-serif:lang(gbm), .lf-serif:lang(gom), .lf-serif:lang(gvr), .lf-serif:lang(hi), .lf-serif:lang(hne), .lf-serif:lang(hoc), .lf-serif:lang(hoj), .lf-serif:lang(jml), .lf-serif:lang(kfr), .lf-serif:lang(kfy), .lf-serif:lang(khn), .lf-serif:lang(kok), .lf-serif:lang(kru), .lf-serif:lang(mag), .lf-serif:lang(mai), .lf-serif:lang(mgp), .lf-serif:lang(mr), .lf-serif:lang(mrd), .lf-serif:lang(mtr), .lf-serif:lang(mwr), .lf-serif:lang(ne), .lf-serif:lang(new), .lf-serif:lang(noe), .lf-serif:lang(raj), .lf-serif:lang(rjs), .lf-serif:lang(sa), .lf-serif:lang(sck), .lf-serif:lang(srx), .lf-serif:lang(swv), .lf-serif:lang(tdh), .lf-serif:lang(thl), .lf-serif:lang(thq), .lf-serif:lang(thr), .lf-serif:lang(tkt), .lf-serif:lang(wbr), .lf-serif:lang(wtm), .lf-serif:lang(xnr), .lf-serif:lang(xsr) {
   font-family: "Noto Serif Latin", "Noto Serif Devanagari", serif;
+  direction: ltr;
 }
 
-*:lang(am), *:lang(ti), *:lang(byn), *:lang(tig), *:lang(wal),
+*:lang(Ethi), *:lang(am), *:lang(ti), *:lang(byn), *:lang(tig), *:lang(wal),
+.lf-sans:lang(Ethi),
 .lf-sans:lang(am),
 .lf-sans:lang(ti),
 .lf-sans:lang(byn),
@@ -2076,128 +2276,190 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-.lf-serif:lang(am), .lf-serif:lang(ti), .lf-serif:lang(byn), .lf-serif:lang(tig), .lf-serif:lang(wal) {
+.lf-serif:lang(Ethi), .lf-serif:lang(am), .lf-serif:lang(ti), .lf-serif:lang(byn), .lf-serif:lang(tig), .lf-serif:lang(wal) {
   font-family: "Noto Serif Latin", "Noto Serif Ethiopic", serif;
   direction: ltr;
 }
 
-*:lang(ka),
+*:lang(Geor), *:lang(ka),
+.lf-sans:lang(Geor),
 .lf-sans:lang(ka) {
   font-family: "Noto Sans Latin", "Noto Sans Georgian", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(ka) {
+.lf-serif:lang(Geor), .lf-serif:lang(ka) {
   font-family: "Noto Serif Latin", "Noto Serif Georgian", serif;
   direction: ltr;
 }
 
-*:lang(gr),
+*:lang(Gran), *:lang(sa),
+.lf-sans:lang(Gran),
+.lf-sans:lang(sa) {
+  font-family: "Noto Sans Latin", "Noto Sans Grantha", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif:lang(Gran), .lf-serif:lang(sa) {
+  font-family: "Noto Serif Latin", "Noto Serif Grantha", serif;
+  direction: ltr;
+}
+
+*:lang(Grek), *:lang(gr),
+.lf-sans:lang(Grek),
 .lf-sans:lang(gr) {
   font-family: "Noto Sans Latin", "Noto Sans LGC", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(gr) {
+.lf-serif:lang(Grek), .lf-serif:lang(gr) {
   font-family: "Noto Sans Latin", "Noto Serif LGC", serif;
   direction: ltr;
 }
 
-*:lang(gu),
+*:lang(Gujr), *:lang(gu),
+.lf-sans:lang(Gujr),
 .lf-sans:lang(gu) {
   font-family: "Noto Sans Latin", "Noto Sans Gujarati", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(gu) {
+.lf-serif:lang(Gujr), .lf-serif:lang(gu) {
   font-family: "Noto Serif Latin", "Noto Serif Gujarati", serif;
   direction: ltr;
 }
 
-*:lang(gi),
+*:lang(Guru), *:lang(gi),
+.lf-sans:lang(Guru),
 .lf-sans:lang(gi) {
   font-family: "Noto Sans Latin", "Noto Sans Gurmukhi", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(gi) {
+.lf-serif:lang(Guru), .lf-serif:lang(gi) {
   font-family: "Noto Serif Latin", "Noto Serif Gurmukhi", serif;
   direction: ltr;
 }
 
-*:lang(iw):lang(Hebr), *:lang(iw):lang(he),
-*:lang(he):lang(Hebr),
-*:lang(he):lang(he), *:lang(jpr):lang(Hebr), *:lang(jpr):lang(he), *:lang(jrb):lang(Hebr), *:lang(jrb):lang(he), *:lang(lad):lang(Hebr), *:lang(lad):lang(he), *:lang(yi):lang(Hebr), *:lang(yi):lang(he),
+*:lang(Rohg),
+.lf-sans:lang(Rohg) {
+  font-family: "Noto Sans Latin", "Noto Sans Hanifi Rohingya", sans-serif;
+  direction: ltr;
+}
+
+/*
+.lf-serif {
+	&:lang(Rohg) {
+		font-family: $base-serif,$hanifi-rohingya-serif,serif;
+		direction: ltr;
+	}
+}*/
+*:lang(Hebr), *:lang(iw), *:lang(he), *:lang(jpr), *:lang(jrb), *:lang(lad), *:lang(yi),
 .lf-sans:lang(Hebr),
-.lf-sans:lang(he) {
+.lf-sans:lang(iw),
+.lf-sans:lang(he),
+.lf-sans:lang(jpr),
+.lf-sans:lang(jrb),
+.lf-sans:lang(lad),
+.lf-sans:lang(yi) {
   font-family: "Noto Sans Latin", "Noto Sans Hebrew", sans-serif;
   direction: rtl;
 }
 
-.lf-serif:lang(Hebr), .lf-serif:lang(he) {
+.lf-serif:lang(Hebr), .lf-serif:lang(iw), .lf-serif:lang(he), .lf-serif:lang(jpr), .lf-serif:lang(jrb), .lf-serif:lang(lad), .lf-serif:lang(yi) {
   font-family: "Noto Serif Latin", "Noto Serif Hebrew", sans-serif;
   direction: rtl;
 }
 
-*:lang(jp),
+.lf-sans .rashi:lang(Hebr), .lf-sans .rashi:lang(iw), .lf-sans .rashi:lang(he), .lf-sans .rashi:lang(jpr), .lf-sans .rashi:lang(jrb), .lf-sans .rashi:lang(lad), .lf-sans .rashi:lang(yi) {
+  font-family: "Noto Sans Latin", "Noto Rashi Hebrew", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif .rashi:lang(Hebr), .lf-serif .rashi:lang(iw), .lf-serif .rashi:lang(he), .lf-serif .rashi:lang(jpr), .lf-serif .rashi:lang(jrb), .lf-serif .rashi:lang(lad), .lf-serif .rashi:lang(yi) {
+  font-family: "Noto Serif Latin", "Noto Serif Rashi Hebrew", serif;
+  direction: ltr;
+}
+
+*:lang(Jpan), *:lang(jp),
+.lf-sans:lang(Jpan),
 .lf-sans:lang(jp) {
   font-family: "Noto Sans Latin", "Noto Sans JP", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(jp) {
+.lf-serif:lang(Jpan), .lf-serif:lang(jp) {
   font-family: "Noto Serif Latin", "Noto Serif JP", serif;
   direction: ltr;
 }
 
-*:lang(kn),
+*:lang(Knda), *:lang(kn),
+.lf-sans:lang(Knda),
 .lf-sans:lang(kn) {
   font-family: "Noto Sans Latin", "Noto Sans Kannada", sans-serif;
   direction: ltr;
 }
 
-.lf-sans-ui:lang(kn) {
+.lf-sans-ui:lang(Knda), .lf-sans-ui:lang(kn) {
   font-family: "Noto Sans Latin", "Noto Sans Kannada UI", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(kn) {
+.lf-serif:lang(Knda), .lf-serif:lang(kn) {
   font-family: "Noto Serif Latin", "Noto Serif Kannada", serif;
   direction: ltr;
 }
 
-*:lang(km),
+*:lang(Khmr), *:lang(km),
+.lf-sans:lang(Khmr),
 .lf-sans:lang(km) {
   font-family: "Noto Sans Latin", "Noto Sans Khmer", sans-serif;
   direction: ltr;
 }
 
-.lf-sans-ui:lang(km) {
+.lf-sans-ui:lang(Khmr), .lf-sans-ui:lang(km) {
   font-family: "Noto Sans Latin", "Noto Sans Khmer UI", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(km) {
+.lf-serif:lang(Khmr), .lf-serif:lang(km) {
   font-family: "Noto Sans Latin", "Noto Serif Khmer", serif;
   direction: ltr;
 }
 
-*:lang(ko),
+*:lang(Kore), *:lang(ko),
+.lf-sans:lang(Kore),
 .lf-sans:lang(ko) {
   font-family: "Noto Sans KR", sans-serif;
   direction: ltr;
 }
 
 /*.lf-sans-ui {
-
-	//&:lang(Scrp),
+	&:lang(Kore),
 	&:lang(ko) {
 		font-family: $korean-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }*/
-.lf-serif:lang(ko) {
+.lf-serif:lang(Kore), .lf-serif:lang(ko) {
   font-family: "Noto Serif KR", serif;
+  direction: ltr;
+}
+
+*:lang(Laoo), *:lang(lo),
+.lf-sans:lang(Laoo),
+.lf-sans:lang(lo) {
+  font-family: "Noto Sans Latin", "Noto Sans Lao", sans-serif;
+  direction: ltr;
+}
+
+.lf-sans-ui:lang(Laoo), .lf-sans-ui:lang(lo) {
+  font-family: "Noto Sans Latin", "Noto Sans Lao UI", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif:lang(Laoo), .lf-serif:lang(lo) {
+  font-family: "Noto Serif Latin", "Noto Serif Lao", serif;
   direction: ltr;
 }
 
@@ -4279,23 +4541,8 @@ code:lang(zza),
   direction: ltr;
 }
 
-*:lang(lo),
-.lf-sans:lang(lo) {
-  font-family: "Noto Sans Latin", "Noto Sans Lao", sans-serif;
-  direction: ltr;
-}
-
-.lf-sans-ui:lang(lo) {
-  font-family: "Noto Sans Latin", "Noto Sans Lao UI", sans-serif;
-  direction: ltr;
-}
-
-.lf-serif:lang(lo) {
-  font-family: "Noto Serif Latin", "Noto Serif Lao", serif;
-  direction: ltr;
-}
-
-*:lang(lif),
+*:lang(Limb), *:lang(lif),
+.lf-sans:lang(Limb),
 .lf-sans:lang(lif) {
   font-family: "Noto Sans Latin", "Noto Sans Limbu", sans-serif;
   direction: ltr;
@@ -4303,9 +4550,25 @@ code:lang(zza),
 
 /*
 .lf-serif:
-
+	&:lang(Limb),
 	&:lang(lif) {
 		font-family: $base-serif,$limbu-serif,serif;
+		direction: ltr;
+	}
+}
+*/
+*:lang(Lisu), *:lang(lis),
+.lf-sans:lang(Lisu),
+.lf-sans:lang(lis) {
+  font-family: "Noto Sans Latin", "Noto Sans Lisu", sans-serif;
+  direction: ltr;
+}
+
+/*
+.lf-serif {
+	&:lang(Lisu),
+	&:lang(lis) {
+		font-family: $base-serif,$lisu-serif,serif;
 		direction: ltr;
 	}
 }
@@ -4332,26 +4595,50 @@ code:lang(zza),
   overflow-wrap: break-word;
 }
 
-*:lang(my),
+*:lang(Mymr), *:lang(my),
+.lf-sans:lang(Mymr),
 .lf-sans:lang(my) {
   font-family: "Noto Sans Latin", "Noto Sans Myanmar", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(my) {
+.lf-sans-ui:lang(Mymr), .lf-sans-ui:lang(my) {
+  font-family: "Noto Sans Latin", "Noto Sans Myanmar UI", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif:lang(Mymr), .lf-serif:lang(my) {
   font-family: "Noto Serif Latin", "Noto Serif Myanmar", serif;
   direction: ltr;
 }
 
-*:lang(or),
+*:lang(Nkoo), *:lang(bm), *:lang(man), *:lang(nqo),
+.lf-sans:lang(Nkoo),
+.lf-sans:lang(bm),
+.lf-sans:lang(man),
+.lf-sans:lang(nqo) {
+  font-family: "Noto Sans Latin", "Noto Sans NKo", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif:lang(Nkoo), .lf-serif:lang(bm), .lf-serif:lang(man), .lf-serif:lang(nqo) {
+  font-family: "Noto Serif Latin", "Noto Serif NKo", serif;
+  direction: ltr;
+}
+
+*:lang(Orya), *:lang(ori), *:lang(or),
+.lf-sans:lang(Orya),
+.lf-sans:lang(ori),
 .lf-sans:lang(or) {
   font-family: "Noto Sans Latin", "Noto Sans Oriya", sans-serif;
   direction: ltr;
 }
 
-/*.lf-sans-ui {
+/*
+.lf-sans-ui {
 
-	//&:lang(Scrp),
+	&:lang(Orya),
+	&:lang(ori),
 	&:lang(or) {
 		font-family: $base-sans,$oriya-sans-ui,sans-serif;
 		direction: ltr;
@@ -4359,13 +4646,14 @@ code:lang(zza),
 }
 
 .lf-serif {
-
-	//&:lang(Scrp),
+	&:lang(Orya),
+	&:lang(ori),
 	&:lang(or) {
 		font-family: $base-serif,$oriya-serif,serif;
 		direction: ltr;
 	}
-}*/
+}
+*/
 *:lang(Sinh), *:lang(si),
 .lf-sans:lang(Sinh),
 .lf-sans:lang(si) {
@@ -4383,7 +4671,20 @@ code:lang(zza),
   direction: ltr;
 }
 
-*:lang(fil),
+*:lang(Sora), *:lang(srb),
+.lf-sans:lang(Sora),
+.lf-sans:lang(srb) {
+  font-family: "Noto Sans Latin", "Noto Sans Sora Sompeng", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif:lang(Sora), .lf-serif:lang(srb) {
+  font-family: "Noto Sans Latin", "Noto Serif Sora Sompeng", serif;
+  direction: ltr;
+}
+
+*:lang(Tglg), *:lang(fil),
+.lf-sans:lang(Tglg),
 .lf-sans:lang(fil) {
   font-family: "Noto Sans Latin", "Noto Sans Tagalog", sans-serif;
   direction: ltr;
@@ -4391,33 +4692,15 @@ code:lang(zza),
 
 /*
 .lf-sans-ui {
-
-	&:lang(Scrp),
+	&:lang(Tglg),
 	&:lang(fil) {
 		font-family: $base-sans,$tagalog-sans-ui,sans-serif;
 		direction: ltr;
 	}
 }
 */
-.lf-serif:lang(fil) {
+.lf-serif:lang(Tglg), .lf-serif:lang(fil) {
   font-family: "Noto Serif Latin", "", serif;
-  direction: ltr;
-}
-
-*:lang(Taml), *:lang(ta),
-.lf-sans:lang(Taml),
-.lf-sans:lang(ta) {
-  font-family: "Noto Sans Latin", "Noto Sans Tamil", sans-serif;
-  direction: ltr;
-}
-
-.lf-sans-ui:lang(Taml), .lf-sans-ui:lang(ta) {
-  font-family: "Noto Sans Latin", "Noto Sans Tamil UI", sans-serif;
-  direction: ltr;
-}
-
-.lf-serif:lang(Taml), .lf-serif:lang(ta) {
-  font-family: "Noto Serif Latin", "Noto Serif Tamil", serif;
   direction: ltr;
 }
 
@@ -4429,7 +4712,6 @@ code:lang(zza),
 }
 
 /*.lf-sans-ui {
-
 	&:lang(Tale),
 	&:lang(tdd) {
 		font-family: $base-sans,$tai-le-sans-ui,sans-serif;
@@ -4449,7 +4731,6 @@ code:lang(zza),
 }
 
 /*.lf-sans-ui {
-
 	&:lang(Lana),
 	&:lang(kkh) {
 		font-family: $base-sans,$tai-tham-sans-ui,sans-serif;
@@ -4469,7 +4750,6 @@ code:lang(zza),
 }
 
 /*.lf-sans-ui {
-
 	&:lang(Tavt),
 	&:lang(bit) {
 		font-family: $base-sans,$tai-viet-sans-ui,sans-serif;
@@ -4478,6 +4758,23 @@ code:lang(zza),
 }*/
 .lf-serif:lang(Tavt), .lf-serif:lang(bit) {
   font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+
+*:lang(Taml), *:lang(ta),
+.lf-sans:lang(Taml),
+.lf-sans:lang(ta) {
+  font-family: "Noto Sans Latin", "Noto Sans Tamil", sans-serif;
+  direction: ltr;
+}
+
+.lf-sans-ui:lang(Taml), .lf-sans-ui:lang(ta) {
+  font-family: "Noto Sans Latin", "Noto Sans Tamil UI", sans-serif;
+  direction: ltr;
+}
+
+.lf-serif:lang(Taml), .lf-serif:lang(ta) {
+  font-family: "Noto Serif Latin", "Noto Serif Tamil", serif;
   direction: ltr;
 }
 
@@ -4540,17 +4837,42 @@ code:lang(zza),
   direction: ltr;
 }
 
-*:lang(hoc),
+*:lang(Wara), *:lang(hoc),
+.lf-sans:lang(Wara),
 .lf-sans:lang(hoc) {
   font-family: "Noto Sans Latin", "Noto Sans Warang Citi", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(hoc) {
+.lf-serif:lang(Wara), .lf-serif:lang(hoc) {
   ont-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
 
+*:lang(Zanb), *:lang(za),
+.lf-sans:lang(Zanb),
+.lf-sans:lang(za) {
+  font-family: "Noto Sans Latin", "Noto Sans Zanabazar Square", sans-serif;
+  direction: ltr;
+}
+
+/*
+.lf-sans-ui {
+	&:lang(Zanb),
+	&:lang(za) {
+		font-family: $base-sans,$zanabazar-square-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+	&:lang(Zanb),
+	&:lang(za) {
+		font-family: $base-serif,$zanabazar-square-serif,serif;
+		direction: ltr;
+	}
+}
+*/
 strong {
   font-weight: 700;
   font-variation-settings: "wdth" 100, "wght" 700;

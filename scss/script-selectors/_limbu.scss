@@ -2,7 +2,7 @@
 
 *,
 .lf-sans {
-
+	&:lang(Limb),
 	&:lang(lif) {
 		font-family: $base-sans,$limbu-sans,sans-serif;
 		direction: ltr;
@@ -11,7 +11,7 @@
 
 /*
 .lf-serif:
-
+	&:lang(Limb),
 	&:lang(lif) {
 		font-family: $base-serif,$limbu-serif,serif;
 		direction: ltr;

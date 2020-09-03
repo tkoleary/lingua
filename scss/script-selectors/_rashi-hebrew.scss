@@ -1,7 +1,7 @@
 // Rashi hebrew script languages
 
 .lf-sans .rashi {
-
+	&:lang(Hebr),
 	&:lang(iw), // Hebrew deprecated, but keep for backwards compatibility
 	&:lang(he),
 	&:lang(jpr),
@@ -14,7 +14,7 @@
 }
 
 .lf-serif .rashi {
-
+	&:lang(Hebr),
 	&:lang(iw), // Hebrew deprecated, but keep for backwards compatibility
 	&:lang(he),
 	&:lang(jpr),

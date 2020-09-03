@@ -2,7 +2,6 @@
 
 *,
 .lf-sans {
-
 	&:lang(Sinh),
 	&:lang(si) {
 		font-family: $base-sans,$sinhala-sans,sans-serif;
@@ -11,7 +10,6 @@
 }
 
 .lf-sans-ui {
-
 	&:lang(Sinh),
 	&:lang(si) {
 		font-family: $base-sans,$sinhala-sans-ui,sans-serif;
@@ -20,7 +18,6 @@
 }
 
 .lf-serif {
-
 	&:lang(Sinh),
 	&:lang(si) {
 		font-family: $base-serif,$sinhala-serif,serif;

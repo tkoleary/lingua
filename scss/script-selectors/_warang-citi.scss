@@ -2,7 +2,7 @@
 
 *,
 .lf-sans {
-
+	&:lang(Wara),
 	&:lang(hoc) {
 		font-family: $base-sans,$warang-citi-sans,sans-serif;
 		direction: ltr;
@@ -10,7 +10,7 @@
 }
 
 .lf-serif {
-
+	&:lang(Wara),
 	&:lang(hoc) {
 		ont-family: $base-serif,$warang-citi-serif,serif;
 		direction: ltr;

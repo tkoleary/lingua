@@ -1,0 +1,20 @@
+// Lisu script
+
+*,
+.lf-sans {
+	&:lang(Lisu),
+	&:lang(lis) {
+		font-family: $base-sans,$lisu-sans,sans-serif;
+		direction: ltr;
+	}
+}
+
+/*
+.lf-serif {
+	&:lang(Lisu),
+	&:lang(lis) {
+		font-family: $base-serif,$lisu-serif,serif;
+		direction: ltr;
+	}
+}
+*/
