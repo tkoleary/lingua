@@ -38,6 +38,7 @@
 				url('fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.woff2') format('woff2'), // Super Modern Browsers
 				url('fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.woff') format('woff'); // Modern Browsers
 				//url('fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.ttf') format('truetype'); // Safari, Android, iOS
+	unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 // noto-sans-hk-bold - latin_chinese-hongkong
 @font-face {
@@ -49,6 +50,7 @@
 				url('fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
 				url('fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.woff2') format('woff2'), // Super Modern Browsers
 				url('fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.woff') format('woff'); // Modern Browsers
+	unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 // noto-sans-sc-regular - latin_chinese-simplified
 @font-face {
@@ -59,7 +61,8 @@
 	src:	url('fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot') format('embedded-opentype'), // IE9 Compat Modes
 				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
 				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff') format('woff'), // Modern Browsers
+				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff') format('woff'); // Modern Browsers
+	unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 // noto-sans-sc-bold - latin_chinese-simplified
 @font-face {
@@ -70,7 +73,8 @@
 	src:	url('fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot') format('embedded-opentype'), // IE9 Compat Modes
 				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
 				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff') format('woff'), // Modern Browsers
+				url('fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff') format('woff'); // Modern Browsers
+	unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 // noto-sans-tc-regular - latin_chinese-traditional
 @font-face {
@@ -81,7 +85,8 @@
 	src: 	url('fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot') format('embedded-opentype'), // IE9 Compat Modes
 				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
 				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff') format('woff'), // Modern Browsers
+				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff') format('woff'); // Modern Browsers
+	unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 // noto-sans-tc-bold - latin_chinese-traditional
 @font-face {
@@ -92,7 +97,8 @@
 	src:	url('fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot') format('embedded-opentype'), // IE9 Compat Modes
 				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
 				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff') format('woff'), // Modern Browsers
+				url('fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff') format('woff'); // Modern Browsers
+	unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 // noto-sans-jp-regular - latin_japanese
 @font-face {

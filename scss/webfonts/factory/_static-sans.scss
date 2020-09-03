@@ -111,6 +111,13 @@
   unicode-range: U+0A00-0A7F;
 }
 @font-face {
+  font-family: "Noto Sans Hanifi Rohingya";
+  src: url("fonts/NotoSansHanifiRohingya-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansHanifiRohingya-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Noto Sans Hanunoo";
   src: url("fonts/NotoSansHanunoo-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansHanunoo-Regular-subset.woff") format("woff");
   font-weight: normal;

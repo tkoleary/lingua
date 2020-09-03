@@ -27,6 +27,7 @@
   font-weight: normal;
   font-display: swap;
   src: url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.eot") format("embedded-opentype"), url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.eot?#iefix") format("embedded-opentype"), url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.woff2") format("woff2"), url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-regular.woff") format("woff");
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 @font-face {
   font-family: "Noto Sans HK";
@@ -34,6 +35,7 @@
   font-weight: bold;
   font-display: swap;
   src: url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot") format("embedded-opentype"), url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.eot?#iefix") format("embedded-opentype"), url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.woff2") format("woff2"), url("fonts/noto-sans-hk-v5-latin_chinese-hongkong-500.woff") format("woff");
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 @font-face {
   font-family: "Noto Sans SC";
@@ -41,6 +43,7 @@
   font-weight: normal;
   font-display: swap;
   src: url("fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot") format("embedded-opentype"), url("fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.eot?#iefix") format("embedded-opentype"), url("fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2") format("woff2"), url("fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff") format("woff");
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 @font-face {
   font-family: "Noto Sans SC";
@@ -48,6 +51,7 @@
   font-weight: bold;
   font-display: swap;
   src: url("fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot") format("embedded-opentype"), url("fonts/noto-sans-sc-v11-latin_chinese-simplified-500.eot?#iefix") format("embedded-opentype"), url("fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff2") format("woff2"), url("fonts/noto-sans-sc-v11-latin_chinese-simplified-500.woff") format("woff");
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 @font-face {
   font-family: "Noto Sans TC";
@@ -55,6 +59,7 @@
   font-weight: normal;
   font-display: swap;
   src: url("fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot") format("embedded-opentype"), url("fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.eot?#iefix") format("embedded-opentype"), url("fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2") format("woff2"), url("fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff") format("woff");
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 @font-face {
   font-family: "Noto Sans TC";
@@ -62,6 +67,7 @@
   font-weight: bold;
   font-display: swap;
   src: url("fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot") format("embedded-opentype"), url("fonts/noto-sans-tc-v10-latin_chinese-traditional-500.eot?#iefix") format("embedded-opentype"), url("fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff2") format("woff2"), url("fonts/noto-sans-tc-v10-latin_chinese-traditional-500.woff") format("woff");
+  unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
 }
 @font-face {
   font-family: "Noto Sans JP";
@@ -202,6 +208,13 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+0A00-0A7F;
+}
+@font-face {
+  font-family: "Noto Sans Hanifi Rohingya";
+  src: url("fonts/NotoSansHanifiRohingya-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansHanifiRohingya-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Sans Hanunoo";
@@ -1025,6 +1038,13 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+0A00-0A7F;
+}
+@font-face {
+  font-family: "Noto Sans Hanifi Rohingya";
+  src: url("fonts/NotoSansHanifiRohingya-VF-subset.woff2") format("woff2"), url("fonts/NotoSansHanifiRohingya-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Sans Hebrew";
@@ -2019,12 +2039,12 @@ html .lf-latin-mono {
 *:lang(Buhd), *:lang(bku),
 .lf-sans:lang(Buhd),
 .lf-sans:lang(bku) {
-  font-family: "Noto Sans Latin", "Noto Sans Buhid", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Hanunoo", "Noto Sans Buhid", sans-serif;
   direction: ltr;
 }
 
 .lf-serif:lang(Buhd), .lf-serif:lang(bku) {
-  font-family: "Noto Serif Latin", "", serif;
+  font-family: "Noto Serif Latin", "Noto Sans Hanunoo", "", serif;
   direction: ltr;
 }
 
@@ -2341,16 +2361,30 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
+*:lang(Hano),
+.lf-sans:lang(Hano) {
+  font-family: "Noto Sans Latin", "Noto Sans Hanunoo", sans-serif;
+  direction: rtl;
+}
+
+/*
+.lf-serif {
+	&:lang(Hano) {
+		font-family: $base-serif,$hanunoo-serif,sans-serif;
+		direction: rtl;
+	}
+}
+*/
 *:lang(Rohg),
 .lf-sans:lang(Rohg) {
-  font-family: "Noto Sans Latin", "Noto Sans Hanifi Rohingya", sans-serif;
-  direction: ltr;
+  font-family: "Noto Sans Latin", "Noto Sans Arabic", "Noto Sans Hanifi Rohingya", sans-serif;
+  direction: rtl;
 }
 
 /*
 .lf-serif {
 	&:lang(Rohg) {
-		font-family: $base-serif,$hanifi-rohingya-serif,serif;
+		font-family: $base-serif,$arabic-serif,$hanifi-rohingya-serif,serif;
 		direction: ltr;
 	}
 }*/
@@ -4544,7 +4578,7 @@ code:lang(zza),
 *:lang(Limb), *:lang(lif),
 .lf-sans:lang(Limb),
 .lf-sans:lang(lif) {
-  font-family: "Noto Sans Latin", "Noto Sans Limbu", sans-serif;
+  font-family: "Noto Sans Latin", "Noto Sans Devanagari", "Noto Sans Limbu", sans-serif;
   direction: ltr;
 }
 
@@ -4626,6 +4660,28 @@ code:lang(zza),
   direction: ltr;
 }
 
+*:lang(Olck),
+.lf-sans:lang(Olck) {
+  font-family: "Noto Sans Latin", "Noto Sans Ol Chiki", sans-serif;
+  direction: ltr;
+}
+
+/*
+.lf-sans-ui {
+
+	&:lang(Olck) {
+		font-family: $base-sans,$oriya-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}
+
+.lf-serif {
+	&:lang(Olck) {
+		font-family: $base-serif,$oriya-serif,serif;
+		direction: ltr;
+	}
+}
+*/
 *:lang(Orya), *:lang(ori), *:lang(or),
 .lf-sans:lang(Orya),
 .lf-sans:lang(ori),

@@ -1,0 +1,18 @@
+// Hebrew script languages
+
+*,
+.lf-sans {
+	&:lang(Hano) {
+		font-family: $base-sans,$hanunoo-sans,sans-serif;
+		direction: rtl;
+	}
+}
+
+/*
+.lf-serif {
+	&:lang(Hano) {
+		font-family: $base-serif,$hanunoo-serif,sans-serif;
+		direction: rtl;
+	}
+}
+*/

@@ -4,7 +4,7 @@
 .lf-sans {
 	&:lang(Buhd),
 	&:lang(bku) {
-		font-family: $base-sans,$buhid-sans,sans-serif;
+		font-family: $base-sans,$hanunoo-sans,$buhid-sans,sans-serif; // Buhid borrows characters from Hanunoo
 		direction: ltr;
 	}
 }
@@ -12,7 +12,7 @@
 .lf-serif {
 	&:lang(Buhd),
 	&:lang(bku) {
-		font-family: $base-serif,$buhid-serif,serif;
+		font-family: $base-serif,$hanunoo-sans,$buhid-serif,serif; // Buhid borrows characters from Hanunoo
 		direction: ltr;
 	}
 }
