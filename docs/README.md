@@ -12,7 +12,7 @@ meta:
     content: Lingua internationalization language script unicode font webfont
 ---
 
-## The web has changed, internationalization hasn't
+## The web has changed, internationalization should too
 
 The web is universal and device-independent, but for internationalization, not so much. We need to recognize that users who speak languages with non-latin scripts often need to browse the web on a device other than their own, multilingual users to see content in different languages, sometimes on the same page, and no user wants to suffer poor UX and broken design because of their language.
 
