@@ -13,7 +13,6 @@ module.exports = {
 			"/guide/get-started/",
 			"/guide/languages/",
 			"/guide/fonts/variable/",
-			"/guide/fonts/",
 			"/guide/fonts/test-pages/"
 		],
 		nav: [

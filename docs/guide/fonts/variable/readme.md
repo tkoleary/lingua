@@ -4,12 +4,15 @@ lang: en
 ---
 # Variable Fonts
 
-## Sans-serif
+## Sans
 
 Below are all of the scripts for which we have variable fonts. Varaible sans-serif fonts are available for 42 scripts, variable serif fonts are available for 21 scripts, and variable sans-serif UI fonts are available for 14 scripts.
 
+<<<<<<< Updated upstream
 The variations shown are the helper classes for weights 100 through 900. Those are: `lf-ulight`,`lf-xlight`,`lf-light`,`lf-regular`,`lf-medium`,`lf-sbold`,`lf-bold`,`lf-xbold`, and `lf-ubold`. In your own variables files you can alter the numeric weights for the helper classes to intermediate values eg. `$x-light: 325`. There are also width helper class variables, and you can follow the same pattern to add variables for standard and custom axes.
 
+=======
+>>>>>>> Stashed changes
 <div lang="Armn">
 	<h3 class="lf-light font-label">Armenian Sans</h3>
 	<p class="lf-specimen lf-sans lf-ulight">ՀՈԴՎԱԾ 1. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով: </p>
@@ -526,7 +529,7 @@ The variations shown are the helper classes for weights 100 through 900. Those a
 	<p class="lf-specimen lf-sans lf-ubold">1 ވަނަ މާއްދާ ހުރިހާ އިންސާނުންވެސް ދުނިޔެއަށް އުފަންވަނީ، މިނިވަންކަމުގައި، ހަމަހަމަ ޙައްޤުތަކަކާއެކު، ހަމަހަމަ ދަރަޖައެއްގައި ކަމޭހިތެވިގެންވާ ބައެއްގެ ގޮތުގައެވެ.</p>
 </div>
 
-## Sans-serif Italic
+### Sans Italic
 
 With variable fonts, automatic application of italics is inconsistently applied across browsers so the best practice is to have a specific `@font-face` rule and font for italics.
 
@@ -543,7 +546,7 @@ With variable fonts, automatic application of italics is inconsistently applied 
 	<p class="lf-specimen lf-sans lf-italic lf-ubold"><em>ARTICLE 1 All people are born free and equal in dignity and rights.</em></p>
 </div>
 
-## Sans-serif UI
+## Sans UI
 
 UI fonts have characters with more compact shapes (ascenders, descenders, accent marks) to more easily fit inside UI buttons and controls.
 
