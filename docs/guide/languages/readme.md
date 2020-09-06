@@ -20,6 +20,10 @@ More ancient scripts are coming soon. Invented scripts and languages, eg. Klingo
 
 <p class="lf-specimen lf-sans" lang="hy"><strong>Sans: </strong>ՀՈԴՎԱԾ 1\. Բոլոր մարդիկ ծնվում են ազատ և հավասար իրավունքներով և իրավունքներով:</p>
 
+#### <a name="balinese"></a>Balinese
+
+<p class="lf-specimen lf-sans" lang="Bali"><strong>Sans: </strong>ᬫᬓᬲᬫᬶᬫᬦᬸᬲᬦᬾᬓᬳᭂᬫ᭄ᬩᬲᬶᬦ᭄ᬫᬳᬃᬤᬶᬓᬮᬦ᭄ᬧ</p>
+
 #### <a name="bamum"></a>Bamum
 
 <p class="lf-specimen lf-sans" lang="Bamu"><strong>Sans: </strong>ꚠꚡꚢꚣꚤꚥ ꚦꚧꚨꚩꚪꚫꚬꚭ ꚮꚯꚠꚡꚢꚣ ꚤꚥꚦꚧ ꚨꚩꚪꚫ ꚬꚭꚮꚯ</p>

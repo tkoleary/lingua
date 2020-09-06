@@ -162,6 +162,13 @@
   unicode-range: U+1740-175F;
 }
 @font-face {
+  font-family: "Noto Sans Cherokee";
+  src: url("fonts/NotoSansCherokee-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansCherokee-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Noto Sans Canadian Aboriginal";
   src: url("fonts/NotoSansCanadianAboriginal-Regular-subset.woff2") format("woff2"), url("fonts/NotoSansCanadianAboriginal-Regular-subset.woff") format("woff");
   font-weight: normal;
@@ -414,6 +421,38 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+11A00-11A4F;
+}
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("fonts/NotoNaskhArabic-Regular-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabic-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  src: url("fonts/NotoKufiArabic-Regular-subset.woff2") format("woff2"), url("fonts/NotoKufiArabic-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Tamil Slanted";
+  src: url("fonts/NotoTamilSlanted-Regular-subset.woff2") format("woff2"), url("fonts/NotoTamilSlanted-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Naskh Arabic UI";
+  src: url("fonts/NotoNaskhArabic-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabic-UI-Regular-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
   font-family: "Noto Serif Latin";
@@ -980,7 +1019,6 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+????;
 }
 @font-face {
   font-family: "Noto Sans LGC";
@@ -1264,6 +1302,38 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+11A00-11A4F;
+}
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("fonts/NotoNaskhArabic-VF-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Kufi Arabic";
+  src: url("fonts/NotoKufiArabic-VF-subset.woff2") format("woff2"), url("fonts/NotoKufiArabic-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
+}
+@font-face {
+  font-family: "Noto Tamil Slanted";
+  src: url("fonts/NotoTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoTamilSlanted-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
+}
+@font-face {
+  font-family: "Noto Adlam Unjoined";
+  src: url("fonts/NotoAdlamUnjoined-VF-subset.woff2") format("woff2"), url("fonts/NotoAdlamUnjoined-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
   font-family: "Noto Serif Latin";
@@ -1719,24 +1789,6 @@
   font-display: swap;
   unicode-range: U+0E00-0E7F;
 }
-html {
-  font-family: "Noto Sans Latin", sans-serif;
-  font-display: swap;
-  direction: ltr;
-}
-html em,
-html .lf-latin-italic {
-  font-style: normal;
-  font-family: "Noto Sans Latin Italic", sans-serif;
-  font-display: swap;
-}
-html pre,
-html code,
-html .lf-latin-mono {
-  font-family: "Noto Sans Latin Mono", monospace;
-  font-display: swap;
-}
-
 *:lang(Arab), *:lang(ar), *:lang(bal), *:lang(brh), *:lang(dyo), *:lang(ha), *:lang(id), *:lang(ms), *:lang(so), *:lang(sus), *:lang(swb), *:lang(tr), *:lang(tru), *:lang(wo),
 .lf-sans:lang(Arab),
 .lf-sans:lang(ar),
@@ -1843,8 +1895,7 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-*:lang(Deva), *:lang(hi), *:lang(hif), *:lang(ks), *:lang(sd),
-.lf-sans:lang(Deva),
+*:lang(hi), *:lang(hif), *:lang(ks), *:lang(sd),
 .lf-sans:lang(hi),
 .lf-sans:lang(hif),
 .lf-sans:lang(ks),
@@ -1853,12 +1904,11 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-.lf-serif:lang(Deva), .lf-serif:lang(hi), .lf-serif:lang(hif), .lf-serif:lang(ks), .lf-serif:lang(sd) {
+.lf-serif:lang(hi), .lf-serif:lang(hif), .lf-serif:lang(ks), .lf-serif:lang(sd) {
   font-family: "Noto Sans Latin", "Noto Serif Devanagari", serif;
 }
 
-*:lang(Deva), *:lang(hi-Deva), *:lang(hif-Deva), *:lang(ks-Deva), *:lang(sd-Deva),
-.lf-sans:lang(Deva),
+*:lang(hi-Deva), *:lang(hif-Deva), *:lang(ks-Deva), *:lang(sd-Deva),
 .lf-sans:lang(hi-Deva),
 .lf-sans:lang(hif-Deva),
 .lf-sans:lang(ks-Deva),
@@ -1867,12 +1917,11 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-.lf-serif:lang(Deva), .lf-serif:lang(hi-Deva), .lf-serif:lang(hif-Deva), .lf-serif:lang(ks-Deva), .lf-serif:lang(sd-Deva) {
+.lf-serif:lang(hi-Deva), .lf-serif:lang(hif-Deva), .lf-serif:lang(ks-Deva), .lf-serif:lang(sd-Deva) {
   font-family: "Noto Serif Latin", "Noto Serif Devanagari", serif;
 }
 
-*:lang(Arab), *:lang(hi-Arab), *:lang(hif-Arab), *:lang(ks-Arab), *:lang(sd-Arab),
-.lf-sans:lang(Arab),
+*:lang(hi-Arab), *:lang(hif-Arab), *:lang(ks-Arab), *:lang(sd-Arab),
 .lf-sans:lang(hi-Arab),
 .lf-sans:lang(hif-Arab),
 .lf-sans:lang(ks-Arab),
@@ -1881,12 +1930,11 @@ html .lf-latin-mono {
   direction: rtl;
 }
 
-.lf-serif:lang(Arab), .lf-serif:lang(hi-Arab), .lf-serif:lang(hif-Arab), .lf-serif:lang(ks-Arab), .lf-serif:lang(sd-Arab) {
+.lf-serif:lang(hi-Arab), .lf-serif:lang(hif-Arab), .lf-serif:lang(ks-Arab), .lf-serif:lang(sd-Arab) {
   font-family: "Noto Serif Latin", "Noto Serif Arabic", serif;
 }
 
-*:lang(Latn), *:lang(hi-Latn), *:lang(hif-Latn), *:lang(ks-Latn), *:lang(sd-Latn),
-.lf-sans:lang(Latn),
+*:lang(hi-Latn), *:lang(hif-Latn), *:lang(ks-Latn), *:lang(sd-Latn),
 .lf-sans:lang(hi-Latn),
 .lf-sans:lang(hif-Latn),
 .lf-sans:lang(ks-Latn),
@@ -1895,7 +1943,7 @@ html .lf-latin-mono {
   direction: ltr;
 }
 
-.lf-serif:lang(Latn), .lf-serif:lang(hi-Latn), .lf-serif:lang(hif-Latn), .lf-serif:lang(ks-Latn), .lf-serif:lang(sd-Latn) {
+.lf-serif:lang(hi-Latn), .lf-serif:lang(hif-Latn), .lf-serif:lang(ks-Latn), .lf-serif:lang(sd-Latn) {
   font-family: "Noto Serif Latin", "Noto Serif Latin", serif;
   direction: ltr;
 }
@@ -1963,13 +2011,13 @@ html .lf-latin-mono {
   direction: rtl;
 }
 
-.lf-sans .lf-naskh:lang(Arab), .lf-sans .lf-naskh:lang(ar), .lf-sans .lf-naskh:lang(fa), .lf-sans .lf-naskh:lang(ps), .lf-sans .lf-naskh:lang(ur), .lf-sans .lf-naskh:lang(wni), .lf-sans .lf-naskh:lang(zdj), .lf-sans .lf-naskh:lang(aeb), .lf-sans .lf-naskh:lang(arq), .lf-sans .lf-naskh:lang(ars), .lf-sans .lf-naskh:lang(ary), .lf-sans .lf-naskh:lang(arz), .lf-sans .lf-naskh:lang(bej), .lf-sans .lf-naskh:lang(bgn), .lf-sans .lf-naskh:lang(bqi), .lf-sans .lf-naskh:lang(ckb), .lf-sans .lf-naskh:lang(dcc), .lf-sans .lf-naskh:lang(doi), .lf-sans .lf-naskh:lang(fia), .lf-sans .lf-naskh:lang(gbz), .lf-sans .lf-naskh:lang(gjk), .lf-sans .lf-naskh:lang(gju), .lf-sans .lf-naskh:lang(glk), .lf-sans .lf-naskh:lang(haz), .lf-sans .lf-naskh:lang(hnd), .lf-sans .lf-naskh:lang(hno), .lf-sans .lf-naskh:lang(khw), .lf-sans .lf-naskh:lang(kvx), .lf-sans .lf-naskh:lang(kxp), .lf-sans .lf-naskh:lang(lah), .lf-sans .lf-naskh:lang(lki), .lf-sans .lf-naskh:lang(lrc), .lf-sans .lf-naskh:lang(luz), .lf-sans .lf-naskh:lang(mfa), .lf-sans .lf-naskh:lang(mvy), .lf-sans .lf-naskh:lang(mzn), .lf-sans .lf-naskh:lang(prd), .lf-sans .lf-naskh:lang(rmt), .lf-sans .lf-naskh:lang(sdh), .lf-sans .lf-naskh:lang(skr), .lf-sans .lf-naskh:lang(trw) {
+.lf-naskh:lang(Arab), .lf-naskh:lang(ar), .lf-naskh:lang(fa), .lf-naskh:lang(ps), .lf-naskh:lang(ur), .lf-naskh:lang(wni), .lf-naskh:lang(zdj), .lf-naskh:lang(aeb), .lf-naskh:lang(arq), .lf-naskh:lang(ars), .lf-naskh:lang(ary), .lf-naskh:lang(arz), .lf-naskh:lang(bej), .lf-naskh:lang(bgn), .lf-naskh:lang(bqi), .lf-naskh:lang(ckb), .lf-naskh:lang(dcc), .lf-naskh:lang(doi), .lf-naskh:lang(fia), .lf-naskh:lang(gbz), .lf-naskh:lang(gjk), .lf-naskh:lang(gju), .lf-naskh:lang(glk), .lf-naskh:lang(haz), .lf-naskh:lang(hnd), .lf-naskh:lang(hno), .lf-naskh:lang(khw), .lf-naskh:lang(kvx), .lf-naskh:lang(kxp), .lf-naskh:lang(lah), .lf-naskh:lang(lki), .lf-naskh:lang(lrc), .lf-naskh:lang(luz), .lf-naskh:lang(mfa), .lf-naskh:lang(mvy), .lf-naskh:lang(mzn), .lf-naskh:lang(prd), .lf-naskh:lang(rmt), .lf-naskh:lang(sdh), .lf-naskh:lang(skr), .lf-naskh:lang(trw) {
   font-family: "Noto Sans Latin", "Noto Naskh Arabic", sans-serif;
   direction: rtl;
 }
 
-.lf-serif .lf-naskh:lang(Arab), .lf-serif .lf-naskh:lang(ar), .lf-serif .lf-naskh:lang(fa), .lf-serif .lf-naskh:lang(ps), .lf-serif .lf-naskh:lang(ur), .lf-serif .lf-naskh:lang(wni), .lf-serif .lf-naskh:lang(zdj), .lf-serif .lf-naskh:lang(aeb), .lf-serif .lf-naskh:lang(arq), .lf-serif .lf-naskh:lang(ars), .lf-serif .lf-naskh:lang(ary), .lf-serif .lf-naskh:lang(arz), .lf-serif .lf-naskh:lang(bej), .lf-serif .lf-naskh:lang(bgn), .lf-serif .lf-naskh:lang(bqi), .lf-serif .lf-naskh:lang(ckb), .lf-serif .lf-naskh:lang(dcc), .lf-serif .lf-naskh:lang(doi), .lf-serif .lf-naskh:lang(fia), .lf-serif .lf-naskh:lang(gbz), .lf-serif .lf-naskh:lang(gjk), .lf-serif .lf-naskh:lang(gju), .lf-serif .lf-naskh:lang(glk), .lf-serif .lf-naskh:lang(haz), .lf-serif .lf-naskh:lang(hnd), .lf-serif .lf-naskh:lang(hno), .lf-serif .lf-naskh:lang(khw), .lf-serif .lf-naskh:lang(kvx), .lf-serif .lf-naskh:lang(kxp), .lf-serif .lf-naskh:lang(lah), .lf-serif .lf-naskh:lang(lki), .lf-serif .lf-naskh:lang(lrc), .lf-serif .lf-naskh:lang(luz), .lf-serif .lf-naskh:lang(mfa), .lf-serif .lf-naskh:lang(mvy), .lf-serif .lf-naskh:lang(mzn), .lf-serif .lf-naskh:lang(prd), .lf-serif .lf-naskh:lang(rmt), .lf-serif .lf-naskh:lang(sdh), .lf-serif .lf-naskh:lang(skr), .lf-serif .lf-naskh:lang(trw) {
-  font-family: "Noto Sans Latin", "Noto Naskh Arabic", sans-serif;
+.lf-kufi:lang(Arab), .lf-kufi:lang(ar), .lf-kufi:lang(fa), .lf-kufi:lang(ps), .lf-kufi:lang(ur), .lf-kufi:lang(wni), .lf-kufi:lang(zdj), .lf-kufi:lang(aeb), .lf-kufi:lang(arq), .lf-kufi:lang(ars), .lf-kufi:lang(ary), .lf-kufi:lang(arz), .lf-kufi:lang(bej), .lf-kufi:lang(bgn), .lf-kufi:lang(bqi), .lf-kufi:lang(ckb), .lf-kufi:lang(dcc), .lf-kufi:lang(doi), .lf-kufi:lang(fia), .lf-kufi:lang(gbz), .lf-kufi:lang(gjk), .lf-kufi:lang(gju), .lf-kufi:lang(glk), .lf-kufi:lang(haz), .lf-kufi:lang(hnd), .lf-kufi:lang(hno), .lf-kufi:lang(khw), .lf-kufi:lang(kvx), .lf-kufi:lang(kxp), .lf-kufi:lang(lah), .lf-kufi:lang(lki), .lf-kufi:lang(lrc), .lf-kufi:lang(luz), .lf-kufi:lang(mfa), .lf-kufi:lang(mvy), .lf-kufi:lang(mzn), .lf-kufi:lang(prd), .lf-kufi:lang(rmt), .lf-kufi:lang(sdh), .lf-kufi:lang(skr), .lf-kufi:lang(trw) {
+  font-family: "Noto Sans Latin", "Noto Kufi Arabic", sans-serif;
   direction: rtl;
 }
 
@@ -1982,6 +2030,26 @@ html .lf-latin-mono {
 
 .lf-serif:lang(Armn), .lf-serif:lang(hy) {
   font-family: "Noto Serif Latin", "Noto Serif Armenian", serif;
+  direction: ltr;
+}
+
+*:lang(Bali), *:lang(ban),
+.lf-sans:lang(Bali),
+.lf-sans:lang(ban) {
+  font-family: "Noto Sans Latin", "Noto Sans Balinese", sans-serif;
+  direction: ltr;
+}
+
+/*
+.lf-sans-ui {
+	&:lang(Bali),
+	&:lang(ban) {
+		font-family: $base-sans,$balinese-sans-ui,sans-serif;
+		direction: ltr;
+	}
+}*/
+.lf-serif:lang(Bali), .lf-serif:lang(ban) {
+  font-family: "Noto Serif Latin", "Noto Serif Balinese", serif;
   direction: ltr;
 }
 
@@ -2405,13 +2473,8 @@ html .lf-latin-mono {
   direction: rtl;
 }
 
-.lf-sans .rashi:lang(Hebr), .lf-sans .rashi:lang(iw), .lf-sans .rashi:lang(he), .lf-sans .rashi:lang(jpr), .lf-sans .rashi:lang(jrb), .lf-sans .rashi:lang(lad), .lf-sans .rashi:lang(yi) {
-  font-family: "Noto Sans Latin", "Noto Rashi Hebrew", sans-serif;
-  direction: ltr;
-}
-
-.lf-serif .rashi:lang(Hebr), .lf-serif .rashi:lang(iw), .lf-serif .rashi:lang(he), .lf-serif .rashi:lang(jpr), .lf-serif .rashi:lang(jrb), .lf-serif .rashi:lang(lad), .lf-serif .rashi:lang(yi) {
-  font-family: "Noto Serif Latin", "Noto Serif Rashi Hebrew", serif;
+.lf-rashi:lang(Hebr), .lf-rashi:lang(iw), .lf-rashi:lang(he), .lf-rashi:lang(jpr), .lf-rashi:lang(jrb), .lf-rashi:lang(lad), .lf-rashi:lang(yi) {
+  font-family: "Noto Serif Latin", "Noto Rashi Hebrew", sans-serif;
   direction: ltr;
 }
 
@@ -3685,300 +3748,594 @@ html .lf-latin-mono {
   font-family: "Noto Serif Latin", serif;
 }
 .lf-serif:lang(Latn) em,
-.lf-serif:lang(Latn) em *, .lf-serif:lang(ay) em,
-.lf-serif:lang(ay) em *, .lf-serif:lang(bi) em,
-.lf-serif:lang(bi) em *, .lf-serif:lang(ca) em,
-.lf-serif:lang(ca) em *, .lf-serif:lang(ch) em,
-.lf-serif:lang(ch) em *, .lf-serif:lang(cs) em,
-.lf-serif:lang(cs) em *, .lf-serif:lang(da) em,
-.lf-serif:lang(da) em *, .lf-serif:lang(de) em,
-.lf-serif:lang(de) em *, .lf-serif:lang(en) em,
-.lf-serif:lang(en) em *, .lf-serif:lang(eo) em,
-.lf-serif:lang(eo) em *, .lf-serif:lang(es) em,
-.lf-serif:lang(es) em *, .lf-serif:lang(et) em,
-.lf-serif:lang(et) em *, .lf-serif:lang(fi) em,
-.lf-serif:lang(fi) em *, .lf-serif:lang(fil) em,
-.lf-serif:lang(fil) em *, .lf-serif:lang(fj) em,
-.lf-serif:lang(fj) em *, .lf-serif:lang(fo) em,
-.lf-serif:lang(fo) em *, .lf-serif:lang(fr) em,
-.lf-serif:lang(fr) em *, .lf-serif:lang(ga) em,
-.lf-serif:lang(ga) em *, .lf-serif:lang(gil) em,
-.lf-serif:lang(gil) em *, .lf-serif:lang(gn) em,
-.lf-serif:lang(gn) em *, .lf-serif:lang(gsw) em,
-.lf-serif:lang(gsw) em *, .lf-serif:lang(gv) em,
-.lf-serif:lang(gv) em *, .lf-serif:lang(ho) em,
-.lf-serif:lang(ho) em *, .lf-serif:lang(hr) em,
-.lf-serif:lang(hr) em *, .lf-serif:lang(ht) em,
-.lf-serif:lang(ht) em *, .lf-serif:lang(hu) em,
-.lf-serif:lang(hu) em *, .lf-serif:lang(in) em,
-.lf-serif:lang(in) em *, .lf-serif:lang(is) em,
-.lf-serif:lang(is) em *, .lf-serif:lang(it) em,
-.lf-serif:lang(it) em *, .lf-serif:lang(kl) em,
-.lf-serif:lang(kl) em *, .lf-serif:lang(lb) em,
-.lf-serif:lang(lb) em *, .lf-serif:lang(lt) em,
-.lf-serif:lang(lt) em *, .lf-serif:lang(lv) em,
-.lf-serif:lang(lv) em *, .lf-serif:lang(mg) em,
-.lf-serif:lang(mg) em *, .lf-serif:lang(mh) em,
-.lf-serif:lang(mh) em *, .lf-serif:lang(mi) em,
-.lf-serif:lang(mi) em *, .lf-serif:lang(mt) em,
-.lf-serif:lang(mt) em *, .lf-serif:lang(na) em,
-.lf-serif:lang(na) em *, .lf-serif:lang(nb) em,
-.lf-serif:lang(nb) em *, .lf-serif:lang(nd) em,
-.lf-serif:lang(nd) em *, .lf-serif:lang(niu) em,
-.lf-serif:lang(niu) em *, .lf-serif:lang(nl) em,
-.lf-serif:lang(nl) em *, .lf-serif:lang(nn) em,
-.lf-serif:lang(nn) em *, .lf-serif:lang(no) em,
-.lf-serif:lang(no) em *, .lf-serif:lang(ny) em,
-.lf-serif:lang(ny) em *, .lf-serif:lang(pap) em,
-.lf-serif:lang(pap) em *, .lf-serif:lang(pau) em,
-.lf-serif:lang(pau) em *, .lf-serif:lang(pl) em,
-.lf-serif:lang(pl) em *, .lf-serif:lang(pt) em,
-.lf-serif:lang(pt) em *, .lf-serif:lang(qu) em,
-.lf-serif:lang(qu) em *, .lf-serif:lang(rn) em,
-.lf-serif:lang(rn) em *, .lf-serif:lang(rw) em,
-.lf-serif:lang(rw) em *, .lf-serif:lang(sg) em,
-.lf-serif:lang(sg) em *, .lf-serif:lang(sk) em,
-.lf-serif:lang(sk) em *, .lf-serif:lang(sl) em,
-.lf-serif:lang(sl) em *, .lf-serif:lang(sm) em,
-.lf-serif:lang(sm) em *, .lf-serif:lang(sn) em,
-.lf-serif:lang(sn) em *, .lf-serif:lang(sq) em,
-.lf-serif:lang(sq) em *, .lf-serif:lang(ss) em,
-.lf-serif:lang(ss) em *, .lf-serif:lang(st) em,
-.lf-serif:lang(st) em *, .lf-serif:lang(sv) em,
-.lf-serif:lang(sv) em *, .lf-serif:lang(sw) em,
-.lf-serif:lang(sw) em *, .lf-serif:lang(tet) em,
-.lf-serif:lang(tet) em *, .lf-serif:lang(tkl) em,
-.lf-serif:lang(tkl) em *, .lf-serif:lang(tl) em,
-.lf-serif:lang(tl) em *, .lf-serif:lang(tn) em,
-.lf-serif:lang(tn) em *, .lf-serif:lang(to) em,
-.lf-serif:lang(to) em *, .lf-serif:lang(tpi) em,
-.lf-serif:lang(tpi) em *, .lf-serif:lang(tr) em,
-.lf-serif:lang(tr) em *, .lf-serif:lang(tvl) em,
-.lf-serif:lang(tvl) em *, .lf-serif:lang(ty) em,
-.lf-serif:lang(ty) em *, .lf-serif:lang(yo) em,
-.lf-serif:lang(yo) em *, .lf-serif:lang(aa) em,
-.lf-serif:lang(aa) em *, .lf-serif:lang(abr) em,
-.lf-serif:lang(abr) em *, .lf-serif:lang(ace) em,
-.lf-serif:lang(ace) em *, .lf-serif:lang(ach) em,
-.lf-serif:lang(ach) em *, .lf-serif:lang(ada) em,
-.lf-serif:lang(ada) em *, .lf-serif:lang(af) em,
-.lf-serif:lang(af) em *, .lf-serif:lang(agq) em,
-.lf-serif:lang(agq) em *, .lf-serif:lang(ak) em,
-.lf-serif:lang(ak) em *, .lf-serif:lang(akz) em,
-.lf-serif:lang(akz) em *, .lf-serif:lang(ale) em,
-.lf-serif:lang(ale) em *, .lf-serif:lang(aln) em,
-.lf-serif:lang(aln) em *, .lf-serif:lang(amo) em,
-.lf-serif:lang(amo) em *, .lf-serif:lang(an) em,
-.lf-serif:lang(an) em *, .lf-serif:lang(aoz) em,
-.lf-serif:lang(aoz) em *, .lf-serif:lang(arn) em,
-.lf-serif:lang(arn) em *, .lf-serif:lang(aro) em,
-.lf-serif:lang(aro) em *, .lf-serif:lang(arp) em,
-.lf-serif:lang(arp) em *, .lf-serif:lang(arw) em,
-.lf-serif:lang(arw) em *, .lf-serif:lang(asa) em,
-.lf-serif:lang(asa) em *, .lf-serif:lang(ast) em,
-.lf-serif:lang(ast) em *, .lf-serif:lang(atj) em,
-.lf-serif:lang(atj) em *, .lf-serif:lang(bar) em,
-.lf-serif:lang(bar) em *, .lf-serif:lang(bas) em,
-.lf-serif:lang(bas) em *, .lf-serif:lang(bbj) em,
-.lf-serif:lang(bbj) em *, .lf-serif:lang(bci) em,
-.lf-serif:lang(bci) em *, .lf-serif:lang(bem) em,
-.lf-serif:lang(bem) em *, .lf-serif:lang(bew) em,
-.lf-serif:lang(bew) em *, .lf-serif:lang(bez) em,
-.lf-serif:lang(bez) em *, .lf-serif:lang(bfd) em,
-.lf-serif:lang(bfd) em *, .lf-serif:lang(bik) em,
-.lf-serif:lang(bik) em *, .lf-serif:lang(bin) em,
-.lf-serif:lang(bin) em *, .lf-serif:lang(bjn) em,
-.lf-serif:lang(bjn) em *, .lf-serif:lang(bkm) em,
-.lf-serif:lang(bkm) em *, .lf-serif:lang(bku) em,
-.lf-serif:lang(bku) em *, .lf-serif:lang(bla) em,
-.lf-serif:lang(bla) em *, .lf-serif:lang(bmq) em,
-.lf-serif:lang(bmq) em *, .lf-serif:lang(bqv) em,
-.lf-serif:lang(bqv) em *, .lf-serif:lang(br) em,
-.lf-serif:lang(br) em *, .lf-serif:lang(bss) em,
-.lf-serif:lang(bss) em *, .lf-serif:lang(bto) em,
-.lf-serif:lang(bto) em *, .lf-serif:lang(buc) em,
-.lf-serif:lang(buc) em *, .lf-serif:lang(bug) em,
-.lf-serif:lang(bug) em *, .lf-serif:lang(bum) em,
-.lf-serif:lang(bum) em *, .lf-serif:lang(bvb) em,
-.lf-serif:lang(bvb) em *, .lf-serif:lang(byv) em,
-.lf-serif:lang(byv) em *, .lf-serif:lang(bze) em,
-.lf-serif:lang(bze) em *, .lf-serif:lang(bzx) em,
-.lf-serif:lang(bzx) em *, .lf-serif:lang(cad) em,
-.lf-serif:lang(cad) em *, .lf-serif:lang(car) em,
-.lf-serif:lang(car) em *, .lf-serif:lang(cay) em,
-.lf-serif:lang(cay) em *, .lf-serif:lang(cch) em,
-.lf-serif:lang(cch) em *, .lf-serif:lang(ceb) em,
-.lf-serif:lang(ceb) em *, .lf-serif:lang(cgg) em,
-.lf-serif:lang(cgg) em *, .lf-serif:lang(chk) em,
-.lf-serif:lang(chk) em *, .lf-serif:lang(chn) em,
-.lf-serif:lang(chn) em *, .lf-serif:lang(cho) em,
-.lf-serif:lang(cho) em *, .lf-serif:lang(chy) em,
-.lf-serif:lang(chy) em *, .lf-serif:lang(cic) em,
-.lf-serif:lang(cic) em *, .lf-serif:lang(co) em,
-.lf-serif:lang(co) em *, .lf-serif:lang(cps) em,
-.lf-serif:lang(cps) em *, .lf-serif:lang(crj) em,
-.lf-serif:lang(crj) em *, .lf-serif:lang(crl) em,
-.lf-serif:lang(crl) em *, .lf-serif:lang(crs) em,
-.lf-serif:lang(crs) em *, .lf-serif:lang(csb) em,
-.lf-serif:lang(csb) em *, .lf-serif:lang(ctd) em,
-.lf-serif:lang(ctd) em *, .lf-serif:lang(cy) em,
-.lf-serif:lang(cy) em *, .lf-serif:lang(dak) em,
-.lf-serif:lang(dak) em *, .lf-serif:lang(dav) em,
-.lf-serif:lang(dav) em *, .lf-serif:lang(del) em,
-.lf-serif:lang(del) em *, .lf-serif:lang(dgr) em,
-.lf-serif:lang(dgr) em *, .lf-serif:lang(din) em,
-.lf-serif:lang(din) em *, .lf-serif:lang(dje) em,
-.lf-serif:lang(dje) em *, .lf-serif:lang(dnj) em,
-.lf-serif:lang(dnj) em *, .lf-serif:lang(dsb) em,
-.lf-serif:lang(dsb) em *, .lf-serif:lang(dtm) em,
-.lf-serif:lang(dtm) em *, .lf-serif:lang(dtp) em,
-.lf-serif:lang(dtp) em *, .lf-serif:lang(dua) em,
-.lf-serif:lang(dua) em *, .lf-serif:lang(dyu) em,
-.lf-serif:lang(dyu) em *, .lf-serif:lang(ebu) em,
-.lf-serif:lang(ebu) em *, .lf-serif:lang(ee) em,
-.lf-serif:lang(ee) em *, .lf-serif:lang(efi) em,
-.lf-serif:lang(efi) em *, .lf-serif:lang(egl) em,
-.lf-serif:lang(egl) em *, .lf-serif:lang(eka) em,
-.lf-serif:lang(eka) em *, .lf-serif:lang(esu) em,
-.lf-serif:lang(esu) em *, .lf-serif:lang(eu) em,
-.lf-serif:lang(eu) em *, .lf-serif:lang(ewo) em,
-.lf-serif:lang(ewo) em *, .lf-serif:lang(ext) em,
-.lf-serif:lang(ext) em *, .lf-serif:lang(fan) em,
-.lf-serif:lang(fan) em *, .lf-serif:lang(ffm) em,
-.lf-serif:lang(ffm) em *, .lf-serif:lang(fit) em,
-.lf-serif:lang(fit) em *, .lf-serif:lang(fon) em,
-.lf-serif:lang(fon) em *, .lf-serif:lang(frc) em,
-.lf-serif:lang(frc) em *, .lf-serif:lang(frp) em,
-.lf-serif:lang(frp) em *, .lf-serif:lang(frr) em,
-.lf-serif:lang(frr) em *, .lf-serif:lang(frs) em,
-.lf-serif:lang(frs) em *, .lf-serif:lang(fud) em,
-.lf-serif:lang(fud) em *, .lf-serif:lang(fuq) em,
-.lf-serif:lang(fuq) em *, .lf-serif:lang(fur) em,
-.lf-serif:lang(fur) em *, .lf-serif:lang(fuv) em,
-.lf-serif:lang(fuv) em *, .lf-serif:lang(fvr) em,
-.lf-serif:lang(fvr) em *, .lf-serif:lang(fy) em,
-.lf-serif:lang(fy) em *, .lf-serif:lang(gaa) em,
-.lf-serif:lang(gaa) em *, .lf-serif:lang(gay) em,
-.lf-serif:lang(gay) em *, .lf-serif:lang(gba) em,
-.lf-serif:lang(gba) em *, .lf-serif:lang(gcr) em,
-.lf-serif:lang(gcr) em *, .lf-serif:lang(gd) em,
-.lf-serif:lang(gd) em *, .lf-serif:lang(gl) em,
-.lf-serif:lang(gl) em *, .lf-serif:lang(gor) em,
-.lf-serif:lang(gor) em *, .lf-serif:lang(gos) em,
-.lf-serif:lang(gos) em *, .lf-serif:lang(grb) em,
-.lf-serif:lang(grb) em *, .lf-serif:lang(gub) em,
-.lf-serif:lang(gub) em *, .lf-serif:lang(guc) em,
-.lf-serif:lang(guc) em *, .lf-serif:lang(gur) em,
-.lf-serif:lang(gur) em *, .lf-serif:lang(guz) em,
-.lf-serif:lang(guz) em *, .lf-serif:lang(gwi) em,
-.lf-serif:lang(gwi) em *, .lf-serif:lang(hai) em,
-.lf-serif:lang(hai) em *, .lf-serif:lang(haw) em,
-.lf-serif:lang(haw) em *, .lf-serif:lang(hil) em,
-.lf-serif:lang(hil) em *, .lf-serif:lang(hmn) em,
-.lf-serif:lang(hmn) em *, .lf-serif:lang(hnn) em,
-.lf-serif:lang(hnn) em *, .lf-serif:lang(hop) em,
-.lf-serif:lang(hop) em *, .lf-serif:lang(hsb) em,
-.lf-serif:lang(hsb) em *, .lf-serif:lang(hup) em,
-.lf-serif:lang(hup) em *, .lf-serif:lang(hz) em,
-.lf-serif:lang(hz) em *, .lf-serif:lang(iba) em,
-.lf-serif:lang(iba) em *, .lf-serif:lang(ibb) em,
-.lf-serif:lang(ibb) em *, .lf-serif:lang(ife) em,
-.lf-serif:lang(ife) em *, .lf-serif:lang(ig) em,
-.lf-serif:lang(ig) em *, .lf-serif:lang(ik) em,
-.lf-serif:lang(ik) em *, .lf-serif:lang(ikt) em,
-.lf-serif:lang(ikt) em *, .lf-serif:lang(ilo) em,
-.lf-serif:lang(ilo) em *, .lf-serif:lang(izh) em,
-.lf-serif:lang(izh) em *, .lf-serif:lang(jam) em,
-.lf-serif:lang(jam) em *, .lf-serif:lang(jgo) em,
-.lf-serif:lang(jgo) em *, .lf-serif:lang(jmc) em,
-.lf-serif:lang(jmc) em *, .lf-serif:lang(kab) em,
-.lf-serif:lang(kab) em *, .lf-serif:lang(kac) em,
-.lf-serif:lang(kac) em *, .lf-serif:lang(kaj) em,
-.lf-serif:lang(kaj) em *, .lf-serif:lang(kam) em,
-.lf-serif:lang(kam) em *, .lf-serif:lang(kao) em,
-.lf-serif:lang(kao) em *, .lf-serif:lang(kcg) em,
-.lf-serif:lang(kcg) em *, .lf-serif:lang(kck) em,
-.lf-serif:lang(kck) em *, .lf-serif:lang(kde) em,
-.lf-serif:lang(kde) em *, .lf-serif:lang(kea) em,
-.lf-serif:lang(kea) em *, .lf-serif:lang(kfo) em,
-.lf-serif:lang(kfo) em *, .lf-serif:lang(kg) em,
-.lf-serif:lang(kg) em *, .lf-serif:lang(kge) em,
-.lf-serif:lang(kge) em *, .lf-serif:lang(kgp) em,
-.lf-serif:lang(kgp) em *, .lf-serif:lang(khq) em,
-.lf-serif:lang(khq) em *, .lf-serif:lang(ki) em,
-.lf-serif:lang(ki) em *, .lf-serif:lang(kiu) em,
-.lf-serif:lang(kiu) em *, .lf-serif:lang(kj) em,
-.lf-serif:lang(kj) em *, .lf-serif:lang(kkj) em,
-.lf-serif:lang(kkj) em *, .lf-serif:lang(kln) em,
-.lf-serif:lang(kln) em *, .lf-serif:lang(kmb) em,
-.lf-serif:lang(kmb) em *, .lf-serif:lang(kos) em,
-.lf-serif:lang(kos) em *, .lf-serif:lang(kpe) em,
-.lf-serif:lang(kpe) em *, .lf-serif:lang(kr) em,
-.lf-serif:lang(kr) em *, .lf-serif:lang(kri) em,
-.lf-serif:lang(kri) em *, .lf-serif:lang(krj) em,
-.lf-serif:lang(krj) em *, .lf-serif:lang(krl) em,
-.lf-serif:lang(krl) em *, .lf-serif:lang(ksb) em,
-.lf-serif:lang(ksb) em *, .lf-serif:lang(ksf) em,
-.lf-serif:lang(ksf) em *, .lf-serif:lang(ksh) em,
-.lf-serif:lang(ksh) em *, .lf-serif:lang(kut) em,
-.lf-serif:lang(kut) em *, .lf-serif:lang(kvr) em,
-.lf-serif:lang(kvr) em *, .lf-serif:lang(kw) em,
-.lf-serif:lang(kw) em *, .lf-serif:lang(lag) em,
-.lf-serif:lang(lag) em *, .lf-serif:lang(laj) em,
-.lf-serif:lang(laj) em *, .lf-serif:lang(lam) em,
-.lf-serif:lang(lam) em *, .lf-serif:lang(lbw) em,
-.lf-serif:lang(lbw) em *, .lf-serif:lang(li) em,
-.lf-serif:lang(li) em *, .lf-serif:lang(lij) em,
-.lf-serif:lang(lij) em *, .lf-serif:lang(liv) em,
-.lf-serif:lang(liv) em *, .lf-serif:lang(lkt) em,
-.lf-serif:lang(lkt) em *, .lf-serif:lang(lmo) em,
-.lf-serif:lang(lmo) em *, .lf-serif:lang(mad) em,
-.lf-serif:lang(mad) em *, .lf-serif:lang(rtm) em,
-.lf-serif:lang(rtm) em *, .lf-serif:lang(tiv) em,
-.lf-serif:lang(tiv) em *, .lf-serif:lang(tmh) em,
-.lf-serif:lang(tmh) em *, .lf-serif:lang(tog) em,
-.lf-serif:lang(tog) em *, .lf-serif:lang(trv) em,
-.lf-serif:lang(trv) em *, .lf-serif:lang(ts) em,
-.lf-serif:lang(ts) em *, .lf-serif:lang(tsg) em,
-.lf-serif:lang(tsg) em *, .lf-serif:lang(tsi) em,
-.lf-serif:lang(tsi) em *, .lf-serif:lang(ttj) em,
-.lf-serif:lang(ttj) em *, .lf-serif:lang(tum) em,
-.lf-serif:lang(tum) em *, .lf-serif:lang(twq) em,
-.lf-serif:lang(twq) em *, .lf-serif:lang(uli) em,
-.lf-serif:lang(uli) em *, .lf-serif:lang(umb) em,
-.lf-serif:lang(umb) em *, .lf-serif:lang(ve) em,
-.lf-serif:lang(ve) em *, .lf-serif:lang(vec) em,
-.lf-serif:lang(vec) em *, .lf-serif:lang(vep) em,
-.lf-serif:lang(vep) em *, .lf-serif:lang(vic) em,
-.lf-serif:lang(vic) em *, .lf-serif:lang(vls) em,
-.lf-serif:lang(vls) em *, .lf-serif:lang(vmf) em,
-.lf-serif:lang(vmf) em *, .lf-serif:lang(vmw) em,
-.lf-serif:lang(vmw) em *, .lf-serif:lang(vot) em,
-.lf-serif:lang(vot) em *, .lf-serif:lang(vro) em,
-.lf-serif:lang(vro) em *, .lf-serif:lang(vun) em,
-.lf-serif:lang(vun) em *, .lf-serif:lang(wa) em,
-.lf-serif:lang(wa) em *, .lf-serif:lang(wae) em,
-.lf-serif:lang(wae) em *, .lf-serif:lang(war) em,
-.lf-serif:lang(war) em *, .lf-serif:lang(was) em,
-.lf-serif:lang(was) em *, .lf-serif:lang(wbp) em,
-.lf-serif:lang(wbp) em *, .lf-serif:lang(wls) em,
-.lf-serif:lang(wls) em *, .lf-serif:lang(xav) em,
-.lf-serif:lang(xav) em *, .lf-serif:lang(xh) em,
-.lf-serif:lang(xh) em *, .lf-serif:lang(xog) em,
-.lf-serif:lang(xog) em *, .lf-serif:lang(yao) em,
-.lf-serif:lang(yao) em *, .lf-serif:lang(yap) em,
-.lf-serif:lang(yap) em *, .lf-serif:lang(yav) em,
-.lf-serif:lang(yav) em *, .lf-serif:lang(ybb) em,
-.lf-serif:lang(ybb) em *, .lf-serif:lang(yrl) em,
-.lf-serif:lang(yrl) em *, .lf-serif:lang(yua) em,
-.lf-serif:lang(yua) em *, .lf-serif:lang(zag) em,
-.lf-serif:lang(zag) em *, .lf-serif:lang(zap) em,
-.lf-serif:lang(zap) em *, .lf-serif:lang(zea) em,
-.lf-serif:lang(zea) em *, .lf-serif:lang(zmi) em,
-.lf-serif:lang(zmi) em *, .lf-serif:lang(zu) em,
-.lf-serif:lang(zu) em *, .lf-serif:lang(zun) em,
-.lf-serif:lang(zun) em *, .lf-serif:lang(zza) em,
-.lf-serif:lang(zza) em * {
+.lf-serif:lang(Latn) em *,
+.lf-serif:lang(Latn) .lf-serif-italic, .lf-serif:lang(ay) em,
+.lf-serif:lang(ay) em *,
+.lf-serif:lang(ay) .lf-serif-italic, .lf-serif:lang(bi) em,
+.lf-serif:lang(bi) em *,
+.lf-serif:lang(bi) .lf-serif-italic, .lf-serif:lang(ca) em,
+.lf-serif:lang(ca) em *,
+.lf-serif:lang(ca) .lf-serif-italic, .lf-serif:lang(ch) em,
+.lf-serif:lang(ch) em *,
+.lf-serif:lang(ch) .lf-serif-italic, .lf-serif:lang(cs) em,
+.lf-serif:lang(cs) em *,
+.lf-serif:lang(cs) .lf-serif-italic, .lf-serif:lang(da) em,
+.lf-serif:lang(da) em *,
+.lf-serif:lang(da) .lf-serif-italic, .lf-serif:lang(de) em,
+.lf-serif:lang(de) em *,
+.lf-serif:lang(de) .lf-serif-italic, .lf-serif:lang(en) em,
+.lf-serif:lang(en) em *,
+.lf-serif:lang(en) .lf-serif-italic, .lf-serif:lang(eo) em,
+.lf-serif:lang(eo) em *,
+.lf-serif:lang(eo) .lf-serif-italic, .lf-serif:lang(es) em,
+.lf-serif:lang(es) em *,
+.lf-serif:lang(es) .lf-serif-italic, .lf-serif:lang(et) em,
+.lf-serif:lang(et) em *,
+.lf-serif:lang(et) .lf-serif-italic, .lf-serif:lang(fi) em,
+.lf-serif:lang(fi) em *,
+.lf-serif:lang(fi) .lf-serif-italic, .lf-serif:lang(fil) em,
+.lf-serif:lang(fil) em *,
+.lf-serif:lang(fil) .lf-serif-italic, .lf-serif:lang(fj) em,
+.lf-serif:lang(fj) em *,
+.lf-serif:lang(fj) .lf-serif-italic, .lf-serif:lang(fo) em,
+.lf-serif:lang(fo) em *,
+.lf-serif:lang(fo) .lf-serif-italic, .lf-serif:lang(fr) em,
+.lf-serif:lang(fr) em *,
+.lf-serif:lang(fr) .lf-serif-italic, .lf-serif:lang(ga) em,
+.lf-serif:lang(ga) em *,
+.lf-serif:lang(ga) .lf-serif-italic, .lf-serif:lang(gil) em,
+.lf-serif:lang(gil) em *,
+.lf-serif:lang(gil) .lf-serif-italic, .lf-serif:lang(gn) em,
+.lf-serif:lang(gn) em *,
+.lf-serif:lang(gn) .lf-serif-italic, .lf-serif:lang(gsw) em,
+.lf-serif:lang(gsw) em *,
+.lf-serif:lang(gsw) .lf-serif-italic, .lf-serif:lang(gv) em,
+.lf-serif:lang(gv) em *,
+.lf-serif:lang(gv) .lf-serif-italic, .lf-serif:lang(ho) em,
+.lf-serif:lang(ho) em *,
+.lf-serif:lang(ho) .lf-serif-italic, .lf-serif:lang(hr) em,
+.lf-serif:lang(hr) em *,
+.lf-serif:lang(hr) .lf-serif-italic, .lf-serif:lang(ht) em,
+.lf-serif:lang(ht) em *,
+.lf-serif:lang(ht) .lf-serif-italic, .lf-serif:lang(hu) em,
+.lf-serif:lang(hu) em *,
+.lf-serif:lang(hu) .lf-serif-italic, .lf-serif:lang(in) em,
+.lf-serif:lang(in) em *,
+.lf-serif:lang(in) .lf-serif-italic, .lf-serif:lang(is) em,
+.lf-serif:lang(is) em *,
+.lf-serif:lang(is) .lf-serif-italic, .lf-serif:lang(it) em,
+.lf-serif:lang(it) em *,
+.lf-serif:lang(it) .lf-serif-italic, .lf-serif:lang(kl) em,
+.lf-serif:lang(kl) em *,
+.lf-serif:lang(kl) .lf-serif-italic, .lf-serif:lang(lb) em,
+.lf-serif:lang(lb) em *,
+.lf-serif:lang(lb) .lf-serif-italic, .lf-serif:lang(lt) em,
+.lf-serif:lang(lt) em *,
+.lf-serif:lang(lt) .lf-serif-italic, .lf-serif:lang(lv) em,
+.lf-serif:lang(lv) em *,
+.lf-serif:lang(lv) .lf-serif-italic, .lf-serif:lang(mg) em,
+.lf-serif:lang(mg) em *,
+.lf-serif:lang(mg) .lf-serif-italic, .lf-serif:lang(mh) em,
+.lf-serif:lang(mh) em *,
+.lf-serif:lang(mh) .lf-serif-italic, .lf-serif:lang(mi) em,
+.lf-serif:lang(mi) em *,
+.lf-serif:lang(mi) .lf-serif-italic, .lf-serif:lang(mt) em,
+.lf-serif:lang(mt) em *,
+.lf-serif:lang(mt) .lf-serif-italic, .lf-serif:lang(na) em,
+.lf-serif:lang(na) em *,
+.lf-serif:lang(na) .lf-serif-italic, .lf-serif:lang(nb) em,
+.lf-serif:lang(nb) em *,
+.lf-serif:lang(nb) .lf-serif-italic, .lf-serif:lang(nd) em,
+.lf-serif:lang(nd) em *,
+.lf-serif:lang(nd) .lf-serif-italic, .lf-serif:lang(niu) em,
+.lf-serif:lang(niu) em *,
+.lf-serif:lang(niu) .lf-serif-italic, .lf-serif:lang(nl) em,
+.lf-serif:lang(nl) em *,
+.lf-serif:lang(nl) .lf-serif-italic, .lf-serif:lang(nn) em,
+.lf-serif:lang(nn) em *,
+.lf-serif:lang(nn) .lf-serif-italic, .lf-serif:lang(no) em,
+.lf-serif:lang(no) em *,
+.lf-serif:lang(no) .lf-serif-italic, .lf-serif:lang(ny) em,
+.lf-serif:lang(ny) em *,
+.lf-serif:lang(ny) .lf-serif-italic, .lf-serif:lang(pap) em,
+.lf-serif:lang(pap) em *,
+.lf-serif:lang(pap) .lf-serif-italic, .lf-serif:lang(pau) em,
+.lf-serif:lang(pau) em *,
+.lf-serif:lang(pau) .lf-serif-italic, .lf-serif:lang(pl) em,
+.lf-serif:lang(pl) em *,
+.lf-serif:lang(pl) .lf-serif-italic, .lf-serif:lang(pt) em,
+.lf-serif:lang(pt) em *,
+.lf-serif:lang(pt) .lf-serif-italic, .lf-serif:lang(qu) em,
+.lf-serif:lang(qu) em *,
+.lf-serif:lang(qu) .lf-serif-italic, .lf-serif:lang(rn) em,
+.lf-serif:lang(rn) em *,
+.lf-serif:lang(rn) .lf-serif-italic, .lf-serif:lang(rw) em,
+.lf-serif:lang(rw) em *,
+.lf-serif:lang(rw) .lf-serif-italic, .lf-serif:lang(sg) em,
+.lf-serif:lang(sg) em *,
+.lf-serif:lang(sg) .lf-serif-italic, .lf-serif:lang(sk) em,
+.lf-serif:lang(sk) em *,
+.lf-serif:lang(sk) .lf-serif-italic, .lf-serif:lang(sl) em,
+.lf-serif:lang(sl) em *,
+.lf-serif:lang(sl) .lf-serif-italic, .lf-serif:lang(sm) em,
+.lf-serif:lang(sm) em *,
+.lf-serif:lang(sm) .lf-serif-italic, .lf-serif:lang(sn) em,
+.lf-serif:lang(sn) em *,
+.lf-serif:lang(sn) .lf-serif-italic, .lf-serif:lang(sq) em,
+.lf-serif:lang(sq) em *,
+.lf-serif:lang(sq) .lf-serif-italic, .lf-serif:lang(ss) em,
+.lf-serif:lang(ss) em *,
+.lf-serif:lang(ss) .lf-serif-italic, .lf-serif:lang(st) em,
+.lf-serif:lang(st) em *,
+.lf-serif:lang(st) .lf-serif-italic, .lf-serif:lang(sv) em,
+.lf-serif:lang(sv) em *,
+.lf-serif:lang(sv) .lf-serif-italic, .lf-serif:lang(sw) em,
+.lf-serif:lang(sw) em *,
+.lf-serif:lang(sw) .lf-serif-italic, .lf-serif:lang(tet) em,
+.lf-serif:lang(tet) em *,
+.lf-serif:lang(tet) .lf-serif-italic, .lf-serif:lang(tkl) em,
+.lf-serif:lang(tkl) em *,
+.lf-serif:lang(tkl) .lf-serif-italic, .lf-serif:lang(tl) em,
+.lf-serif:lang(tl) em *,
+.lf-serif:lang(tl) .lf-serif-italic, .lf-serif:lang(tn) em,
+.lf-serif:lang(tn) em *,
+.lf-serif:lang(tn) .lf-serif-italic, .lf-serif:lang(to) em,
+.lf-serif:lang(to) em *,
+.lf-serif:lang(to) .lf-serif-italic, .lf-serif:lang(tpi) em,
+.lf-serif:lang(tpi) em *,
+.lf-serif:lang(tpi) .lf-serif-italic, .lf-serif:lang(tr) em,
+.lf-serif:lang(tr) em *,
+.lf-serif:lang(tr) .lf-serif-italic, .lf-serif:lang(tvl) em,
+.lf-serif:lang(tvl) em *,
+.lf-serif:lang(tvl) .lf-serif-italic, .lf-serif:lang(ty) em,
+.lf-serif:lang(ty) em *,
+.lf-serif:lang(ty) .lf-serif-italic, .lf-serif:lang(yo) em,
+.lf-serif:lang(yo) em *,
+.lf-serif:lang(yo) .lf-serif-italic, .lf-serif:lang(aa) em,
+.lf-serif:lang(aa) em *,
+.lf-serif:lang(aa) .lf-serif-italic, .lf-serif:lang(abr) em,
+.lf-serif:lang(abr) em *,
+.lf-serif:lang(abr) .lf-serif-italic, .lf-serif:lang(ace) em,
+.lf-serif:lang(ace) em *,
+.lf-serif:lang(ace) .lf-serif-italic, .lf-serif:lang(ach) em,
+.lf-serif:lang(ach) em *,
+.lf-serif:lang(ach) .lf-serif-italic, .lf-serif:lang(ada) em,
+.lf-serif:lang(ada) em *,
+.lf-serif:lang(ada) .lf-serif-italic, .lf-serif:lang(af) em,
+.lf-serif:lang(af) em *,
+.lf-serif:lang(af) .lf-serif-italic, .lf-serif:lang(agq) em,
+.lf-serif:lang(agq) em *,
+.lf-serif:lang(agq) .lf-serif-italic, .lf-serif:lang(ak) em,
+.lf-serif:lang(ak) em *,
+.lf-serif:lang(ak) .lf-serif-italic, .lf-serif:lang(akz) em,
+.lf-serif:lang(akz) em *,
+.lf-serif:lang(akz) .lf-serif-italic, .lf-serif:lang(ale) em,
+.lf-serif:lang(ale) em *,
+.lf-serif:lang(ale) .lf-serif-italic, .lf-serif:lang(aln) em,
+.lf-serif:lang(aln) em *,
+.lf-serif:lang(aln) .lf-serif-italic, .lf-serif:lang(amo) em,
+.lf-serif:lang(amo) em *,
+.lf-serif:lang(amo) .lf-serif-italic, .lf-serif:lang(an) em,
+.lf-serif:lang(an) em *,
+.lf-serif:lang(an) .lf-serif-italic, .lf-serif:lang(aoz) em,
+.lf-serif:lang(aoz) em *,
+.lf-serif:lang(aoz) .lf-serif-italic, .lf-serif:lang(arn) em,
+.lf-serif:lang(arn) em *,
+.lf-serif:lang(arn) .lf-serif-italic, .lf-serif:lang(aro) em,
+.lf-serif:lang(aro) em *,
+.lf-serif:lang(aro) .lf-serif-italic, .lf-serif:lang(arp) em,
+.lf-serif:lang(arp) em *,
+.lf-serif:lang(arp) .lf-serif-italic, .lf-serif:lang(arw) em,
+.lf-serif:lang(arw) em *,
+.lf-serif:lang(arw) .lf-serif-italic, .lf-serif:lang(asa) em,
+.lf-serif:lang(asa) em *,
+.lf-serif:lang(asa) .lf-serif-italic, .lf-serif:lang(ast) em,
+.lf-serif:lang(ast) em *,
+.lf-serif:lang(ast) .lf-serif-italic, .lf-serif:lang(atj) em,
+.lf-serif:lang(atj) em *,
+.lf-serif:lang(atj) .lf-serif-italic, .lf-serif:lang(bar) em,
+.lf-serif:lang(bar) em *,
+.lf-serif:lang(bar) .lf-serif-italic, .lf-serif:lang(bas) em,
+.lf-serif:lang(bas) em *,
+.lf-serif:lang(bas) .lf-serif-italic, .lf-serif:lang(bbj) em,
+.lf-serif:lang(bbj) em *,
+.lf-serif:lang(bbj) .lf-serif-italic, .lf-serif:lang(bci) em,
+.lf-serif:lang(bci) em *,
+.lf-serif:lang(bci) .lf-serif-italic, .lf-serif:lang(bem) em,
+.lf-serif:lang(bem) em *,
+.lf-serif:lang(bem) .lf-serif-italic, .lf-serif:lang(bew) em,
+.lf-serif:lang(bew) em *,
+.lf-serif:lang(bew) .lf-serif-italic, .lf-serif:lang(bez) em,
+.lf-serif:lang(bez) em *,
+.lf-serif:lang(bez) .lf-serif-italic, .lf-serif:lang(bfd) em,
+.lf-serif:lang(bfd) em *,
+.lf-serif:lang(bfd) .lf-serif-italic, .lf-serif:lang(bik) em,
+.lf-serif:lang(bik) em *,
+.lf-serif:lang(bik) .lf-serif-italic, .lf-serif:lang(bin) em,
+.lf-serif:lang(bin) em *,
+.lf-serif:lang(bin) .lf-serif-italic, .lf-serif:lang(bjn) em,
+.lf-serif:lang(bjn) em *,
+.lf-serif:lang(bjn) .lf-serif-italic, .lf-serif:lang(bkm) em,
+.lf-serif:lang(bkm) em *,
+.lf-serif:lang(bkm) .lf-serif-italic, .lf-serif:lang(bku) em,
+.lf-serif:lang(bku) em *,
+.lf-serif:lang(bku) .lf-serif-italic, .lf-serif:lang(bla) em,
+.lf-serif:lang(bla) em *,
+.lf-serif:lang(bla) .lf-serif-italic, .lf-serif:lang(bmq) em,
+.lf-serif:lang(bmq) em *,
+.lf-serif:lang(bmq) .lf-serif-italic, .lf-serif:lang(bqv) em,
+.lf-serif:lang(bqv) em *,
+.lf-serif:lang(bqv) .lf-serif-italic, .lf-serif:lang(br) em,
+.lf-serif:lang(br) em *,
+.lf-serif:lang(br) .lf-serif-italic, .lf-serif:lang(bss) em,
+.lf-serif:lang(bss) em *,
+.lf-serif:lang(bss) .lf-serif-italic, .lf-serif:lang(bto) em,
+.lf-serif:lang(bto) em *,
+.lf-serif:lang(bto) .lf-serif-italic, .lf-serif:lang(buc) em,
+.lf-serif:lang(buc) em *,
+.lf-serif:lang(buc) .lf-serif-italic, .lf-serif:lang(bug) em,
+.lf-serif:lang(bug) em *,
+.lf-serif:lang(bug) .lf-serif-italic, .lf-serif:lang(bum) em,
+.lf-serif:lang(bum) em *,
+.lf-serif:lang(bum) .lf-serif-italic, .lf-serif:lang(bvb) em,
+.lf-serif:lang(bvb) em *,
+.lf-serif:lang(bvb) .lf-serif-italic, .lf-serif:lang(byv) em,
+.lf-serif:lang(byv) em *,
+.lf-serif:lang(byv) .lf-serif-italic, .lf-serif:lang(bze) em,
+.lf-serif:lang(bze) em *,
+.lf-serif:lang(bze) .lf-serif-italic, .lf-serif:lang(bzx) em,
+.lf-serif:lang(bzx) em *,
+.lf-serif:lang(bzx) .lf-serif-italic, .lf-serif:lang(cad) em,
+.lf-serif:lang(cad) em *,
+.lf-serif:lang(cad) .lf-serif-italic, .lf-serif:lang(car) em,
+.lf-serif:lang(car) em *,
+.lf-serif:lang(car) .lf-serif-italic, .lf-serif:lang(cay) em,
+.lf-serif:lang(cay) em *,
+.lf-serif:lang(cay) .lf-serif-italic, .lf-serif:lang(cch) em,
+.lf-serif:lang(cch) em *,
+.lf-serif:lang(cch) .lf-serif-italic, .lf-serif:lang(ceb) em,
+.lf-serif:lang(ceb) em *,
+.lf-serif:lang(ceb) .lf-serif-italic, .lf-serif:lang(cgg) em,
+.lf-serif:lang(cgg) em *,
+.lf-serif:lang(cgg) .lf-serif-italic, .lf-serif:lang(chk) em,
+.lf-serif:lang(chk) em *,
+.lf-serif:lang(chk) .lf-serif-italic, .lf-serif:lang(chn) em,
+.lf-serif:lang(chn) em *,
+.lf-serif:lang(chn) .lf-serif-italic, .lf-serif:lang(cho) em,
+.lf-serif:lang(cho) em *,
+.lf-serif:lang(cho) .lf-serif-italic, .lf-serif:lang(chy) em,
+.lf-serif:lang(chy) em *,
+.lf-serif:lang(chy) .lf-serif-italic, .lf-serif:lang(cic) em,
+.lf-serif:lang(cic) em *,
+.lf-serif:lang(cic) .lf-serif-italic, .lf-serif:lang(co) em,
+.lf-serif:lang(co) em *,
+.lf-serif:lang(co) .lf-serif-italic, .lf-serif:lang(cps) em,
+.lf-serif:lang(cps) em *,
+.lf-serif:lang(cps) .lf-serif-italic, .lf-serif:lang(crj) em,
+.lf-serif:lang(crj) em *,
+.lf-serif:lang(crj) .lf-serif-italic, .lf-serif:lang(crl) em,
+.lf-serif:lang(crl) em *,
+.lf-serif:lang(crl) .lf-serif-italic, .lf-serif:lang(crs) em,
+.lf-serif:lang(crs) em *,
+.lf-serif:lang(crs) .lf-serif-italic, .lf-serif:lang(csb) em,
+.lf-serif:lang(csb) em *,
+.lf-serif:lang(csb) .lf-serif-italic, .lf-serif:lang(ctd) em,
+.lf-serif:lang(ctd) em *,
+.lf-serif:lang(ctd) .lf-serif-italic, .lf-serif:lang(cy) em,
+.lf-serif:lang(cy) em *,
+.lf-serif:lang(cy) .lf-serif-italic, .lf-serif:lang(dak) em,
+.lf-serif:lang(dak) em *,
+.lf-serif:lang(dak) .lf-serif-italic, .lf-serif:lang(dav) em,
+.lf-serif:lang(dav) em *,
+.lf-serif:lang(dav) .lf-serif-italic, .lf-serif:lang(del) em,
+.lf-serif:lang(del) em *,
+.lf-serif:lang(del) .lf-serif-italic, .lf-serif:lang(dgr) em,
+.lf-serif:lang(dgr) em *,
+.lf-serif:lang(dgr) .lf-serif-italic, .lf-serif:lang(din) em,
+.lf-serif:lang(din) em *,
+.lf-serif:lang(din) .lf-serif-italic, .lf-serif:lang(dje) em,
+.lf-serif:lang(dje) em *,
+.lf-serif:lang(dje) .lf-serif-italic, .lf-serif:lang(dnj) em,
+.lf-serif:lang(dnj) em *,
+.lf-serif:lang(dnj) .lf-serif-italic, .lf-serif:lang(dsb) em,
+.lf-serif:lang(dsb) em *,
+.lf-serif:lang(dsb) .lf-serif-italic, .lf-serif:lang(dtm) em,
+.lf-serif:lang(dtm) em *,
+.lf-serif:lang(dtm) .lf-serif-italic, .lf-serif:lang(dtp) em,
+.lf-serif:lang(dtp) em *,
+.lf-serif:lang(dtp) .lf-serif-italic, .lf-serif:lang(dua) em,
+.lf-serif:lang(dua) em *,
+.lf-serif:lang(dua) .lf-serif-italic, .lf-serif:lang(dyu) em,
+.lf-serif:lang(dyu) em *,
+.lf-serif:lang(dyu) .lf-serif-italic, .lf-serif:lang(ebu) em,
+.lf-serif:lang(ebu) em *,
+.lf-serif:lang(ebu) .lf-serif-italic, .lf-serif:lang(ee) em,
+.lf-serif:lang(ee) em *,
+.lf-serif:lang(ee) .lf-serif-italic, .lf-serif:lang(efi) em,
+.lf-serif:lang(efi) em *,
+.lf-serif:lang(efi) .lf-serif-italic, .lf-serif:lang(egl) em,
+.lf-serif:lang(egl) em *,
+.lf-serif:lang(egl) .lf-serif-italic, .lf-serif:lang(eka) em,
+.lf-serif:lang(eka) em *,
+.lf-serif:lang(eka) .lf-serif-italic, .lf-serif:lang(esu) em,
+.lf-serif:lang(esu) em *,
+.lf-serif:lang(esu) .lf-serif-italic, .lf-serif:lang(eu) em,
+.lf-serif:lang(eu) em *,
+.lf-serif:lang(eu) .lf-serif-italic, .lf-serif:lang(ewo) em,
+.lf-serif:lang(ewo) em *,
+.lf-serif:lang(ewo) .lf-serif-italic, .lf-serif:lang(ext) em,
+.lf-serif:lang(ext) em *,
+.lf-serif:lang(ext) .lf-serif-italic, .lf-serif:lang(fan) em,
+.lf-serif:lang(fan) em *,
+.lf-serif:lang(fan) .lf-serif-italic, .lf-serif:lang(ffm) em,
+.lf-serif:lang(ffm) em *,
+.lf-serif:lang(ffm) .lf-serif-italic, .lf-serif:lang(fit) em,
+.lf-serif:lang(fit) em *,
+.lf-serif:lang(fit) .lf-serif-italic, .lf-serif:lang(fon) em,
+.lf-serif:lang(fon) em *,
+.lf-serif:lang(fon) .lf-serif-italic, .lf-serif:lang(frc) em,
+.lf-serif:lang(frc) em *,
+.lf-serif:lang(frc) .lf-serif-italic, .lf-serif:lang(frp) em,
+.lf-serif:lang(frp) em *,
+.lf-serif:lang(frp) .lf-serif-italic, .lf-serif:lang(frr) em,
+.lf-serif:lang(frr) em *,
+.lf-serif:lang(frr) .lf-serif-italic, .lf-serif:lang(frs) em,
+.lf-serif:lang(frs) em *,
+.lf-serif:lang(frs) .lf-serif-italic, .lf-serif:lang(fud) em,
+.lf-serif:lang(fud) em *,
+.lf-serif:lang(fud) .lf-serif-italic, .lf-serif:lang(fuq) em,
+.lf-serif:lang(fuq) em *,
+.lf-serif:lang(fuq) .lf-serif-italic, .lf-serif:lang(fur) em,
+.lf-serif:lang(fur) em *,
+.lf-serif:lang(fur) .lf-serif-italic, .lf-serif:lang(fuv) em,
+.lf-serif:lang(fuv) em *,
+.lf-serif:lang(fuv) .lf-serif-italic, .lf-serif:lang(fvr) em,
+.lf-serif:lang(fvr) em *,
+.lf-serif:lang(fvr) .lf-serif-italic, .lf-serif:lang(fy) em,
+.lf-serif:lang(fy) em *,
+.lf-serif:lang(fy) .lf-serif-italic, .lf-serif:lang(gaa) em,
+.lf-serif:lang(gaa) em *,
+.lf-serif:lang(gaa) .lf-serif-italic, .lf-serif:lang(gay) em,
+.lf-serif:lang(gay) em *,
+.lf-serif:lang(gay) .lf-serif-italic, .lf-serif:lang(gba) em,
+.lf-serif:lang(gba) em *,
+.lf-serif:lang(gba) .lf-serif-italic, .lf-serif:lang(gcr) em,
+.lf-serif:lang(gcr) em *,
+.lf-serif:lang(gcr) .lf-serif-italic, .lf-serif:lang(gd) em,
+.lf-serif:lang(gd) em *,
+.lf-serif:lang(gd) .lf-serif-italic, .lf-serif:lang(gl) em,
+.lf-serif:lang(gl) em *,
+.lf-serif:lang(gl) .lf-serif-italic, .lf-serif:lang(gor) em,
+.lf-serif:lang(gor) em *,
+.lf-serif:lang(gor) .lf-serif-italic, .lf-serif:lang(gos) em,
+.lf-serif:lang(gos) em *,
+.lf-serif:lang(gos) .lf-serif-italic, .lf-serif:lang(grb) em,
+.lf-serif:lang(grb) em *,
+.lf-serif:lang(grb) .lf-serif-italic, .lf-serif:lang(gub) em,
+.lf-serif:lang(gub) em *,
+.lf-serif:lang(gub) .lf-serif-italic, .lf-serif:lang(guc) em,
+.lf-serif:lang(guc) em *,
+.lf-serif:lang(guc) .lf-serif-italic, .lf-serif:lang(gur) em,
+.lf-serif:lang(gur) em *,
+.lf-serif:lang(gur) .lf-serif-italic, .lf-serif:lang(guz) em,
+.lf-serif:lang(guz) em *,
+.lf-serif:lang(guz) .lf-serif-italic, .lf-serif:lang(gwi) em,
+.lf-serif:lang(gwi) em *,
+.lf-serif:lang(gwi) .lf-serif-italic, .lf-serif:lang(hai) em,
+.lf-serif:lang(hai) em *,
+.lf-serif:lang(hai) .lf-serif-italic, .lf-serif:lang(haw) em,
+.lf-serif:lang(haw) em *,
+.lf-serif:lang(haw) .lf-serif-italic, .lf-serif:lang(hil) em,
+.lf-serif:lang(hil) em *,
+.lf-serif:lang(hil) .lf-serif-italic, .lf-serif:lang(hmn) em,
+.lf-serif:lang(hmn) em *,
+.lf-serif:lang(hmn) .lf-serif-italic, .lf-serif:lang(hnn) em,
+.lf-serif:lang(hnn) em *,
+.lf-serif:lang(hnn) .lf-serif-italic, .lf-serif:lang(hop) em,
+.lf-serif:lang(hop) em *,
+.lf-serif:lang(hop) .lf-serif-italic, .lf-serif:lang(hsb) em,
+.lf-serif:lang(hsb) em *,
+.lf-serif:lang(hsb) .lf-serif-italic, .lf-serif:lang(hup) em,
+.lf-serif:lang(hup) em *,
+.lf-serif:lang(hup) .lf-serif-italic, .lf-serif:lang(hz) em,
+.lf-serif:lang(hz) em *,
+.lf-serif:lang(hz) .lf-serif-italic, .lf-serif:lang(iba) em,
+.lf-serif:lang(iba) em *,
+.lf-serif:lang(iba) .lf-serif-italic, .lf-serif:lang(ibb) em,
+.lf-serif:lang(ibb) em *,
+.lf-serif:lang(ibb) .lf-serif-italic, .lf-serif:lang(ife) em,
+.lf-serif:lang(ife) em *,
+.lf-serif:lang(ife) .lf-serif-italic, .lf-serif:lang(ig) em,
+.lf-serif:lang(ig) em *,
+.lf-serif:lang(ig) .lf-serif-italic, .lf-serif:lang(ik) em,
+.lf-serif:lang(ik) em *,
+.lf-serif:lang(ik) .lf-serif-italic, .lf-serif:lang(ikt) em,
+.lf-serif:lang(ikt) em *,
+.lf-serif:lang(ikt) .lf-serif-italic, .lf-serif:lang(ilo) em,
+.lf-serif:lang(ilo) em *,
+.lf-serif:lang(ilo) .lf-serif-italic, .lf-serif:lang(izh) em,
+.lf-serif:lang(izh) em *,
+.lf-serif:lang(izh) .lf-serif-italic, .lf-serif:lang(jam) em,
+.lf-serif:lang(jam) em *,
+.lf-serif:lang(jam) .lf-serif-italic, .lf-serif:lang(jgo) em,
+.lf-serif:lang(jgo) em *,
+.lf-serif:lang(jgo) .lf-serif-italic, .lf-serif:lang(jmc) em,
+.lf-serif:lang(jmc) em *,
+.lf-serif:lang(jmc) .lf-serif-italic, .lf-serif:lang(kab) em,
+.lf-serif:lang(kab) em *,
+.lf-serif:lang(kab) .lf-serif-italic, .lf-serif:lang(kac) em,
+.lf-serif:lang(kac) em *,
+.lf-serif:lang(kac) .lf-serif-italic, .lf-serif:lang(kaj) em,
+.lf-serif:lang(kaj) em *,
+.lf-serif:lang(kaj) .lf-serif-italic, .lf-serif:lang(kam) em,
+.lf-serif:lang(kam) em *,
+.lf-serif:lang(kam) .lf-serif-italic, .lf-serif:lang(kao) em,
+.lf-serif:lang(kao) em *,
+.lf-serif:lang(kao) .lf-serif-italic, .lf-serif:lang(kcg) em,
+.lf-serif:lang(kcg) em *,
+.lf-serif:lang(kcg) .lf-serif-italic, .lf-serif:lang(kck) em,
+.lf-serif:lang(kck) em *,
+.lf-serif:lang(kck) .lf-serif-italic, .lf-serif:lang(kde) em,
+.lf-serif:lang(kde) em *,
+.lf-serif:lang(kde) .lf-serif-italic, .lf-serif:lang(kea) em,
+.lf-serif:lang(kea) em *,
+.lf-serif:lang(kea) .lf-serif-italic, .lf-serif:lang(kfo) em,
+.lf-serif:lang(kfo) em *,
+.lf-serif:lang(kfo) .lf-serif-italic, .lf-serif:lang(kg) em,
+.lf-serif:lang(kg) em *,
+.lf-serif:lang(kg) .lf-serif-italic, .lf-serif:lang(kge) em,
+.lf-serif:lang(kge) em *,
+.lf-serif:lang(kge) .lf-serif-italic, .lf-serif:lang(kgp) em,
+.lf-serif:lang(kgp) em *,
+.lf-serif:lang(kgp) .lf-serif-italic, .lf-serif:lang(khq) em,
+.lf-serif:lang(khq) em *,
+.lf-serif:lang(khq) .lf-serif-italic, .lf-serif:lang(ki) em,
+.lf-serif:lang(ki) em *,
+.lf-serif:lang(ki) .lf-serif-italic, .lf-serif:lang(kiu) em,
+.lf-serif:lang(kiu) em *,
+.lf-serif:lang(kiu) .lf-serif-italic, .lf-serif:lang(kj) em,
+.lf-serif:lang(kj) em *,
+.lf-serif:lang(kj) .lf-serif-italic, .lf-serif:lang(kkj) em,
+.lf-serif:lang(kkj) em *,
+.lf-serif:lang(kkj) .lf-serif-italic, .lf-serif:lang(kln) em,
+.lf-serif:lang(kln) em *,
+.lf-serif:lang(kln) .lf-serif-italic, .lf-serif:lang(kmb) em,
+.lf-serif:lang(kmb) em *,
+.lf-serif:lang(kmb) .lf-serif-italic, .lf-serif:lang(kos) em,
+.lf-serif:lang(kos) em *,
+.lf-serif:lang(kos) .lf-serif-italic, .lf-serif:lang(kpe) em,
+.lf-serif:lang(kpe) em *,
+.lf-serif:lang(kpe) .lf-serif-italic, .lf-serif:lang(kr) em,
+.lf-serif:lang(kr) em *,
+.lf-serif:lang(kr) .lf-serif-italic, .lf-serif:lang(kri) em,
+.lf-serif:lang(kri) em *,
+.lf-serif:lang(kri) .lf-serif-italic, .lf-serif:lang(krj) em,
+.lf-serif:lang(krj) em *,
+.lf-serif:lang(krj) .lf-serif-italic, .lf-serif:lang(krl) em,
+.lf-serif:lang(krl) em *,
+.lf-serif:lang(krl) .lf-serif-italic, .lf-serif:lang(ksb) em,
+.lf-serif:lang(ksb) em *,
+.lf-serif:lang(ksb) .lf-serif-italic, .lf-serif:lang(ksf) em,
+.lf-serif:lang(ksf) em *,
+.lf-serif:lang(ksf) .lf-serif-italic, .lf-serif:lang(ksh) em,
+.lf-serif:lang(ksh) em *,
+.lf-serif:lang(ksh) .lf-serif-italic, .lf-serif:lang(kut) em,
+.lf-serif:lang(kut) em *,
+.lf-serif:lang(kut) .lf-serif-italic, .lf-serif:lang(kvr) em,
+.lf-serif:lang(kvr) em *,
+.lf-serif:lang(kvr) .lf-serif-italic, .lf-serif:lang(kw) em,
+.lf-serif:lang(kw) em *,
+.lf-serif:lang(kw) .lf-serif-italic, .lf-serif:lang(lag) em,
+.lf-serif:lang(lag) em *,
+.lf-serif:lang(lag) .lf-serif-italic, .lf-serif:lang(laj) em,
+.lf-serif:lang(laj) em *,
+.lf-serif:lang(laj) .lf-serif-italic, .lf-serif:lang(lam) em,
+.lf-serif:lang(lam) em *,
+.lf-serif:lang(lam) .lf-serif-italic, .lf-serif:lang(lbw) em,
+.lf-serif:lang(lbw) em *,
+.lf-serif:lang(lbw) .lf-serif-italic, .lf-serif:lang(li) em,
+.lf-serif:lang(li) em *,
+.lf-serif:lang(li) .lf-serif-italic, .lf-serif:lang(lij) em,
+.lf-serif:lang(lij) em *,
+.lf-serif:lang(lij) .lf-serif-italic, .lf-serif:lang(liv) em,
+.lf-serif:lang(liv) em *,
+.lf-serif:lang(liv) .lf-serif-italic, .lf-serif:lang(lkt) em,
+.lf-serif:lang(lkt) em *,
+.lf-serif:lang(lkt) .lf-serif-italic, .lf-serif:lang(lmo) em,
+.lf-serif:lang(lmo) em *,
+.lf-serif:lang(lmo) .lf-serif-italic, .lf-serif:lang(mad) em,
+.lf-serif:lang(mad) em *,
+.lf-serif:lang(mad) .lf-serif-italic, .lf-serif:lang(rtm) em,
+.lf-serif:lang(rtm) em *,
+.lf-serif:lang(rtm) .lf-serif-italic, .lf-serif:lang(tiv) em,
+.lf-serif:lang(tiv) em *,
+.lf-serif:lang(tiv) .lf-serif-italic, .lf-serif:lang(tmh) em,
+.lf-serif:lang(tmh) em *,
+.lf-serif:lang(tmh) .lf-serif-italic, .lf-serif:lang(tog) em,
+.lf-serif:lang(tog) em *,
+.lf-serif:lang(tog) .lf-serif-italic, .lf-serif:lang(trv) em,
+.lf-serif:lang(trv) em *,
+.lf-serif:lang(trv) .lf-serif-italic, .lf-serif:lang(ts) em,
+.lf-serif:lang(ts) em *,
+.lf-serif:lang(ts) .lf-serif-italic, .lf-serif:lang(tsg) em,
+.lf-serif:lang(tsg) em *,
+.lf-serif:lang(tsg) .lf-serif-italic, .lf-serif:lang(tsi) em,
+.lf-serif:lang(tsi) em *,
+.lf-serif:lang(tsi) .lf-serif-italic, .lf-serif:lang(ttj) em,
+.lf-serif:lang(ttj) em *,
+.lf-serif:lang(ttj) .lf-serif-italic, .lf-serif:lang(tum) em,
+.lf-serif:lang(tum) em *,
+.lf-serif:lang(tum) .lf-serif-italic, .lf-serif:lang(twq) em,
+.lf-serif:lang(twq) em *,
+.lf-serif:lang(twq) .lf-serif-italic, .lf-serif:lang(uli) em,
+.lf-serif:lang(uli) em *,
+.lf-serif:lang(uli) .lf-serif-italic, .lf-serif:lang(umb) em,
+.lf-serif:lang(umb) em *,
+.lf-serif:lang(umb) .lf-serif-italic, .lf-serif:lang(ve) em,
+.lf-serif:lang(ve) em *,
+.lf-serif:lang(ve) .lf-serif-italic, .lf-serif:lang(vec) em,
+.lf-serif:lang(vec) em *,
+.lf-serif:lang(vec) .lf-serif-italic, .lf-serif:lang(vep) em,
+.lf-serif:lang(vep) em *,
+.lf-serif:lang(vep) .lf-serif-italic, .lf-serif:lang(vic) em,
+.lf-serif:lang(vic) em *,
+.lf-serif:lang(vic) .lf-serif-italic, .lf-serif:lang(vls) em,
+.lf-serif:lang(vls) em *,
+.lf-serif:lang(vls) .lf-serif-italic, .lf-serif:lang(vmf) em,
+.lf-serif:lang(vmf) em *,
+.lf-serif:lang(vmf) .lf-serif-italic, .lf-serif:lang(vmw) em,
+.lf-serif:lang(vmw) em *,
+.lf-serif:lang(vmw) .lf-serif-italic, .lf-serif:lang(vot) em,
+.lf-serif:lang(vot) em *,
+.lf-serif:lang(vot) .lf-serif-italic, .lf-serif:lang(vro) em,
+.lf-serif:lang(vro) em *,
+.lf-serif:lang(vro) .lf-serif-italic, .lf-serif:lang(vun) em,
+.lf-serif:lang(vun) em *,
+.lf-serif:lang(vun) .lf-serif-italic, .lf-serif:lang(wa) em,
+.lf-serif:lang(wa) em *,
+.lf-serif:lang(wa) .lf-serif-italic, .lf-serif:lang(wae) em,
+.lf-serif:lang(wae) em *,
+.lf-serif:lang(wae) .lf-serif-italic, .lf-serif:lang(war) em,
+.lf-serif:lang(war) em *,
+.lf-serif:lang(war) .lf-serif-italic, .lf-serif:lang(was) em,
+.lf-serif:lang(was) em *,
+.lf-serif:lang(was) .lf-serif-italic, .lf-serif:lang(wbp) em,
+.lf-serif:lang(wbp) em *,
+.lf-serif:lang(wbp) .lf-serif-italic, .lf-serif:lang(wls) em,
+.lf-serif:lang(wls) em *,
+.lf-serif:lang(wls) .lf-serif-italic, .lf-serif:lang(xav) em,
+.lf-serif:lang(xav) em *,
+.lf-serif:lang(xav) .lf-serif-italic, .lf-serif:lang(xh) em,
+.lf-serif:lang(xh) em *,
+.lf-serif:lang(xh) .lf-serif-italic, .lf-serif:lang(xog) em,
+.lf-serif:lang(xog) em *,
+.lf-serif:lang(xog) .lf-serif-italic, .lf-serif:lang(yao) em,
+.lf-serif:lang(yao) em *,
+.lf-serif:lang(yao) .lf-serif-italic, .lf-serif:lang(yap) em,
+.lf-serif:lang(yap) em *,
+.lf-serif:lang(yap) .lf-serif-italic, .lf-serif:lang(yav) em,
+.lf-serif:lang(yav) em *,
+.lf-serif:lang(yav) .lf-serif-italic, .lf-serif:lang(ybb) em,
+.lf-serif:lang(ybb) em *,
+.lf-serif:lang(ybb) .lf-serif-italic, .lf-serif:lang(yrl) em,
+.lf-serif:lang(yrl) em *,
+.lf-serif:lang(yrl) .lf-serif-italic, .lf-serif:lang(yua) em,
+.lf-serif:lang(yua) em *,
+.lf-serif:lang(yua) .lf-serif-italic, .lf-serif:lang(zag) em,
+.lf-serif:lang(zag) em *,
+.lf-serif:lang(zag) .lf-serif-italic, .lf-serif:lang(zap) em,
+.lf-serif:lang(zap) em *,
+.lf-serif:lang(zap) .lf-serif-italic, .lf-serif:lang(zea) em,
+.lf-serif:lang(zea) em *,
+.lf-serif:lang(zea) .lf-serif-italic, .lf-serif:lang(zmi) em,
+.lf-serif:lang(zmi) em *,
+.lf-serif:lang(zmi) .lf-serif-italic, .lf-serif:lang(zu) em,
+.lf-serif:lang(zu) em *,
+.lf-serif:lang(zu) .lf-serif-italic, .lf-serif:lang(zun) em,
+.lf-serif:lang(zun) em *,
+.lf-serif:lang(zun) .lf-serif-italic, .lf-serif:lang(zza) em,
+.lf-serif:lang(zza) em *,
+.lf-serif:lang(zza) .lf-serif-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 
@@ -4571,7 +4928,7 @@ code:lang(zza),
 .lf-mono:lang(zu),
 .lf-mono:lang(zun),
 .lf-mono:lang(zza) {
-  font-family: "Noto Sans Latin Mono", monospace;
+  font-family: "Noto Sans Latin Mono", "Noto Sans Latin Mono", monospace;
   direction: ltr;
 }
 
@@ -4929,6 +5286,24 @@ code:lang(zza),
 	}
 }
 */
+html {
+  font-family: "Noto Sans Latin", sans-serif;
+  font-display: swap;
+  direction: ltr;
+}
+html em,
+html .lf-latin-italic {
+  font-style: normal;
+  font-family: "Noto Sans Latin Italic", sans-serif;
+  font-display: swap;
+}
+html pre,
+html code,
+html .lf-latin-mono {
+  font-family: "Noto Sans Latin Mono", monospace;
+  font-display: swap;
+}
+
 strong {
   font-weight: 700;
   font-variation-settings: "wdth" 100, "wght" 700;
@@ -4989,9 +5364,4 @@ strong {
   color: #555;
   font-weight: 300;
   font-variation-settings: "wdth" 60, "wght" 300;
-}
-
-html,
-body {
-  font-family: "Noto Sans Latin", sans-serif;
 }

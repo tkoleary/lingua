@@ -1,7 +1,6 @@
 /*
 *,
 .lf-sans {
-
 	&:lang(Scrp),
 	&:lang(Lng) {
 		font-family: $base-sans,$~Lang-sans,sans-serif;
@@ -10,7 +9,6 @@
 }
 
 .lf-sans-ui {
-
 	&:lang(Scrp),
 	&:lang(Lng) {
 		font-family: $base-sans,$~Lang-sans-ui,sans-serif;
@@ -19,7 +17,6 @@
 }
 
 .lf-serif {
-
 	&:lang(Scrp),
 	&:lang(Lng) {
 		font-family: $base-serif,$~Lang-serif,serif;

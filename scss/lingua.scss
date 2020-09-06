@@ -10,9 +10,6 @@
 @import "webfonts/variable-serif";
 @import "webfonts/variable-ui";
 
-// Set the base font (fallback)
-@import "script-selectors/all";
-
 // Import files to load scripts based on the :lang property
 
 // Files for languages that may be written in more than one script
@@ -25,6 +22,7 @@
 @import "script-selectors/adlam";
 @import "script-selectors/arabic";
 @import "script-selectors/armenian";
+@import "script-selectors/balinese";
 @import "script-selectors/bamum";
 @import "script-selectors/bengali";
 @import "script-selectors/brahmi";
@@ -55,11 +53,9 @@
 @import "script-selectors/lisu";
 @import "script-selectors/malayalam";
 @import "script-selectors/myanmar";
-//@import "script-selectors/naskh-arabic";
 @import "script-selectors/nko";
 @import "script-selectors/ol-chiki";
 @import "script-selectors/oriya";
-//@import "script-selectors/rashi-hebrew";
 @import "script-selectors/sinhala";
 @import "script-selectors/sora-sompeng";
 @import "script-selectors/tagalog";
@@ -75,10 +71,8 @@
 @import "script-selectors/warang-citi";
 @import "script-selectors/zanabazar";
 
+// Set the base font (fallback)
+@import "script-selectors/all";
+
 // Import the classes for weights and widths
 @import "classes/weights";
-
-html,
-body {
-	font-family: $base-sans,sans-serif; // Comment out if you dont't want Lingua sanss latin fonts to be global
-}
