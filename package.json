@@ -32,6 +32,11 @@
 	"Dependencies": {
 		"vuepress": "^1.5.2"
 	},
+	"dependencies": {
+		"vuepress": "^1.5.2",
+		"webpack": "^4.36.0",
+		"webpack-chain": "^6.5.1"
+	},
 	"devDependencies": {
 		"dart-sass": "^1.25.0",
 		"gulp": "^4.0.2",
@@ -47,6 +52,8 @@
 		"normalize-scss": "^7.0.1",
 		"sass": "^1.26.10",
 		"sass-loader": "7.3.1",
+		"stylelint": "^13.6.1",
+		"stylelint-config-standard": "^20.0.0",
 		"vuepress": "^1.5.2",
 		"webpack": "^4.36.0",
 		"webpack-chain": "^6.5.1"
@@ -56,9 +63,5 @@
 		"scss",
 		"LICENSE",
 		"README.md"
-	],
-	"dependencies": {
-		"stylelint": "^13.6.1",
-		"stylelint-config-standard": "^20.0.0"
-	}
+	]
 }
