@@ -1254,7 +1254,7 @@ With variable fonts, automatic application of italics is inconsistently applied 
 
 ***
 
-<div lang="Hebr" style="text-align: right">
+<!--<div lang="Hebr" style="text-align: right">
 	<h3 class="lf-light font-label">Hebrew - Rashi</h3>
 	<p class="lf-specimen lf-rashi lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-rashi lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
@@ -1265,13 +1265,14 @@ With variable fonts, automatic application of italics is inconsistently applied 
 	<p class="lf-specimen lf-rashi lf-bold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-rashi lf-xbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-rashi lf-ubold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-</div>
+</div>-->
 
 ***
 
 </div>
 
-<!--## Monospace
+<!--
+## Monospace
 
 The monospace font covers Latin. We will add more monospace fonts as they become available.
 
