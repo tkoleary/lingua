@@ -439,8 +439,8 @@
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
-  font-family: "Noto Tamil Slanted";
-  src: url("fonts/NotoTamilSlanted-Regular-subset.woff2") format("woff2"), url("fonts/NotoTamilSlanted-Regular-subset.woff") format("woff");
+  font-family: "Noto Serif Tamil Slanted ";
+  src: url("fonts/NotoSerifTamilSlanted-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifTamilSlanted-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -448,7 +448,7 @@
 }
 @font-face {
   font-family: "Noto Naskh Arabic UI";
-  src: url("fonts/NotoNaskhArabic-UI-Regular-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabic-UI-Regular-subset.woff") format("woff");
+  src: url("fonts/NotoNaskhArabicUI-Regular-subset.woff2") format("woff2"), url("fonts/NotoNaskhArabicUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1320,16 +1320,24 @@
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
-  font-family: "Noto Tamil Slanted";
-  src: url("fonts/NotoTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoTamilSlanted-VF-subset.woff") format("woff");
+  font-family: "Noto Rashi Hebrew ";
+  src: url("fonts/NotoRashiHebrew-VF-subset.woff2") format("woff2"), url("fonts/NotoRashiHebrew-VF-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0590-05FF, U+FB1D-FB4F;
+}
+@font-face {
+  font-family: "Noto Serif Tamil Slanted ";
+  src: url("fonts/NotoSerifTamilSlanted-VF-subset.woff2") format("woff2"), url("fonts/NotoSerifTamilSlanted-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
-  font-family: "Noto Adlam Unjoined";
-  src: url("fonts/NotoAdlamUnjoined-VF-subset.woff2") format("woff2"), url("fonts/NotoAdlamUnjoined-VF-subset.woff") format("woff");
+  font-family: "Noto Sans Adlam Unjoined";
+  src: url("fonts/NotoSansAdlamUnjoined-VF-subset.woff2") format("woff2"), url("fonts/NotoSansAdlamUnjoined-VF-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -5186,8 +5194,8 @@ code:lang(zza),
   direction: ltr;
 }
 
-.lf-serif:lang(Taml), .lf-serif:lang(ta) {
-  font-family: "Noto Serif Latin", "Noto Serif Tamil", serif;
+.lf-slanted:lang(Taml), .lf-slanted:lang(ta) {
+  font-family: "Noto Serif Latin", "Noto Serif Tamil Slanted", serif;
   direction: ltr;
 }
 

@@ -17,10 +17,10 @@
 	}
 }
 
-.lf-serif {
+.lf-slanted {
 	&:lang(Taml),
 	&:lang(ta) {
-		font-family: $base-serif,$tamil-serif,serif;
+		font-family: $base-serif,$tamil-serif-slanted,serif;
 		direction: ltr;
 	}
 }

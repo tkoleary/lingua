@@ -280,7 +280,7 @@ The variations shown are the helper classes for weights 100 through 900. Those a
 	<p class="lf-specimen lf-sans lf-ubold">ᤂᤡᤷᤗᤡ ᤕᤠ᤺ᤶᤒᤰ ᤆᤠ᤺ᤣᤰᤁᤡ ᤁᤧᤘᤠ᤹ᤒᤠ ᤔᤏᤠᤜᤠ᤹ ᤁᤢᤓᤡ᤺ᤰᤔᤠᤴ ᤔᤧᤂᤧᤵᤛᤢᤴᤏᤠᤔᤧᤴᤏᤧ ᤋᤁᤠᤳ, ᤑᤧᤈᤠ, ᤘᤠᤑᤣ᤹ ᤔᤧᤕᤠᤱᤛᤡᤱᤅᤠᤱ ᤂᤧᤴ ᤐᤡᤳᤁᤶᤒᤠᤸᤗᤧ ᤁᤢᤓᤠ᤹ᤛᤧ ᤔᤧᤗ᤺ᤴᤍᤧ ᤔᤧᤗᤥ᤺ᤰᤋᤧ॥ ᤁᤖ ᤂᤧᤴ ᤐᤡᤳᤁᤶᤒᤠ ᤘᤕᤧᤒᤠ ᤍᤧᤴ ᤕᤥ ᤔᤧᤃᤧᤖᤧᤃᤖ, ᤂᤧᤴ ᤀᤣᤖᤧᤖ ᤕᤧᤒᤧ॥ ᤛᤣᤃᤣᤒᤠ᤺ᤴ ᤛᤧᤰᤂᤠᤛᤠᤱ ᤜᤥ᤺ᤵᤋᤧ॥ ᤂᤧᤴ ᤁᤢᤓᤠ᤹ᤛᤧ ᤁᤧᤍᤠᤒᤠᤜᤠ᤹ᤖᤧ ᤂᤢᤴᤇᤡ᤹ ᤛᤠᤰᤁᤧᤴ ᤐᤥᤃᤧ॥</p>
 </div>
 
-***-->
+***
 
 <div lang="Lisu">
 	<h3 class="lf-light font-label">Lisu Sans</h3>
@@ -295,7 +295,7 @@ The variations shown are the helper classes for weights 100 through 900. Those a
 	<p class="lf-specimen lf-sans lf-ubold"> ꓞꓳ ꓘꓹ ꓠꓯꓹꓼ ꓢꓲ ꓫꓬ ꓟ ꓙ ꓖꓴ ꓗꓪ ꓟꓬꓱꓽ ꓧꓳꓽ ꓢꓴ ꓠꓬ꓾ </p>
 </div>
 
-***
+***-->
 
 <div lang="Mlym">
 	<h3 class="lf-light font-label">Malayalam Sans</h3>
