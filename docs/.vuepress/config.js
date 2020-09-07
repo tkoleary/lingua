@@ -1,6 +1,6 @@
 module.exports = {
 	title: 'Lingua',
-	base: '/lingua/',
+	base: '/docs/',
 	description: 'Internationalized Typography',
 	head: [
 		['link', { rel: 'icon', href: '/logo.png' }]
