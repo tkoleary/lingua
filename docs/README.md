@@ -12,15 +12,12 @@ meta:
     content: Lingua internationalization language script unicode font webfont
 ---
 
-## The web has changed, internationalization should too
+## The web has changed, multilingual should too
 
-The web is universal and device-independent, but for internationalization, not so much. We need to recognize that users who speak languages with non-latin scripts often need to browse the web on a device other than their own, multilingual users to see content in different languages, sometimes on the same page, and no user wants to suffer poor UX and broken design because of their language.
-
-Even though Webfonts have been with us for more than a decade and have become central to the design of the web, design for 118n is a backwater. Outside the comfort-zone of latin script, we throw up our hands and leave it to device settings, fonts, and user preferences. It's understandable, webfonts can be hard even within latin, but they shouldn't be. That's why Lingua was created.
+The web was designed to be device-independent but for language we still rely heavily on device fonts and settings. It's time we aknowledged that users who speak non-latin languages want a web that works everytwhere, not just on their own machine or their own locale. Webfonts have been here for more than a decade and are central to the design of the web. Now that we have open-source fonts covering virtually all of Unicode there should be an easy way to have our sites do the same. That's why Lingua was created.
 
 ### We believe:
 
-1. Websites and apps should be usable in any language and script on any browser and device
-2. Web designers should be empowered to produce sites that are beautiful in any language
-3. Engineers should have a painles path to making those designs a reality
-4. Type designers should be empowered to deliver more universal fonts for the web
+1. The variety of languages and scripts is part of the richness of human culture and should be fostered
+2. The web should be usable, and beautiful, in any language and script on any browser and device
+3. Designers and developers can make this happen, but only if we make it easier to achieve
