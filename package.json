@@ -1,6 +1,6 @@
 {
 	"name": "Lingua",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "A frontent library for multilingual web typography",
 	"main": "index.js",
 	"scripts": {
