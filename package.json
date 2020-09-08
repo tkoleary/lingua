@@ -14,8 +14,9 @@
 		"url": "git+https://github.com/tkoleary/lingua.git"
 	},
 	"keywords": [
-		"fonts",
+		"webfonts",
 		"typography",
+		"multilingual",
 		"internationalization",
 		"localization",
 		"css",
@@ -27,12 +28,12 @@
 		"url": "www.tkoleary.com"
 	},
 	"LICENSE": "MIT",
-	"unpkg": "dist/css/lingua.css",
-	"style": "dist/css/min/lingua.min.css",
+	"unpkg": "css/lingua.css",
+	"style": "css/lingua.min.css",
+	"sass": "scss/lingua.scss",
 	"dependencies": {
 		"dart-sass": "^1.25.0",
 		"normalize-scss": "^7.0.1",
-		"sass": "^1.26.10",
 		"sass-loader": "7.3.1",
 		"vuepress": "^1.5.4",
 		"webpack": "^4.36.0",
@@ -56,6 +57,7 @@
 		"css",
 		"scss",
 		"LICENSE",
-		"README.md"
+		"README.md",
+		"webpack.config.js"
 	]
 }
