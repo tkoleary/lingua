@@ -29,9 +29,6 @@
 	"LICENSE": "MIT",
 	"unpkg": "dist/css/lingua.css",
 	"style": "dist/css/min/lingua.min.css",
-	"Dependencies": {
-		"vuepress": "^1.5.2"
-	},
 	"dependencies": {
 		"dart-sass": "^1.25.0",
 		"normalize-scss": "^7.0.1",
