@@ -39,8 +39,6 @@ By default our `@font-face` rules only include woff and woff2 files which suppor
 
 ### The Noto fonts
 
-By default Lingua uses the fantastic open-source Noto fonts from Google. Because Noto fonts are designed to work together, you don't have to reconcile differences in character size, cap height, weight, or other stylistic variations that plague internationalization. If Noto is not stylistically appropriate for your brand you can replace some or all of the scripts with your preferred fonts in the variables files.
-
-replace Noto with your font for those blocks and let the Noto fonts cover the rest of the world. If you don't already have webfont files for the fonts you want, use our sister project [Webfont Factory](https://github.com/tkoleary/webfont-factory) to generate compressed and subsetted woff, woff2, eot, and `@font-face` rules from your ttf files.
+By default Lingua uses the fantastic open-source [Noto](https://www.google.com/get/noto/) fonts from Google. Because Noto fonts are designed to work together, you don't have to reconcile differences in character size, cap height, weight, or other stylistic variations that plague internationalization. If Noto is not stylistically appropriate for your brand you can replace some or all of the scripts with your preferred fonts in the variables files. If you don't already have webfont files for the fonts you want, use our sister project [Webfont Factory](https://github.com/tkoleary/webfont-factory) to generate compressed and subsetted woff, woff2, eot, and `@font-face` rules from your ttf files.
 
 _*Where variable fonts are supported_
