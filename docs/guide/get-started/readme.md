@@ -8,11 +8,22 @@ Download Lingua, put it in the root of your project and link it in the `<head>` 
 
 ```HTML
 <head>
-	<link rel="stylesheet" href="css/mystyle.css">
-	<link rel="stylesheet" href="lingua/css/lingua.min.css">
+	`All of your other style sheets`
+	<link rel="stylesheet" href="lingua/lingua.min.css">
 </head>
 ```
 And make sure the Fonts folder is in the same folder as the lingua css file.
+
+Your project root should look something like this:
+
+```
+.
+└─ index.html
+	└─ lingua
+ 		├─ lingua.min.css
+		└─ fonts
+			└─ [the fonts]
+```
 
 This will style every language on your site for which Lingua has a font. From there you can add the Lingua helper classes wherever you need to make additional adjustments.
 
