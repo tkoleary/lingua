@@ -20,6 +20,7 @@ $normal:        100;
 
 // @include width-weight(100,100);
 @mixin width-weight ($width: 100, $weight: 100) {
+	font-synthesis: none;
 	font-weight: $weight;
 	font-variation-settings: 'wdth' $width, 'wght' $weight;
 }
