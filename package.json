@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"docs:dev": "vuepress dev docs",
 		"docs:build": "vuepress build docs",
-		"styles:build": "gulp"
+		"styles": "gulp"
 	},
 	"repository": {
 		"type": "git",
@@ -35,7 +35,6 @@
 		"dart-sass": "^1.25.0",
 		"normalize-scss": "^7.0.1",
 		"sass-loader": "7.3.1",
-		"vuepress": "^1.5.4",
 		"webpack": "^4.36.0",
 		"webpack-chain": "^6.5.1"
 	},
@@ -54,10 +53,10 @@
 		"stylelint-config-standard": "^20.0.0"
 	},
 	"files": [
-		"css",
-		"scss",
+		"src",
+		"dist",
+		"gulpfile.js",
 		"LICENSE",
-		"README.md",
-		"webpack.config.js"
+		"README.md"
 	]
 }

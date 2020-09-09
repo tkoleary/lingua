@@ -5313,56 +5313,67 @@ html .lf-latin-mono {
 }
 
 strong {
+  font-synthesis: none;
   font-weight: 700;
   font-variation-settings: "wdth" 100, "wght" 700;
 }
 
 .lf-ulight {
+  font-synthesis: none;
   font-weight: 100;
   font-variation-settings: "wdth" 100, "wght" 100;
 }
 
 .lf-xlight {
+  font-synthesis: none;
   font-weight: 200;
   font-variation-settings: "wdth" 100, "wght" 200;
 }
 
 .lf-light {
+  font-synthesis: none;
   font-weight: 300;
   font-variation-settings: "wdth" 100, "wght" 300;
 }
 
 .lf-regular {
+  font-synthesis: none;
   font-weight: 400;
   font-variation-settings: "wdth" 100, "wght" 400;
 }
 
 .lf-medium {
+  font-synthesis: none;
   font-weight: 500;
   font-variation-settings: "wdth" 100, "wght" 500;
 }
 
 .lf-sbold {
+  font-synthesis: none;
   font-weight: 600;
   font-variation-settings: "wdth" 100, "wght" 600;
 }
 
 .lf-bold {
+  font-synthesis: none;
   font-weight: 700;
   font-variation-settings: "wdth" 100, "wght" 700;
 }
 
 .lf-xbold {
+  font-synthesis: none;
   font-weight: 800;
   font-variation-settings: "wdth" 100, "wght" 800;
 }
 
 .lf-ubold {
+  font-synthesis: none;
   font-weight: 900;
   font-variation-settings: "wdth" 100, "wght" 900;
 }
 
 .lf-ucondensed-light {
+  font-synthesis: none;
   font-weight: 300;
   font-variation-settings: "wdth" 60, "wght" 300;
 }
@@ -5370,6 +5381,7 @@ strong {
 .my-custom-class {
   font-size: 2rem;
   color: #555;
+  font-synthesis: none;
   font-weight: 300;
   font-variation-settings: "wdth" 60, "wght" 300;
 }
