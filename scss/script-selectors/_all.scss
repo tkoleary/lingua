@@ -6,7 +6,7 @@ html {
 	direction: ltr;
 
 	em,
-	.lf-latin-italic {
+	.lf-LatinItalic {
 		font-style: normal; // The character set is italic so we set this to normal
 		font-family: $base-sans-italic,sans-serif;
 		font-display: swap; // Comment out if you don't want FOUT
