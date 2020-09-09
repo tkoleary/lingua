@@ -1,21 +1,5 @@
 // The static versions of the Noto web fonts
 
-@font-face {
-  font-family: "Noto Sans Latin";
-  src: 	url("fonts/NotoSansLatin-Regular-subset.woff2") format("woff2"),
-				url("fonts/NotoSansLatin-Regular-subset.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-	font-family: "Noto Sans Latin Italic";
-	src:	url('fonts/NotoSansLatin-Italic-subset.woff2') format('woff2'),
-				url('fonts/NotoSansLatin-Italic-subset.woff') format('woff');
-	font-weight: normal;
-	font-style: italic;
-	font-display: swap;
-}
 /*
 @font-face {
 	font-family: "Noto Sans Latin Mono";

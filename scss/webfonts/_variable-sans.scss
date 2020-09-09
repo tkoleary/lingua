@@ -1,22 +1,7 @@
 // The (currently available) variable versions of the Noto web fonts
 // Since support for variable fonts is a subset of support for woff, w only use woff and woff2
 
-@font-face {
-  font-family: "Noto Sans Latin";
-  src: 	url("fonts/NotoSansLatin-VF-subset.woff2") format("woff2"),
-				url("fonts/NotoSansLatin-VF-subset.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-	font-family: "Noto Sans Latin Italic";
-	src: 	url("fonts/NotoSansLatinItalic-VF-subset.woff2"), format("woff2"),
-				url("fonts/NotoSansLatinItalic-VF-subset.woff"), format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
+/*
 @font-face {
 	font-family: "Noto Sans Latin Mono";
 	src:	url("fonts/NotoSansLatinMono-VF-subset.woff2"), format("woff2"),
@@ -24,7 +9,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-}
+}*/
 
 @import "factory/variable-sans";
 @import "factory/variable-outlier";
