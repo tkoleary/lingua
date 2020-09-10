@@ -1,3 +1,8 @@
+---
+title: Get Started
+lang: en
+---
+
 # Get started
 
 *Rapidly develop a fully internationalized site without sacrificing aesthetics, accessibility or performance.*

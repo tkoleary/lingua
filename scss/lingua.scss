@@ -13,10 +13,10 @@
 // Import files to load scripts based on the :lang property
 
 // Files for languages that may be written in more than one script
-@import "script-selectors/latin-arabic";
-@import "script-selectors/latin-cyrillic";
-@import "script-selectors/latin-cyrillic-arabic";
-@import "script-selectors/latin-arabic-devanagari";
+//@import "script-selectors/latin-arabic";
+//@import "script-selectors/latin-cyrillic";
+//@import "script-selectors/latin-cyrillic-arabic";
+//@import "script-selectors/latin-arabic-devanagari";
 
 // Files for each script
 @import "script-selectors/adlam";
@@ -72,7 +72,7 @@
 @import "script-selectors/zanabazar";
 
 // Set the base font (fallback)
-@import "script-selectors/all";
+//@import "script-selectors/all";
 
 // Import the classes for weights and widths
 @import "classes/weights";

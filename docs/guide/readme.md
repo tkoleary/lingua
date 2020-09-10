@@ -1,3 +1,8 @@
+---
+title: About
+lang: en
+---
+
 ## About
 
 ### Simple

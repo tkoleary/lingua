@@ -10,6 +10,8 @@ meta:
     content: Internationalized Typography
   - name: keywords
     content: Lingua internationalization language script unicode font webfont
+
+lang: en
 ---
 
 ## The web has changed, multilingual should too

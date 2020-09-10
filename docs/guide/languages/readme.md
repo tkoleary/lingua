@@ -1,3 +1,8 @@
+---
+title: Languages and scripts
+lang: en
+---
+
 # Languages and scripts
 
 ## Supported scripts (45):

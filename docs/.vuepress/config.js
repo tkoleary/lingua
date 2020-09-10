@@ -21,6 +21,11 @@ module.exports = {
 		displayAllHeaders: true
 	},
 	configureWebpack: {
+		devServer: {
+      watchOptions: {
+        poll: true
+      }
+    },
 		resolve: {
 			alias: {
 				'@fonts': './css/fonts/'
