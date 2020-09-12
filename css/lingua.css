@@ -1935,24 +1935,100 @@
   direction: ltr;
 }
 
-*:lang(Cans), *:lang(chp), *:lang(cr), *:lang(crj), *:lang(crk), *:lang(crl), *:lang(crm), *:lang(csw), *:lang(den), *:lang(iu), *:lang(nsk), *:lang(oj),
-.lf-sans:lang(Cans),
-.lf-sans:lang(chp),
-.lf-sans:lang(cr),
-.lf-sans:lang(crj),
-.lf-sans:lang(crk),
-.lf-sans:lang(crl),
-.lf-sans:lang(crm),
-.lf-sans:lang(csw),
-.lf-sans:lang(den),
-.lf-sans:lang(iu),
-.lf-sans:lang(nsk),
+.lf-sans:lang(Cans) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(chp) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(cr) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(crj) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(crk) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(crl) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(crm) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(csw) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(den) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(iu) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
+.lf-sans:lang(nsk) {
+  font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
+  direction: ltr;
+}
 .lf-sans:lang(oj) {
   font-family: "Noto Sans Latin", "Noto Sans Canadian Aboriginal", sans-serif;
   direction: ltr;
 }
 
-.lf-serif:lang(Cans), .lf-serif:lang(chp), .lf-serif:lang(cr), .lf-serif:lang(crj), .lf-serif:lang(crk), .lf-serif:lang(crl), .lf-serif:lang(crm), .lf-serif:lang(csw), .lf-serif:lang(den), .lf-serif:lang(iu), .lf-serif:lang(nsk), .lf-serif:lang(oj) {
+.lf-serif:lang(Cans) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(chp) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(cr) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(crj) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(crk) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(crl) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(crm) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(csw) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(den) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(iu) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(nsk) {
+  font-family: "Noto Serif Latin", "", serif;
+  direction: ltr;
+}
+.lf-serif:lang(oj) {
   font-family: "Noto Serif Latin", "", serif;
   direction: ltr;
 }
