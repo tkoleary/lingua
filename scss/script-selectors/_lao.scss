@@ -1,5 +1,25 @@
 // Lao script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$lao-sans,sans-serif;
+$serif-stack: $base-sans,$lao-serif,serif;
+$ui-stack: $base-sans,$lao-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Laoo...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Laoo...);
+}
+
+.lf-ui {
+	@include langlist($ui-stack, ltr, $langs-Laoo...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Laoo),
@@ -23,4 +43,4 @@
 		font-family: $base-serif,$lao-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

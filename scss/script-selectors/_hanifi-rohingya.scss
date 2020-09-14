@@ -1,17 +1,19 @@
 // Hanifi-Rohingya script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$hanifi-rohingya-sans,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Rohg...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Rohg) {
 		font-family: $base-sans,$arabic-sans,$hanifi-rohingya-sans,sans-serif; // Borrows U+06D4 arabic full stop
 		direction: rtl;
-	}
-}
-
-/*
-.lf-serif {
-	&:lang(Rohg) {
-		font-family: $base-serif,$arabic-serif,$hanifi-rohingya-serif,serif;
-		direction: ltr;
 	}
 }*/

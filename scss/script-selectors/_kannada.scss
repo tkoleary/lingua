@@ -1,5 +1,25 @@
 // Kannada script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$kannada-sans,sans-serif;
+$serif-stack: $base-sans,$kannada-serif,serif;
+$ui-stack: $base-sans,$kannada-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Knda...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Knda...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Knda...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Knda),
@@ -23,4 +43,4 @@
 		font-family: $base-serif,$kannada-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

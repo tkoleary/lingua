@@ -1,5 +1,20 @@
 // Japanese script languages
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$japanese-sans,sans-serif;
+$serif-stack: $base-sans,$japanese-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Jpan...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Jpan...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Jpan),
@@ -15,4 +30,4 @@
 		font-family: $base-serif,$japanese-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

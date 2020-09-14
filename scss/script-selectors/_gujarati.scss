@@ -1,5 +1,20 @@
 // Gujarati script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$gujarati-sans,sans-serif;
+$serif-stack: $base-sans,$gujarati-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Gujr...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Gujr...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Gujr),
@@ -15,4 +30,4 @@
 		font-family: $base-serif,$gujarati-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

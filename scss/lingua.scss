@@ -5,10 +5,7 @@
 // Import the webfonts
 @import "webfonts/static-sans";
 @import "webfonts/static-serif";
-@import "webfonts/static-ui";
-@import "webfonts/variable-sans";
-@import "webfonts/variable-serif";
-@import "webfonts/variable-ui";
+@import "webfonts/factory/webfonts";
 
 // Import files to load scripts based on the :lang property
 

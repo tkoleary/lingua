@@ -1,17 +1,15 @@
 // Bamum script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$bamum-sans,sans-serif;
+$serif-stack: $base-serif,$bamum-serif,serif;
+
 *,
 .lf-sans {
-	&:lang(Bamu),
-	&:lang(bax) {
-		font-family: $base-sans,$bamum-sans,sans-serif;
-		direction: ltr;
-	}
+	@include langlist($sans-stack, ltr, $langs-Bamu...);
 }
 
 .lf-serif {
-	&:lang(Bamu),
-	&:lang(bax) {
-		font-family: $base-serif,$bamum-serif,serif;
-	}
+	@include langlist($serif-stack, ltr, $langs-Bamu...);
 }

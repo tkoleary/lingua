@@ -1,24 +1,15 @@
 // Canadian Aboriginal symbols
 
 
-$langs-Cans: "Cans", "chp", "cr", "crj", "crk", "crl", "crm", "csw", "den", "iu", "nsk", "oj" !default;
+@import "language-sets";
+
 $sans-stack: $base-sans,$c-aboriginal-sans,sans-serif;
 $serif-stack: $base-serif,$c-aboriginal-serif,serif;
-
-
-@mixin langlist($stack, $langs...) {
-  @each $lang in $langs {
-    &:lang(#{$lang}) {
-			font-family: $stack;
-			direction: ltr;
-		}
-  }
-}
 
 .lf-sans {
 	@include langlist($sans-stack, $langs-Cans...);
 }
 
-.lf-serif {
-	@include langlist($serif-stack, $langs-Cans...);
-}
+//.lf-serif {
+//	@include langlist($serif-stack, $langs-Cans...);
+//}

@@ -1,26 +1,20 @@
 // Bangla (Bengali) script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$devanagari-sans,$bengali-sans,sans-serif;
+$serif-stack: $base-serif,$devanagari-sans,$bengali-serif,serif;
+$ui-stack: $base-sans,$devanagari-sans,$bengali-sans-ui,sans-serif;
+
 *,
 .lf-sans {
-	&:lang(Beng),
-	&:lang(bn) {
-		font-family: $base-sans,$devanagari-sans,$bengali-sans,sans-serif; // Bengali borrows Devanagari characters
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Beng),
-	&:lang(bn) {
-		font-family: $base-sans,$devanagari-sans-ui,$bengali-sans-ui,sans-serif; // Bengali borrows Devanagari characters
-		direction: ltr;
-	}
+	@include langlist($sans-stack, ltr, $langs-Beng...);
 }
 
 .lf-serif {
-	&:lang(Beng),
-	&:lang(bn)  {
-		font-family: $base-serif,$devanagari-serif,$bengali-serif,serif; // Bengali borrows Devanagari characters
-		direction: ltr;
-	}
+	@include langlist($serif-stack, ltr, $langs-Beng...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Beng...);
 }

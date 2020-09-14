@@ -1,5 +1,20 @@
 // Cherokee script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$cherokee-sans,sans-serif;
+$serif-stack: $base-serif,$cherokee-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Cher...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Cher...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Cher),
@@ -15,4 +30,4 @@
 		font-family: $base-serif,$cherokee-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

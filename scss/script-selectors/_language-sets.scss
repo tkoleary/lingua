@@ -1,0 +1,137 @@
+// Language sets and @mixin
+
+// This adds all of the language sets for a script to an `&:lang()` rule
+// it is used in script selector files so they can easily be applied to each font style
+@mixin langlist($stack, $dir, $langs...) {
+  @each $lang in $langs {
+    &:lang(#{$lang}) {
+			font-family: $stack;
+			direction: $dir;
+		}
+  }
+}
+
+/* Template -- replace 'thelang' with language name and 'code' with scrpt code
+@import "language-sets";
+
+$sans-stack: $base-sans,$thelang-sans,sans-serif;
+$serif-stack: $base-sans,$thelang-serif,serif;
+$ui-stack: $base-sans,$thelang-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-code...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-code...);
+}
+
+.lf-ui {
+	@include langlist($ui-stack, ltr, $langs-code...);
+}*/
+
+// Adlam
+$langs-Adlm: "ff", "Adlm" !default;
+// Arabic
+$langs-Arab: "ar", "fa", "ps", "ur", "wni", "zdj", "aeb", "arq", "ars", "ary", "arz", "bej", "bgn", "bqi", "ckb", "dcc", "doi", "fia", "gbz", "gjk", "gju", "glk", "haz", "hnd", "hno", "khw", "kvx", "kxp", "lah", "lki", "lrc", "luz", "mfa", "mvy", "mzn", "prd", "rmt", "sdh", "skr", "trw", "Arab" !default;
+// Armenian
+$langs-Armn: "hy", "Armn" !default;
+// Balinese
+$langs-Bali: "ban", "Bali" !default;
+// Bamum
+$langs-Bamu: "bax", "Bamu" !default;
+// Bengali
+$langs-Beng: "bn", "Beng" !default;
+// Brahmi
+$langs-Brah: "Brah" !default;
+// Buginese
+$langs-Bugi: "bug", "Bugi" !default;
+// Buhid
+$langs-Buhd: "bku", "Buhd" !default;
+// Canadian Aboriginal
+$langs-Cans: "chp", "cr", "crj", "crk", "crl", "crm", "csw", "den", "iu", "nsk", "oj", "Cans" !default;
+// Cham
+$langs-Cham: "cja", "cjm", "Cham" !default;
+// Cherokee
+$langs-Cher: "chr", "Cher" !default;
+// Chinese - simplified
+$langs-Hans: "zh", "gan", "hak", "hsn", "nan", "wuu", "za", "lzh", "Hans", "zh-Hans", "gan-Hans", "hak-Hans", "hsn-Hans", "nan-Hans", "wuu-Hans", "yue-Hans", "za-Hans", "lzh-Hans", "Hans" !default;
+// Chinese - traditional
+$langs-Hant: "yue", "zh-Hant", "gan-Hant", "hak-Hant", "hsn-Hant", "nan-Hant", "wuu-Hant", "yue-Hant", "za-Hant", "lzh-Hant", "Hant" !default;
+// Chinese - Hong Kong
+$langs-zh-HK: "zh-HK" !default;
+// Cyrillic
+$langs-Cyrl: "be", "bg", "mk", "mn", "ru", "uk", "ab", "abq", "ady", "alt", "av", "ba", "bua", "ce", "chm", "cjs", "ckt", "crh", "cv", "dar", "dng", "evn", "gld", "kaa", "kbd", "kca", "kjh", "koi", "kpy", "krc", "kum", "kv", "lbe", "lez", "mdf", "mns", "mrj", "myv", "nog", "os", "rue", "sah", "sel", "tab", "tt", "tyv", "ude", "xal", "yrk", "Cyrl" !default;
+// Devanagari
+$langs-Deva: "anp", "awa", "bap", "bfy", "bgc", "bhb", "bhi", "bho", "bjj", "bra", "brx", "btv", "dty", "gbm", "gom", "gvr", "hi", "hne", "hoc", "hoj", "jml", "kfr", "kfy", "khn", "kok", "kru", "mag", "mai", "mgp", "mr", "mrd", "mtr", "mwr", "ne", "new", "noe", "raj", "rjs", "sa", "sck", "srx", "swv", "tdh", "thl", "thq", "thr", "tkt", "wbr", "wtm", "xnr", "xsr", "Deva" !default;
+// Ethiopic
+$langs-Ethi: "am", "ti", "byn", "tig", "wal", "Ethi" !default;
+// Georgian
+$langs-Geor: "ka", "Geor" !default;
+// Grantha
+$langs-Gran: "sa", "Gran" !default;
+// Greek
+$langs-Grek: "gr", "Grek" !default;
+// Gujarati
+$langs-Gujr: "gu", "Gujr" !default;
+// Gurmukhi
+$langs-Guru: "gi", "Guru" !default;
+// Hanifi Rohingya
+$langs-Rohg: "Rohg" !default;
+// Hanunoo
+$langs-Hano: "Hano" !default;
+// Hebrew
+$langs-Hebr: "iw", "he", "jpr", "jrb", "lad", "yi", "Hebr" !default;
+// Japanese
+$langs-Jpan: "jp", "Jpan" !default;
+// Kannada
+$langs-Knda: "kn", "Knda" !default;
+// Khmer
+$langs-Khmr: "km", "Khmr" !default;
+// Korean
+$langs-Kore: "ko", "Kore" !default;
+// Lao
+$langs-Laoo: "lo", "Laoo" !default;
+// Latin
+$langs-Latn: "ay", "bi", "ca", "ch", "cs", "da", "de", "en", "eo", "es", "et", "fi", "fil", "fj", "fo", "fr", "ga", "gil", "gn", "gsw", "gv", "ho", "hr", "ht", "hu", "in", "is", "it", "kl", "lb", "lt", "lv", "mg", "mh", "mi", "mt", "na", "nb", "nd", "niu", "nl", "nn", "no", "ny", "pap", "pau", "pl", "pt", "qu", "rn", "rw", "sg", "sk", "sl", "sm", "sn", "sq", "ss", "st", "sv", "sw", "tet", "tkl", "tl", "tn", "to", "tpi", "tr", "tvl", "ty", "yo", "aa", "abr", "ace", "ach", "ada", "af", "agq", "ak", "akz", "ale", "aln", "amo", "an", "aoz", "arn", "aro", "arp", "arw", "asa", "ast", "atj", "bar", "bas", "bbj", "bci", "bem", "bew", "bez", "bfd", "bik", "bin", "bjn", "bkm", "bku", "bla", "bmq", "bqv", "br", "bss", "bto", "buc", "bug", "bum", "bvb", "byv", "bze", "bzx", "cad", "car", "cay", "cch", "ceb", "cgg", "chk", "chn", "cho", "chy", "cic", "co", "cps", "crj", "crl", "crs", "csb", "ctd", "cy", "dak", "dav", "del", "dgr", "din", "dje", "dnj", "dsb", "dtm", "dtp", "dua", "dyu", "ebu", "ee", "efi", "egl", "eka", "esu", "eu", "ewo", "ext", "fan", "ffm", "fit", "fon", "frc", "frp", "frr", "frs", "fud", "fuq", "fur", "fuv", "fvr", "fy", "gaa", "gay", "gba", "gcr", "gd", "gl", "gor", "gos", "grb", "gub", "guc", "gur", "guz", "gwi", "hai", "haw", "hil", "hmn", "hnn", "hop", "hsb", "hup", "hz", "iba", "ibb", "ife", "ig", "ik", "ikt", "ilo", "izh", "jam", "jgo", "jmc", "kab", "kac", "kaj", "kam", "kao", "kcg", "kck", "kde", "kea", "kfo", "kg", "kge", "kgp", "khq", "ki", "kiu", "kj", "kkj", "kln", "kmb", "kos", "kpe", "kr", "kri", "krj", "krl", "ksb", "ksf", "ksh", "kut", "kvr", "kw", "lag", "laj", "lam", "lbw", "li", "lij", "liv", "lkt", "lmo", "mad", "rtm", "tiv", "tmh", "tog", "trv", "ts", "tsg", "tsi", "ttj", "tum", "twq", "uli", "umb", "ve", "vec", "vep", "vic", "vls", "vmf", "vmw", "vot", "vro", "vun", "wa", "wae", "war", "was", "wbp", "wls", "xav", "xh", "xog", "yao", "yap", "yav", "ybb", "yrl", "yua", "zag", "zap", "zea", "zmi", "zu", "zun", "zza", "Latn" !default;
+// Limbu
+$langs-Limb: "lif", "Limb" !default;
+// Lisu
+$langs-Lisu: "lis", "Lisu" !default;
+// Malayalam
+$langs-Mlym: "ms", "Mlym" !default;
+// Myanmar
+$langs-Mymr: "my", "Mymr" !default;
+// Nko
+$langs-Nkoo: "bm", "man", "nqo", "Nkoo" !default;
+// Ol Ckhiki
+$langs-Olck: "Olck" !default;
+// Oriya
+$langs-Orya: "ori", "or", "Orya" !default;
+// Sinhala
+$langs-Sinh: "si", "Sinh" !default;
+// Sora-sompeng
+$langs-Sora: "srb", "Sora" !default;
+// Tagalog
+$langs-Tglg: "fil", "Tglg" !default;
+// Tai Le
+$langs-Mlym: "tdd", "Tale" !default;
+// Tai Tham
+$langs-Lana: "kkh", "Lana" !default;
+// Tai Viet
+$langs-Tavt: "bit", "Tavt" !default;
+// Tamil
+$langs-Taml: "ta", "Taml" !default;
+// Telugu
+$langs-Telu: "te", "Telu" !default;
+// Thaana
+$langs-Thaa: "dv", "Thaa" !default;
+// Thai
+$langs-Thai: "th", "Thai" !default;
+// Tibetan
+$langs-Tibt: "bo", "dz", "Tibt" !default;
+// Warang Citi
+$langs-Wara: "hoc", "Wara" !default;
+// Zanazabar Square
+$langs-Tibt: "za", "Zanb" !default;

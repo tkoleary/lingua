@@ -1,27 +1,15 @@
 // Balinese script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$balinese-sans,sans-serif;
+$serif-stack: $base-serif,$balinese-serif,serif;
+
 *,
 .lf-sans {
-	&:lang(Bali),
-	&:lang(ban) {
-		font-family: $base-sans,$balinese-sans,sans-serif;
-		direction: ltr;
-	}
+	@include langlist($sans-stack, ltr, $langs-Bali...);
 }
 
-/*
-.lf-sans-ui {
-	&:lang(Bali),
-	&:lang(ban) {
-		font-family: $base-sans,$balinese-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}*/
-
 .lf-serif {
-	&:lang(Bali),
-	&:lang(ban)  {
-		font-family: $base-serif,$balinese-serif,serif;
-		direction: ltr;
-	}
+	@include langlist($serif-stack, ltr, $langs-Bali...);
 }

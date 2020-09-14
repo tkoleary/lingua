@@ -1,5 +1,20 @@
 // Korean (Hangul script) languages
 
+@import "language-sets";
+
+$sans-stack: $korean-sans,sans-serif;
+$serif-stack: $korean-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Kore...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Kore...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Kore),
@@ -9,18 +24,10 @@
 	}
 }
 
-/*.lf-sans-ui {
-	&:lang(Kore),
-	&:lang(ko) {
-		font-family: $korean-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}*/
-
 .lf-serif {
 	&:lang(Kore),
 	&:lang(ko) {
 		font-family: $korean-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

@@ -1,5 +1,25 @@
 // Khmer script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$khmer-sans,sans-serif;
+$serif-stack: $base-sans,$khmer-serif,serif;
+$ui-stack: $base-sans,$khmer-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Khmr...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Khmr...);
+}
+
+.lf-ui {
+	@include langlist($ui-stack, ltr, $langs-Khmr...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Khmr),
@@ -23,4 +43,4 @@
 		font-family: $base-sans,$khmer-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

@@ -1,5 +1,20 @@
 // Buginese script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$buginese-sans,sans-serif;
+$serif-stack: $base-serif,$buginese-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Bugi...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Bugi...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Bugi),
@@ -15,4 +30,4 @@
 		font-family: $base-serif,$buginese-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

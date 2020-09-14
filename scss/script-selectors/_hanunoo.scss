@@ -1,18 +1,19 @@
 // Hebrew script languages
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$hanunoo-sans,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Hano...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Hano) {
 		font-family: $base-sans,$hanunoo-sans,sans-serif;
 		direction: rtl;
 	}
-}
-
-/*
-.lf-serif {
-	&:lang(Hano) {
-		font-family: $base-serif,$hanunoo-serif,sans-serif;
-		direction: rtl;
-	}
-}
-*/
+}*/

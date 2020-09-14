@@ -1,5 +1,20 @@
 // Greek script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$greek-sans,sans-serif;
+$serif-stack: $base-sans,$greek-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Grek...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Grek...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Grek),
@@ -15,4 +30,4 @@
 		font-family: $base-sans,$greek-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

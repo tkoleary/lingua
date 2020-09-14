@@ -1,7 +1,25 @@
 // Hebrew script languages
 
-// Lang code 'iw' deprecated, but keep for backwards compatibility
+@import "language-sets";
 
+$sans-stack: $base-sans,$hebrew-sans,sans-serif;
+$serif-stack: $base-sans,$hebrew-serif,serif;
+$rashi-stack: $base-sans,$rashi-hebrew,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Hebr...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Hebr...);
+}
+
+.lf-rashi {
+	@include langlist($rashi-stack, ltr, $langs-Hebr...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Hebr),
@@ -30,7 +48,6 @@
 }
 
 // Rashi hebrew script languages
-
 .lf-rashi {
 	&:lang(Hebr),
 	&:lang(iw),
@@ -42,4 +59,4 @@
 		font-family: $base-serif,$rashi-hebrew,sans-serif;
 		direction: ltr;
 	}
-}
+}*/

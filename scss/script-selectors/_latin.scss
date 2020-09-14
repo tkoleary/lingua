@@ -1,5 +1,34 @@
 // languages using Latin script only
 
+@import "language-sets";
+
+$sans-stack: 					$base-sans,$latin-sans,sans-serif;
+$sans-italic-stack: 	$base-sans,$latin-sans-italic,sans-serif;
+$sans-mono-stack: 		$base-sans,$latin-sans-mono,sans-serif;
+$serif-stack: 				$base-sans,$latin-serif,serif;
+$serif-italic-stack: 	$base-sans,$latin-serif-italic,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Latn...);
+}
+
+em,
+.lf-italic,
+.lf-sans .lf-italic {
+	@include langlist($sans-italic-stack, ltr, $langs-Latn...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Latn...);
+}
+
+.lf-serif .lf-italic,
+em .lf-serif .lf-italic {
+	@include langlist($sans-italic-stack, ltr, $langs-Latn...);
+}
+
+/*
 *
 .lf-sans {
 	&:lang(Latn),
@@ -611,7 +640,7 @@
 }
 
 pre,
-code,
+Latn,
 .lf-mono {
 	&:lang(Latn),
 	&:lang(ay),
@@ -910,4 +939,4 @@ code,
 		font-family: $base-mono,$latin-sans-mono,monospace;
 		direction: ltr;
 	}
-}
+}*/

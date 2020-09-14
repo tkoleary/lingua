@@ -1,5 +1,15 @@
 // limbu script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$limbu-sans,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Limb...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Limb),
@@ -7,14 +17,4 @@
 		font-family: $base-sans,$devanagari-sans,$limbu-sans,sans-serif;  // Borrows devanagari punctuation
 		direction: ltr;
 	}
-}
-
-/*
-.lf-serif:
-	&:lang(Limb),
-	&:lang(lif) {
-		font-family: $base-serif,$limbu-serif,serif;
-		direction: ltr;
-	}
-}
-*/
+}*/

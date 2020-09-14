@@ -1,5 +1,20 @@
 // Brahmi script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$brahmi-sans,sans-serif;
+$serif-stack: $base-serif,$brahmi-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Brah...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Brah...);
+}
+
+/*
 *,
 .lf-sans:lang(Brah){
 	font-family: $base-sans,$brahmi-sans,sans-serif;
@@ -9,4 +24,4 @@
 .lf-serif:lang(Brah) {
 	font-family: $base-serif,$brahmi-serif,serif;
 	direction: ltr;
-}
+}*/

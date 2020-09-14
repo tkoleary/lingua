@@ -1,18 +1,15 @@
 // Armenian script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$armenian-sans,sans-serif;
+$serif-stack: $base-serif,$armenian-serif,serif;
+
 *,
 .lf-sans {
-	&:lang(Armn),
-	&:lang(hy) {
-		font-family: $base-sans,$armenian-sans,sans-serif;
-		direction: ltr;
-	}
+	@include langlist($sans-stack, ltr, $langs-Armn...);
 }
 
 .lf-serif {
-	&:lang(Armn),
-	&:lang(hy) {
-		font-family: $base-serif,$armenian-serif,serif;
-		direction: ltr;
-	}
+	@include langlist($serif-stack, ltr, $langs-Armn...);
 }

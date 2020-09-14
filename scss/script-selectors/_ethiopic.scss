@@ -1,5 +1,15 @@
 // Ethiopic script languages
 
+@import "language-sets";
+
+$serif-stack: $base-serif,$ethiopic-serif,serif;
+
+*,
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Ethi...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Ethi),
@@ -24,3 +34,4 @@
 		direction: ltr;
 	}
 }
+*/
