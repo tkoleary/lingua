@@ -3,11 +3,11 @@
 
 @import "language-sets";
 
-$sans-stack: $base-sans,$c-aboriginal-sans,sans-serif;
-$serif-stack: $base-serif,$c-aboriginal-serif,serif;
+$sans-stack: 		$base-sans,$c-aboriginal-sans,sans-serif;
+$serif-stack: 	$base-serif,$c-aboriginal-serif,serif;
 
 .lf-sans {
-	@include langlist($sans-stack, $langs-Cans...);
+	@include langlist($sans-stack, ltr, $langs-Cans...);
 }
 
 //.lf-serif {

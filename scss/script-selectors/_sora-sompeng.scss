@@ -1,5 +1,21 @@
 // Sora-sompeng script
 
+
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$sora-sompeng-sans,sans-serif;
+$serif-stack: 	$base-sans,$sora-sompeng-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Sora...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Sora...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Sora),
@@ -15,4 +31,4 @@
 		font-family: $base-sans,$sora-sompeng-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

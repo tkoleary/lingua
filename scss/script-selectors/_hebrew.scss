@@ -8,15 +8,15 @@ $rashi-stack: $base-sans,$rashi-hebrew,serif;
 
 *,
 .lf-sans {
-	@include langlist($sans-stack, ltr, $langs-Hebr...);
+	@include langlist($sans-stack, rtl, $langs-Hebr...);
 }
 
 .lf-serif {
-	@include langlist($serif-stack, ltr, $langs-Hebr...);
+	@include langlist($serif-stack, rtl, $langs-Hebr...);
 }
 
 .lf-rashi {
-	@include langlist($rashi-stack, ltr, $langs-Hebr...);
+	@include langlist($rashi-stack, rtl, $langs-Hebr...);
 }
 
 /*

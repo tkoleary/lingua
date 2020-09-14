@@ -2,30 +2,36 @@
 
 @import "language-sets";
 
-$sans-stack: 					$base-sans,$latin-sans,sans-serif;
-$sans-italic-stack: 	$base-sans,$latin-sans-italic,sans-serif;
-$sans-mono-stack: 		$base-sans,$latin-sans-mono,sans-serif;
-$serif-stack: 				$base-sans,$latin-serif,serif;
-$serif-italic-stack: 	$base-sans,$latin-serif-italic,serif;
+$sans-stack: 					$latin-sans,sans-serif;
+$sans-italic-stack: 	$latin-sans-italic,sans-serif;
+$sans-mono-stack: 		$latin-sans-mono,sans-serif;
+$serif-stack: 				$latin-serif,serif;
+$serif-italic-stack: 	$latin-serif-italic,serif;
 
 *,
 .lf-sans {
-	@include langlist($sans-stack, ltr, $langs-Latn...);
+	@include langrule($langs-Latn...) {
+		font-family: $sans-stack;
+		direction: ltr;
+
+		&.lf-italic,
+		& em.lf-italic {
+			font-family: $sans-italic-stack;
+		}
+	}
 }
 
-em,
-.lf-italic,
-.lf-sans .lf-italic {
-	@include langlist($sans-italic-stack, ltr, $langs-Latn...);
-}
 
 .lf-serif {
-	@include langlist($serif-stack, ltr, $langs-Latn...);
-}
+	@include langrule($langs-Latn...) {
+		font-family: $serif-stack;
+		direction: ltr;
 
-.lf-serif .lf-italic,
-em .lf-serif .lf-italic {
-	@include langlist($sans-italic-stack, ltr, $langs-Latn...);
+		&.lf-italic,
+		& em.lf-italic {
+			font-family: $serif-italic-stack;
+		}
+	}
 }
 
 /*

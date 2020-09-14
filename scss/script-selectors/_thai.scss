@@ -1,5 +1,25 @@
 // Thai script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$thai-sans,sans-serif;
+$serif-stack: 	$base-sans,$thai-serif,serif;
+$ui-stack: 			$base-sans,$thai-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Thai...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Thai...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Thai...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Thai),
@@ -23,4 +43,4 @@
 		font-family: $base-serif,$thai-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

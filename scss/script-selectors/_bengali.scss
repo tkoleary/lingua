@@ -2,9 +2,9 @@
 
 @import "language-sets";
 
-$sans-stack: $base-sans,$devanagari-sans,$bengali-sans,sans-serif;
-$serif-stack: $base-serif,$devanagari-sans,$bengali-serif,serif;
-$ui-stack: $base-sans,$devanagari-sans,$bengali-sans-ui,sans-serif;
+$sans-stack: 		$base-sans,$devanagari-sans,$bengali-sans,sans-serif;
+$serif-stack: 	$base-serif,$devanagari-sans,$bengali-serif,serif;
+$ui-stack: 			$base-sans,$devanagari-sans,$bengali-sans-ui,sans-serif;
 
 *,
 .lf-sans {

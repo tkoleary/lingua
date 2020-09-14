@@ -1,5 +1,25 @@
 // Sinhala script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$sinhala-sans,sans-serif;
+$serif-stack: 	$base-sans,$sinhala-serif,serif;
+$ui-stack: 			$base-sans,$sinhala-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Sinh...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Sinh...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Sinh...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Sinh),
@@ -23,4 +43,4 @@
 		font-family: $base-serif,$sinhala-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

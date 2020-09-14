@@ -2,11 +2,11 @@
 
 @import "language-sets";
 
-$sans-stack: $base-sans,$hanunoo-sans,sans-serif;
+$sans-stack: 		$base-sans,$hanunoo-sans,sans-serif;
 
 *,
 .lf-sans {
-	@include langlist($sans-stack, ltr, $langs-Hano...);
+	@include langlist($sans-stack, rtl, $langs-Hano...);
 }
 
 /*

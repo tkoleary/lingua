@@ -1,5 +1,30 @@
 // Malayalam script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$malayalam-sans,sans-serif;
+$serif-stack: 	$base-sans,$malayalam-serif,serif;
+$ui-stack: 			$base-sans,$malayalam-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Mlym...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Mlym...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Mlym...);
+}
+
+*:lang(Mlym),
+*:lang(ms) {
+	overflow-wrap: break-word;
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Mlym),
@@ -28,4 +53,4 @@
 *:lang(Mlym),
 *:lang(ms) {
 	overflow-wrap: break-word; // @todo investigate W3C Malayalam hyphenation coverage
-}
+}*/

@@ -23,6 +23,14 @@
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
+  font-family: "Noto Sans Latin Italic";
+  src: url("fonts/NotoSansLatin-Italic-subset.woff2") format("woff2"), url("fonts/NotoSansLatin-Italic-subset.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+????;
+}
+@font-face {
   font-family: "Noto Serif Tamil Slanted";
   src: url("fonts/NotoSerifTamilSlanted-Regular-subset.woff2") format("woff2"), url("fonts/NotoSerifTamilSlanted-Regular-subset.woff") format("woff");
   font-weight: normal;
@@ -637,6 +645,14 @@
   font-style: normal;
   font-display: swap;
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
+}
+@font-face {
+  font-family: "Noto Sans Latin Italic";
+  src: url("fonts/NotoSansLatin-Italic-VF-subset.woff2") format("woff2"), url("fonts/NotoSansLatin-Italic-VF-subset.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+????;
 }
 @font-face {
   font-family: "Noto Serif Tamil Slanted";

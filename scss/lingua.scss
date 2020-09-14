@@ -5,15 +5,9 @@
 // Import the webfonts
 @import "webfonts/static-sans";
 @import "webfonts/static-serif";
-@import "webfonts/factory/webfonts";
+@import "webfonts/webfonts";
 
 // Import files to load scripts based on the :lang property
-
-// Files for languages that may be written in more than one script
-//@import "script-selectors/latin-arabic";
-//@import "script-selectors/latin-cyrillic";
-//@import "script-selectors/latin-cyrillic-arabic";
-//@import "script-selectors/latin-arabic-devanagari";
 
 // Files for each script
 @import "script-selectors/adlam";

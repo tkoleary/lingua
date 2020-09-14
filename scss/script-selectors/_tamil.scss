@@ -1,5 +1,27 @@
 // Tamil script
 
+@import "language-sets";
+
+$sans-stack: 			$base-sans,$tamil-sans,sans-serif;
+$ui-stack: 				$base-sans,$tamil-sans-ui,sans-serif;
+$slanted-stack: 	$base-serif,$tamil-serif-slanted,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Taml...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Taml...);
+}
+
+em,
+.lf-slanted,
+.lf-slanted em {
+	@include langlist($slanted-stack, ltr, $langs-Taml...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Taml),
@@ -23,4 +45,4 @@
 		font-family: $base-serif,$tamil-serif-slanted,serif;
 		direction: ltr;
 	}
-}
+}*/

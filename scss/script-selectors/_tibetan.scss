@@ -1,5 +1,20 @@
 // Tibetan script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$tibetan-sans,sans-serif;
+$serif-stack: 	$base-sans,$tibetan-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Tibt...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Tibt...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Tibt),
@@ -17,4 +32,4 @@
 		font-family: $base-serif,$tibetan-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

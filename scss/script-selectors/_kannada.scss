@@ -2,9 +2,9 @@
 
 @import "language-sets";
 
-$sans-stack: $base-sans,$kannada-sans,sans-serif;
-$serif-stack: $base-sans,$kannada-serif,serif;
-$ui-stack: $base-sans,$kannada-sans-ui,sans-serif;
+$sans-stack: 		$base-sans,$kannada-sans,sans-serif;
+$serif-stack: 	$base-sans,$kannada-serif,serif;
+$ui-stack: 			$base-sans,$kannada-sans-ui,sans-serif;
 
 *,
 .lf-sans {

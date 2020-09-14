@@ -1,5 +1,21 @@
 // tai-viet script
 
+
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$tai-viet-sans,sans-serif;
+$serif-stack: 	$base-sans,$tai-viet-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Tavt...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Tavt...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Tavt),
@@ -9,18 +25,10 @@
 	}
 }
 
-/*.lf-sans-ui {
-	&:lang(Tavt),
-	&:lang(bit) {
-		font-family: $base-sans,$tai-viet-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}*/
-
 .lf-serif {
 	&:lang(Tavt),
 	&:lang(bit) {
 		font-family: $base-serif,$tai-viet-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

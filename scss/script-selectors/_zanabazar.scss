@@ -1,5 +1,15 @@
 // Zanabazar-square script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$zanabazar-square-sans,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Zanb...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Zanb),
@@ -7,22 +17,4 @@
 		font-family: $base-sans,$zanabazar-square-sans,sans-serif;
 		direction: ltr;
 	}
-}
-
-/*
-.lf-sans-ui {
-	&:lang(Zanb),
-	&:lang(za) {
-		font-family: $base-sans,$zanabazar-square-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Zanb),
-	&:lang(za) {
-		font-family: $base-serif,$zanabazar-square-serif,serif;
-		direction: ltr;
-	}
-}
-*/
+}*/

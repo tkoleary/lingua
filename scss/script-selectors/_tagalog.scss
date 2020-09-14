@@ -1,5 +1,20 @@
 // Tagalog script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$tagalog-sans,sans-serif;
+$serif-stack: 	$base-sans,$tagalog-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Tglg...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Tglg...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Tglg),
@@ -9,20 +24,10 @@
 	}
 }
 
-/*
-.lf-sans-ui {
-	&:lang(Tglg),
-	&:lang(fil) {
-		font-family: $base-sans,$tagalog-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-*/
-
 .lf-serif {
 	&:lang(Tglg),
 	&:lang(fil) {
 		font-family: $base-serif,$tagalog-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

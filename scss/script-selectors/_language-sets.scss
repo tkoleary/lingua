@@ -14,9 +14,9 @@
 /* Template -- replace 'thelang' with language name and 'code' with scrpt code
 @import "language-sets";
 
-$sans-stack: $base-sans,$thelang-sans,sans-serif;
-$serif-stack: $base-sans,$thelang-serif,serif;
-$ui-stack: $base-sans,$thelang-sans-ui,sans-serif;
+$sans-stack: 		$base-sans,$thelang-sans,sans-serif;
+$serif-stack: 	$base-sans,$thelang-serif,serif;
+$ui-stack: 			$base-sans,$thelang-sans-ui,sans-serif;
 
 *,
 .lf-sans {
@@ -27,14 +27,24 @@ $ui-stack: $base-sans,$thelang-sans-ui,sans-serif;
 	@include langlist($serif-stack, ltr, $langs-code...);
 }
 
-.lf-ui {
+.lf-sans-ui {
 	@include langlist($ui-stack, ltr, $langs-code...);
-}*/
+}
+*/
+
+@mixin langrule($langs...) {
+	@each $lang in $langs {
+		&:lang(#{$lang}) {
+			@content
+		}
+  }
+}
+
 
 // Adlam
 $langs-Adlm: "ff", "Adlm" !default;
 // Arabic
-$langs-Arab: "ar", "fa", "ps", "ur", "wni", "zdj", "aeb", "arq", "ars", "ary", "arz", "bej", "bgn", "bqi", "ckb", "dcc", "doi", "fia", "gbz", "gjk", "gju", "glk", "haz", "hnd", "hno", "khw", "kvx", "kxp", "lah", "lki", "lrc", "luz", "mfa", "mvy", "mzn", "prd", "rmt", "sdh", "skr", "trw", "Arab" !default;
+$langs-Arab: "ar", "fa", "ps", "ur", "wni", "zdj", "aeb", "arq", "ars", "ary", "arz", "bej", "bgn", "bqi", "ckb", "dcc", "doi", "fia", "gbz", "gjk", "gju", "glk", "haz", "hnd", "hno", "khw", "kvx", "kxp", "lah", "lki", "lrc", "luz", "mfa", "mvy", "mzn", "prd", "rmt", "sdh", "skr", "trw", "aii", "az", "inh", "ky", "kk", "ku", "tg", "tk", "tly", "ttt", "ug", "uz", "Arab", "aii-Arab", "az-Arab", "inh-Arab", "ky-Arab", "kk-Arab", "ku-Arab", "tg-Arab", "tk-Arab", "tly-Arab", "ttt-Arab", "ug-Arab", "uz-Arab", "bal-Arab", "brh-Arab", "dyo-Arab", "ha-Arab", "id-Arab", "ms-Arab", "so-Arab", "sus-Arab", "swb-Arab", "tr-Arab", "tru-Arab", "wo-Arab", "hi-Arab", "hif-Arab", "ks-Arab", "sd-Arab", "Arab" !default;
 // Armenian
 $langs-Armn: "hy", "Armn" !default;
 // Balinese
@@ -62,9 +72,9 @@ $langs-Hant: "yue", "zh-Hant", "gan-Hant", "hak-Hant", "hsn-Hant", "nan-Hant", "
 // Chinese - Hong Kong
 $langs-zh-HK: "zh-HK" !default;
 // Cyrillic
-$langs-Cyrl: "be", "bg", "mk", "mn", "ru", "uk", "ab", "abq", "ady", "alt", "av", "ba", "bua", "ce", "chm", "cjs", "ckt", "crh", "cv", "dar", "dng", "evn", "gld", "kaa", "kbd", "kca", "kjh", "koi", "kpy", "krc", "kum", "kv", "lbe", "lez", "mdf", "mns", "mrj", "myv", "nog", "os", "rue", "sah", "sel", "tab", "tt", "tyv", "ude", "xal", "yrk", "Cyrl" !default;
+$langs-Cyrl: "be", "bg", "mk", "mn", "ru", "uk", "ab", "abq", "ady", "alt", "av", "ba", "bua", "ce", "chm", "cjs", "ckt", "crh", "cv", "dar", "dng", "evn", "gld", "kaa", "kbd", "kca", "kjh", "koi", "kpy", "krc", "kum", "kv", "lbe", "lez", "mdf", "mns", "mrj", "myv", "nog", "os", "rue", "sah", "sel", "tab", "tt", "tyv", "ude", "xal", "yrk", "aii-Cyrl", "az-Cyrl", "inh-Cyrl", "ky-Cyrl", "kk-Cyrl", "ku-Cyrl", "tg-Cyrl", "tk-Cyrl", "tly-Cyrl", "ttt-Cyrl", "ug-Cyrl", "uz-Cyrl", "ro-Cyrl", "sr-Cyrl", "gag-Cyrl", "bs-Cyrl", "rom-Cyrl", "se-Cyrl", "tkr-Cyrl", "udm-Cyrl", "Cyrl" !default;
 // Devanagari
-$langs-Deva: "anp", "awa", "bap", "bfy", "bgc", "bhb", "bhi", "bho", "bjj", "bra", "brx", "btv", "dty", "gbm", "gom", "gvr", "hi", "hne", "hoc", "hoj", "jml", "kfr", "kfy", "khn", "kok", "kru", "mag", "mai", "mgp", "mr", "mrd", "mtr", "mwr", "ne", "new", "noe", "raj", "rjs", "sa", "sck", "srx", "swv", "tdh", "thl", "thq", "thr", "tkt", "wbr", "wtm", "xnr", "xsr", "Deva" !default;
+$langs-Deva: "anp", "awa", "bap", "bfy", "bgc", "bhb", "bhi", "bho", "bjj", "bra", "brx", "btv", "dty", "gbm", "gom", "gvr", "hi", "hif", "hne", "hoc", "hoj", "jml", "kfr", "kfy", "khn", "kok", "kru", "ks", "mag", "mai", "mgp", "mr", "mrd", "mtr", "mwr", "ne", "new", "noe", "raj", "rjs", "sa", "sck", "sd", "srx", "swv", "tdh", "thl", "thq", "thr", "tkt", "wbr", "wtm", "xnr", "xsr", "hi-Deva", "hif-Deva", "ks-Deva", "sd-Deva", "Deva" !default;
 // Ethiopic
 $langs-Ethi: "am", "ti", "byn", "tig", "wal", "Ethi" !default;
 // Georgian
@@ -94,7 +104,7 @@ $langs-Kore: "ko", "Kore" !default;
 // Lao
 $langs-Laoo: "lo", "Laoo" !default;
 // Latin
-$langs-Latn: "ay", "bi", "ca", "ch", "cs", "da", "de", "en", "eo", "es", "et", "fi", "fil", "fj", "fo", "fr", "ga", "gil", "gn", "gsw", "gv", "ho", "hr", "ht", "hu", "in", "is", "it", "kl", "lb", "lt", "lv", "mg", "mh", "mi", "mt", "na", "nb", "nd", "niu", "nl", "nn", "no", "ny", "pap", "pau", "pl", "pt", "qu", "rn", "rw", "sg", "sk", "sl", "sm", "sn", "sq", "ss", "st", "sv", "sw", "tet", "tkl", "tl", "tn", "to", "tpi", "tr", "tvl", "ty", "yo", "aa", "abr", "ace", "ach", "ada", "af", "agq", "ak", "akz", "ale", "aln", "amo", "an", "aoz", "arn", "aro", "arp", "arw", "asa", "ast", "atj", "bar", "bas", "bbj", "bci", "bem", "bew", "bez", "bfd", "bik", "bin", "bjn", "bkm", "bku", "bla", "bmq", "bqv", "br", "bss", "bto", "buc", "bug", "bum", "bvb", "byv", "bze", "bzx", "cad", "car", "cay", "cch", "ceb", "cgg", "chk", "chn", "cho", "chy", "cic", "co", "cps", "crj", "crl", "crs", "csb", "ctd", "cy", "dak", "dav", "del", "dgr", "din", "dje", "dnj", "dsb", "dtm", "dtp", "dua", "dyu", "ebu", "ee", "efi", "egl", "eka", "esu", "eu", "ewo", "ext", "fan", "ffm", "fit", "fon", "frc", "frp", "frr", "frs", "fud", "fuq", "fur", "fuv", "fvr", "fy", "gaa", "gay", "gba", "gcr", "gd", "gl", "gor", "gos", "grb", "gub", "guc", "gur", "guz", "gwi", "hai", "haw", "hil", "hmn", "hnn", "hop", "hsb", "hup", "hz", "iba", "ibb", "ife", "ig", "ik", "ikt", "ilo", "izh", "jam", "jgo", "jmc", "kab", "kac", "kaj", "kam", "kao", "kcg", "kck", "kde", "kea", "kfo", "kg", "kge", "kgp", "khq", "ki", "kiu", "kj", "kkj", "kln", "kmb", "kos", "kpe", "kr", "kri", "krj", "krl", "ksb", "ksf", "ksh", "kut", "kvr", "kw", "lag", "laj", "lam", "lbw", "li", "lij", "liv", "lkt", "lmo", "mad", "rtm", "tiv", "tmh", "tog", "trv", "ts", "tsg", "tsi", "ttj", "tum", "twq", "uli", "umb", "ve", "vec", "vep", "vic", "vls", "vmf", "vmw", "vot", "vro", "vun", "wa", "wae", "war", "was", "wbp", "wls", "xav", "xh", "xog", "yao", "yap", "yav", "ybb", "yrl", "yua", "zag", "zap", "zea", "zmi", "zu", "zun", "zza", "Latn" !default;
+$langs-Latn: "ay", "bi", "ca", "ch", "cs", "da", "de", "en", "eo", "es", "et", "fi", "fil", "fj", "fo", "fr", "ga", "gil", "gn", "gsw", "gv", "ho", "hr", "ht", "hu", "in", "is", "it", "kl", "lb", "lt", "lv", "mg", "mh", "mi", "mt", "na", "nb", "nd", "niu", "nl", "nn", "no", "ny", "pap", "pau", "pl", "pt", "qu", "rn", "rw", "sg", "sk", "sl", "sm", "sn", "sq", "ss", "st", "sv", "sw", "tet", "tkl", "tl", "tn", "to", "tpi", "tr", "tvl", "ty", "yo", "aa", "abr", "ace", "ach", "ada", "af", "agq", "ak", "akz", "ale", "aln", "amo", "an", "aoz", "arn", "aro", "arp", "arw", "asa", "ast", "atj", "bar", "bas", "bbj", "bci", "bem", "bew", "bez", "bfd", "bik", "bin", "bjn", "bkm", "bku", "bla", "bmq", "bqv", "br", "bss", "bto", "buc", "bug", "bum", "bvb", "byv", "bze", "bzx", "cad", "car", "cay", "cch", "ceb", "cgg", "chk", "chn", "cho", "chy", "cic", "co", "cps", "crj", "crl", "crs", "csb", "ctd", "cy", "dak", "dav", "del", "dgr", "din", "dje", "dnj", "dsb", "dtm", "dtp", "dua", "dyu", "ebu", "ee", "efi", "egl", "eka", "esu", "eu", "ewo", "ext", "fan", "ffm", "fit", "fon", "frc", "frp", "frr", "frs", "fud", "fuq", "fur", "fuv", "fvr", "fy", "gaa", "gay", "gba", "gcr", "gd", "gl", "gor", "gos", "grb", "gub", "guc", "gur", "guz", "gwi", "hai", "haw", "hil", "hmn", "hnn", "hop", "hsb", "hup", "hz", "iba", "ibb", "ife", "ig", "ik", "ikt", "ilo", "izh", "jam", "jgo", "jmc", "kab", "kac", "kaj", "kam", "kao", "kcg", "kck", "kde", "kea", "kfo", "kg", "kge", "kgp", "khq", "ki", "kiu", "kj", "kkj", "kln", "kmb", "kos", "kpe", "kr", "kri", "krj", "krl", "ksb", "ksf", "ksh", "kut", "kvr", "kw", "lag", "laj", "lam", "lbw", "li", "lij", "liv", "lkt", "lmo", "mad", "rtm", "tiv", "tmh", "tog", "trv", "ts", "tsg", "tsi", "ttj", "tum", "twq", "uli", "umb", "ve", "vec", "vep", "vic", "vls", "vmf", "vmw", "vot", "vro", "vun", "wa", "wae", "war", "was", "wbp", "wls", "xav", "xh", "xog", "yao", "yap", "yav", "ybb", "yrl", "yua", "zag", "zap", "zea", "zmi", "zu", "zun", "zza", "ro-Latn", "sr-Latn", "gag-Latn", "bs-Latn", "rom-Latn", "se-Latn", "tkr-Latn", "udm-Latn", "hi-Latn", "hif-Latn", "ks-Latn", "sd-Latn", "ar-Latn", "bal-Latn", "brh-Latn", "dyo-Latn", "ha-Latn", "id-Latn", "ms-Latn", "so-Latn", "sus-Latn", "swb-Latn", "tr-Latn", "tru-Latn", "wo-Latn","aii-Latn", "az-Latn", "inh-Latn", "ky-Latn", "kk-Latn", "ku-Latn", "tg-Latn", "tk-Latn", "tly-Latn", "ttt-Latn", "ug-Latn", "uz-Latn", "Latn" !default;
 // Limbu
 $langs-Limb: "lif", "Limb" !default;
 // Lisu
@@ -116,7 +126,7 @@ $langs-Sora: "srb", "Sora" !default;
 // Tagalog
 $langs-Tglg: "fil", "Tglg" !default;
 // Tai Le
-$langs-Mlym: "tdd", "Tale" !default;
+$langs-Tale: "tdd", "Tale" !default;
 // Tai Tham
 $langs-Lana: "kkh", "Lana" !default;
 // Tai Viet
@@ -134,4 +144,7 @@ $langs-Tibt: "bo", "dz", "Tibt" !default;
 // Warang Citi
 $langs-Wara: "hoc", "Wara" !default;
 // Zanazabar Square
-$langs-Tibt: "za", "Zanb" !default;
+$langs-Zanb: "za", "Zanb" !default;
+
+// Special config
+//

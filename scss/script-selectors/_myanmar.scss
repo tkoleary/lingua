@@ -1,5 +1,25 @@
 // Myanmar script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$myanmar-sans,sans-serif;
+$serif-stack: 	$base-sans,$myanmar-serif,serif;
+$ui-stack: 			$base-sans,$myanmar-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Mymr...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Mymr...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Mymr...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Mymr),
@@ -23,4 +43,4 @@
 		font-family: $base-serif,$myanmar-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

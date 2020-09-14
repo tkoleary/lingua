@@ -1,26 +1,19 @@
 // Oriya script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$ol-chiki-sans,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Olck...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Olck) {
 		font-family: $base-sans,$ol-chiki-sans,sans-serif;
 		direction: ltr;
 	}
-}
-
-/*
-.lf-sans-ui {
-
-	&:lang(Olck) {
-		font-family: $base-sans,$oriya-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Olck) {
-		font-family: $base-serif,$oriya-serif,serif;
-		direction: ltr;
-	}
-}
-*/
+}*/

@@ -1,5 +1,20 @@
 // Warang citi script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$warang-citi-sans,sans-serif;
+$serif-stack: 	$base-sans,$warang-citi-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Wara...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Wara...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Wara),
@@ -15,4 +30,4 @@
 		ont-family: $base-serif,$warang-citi-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

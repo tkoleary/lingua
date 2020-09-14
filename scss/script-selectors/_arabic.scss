@@ -1,5 +1,30 @@
 // Arabic script languages
 
+@import "language-sets";
+
+$sans-stack:		$base-sans,$arabic-sans,sans-serif;
+$ui-stack: 			$base-sans,$arabic-sans-ui,sans-serif;
+$naskh-stack: 	$base-sans,$naskh-arabic,serif;
+$kufi-stack: 		$base-sans,$kufi-arabic,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, rtl, $langs-Arab...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, rtl, $langs-Arab...);
+}
+
+.lf-naskh {
+	@include langlist($naskh-stack, rtl, $langs-Arab...);
+}
+
+.lf-kufi {
+	@include langlist($kufi-stack, rtl, $langs-Arab...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Arab),&:lang(ar),&:lang(fa),&:lang(ps),&:lang(ur),&:lang(wni),&:lang(zdj),&:lang(aeb),&:lang(arq),&:lang(ars),&:lang(ary),&:lang(arz),&:lang(bej),&:lang(bgn),&:lang(bqi),&:lang(ckb),&:lang(dcc),&:lang(doi),&:lang(fia),&:lang(gbz),&:lang(gjk),&:lang(gju),&:lang(glk),&:lang(haz),&:lang(hnd),&:lang(hno),&:lang(khw),&:lang(kvx),&:lang(kxp),&:lang(lah),&:lang(lki),&:lang(lrc),&:lang(luz),&:lang(mfa),&:lang(mvy),&:lang(mzn),&:lang(prd),&:lang(rmt),&:lang(sdh),&:lang(skr),&:lang(trw) {
@@ -27,4 +52,4 @@
 		font-family: $base-sans,$kufi-arabic,sans-serif;
 		direction: rtl;
 	}
-}
+}*/

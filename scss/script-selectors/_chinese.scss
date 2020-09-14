@@ -1,5 +1,38 @@
 // Simplified and Traditional Chinese script languages
 
+
+@import "language-sets";
+
+$sans-simplified-stack: 		$base-sans,$chinese-s-sans,sans-serif;
+$serif-simplified-stack: 		$base-serif,$chinese-s-serif,serif;
+$sans-traditional-stack: 		$base-sans,$chinese-t-sans,sans-serif;
+$serif-traditional-stack: 	$base-serif,$chinese-t-serif,serif;
+$sans-hong-kong-stack: 			$base-sans,$chinese-hk-sans,sans-serif;
+$serif-hong-kong-stack: 		$base-serif,$chinese-hk-serif,serif;
+
+// Simplified
+*,
+.lf-sans 	{	@include langlist($sans-simplified-stack, ltr, $langs-Hans...); }
+.lf-serif { @include langlist($serif-simplified-stack, ltr, $langs-Hans...); }
+
+// Traditional
+.lf-sans 	{ @include langlist($sans-traditional-stack, ltr, $langs-Hant...); }
+.lf-serif { @include langlist($serif-traditional-stack, ltr, $langs-Hant...); }
+
+// Hong Kong
+.lf-sans 	{ @include langlist($sans-hong-kong-stack, ltr, $langs-zh-HK...); }
+.lf-serif { @include langlist($serif-hong-kong-stack, ltr, $langs-zh-HK...); }
+
+*, .lf-sans, .lf-serif {
+	&:lang(zh), &:lang(Hans), &:lang(Hant), &:lang(zh-KK) {
+		em {
+			font-style: normal;
+			text-emphasis: dot;
+		}
+	}
+}
+
+/*
 // Where no script is specified default to Simplified, except for yue (Cantonese)
 *:lang(zh),*:lang(gan),*:lang(hak),*:lang(hsn),*:lang(nan),*:lang(wuu),*:lang(za),*:lang(lzh),*:lang(Hans),*:lang(zh-Hans),*:lang(gan-Hans),*:lang(hak-Hans),*:lang(hsn-Hans),*:lang(nan-Hans),*:lang(wuu-Hans),*:lang(yue-Hans),*:lang(za-Hans),*:lang(lzh-Hans),
 .lf-sans:lang(zh-Hans) {
@@ -62,4 +95,4 @@
 		font-style: normal;
 		text-emphasis: dot;
 	}
-}
+}*/

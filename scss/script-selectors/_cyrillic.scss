@@ -2,8 +2,8 @@
 
 @import "language-sets";
 
-$sans-stack: $base-sans,$cyrillic-sans,sans-serif;
-$serif-stack: $base-serif,$cyrillic-serif,serif;
+$sans-stack: 		$base-sans,$cyrillic-sans,sans-serif;
+$serif-stack: 	$base-serif,$cyrillic-serif,serif;
 
 *,
 .lf-sans {

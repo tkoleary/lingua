@@ -1,5 +1,21 @@
 // N'Ko script
 
+
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$nko-sans,sans-serif;
+$serif-stack: 	$base-sans,$nko-serif,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Nkoo...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Nkoo...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Nkoo),
@@ -19,4 +35,4 @@
 		font-family: $base-serif,$nko-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

@@ -1,5 +1,25 @@
 // Telugu script
 
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$telugu-sans,sans-serif;
+$serif-stack: 	$base-sans,$telugu-serif,serif;
+$ui-stack: 			$base-sans,$telugu-sans-ui,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Telu...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Telu...);
+}
+
+.lf-sans-ui {
+	@include langlist($ui-stack, ltr, $langs-Telu...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Telu),
@@ -23,4 +43,4 @@
 		font-family: $base-serif,$telugu-serif,serif;
 		direction: ltr;
 	}
-}
+}*/

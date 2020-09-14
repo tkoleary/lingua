@@ -2,18 +2,18 @@
 
 @import "language-sets";
 
-$sans-stack: $base-sans,$hanifi-rohingya-sans,sans-serif;
+$sans-stack: 	$base-sans,$arabic-sans,$hanifi-rohingya-sans,sans-serif; // Borrows U+06D4 arabic full stop
 
 *,
 .lf-sans {
-	@include langlist($sans-stack, ltr, $langs-Rohg...);
+	@include langlist($sans-stack, rtl, $langs-Rohg...);
 }
 
 /*
 *,
 .lf-sans {
 	&:lang(Rohg) {
-		font-family: $base-sans,$arabic-sans,$hanifi-rohingya-sans,sans-serif; // Borrows U+06D4 arabic full stop
+		font-family: $base-sans,$arabic-sans,$hanifi-rohingya-sans,sans-serif;
 		direction: rtl;
 	}
 }*/

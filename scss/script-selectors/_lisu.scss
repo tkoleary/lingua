@@ -1,5 +1,15 @@
 // Lisu script
 
+@import "language-sets";
+
+$sans-stack: $base-sans,$lisu-sans,sans-serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Lisu...);
+}
+
+/*
 *,
 .lf-sans {
 	&:lang(Lisu),
@@ -7,14 +17,4 @@
 		font-family: $base-sans,$lisu-sans,sans-serif;
 		direction: ltr;
 	}
-}
-
-/*
-.lf-serif {
-	&:lang(Lisu),
-	&:lang(lis) {
-		font-family: $base-serif,$lisu-serif,serif;
-		direction: ltr;
-	}
-}
-*/
+}*/
