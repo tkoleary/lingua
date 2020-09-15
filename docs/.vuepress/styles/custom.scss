@@ -41,3 +41,17 @@ dt {
 dd {
 	margin: 0 0 0 10px;
 }
+
+code,
+pre {
+	&[class*="language-"],
+	&[class*="language-"] *,
+	&:lang(en),
+	&:lang(en) * {
+		font-family: "Noto Sans Latin Mono" !important;
+	}
+}
+
+.home .hero .description {
+  color: #76d !important;
+}

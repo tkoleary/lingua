@@ -13,21 +13,3 @@ $serif-stack: 	$base-serif,$hanunoo-sans,$buhid-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Buhd...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Buhd),
-	&:lang(bku) {
-		font-family: $base-sans,$hanunoo-sans,$buhid-sans,sans-serif; // Buhid borrows characters from Hanunoo
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Buhd),
-	&:lang(bku) {
-		font-family: $base-serif,$hanunoo-sans,$buhid-serif,serif; // Buhid borrows characters from Hanunoo
-		direction: ltr;
-	}
-}*/

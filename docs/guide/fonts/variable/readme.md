@@ -54,7 +54,6 @@ The variations shown are the helper classes for weights 100 through 900. Those a
 </div>
 
 ***
-
 <!--
 <div lang="Bugi">
 	<h3 class="lf-sans lf-light font-label" lang="en">Buginese sans</h3>
@@ -802,7 +801,7 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-ubold">1 ꚠꚡꚢꚣ ꚤꚥꚦꚧꚨ ꚩꚪꚫꚬꚭꚮ ꚯꚠꚡꚢꚣꚤ ꚥꚦꚧꚨꚩꚪꚫ ꚬꚭꚮꚯ </p>
 </div>
 
-***-->
+***
 
 <div lang="Bali">
 	<h3 class="lf-sans lf-light font-label" lang="en">Balinese Serif</h3>
@@ -817,7 +816,7 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-ubold">ᬫᬓᬲᬫᬶᬫᬦᬸᬲᬦᬾᬓᬳᭂᬫ᭄ᬩᬲᬶᬦ᭄ᬫᬳᬃᬤᬶᬓᬮᬦ᭄ᬧ</p>
 </div>
 
-***
+***-->
 
 <div lang="Beng">
 	<h3 class="lf-sans lf-light font-label" lang="en">Bengali Serif</h3>
@@ -848,9 +847,8 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-ubold">ᨔᨗᨊᨗᨊ ᨑᨘᨄ ᨈᨕᨘ ᨑᨗ ᨍᨍᨗᨕᨂᨗ ᨑᨗᨒᨗᨊᨚᨕᨙ </p>
 </div>
 
-***-->
+***
 
-<!--
 <div lang="Cyrl">
 	<h3 class="lf-sans lf-light font-label" lang="en">Cyrillic Serif</h3>
 	<p class="lf-specimen lf-serif lf-ulight">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
@@ -862,9 +860,9 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 	<p class="lf-specimen lf-serif lf-bold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
 	<p class="lf-specimen lf-serif lf-xbold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
 	<p class="lf-specimen lf-serif lf-ubold">СТАТЬЯ 1 Все люди рождаются свободными и равными в своем достоинстве и правах. </p>
-</div>
+</div>-->
 
-***-->
+***
 
 <div lang="Deva">
 	<h3 class="lf-sans lf-light font-label" lang="en">Devanagari Serif</h3>
@@ -910,7 +908,6 @@ UI fonts have characters with more compact shapes (ascenders, descenders, accent
 </div>
 
 ***
-
 <!--
 <div lang="Grek">
 	<h3 class="lf-sans lf-light font-label" lang="en">Greek Serif</h3>
@@ -1254,7 +1251,7 @@ With variable fonts, automatic application of italics is inconsistently applied 
 
 ***
 
-<!--<div lang="Hebr" style="text-align: right">
+<div lang="Hebr" style="text-align: right">
 	<h3 class="lf-sans lf-light font-label" lang="en">Hebrew - Rashi</h3>
 	<p class="lf-specimen lf-rashi lf-ulight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-rashi lf-xlight"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
@@ -1265,13 +1262,12 @@ With variable fonts, automatic application of italics is inconsistently applied 
 	<p class="lf-specimen lf-rashi lf-bold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-rashi lf-xbold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
 	<p class="lf-specimen lf-rashi lf-ubold"> נבחרים לערכים קרימינולוגיה צעד בה, אתה על פיסיקה לטיפול שימושי. כלל להפוך לחיבור בה.</p>
-</div>-->
+</div>
 
 ***
 
 </div>
 
-<!--
 ## Monospace
 
 The monospace font covers Latin. We will add more monospace fonts as they become available.
@@ -1287,4 +1283,4 @@ The monospace font covers Latin. We will add more monospace fonts as they become
 	<p class="lf-specimen lf-mono lf-bold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
 	<p class="lf-specimen lf-mono lf-xbold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
 	<p class="lf-specimen lf-mono lf-ubold">ARTICLE 1 All people are born free and equal in dignity and rights.</p>
-</div>-->
+</div>

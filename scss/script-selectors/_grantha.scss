@@ -1,4 +1,4 @@
-// Grantha script (Sanskrit)
+// Grantha script
 
 @import "language-sets";
 
@@ -13,21 +13,3 @@ $serif-stack: 	$base-serif,$grantha-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Gran...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Gran),
-	&:lang(sa) {
-		font-family: $base-sans,$grantha-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Gran),
-	&:lang(sa) {
-		font-family: $base-serif,$grantha-serif,serif;
-		direction: ltr;
-	}
-}*/

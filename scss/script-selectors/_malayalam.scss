@@ -23,34 +23,3 @@ $ui-stack: 			$base-sans,$malayalam-sans-ui,sans-serif;
 *:lang(ms) {
 	overflow-wrap: break-word;
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Mlym),
-	&:lang(ms) {
-		font-family: $base-sans,$malayalam-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Mlym),
-	&:lang(ms) {
-		font-family: $base-sans,$malayalam-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Mlym),
-	&:lang(ms) {
-		font-family: $base-serif,$malayalam-serif,serif;
-		direction: ltr;
-	}
-}
-
-*:lang(Mlym),
-*:lang(ms) {
-	overflow-wrap: break-word; // @todo investigate W3C Malayalam hyphenation coverage
-}*/

@@ -1,6 +1,7 @@
 // Font variables for self-hosted fonts
 
-// Static serif
+// The variables apply to both static and variable fonts which have the same name
+// The variable webfont rules follow the static rules so they load only where supported
 $adlam-serif:						''; // No font available
 $arabic-serif:					'Noto Serif Arabic';
 $armenian-serif:				'Noto Serif Armenian'; 				// +VF

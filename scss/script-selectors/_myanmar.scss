@@ -18,29 +18,3 @@ $ui-stack: 			$base-sans,$myanmar-sans-ui,sans-serif;
 .lf-sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Mymr...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Mymr),
-	&:lang(my) {
-		font-family: $base-sans,$myanmar-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Mymr),
-	&:lang(my) {
-		font-family: $base-sans,$myanmar-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif  {
-	&:lang(Mymr),
-	&:lang(my) {
-		font-family: $base-serif,$myanmar-serif,serif;
-		direction: ltr;
-	}
-}*/

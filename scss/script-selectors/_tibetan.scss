@@ -13,23 +13,3 @@ $serif-stack: 	$base-sans,$tibetan-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Tibt...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Tibt),
-	&:lang(bo),
-	&:lang(dz) {
-		font-family: $base-sans,$tibetan-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Tibt),
-	&:lang(bo),
-	&:lang(dz)  {
-		font-family: $base-serif,$tibetan-serif,serif;
-		direction: ltr;
-	}
-}*/

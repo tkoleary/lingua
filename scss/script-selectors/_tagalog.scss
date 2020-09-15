@@ -13,21 +13,3 @@ $serif-stack: 	$base-sans,$tagalog-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Tglg...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Tglg),
-	&:lang(fil) {
-		font-family: $base-sans,$tagalog-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Tglg),
-	&:lang(fil) {
-		font-family: $base-serif,$tagalog-serif,serif;
-		direction: ltr;
-	}
-}*/

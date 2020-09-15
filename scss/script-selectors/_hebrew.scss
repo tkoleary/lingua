@@ -1,4 +1,4 @@
-// Hebrew script languages
+// Hebrew script
 
 @import "language-sets";
 
@@ -18,45 +18,3 @@ $rashi-stack: $base-sans,$rashi-hebrew,serif;
 .lf-rashi {
 	@include langlist($rashi-stack, rtl, $langs-Hebr...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Hebr),
-	&:lang(iw),
-	&:lang(he),
-	&:lang(jpr),
-	&:lang(jrb),
-	&:lang(lad),
-	&:lang(yi) {
-		font-family: $base-sans,$hebrew-sans,sans-serif;
-		direction: rtl;
-	}
-}
-
-.lf-serif {
-	&:lang(Hebr),
-	&:lang(iw),
-	&:lang(he),
-	&:lang(jpr),
-	&:lang(jrb),
-	&:lang(lad),
-	&:lang(yi) {
-		font-family: $base-serif,$hebrew-serif,sans-serif;
-		direction: rtl;
-	}
-}
-
-// Rashi hebrew script languages
-.lf-rashi {
-	&:lang(Hebr),
-	&:lang(iw),
-	&:lang(he),
-	&:lang(jpr),
-	&:lang(jrb),
-	&:lang(lad),
-	&:lang(yi) {
-		font-family: $base-serif,$rashi-hebrew,sans-serif;
-		direction: ltr;
-	}
-}*/

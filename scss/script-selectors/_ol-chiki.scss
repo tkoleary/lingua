@@ -8,12 +8,3 @@ $sans-stack: $base-sans,$ol-chiki-sans,sans-serif;
 .lf-sans {
 	@include langlist($sans-stack, ltr, $langs-Olck...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Olck) {
-		font-family: $base-sans,$ol-chiki-sans,sans-serif;
-		direction: ltr;
-	}
-}*/

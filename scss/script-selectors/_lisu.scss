@@ -8,13 +8,3 @@ $sans-stack: $base-sans,$lisu-sans,sans-serif;
 .lf-sans {
 	@include langlist($sans-stack, ltr, $langs-Lisu...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Lisu),
-	&:lang(lis) {
-		font-family: $base-sans,$lisu-sans,sans-serif;
-		direction: ltr;
-	}
-}*/

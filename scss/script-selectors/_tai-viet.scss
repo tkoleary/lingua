@@ -1,5 +1,4 @@
-// tai-viet script
-
+// Tai-viet script
 
 @import "language-sets";
 
@@ -14,21 +13,3 @@ $serif-stack: 	$base-sans,$tai-viet-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Tavt...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Tavt),
-	&:lang(bit) {
-		font-family: $base-sans,$tai-viet-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Tavt),
-	&:lang(bit) {
-		font-family: $base-serif,$tai-viet-serif,serif;
-		direction: ltr;
-	}
-}*/

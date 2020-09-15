@@ -1,4 +1,4 @@
-// thaana script. Divehi language
+// Thaana script 
 
 @import "language-sets";
 
@@ -13,22 +13,3 @@ $serif-stack: 	$base-serif,$arabic-serif,$thaana-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, rtl, $langs-Thaa...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Thaa),
-	&:lang(dv) {
-		font-family: $base-sans,$arabic-sans,$thaana-sans,sans-serif; // Thaana borrows some arabic punctuation
-		direction: rtl;
-	}
-}
-
-
-.lf-serif {
-	&:lang(Thaa),
-	&:lang(dv) {
-		font-family: $base-serif,$arabic-serif,$thaana-serif,serif; // Thaana borrows some arabic punctuation
-		direction: rtl;
-	}
-}*/

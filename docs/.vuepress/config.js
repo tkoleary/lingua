@@ -7,7 +7,6 @@ module.exports = {
 	themeConfig: {
 		lastUpdated: false,
 		sidebar: [
-			["/", "Home"],
 			"/guide/",
 			"/guide/get-started/",
 			"/guide/languages/",

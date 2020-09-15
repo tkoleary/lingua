@@ -13,21 +13,3 @@ $serif-stack: 	$base-sans,$tai-le-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Tale...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Tale),
-	&:lang(tdd) {
-		font-family: $base-sans,$tai-le-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Tale),
-	&:lang(tdd) {
-		font-family: $base-serif,$tai-le-serif,serif;
-		direction: ltr;
-	}
-}*/

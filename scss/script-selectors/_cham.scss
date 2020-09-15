@@ -8,15 +8,3 @@ $sans-stack: 		$base-sans,$cham-sans,sans-serif;
 .lf-sans {
 	@include langlist($sans-stack, ltr, $langs-Cham...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Cham),
-	&:lang(cja),
-	&:lang(cjm) {
-		font-family: $base-sans,$cham-sans,sans-serif;
-		direction: ltr;
-	}
-}
-*/

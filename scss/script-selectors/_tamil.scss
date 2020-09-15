@@ -20,29 +20,3 @@ em,
 .lf-slanted em {
 	@include langlist($slanted-stack, ltr, $langs-Taml...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Taml),
-	&:lang(ta) {
-		font-family: $base-sans,$tamil-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Taml),
-	&:lang(ta) {
-		font-family: $base-sans,$tamil-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-slanted {
-	&:lang(Taml),
-	&:lang(ta) {
-		font-family: $base-serif,$tamil-serif-slanted,serif;
-		direction: ltr;
-	}
-}*/

@@ -11,26 +11,26 @@
   }
 }
 
-/* Template -- replace 'thelang' with language name and 'code' with scrpt code
-@import "language-sets";
+// Script selector template -- replace 'thelang' with language name and 'code' with scrpt code
+// @import "language-sets";
+//
+// $sans-stack: 		$base-sans,$thelang-sans,sans-serif;
+// $serif-stack: 	$base-sans,$thelang-serif,serif;
+// $ui-stack: 			$base-sans,$thelang-sans-ui,sans-serif;
+//
+// *,
+// .lf-sans {
+// 	@include langlist($sans-stack, ltr, $langs-code...);
+// }
+//
+// .lf-serif {
+// 	@include langlist($serif-stack, ltr, $langs-code...);
+// }
+//
+// .lf-sans-ui {
+// 	@include langlist($ui-stack, ltr, $langs-code...);
+// }
 
-$sans-stack: 		$base-sans,$thelang-sans,sans-serif;
-$serif-stack: 	$base-sans,$thelang-serif,serif;
-$ui-stack: 			$base-sans,$thelang-sans-ui,sans-serif;
-
-*,
-.lf-sans {
-	@include langlist($sans-stack, ltr, $langs-code...);
-}
-
-.lf-serif {
-	@include langlist($serif-stack, ltr, $langs-code...);
-}
-
-.lf-sans-ui {
-	@include langlist($ui-stack, ltr, $langs-code...);
-}
-*/
 
 @mixin langrule($langs...) {
 	@each $lang in $langs {
@@ -39,7 +39,6 @@ $ui-stack: 			$base-sans,$thelang-sans-ui,sans-serif;
 		}
   }
 }
-
 
 // Adlam
 $langs-Adlm: "ff", "Adlm" !default;
@@ -115,7 +114,7 @@ $langs-Mlym: "ms", "Mlym" !default;
 $langs-Mymr: "my", "Mymr" !default;
 // Nko
 $langs-Nkoo: "bm", "man", "nqo", "Nkoo" !default;
-// Ol Ckhiki
+// Ol Chiki
 $langs-Olck: "Olck" !default;
 // Oriya
 $langs-Orya: "ori", "or", "Orya" !default;
@@ -147,4 +146,3 @@ $langs-Wara: "hoc", "Wara" !default;
 $langs-Zanb: "za", "Zanb" !default;
 
 // Special config
-//

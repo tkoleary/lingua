@@ -13,21 +13,3 @@ $serif-stack: 	$base-sans,$gurmukhi-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Guru...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Guru),
-	&:lang(gi) {
-		font-family: $base-sans,$gurmukhi-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Guru),
-	&:lang(gi) {
-		font-family: $base-serif,$gurmukhi-serif,serif;
-		direction: ltr;
-	}
-}*/

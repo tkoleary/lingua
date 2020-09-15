@@ -1,4 +1,4 @@
-// Ethiopic script languages
+// Ethiopic script
 
 @import "language-sets";
 
@@ -8,30 +8,3 @@ $serif-stack: 		$base-serif,$ethiopic-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Ethi...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Ethi),
-	&:lang(am),
-	&:lang(ti),
-	&:lang(byn),
-	&:lang(tig),
-	&:lang(wal) {
-		font-family: $base-sans,$ethiopic-serif,serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Ethi),
-	&:lang(am),
-	&:lang(ti),
-	&:lang(byn),
-	&:lang(tig),
-	&:lang(wal) {
-		font-family: $base-serif,$ethiopic-serif,serif;
-		direction: ltr;
-	}
-}
-*/

@@ -8,13 +8,3 @@ $sans-stack: 		$base-sans,$zanabazar-square-sans,sans-serif;
 .lf-sans {
 	@include langlist($sans-stack, ltr, $langs-Zanb...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Zanb),
-	&:lang(za) {
-		font-family: $base-sans,$zanabazar-square-sans,sans-serif;
-		direction: ltr;
-	}
-}*/

@@ -13,15 +13,3 @@ $serif-stack: 	$base-serif,$brahmi-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Brah...);
 }
-
-/*
-*,
-.lf-sans:lang(Brah){
-	font-family: $base-sans,$brahmi-sans,sans-serif;
-	direction: ltr;
-}
-
-.lf-serif:lang(Brah) {
-	font-family: $base-serif,$brahmi-serif,serif;
-	direction: ltr;
-}*/

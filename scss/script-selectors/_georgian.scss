@@ -13,21 +13,3 @@ $serif-stack: 	$base-serif,$georgian-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Geor...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Geor),
-	&:lang(ka) {
-		font-family: $base-sans,$georgian-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Geor),
-	&:lang(ka) {
-		font-family: $base-serif,$georgian-serif,serif;
-		direction: ltr;
-	}
-}*/

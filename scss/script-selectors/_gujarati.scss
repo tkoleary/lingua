@@ -13,21 +13,3 @@ $serif-stack: 	$base-sans,$gujarati-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Gujr...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Gujr),
-	&:lang(gu) {
-		font-family: $base-sans,$gujarati-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Gujr),
-	&:lang(gu) {
-		font-family: $base-serif,$gujarati-serif,serif;
-		direction: ltr;
-	}
-}*/

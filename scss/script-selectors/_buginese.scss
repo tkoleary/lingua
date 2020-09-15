@@ -13,21 +13,3 @@ $serif-stack: 	$base-serif,$buginese-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Bugi...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Bugi),
-	&:lang(bug) {
-		font-family: $base-sans,$buginese-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Bugi),
-	&:lang(bug) {
-		font-family: $base-serif,$buginese-serif,serif;
-		direction: ltr;
-	}
-}*/

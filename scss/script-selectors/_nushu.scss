@@ -1,0 +1,15 @@
+// Nushu script
+
+@import "language-sets";
+
+$sans-stack: 		$base-sans,$nushu-sans,sans-serif;
+$serif-stack: 	$base-sans,$nushu-traditional,serif;
+
+*,
+.lf-sans {
+	@include langlist($sans-stack, ltr, $langs-Nshu...);
+}
+
+.lf-serif {
+	@include langlist($serif-stack, ltr, $langs-Nshu...);
+}

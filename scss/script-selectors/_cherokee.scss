@@ -13,21 +13,3 @@ $serif-stack: 	$base-serif,$cherokee-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Cher...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Cher),
-	&:lang(chr) {
-		font-family: $base-sans,$cherokee-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Cher),
-	&:lang(chr) {
-		font-family: $base-serif,$cherokee-serif,serif;
-		direction: ltr;
-	}
-}*/

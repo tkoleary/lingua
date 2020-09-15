@@ -18,29 +18,3 @@ $ui-stack: 			$base-sans,$khmer-sans-ui,sans-serif;
 .lf-ui {
 	@include langlist($ui-stack, ltr, $langs-Khmr...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Khmr),
-	&:lang(km) {
-		font-family: $base-sans,$khmer-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui  {
-	&:lang(Khmr),
-	&:lang(km) {
-		font-family: $base-sans,$khmer-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Khmr),
-	&:lang(km) {
-		font-family: $base-sans,$khmer-serif,serif;
-		direction: ltr;
-	}
-}*/

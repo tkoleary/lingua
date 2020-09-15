@@ -13,21 +13,3 @@ $serif-stack: 	$base-sans,$tai-tham-serif,serif;
 .lf-serif {
 	@include langlist($serif-stack, ltr, $langs-Lana...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Lana),
-	&:lang(kkh) {
-		font-family: $base-sans,$tai-tham-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Lana),
-	&:lang(kkh) {
-		font-family: $base-serif,$tai-tham-serif,serif;
-		direction: ltr;
-	}
-}*/

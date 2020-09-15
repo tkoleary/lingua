@@ -8,14 +8,3 @@ $sans-stack: $base-sans,$oriya-sans,sans-serif;
 .lf-sans {
 	@include langlist($sans-stack, ltr, $langs-Orya...);
 }
-
-/*
-.lf-sans {
-	&:lang(Orya),
-	&:lang(ori),
-	&:lang(or) {
-		font-family: $base-sans,$oriya-sans,sans-serif;
-		direction: ltr;
-	}
-}
-*/

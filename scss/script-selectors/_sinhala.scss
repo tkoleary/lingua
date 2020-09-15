@@ -18,29 +18,3 @@ $ui-stack: 			$base-sans,$sinhala-sans-ui,sans-serif;
 .lf-sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Sinh...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Sinh),
-	&:lang(si) {
-		font-family: $base-sans,$sinhala-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Sinh),
-	&:lang(si) {
-		font-family: $base-sans,$sinhala-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Sinh),
-	&:lang(si) {
-		font-family: $base-serif,$sinhala-serif,serif;
-		direction: ltr;
-	}
-}*/

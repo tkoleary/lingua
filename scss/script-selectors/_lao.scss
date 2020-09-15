@@ -18,29 +18,3 @@ $ui-stack: $base-sans,$lao-sans-ui,sans-serif;
 .lf-ui {
 	@include langlist($ui-stack, ltr, $langs-Laoo...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Laoo),
-	&:lang(lo) {
-		font-family: $base-sans,$lao-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Laoo),
-	&:lang(lo) {
-		font-family: $base-sans,$lao-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Laoo),
-	&:lang(lo) {
-		font-family: $base-serif,$lao-serif,serif;
-		direction: ltr;
-	}
-}*/

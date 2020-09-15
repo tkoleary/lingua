@@ -18,29 +18,3 @@ $ui-stack: 			$base-sans,$thai-sans-ui,sans-serif;
 .lf-sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Thai...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Thai),
-	&:lang(th) {
-		font-family: $base-sans,$thai-sans,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-sans-ui {
-	&:lang(Thai),
-	&:lang(th) {
-		font-family: $base-sans,$thai-sans-ui,sans-serif;
-		direction: ltr;
-	}
-}
-
-.lf-serif {
-	&:lang(Thai),
-	&:lang(th) {
-		font-family: $base-serif,$thai-serif,serif;
-		direction: ltr;
-	}
-}*/

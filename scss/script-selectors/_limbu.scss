@@ -8,13 +8,3 @@ $sans-stack: 		$base-sans,$limbu-sans,sans-serif;
 .lf-sans {
 	@include langlist($sans-stack, ltr, $langs-Limb...);
 }
-
-/*
-*,
-.lf-sans {
-	&:lang(Limb),
-	&:lang(lif) {
-		font-family: $base-sans,$devanagari-sans,$limbu-sans,sans-serif;  // Borrows devanagari punctuation
-		direction: ltr;
-	}
-}*/
