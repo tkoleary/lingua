@@ -4880,7 +4880,7 @@
 *:lang(ay),
 .lf-sans:lang(ay) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ay).lf-italic, *:lang(ay) em.lf-italic,
 .lf-sans:lang(ay).lf-italic,
@@ -4896,7 +4896,7 @@
 *:lang(bi),
 .lf-sans:lang(bi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bi).lf-italic, *:lang(bi) em.lf-italic,
 .lf-sans:lang(bi).lf-italic,
@@ -4912,7 +4912,7 @@
 *:lang(ca),
 .lf-sans:lang(ca) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ca).lf-italic, *:lang(ca) em.lf-italic,
 .lf-sans:lang(ca).lf-italic,
@@ -4928,7 +4928,7 @@
 *:lang(ch),
 .lf-sans:lang(ch) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ch).lf-italic, *:lang(ch) em.lf-italic,
 .lf-sans:lang(ch).lf-italic,
@@ -4944,7 +4944,7 @@
 *:lang(cs),
 .lf-sans:lang(cs) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cs).lf-italic, *:lang(cs) em.lf-italic,
 .lf-sans:lang(cs).lf-italic,
@@ -4960,7 +4960,7 @@
 *:lang(da),
 .lf-sans:lang(da) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(da).lf-italic, *:lang(da) em.lf-italic,
 .lf-sans:lang(da).lf-italic,
@@ -4976,7 +4976,7 @@
 *:lang(de),
 .lf-sans:lang(de) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(de).lf-italic, *:lang(de) em.lf-italic,
 .lf-sans:lang(de).lf-italic,
@@ -4992,7 +4992,7 @@
 *:lang(en),
 .lf-sans:lang(en) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(en).lf-italic, *:lang(en) em.lf-italic,
 .lf-sans:lang(en).lf-italic,
@@ -5008,7 +5008,7 @@
 *:lang(eo),
 .lf-sans:lang(eo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(eo).lf-italic, *:lang(eo) em.lf-italic,
 .lf-sans:lang(eo).lf-italic,
@@ -5024,7 +5024,7 @@
 *:lang(es),
 .lf-sans:lang(es) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(es).lf-italic, *:lang(es) em.lf-italic,
 .lf-sans:lang(es).lf-italic,
@@ -5040,7 +5040,7 @@
 *:lang(et),
 .lf-sans:lang(et) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(et).lf-italic, *:lang(et) em.lf-italic,
 .lf-sans:lang(et).lf-italic,
@@ -5056,7 +5056,7 @@
 *:lang(fi),
 .lf-sans:lang(fi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fi).lf-italic, *:lang(fi) em.lf-italic,
 .lf-sans:lang(fi).lf-italic,
@@ -5072,7 +5072,7 @@
 *:lang(fil),
 .lf-sans:lang(fil) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fil).lf-italic, *:lang(fil) em.lf-italic,
 .lf-sans:lang(fil).lf-italic,
@@ -5088,7 +5088,7 @@
 *:lang(fj),
 .lf-sans:lang(fj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fj).lf-italic, *:lang(fj) em.lf-italic,
 .lf-sans:lang(fj).lf-italic,
@@ -5104,7 +5104,7 @@
 *:lang(fo),
 .lf-sans:lang(fo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fo).lf-italic, *:lang(fo) em.lf-italic,
 .lf-sans:lang(fo).lf-italic,
@@ -5120,7 +5120,7 @@
 *:lang(fr),
 .lf-sans:lang(fr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fr).lf-italic, *:lang(fr) em.lf-italic,
 .lf-sans:lang(fr).lf-italic,
@@ -5136,7 +5136,7 @@
 *:lang(ga),
 .lf-sans:lang(ga) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ga).lf-italic, *:lang(ga) em.lf-italic,
 .lf-sans:lang(ga).lf-italic,
@@ -5152,7 +5152,7 @@
 *:lang(gil),
 .lf-sans:lang(gil) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gil).lf-italic, *:lang(gil) em.lf-italic,
 .lf-sans:lang(gil).lf-italic,
@@ -5168,7 +5168,7 @@
 *:lang(gn),
 .lf-sans:lang(gn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gn).lf-italic, *:lang(gn) em.lf-italic,
 .lf-sans:lang(gn).lf-italic,
@@ -5184,7 +5184,7 @@
 *:lang(gsw),
 .lf-sans:lang(gsw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gsw).lf-italic, *:lang(gsw) em.lf-italic,
 .lf-sans:lang(gsw).lf-italic,
@@ -5200,7 +5200,7 @@
 *:lang(gv),
 .lf-sans:lang(gv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gv).lf-italic, *:lang(gv) em.lf-italic,
 .lf-sans:lang(gv).lf-italic,
@@ -5216,7 +5216,7 @@
 *:lang(ho),
 .lf-sans:lang(ho) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ho).lf-italic, *:lang(ho) em.lf-italic,
 .lf-sans:lang(ho).lf-italic,
@@ -5232,7 +5232,7 @@
 *:lang(hr),
 .lf-sans:lang(hr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hr).lf-italic, *:lang(hr) em.lf-italic,
 .lf-sans:lang(hr).lf-italic,
@@ -5248,7 +5248,7 @@
 *:lang(ht),
 .lf-sans:lang(ht) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ht).lf-italic, *:lang(ht) em.lf-italic,
 .lf-sans:lang(ht).lf-italic,
@@ -5264,7 +5264,7 @@
 *:lang(hu),
 .lf-sans:lang(hu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hu).lf-italic, *:lang(hu) em.lf-italic,
 .lf-sans:lang(hu).lf-italic,
@@ -5280,7 +5280,7 @@
 *:lang(in),
 .lf-sans:lang(in) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(in).lf-italic, *:lang(in) em.lf-italic,
 .lf-sans:lang(in).lf-italic,
@@ -5296,7 +5296,7 @@
 *:lang(is),
 .lf-sans:lang(is) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(is).lf-italic, *:lang(is) em.lf-italic,
 .lf-sans:lang(is).lf-italic,
@@ -5312,7 +5312,7 @@
 *:lang(it),
 .lf-sans:lang(it) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(it).lf-italic, *:lang(it) em.lf-italic,
 .lf-sans:lang(it).lf-italic,
@@ -5328,7 +5328,7 @@
 *:lang(kl),
 .lf-sans:lang(kl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kl).lf-italic, *:lang(kl) em.lf-italic,
 .lf-sans:lang(kl).lf-italic,
@@ -5344,7 +5344,7 @@
 *:lang(lb),
 .lf-sans:lang(lb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lb).lf-italic, *:lang(lb) em.lf-italic,
 .lf-sans:lang(lb).lf-italic,
@@ -5360,7 +5360,7 @@
 *:lang(lt),
 .lf-sans:lang(lt) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lt).lf-italic, *:lang(lt) em.lf-italic,
 .lf-sans:lang(lt).lf-italic,
@@ -5376,7 +5376,7 @@
 *:lang(lv),
 .lf-sans:lang(lv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lv).lf-italic, *:lang(lv) em.lf-italic,
 .lf-sans:lang(lv).lf-italic,
@@ -5392,7 +5392,7 @@
 *:lang(mg),
 .lf-sans:lang(mg) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(mg).lf-italic, *:lang(mg) em.lf-italic,
 .lf-sans:lang(mg).lf-italic,
@@ -5408,7 +5408,7 @@
 *:lang(mh),
 .lf-sans:lang(mh) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(mh).lf-italic, *:lang(mh) em.lf-italic,
 .lf-sans:lang(mh).lf-italic,
@@ -5424,7 +5424,7 @@
 *:lang(mi),
 .lf-sans:lang(mi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(mi).lf-italic, *:lang(mi) em.lf-italic,
 .lf-sans:lang(mi).lf-italic,
@@ -5440,7 +5440,7 @@
 *:lang(mt),
 .lf-sans:lang(mt) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(mt).lf-italic, *:lang(mt) em.lf-italic,
 .lf-sans:lang(mt).lf-italic,
@@ -5456,7 +5456,7 @@
 *:lang(na),
 .lf-sans:lang(na) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(na).lf-italic, *:lang(na) em.lf-italic,
 .lf-sans:lang(na).lf-italic,
@@ -5472,7 +5472,7 @@
 *:lang(nb),
 .lf-sans:lang(nb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(nb).lf-italic, *:lang(nb) em.lf-italic,
 .lf-sans:lang(nb).lf-italic,
@@ -5488,7 +5488,7 @@
 *:lang(nd),
 .lf-sans:lang(nd) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(nd).lf-italic, *:lang(nd) em.lf-italic,
 .lf-sans:lang(nd).lf-italic,
@@ -5504,7 +5504,7 @@
 *:lang(niu),
 .lf-sans:lang(niu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(niu).lf-italic, *:lang(niu) em.lf-italic,
 .lf-sans:lang(niu).lf-italic,
@@ -5520,7 +5520,7 @@
 *:lang(nl),
 .lf-sans:lang(nl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(nl).lf-italic, *:lang(nl) em.lf-italic,
 .lf-sans:lang(nl).lf-italic,
@@ -5536,7 +5536,7 @@
 *:lang(nn),
 .lf-sans:lang(nn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(nn).lf-italic, *:lang(nn) em.lf-italic,
 .lf-sans:lang(nn).lf-italic,
@@ -5552,7 +5552,7 @@
 *:lang(no),
 .lf-sans:lang(no) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(no).lf-italic, *:lang(no) em.lf-italic,
 .lf-sans:lang(no).lf-italic,
@@ -5568,7 +5568,7 @@
 *:lang(ny),
 .lf-sans:lang(ny) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ny).lf-italic, *:lang(ny) em.lf-italic,
 .lf-sans:lang(ny).lf-italic,
@@ -5584,7 +5584,7 @@
 *:lang(pap),
 .lf-sans:lang(pap) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(pap).lf-italic, *:lang(pap) em.lf-italic,
 .lf-sans:lang(pap).lf-italic,
@@ -5600,7 +5600,7 @@
 *:lang(pau),
 .lf-sans:lang(pau) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(pau).lf-italic, *:lang(pau) em.lf-italic,
 .lf-sans:lang(pau).lf-italic,
@@ -5616,7 +5616,7 @@
 *:lang(pl),
 .lf-sans:lang(pl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(pl).lf-italic, *:lang(pl) em.lf-italic,
 .lf-sans:lang(pl).lf-italic,
@@ -5632,7 +5632,7 @@
 *:lang(pt),
 .lf-sans:lang(pt) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(pt).lf-italic, *:lang(pt) em.lf-italic,
 .lf-sans:lang(pt).lf-italic,
@@ -5648,7 +5648,7 @@
 *:lang(qu),
 .lf-sans:lang(qu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(qu).lf-italic, *:lang(qu) em.lf-italic,
 .lf-sans:lang(qu).lf-italic,
@@ -5664,7 +5664,7 @@
 *:lang(rn),
 .lf-sans:lang(rn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(rn).lf-italic, *:lang(rn) em.lf-italic,
 .lf-sans:lang(rn).lf-italic,
@@ -5680,7 +5680,7 @@
 *:lang(rw),
 .lf-sans:lang(rw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(rw).lf-italic, *:lang(rw) em.lf-italic,
 .lf-sans:lang(rw).lf-italic,
@@ -5696,7 +5696,7 @@
 *:lang(sg),
 .lf-sans:lang(sg) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sg).lf-italic, *:lang(sg) em.lf-italic,
 .lf-sans:lang(sg).lf-italic,
@@ -5712,7 +5712,7 @@
 *:lang(sk),
 .lf-sans:lang(sk) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sk).lf-italic, *:lang(sk) em.lf-italic,
 .lf-sans:lang(sk).lf-italic,
@@ -5728,7 +5728,7 @@
 *:lang(sl),
 .lf-sans:lang(sl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sl).lf-italic, *:lang(sl) em.lf-italic,
 .lf-sans:lang(sl).lf-italic,
@@ -5744,7 +5744,7 @@
 *:lang(sm),
 .lf-sans:lang(sm) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sm).lf-italic, *:lang(sm) em.lf-italic,
 .lf-sans:lang(sm).lf-italic,
@@ -5760,7 +5760,7 @@
 *:lang(sn),
 .lf-sans:lang(sn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sn).lf-italic, *:lang(sn) em.lf-italic,
 .lf-sans:lang(sn).lf-italic,
@@ -5776,7 +5776,7 @@
 *:lang(sq),
 .lf-sans:lang(sq) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sq).lf-italic, *:lang(sq) em.lf-italic,
 .lf-sans:lang(sq).lf-italic,
@@ -5792,7 +5792,7 @@
 *:lang(ss),
 .lf-sans:lang(ss) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ss).lf-italic, *:lang(ss) em.lf-italic,
 .lf-sans:lang(ss).lf-italic,
@@ -5808,7 +5808,7 @@
 *:lang(st),
 .lf-sans:lang(st) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(st).lf-italic, *:lang(st) em.lf-italic,
 .lf-sans:lang(st).lf-italic,
@@ -5824,7 +5824,7 @@
 *:lang(sv),
 .lf-sans:lang(sv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sv).lf-italic, *:lang(sv) em.lf-italic,
 .lf-sans:lang(sv).lf-italic,
@@ -5840,7 +5840,7 @@
 *:lang(sw),
 .lf-sans:lang(sw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sw).lf-italic, *:lang(sw) em.lf-italic,
 .lf-sans:lang(sw).lf-italic,
@@ -5856,7 +5856,7 @@
 *:lang(tet),
 .lf-sans:lang(tet) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tet).lf-italic, *:lang(tet) em.lf-italic,
 .lf-sans:lang(tet).lf-italic,
@@ -5872,7 +5872,7 @@
 *:lang(tkl),
 .lf-sans:lang(tkl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tkl).lf-italic, *:lang(tkl) em.lf-italic,
 .lf-sans:lang(tkl).lf-italic,
@@ -5888,7 +5888,7 @@
 *:lang(tl),
 .lf-sans:lang(tl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tl).lf-italic, *:lang(tl) em.lf-italic,
 .lf-sans:lang(tl).lf-italic,
@@ -5904,7 +5904,7 @@
 *:lang(tn),
 .lf-sans:lang(tn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tn).lf-italic, *:lang(tn) em.lf-italic,
 .lf-sans:lang(tn).lf-italic,
@@ -5920,7 +5920,7 @@
 *:lang(to),
 .lf-sans:lang(to) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(to).lf-italic, *:lang(to) em.lf-italic,
 .lf-sans:lang(to).lf-italic,
@@ -5936,7 +5936,7 @@
 *:lang(tpi),
 .lf-sans:lang(tpi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tpi).lf-italic, *:lang(tpi) em.lf-italic,
 .lf-sans:lang(tpi).lf-italic,
@@ -5952,7 +5952,7 @@
 *:lang(tr),
 .lf-sans:lang(tr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tr).lf-italic, *:lang(tr) em.lf-italic,
 .lf-sans:lang(tr).lf-italic,
@@ -5968,7 +5968,7 @@
 *:lang(tvl),
 .lf-sans:lang(tvl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tvl).lf-italic, *:lang(tvl) em.lf-italic,
 .lf-sans:lang(tvl).lf-italic,
@@ -5984,7 +5984,7 @@
 *:lang(ty),
 .lf-sans:lang(ty) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ty).lf-italic, *:lang(ty) em.lf-italic,
 .lf-sans:lang(ty).lf-italic,
@@ -6000,7 +6000,7 @@
 *:lang(yo),
 .lf-sans:lang(yo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(yo).lf-italic, *:lang(yo) em.lf-italic,
 .lf-sans:lang(yo).lf-italic,
@@ -6016,7 +6016,7 @@
 *:lang(aa),
 .lf-sans:lang(aa) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(aa).lf-italic, *:lang(aa) em.lf-italic,
 .lf-sans:lang(aa).lf-italic,
@@ -6032,7 +6032,7 @@
 *:lang(abr),
 .lf-sans:lang(abr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(abr).lf-italic, *:lang(abr) em.lf-italic,
 .lf-sans:lang(abr).lf-italic,
@@ -6048,7 +6048,7 @@
 *:lang(ace),
 .lf-sans:lang(ace) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ace).lf-italic, *:lang(ace) em.lf-italic,
 .lf-sans:lang(ace).lf-italic,
@@ -6064,7 +6064,7 @@
 *:lang(ach),
 .lf-sans:lang(ach) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ach).lf-italic, *:lang(ach) em.lf-italic,
 .lf-sans:lang(ach).lf-italic,
@@ -6080,7 +6080,7 @@
 *:lang(ada),
 .lf-sans:lang(ada) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ada).lf-italic, *:lang(ada) em.lf-italic,
 .lf-sans:lang(ada).lf-italic,
@@ -6096,7 +6096,7 @@
 *:lang(af),
 .lf-sans:lang(af) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(af).lf-italic, *:lang(af) em.lf-italic,
 .lf-sans:lang(af).lf-italic,
@@ -6112,7 +6112,7 @@
 *:lang(agq),
 .lf-sans:lang(agq) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(agq).lf-italic, *:lang(agq) em.lf-italic,
 .lf-sans:lang(agq).lf-italic,
@@ -6128,7 +6128,7 @@
 *:lang(ak),
 .lf-sans:lang(ak) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ak).lf-italic, *:lang(ak) em.lf-italic,
 .lf-sans:lang(ak).lf-italic,
@@ -6144,7 +6144,7 @@
 *:lang(akz),
 .lf-sans:lang(akz) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(akz).lf-italic, *:lang(akz) em.lf-italic,
 .lf-sans:lang(akz).lf-italic,
@@ -6160,7 +6160,7 @@
 *:lang(ale),
 .lf-sans:lang(ale) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ale).lf-italic, *:lang(ale) em.lf-italic,
 .lf-sans:lang(ale).lf-italic,
@@ -6176,7 +6176,7 @@
 *:lang(aln),
 .lf-sans:lang(aln) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(aln).lf-italic, *:lang(aln) em.lf-italic,
 .lf-sans:lang(aln).lf-italic,
@@ -6192,7 +6192,7 @@
 *:lang(amo),
 .lf-sans:lang(amo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(amo).lf-italic, *:lang(amo) em.lf-italic,
 .lf-sans:lang(amo).lf-italic,
@@ -6208,7 +6208,7 @@
 *:lang(an),
 .lf-sans:lang(an) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(an).lf-italic, *:lang(an) em.lf-italic,
 .lf-sans:lang(an).lf-italic,
@@ -6224,7 +6224,7 @@
 *:lang(aoz),
 .lf-sans:lang(aoz) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(aoz).lf-italic, *:lang(aoz) em.lf-italic,
 .lf-sans:lang(aoz).lf-italic,
@@ -6240,7 +6240,7 @@
 *:lang(arn),
 .lf-sans:lang(arn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(arn).lf-italic, *:lang(arn) em.lf-italic,
 .lf-sans:lang(arn).lf-italic,
@@ -6256,7 +6256,7 @@
 *:lang(aro),
 .lf-sans:lang(aro) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(aro).lf-italic, *:lang(aro) em.lf-italic,
 .lf-sans:lang(aro).lf-italic,
@@ -6272,7 +6272,7 @@
 *:lang(arp),
 .lf-sans:lang(arp) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(arp).lf-italic, *:lang(arp) em.lf-italic,
 .lf-sans:lang(arp).lf-italic,
@@ -6288,7 +6288,7 @@
 *:lang(arw),
 .lf-sans:lang(arw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(arw).lf-italic, *:lang(arw) em.lf-italic,
 .lf-sans:lang(arw).lf-italic,
@@ -6304,7 +6304,7 @@
 *:lang(asa),
 .lf-sans:lang(asa) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(asa).lf-italic, *:lang(asa) em.lf-italic,
 .lf-sans:lang(asa).lf-italic,
@@ -6320,7 +6320,7 @@
 *:lang(ast),
 .lf-sans:lang(ast) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ast).lf-italic, *:lang(ast) em.lf-italic,
 .lf-sans:lang(ast).lf-italic,
@@ -6336,7 +6336,7 @@
 *:lang(atj),
 .lf-sans:lang(atj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(atj).lf-italic, *:lang(atj) em.lf-italic,
 .lf-sans:lang(atj).lf-italic,
@@ -6352,7 +6352,7 @@
 *:lang(bar),
 .lf-sans:lang(bar) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bar).lf-italic, *:lang(bar) em.lf-italic,
 .lf-sans:lang(bar).lf-italic,
@@ -6368,7 +6368,7 @@
 *:lang(bas),
 .lf-sans:lang(bas) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bas).lf-italic, *:lang(bas) em.lf-italic,
 .lf-sans:lang(bas).lf-italic,
@@ -6384,7 +6384,7 @@
 *:lang(bbj),
 .lf-sans:lang(bbj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bbj).lf-italic, *:lang(bbj) em.lf-italic,
 .lf-sans:lang(bbj).lf-italic,
@@ -6400,7 +6400,7 @@
 *:lang(bci),
 .lf-sans:lang(bci) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bci).lf-italic, *:lang(bci) em.lf-italic,
 .lf-sans:lang(bci).lf-italic,
@@ -6416,7 +6416,7 @@
 *:lang(bem),
 .lf-sans:lang(bem) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bem).lf-italic, *:lang(bem) em.lf-italic,
 .lf-sans:lang(bem).lf-italic,
@@ -6432,7 +6432,7 @@
 *:lang(bew),
 .lf-sans:lang(bew) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bew).lf-italic, *:lang(bew) em.lf-italic,
 .lf-sans:lang(bew).lf-italic,
@@ -6448,7 +6448,7 @@
 *:lang(bez),
 .lf-sans:lang(bez) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bez).lf-italic, *:lang(bez) em.lf-italic,
 .lf-sans:lang(bez).lf-italic,
@@ -6464,7 +6464,7 @@
 *:lang(bfd),
 .lf-sans:lang(bfd) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bfd).lf-italic, *:lang(bfd) em.lf-italic,
 .lf-sans:lang(bfd).lf-italic,
@@ -6480,7 +6480,7 @@
 *:lang(bik),
 .lf-sans:lang(bik) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bik).lf-italic, *:lang(bik) em.lf-italic,
 .lf-sans:lang(bik).lf-italic,
@@ -6496,7 +6496,7 @@
 *:lang(bin),
 .lf-sans:lang(bin) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bin).lf-italic, *:lang(bin) em.lf-italic,
 .lf-sans:lang(bin).lf-italic,
@@ -6512,7 +6512,7 @@
 *:lang(bjn),
 .lf-sans:lang(bjn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bjn).lf-italic, *:lang(bjn) em.lf-italic,
 .lf-sans:lang(bjn).lf-italic,
@@ -6528,7 +6528,7 @@
 *:lang(bkm),
 .lf-sans:lang(bkm) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bkm).lf-italic, *:lang(bkm) em.lf-italic,
 .lf-sans:lang(bkm).lf-italic,
@@ -6544,7 +6544,7 @@
 *:lang(bku),
 .lf-sans:lang(bku) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bku).lf-italic, *:lang(bku) em.lf-italic,
 .lf-sans:lang(bku).lf-italic,
@@ -6560,7 +6560,7 @@
 *:lang(bla),
 .lf-sans:lang(bla) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bla).lf-italic, *:lang(bla) em.lf-italic,
 .lf-sans:lang(bla).lf-italic,
@@ -6576,7 +6576,7 @@
 *:lang(bmq),
 .lf-sans:lang(bmq) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bmq).lf-italic, *:lang(bmq) em.lf-italic,
 .lf-sans:lang(bmq).lf-italic,
@@ -6592,7 +6592,7 @@
 *:lang(bqv),
 .lf-sans:lang(bqv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bqv).lf-italic, *:lang(bqv) em.lf-italic,
 .lf-sans:lang(bqv).lf-italic,
@@ -6608,7 +6608,7 @@
 *:lang(br),
 .lf-sans:lang(br) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(br).lf-italic, *:lang(br) em.lf-italic,
 .lf-sans:lang(br).lf-italic,
@@ -6624,7 +6624,7 @@
 *:lang(bss),
 .lf-sans:lang(bss) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bss).lf-italic, *:lang(bss) em.lf-italic,
 .lf-sans:lang(bss).lf-italic,
@@ -6640,7 +6640,7 @@
 *:lang(bto),
 .lf-sans:lang(bto) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bto).lf-italic, *:lang(bto) em.lf-italic,
 .lf-sans:lang(bto).lf-italic,
@@ -6656,7 +6656,7 @@
 *:lang(buc),
 .lf-sans:lang(buc) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(buc).lf-italic, *:lang(buc) em.lf-italic,
 .lf-sans:lang(buc).lf-italic,
@@ -6672,7 +6672,7 @@
 *:lang(bug),
 .lf-sans:lang(bug) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bug).lf-italic, *:lang(bug) em.lf-italic,
 .lf-sans:lang(bug).lf-italic,
@@ -6688,7 +6688,7 @@
 *:lang(bum),
 .lf-sans:lang(bum) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bum).lf-italic, *:lang(bum) em.lf-italic,
 .lf-sans:lang(bum).lf-italic,
@@ -6704,7 +6704,7 @@
 *:lang(bvb),
 .lf-sans:lang(bvb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bvb).lf-italic, *:lang(bvb) em.lf-italic,
 .lf-sans:lang(bvb).lf-italic,
@@ -6720,7 +6720,7 @@
 *:lang(byv),
 .lf-sans:lang(byv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(byv).lf-italic, *:lang(byv) em.lf-italic,
 .lf-sans:lang(byv).lf-italic,
@@ -6736,7 +6736,7 @@
 *:lang(bze),
 .lf-sans:lang(bze) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bze).lf-italic, *:lang(bze) em.lf-italic,
 .lf-sans:lang(bze).lf-italic,
@@ -6752,7 +6752,7 @@
 *:lang(bzx),
 .lf-sans:lang(bzx) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bzx).lf-italic, *:lang(bzx) em.lf-italic,
 .lf-sans:lang(bzx).lf-italic,
@@ -6768,7 +6768,7 @@
 *:lang(cad),
 .lf-sans:lang(cad) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cad).lf-italic, *:lang(cad) em.lf-italic,
 .lf-sans:lang(cad).lf-italic,
@@ -6784,7 +6784,7 @@
 *:lang(car),
 .lf-sans:lang(car) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(car).lf-italic, *:lang(car) em.lf-italic,
 .lf-sans:lang(car).lf-italic,
@@ -6800,7 +6800,7 @@
 *:lang(cay),
 .lf-sans:lang(cay) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cay).lf-italic, *:lang(cay) em.lf-italic,
 .lf-sans:lang(cay).lf-italic,
@@ -6816,7 +6816,7 @@
 *:lang(cch),
 .lf-sans:lang(cch) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cch).lf-italic, *:lang(cch) em.lf-italic,
 .lf-sans:lang(cch).lf-italic,
@@ -6832,7 +6832,7 @@
 *:lang(ceb),
 .lf-sans:lang(ceb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ceb).lf-italic, *:lang(ceb) em.lf-italic,
 .lf-sans:lang(ceb).lf-italic,
@@ -6848,7 +6848,7 @@
 *:lang(cgg),
 .lf-sans:lang(cgg) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cgg).lf-italic, *:lang(cgg) em.lf-italic,
 .lf-sans:lang(cgg).lf-italic,
@@ -6864,7 +6864,7 @@
 *:lang(chk),
 .lf-sans:lang(chk) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(chk).lf-italic, *:lang(chk) em.lf-italic,
 .lf-sans:lang(chk).lf-italic,
@@ -6880,7 +6880,7 @@
 *:lang(chn),
 .lf-sans:lang(chn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(chn).lf-italic, *:lang(chn) em.lf-italic,
 .lf-sans:lang(chn).lf-italic,
@@ -6896,7 +6896,7 @@
 *:lang(cho),
 .lf-sans:lang(cho) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cho).lf-italic, *:lang(cho) em.lf-italic,
 .lf-sans:lang(cho).lf-italic,
@@ -6912,7 +6912,7 @@
 *:lang(chy),
 .lf-sans:lang(chy) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(chy).lf-italic, *:lang(chy) em.lf-italic,
 .lf-sans:lang(chy).lf-italic,
@@ -6928,7 +6928,7 @@
 *:lang(cic),
 .lf-sans:lang(cic) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cic).lf-italic, *:lang(cic) em.lf-italic,
 .lf-sans:lang(cic).lf-italic,
@@ -6944,7 +6944,7 @@
 *:lang(co),
 .lf-sans:lang(co) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(co).lf-italic, *:lang(co) em.lf-italic,
 .lf-sans:lang(co).lf-italic,
@@ -6960,7 +6960,7 @@
 *:lang(cps),
 .lf-sans:lang(cps) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cps).lf-italic, *:lang(cps) em.lf-italic,
 .lf-sans:lang(cps).lf-italic,
@@ -6976,7 +6976,7 @@
 *:lang(crj),
 .lf-sans:lang(crj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(crj).lf-italic, *:lang(crj) em.lf-italic,
 .lf-sans:lang(crj).lf-italic,
@@ -6992,7 +6992,7 @@
 *:lang(crl),
 .lf-sans:lang(crl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(crl).lf-italic, *:lang(crl) em.lf-italic,
 .lf-sans:lang(crl).lf-italic,
@@ -7008,7 +7008,7 @@
 *:lang(crs),
 .lf-sans:lang(crs) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(crs).lf-italic, *:lang(crs) em.lf-italic,
 .lf-sans:lang(crs).lf-italic,
@@ -7024,7 +7024,7 @@
 *:lang(csb),
 .lf-sans:lang(csb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(csb).lf-italic, *:lang(csb) em.lf-italic,
 .lf-sans:lang(csb).lf-italic,
@@ -7040,7 +7040,7 @@
 *:lang(ctd),
 .lf-sans:lang(ctd) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ctd).lf-italic, *:lang(ctd) em.lf-italic,
 .lf-sans:lang(ctd).lf-italic,
@@ -7056,7 +7056,7 @@
 *:lang(cy),
 .lf-sans:lang(cy) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(cy).lf-italic, *:lang(cy) em.lf-italic,
 .lf-sans:lang(cy).lf-italic,
@@ -7072,7 +7072,7 @@
 *:lang(dak),
 .lf-sans:lang(dak) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dak).lf-italic, *:lang(dak) em.lf-italic,
 .lf-sans:lang(dak).lf-italic,
@@ -7088,7 +7088,7 @@
 *:lang(dav),
 .lf-sans:lang(dav) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dav).lf-italic, *:lang(dav) em.lf-italic,
 .lf-sans:lang(dav).lf-italic,
@@ -7104,7 +7104,7 @@
 *:lang(del),
 .lf-sans:lang(del) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(del).lf-italic, *:lang(del) em.lf-italic,
 .lf-sans:lang(del).lf-italic,
@@ -7120,7 +7120,7 @@
 *:lang(dgr),
 .lf-sans:lang(dgr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dgr).lf-italic, *:lang(dgr) em.lf-italic,
 .lf-sans:lang(dgr).lf-italic,
@@ -7136,7 +7136,7 @@
 *:lang(din),
 .lf-sans:lang(din) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(din).lf-italic, *:lang(din) em.lf-italic,
 .lf-sans:lang(din).lf-italic,
@@ -7152,7 +7152,7 @@
 *:lang(dje),
 .lf-sans:lang(dje) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dje).lf-italic, *:lang(dje) em.lf-italic,
 .lf-sans:lang(dje).lf-italic,
@@ -7168,7 +7168,7 @@
 *:lang(dnj),
 .lf-sans:lang(dnj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dnj).lf-italic, *:lang(dnj) em.lf-italic,
 .lf-sans:lang(dnj).lf-italic,
@@ -7184,7 +7184,7 @@
 *:lang(dsb),
 .lf-sans:lang(dsb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dsb).lf-italic, *:lang(dsb) em.lf-italic,
 .lf-sans:lang(dsb).lf-italic,
@@ -7200,7 +7200,7 @@
 *:lang(dtm),
 .lf-sans:lang(dtm) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dtm).lf-italic, *:lang(dtm) em.lf-italic,
 .lf-sans:lang(dtm).lf-italic,
@@ -7216,7 +7216,7 @@
 *:lang(dtp),
 .lf-sans:lang(dtp) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dtp).lf-italic, *:lang(dtp) em.lf-italic,
 .lf-sans:lang(dtp).lf-italic,
@@ -7232,7 +7232,7 @@
 *:lang(dua),
 .lf-sans:lang(dua) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dua).lf-italic, *:lang(dua) em.lf-italic,
 .lf-sans:lang(dua).lf-italic,
@@ -7248,7 +7248,7 @@
 *:lang(dyu),
 .lf-sans:lang(dyu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dyu).lf-italic, *:lang(dyu) em.lf-italic,
 .lf-sans:lang(dyu).lf-italic,
@@ -7264,7 +7264,7 @@
 *:lang(ebu),
 .lf-sans:lang(ebu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ebu).lf-italic, *:lang(ebu) em.lf-italic,
 .lf-sans:lang(ebu).lf-italic,
@@ -7280,7 +7280,7 @@
 *:lang(ee),
 .lf-sans:lang(ee) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ee).lf-italic, *:lang(ee) em.lf-italic,
 .lf-sans:lang(ee).lf-italic,
@@ -7296,7 +7296,7 @@
 *:lang(efi),
 .lf-sans:lang(efi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(efi).lf-italic, *:lang(efi) em.lf-italic,
 .lf-sans:lang(efi).lf-italic,
@@ -7312,7 +7312,7 @@
 *:lang(egl),
 .lf-sans:lang(egl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(egl).lf-italic, *:lang(egl) em.lf-italic,
 .lf-sans:lang(egl).lf-italic,
@@ -7328,7 +7328,7 @@
 *:lang(eka),
 .lf-sans:lang(eka) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(eka).lf-italic, *:lang(eka) em.lf-italic,
 .lf-sans:lang(eka).lf-italic,
@@ -7344,7 +7344,7 @@
 *:lang(esu),
 .lf-sans:lang(esu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(esu).lf-italic, *:lang(esu) em.lf-italic,
 .lf-sans:lang(esu).lf-italic,
@@ -7360,7 +7360,7 @@
 *:lang(eu),
 .lf-sans:lang(eu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(eu).lf-italic, *:lang(eu) em.lf-italic,
 .lf-sans:lang(eu).lf-italic,
@@ -7376,7 +7376,7 @@
 *:lang(ewo),
 .lf-sans:lang(ewo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ewo).lf-italic, *:lang(ewo) em.lf-italic,
 .lf-sans:lang(ewo).lf-italic,
@@ -7392,7 +7392,7 @@
 *:lang(ext),
 .lf-sans:lang(ext) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ext).lf-italic, *:lang(ext) em.lf-italic,
 .lf-sans:lang(ext).lf-italic,
@@ -7408,7 +7408,7 @@
 *:lang(fan),
 .lf-sans:lang(fan) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fan).lf-italic, *:lang(fan) em.lf-italic,
 .lf-sans:lang(fan).lf-italic,
@@ -7424,7 +7424,7 @@
 *:lang(ffm),
 .lf-sans:lang(ffm) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ffm).lf-italic, *:lang(ffm) em.lf-italic,
 .lf-sans:lang(ffm).lf-italic,
@@ -7440,7 +7440,7 @@
 *:lang(fit),
 .lf-sans:lang(fit) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fit).lf-italic, *:lang(fit) em.lf-italic,
 .lf-sans:lang(fit).lf-italic,
@@ -7456,7 +7456,7 @@
 *:lang(fon),
 .lf-sans:lang(fon) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fon).lf-italic, *:lang(fon) em.lf-italic,
 .lf-sans:lang(fon).lf-italic,
@@ -7472,7 +7472,7 @@
 *:lang(frc),
 .lf-sans:lang(frc) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(frc).lf-italic, *:lang(frc) em.lf-italic,
 .lf-sans:lang(frc).lf-italic,
@@ -7488,7 +7488,7 @@
 *:lang(frp),
 .lf-sans:lang(frp) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(frp).lf-italic, *:lang(frp) em.lf-italic,
 .lf-sans:lang(frp).lf-italic,
@@ -7504,7 +7504,7 @@
 *:lang(frr),
 .lf-sans:lang(frr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(frr).lf-italic, *:lang(frr) em.lf-italic,
 .lf-sans:lang(frr).lf-italic,
@@ -7520,7 +7520,7 @@
 *:lang(frs),
 .lf-sans:lang(frs) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(frs).lf-italic, *:lang(frs) em.lf-italic,
 .lf-sans:lang(frs).lf-italic,
@@ -7536,7 +7536,7 @@
 *:lang(fud),
 .lf-sans:lang(fud) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fud).lf-italic, *:lang(fud) em.lf-italic,
 .lf-sans:lang(fud).lf-italic,
@@ -7552,7 +7552,7 @@
 *:lang(fuq),
 .lf-sans:lang(fuq) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fuq).lf-italic, *:lang(fuq) em.lf-italic,
 .lf-sans:lang(fuq).lf-italic,
@@ -7568,7 +7568,7 @@
 *:lang(fur),
 .lf-sans:lang(fur) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fur).lf-italic, *:lang(fur) em.lf-italic,
 .lf-sans:lang(fur).lf-italic,
@@ -7584,7 +7584,7 @@
 *:lang(fuv),
 .lf-sans:lang(fuv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fuv).lf-italic, *:lang(fuv) em.lf-italic,
 .lf-sans:lang(fuv).lf-italic,
@@ -7600,7 +7600,7 @@
 *:lang(fvr),
 .lf-sans:lang(fvr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fvr).lf-italic, *:lang(fvr) em.lf-italic,
 .lf-sans:lang(fvr).lf-italic,
@@ -7616,7 +7616,7 @@
 *:lang(fy),
 .lf-sans:lang(fy) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(fy).lf-italic, *:lang(fy) em.lf-italic,
 .lf-sans:lang(fy).lf-italic,
@@ -7632,7 +7632,7 @@
 *:lang(gaa),
 .lf-sans:lang(gaa) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gaa).lf-italic, *:lang(gaa) em.lf-italic,
 .lf-sans:lang(gaa).lf-italic,
@@ -7648,7 +7648,7 @@
 *:lang(gay),
 .lf-sans:lang(gay) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gay).lf-italic, *:lang(gay) em.lf-italic,
 .lf-sans:lang(gay).lf-italic,
@@ -7664,7 +7664,7 @@
 *:lang(gba),
 .lf-sans:lang(gba) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gba).lf-italic, *:lang(gba) em.lf-italic,
 .lf-sans:lang(gba).lf-italic,
@@ -7680,7 +7680,7 @@
 *:lang(gcr),
 .lf-sans:lang(gcr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gcr).lf-italic, *:lang(gcr) em.lf-italic,
 .lf-sans:lang(gcr).lf-italic,
@@ -7696,7 +7696,7 @@
 *:lang(gd),
 .lf-sans:lang(gd) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gd).lf-italic, *:lang(gd) em.lf-italic,
 .lf-sans:lang(gd).lf-italic,
@@ -7712,7 +7712,7 @@
 *:lang(gl),
 .lf-sans:lang(gl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gl).lf-italic, *:lang(gl) em.lf-italic,
 .lf-sans:lang(gl).lf-italic,
@@ -7728,7 +7728,7 @@
 *:lang(gor),
 .lf-sans:lang(gor) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gor).lf-italic, *:lang(gor) em.lf-italic,
 .lf-sans:lang(gor).lf-italic,
@@ -7744,7 +7744,7 @@
 *:lang(gos),
 .lf-sans:lang(gos) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gos).lf-italic, *:lang(gos) em.lf-italic,
 .lf-sans:lang(gos).lf-italic,
@@ -7760,7 +7760,7 @@
 *:lang(grb),
 .lf-sans:lang(grb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(grb).lf-italic, *:lang(grb) em.lf-italic,
 .lf-sans:lang(grb).lf-italic,
@@ -7776,7 +7776,7 @@
 *:lang(gub),
 .lf-sans:lang(gub) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gub).lf-italic, *:lang(gub) em.lf-italic,
 .lf-sans:lang(gub).lf-italic,
@@ -7792,7 +7792,7 @@
 *:lang(guc),
 .lf-sans:lang(guc) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(guc).lf-italic, *:lang(guc) em.lf-italic,
 .lf-sans:lang(guc).lf-italic,
@@ -7808,7 +7808,7 @@
 *:lang(gur),
 .lf-sans:lang(gur) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gur).lf-italic, *:lang(gur) em.lf-italic,
 .lf-sans:lang(gur).lf-italic,
@@ -7824,7 +7824,7 @@
 *:lang(guz),
 .lf-sans:lang(guz) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(guz).lf-italic, *:lang(guz) em.lf-italic,
 .lf-sans:lang(guz).lf-italic,
@@ -7840,7 +7840,7 @@
 *:lang(gwi),
 .lf-sans:lang(gwi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gwi).lf-italic, *:lang(gwi) em.lf-italic,
 .lf-sans:lang(gwi).lf-italic,
@@ -7856,7 +7856,7 @@
 *:lang(hai),
 .lf-sans:lang(hai) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hai).lf-italic, *:lang(hai) em.lf-italic,
 .lf-sans:lang(hai).lf-italic,
@@ -7872,7 +7872,7 @@
 *:lang(haw),
 .lf-sans:lang(haw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(haw).lf-italic, *:lang(haw) em.lf-italic,
 .lf-sans:lang(haw).lf-italic,
@@ -7888,7 +7888,7 @@
 *:lang(hil),
 .lf-sans:lang(hil) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hil).lf-italic, *:lang(hil) em.lf-italic,
 .lf-sans:lang(hil).lf-italic,
@@ -7904,7 +7904,7 @@
 *:lang(hmn),
 .lf-sans:lang(hmn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hmn).lf-italic, *:lang(hmn) em.lf-italic,
 .lf-sans:lang(hmn).lf-italic,
@@ -7920,7 +7920,7 @@
 *:lang(hnn),
 .lf-sans:lang(hnn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hnn).lf-italic, *:lang(hnn) em.lf-italic,
 .lf-sans:lang(hnn).lf-italic,
@@ -7936,7 +7936,7 @@
 *:lang(hop),
 .lf-sans:lang(hop) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hop).lf-italic, *:lang(hop) em.lf-italic,
 .lf-sans:lang(hop).lf-italic,
@@ -7952,7 +7952,7 @@
 *:lang(hsb),
 .lf-sans:lang(hsb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hsb).lf-italic, *:lang(hsb) em.lf-italic,
 .lf-sans:lang(hsb).lf-italic,
@@ -7968,7 +7968,7 @@
 *:lang(hup),
 .lf-sans:lang(hup) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hup).lf-italic, *:lang(hup) em.lf-italic,
 .lf-sans:lang(hup).lf-italic,
@@ -7984,7 +7984,7 @@
 *:lang(hz),
 .lf-sans:lang(hz) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hz).lf-italic, *:lang(hz) em.lf-italic,
 .lf-sans:lang(hz).lf-italic,
@@ -8000,7 +8000,7 @@
 *:lang(iba),
 .lf-sans:lang(iba) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(iba).lf-italic, *:lang(iba) em.lf-italic,
 .lf-sans:lang(iba).lf-italic,
@@ -8016,7 +8016,7 @@
 *:lang(ibb),
 .lf-sans:lang(ibb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ibb).lf-italic, *:lang(ibb) em.lf-italic,
 .lf-sans:lang(ibb).lf-italic,
@@ -8032,7 +8032,7 @@
 *:lang(ife),
 .lf-sans:lang(ife) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ife).lf-italic, *:lang(ife) em.lf-italic,
 .lf-sans:lang(ife).lf-italic,
@@ -8048,7 +8048,7 @@
 *:lang(ig),
 .lf-sans:lang(ig) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ig).lf-italic, *:lang(ig) em.lf-italic,
 .lf-sans:lang(ig).lf-italic,
@@ -8064,7 +8064,7 @@
 *:lang(ik),
 .lf-sans:lang(ik) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ik).lf-italic, *:lang(ik) em.lf-italic,
 .lf-sans:lang(ik).lf-italic,
@@ -8080,7 +8080,7 @@
 *:lang(ikt),
 .lf-sans:lang(ikt) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ikt).lf-italic, *:lang(ikt) em.lf-italic,
 .lf-sans:lang(ikt).lf-italic,
@@ -8096,7 +8096,7 @@
 *:lang(ilo),
 .lf-sans:lang(ilo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ilo).lf-italic, *:lang(ilo) em.lf-italic,
 .lf-sans:lang(ilo).lf-italic,
@@ -8112,7 +8112,7 @@
 *:lang(izh),
 .lf-sans:lang(izh) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(izh).lf-italic, *:lang(izh) em.lf-italic,
 .lf-sans:lang(izh).lf-italic,
@@ -8128,7 +8128,7 @@
 *:lang(jam),
 .lf-sans:lang(jam) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(jam).lf-italic, *:lang(jam) em.lf-italic,
 .lf-sans:lang(jam).lf-italic,
@@ -8144,7 +8144,7 @@
 *:lang(jgo),
 .lf-sans:lang(jgo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(jgo).lf-italic, *:lang(jgo) em.lf-italic,
 .lf-sans:lang(jgo).lf-italic,
@@ -8160,7 +8160,7 @@
 *:lang(jmc),
 .lf-sans:lang(jmc) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(jmc).lf-italic, *:lang(jmc) em.lf-italic,
 .lf-sans:lang(jmc).lf-italic,
@@ -8176,7 +8176,7 @@
 *:lang(kab),
 .lf-sans:lang(kab) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kab).lf-italic, *:lang(kab) em.lf-italic,
 .lf-sans:lang(kab).lf-italic,
@@ -8192,7 +8192,7 @@
 *:lang(kac),
 .lf-sans:lang(kac) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kac).lf-italic, *:lang(kac) em.lf-italic,
 .lf-sans:lang(kac).lf-italic,
@@ -8208,7 +8208,7 @@
 *:lang(kaj),
 .lf-sans:lang(kaj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kaj).lf-italic, *:lang(kaj) em.lf-italic,
 .lf-sans:lang(kaj).lf-italic,
@@ -8224,7 +8224,7 @@
 *:lang(kam),
 .lf-sans:lang(kam) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kam).lf-italic, *:lang(kam) em.lf-italic,
 .lf-sans:lang(kam).lf-italic,
@@ -8240,7 +8240,7 @@
 *:lang(kao),
 .lf-sans:lang(kao) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kao).lf-italic, *:lang(kao) em.lf-italic,
 .lf-sans:lang(kao).lf-italic,
@@ -8256,7 +8256,7 @@
 *:lang(kcg),
 .lf-sans:lang(kcg) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kcg).lf-italic, *:lang(kcg) em.lf-italic,
 .lf-sans:lang(kcg).lf-italic,
@@ -8272,7 +8272,7 @@
 *:lang(kck),
 .lf-sans:lang(kck) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kck).lf-italic, *:lang(kck) em.lf-italic,
 .lf-sans:lang(kck).lf-italic,
@@ -8288,7 +8288,7 @@
 *:lang(kde),
 .lf-sans:lang(kde) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kde).lf-italic, *:lang(kde) em.lf-italic,
 .lf-sans:lang(kde).lf-italic,
@@ -8304,7 +8304,7 @@
 *:lang(kea),
 .lf-sans:lang(kea) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kea).lf-italic, *:lang(kea) em.lf-italic,
 .lf-sans:lang(kea).lf-italic,
@@ -8320,7 +8320,7 @@
 *:lang(kfo),
 .lf-sans:lang(kfo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kfo).lf-italic, *:lang(kfo) em.lf-italic,
 .lf-sans:lang(kfo).lf-italic,
@@ -8336,7 +8336,7 @@
 *:lang(kg),
 .lf-sans:lang(kg) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kg).lf-italic, *:lang(kg) em.lf-italic,
 .lf-sans:lang(kg).lf-italic,
@@ -8352,7 +8352,7 @@
 *:lang(kge),
 .lf-sans:lang(kge) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kge).lf-italic, *:lang(kge) em.lf-italic,
 .lf-sans:lang(kge).lf-italic,
@@ -8368,7 +8368,7 @@
 *:lang(kgp),
 .lf-sans:lang(kgp) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kgp).lf-italic, *:lang(kgp) em.lf-italic,
 .lf-sans:lang(kgp).lf-italic,
@@ -8384,7 +8384,7 @@
 *:lang(khq),
 .lf-sans:lang(khq) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(khq).lf-italic, *:lang(khq) em.lf-italic,
 .lf-sans:lang(khq).lf-italic,
@@ -8400,7 +8400,7 @@
 *:lang(ki),
 .lf-sans:lang(ki) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ki).lf-italic, *:lang(ki) em.lf-italic,
 .lf-sans:lang(ki).lf-italic,
@@ -8416,7 +8416,7 @@
 *:lang(kiu),
 .lf-sans:lang(kiu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kiu).lf-italic, *:lang(kiu) em.lf-italic,
 .lf-sans:lang(kiu).lf-italic,
@@ -8432,7 +8432,7 @@
 *:lang(kj),
 .lf-sans:lang(kj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kj).lf-italic, *:lang(kj) em.lf-italic,
 .lf-sans:lang(kj).lf-italic,
@@ -8448,7 +8448,7 @@
 *:lang(kkj),
 .lf-sans:lang(kkj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kkj).lf-italic, *:lang(kkj) em.lf-italic,
 .lf-sans:lang(kkj).lf-italic,
@@ -8464,7 +8464,7 @@
 *:lang(kln),
 .lf-sans:lang(kln) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kln).lf-italic, *:lang(kln) em.lf-italic,
 .lf-sans:lang(kln).lf-italic,
@@ -8480,7 +8480,7 @@
 *:lang(kmb),
 .lf-sans:lang(kmb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kmb).lf-italic, *:lang(kmb) em.lf-italic,
 .lf-sans:lang(kmb).lf-italic,
@@ -8496,7 +8496,7 @@
 *:lang(kos),
 .lf-sans:lang(kos) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kos).lf-italic, *:lang(kos) em.lf-italic,
 .lf-sans:lang(kos).lf-italic,
@@ -8512,7 +8512,7 @@
 *:lang(kpe),
 .lf-sans:lang(kpe) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kpe).lf-italic, *:lang(kpe) em.lf-italic,
 .lf-sans:lang(kpe).lf-italic,
@@ -8528,7 +8528,7 @@
 *:lang(kr),
 .lf-sans:lang(kr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kr).lf-italic, *:lang(kr) em.lf-italic,
 .lf-sans:lang(kr).lf-italic,
@@ -8544,7 +8544,7 @@
 *:lang(kri),
 .lf-sans:lang(kri) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kri).lf-italic, *:lang(kri) em.lf-italic,
 .lf-sans:lang(kri).lf-italic,
@@ -8560,7 +8560,7 @@
 *:lang(krj),
 .lf-sans:lang(krj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(krj).lf-italic, *:lang(krj) em.lf-italic,
 .lf-sans:lang(krj).lf-italic,
@@ -8576,7 +8576,7 @@
 *:lang(krl),
 .lf-sans:lang(krl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(krl).lf-italic, *:lang(krl) em.lf-italic,
 .lf-sans:lang(krl).lf-italic,
@@ -8592,7 +8592,7 @@
 *:lang(ksb),
 .lf-sans:lang(ksb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ksb).lf-italic, *:lang(ksb) em.lf-italic,
 .lf-sans:lang(ksb).lf-italic,
@@ -8608,7 +8608,7 @@
 *:lang(ksf),
 .lf-sans:lang(ksf) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ksf).lf-italic, *:lang(ksf) em.lf-italic,
 .lf-sans:lang(ksf).lf-italic,
@@ -8624,7 +8624,7 @@
 *:lang(ksh),
 .lf-sans:lang(ksh) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ksh).lf-italic, *:lang(ksh) em.lf-italic,
 .lf-sans:lang(ksh).lf-italic,
@@ -8640,7 +8640,7 @@
 *:lang(kut),
 .lf-sans:lang(kut) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kut).lf-italic, *:lang(kut) em.lf-italic,
 .lf-sans:lang(kut).lf-italic,
@@ -8656,7 +8656,7 @@
 *:lang(kvr),
 .lf-sans:lang(kvr) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kvr).lf-italic, *:lang(kvr) em.lf-italic,
 .lf-sans:lang(kvr).lf-italic,
@@ -8672,7 +8672,7 @@
 *:lang(kw),
 .lf-sans:lang(kw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kw).lf-italic, *:lang(kw) em.lf-italic,
 .lf-sans:lang(kw).lf-italic,
@@ -8688,7 +8688,7 @@
 *:lang(lag),
 .lf-sans:lang(lag) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lag).lf-italic, *:lang(lag) em.lf-italic,
 .lf-sans:lang(lag).lf-italic,
@@ -8704,7 +8704,7 @@
 *:lang(laj),
 .lf-sans:lang(laj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(laj).lf-italic, *:lang(laj) em.lf-italic,
 .lf-sans:lang(laj).lf-italic,
@@ -8720,7 +8720,7 @@
 *:lang(lam),
 .lf-sans:lang(lam) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lam).lf-italic, *:lang(lam) em.lf-italic,
 .lf-sans:lang(lam).lf-italic,
@@ -8736,7 +8736,7 @@
 *:lang(lbw),
 .lf-sans:lang(lbw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lbw).lf-italic, *:lang(lbw) em.lf-italic,
 .lf-sans:lang(lbw).lf-italic,
@@ -8752,7 +8752,7 @@
 *:lang(li),
 .lf-sans:lang(li) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(li).lf-italic, *:lang(li) em.lf-italic,
 .lf-sans:lang(li).lf-italic,
@@ -8768,7 +8768,7 @@
 *:lang(lij),
 .lf-sans:lang(lij) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lij).lf-italic, *:lang(lij) em.lf-italic,
 .lf-sans:lang(lij).lf-italic,
@@ -8784,7 +8784,7 @@
 *:lang(liv),
 .lf-sans:lang(liv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(liv).lf-italic, *:lang(liv) em.lf-italic,
 .lf-sans:lang(liv).lf-italic,
@@ -8800,7 +8800,7 @@
 *:lang(lkt),
 .lf-sans:lang(lkt) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lkt).lf-italic, *:lang(lkt) em.lf-italic,
 .lf-sans:lang(lkt).lf-italic,
@@ -8816,7 +8816,7 @@
 *:lang(lmo),
 .lf-sans:lang(lmo) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(lmo).lf-italic, *:lang(lmo) em.lf-italic,
 .lf-sans:lang(lmo).lf-italic,
@@ -8832,7 +8832,7 @@
 *:lang(mad),
 .lf-sans:lang(mad) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(mad).lf-italic, *:lang(mad) em.lf-italic,
 .lf-sans:lang(mad).lf-italic,
@@ -8848,7 +8848,7 @@
 *:lang(rtm),
 .lf-sans:lang(rtm) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(rtm).lf-italic, *:lang(rtm) em.lf-italic,
 .lf-sans:lang(rtm).lf-italic,
@@ -8864,7 +8864,7 @@
 *:lang(tiv),
 .lf-sans:lang(tiv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tiv).lf-italic, *:lang(tiv) em.lf-italic,
 .lf-sans:lang(tiv).lf-italic,
@@ -8880,7 +8880,7 @@
 *:lang(tmh),
 .lf-sans:lang(tmh) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tmh).lf-italic, *:lang(tmh) em.lf-italic,
 .lf-sans:lang(tmh).lf-italic,
@@ -8896,7 +8896,7 @@
 *:lang(tog),
 .lf-sans:lang(tog) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tog).lf-italic, *:lang(tog) em.lf-italic,
 .lf-sans:lang(tog).lf-italic,
@@ -8912,7 +8912,7 @@
 *:lang(trv),
 .lf-sans:lang(trv) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(trv).lf-italic, *:lang(trv) em.lf-italic,
 .lf-sans:lang(trv).lf-italic,
@@ -8928,7 +8928,7 @@
 *:lang(ts),
 .lf-sans:lang(ts) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ts).lf-italic, *:lang(ts) em.lf-italic,
 .lf-sans:lang(ts).lf-italic,
@@ -8944,7 +8944,7 @@
 *:lang(tsg),
 .lf-sans:lang(tsg) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tsg).lf-italic, *:lang(tsg) em.lf-italic,
 .lf-sans:lang(tsg).lf-italic,
@@ -8960,7 +8960,7 @@
 *:lang(tsi),
 .lf-sans:lang(tsi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tsi).lf-italic, *:lang(tsi) em.lf-italic,
 .lf-sans:lang(tsi).lf-italic,
@@ -8976,7 +8976,7 @@
 *:lang(ttj),
 .lf-sans:lang(ttj) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ttj).lf-italic, *:lang(ttj) em.lf-italic,
 .lf-sans:lang(ttj).lf-italic,
@@ -8992,7 +8992,7 @@
 *:lang(tum),
 .lf-sans:lang(tum) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tum).lf-italic, *:lang(tum) em.lf-italic,
 .lf-sans:lang(tum).lf-italic,
@@ -9008,7 +9008,7 @@
 *:lang(twq),
 .lf-sans:lang(twq) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(twq).lf-italic, *:lang(twq) em.lf-italic,
 .lf-sans:lang(twq).lf-italic,
@@ -9024,7 +9024,7 @@
 *:lang(uli),
 .lf-sans:lang(uli) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(uli).lf-italic, *:lang(uli) em.lf-italic,
 .lf-sans:lang(uli).lf-italic,
@@ -9040,7 +9040,7 @@
 *:lang(umb),
 .lf-sans:lang(umb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(umb).lf-italic, *:lang(umb) em.lf-italic,
 .lf-sans:lang(umb).lf-italic,
@@ -9056,7 +9056,7 @@
 *:lang(ve),
 .lf-sans:lang(ve) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ve).lf-italic, *:lang(ve) em.lf-italic,
 .lf-sans:lang(ve).lf-italic,
@@ -9072,7 +9072,7 @@
 *:lang(vec),
 .lf-sans:lang(vec) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vec).lf-italic, *:lang(vec) em.lf-italic,
 .lf-sans:lang(vec).lf-italic,
@@ -9088,7 +9088,7 @@
 *:lang(vep),
 .lf-sans:lang(vep) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vep).lf-italic, *:lang(vep) em.lf-italic,
 .lf-sans:lang(vep).lf-italic,
@@ -9104,7 +9104,7 @@
 *:lang(vic),
 .lf-sans:lang(vic) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vic).lf-italic, *:lang(vic) em.lf-italic,
 .lf-sans:lang(vic).lf-italic,
@@ -9120,7 +9120,7 @@
 *:lang(vls),
 .lf-sans:lang(vls) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vls).lf-italic, *:lang(vls) em.lf-italic,
 .lf-sans:lang(vls).lf-italic,
@@ -9136,7 +9136,7 @@
 *:lang(vmf),
 .lf-sans:lang(vmf) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vmf).lf-italic, *:lang(vmf) em.lf-italic,
 .lf-sans:lang(vmf).lf-italic,
@@ -9152,7 +9152,7 @@
 *:lang(vmw),
 .lf-sans:lang(vmw) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vmw).lf-italic, *:lang(vmw) em.lf-italic,
 .lf-sans:lang(vmw).lf-italic,
@@ -9168,7 +9168,7 @@
 *:lang(vot),
 .lf-sans:lang(vot) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vot).lf-italic, *:lang(vot) em.lf-italic,
 .lf-sans:lang(vot).lf-italic,
@@ -9184,7 +9184,7 @@
 *:lang(vro),
 .lf-sans:lang(vro) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vro).lf-italic, *:lang(vro) em.lf-italic,
 .lf-sans:lang(vro).lf-italic,
@@ -9200,7 +9200,7 @@
 *:lang(vun),
 .lf-sans:lang(vun) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(vun).lf-italic, *:lang(vun) em.lf-italic,
 .lf-sans:lang(vun).lf-italic,
@@ -9216,7 +9216,7 @@
 *:lang(wa),
 .lf-sans:lang(wa) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(wa).lf-italic, *:lang(wa) em.lf-italic,
 .lf-sans:lang(wa).lf-italic,
@@ -9232,7 +9232,7 @@
 *:lang(wae),
 .lf-sans:lang(wae) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(wae).lf-italic, *:lang(wae) em.lf-italic,
 .lf-sans:lang(wae).lf-italic,
@@ -9248,7 +9248,7 @@
 *:lang(war),
 .lf-sans:lang(war) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(war).lf-italic, *:lang(war) em.lf-italic,
 .lf-sans:lang(war).lf-italic,
@@ -9264,7 +9264,7 @@
 *:lang(was),
 .lf-sans:lang(was) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(was).lf-italic, *:lang(was) em.lf-italic,
 .lf-sans:lang(was).lf-italic,
@@ -9280,7 +9280,7 @@
 *:lang(wbp),
 .lf-sans:lang(wbp) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(wbp).lf-italic, *:lang(wbp) em.lf-italic,
 .lf-sans:lang(wbp).lf-italic,
@@ -9296,7 +9296,7 @@
 *:lang(wls),
 .lf-sans:lang(wls) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(wls).lf-italic, *:lang(wls) em.lf-italic,
 .lf-sans:lang(wls).lf-italic,
@@ -9312,7 +9312,7 @@
 *:lang(xav),
 .lf-sans:lang(xav) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(xav).lf-italic, *:lang(xav) em.lf-italic,
 .lf-sans:lang(xav).lf-italic,
@@ -9328,7 +9328,7 @@
 *:lang(xh),
 .lf-sans:lang(xh) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(xh).lf-italic, *:lang(xh) em.lf-italic,
 .lf-sans:lang(xh).lf-italic,
@@ -9344,7 +9344,7 @@
 *:lang(xog),
 .lf-sans:lang(xog) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(xog).lf-italic, *:lang(xog) em.lf-italic,
 .lf-sans:lang(xog).lf-italic,
@@ -9360,7 +9360,7 @@
 *:lang(yao),
 .lf-sans:lang(yao) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(yao).lf-italic, *:lang(yao) em.lf-italic,
 .lf-sans:lang(yao).lf-italic,
@@ -9376,7 +9376,7 @@
 *:lang(yap),
 .lf-sans:lang(yap) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(yap).lf-italic, *:lang(yap) em.lf-italic,
 .lf-sans:lang(yap).lf-italic,
@@ -9392,7 +9392,7 @@
 *:lang(yav),
 .lf-sans:lang(yav) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(yav).lf-italic, *:lang(yav) em.lf-italic,
 .lf-sans:lang(yav).lf-italic,
@@ -9408,7 +9408,7 @@
 *:lang(ybb),
 .lf-sans:lang(ybb) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ybb).lf-italic, *:lang(ybb) em.lf-italic,
 .lf-sans:lang(ybb).lf-italic,
@@ -9424,7 +9424,7 @@
 *:lang(yrl),
 .lf-sans:lang(yrl) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(yrl).lf-italic, *:lang(yrl) em.lf-italic,
 .lf-sans:lang(yrl).lf-italic,
@@ -9440,7 +9440,7 @@
 *:lang(yua),
 .lf-sans:lang(yua) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(yua).lf-italic, *:lang(yua) em.lf-italic,
 .lf-sans:lang(yua).lf-italic,
@@ -9456,7 +9456,7 @@
 *:lang(zag),
 .lf-sans:lang(zag) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zag).lf-italic, *:lang(zag) em.lf-italic,
 .lf-sans:lang(zag).lf-italic,
@@ -9472,7 +9472,7 @@
 *:lang(zap),
 .lf-sans:lang(zap) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zap).lf-italic, *:lang(zap) em.lf-italic,
 .lf-sans:lang(zap).lf-italic,
@@ -9488,7 +9488,7 @@
 *:lang(zea),
 .lf-sans:lang(zea) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zea).lf-italic, *:lang(zea) em.lf-italic,
 .lf-sans:lang(zea).lf-italic,
@@ -9504,7 +9504,7 @@
 *:lang(zmi),
 .lf-sans:lang(zmi) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zmi).lf-italic, *:lang(zmi) em.lf-italic,
 .lf-sans:lang(zmi).lf-italic,
@@ -9520,7 +9520,7 @@
 *:lang(zu),
 .lf-sans:lang(zu) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zu).lf-italic, *:lang(zu) em.lf-italic,
 .lf-sans:lang(zu).lf-italic,
@@ -9536,7 +9536,7 @@
 *:lang(zun),
 .lf-sans:lang(zun) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zun).lf-italic, *:lang(zun) em.lf-italic,
 .lf-sans:lang(zun).lf-italic,
@@ -9552,7 +9552,7 @@
 *:lang(zza),
 .lf-sans:lang(zza) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(zza).lf-italic, *:lang(zza) em.lf-italic,
 .lf-sans:lang(zza).lf-italic,
@@ -9568,7 +9568,7 @@
 *:lang(ro-Latn),
 .lf-sans:lang(ro-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ro-Latn).lf-italic, *:lang(ro-Latn) em.lf-italic,
 .lf-sans:lang(ro-Latn).lf-italic,
@@ -9584,7 +9584,7 @@
 *:lang(sr-Latn),
 .lf-sans:lang(sr-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sr-Latn).lf-italic, *:lang(sr-Latn) em.lf-italic,
 .lf-sans:lang(sr-Latn).lf-italic,
@@ -9600,7 +9600,7 @@
 *:lang(gag-Latn),
 .lf-sans:lang(gag-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(gag-Latn).lf-italic, *:lang(gag-Latn) em.lf-italic,
 .lf-sans:lang(gag-Latn).lf-italic,
@@ -9616,7 +9616,7 @@
 *:lang(bs-Latn),
 .lf-sans:lang(bs-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bs-Latn).lf-italic, *:lang(bs-Latn) em.lf-italic,
 .lf-sans:lang(bs-Latn).lf-italic,
@@ -9632,7 +9632,7 @@
 *:lang(rom-Latn),
 .lf-sans:lang(rom-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(rom-Latn).lf-italic, *:lang(rom-Latn) em.lf-italic,
 .lf-sans:lang(rom-Latn).lf-italic,
@@ -9648,7 +9648,7 @@
 *:lang(se-Latn),
 .lf-sans:lang(se-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(se-Latn).lf-italic, *:lang(se-Latn) em.lf-italic,
 .lf-sans:lang(se-Latn).lf-italic,
@@ -9664,7 +9664,7 @@
 *:lang(tkr-Latn),
 .lf-sans:lang(tkr-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tkr-Latn).lf-italic, *:lang(tkr-Latn) em.lf-italic,
 .lf-sans:lang(tkr-Latn).lf-italic,
@@ -9680,7 +9680,7 @@
 *:lang(udm-Latn),
 .lf-sans:lang(udm-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(udm-Latn).lf-italic, *:lang(udm-Latn) em.lf-italic,
 .lf-sans:lang(udm-Latn).lf-italic,
@@ -9696,7 +9696,7 @@
 *:lang(hi-Latn),
 .lf-sans:lang(hi-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hi-Latn).lf-italic, *:lang(hi-Latn) em.lf-italic,
 .lf-sans:lang(hi-Latn).lf-italic,
@@ -9712,7 +9712,7 @@
 *:lang(hif-Latn),
 .lf-sans:lang(hif-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(hif-Latn).lf-italic, *:lang(hif-Latn) em.lf-italic,
 .lf-sans:lang(hif-Latn).lf-italic,
@@ -9728,7 +9728,7 @@
 *:lang(ks-Latn),
 .lf-sans:lang(ks-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ks-Latn).lf-italic, *:lang(ks-Latn) em.lf-italic,
 .lf-sans:lang(ks-Latn).lf-italic,
@@ -9744,7 +9744,7 @@
 *:lang(sd-Latn),
 .lf-sans:lang(sd-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sd-Latn).lf-italic, *:lang(sd-Latn) em.lf-italic,
 .lf-sans:lang(sd-Latn).lf-italic,
@@ -9760,7 +9760,7 @@
 *:lang(ar-Latn),
 .lf-sans:lang(ar-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ar-Latn).lf-italic, *:lang(ar-Latn) em.lf-italic,
 .lf-sans:lang(ar-Latn).lf-italic,
@@ -9776,7 +9776,7 @@
 *:lang(bal-Latn),
 .lf-sans:lang(bal-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(bal-Latn).lf-italic, *:lang(bal-Latn) em.lf-italic,
 .lf-sans:lang(bal-Latn).lf-italic,
@@ -9792,7 +9792,7 @@
 *:lang(brh-Latn),
 .lf-sans:lang(brh-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(brh-Latn).lf-italic, *:lang(brh-Latn) em.lf-italic,
 .lf-sans:lang(brh-Latn).lf-italic,
@@ -9808,7 +9808,7 @@
 *:lang(dyo-Latn),
 .lf-sans:lang(dyo-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(dyo-Latn).lf-italic, *:lang(dyo-Latn) em.lf-italic,
 .lf-sans:lang(dyo-Latn).lf-italic,
@@ -9824,7 +9824,7 @@
 *:lang(ha-Latn),
 .lf-sans:lang(ha-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ha-Latn).lf-italic, *:lang(ha-Latn) em.lf-italic,
 .lf-sans:lang(ha-Latn).lf-italic,
@@ -9840,7 +9840,7 @@
 *:lang(id-Latn),
 .lf-sans:lang(id-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(id-Latn).lf-italic, *:lang(id-Latn) em.lf-italic,
 .lf-sans:lang(id-Latn).lf-italic,
@@ -9856,7 +9856,7 @@
 *:lang(ms-Latn),
 .lf-sans:lang(ms-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ms-Latn).lf-italic, *:lang(ms-Latn) em.lf-italic,
 .lf-sans:lang(ms-Latn).lf-italic,
@@ -9872,7 +9872,7 @@
 *:lang(so-Latn),
 .lf-sans:lang(so-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(so-Latn).lf-italic, *:lang(so-Latn) em.lf-italic,
 .lf-sans:lang(so-Latn).lf-italic,
@@ -9888,7 +9888,7 @@
 *:lang(sus-Latn),
 .lf-sans:lang(sus-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(sus-Latn).lf-italic, *:lang(sus-Latn) em.lf-italic,
 .lf-sans:lang(sus-Latn).lf-italic,
@@ -9904,7 +9904,7 @@
 *:lang(swb-Latn),
 .lf-sans:lang(swb-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(swb-Latn).lf-italic, *:lang(swb-Latn) em.lf-italic,
 .lf-sans:lang(swb-Latn).lf-italic,
@@ -9920,7 +9920,7 @@
 *:lang(tr-Latn),
 .lf-sans:lang(tr-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tr-Latn).lf-italic, *:lang(tr-Latn) em.lf-italic,
 .lf-sans:lang(tr-Latn).lf-italic,
@@ -9936,7 +9936,7 @@
 *:lang(tru-Latn),
 .lf-sans:lang(tru-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tru-Latn).lf-italic, *:lang(tru-Latn) em.lf-italic,
 .lf-sans:lang(tru-Latn).lf-italic,
@@ -9952,7 +9952,7 @@
 *:lang(wo-Latn),
 .lf-sans:lang(wo-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(wo-Latn).lf-italic, *:lang(wo-Latn) em.lf-italic,
 .lf-sans:lang(wo-Latn).lf-italic,
@@ -9968,7 +9968,7 @@
 *:lang(aii-Latn),
 .lf-sans:lang(aii-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(aii-Latn).lf-italic, *:lang(aii-Latn) em.lf-italic,
 .lf-sans:lang(aii-Latn).lf-italic,
@@ -9984,7 +9984,7 @@
 *:lang(az-Latn),
 .lf-sans:lang(az-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(az-Latn).lf-italic, *:lang(az-Latn) em.lf-italic,
 .lf-sans:lang(az-Latn).lf-italic,
@@ -10000,7 +10000,7 @@
 *:lang(inh-Latn),
 .lf-sans:lang(inh-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(inh-Latn).lf-italic, *:lang(inh-Latn) em.lf-italic,
 .lf-sans:lang(inh-Latn).lf-italic,
@@ -10016,7 +10016,7 @@
 *:lang(ky-Latn),
 .lf-sans:lang(ky-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ky-Latn).lf-italic, *:lang(ky-Latn) em.lf-italic,
 .lf-sans:lang(ky-Latn).lf-italic,
@@ -10032,7 +10032,7 @@
 *:lang(kk-Latn),
 .lf-sans:lang(kk-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(kk-Latn).lf-italic, *:lang(kk-Latn) em.lf-italic,
 .lf-sans:lang(kk-Latn).lf-italic,
@@ -10048,7 +10048,7 @@
 *:lang(ku-Latn),
 .lf-sans:lang(ku-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ku-Latn).lf-italic, *:lang(ku-Latn) em.lf-italic,
 .lf-sans:lang(ku-Latn).lf-italic,
@@ -10064,7 +10064,7 @@
 *:lang(tg-Latn),
 .lf-sans:lang(tg-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tg-Latn).lf-italic, *:lang(tg-Latn) em.lf-italic,
 .lf-sans:lang(tg-Latn).lf-italic,
@@ -10080,7 +10080,7 @@
 *:lang(tk-Latn),
 .lf-sans:lang(tk-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tk-Latn).lf-italic, *:lang(tk-Latn) em.lf-italic,
 .lf-sans:lang(tk-Latn).lf-italic,
@@ -10096,7 +10096,7 @@
 *:lang(tly-Latn),
 .lf-sans:lang(tly-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(tly-Latn).lf-italic, *:lang(tly-Latn) em.lf-italic,
 .lf-sans:lang(tly-Latn).lf-italic,
@@ -10112,7 +10112,7 @@
 *:lang(ttt-Latn),
 .lf-sans:lang(ttt-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ttt-Latn).lf-italic, *:lang(ttt-Latn) em.lf-italic,
 .lf-sans:lang(ttt-Latn).lf-italic,
@@ -10128,7 +10128,7 @@
 *:lang(ug-Latn),
 .lf-sans:lang(ug-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(ug-Latn).lf-italic, *:lang(ug-Latn) em.lf-italic,
 .lf-sans:lang(ug-Latn).lf-italic,
@@ -10144,7 +10144,7 @@
 *:lang(uz-Latn),
 .lf-sans:lang(uz-Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(uz-Latn).lf-italic, *:lang(uz-Latn) em.lf-italic,
 .lf-sans:lang(uz-Latn).lf-italic,
@@ -10160,7 +10160,7 @@
 *:lang(Latn),
 .lf-sans:lang(Latn) {
   font-family: "Noto Sans Latin", sans-serif;
-  direction: ltr;
+  direction: initial;
 }
 *:lang(Latn).lf-italic, *:lang(Latn) em.lf-italic,
 .lf-sans:lang(Latn).lf-italic,
@@ -10176,2317 +10176,2317 @@
 
 .lf-serif:lang(ay) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ay).lf-italic, .lf-serif:lang(ay) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bi).lf-italic, .lf-serif:lang(bi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ca) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ca).lf-italic, .lf-serif:lang(ca) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ch) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ch).lf-italic, .lf-serif:lang(ch) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cs) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cs).lf-italic, .lf-serif:lang(cs) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(da) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(da).lf-italic, .lf-serif:lang(da) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(de) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(de).lf-italic, .lf-serif:lang(de) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(en) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(en).lf-italic, .lf-serif:lang(en) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(eo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(eo).lf-italic, .lf-serif:lang(eo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(es) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(es).lf-italic, .lf-serif:lang(es) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(et) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(et).lf-italic, .lf-serif:lang(et) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fi).lf-italic, .lf-serif:lang(fi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fil) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fil).lf-italic, .lf-serif:lang(fil) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fj).lf-italic, .lf-serif:lang(fj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fo).lf-italic, .lf-serif:lang(fo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fr).lf-italic, .lf-serif:lang(fr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ga) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ga).lf-italic, .lf-serif:lang(ga) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gil) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gil).lf-italic, .lf-serif:lang(gil) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gn).lf-italic, .lf-serif:lang(gn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gsw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gsw).lf-italic, .lf-serif:lang(gsw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gv).lf-italic, .lf-serif:lang(gv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ho) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ho).lf-italic, .lf-serif:lang(ho) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hr).lf-italic, .lf-serif:lang(hr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ht) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ht).lf-italic, .lf-serif:lang(ht) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hu).lf-italic, .lf-serif:lang(hu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(in) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(in).lf-italic, .lf-serif:lang(in) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(is) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(is).lf-italic, .lf-serif:lang(is) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(it) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(it).lf-italic, .lf-serif:lang(it) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kl).lf-italic, .lf-serif:lang(kl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lb).lf-italic, .lf-serif:lang(lb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lt) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lt).lf-italic, .lf-serif:lang(lt) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lv).lf-italic, .lf-serif:lang(lv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(mg) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(mg).lf-italic, .lf-serif:lang(mg) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(mh) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(mh).lf-italic, .lf-serif:lang(mh) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(mi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(mi).lf-italic, .lf-serif:lang(mi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(mt) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(mt).lf-italic, .lf-serif:lang(mt) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(na) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(na).lf-italic, .lf-serif:lang(na) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(nb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(nb).lf-italic, .lf-serif:lang(nb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(nd) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(nd).lf-italic, .lf-serif:lang(nd) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(niu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(niu).lf-italic, .lf-serif:lang(niu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(nl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(nl).lf-italic, .lf-serif:lang(nl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(nn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(nn).lf-italic, .lf-serif:lang(nn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(no) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(no).lf-italic, .lf-serif:lang(no) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ny) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ny).lf-italic, .lf-serif:lang(ny) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(pap) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(pap).lf-italic, .lf-serif:lang(pap) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(pau) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(pau).lf-italic, .lf-serif:lang(pau) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(pl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(pl).lf-italic, .lf-serif:lang(pl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(pt) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(pt).lf-italic, .lf-serif:lang(pt) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(qu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(qu).lf-italic, .lf-serif:lang(qu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(rn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(rn).lf-italic, .lf-serif:lang(rn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(rw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(rw).lf-italic, .lf-serif:lang(rw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sg) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sg).lf-italic, .lf-serif:lang(sg) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sk) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sk).lf-italic, .lf-serif:lang(sk) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sl).lf-italic, .lf-serif:lang(sl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sm) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sm).lf-italic, .lf-serif:lang(sm) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sn).lf-italic, .lf-serif:lang(sn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sq) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sq).lf-italic, .lf-serif:lang(sq) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ss) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ss).lf-italic, .lf-serif:lang(ss) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(st) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(st).lf-italic, .lf-serif:lang(st) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sv).lf-italic, .lf-serif:lang(sv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sw).lf-italic, .lf-serif:lang(sw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tet) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tet).lf-italic, .lf-serif:lang(tet) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tkl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tkl).lf-italic, .lf-serif:lang(tkl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tl).lf-italic, .lf-serif:lang(tl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tn).lf-italic, .lf-serif:lang(tn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(to) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(to).lf-italic, .lf-serif:lang(to) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tpi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tpi).lf-italic, .lf-serif:lang(tpi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tr).lf-italic, .lf-serif:lang(tr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tvl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tvl).lf-italic, .lf-serif:lang(tvl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ty) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ty).lf-italic, .lf-serif:lang(ty) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(yo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(yo).lf-italic, .lf-serif:lang(yo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(aa) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(aa).lf-italic, .lf-serif:lang(aa) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(abr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(abr).lf-italic, .lf-serif:lang(abr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ace) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ace).lf-italic, .lf-serif:lang(ace) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ach) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ach).lf-italic, .lf-serif:lang(ach) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ada) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ada).lf-italic, .lf-serif:lang(ada) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(af) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(af).lf-italic, .lf-serif:lang(af) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(agq) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(agq).lf-italic, .lf-serif:lang(agq) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ak) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ak).lf-italic, .lf-serif:lang(ak) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(akz) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(akz).lf-italic, .lf-serif:lang(akz) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ale) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ale).lf-italic, .lf-serif:lang(ale) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(aln) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(aln).lf-italic, .lf-serif:lang(aln) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(amo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(amo).lf-italic, .lf-serif:lang(amo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(an) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(an).lf-italic, .lf-serif:lang(an) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(aoz) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(aoz).lf-italic, .lf-serif:lang(aoz) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(arn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(arn).lf-italic, .lf-serif:lang(arn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(aro) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(aro).lf-italic, .lf-serif:lang(aro) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(arp) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(arp).lf-italic, .lf-serif:lang(arp) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(arw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(arw).lf-italic, .lf-serif:lang(arw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(asa) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(asa).lf-italic, .lf-serif:lang(asa) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ast) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ast).lf-italic, .lf-serif:lang(ast) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(atj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(atj).lf-italic, .lf-serif:lang(atj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bar) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bar).lf-italic, .lf-serif:lang(bar) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bas) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bas).lf-italic, .lf-serif:lang(bas) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bbj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bbj).lf-italic, .lf-serif:lang(bbj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bci) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bci).lf-italic, .lf-serif:lang(bci) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bem) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bem).lf-italic, .lf-serif:lang(bem) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bew) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bew).lf-italic, .lf-serif:lang(bew) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bez) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bez).lf-italic, .lf-serif:lang(bez) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bfd) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bfd).lf-italic, .lf-serif:lang(bfd) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bik) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bik).lf-italic, .lf-serif:lang(bik) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bin) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bin).lf-italic, .lf-serif:lang(bin) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bjn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bjn).lf-italic, .lf-serif:lang(bjn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bkm) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bkm).lf-italic, .lf-serif:lang(bkm) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bku) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bku).lf-italic, .lf-serif:lang(bku) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bla) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bla).lf-italic, .lf-serif:lang(bla) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bmq) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bmq).lf-italic, .lf-serif:lang(bmq) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bqv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bqv).lf-italic, .lf-serif:lang(bqv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(br) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(br).lf-italic, .lf-serif:lang(br) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bss) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bss).lf-italic, .lf-serif:lang(bss) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bto) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bto).lf-italic, .lf-serif:lang(bto) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(buc) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(buc).lf-italic, .lf-serif:lang(buc) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bug) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bug).lf-italic, .lf-serif:lang(bug) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bum) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bum).lf-italic, .lf-serif:lang(bum) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bvb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bvb).lf-italic, .lf-serif:lang(bvb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(byv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(byv).lf-italic, .lf-serif:lang(byv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bze) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bze).lf-italic, .lf-serif:lang(bze) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bzx) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bzx).lf-italic, .lf-serif:lang(bzx) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cad) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cad).lf-italic, .lf-serif:lang(cad) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(car) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(car).lf-italic, .lf-serif:lang(car) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cay) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cay).lf-italic, .lf-serif:lang(cay) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cch) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cch).lf-italic, .lf-serif:lang(cch) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ceb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ceb).lf-italic, .lf-serif:lang(ceb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cgg) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cgg).lf-italic, .lf-serif:lang(cgg) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(chk) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(chk).lf-italic, .lf-serif:lang(chk) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(chn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(chn).lf-italic, .lf-serif:lang(chn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cho) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cho).lf-italic, .lf-serif:lang(cho) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(chy) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(chy).lf-italic, .lf-serif:lang(chy) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cic) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cic).lf-italic, .lf-serif:lang(cic) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(co) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(co).lf-italic, .lf-serif:lang(co) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cps) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cps).lf-italic, .lf-serif:lang(cps) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(crj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(crj).lf-italic, .lf-serif:lang(crj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(crl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(crl).lf-italic, .lf-serif:lang(crl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(crs) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(crs).lf-italic, .lf-serif:lang(crs) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(csb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(csb).lf-italic, .lf-serif:lang(csb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ctd) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ctd).lf-italic, .lf-serif:lang(ctd) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(cy) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(cy).lf-italic, .lf-serif:lang(cy) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dak) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dak).lf-italic, .lf-serif:lang(dak) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dav) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dav).lf-italic, .lf-serif:lang(dav) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(del) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(del).lf-italic, .lf-serif:lang(del) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dgr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dgr).lf-italic, .lf-serif:lang(dgr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(din) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(din).lf-italic, .lf-serif:lang(din) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dje) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dje).lf-italic, .lf-serif:lang(dje) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dnj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dnj).lf-italic, .lf-serif:lang(dnj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dsb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dsb).lf-italic, .lf-serif:lang(dsb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dtm) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dtm).lf-italic, .lf-serif:lang(dtm) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dtp) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dtp).lf-italic, .lf-serif:lang(dtp) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dua) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dua).lf-italic, .lf-serif:lang(dua) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dyu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dyu).lf-italic, .lf-serif:lang(dyu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ebu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ebu).lf-italic, .lf-serif:lang(ebu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ee) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ee).lf-italic, .lf-serif:lang(ee) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(efi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(efi).lf-italic, .lf-serif:lang(efi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(egl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(egl).lf-italic, .lf-serif:lang(egl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(eka) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(eka).lf-italic, .lf-serif:lang(eka) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(esu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(esu).lf-italic, .lf-serif:lang(esu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(eu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(eu).lf-italic, .lf-serif:lang(eu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ewo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ewo).lf-italic, .lf-serif:lang(ewo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ext) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ext).lf-italic, .lf-serif:lang(ext) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fan) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fan).lf-italic, .lf-serif:lang(fan) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ffm) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ffm).lf-italic, .lf-serif:lang(ffm) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fit) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fit).lf-italic, .lf-serif:lang(fit) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fon) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fon).lf-italic, .lf-serif:lang(fon) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(frc) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(frc).lf-italic, .lf-serif:lang(frc) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(frp) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(frp).lf-italic, .lf-serif:lang(frp) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(frr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(frr).lf-italic, .lf-serif:lang(frr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(frs) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(frs).lf-italic, .lf-serif:lang(frs) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fud) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fud).lf-italic, .lf-serif:lang(fud) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fuq) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fuq).lf-italic, .lf-serif:lang(fuq) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fur) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fur).lf-italic, .lf-serif:lang(fur) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fuv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fuv).lf-italic, .lf-serif:lang(fuv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fvr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fvr).lf-italic, .lf-serif:lang(fvr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(fy) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(fy).lf-italic, .lf-serif:lang(fy) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gaa) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gaa).lf-italic, .lf-serif:lang(gaa) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gay) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gay).lf-italic, .lf-serif:lang(gay) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gba) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gba).lf-italic, .lf-serif:lang(gba) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gcr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gcr).lf-italic, .lf-serif:lang(gcr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gd) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gd).lf-italic, .lf-serif:lang(gd) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gl).lf-italic, .lf-serif:lang(gl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gor) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gor).lf-italic, .lf-serif:lang(gor) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gos) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gos).lf-italic, .lf-serif:lang(gos) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(grb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(grb).lf-italic, .lf-serif:lang(grb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gub) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gub).lf-italic, .lf-serif:lang(gub) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(guc) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(guc).lf-italic, .lf-serif:lang(guc) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gur) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gur).lf-italic, .lf-serif:lang(gur) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(guz) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(guz).lf-italic, .lf-serif:lang(guz) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gwi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gwi).lf-italic, .lf-serif:lang(gwi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hai) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hai).lf-italic, .lf-serif:lang(hai) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(haw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(haw).lf-italic, .lf-serif:lang(haw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hil) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hil).lf-italic, .lf-serif:lang(hil) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hmn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hmn).lf-italic, .lf-serif:lang(hmn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hnn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hnn).lf-italic, .lf-serif:lang(hnn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hop) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hop).lf-italic, .lf-serif:lang(hop) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hsb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hsb).lf-italic, .lf-serif:lang(hsb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hup) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hup).lf-italic, .lf-serif:lang(hup) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hz) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hz).lf-italic, .lf-serif:lang(hz) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(iba) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(iba).lf-italic, .lf-serif:lang(iba) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ibb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ibb).lf-italic, .lf-serif:lang(ibb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ife) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ife).lf-italic, .lf-serif:lang(ife) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ig) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ig).lf-italic, .lf-serif:lang(ig) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ik) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ik).lf-italic, .lf-serif:lang(ik) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ikt) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ikt).lf-italic, .lf-serif:lang(ikt) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ilo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ilo).lf-italic, .lf-serif:lang(ilo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(izh) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(izh).lf-italic, .lf-serif:lang(izh) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(jam) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(jam).lf-italic, .lf-serif:lang(jam) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(jgo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(jgo).lf-italic, .lf-serif:lang(jgo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(jmc) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(jmc).lf-italic, .lf-serif:lang(jmc) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kab) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kab).lf-italic, .lf-serif:lang(kab) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kac) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kac).lf-italic, .lf-serif:lang(kac) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kaj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kaj).lf-italic, .lf-serif:lang(kaj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kam) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kam).lf-italic, .lf-serif:lang(kam) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kao) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kao).lf-italic, .lf-serif:lang(kao) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kcg) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kcg).lf-italic, .lf-serif:lang(kcg) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kck) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kck).lf-italic, .lf-serif:lang(kck) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kde) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kde).lf-italic, .lf-serif:lang(kde) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kea) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kea).lf-italic, .lf-serif:lang(kea) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kfo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kfo).lf-italic, .lf-serif:lang(kfo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kg) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kg).lf-italic, .lf-serif:lang(kg) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kge) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kge).lf-italic, .lf-serif:lang(kge) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kgp) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kgp).lf-italic, .lf-serif:lang(kgp) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(khq) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(khq).lf-italic, .lf-serif:lang(khq) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ki) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ki).lf-italic, .lf-serif:lang(ki) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kiu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kiu).lf-italic, .lf-serif:lang(kiu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kj).lf-italic, .lf-serif:lang(kj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kkj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kkj).lf-italic, .lf-serif:lang(kkj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kln) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kln).lf-italic, .lf-serif:lang(kln) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kmb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kmb).lf-italic, .lf-serif:lang(kmb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kos) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kos).lf-italic, .lf-serif:lang(kos) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kpe) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kpe).lf-italic, .lf-serif:lang(kpe) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kr).lf-italic, .lf-serif:lang(kr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kri) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kri).lf-italic, .lf-serif:lang(kri) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(krj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(krj).lf-italic, .lf-serif:lang(krj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(krl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(krl).lf-italic, .lf-serif:lang(krl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ksb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ksb).lf-italic, .lf-serif:lang(ksb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ksf) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ksf).lf-italic, .lf-serif:lang(ksf) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ksh) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ksh).lf-italic, .lf-serif:lang(ksh) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kut) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kut).lf-italic, .lf-serif:lang(kut) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kvr) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kvr).lf-italic, .lf-serif:lang(kvr) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kw).lf-italic, .lf-serif:lang(kw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lag) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lag).lf-italic, .lf-serif:lang(lag) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(laj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(laj).lf-italic, .lf-serif:lang(laj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lam) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lam).lf-italic, .lf-serif:lang(lam) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lbw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lbw).lf-italic, .lf-serif:lang(lbw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(li) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(li).lf-italic, .lf-serif:lang(li) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lij) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lij).lf-italic, .lf-serif:lang(lij) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(liv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(liv).lf-italic, .lf-serif:lang(liv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lkt) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lkt).lf-italic, .lf-serif:lang(lkt) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(lmo) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(lmo).lf-italic, .lf-serif:lang(lmo) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(mad) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(mad).lf-italic, .lf-serif:lang(mad) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(rtm) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(rtm).lf-italic, .lf-serif:lang(rtm) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tiv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tiv).lf-italic, .lf-serif:lang(tiv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tmh) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tmh).lf-italic, .lf-serif:lang(tmh) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tog) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tog).lf-italic, .lf-serif:lang(tog) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(trv) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(trv).lf-italic, .lf-serif:lang(trv) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ts) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ts).lf-italic, .lf-serif:lang(ts) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tsg) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tsg).lf-italic, .lf-serif:lang(tsg) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tsi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tsi).lf-italic, .lf-serif:lang(tsi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ttj) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ttj).lf-italic, .lf-serif:lang(ttj) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tum) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tum).lf-italic, .lf-serif:lang(tum) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(twq) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(twq).lf-italic, .lf-serif:lang(twq) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(uli) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(uli).lf-italic, .lf-serif:lang(uli) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(umb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(umb).lf-italic, .lf-serif:lang(umb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ve) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ve).lf-italic, .lf-serif:lang(ve) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vec) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vec).lf-italic, .lf-serif:lang(vec) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vep) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vep).lf-italic, .lf-serif:lang(vep) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vic) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vic).lf-italic, .lf-serif:lang(vic) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vls) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vls).lf-italic, .lf-serif:lang(vls) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vmf) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vmf).lf-italic, .lf-serif:lang(vmf) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vmw) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vmw).lf-italic, .lf-serif:lang(vmw) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vot) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vot).lf-italic, .lf-serif:lang(vot) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vro) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vro).lf-italic, .lf-serif:lang(vro) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(vun) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(vun).lf-italic, .lf-serif:lang(vun) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(wa) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(wa).lf-italic, .lf-serif:lang(wa) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(wae) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(wae).lf-italic, .lf-serif:lang(wae) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(war) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(war).lf-italic, .lf-serif:lang(war) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(was) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(was).lf-italic, .lf-serif:lang(was) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(wbp) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(wbp).lf-italic, .lf-serif:lang(wbp) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(wls) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(wls).lf-italic, .lf-serif:lang(wls) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(xav) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(xav).lf-italic, .lf-serif:lang(xav) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(xh) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(xh).lf-italic, .lf-serif:lang(xh) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(xog) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(xog).lf-italic, .lf-serif:lang(xog) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(yao) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(yao).lf-italic, .lf-serif:lang(yao) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(yap) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(yap).lf-italic, .lf-serif:lang(yap) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(yav) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(yav).lf-italic, .lf-serif:lang(yav) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ybb) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ybb).lf-italic, .lf-serif:lang(ybb) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(yrl) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(yrl).lf-italic, .lf-serif:lang(yrl) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(yua) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(yua).lf-italic, .lf-serif:lang(yua) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zag) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zag).lf-italic, .lf-serif:lang(zag) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zap) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zap).lf-italic, .lf-serif:lang(zap) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zea) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zea).lf-italic, .lf-serif:lang(zea) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zmi) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zmi).lf-italic, .lf-serif:lang(zmi) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zu) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zu).lf-italic, .lf-serif:lang(zu) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zun) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zun).lf-italic, .lf-serif:lang(zun) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(zza) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(zza).lf-italic, .lf-serif:lang(zza) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ro-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ro-Latn).lf-italic, .lf-serif:lang(ro-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sr-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sr-Latn).lf-italic, .lf-serif:lang(sr-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(gag-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(gag-Latn).lf-italic, .lf-serif:lang(gag-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bs-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bs-Latn).lf-italic, .lf-serif:lang(bs-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(rom-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(rom-Latn).lf-italic, .lf-serif:lang(rom-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(se-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(se-Latn).lf-italic, .lf-serif:lang(se-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tkr-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tkr-Latn).lf-italic, .lf-serif:lang(tkr-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(udm-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(udm-Latn).lf-italic, .lf-serif:lang(udm-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hi-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hi-Latn).lf-italic, .lf-serif:lang(hi-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(hif-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(hif-Latn).lf-italic, .lf-serif:lang(hif-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ks-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ks-Latn).lf-italic, .lf-serif:lang(ks-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sd-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sd-Latn).lf-italic, .lf-serif:lang(sd-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ar-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ar-Latn).lf-italic, .lf-serif:lang(ar-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(bal-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(bal-Latn).lf-italic, .lf-serif:lang(bal-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(brh-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(brh-Latn).lf-italic, .lf-serif:lang(brh-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(dyo-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(dyo-Latn).lf-italic, .lf-serif:lang(dyo-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ha-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ha-Latn).lf-italic, .lf-serif:lang(ha-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(id-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(id-Latn).lf-italic, .lf-serif:lang(id-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ms-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ms-Latn).lf-italic, .lf-serif:lang(ms-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(so-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(so-Latn).lf-italic, .lf-serif:lang(so-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(sus-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(sus-Latn).lf-italic, .lf-serif:lang(sus-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(swb-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(swb-Latn).lf-italic, .lf-serif:lang(swb-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tr-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tr-Latn).lf-italic, .lf-serif:lang(tr-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tru-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tru-Latn).lf-italic, .lf-serif:lang(tru-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(wo-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(wo-Latn).lf-italic, .lf-serif:lang(wo-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(aii-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(aii-Latn).lf-italic, .lf-serif:lang(aii-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(az-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(az-Latn).lf-italic, .lf-serif:lang(az-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(inh-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(inh-Latn).lf-italic, .lf-serif:lang(inh-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ky-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ky-Latn).lf-italic, .lf-serif:lang(ky-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(kk-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(kk-Latn).lf-italic, .lf-serif:lang(kk-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ku-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ku-Latn).lf-italic, .lf-serif:lang(ku-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tg-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tg-Latn).lf-italic, .lf-serif:lang(tg-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tk-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tk-Latn).lf-italic, .lf-serif:lang(tk-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(tly-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(tly-Latn).lf-italic, .lf-serif:lang(tly-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ttt-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ttt-Latn).lf-italic, .lf-serif:lang(ttt-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(ug-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(ug-Latn).lf-italic, .lf-serif:lang(ug-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(uz-Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(uz-Latn).lf-italic, .lf-serif:lang(uz-Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;
 }
 .lf-serif:lang(Latn) {
   font-family: "Noto Serif Latin", serif;
-  direction: ltr;
+  direction: initial;
 }
 .lf-serif:lang(Latn).lf-italic, .lf-serif:lang(Latn) em.lf-italic {
   font-family: "Noto Serif Latin Italic", serif;

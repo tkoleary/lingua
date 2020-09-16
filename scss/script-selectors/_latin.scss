@@ -12,7 +12,7 @@ $serif-italic-stack: 	$latin-serif-italic,serif;
 .lf-sans {
 	@include langrule($langs-Latn...) {
 		font-family: $sans-stack;
-		direction: ltr;
+		direction: initial;
 
 		&.lf-italic,
 		& em.lf-italic {
@@ -31,7 +31,7 @@ $serif-italic-stack: 	$latin-serif-italic,serif;
 .lf-serif {
 	@include langrule($langs-Latn...) {
 		font-family: $serif-stack;
-		direction: ltr;
+		direction: initial;
 
 		&.lf-italic,
 		& em.lf-italic {

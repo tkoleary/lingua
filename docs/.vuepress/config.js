@@ -9,8 +9,9 @@ module.exports = {
 		sidebar: [
 			"/guide/",
 			"/guide/get-started/",
-			"/guide/languages/",
+			"/guide/samples/",
 			"/guide/fonts/variable/",
+			"/guide/languages/",
 			"/guide/fonts/test-pages/"
 		],
 		nav: [
