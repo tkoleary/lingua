@@ -10,9 +10,9 @@ module.exports = {
 			"/guide/",
 			"/guide/get-started/",
 			"/guide/samples/",
+			"/guide/ui-fonts/",
 			"/guide/fonts/variable/",
-			"/guide/languages/",
-			"/guide/fonts/test-pages/"
+			"/guide/languages/"
 		],
 		nav: [
 			{ text: "Home", link: "/" },

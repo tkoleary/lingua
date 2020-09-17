@@ -31,6 +31,27 @@
 	word-wrap: break-word;
 }
 
+.lf-ui-sample {
+	display: inline-flex;
+	font-size: 1em;
+	color: #fff;
+	text-align: center;
+	justify-content: center;
+	background-color: #41a;
+	margin-top: .75rem;
+	padding: 0.5rem 2rem;
+	border-radius: 4px;
+	transition: background-color 0.1s ease;
+	box-sizing: border-box;
+	border-bottom: 1px solid #3d0f99;
+}
+
+@media screen and (max-width: 450px) {
+	.lf-ui-sample {
+		width: 100%;
+	}
+}
+
 .theme-default-content:not(.custom) {
 	max-width: unset !important;
 }
