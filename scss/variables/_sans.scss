@@ -1,60 +1,60 @@
-// Font variables for self-hosted fonts
+// Sans Font variables
 
 // by script, sc=simplified chinese, tc=traditional chinese, kr=korean, jp=japanese
 
 // Static sans
-$adlam-sans:						'Noto Sans Adlam';								// +VF
-$arabic-sans:						'Noto Sans Arabic';								// +VF
-$armenian-sans:					'Noto Sans Armenian';							// +VF
-$bamum-sans:						'Noto Sans Bamum';								// +VF
-$balinese-sans:					'Noto Sans Balinese';							// no VF
-$bengali-sans:					'Noto Sans Bengali';							// +VF
-$brahmi-sans:						'Noto Sans Brahmi';								// +VF
-$buginese-sans:					'Noto Sans Buginese';							// +VF
-$buhid-sans:						'Noto Sans Buhid';								// +VF
-$c-aboriginal-sans:			'Noto Sans Canadian Aboriginal'; 	// +VF
-$cham-sans:							'Noto Sans Cham';									// +VF
-$cherokee-sans:					'Noto Sans Cherokee';							// +VF
-$chinese-s-sans:				'Noto Sans SC'; 									// Simplified Chinese, no VF
-$chinese-hk-sans:				'Noto Sans HK'; 									// Hong Kong Chinese, no VF
-$chinese-t-sans:				'Noto Sans TC'; 									// Traditional Chinese, no VF
-$cyrillic-sans:					'Noto Sans LGC'; 									// +VF - combined latin, greek cyrillic
-$devanagari-sans:				'Noto Sans Devanagari';						// +VF
-$georgian-sans:					'Noto Sans Georgian';							// +VF
-$grantha-sans:					'Noto Sans Grantha';							// +VF
-$greek-sans:						'Noto Sans LGC'; 									// +VF - combined latin, greek, cyrillic
-$gujarati-sans:					'Noto Sans Gujarati';							// +VF
-$gurmukhi-sans:					'Noto Sans Gurmukhi';							// +VF
-$hanifi-rohingya-sans:	'Noto Sans Hanifi Rohingya';			// +VF
-$hanunoo-sans:					'Noto Sans Hanunoo';							// +VF
-$hebrew-sans:						'Noto Sans Hebrew';								// +VF
-$japanese-sans:					'Noto Sans JP';										// Japanese, no VF
-$kannada-sans:					'Noto Sans Kannada';							// +VF
-$kayah-sans:						'Noto Sans Kayah';								// +VF
-$khmer-sans:						'Noto Sans Khmer';								// +VF
-$korean-sans:						'Noto Sans KR';										// Korean, no VF
-$latin-sans:						'Noto Sans Latin'; 								// +VF
-$lao-sans:							'Noto Sans Lao';									// +VF
-$limbu-sans:						'Noto Sans Limbu';								// +VF
-$lisu-sans:							'Noto Sans Lisu';									// +VF
-$malayalam-sans:				'Noto Sans Malayalam';						// +VF
-$mongolian-sans:				'';	// No font available
-$myanmar-sans:					'Noto Sans Myanmar';							// +VF
-$nko-sans:							'Noto Sans NKo';									// no VF
-$oriya-sans:						'Noto Sans Oriya';								// +VF
-$ol-chiki-sans:					'Noto Sans Ol Chiki';							// +VF
-$sinhala-sans:					'Noto Sans Sinhala';							// +VF
-$sora-sompeng-sans:			'Noto Sans Sora Sompeng';					// +VF
-$tagalog-sans:					'Noto Sans Tagalog';							// +VF
-$tai-le-sans:						'Noto Sans Tai Le';								// +VF
-$tai-tham-sans:					'Noto Sans Tai Tham';							// +VF
-$tai-viet-sans:					'Noto Sans Tai Viet';							// +VF
-$takri-sans:						'Noto Sans Takri';								// +VF
-$tamil-sans:						'Noto Sans Tamil';								// +VF
-$tamil-sans-supplement:	'Noto Sans Tamil Supplement';			// +VF
-$telugu-sans:						'Noto Sans Telugu';								// +VF
-$thaana-sans:						'Noto Sans Thaana';								// +VF
-$thai-sans:							'Noto Sans Thai';									// +VF
-$tibetan-sans:					'Noto Sans Tibetan';							// no VF
-$warang-citi-sans:			'Noto Sans Warang Citi';					// +VF
-$zanabazar-square-sans:	'Noto Sans Zanabazar Square';			// +VF
+$adlam-sans:						'Noto Sans Adlam';								// Static + VF
+$arabic-sans:						'Noto Sans Arabic';								// Static + VF
+$armenian-sans:					'Noto Sans Armenian';							// Static + VF
+$bamum-sans:						'Noto Sans Bamum';								// Static + VF
+$balinese-sans:					'Noto Sans Balinese';							// Static
+$bengali-sans:					'Noto Sans Bengali';							// Static + VF
+$brahmi-sans:						'Noto Sans Brahmi';								// Static + VF
+$buginese-sans:					'Noto Sans Buginese';							// Static + VF
+$buhid-sans:						'Noto Sans Buhid';								// Static + VF
+$c-aboriginal-sans:			'Noto Sans Canadian Aboriginal'; 	// Static + VF
+$cham-sans:							'Noto Sans Cham';									// Static + VF
+$cherokee-sans:					'Noto Sans Cherokee';							// Static + VF
+$chinese-s-sans:				'Noto Sans SC'; 									// Static - Simplified Chinese
+$chinese-hk-sans:				'Noto Sans HK'; 									// Static - Hong Kong Chinese
+$chinese-t-sans:				'Noto Sans TC'; 									// Static - Traditional Chinese
+$cyrillic-sans:					'Noto Sans LGC'; 									// Static + VF 	latin, greek cyrillic
+$devanagari-sans:				'Noto Sans Devanagari';						// Static + VF
+$georgian-sans:					'Noto Sans Georgian';							// Static + VF
+$grantha-sans:					'Noto Sans Grantha';							// Static + VF
+$greek-sans:						'Noto Sans LGC'; 									// Static + VF 	latin, greek, cyrillic
+$gujarati-sans:					'Noto Sans Gujarati';							// Static + VF
+$gurmukhi-sans:					'Noto Sans Gurmukhi';							// Static + VF
+$hanifi-rohingya-sans:	'Noto Sans Hanifi Rohingya';			// Static + VF
+$hanunoo-sans:					'Noto Sans Hanunoo';							// Static + VF
+$hebrew-sans:						'Noto Sans Hebrew';								// Static + VF
+$japanese-sans:					'Noto Sans JP';										// Static - Japanese
+$kannada-sans:					'Noto Sans Kannada';							// Static + VF
+$kayah-sans:						'Noto Sans Kayah';								// Static + VF
+$khmer-sans:						'Noto Sans Khmer';								// Static + VF
+$korean-sans:						'Noto Sans KR';										// Static - Korean
+$latin-sans:						'Noto Sans Latin'; 								// Static + VF
+$lao-sans:							'Noto Sans Lao';									// Static + VF
+$limbu-sans:						'Noto Sans Limbu';								// Static + VF
+$lisu-sans:							'Noto Sans Lisu';									// Static + VF
+$malayalam-sans:				'Noto Sans Malayalam';						// Static + VF
+$mongolian-sans:				'';																// None
+$myanmar-sans:					'Noto Sans Myanmar';							// Static + VF
+$nko-sans:							'Noto Sans NKo';									// Static
+$oriya-sans:						'Noto Sans Oriya';								// Static + VF
+$ol-chiki-sans:					'Noto Sans Ol Chiki';							// Static + VF
+$sinhala-sans:					'Noto Sans Sinhala';							// Static + VF
+$sora-sompeng-sans:			'Noto Sans Sora Sompeng';					// Static + VF
+$tagalog-sans:					'Noto Sans Tagalog';							// Static + VF
+$tai-le-sans:						'Noto Sans Tai Le';								// Static + VF
+$tai-tham-sans:					'Noto Sans Tai Tham';							// Static + VF
+$tai-viet-sans:					'Noto Sans Tai Viet';							// Static + VF
+$takri-sans:						'Noto Sans Takri';								// Static + VF
+$tamil-sans:						'Noto Sans Tamil';								// Static + VF
+$tamil-sans-supplement:	'Noto Sans Tamil Supplement';			// Static + VF
+$telugu-sans:						'Noto Sans Telugu';								// Static + VF
+$thaana-sans:						'Noto Sans Thaana';								// Static + VF
+$thai-sans:							'Noto Sans Thai';									// Static + VF
+$tibetan-sans:					'Noto Sans Tibetan';							// Static
+$warang-citi-sans:			'Noto Sans Warang Citi';					// Static + VF
+$zanabazar-square-sans:	'Noto Sans Zanabazar Square';			// Static + VF

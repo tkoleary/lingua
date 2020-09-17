@@ -4,88 +4,36 @@
 // noto-serif-sc-regular - latin_chinese-simplified
 @font-face {
 	font-family: 'Noto Serif SC';
-	src:	url('fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.woff') format('woff'); // Modern Browsers
+	src:	url('#{$font-path}noto-serif-sc-v7-latin_chinese-simplified-regular.woff2') format('woff2'), // Super Modern Browsers
+				url('#{$font-path}noto-serif-sc-v7-latin_chinese-simplified-regular.woff') format('woff'); // Modern Browsers
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
-}
-// noto-serif-sc-bold - latin_chinese-simplified
-@font-face {
-	font-family: 'Noto Serif SC';
-	src:	url('fonts/noto-serif-sc-v7-latin_chinese-simplified-500.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-sc-v7-latin_chinese-simplified-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-sc-v7-latin_chinese-simplified-500.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-sc-v7-latin_chinese-simplified-500.woff') format('woff'); // Modern Browsers
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
+	font-display: $global-font-display;
 }
 // noto-serif-tc-regular - latin_chinese-traditional
 @font-face {
 	font-family: 'Noto Serif TC';
-	src:	url('fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-tc-v7-latin_chinese-traditional-regular.woff') format('woff'); // Modern Browsers
+	src:	url('#{$font-path}noto-serif-tc-v7-latin_chinese-traditional-regular.woff2') format('woff2'), // Super Modern Browsers
+				url('#{$font-path}noto-serif-tc-v7-latin_chinese-traditional-regular.woff') format('woff'); // Modern Browsers
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
-}
-// noto-serif-tc-bold - latin_chinese-traditional
-@font-face {
-	font-family: 'Noto Serif TC';
-	src:	url('fonts/noto-serif-tc-v7-latin_chinese-traditional-500.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-tc-v7-latin_chinese-traditional-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-tc-v7-latin_chinese-traditional-500.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-tc-v7-latin_chinese-traditional-500.woff') format('woff'); // Modern Browsers
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
+	font-display: $global-font-display;
 }
 // noto-serif-jp-regular - latin_japanese
 @font-face {
 	font-family: 'Noto Serif JP';
-	src:	url('fonts/noto-serif-jp-v7-latin_japanese-regular.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-jp-v7-latin_japanese-regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-jp-v7-latin_japanese-regular.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-jp-v7-latin_japanese-regular.woff') format('woff'); // Modern Browsers
+	src:	url('#{$font-path}noto-serif-jp-v7-latin_japanese-regular.woff2') format('woff2'), // Super Modern Browsers
+				url('#{$font-path}noto-serif-jp-v7-latin_japanese-regular.woff') format('woff'); // Modern Browsers
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
-}
-// noto-serif-jp-bold - latin_japanese
-@font-face {
-	font-family: 'Noto Serif JP';
-	src:	url('fonts/noto-serif-jp-v7-latin_japanese-500.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-jp-v7-latin_japanese-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-jp-v7-latin_japanese-500.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-jp-v7-latin_japanese-500.woff') format('woff'); // Modern Browsers
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
-}
-// noto-serif-kr-bold - latin_korean
-@font-face {
-	font-family: 'Noto Serif KR';
-	src:	url('fonts/noto-serif-kr-v6-latin_korean-500.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-kr-v6-latin_korean-500.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-kr-v6-latin_korean-500.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-kr-v6-latin_korean-500.woff') format('woff'); // Modern Browsers
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
+	font-display: $global-font-display;
 }
 // noto-serif-kr-regular - latin_korean
 @font-face {
 	font-family: 'Noto Serif KR';
-	src:	url('fonts/noto-serif-kr-v6-latin_korean-regular.eot') format('embedded-opentype'), // IE9 Compat Modes
-				url('fonts/noto-serif-kr-v6-latin_korean-regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-				url('fonts/noto-serif-kr-v6-latin_korean-regular.woff2') format('woff2'), // Super Modern Browsers
-				url('fonts/noto-serif-kr-v6-latin_korean-regular.woff') format('woff'); // Modern Browsers
+	src:	url('#{$font-path}noto-serif-kr-v6-latin_korean-regular.woff2') format('woff2'), // Super Modern Browsers
+				url('#{$font-path}noto-serif-kr-v6-latin_korean-regular.woff') format('woff'); // Modern Browsers
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
+	font-display: $global-font-display;
 }
