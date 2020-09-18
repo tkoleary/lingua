@@ -12,15 +12,15 @@ lang: en
 		<tr><th>For styles</th><th>Classes</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>Sans-serif </td><td><code>lf-ulight</code></td></tr>
-		<tr><td>Serif </td><td><code>lf-xlight</code></td></tr>
-		<tr><td>weight: 300 </td><td><code>lf-light</code></td></tr>
-		<tr><td>weight: 400 </td><td><code>lf-regular</code></td></tr>
-		<tr><td>weight: 500 </td><td><code>lf-medium</code></td></tr>
-		<tr><td>weight: 600 </td><td><code>lf-sbold</code></td></tr>
-		<tr><td>weight: 700 </td><td><code>lf-bold</code></td></tr>
-		<tr><td>weight: 800 </td><td><code>lf-xbold</code></td></tr>
-		<tr><td>weight: 900 </td><td><code>lf-ubold</code></td></tr>
+		<tr><td>sans-serif </td><td><code>lf-sans</code></td></tr>
+		<tr><td>Serif </td><td><code>lf-serif</code></td></tr>
+		<tr><td>Italic</td><td><code>lf-italic</code></td></tr>
+		<tr><td>Monospace 400 </td><td><code>lf-sans-mono</code></td></tr>
+		<tr><td>Naskh </td><td><code>lf-naskh</code></td></tr>
+		<tr><td>Kufi </td><td><code>lf-sbold</code></td></tr>
+		<tr><td>Rashi </td><td><code>lf-rashi</code></td></tr>
+		<tr><td>Slanted </td><td><code>lf-slanted</code></td></tr>
+		<tr><td>Traditional </td><td><code>lf-traditional</code></td></tr>
 	</tbody>
 </table>
 
