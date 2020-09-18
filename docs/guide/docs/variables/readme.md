@@ -10,14 +10,14 @@ lang: en
 If Noto is not stylistically appropriate for your brand you can replace some or all of the scripts with your preferred fonts in the variables files. For example if you want to replace the Noto Sans fonts for Latin with Source Sans Pro:
 
 ```scss
-// Just replace this...
+// First replace this...
 $latin-sans: 'Noto Sans Latin';   // Static, VF
 
 // With this...
 $latin-sans: 'Source Sans Latin'; // Static, VF
 ````
 
-Add your webfont rules, make sure your static and variable fonts have the same 'font-family' name and that the static fallback is first:
+Next add your webfont rules, make sure your static and variable fonts have the same 'font-family' name and that the static fallback is first:
 
 ```scss
 @font-face {
@@ -39,7 +39,7 @@ Add your webfont rules, make sure your static and variable fonts have the same '
 }
 ````
 
-And put your webfonts in 'fonts':
+Finally, put your webfonts in the 'fonts' folder:
 
 ```
 └─ lingua

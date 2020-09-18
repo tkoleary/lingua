@@ -7,39 +7,56 @@ lang: en
 
 ## Style classes
 
+Primary style classes can be combined with secondary but not with one another, eg.:
+
+<code>lf-serif lf-sans</code> will not do anything.
+
+<code>lf-serif lf-italic</code> will display a serif italic font.
+
 <table>
 	<thead>
-		<tr><th>For styles</th><th>Classes</th></tr>
+		<tr><th>Primary styles</th><th>Classes</th><th>Coverage</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>sans-serif </td><td><code>lf-sans</code></td></tr>
-		<tr><td>Serif </td><td><code>lf-serif</code></td></tr>
-		<tr><td>Italic</td><td><code>lf-italic</code></td></tr>
-		<tr><td>Monospace 400 </td><td><code>lf-sans-mono</code></td></tr>
-		<tr><td>Naskh </td><td><code>lf-naskh</code></td></tr>
-		<tr><td>Kufi </td><td><code>lf-sbold</code></td></tr>
-		<tr><td>Rashi </td><td><code>lf-rashi</code></td></tr>
-		<tr><td>Slanted </td><td><code>lf-slanted</code></td></tr>
-		<tr><td>Traditional </td><td><code>lf-traditional</code></td></tr>
+		<tr><td>Sans-serif </td><td><code>lf-sans </code></td><td>Most scripts </td></tr>
+		<tr><td>Serif </td><td><code>lf-serif </code></td><td>Most scripts </td></tr>
+		<tr><td>Naskh </td><td><code>lf-naskh </code></td><td>Arabic only </td></tr>
+		<tr><td>Kufi </td><td><code>lf-kufi </code></td><td>Arabic only </td></tr>
+		<tr><td>Rashi </td><td><code>lf-rashi </code></td><td>Hebrew only </td></tr>
 	</tbody>
 </table>
+
+<table>
+	<thead>
+		<tr><th>Secondary</th><th>Classes</th><th>Coverage</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>Monospace </td><td><code>lf-mono </code></td><td>Latin only</td></tr>
+		<tr><td>Italic </td><td><code>lf-italic </code></td><td>Latin only</td></tr>
+		<tr><td>Slanted </td><td><code>lf-slanted </code></td><td>Tamil only</td></tr>
+		<tr><td>Traditional </td><td><code>lf-traditional </code></td><td>Nushu only</td></tr>
+	</tbody>
+</table>
+
+Even with a primary and a secondary style not all combinations have a corresponding font.
+
 
 ## Weight classes
 
 <table>
 	<thead>
-		<tr><th>For weights</th><th>Classes</th></tr>
+		<tr><th>Weights</th><th>Classes</th><th>Coverage</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>weight: 100 </td><td><code>lf-ulight</code></td></tr>
-		<tr><td>weight: 200 </td><td><code>lf-xlight</code></td></tr>
-		<tr><td>weight: 300 </td><td><code>lf-light</code></td></tr>
-		<tr><td>weight: 400 </td><td><code>lf-regular</code></td></tr>
-		<tr><td>weight: 500 </td><td><code>lf-medium</code></td></tr>
-		<tr><td>weight: 600 </td><td><code>lf-sbold</code></td></tr>
-		<tr><td>weight: 700 </td><td><code>lf-bold</code></td></tr>
-		<tr><td>weight: 800 </td><td><code>lf-xbold</code></td></tr>
-		<tr><td>weight: 900 </td><td><code>lf-ubold</code></td></tr>
+		<tr><td>weight: 100 </td><td><code>lf-ulight</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>weight: 200 </td><td><code>lf-xlight</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>weight: 300 </td><td><code>lf-light</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>weight: 400 </td><td><code>lf-regular</code></td><td>All</td></tr>
+		<tr><td>weight: 500 </td><td><code>lf-medium</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>weight: 600 </td><td><code>lf-sbold</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>weight: 700 </td><td><code>lf-bold</code></td><td>All</td></tr>
+		<tr><td>weight: 800 </td><td><code>lf-xbold</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>weight: 900 </td><td><code>lf-ubold</code></td><td>Variable Fonts only</td></tr>
 	</tbody>
 </table>
 
@@ -47,26 +64,25 @@ lang: en
 
 <table>
 	<thead>
-		<tr><th>For widths</th><th>Classes</th></tr>
+		<tr><th>Widths</th><th>Classes</th><th>Coverage</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>width: 60 </td><td><code>lf-ucondensed</code></td></tr>
-		<tr><td>width: 70 </td><td><code>lf-xcondensed</code></td></tr>
-		<tr><td>width: 80 </td><td><code>lf-ucondensed</code></td></tr>
-		<tr><td>width: 90 </td><td><code>lf-narrow</code></td></tr>
+		<tr><td>stretch: 60% </td><td><code>lf-ucondensed</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>stretch: 70% </td><td><code>lf-xcondensed</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>stretch: 80% </td><td><code>lf-ucondensed</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>stretch: 90% </td><td><code>lf-narrow</code></td><td>Variable Fonts only</td></tr>
+		<tr><td>stretch: 100% </td><td><code>lf-nostretch</code></td><td>All</td></tr>
 	</tbody>
 </table>
-
 
 ## UI fonts:
 
 <table>
 	<thead>
-		<tr><th>For</th><th>Classes</th></tr>
+		<tr><th>For</th><th>Classes</th><th>Coverage</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>UI font... </td><td><code>lf-sans-ui</code></td></tr>
-		<tr><td>and weight: 100 </td><td><code>lf-sans-ui lf-ulight</code></td></tr>
+		<tr><td>UI font </td><td><code>lf-sans-ui</code></td><td>UI fonts only</td></tr>
 	</tbody>
 </table>
 

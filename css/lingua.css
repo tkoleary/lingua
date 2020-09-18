@@ -12873,67 +12873,67 @@ em:lang(Taml),
 
 strong {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 700;
 }
 
 .lf-ulight {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 100;
 }
 
 .lf-xlight {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 200;
 }
 
 .lf-light {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 300;
 }
 
 .lf-regular {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 400;
 }
 
 .lf-medium {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 500;
 }
 
 .lf-sbold {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 600;
 }
 
 .lf-bold {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 700;
 }
 
 .lf-xbold {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 800;
 }
 
 .lf-ubold {
   font-synthesis: none;
-  font-stretch: 100;
+  font-stretch: 100%;
   font-weight: 900;
 }
 
 .lf-ucondensed-light {
   font-synthesis: none;
-  font-stretch: 60;
+  font-stretch: 60%;
   font-weight: 300;
 }
 
@@ -12941,6 +12941,6 @@ strong {
   font-size: 2rem;
   color: #555;
   font-synthesis: none;
-  font-stretch: 60;
+  font-stretch: 60%;
   font-weight: 300;
 }

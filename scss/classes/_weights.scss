@@ -11,64 +11,63 @@ $xbold:         800;
 $ubold:         900;
 
 // Customize these stretch variables using integers between 60 and 100
-$ucondensed:    60;
-$xcondensed:    70;
-$condensed:     80;
-$narrow:        90;
-$normal:        100;
+$ucondensed:    60%;
+$xcondensed:    70%;
+$condensed:     80%;
+$narrow:        90%;
+$no-stretch:		100%;
 
-// @include stretch-weight(100,100);
-@mixin stretch-weight ($stretch: $normal, $weight: $regular) {
+// @include stretch-weight($narrow, $regular);
+@mixin stretch-weight ($stretch: $narrow, $weight: $regular) {
 	font-synthesis: none;
 	font-stretch: $stretch;
 	font-weight: $weight;
-	// font-variation-settings: 'wdth' $stretch, 'wght' $weight;
 }
 
 strong {
-	@include stretch-weight($normal,$bold);
+	@include stretch-weight($no-stretch,$bold);
 }
 
 // Helper classes for default weights
 // Ultralight, AKA Thin
 .lf-ulight {
-	@include stretch-weight($normal,$ulight);
+	@include stretch-weight($no-stretch,$ulight);
 }
 // Extralight
 .lf-xlight {
-	@include stretch-weight($normal,$xight);
+	@include stretch-weight($no-stretch,$xight);
 }
 // Light, AKA Book
 .lf-light {
-	@include stretch-weight($normal,$light);
+	@include stretch-weight($no-stretch,$light);
 }
 // Regular
 .lf-regular {
-	@include stretch-weight($normal,$regular);
+	@include stretch-weight($no-stretch,$regular);
 }
 // Semibold, AKA DemiBold
 .lf-medium {
-	@include stretch-weight($normal,$medium);
+	@include stretch-weight($no-stretch,$medium);
 }
 // Semibold
 .lf-sbold {
-	@include stretch-weight($normal,$sbold);
+	@include stretch-weight($no-stretch,$sbold);
 }
 // Bold
 .lf-bold {
-	@include stretch-weight($normal,$bold);
+	@include stretch-weight($no-stretch,$bold);
 }
 // Extrabold, AKA Heavy
 .lf-xbold {
-	@include stretch-weight($normal,$xbold);
+	@include stretch-weight($no-stretch,$xbold);
 }
 // Ultrabold, AKA Black
 .lf-ubold {
-	@include stretch-weight($normal,$ubold);
+	@include stretch-weight($no-stretch,$ubold);
 }
 
 // Build your own from the available variables
-// stretchs:  $uconddensed, $xcondenssed, $condensed, $narrow, $normal,
+// stretchs:  $uconddensed, $xcondenssed, $condensed, $narrow, $no-stretch,
 // Weights: $ulight, $xlight, $light, $regular, $medium, $sbold, $bold, $xbold, $ubold
 
 // for example...

@@ -24,11 +24,26 @@ dt {
 
 code,
 pre {
-	&[class*="language-"],
-	&[class*="language-"] *,
+	font-family: "Unifont",monospace;
+
 	&:lang(en),
 	&:lang(en) * {
-		font-family: "Noto Sans Latin Mono" !important;
+		font-family: "Noto Sans Latin Mono","Unifont",monospace !important;
+
+		&[class*="language-"],
+		&[class*="language-"] *, {
+			font-family: "Noto Sans Latin Mono","Unifont",monospace !important;
+		}
+	}
+}
+
+table {
+	th {
+		text-align: left !important;
+	}
+
+	tr:nth-child(2n) {
+	  background-color: $background !important;
 	}
 }
 
@@ -105,10 +120,6 @@ pre {
 	}
 }
 
-tr:nth-child(2n) {
-    background-color: $background;
-}
-
 @media screen and (max-width: 450px) {
 
 	lf-specimen {
@@ -116,7 +127,6 @@ tr:nth-child(2n) {
 	}
 
 	.lf-ui-sample {
-		//width: 100%;
 
 		.button-small {
 			font-size: .6rem;
