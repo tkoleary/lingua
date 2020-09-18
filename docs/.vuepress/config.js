@@ -7,15 +7,39 @@ module.exports = {
 	themeConfig: {
 		lastUpdated: false,
 		sidebar: [
-			"/guide/",
-			"/guide/get-started/",
-			"/guide/samples/",
-			"/guide/ui-fonts/",
-			"/guide/fonts/variable/",
-			"/guide/languages/"
+			{
+        title: 'About',
+        path: '/guide/',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+					'/guide/about/get-started/',
+					'/guide/about/languages/'
+        ]
+      },
+			{
+        title: 'Examples',
+        path: '/guide/examples/script-samples/',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+					'/guide/examples/ui-fonts/',
+					'/guide/examples/variable-fonts/'
+        ]
+      },
+			{
+        title: 'Documentation',
+        path: '/guide/docs/',
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+					'/guide/docs/helper-classes/',
+					['/guide/docs/variables/', 'Add your own fonts']
+        ]
+      }
 		],
 		nav: [
-			{ text: "Home", link: "/" },
+			{ text: 'Home', link: "/" },
 			{ text: 'Guide', link: '/guide/' },
 		],
 		displayAllHeaders: true

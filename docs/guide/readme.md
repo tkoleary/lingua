@@ -1,6 +1,7 @@
 ---
 title: About
 lang: en
+sidebarDepth: 2
 ---
 
 ## About
@@ -34,9 +35,11 @@ Variable fonts are exploding in popularity since they provide designers so much 
 
 ### Performance
 
-Lingua includes [subfont](https://www.npmjs.com/package/subfont) as an optional dependency to create subsets of characters based on the actual content of your pages. We use the 'fout with a class' loading strategy described by Zach Leatherman [here](https://www.zachleat.com/web/comprehensive-webfonts/). The use of variable fonts also reduces page-load times, especially if you use several weights of one font, each of which would need to be loaded as a separate file with non-variable fonts. Here are some [stats](https://css-tricks) on variable font load times.
+Lingua fonts have all been compressed and subsetted using [glyphhanger](https://www.npmjs.com/package/glyphhanger) in Lingua's sister-projcet, [Webfont Factory](https://github.com/tkoleary/webfont-factory).The use of variable fonts also reduces page-load times, especially if you use several weights of one font, each of which would need to be loaded as a separate file with non-variable fonts. Here are some [stats](https://css-tricks) on variable font load times.
 
-All of the default fonts (the Noto families) are compresssed and subsetted using Glyphhanger. We also add the `unicode-range` property to subset the `@font-face` rules so fonts are only loaded when glyphs used by unicode that block are called for. See [this article](https://css-tricks.com/almanac/properties/u/unicode-range/) for more.
+<!-- We use the 'fout with a class' loading strategy described by Zach Leatherman [here](https://www.zachleat.com/web/comprehensive-webfonts/).-->
+
+We also add the `unicode-range` property to subset the `@font-face` rules so fonts are only loaded when glyphs used by unicode that block are called for. See [this article](https://css-tricks.com/almanac/properties/u/unicode-range/) for more information.
 
 ### Browser coverage
 
@@ -44,6 +47,8 @@ By default our `@font-face` rules only include woff and woff2 files which suppor
 
 ### The Noto fonts
 
-By default Lingua uses the fantastic open-source [Noto](https://www.google.com/get/noto/) fonts from Google. Because Noto fonts are designed to work together, you don't have to reconcile differences in character size, cap height, weight, or other stylistic variations that plague internationalization. If Noto is not stylistically appropriate for your brand you can replace some or all of the scripts with your preferred fonts in the variables files. If you don't already have webfont files for the fonts you want, use our sister project [Webfont Factory](https://github.com/tkoleary/webfont-factory) to generate compressed and subsetted woff, woff2, eot, and `@font-face` rules from your ttf files.
+By default Lingua uses the fantastic open-source [Noto](https://www.google.com/get/noto/) fonts from Google. Because Noto fonts are designed to work together, you don't have to reconcile differences in character size, cap height, weight, or other stylistic variations that can make design consistency difficult.
+
+If you prefer a different font you can simply replace Noto using our [script variables](get-started/#script-variables). Use our sister project [Webfont Factory](https://github.com/tkoleary/webfont-factory) to generate compressed and subsetted woff, woff2, etc. and `@font-face` rules from your ttf files.
 
 _*Where variable fonts are supported_
