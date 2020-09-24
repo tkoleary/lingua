@@ -362,7 +362,7 @@ The variations shown are the helper classes for weights 100 through 900. Those a
 	<p class="lf-specimen lf-sans lf-ulight" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
 	<p class="lf-specimen lf-sans lf-xlight" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
 	<p class="lf-specimen lf-sans lf-light" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
-	<p class="lf-specimen lf-sans lf-regular" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
+	<p class="lf-specimen lf-sans lf-regular" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି |</p>
 	<p class="lf-specimen lf-sans lf-medium" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
 	<p class="lf-specimen lf-sans lf-sbold" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
 	<p class="lf-specimen lf-sans lf-bold" lang="or"> ଆର୍ଟିକିଲ୍ 1 ସମସ୍ତ ଲୋକ ମୁକ୍ତ ଏବଂ ସମ୍ମାନ ଏବଂ ଅଧିକାରରେ ସମାନ ଭାବରେ ଜନ୍ମଗ୍ରହଣ କରନ୍ତି | </p>
