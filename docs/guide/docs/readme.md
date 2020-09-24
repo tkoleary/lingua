@@ -20,3 +20,13 @@ Use this variable to set a different font display property for all webfonts
 ```scss
 $global-font-display: "swap";
 ```
+
+*Class prefix*
+
+Use this variable to to change the "lf-" prefix on classes if it conflicts with your classes.
+
+```scss
+$prefix: "lf-";
+```
+
+Note: the '.' is not part of the prefix variable.
