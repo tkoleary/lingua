@@ -7,14 +7,14 @@ $serif-stack: 	$base-sans,$telugu-serif,serif;
 $ui-stack: 			$base-sans,$telugu-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Telu...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Telu...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Telu...);
 }

@@ -6,10 +6,10 @@ $sans-stack: 			$base-sans,$adlam-sans,sans-serif;
 $unjoined-stack: 	$base-sans,$adlam-unjoined,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, rtl, $langs-Adlm...);
 }
 
-.lf-unjoined {
+.#{$prefix}unjoined {
 	@include langlist($unjoined-stack, rtl, $langs-Adlm...);
 }

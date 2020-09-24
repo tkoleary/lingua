@@ -6,10 +6,10 @@ $sans-stack: 		$korean-sans,sans-serif;
 $serif-stack: 	$korean-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Kore...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Kore...);
 }

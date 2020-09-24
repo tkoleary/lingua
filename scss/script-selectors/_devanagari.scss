@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$devanagari-sans,sans-serif;
 $serif-stack: 	$base-serif,$devanagari-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Deva...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Deva...);
 }

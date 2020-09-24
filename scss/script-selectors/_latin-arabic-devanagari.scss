@@ -2,7 +2,7 @@
 
 // Default to Devanagari script wheree no script is specified
 *,
-.lf-sans {
+.#{$prefix}sans {
 	&:lang(hi),
 	&:lang(hif),
 	&:lang(ks),
@@ -11,7 +11,7 @@
 		direction: ltr;
 	}
 }
-.lf-serif {
+.#{$prefix}serif {
 	&:lang(hi),
 	&:lang(hif),
 	&:lang(ks),
@@ -22,7 +22,7 @@
 
 // Devanagari script is explicit
 *,
-.lf-sans {
+.#{$prefix}sans {
 	&:lang(hi-Deva),
 	&:lang(hif-Deva),
 	&:lang(ks-Deva),
@@ -31,7 +31,7 @@
 		direction: ltr;
 	}
 }
-.lf-serif {
+.#{$prefix}serif {
 	&:lang(hi-Deva),
 	&:lang(hif-Deva),
 	&:lang(ks-Deva),
@@ -42,7 +42,7 @@
 
 // Arabic script is explicit
 *,
-.lf-sans {
+.#{$prefix}sans {
 	&:lang(hi-Arab),
 	&:lang(hif-Arab),
 	&:lang(ks-Arab),
@@ -52,7 +52,7 @@
 	}
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	&:lang(hi-Arab),
 	&:lang(hif-Arab),
 	&:lang(ks-Arab),
@@ -63,7 +63,7 @@
 
 // Latin script is explicit
 *,
-.lf-sans {
+.#{$prefix}sans {
 	&:lang(hi-Latn),
 	&:lang(hif-Latn),
 	&:lang(ks-Latn),
@@ -73,7 +73,7 @@
 	}
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	&:lang(hi-Latn),
 	&:lang(hif-Latn),
 	&:lang(ks-Latn),

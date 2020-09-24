@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$gurmukhi-sans,sans-serif;
 $serif-stack: 	$base-sans,$gurmukhi-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Guru...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Guru...);
 }

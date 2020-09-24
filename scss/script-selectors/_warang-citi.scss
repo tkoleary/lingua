@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$warang-citi-sans,sans-serif;
 $serif-stack: 	$base-sans,$warang-citi-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Wara...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Wara...);
 }

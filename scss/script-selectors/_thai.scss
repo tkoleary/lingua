@@ -7,14 +7,14 @@ $serif-stack: 	$base-sans,$thai-serif,serif;
 $ui-stack: 			$base-sans,$thai-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Thai...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Thai...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Thai...);
 }

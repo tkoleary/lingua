@@ -5,11 +5,11 @@
 	font-family: $base-sans,$cyrillic-sans,sans-serif;
 	direction: ltr;
 
-	.lf-sans {
+	.#{$prefix}sans {
 		font-family: $base-sans,$cyrillic-sans,sans-serif;
 	}
 
-	.lf-serif {
+	.#{$prefix}serif {
 		font-family: $base-serif,$cyrillic-serif,serif;
 	}
 }
@@ -19,11 +19,11 @@
 	font-family: $base-sans,$cyrillic-sans,sans-serif;
 	direction: ltr;
 
-	.lf-sans {
+	.#{$prefix}sans {
 		font-family: $base-sans,$cyrillic-sans,sans-serif;
 	}
 
-	.lf-serif {
+	.#{$prefix}serif {
 		font-family: $base-serif,$cyrillic-serif,serif;
 	}
 }
@@ -33,11 +33,11 @@
 	font-family: $base-sans,$latin-sans,sans-serif;
 	direction: ltr;
 
-	.lf-sans {
+	.#{$prefix}sans {
 		font-family: $base-sans,$latin-sans,sans-serif;
 	}
 
-	.lf-serif {
+	.#{$prefix}serif {
 		font-family: $base-serif,$latin-serif,serif;
 	}
 }

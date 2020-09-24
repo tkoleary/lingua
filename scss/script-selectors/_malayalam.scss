@@ -7,15 +7,15 @@ $serif-stack: 	$base-sans,$malayalam-serif,serif;
 $ui-stack: 			$base-sans,$malayalam-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Mlym...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Mlym...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Mlym...);
 }
 

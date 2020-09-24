@@ -9,32 +9,32 @@ $serif-stack: 				$latin-serif,serif;
 $serif-italic-stack: 	$latin-serif-italic,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langrule($langs-Latn...) {
 		font-family: $sans-stack;
 		direction: initial;
 
-		&.lf-italic,
-		& em.lf-italic {
+		&.#{$prefix}italic,
+		& em.#{$prefix}italic {
 			font-family: $sans-italic-stack;
 		}
 
-		&.lf-mono,
-		& pre.lf-mono,
-		& code.lf-mono {
+		&.#{$prefix}mono,
+		& pre.#{$prefix}mono,
+		& code.#{$prefix}mono {
 			font-family: $sans-mono-stack;
 		}
 	}
 }
 
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langrule($langs-Latn...) {
 		font-family: $serif-stack;
 		direction: initial;
 
-		&.lf-italic,
-		& em.lf-italic {
+		&.#{$prefix}italic,
+		& em.#{$prefix}italic {
 			font-family: $serif-italic-stack;
 		}
 	}

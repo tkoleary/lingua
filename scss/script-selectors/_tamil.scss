@@ -7,16 +7,16 @@ $ui-stack: 				$base-sans,$tamil-sans-ui,sans-serif;
 $slanted-stack: 	$base-serif,$tamil-serif-slanted,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Taml...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Taml...);
 }
 
 em,
-.lf-slanted,
-.lf-slanted em {
+.#{$prefix}slanted,
+.#{$prefix}slanted em {
 	@include langlist($slanted-stack, ltr, $langs-Taml...);
 }

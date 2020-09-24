@@ -8,18 +8,18 @@ $naskh-stack: 	$base-sans,$naskh-arabic,serif;
 $kufi-stack: 		$base-sans,$kufi-arabic,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, rtl, $langs-Arab...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, rtl, $langs-Arab...);
 }
 
-.lf-naskh {
+.#{$prefix}naskh {
 	@include langlist($naskh-stack, rtl, $langs-Arab...);
 }
 
-.lf-kufi {
+.#{$prefix}kufi {
 	@include langlist($kufi-stack, rtl, $langs-Arab...);
 }

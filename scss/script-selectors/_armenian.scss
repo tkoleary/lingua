@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$armenian-sans,sans-serif;
 $serif-stack: 	$base-serif,$armenian-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Armn...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Armn...);
 }

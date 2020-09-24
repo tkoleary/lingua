@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$tibetan-sans,sans-serif;
 $serif-stack: 	$base-sans,$tibetan-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Tibt...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Tibt...);
 }

@@ -7,14 +7,14 @@ $serif-stack: 	$base-sans,$sinhala-serif,serif;
 $ui-stack: 			$base-sans,$sinhala-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Sinh...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Sinh...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Sinh...);
 }

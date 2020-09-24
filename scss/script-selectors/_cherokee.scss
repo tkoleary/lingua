@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$cherokee-sans,sans-serif;
 $serif-stack: 	$base-serif,$cherokee-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Cher...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Cher...);
 }

@@ -5,6 +5,6 @@
 $sans-stack: 		$base-sans,$zanabazar-square-sans,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Zanb...);
 }

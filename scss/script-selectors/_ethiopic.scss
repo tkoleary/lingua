@@ -5,6 +5,6 @@
 $serif-stack: 		$base-serif,$ethiopic-serif,serif;
 
 *,
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Ethi...);
 }

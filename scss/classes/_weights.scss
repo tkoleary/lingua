@@ -30,39 +30,39 @@ strong {
 
 // Helper classes for default weights
 // Ultralight, AKA Thin
-.lf-ulight {
+.#{$prefix}ulight {
 	@include stretch-weight($no-stretch,$ulight);
 }
 // Extralight
-.lf-xlight {
+.#{$prefix}xlight {
 	@include stretch-weight($no-stretch,$xight);
 }
 // Light, AKA Book
-.lf-light {
+.#{$prefix}light {
 	@include stretch-weight($no-stretch,$light);
 }
 // Regular
-.lf-regular {
+.#{$prefix}regular {
 	@include stretch-weight($no-stretch,$regular);
 }
 // Semibold, AKA DemiBold
-.lf-medium {
+.#{$prefix}medium {
 	@include stretch-weight($no-stretch,$medium);
 }
 // Semibold
-.lf-sbold {
+.#{$prefix}sbold {
 	@include stretch-weight($no-stretch,$sbold);
 }
 // Bold
-.lf-bold {
+.#{$prefix}bold {
 	@include stretch-weight($no-stretch,$bold);
 }
 // Extrabold, AKA Heavy
-.lf-xbold {
+.#{$prefix}xbold {
 	@include stretch-weight($no-stretch,$xbold);
 }
 // Ultrabold, AKA Black
-.lf-ubold {
+.#{$prefix}ubold {
 	@include stretch-weight($no-stretch,$ubold);
 }
 
@@ -71,7 +71,7 @@ strong {
 // Weights: $ulight, $xlight, $light, $regular, $medium, $sbold, $bold, $xbold, $ubold
 
 // for example...
-.lf-ucondensed-light {
+.#{$prefix}ucondensed-light {
 	@include stretch-weight($ucondensed,$light);
 }
 

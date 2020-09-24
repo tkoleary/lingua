@@ -7,14 +7,14 @@ $serif-stack: 	$base-sans,$khmer-serif,serif;
 $ui-stack: 			$base-sans,$khmer-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Khmr...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Khmr...);
 }
 
-.lf-ui {
+.#{$prefix}ui {
 	@include langlist($ui-stack, ltr, $langs-Khmr...);
 }

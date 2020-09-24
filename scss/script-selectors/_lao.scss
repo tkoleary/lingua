@@ -7,14 +7,14 @@ $serif-stack: $base-sans,$lao-serif,serif;
 $ui-stack: $base-sans,$lao-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Laoo...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Laoo...);
 }
 
-.lf-ui {
+.#{$prefix}ui {
 	@include langlist($ui-stack, ltr, $langs-Laoo...);
 }

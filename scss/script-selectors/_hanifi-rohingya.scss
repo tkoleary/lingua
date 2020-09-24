@@ -5,6 +5,6 @@
 $sans-stack: 	$base-sans,$arabic-sans,$hanifi-rohingya-sans,sans-serif; // Borrows U+06D4 arabic full stop
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, rtl, $langs-Rohg...);
 }

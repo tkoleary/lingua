@@ -5,6 +5,6 @@
 $sans-stack: 		$base-sans,$c-aboriginal-sans,sans-serif;
 $serif-stack: 	$base-serif,$c-aboriginal-serif,serif;
 
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Cans...);
 }

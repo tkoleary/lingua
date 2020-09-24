@@ -2,14 +2,14 @@
 
 // Default to Arabic script
 *,
-.lf-sans {
+.#{$prefix}sans {
 	&:lang(Arab), &:lang(ar),&:lang(bal),&:lang(brh),&:lang(dyo),&:lang(ha),&:lang(id),&:lang(ms),&:lang(so),&:lang(sus),&:lang(swb),&:lang(tr),&:lang(tru),&:lang(wo) {
 		font-family: $base-sans,$arabic-sans,sans-serif;
 		direction: rtl;
 	}
 }
 
-.lf-serif:lang(Arab) {
+.#{$prefix}serif:lang(Arab) {
 	font-family: $base-serif,$arabic-serif,serif;
 	direction: rtl;
 }

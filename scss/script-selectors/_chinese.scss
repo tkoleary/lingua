@@ -12,18 +12,18 @@ $serif-hong-kong-stack: 		$base-serif,$chinese-hk-serif,serif;
 
 // Simplified
 *,
-.lf-sans 	{	@include langlist($sans-simplified-stack, ltr, $langs-Hans...); }
-.lf-serif { @include langlist($serif-simplified-stack, ltr, $langs-Hans...); }
+.#{$prefix}sans 	{	@include langlist($sans-simplified-stack, ltr, $langs-Hans...); }
+.#{$prefix}serif { @include langlist($serif-simplified-stack, ltr, $langs-Hans...); }
 
 // Traditional
-.lf-sans 	{ @include langlist($sans-traditional-stack, ltr, $langs-Hant...); }
-.lf-serif { @include langlist($serif-traditional-stack, ltr, $langs-Hant...); }
+.#{$prefix}sans 	{ @include langlist($sans-traditional-stack, ltr, $langs-Hant...); }
+.#{$prefix}serif { @include langlist($serif-traditional-stack, ltr, $langs-Hant...); }
 
 // Hong Kong
-.lf-sans 	{ @include langlist($sans-hong-kong-stack, ltr, $langs-zh-HK...); }
-.lf-serif { @include langlist($serif-hong-kong-stack, ltr, $langs-zh-HK...); }
+.#{$prefix}sans 	{ @include langlist($sans-hong-kong-stack, ltr, $langs-zh-HK...); }
+.#{$prefix}serif { @include langlist($serif-hong-kong-stack, ltr, $langs-zh-HK...); }
 
-*, .lf-sans, .lf-serif {
+*, .#{$prefix}sans, .#{$prefix}serif {
 	&:lang(zh), &:lang(Hans), &:lang(Hant), &:lang(zh-KK) {
 		em {
 			font-style: normal;

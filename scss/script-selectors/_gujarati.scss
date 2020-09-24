@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$gujarati-sans,sans-serif;
 $serif-stack: 	$base-sans,$gujarati-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Gujr...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Gujr...);
 }

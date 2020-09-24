@@ -7,14 +7,14 @@ $serif-stack: 	$base-sans,$myanmar-serif,serif;
 $ui-stack: 			$base-sans,$myanmar-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Mymr...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Mymr...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Mymr...);
 }

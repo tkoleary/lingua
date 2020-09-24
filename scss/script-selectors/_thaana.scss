@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$arabic-sans,$thaana-sans,sans-serif;
 $serif-stack: 	$base-serif,$arabic-serif,$thaana-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, rtl, $langs-Thaa...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, rtl, $langs-Thaa...);
 }

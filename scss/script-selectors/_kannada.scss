@@ -7,14 +7,14 @@ $serif-stack: 	$base-sans,$kannada-serif,serif;
 $ui-stack: 			$base-sans,$kannada-sans-ui,sans-serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Knda...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Knda...);
 }
 
-.lf-sans-ui {
+.#{$prefix}sans-ui {
 	@include langlist($ui-stack, ltr, $langs-Knda...);
 }

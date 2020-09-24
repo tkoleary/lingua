@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$cyrillic-sans,sans-serif;
 $serif-stack: 	$base-serif,$cyrillic-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Cyrl...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Cyrl...);
 }

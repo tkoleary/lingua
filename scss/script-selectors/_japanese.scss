@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$japanese-sans,sans-serif;
 $serif-stack: 	$base-sans,$japanese-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Jpan...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Jpan...);
 }

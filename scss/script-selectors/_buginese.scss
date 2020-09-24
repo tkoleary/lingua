@@ -6,10 +6,10 @@ $sans-stack: 		$base-sans,$buginese-sans,sans-serif;
 $serif-stack: 	$base-serif,$buginese-serif,serif;
 
 *,
-.lf-sans {
+.#{$prefix}sans {
 	@include langlist($sans-stack, ltr, $langs-Bugi...);
 }
 
-.lf-serif {
+.#{$prefix}serif {
 	@include langlist($serif-stack, ltr, $langs-Bugi...);
 }
