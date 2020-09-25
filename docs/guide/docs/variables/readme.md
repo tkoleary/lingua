@@ -26,7 +26,7 @@ Next add your webfont rules, make sure your static and variable fonts have the s
 	     url('#{$font-path}SourceSansPro-regular-subset.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 }
 
 @font-face {
@@ -35,7 +35,7 @@ Next add your webfont rules, make sure your static and variable fonts have the s
 	     url('#{$font-path}SourceSansPro-VF-subset.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 }
 ````
 

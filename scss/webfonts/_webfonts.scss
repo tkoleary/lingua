@@ -3,7 +3,7 @@
   src: url("#{$font-path}NotoNaskhArabic-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoNaskhArabic-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -11,7 +11,7 @@
   src: url("#{$font-path}NotoNaskhArabicUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoNaskhArabicUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -19,7 +19,7 @@
   src: url("#{$font-path}NotoKufiArabic-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoKufiArabic-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -27,7 +27,7 @@
   src: url("#{$font-path}NotoSansLatin-Italic-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLatin-Italic-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -35,7 +35,7 @@
   src: url("#{$font-path}NotoSerifTamilSlanted-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTamilSlanted-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -43,7 +43,7 @@
   src: url("#{$font-path}NotoSansArabic-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansArabic-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -51,7 +51,7 @@
   src: url("#{$font-path}NotoSansAdlam-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansAdlam-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
@@ -59,7 +59,7 @@
   src: url("#{$font-path}NotoSansArmenian-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansArmenian-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0530-058F;
 }
 @font-face {
@@ -67,7 +67,7 @@
   src: url("#{$font-path}NotoSansBalinese-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBalinese-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1B00-1B7F;
 }
 @font-face {
@@ -75,7 +75,7 @@
   src: url("#{$font-path}NotoSansBengali-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBengali-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0980-09FF;
 }
 @font-face {
@@ -83,7 +83,7 @@
   src: url("#{$font-path}NotoSansBrahmi-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBrahmi-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+11000-1107F;
 }
 @font-face {
@@ -91,7 +91,7 @@
   src: url("#{$font-path}NotoSansBuginese-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBuginese-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1A00-1A1F;
 }
 @font-face {
@@ -99,7 +99,7 @@
   src: url("#{$font-path}NotoSansBuhid-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBuhid-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1740-175F, U+1735;
 }
 @font-face {
@@ -107,7 +107,7 @@
   src: url("#{$font-path}NotoSansCherokee-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansCherokee-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -115,7 +115,7 @@
   src: url("#{$font-path}NotoSansCanadianAboriginal-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansCanadianAboriginal-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1400-167F, U+18B0-18FF;
 }
 @font-face {
@@ -123,7 +123,7 @@
   src: url("#{$font-path}NotoSansDevanagari-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansDevanagari-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
@@ -131,7 +131,7 @@
   src: url("#{$font-path}NotoSansEthiopic-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansEthiopic-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
 }
 @font-face {
@@ -139,7 +139,7 @@
   src: url("#{$font-path}NotoSansGeorgian-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGeorgian-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
@@ -147,7 +147,7 @@
   src: url("#{$font-path}NotoSansGujarati-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGujarati-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A80-0AFF;
 }
 @font-face {
@@ -155,7 +155,7 @@
   src: url("#{$font-path}NotoSansGurmukhi-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGurmukhi-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A00-0A7F;
 }
 @font-face {
@@ -163,7 +163,7 @@
   src: url("#{$font-path}NotoSansHanifiRohingya-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansHanifiRohingya-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+10D00-10D3F;
 }
 @font-face {
@@ -171,7 +171,7 @@
   src: url("#{$font-path}NotoSansHanunoo-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansHanunoo-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1720-173F;
 }
 @font-face {
@@ -179,7 +179,7 @@
   src: url("#{$font-path}NotoSansHebrew-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansHebrew-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
 }
 @font-face {
@@ -187,7 +187,7 @@
   src: url("#{$font-path}NotoSansKannada-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKannada-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C80-0CFF;
 }
 @font-face {
@@ -195,7 +195,7 @@
   src: url("#{$font-path}NotoSansKhmer-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKhmer-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
@@ -203,7 +203,7 @@
   src: url("#{$font-path}NotoSansLatin-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLatin-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -211,7 +211,7 @@
   src: url("#{$font-path}NotoSansLao-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLao-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E80-0EFF;
 }
 @font-face {
@@ -219,7 +219,7 @@
   src: url("#{$font-path}NotoSansLimbu-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLimbu-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1900-194F;
 }
 @font-face {
@@ -227,7 +227,7 @@
   src: url("#{$font-path}NotoSansLisu-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLisu-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+A4D0-A4FF;
 }
 @font-face {
@@ -235,7 +235,7 @@
   src: url("#{$font-path}NotoSansMalayalam-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMalayalam-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D00-0D7F;
 }
 @font-face {
@@ -243,7 +243,7 @@
   src: url("#{$font-path}NotoSansMyanmar-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMyanmar-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
@@ -251,7 +251,7 @@
   src: url("#{$font-path}NotoSansNKo-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansNKo-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+07C0-07FF;
 }
 @font-face {
@@ -259,7 +259,7 @@
   src: url("#{$font-path}NotoSansOriya-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansOriya-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B00-0B7F;
 }
 @font-face {
@@ -267,7 +267,7 @@
   src: url("#{$font-path}NotoSansOlChiki-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansOlChiki-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1C50-1C7F;
 }
 @font-face {
@@ -275,7 +275,7 @@
   src: url("#{$font-path}NotoSansSinhala-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansSinhala-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D80-0DFF;
 }
 @font-face {
@@ -283,7 +283,7 @@
   src: url("#{$font-path}NotoSansTagalog-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTagalog-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1700-171F, U+1735;
 }
 @font-face {
@@ -291,7 +291,7 @@
   src: url("#{$font-path}NotoSansTaiLe-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTaiLe-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1950-197F;
 }
 @font-face {
@@ -299,7 +299,7 @@
   src: url("#{$font-path}NotoSansTaiTham-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTaiTham-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1A20-1AAF;
 }
 @font-face {
@@ -307,7 +307,7 @@
   src: url("#{$font-path}NotoSansTaiViet-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTaiViet-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+AA80-AADF;
 }
 @font-face {
@@ -315,7 +315,7 @@
   src: url("#{$font-path}NotoSansTamil-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTamil-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -323,7 +323,7 @@
   src: url("#{$font-path}NotoSansTelugu-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTelugu-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C00-0C7F;
 }
 @font-face {
@@ -331,7 +331,7 @@
   src: url("#{$font-path}NotoSansThai-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansThai-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E00-0E7F;
 }
 @font-face {
@@ -339,7 +339,7 @@
   src: url("#{$font-path}NotoSansThaana-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansThaana-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0780-07BF;
 }
 @font-face {
@@ -347,7 +347,7 @@
   src: url("#{$font-path}NotoSansTibetan-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTibetan-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0F00-0FFF;
 }
 @font-face {
@@ -355,7 +355,7 @@
   src: url("#{$font-path}NotoSansZanabazarSquare-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansZanabazarSquare-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+11A00-11A4F;
 }
 @font-face {
@@ -363,7 +363,7 @@
   src: url("#{$font-path}NotoSerifArmenian-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifArmenian-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0530-058F;
 }
 @font-face {
@@ -371,7 +371,7 @@
   src: url("#{$font-path}NotoSerifBalinese-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifBalinese-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1B00-1B7F;
 }
 @font-face {
@@ -379,7 +379,7 @@
   src: url("#{$font-path}NotoSerifBengali-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifBengali-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0980-09FF;
 }
 @font-face {
@@ -387,7 +387,7 @@
   src: url("#{$font-path}NotoSerifDevanagari-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifDevanagari-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
@@ -395,7 +395,7 @@
   src: url("#{$font-path}NotoSerifEthiopic-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifEthiopic-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
 }
 @font-face {
@@ -403,7 +403,7 @@
   src: url("#{$font-path}NotoSerifGeorgian-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifGeorgian-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
@@ -411,7 +411,7 @@
   src: url("#{$font-path}NotoSerifGujarati-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifGujarati-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A80-0AFF;
 }
 @font-face {
@@ -419,7 +419,7 @@
   src: url("#{$font-path}NotoSerifGurmukhi-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifGurmukhi-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A00-0A7F;
 }
 @font-face {
@@ -427,7 +427,7 @@
   src: url("#{$font-path}NotoSerifHebrew-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifHebrew-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
 }
 @font-face {
@@ -435,7 +435,7 @@
   src: url("#{$font-path}NotoSerifKannada-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifKannada-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C80-0CFF;
 }
 @font-face {
@@ -443,7 +443,7 @@
   src: url("#{$font-path}NotoSerifKhmer-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifKhmer-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
@@ -451,7 +451,7 @@
   src: url("#{$font-path}NotoSerifLao-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifLao-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E80-0EFF;
 }
 @font-face {
@@ -459,7 +459,7 @@
   src: url("#{$font-path}NotoSerifLatin-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifLatin-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -467,7 +467,7 @@
   src: url("#{$font-path}NotoSerifMalayalam-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifMalayalam-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D00-0D7F;
 }
 @font-face {
@@ -475,7 +475,7 @@
   src: url("#{$font-path}NotoSerifMyanmar-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifMyanmar-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
@@ -483,7 +483,7 @@
   src: url("#{$font-path}NotoSerifSinhala-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifSinhala-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D80-0DFF;
 }
 @font-face {
@@ -491,7 +491,7 @@
   src: url("#{$font-path}NotoSerifTamil-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTamil-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -499,7 +499,7 @@
   src: url("#{$font-path}NotoSerifTelugu-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTelugu-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C00-0C7F;
 }
 @font-face {
@@ -507,7 +507,7 @@
   src: url("#{$font-path}NotoSerifThai-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifThai-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E00-0E7F;
 }
 @font-face {
@@ -515,7 +515,7 @@
   src: url("#{$font-path}NotoSerifTibetan-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTibetan-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0F00-0FFF;
 }
 @font-face {
@@ -523,7 +523,7 @@
   src: url("#{$font-path}NotoSansArabicUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansArabicUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -531,7 +531,7 @@
   src: url("#{$font-path}NotoSansBengaliUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBengaliUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0980-09FF;
 }
 @font-face {
@@ -539,7 +539,7 @@
   src: url("#{$font-path}NotoSansDevanagariUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansDevanagariUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
@@ -547,7 +547,7 @@
   src: url("#{$font-path}NotoSansKhmerUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKhmerUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
@@ -555,7 +555,7 @@
   src: url("#{$font-path}NotoSansKannadaUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKannadaUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C80-0CFF;
 }
 @font-face {
@@ -563,7 +563,7 @@
   src: url("#{$font-path}NotoSansLaoUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLaoUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E80-0EFF;
 }
 @font-face {
@@ -571,7 +571,7 @@
   src: url("#{$font-path}NotoSansMalayalamUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMalayalamUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D00-0D7F;
 }
 @font-face {
@@ -579,7 +579,7 @@
   src: url("#{$font-path}NotoSansMyanmarUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMyanmarUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
@@ -587,7 +587,7 @@
   src: url("#{$font-path}NotoSansOriyaUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansOriyaUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B00-0B7F;
 }
 @font-face {
@@ -595,7 +595,7 @@
   src: url("#{$font-path}NotoSansSinhalaUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansSinhalaUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D80-0DFF;
 }
 @font-face {
@@ -603,7 +603,7 @@
   src: url("#{$font-path}NotoSansTamilUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTamilUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -611,7 +611,7 @@
   src: url("#{$font-path}NotoSansTeluguUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTeluguUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C00-0C7F;
 }
 @font-face {
@@ -619,7 +619,7 @@
   src: url("#{$font-path}NotoSansThaiUI-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoSansThaiUI-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E00-0E7F;
 }
 @font-face {
@@ -627,7 +627,7 @@
   src: url("#{$font-path}NotoNaskhArabic-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoNaskhArabic-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -635,7 +635,7 @@
   src: url("#{$font-path}NotoKufiArabic-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoKufiArabic-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -643,7 +643,7 @@
   src: url("#{$font-path}NotoRashiHebrew-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoRashiHebrew-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
 }
 @font-face {
@@ -651,7 +651,7 @@
   src: url("#{$font-path}NotoSansLatin-Italic-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLatin-Italic-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -659,7 +659,7 @@
   src: url("#{$font-path}NotoSansLatinMono-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLatinMono-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -667,7 +667,7 @@
   src: url("#{$font-path}NotoSerifTamilSlanted-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTamilSlanted-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -675,7 +675,7 @@
   src: url("#{$font-path}NotoSansAdlamUnjoined-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansAdlamUnjoined-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
@@ -683,7 +683,7 @@
   src: url("#{$font-path}NotoNaskhArabicUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoNaskhArabicUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -691,7 +691,7 @@
   src: url("#{$font-path}NotoSansAdlam-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansAdlam-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1E900-1E95F, U+2E41;
 }
 @font-face {
@@ -699,7 +699,7 @@
   src: url("#{$font-path}NotoSansArabic-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansArabic-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -707,7 +707,7 @@
   src: url("#{$font-path}NotoSansArmenian-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansArmenian-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0530-058F;
 }
 @font-face {
@@ -715,7 +715,7 @@
   src: url("#{$font-path}NotoSansBamum-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBamum-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+A6A0-A6FF, U+16800-16A3F;
 }
 @font-face {
@@ -723,7 +723,7 @@
   src: url("#{$font-path}NotoSansBengali-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBengali-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0980-09FF;
 }
 @font-face {
@@ -731,7 +731,7 @@
   src: url("#{$font-path}NotoSansBrahmi-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBrahmi-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+11000-1107F;
 }
 @font-face {
@@ -739,7 +739,7 @@
   src: url("#{$font-path}NotoSansBuginese-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBuginese-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1A00-1A1F;
 }
 @font-face {
@@ -747,7 +747,7 @@
   src: url("#{$font-path}NotoSansBuhid-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBuhid-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1740-175F, U+1735;
 }
 @font-face {
@@ -755,7 +755,7 @@
   src: url("#{$font-path}NotoSansCanadianAboriginal-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansCanadianAboriginal-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1400-167F, U+18B0-18FF;
 }
 @font-face {
@@ -763,7 +763,7 @@
   src: url("#{$font-path}NotoSansCham-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansCham-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+AA00-AA5F;
 }
 @font-face {
@@ -771,7 +771,7 @@
   src: url("#{$font-path}NotoSansCherokee-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansCherokee-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -779,7 +779,7 @@
   src: url("#{$font-path}NotoSansLGC-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLGC-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0400-04FF, U+0500-052F, U+1C80-1C8F;
 }
 @font-face {
@@ -787,7 +787,7 @@
   src: url("#{$font-path}NotoSansDevanagari-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansDevanagari-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
@@ -795,7 +795,7 @@
   src: url("#{$font-path}NotoSansGeorgian-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGeorgian-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
@@ -803,7 +803,7 @@
   src: url("#{$font-path}NotoSansGrantha-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGrantha-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+11300-1137F;
 }
 @font-face {
@@ -811,7 +811,7 @@
   src: url("#{$font-path}NotoSansLGC-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLGC-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0370-03FF, U+1F00-1FFF;
 }
 @font-face {
@@ -819,7 +819,7 @@
   src: url("#{$font-path}NotoSansGurmukhi-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGurmukhi-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A00-0A7F;
 }
 @font-face {
@@ -827,7 +827,7 @@
   src: url("#{$font-path}NotoSansHanifiRohingya-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansHanifiRohingya-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+10D00-10D3F;
 }
 @font-face {
@@ -835,7 +835,7 @@
   src: url("#{$font-path}NotoSansHebrew-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansHebrew-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
 }
 @font-face {
@@ -843,7 +843,7 @@
   src: url("#{$font-path}NotoSansKannada-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKannada-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C80-0CFF;
 }
 @font-face {
@@ -851,7 +851,7 @@
   src: url("#{$font-path}NotoSansKhmer-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKhmer-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
@@ -859,7 +859,7 @@
   src: url("#{$font-path}NotoSansLao-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLao-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E80-0EFF;
 }
 @font-face {
@@ -867,7 +867,7 @@
   src: url("#{$font-path}NotoSansLatin-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLatin-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -875,7 +875,7 @@
   src: url("#{$font-path}NotoSansLimbu-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLimbu-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1900-194F;
 }
 @font-face {
@@ -883,7 +883,7 @@
   src: url("#{$font-path}NotoSansLisu-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLisu-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+A4D0-A4FF;
 }
 @font-face {
@@ -891,7 +891,7 @@
   src: url("#{$font-path}NotoSansMalayalam-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMalayalam-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D00-0D7F;
 }
 @font-face {
@@ -899,7 +899,7 @@
   src: url("#{$font-path}NotoSansMyanmar-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMyanmar-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
@@ -907,7 +907,7 @@
   src: url("#{$font-path}NotoNaskhArabic-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoNaskhArabic-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -915,7 +915,7 @@
   src: url("#{$font-path}NotoSansNushu-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansNushu-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1B170-1B2FF;
 }
 @font-face {
@@ -923,7 +923,7 @@
   src: url("#{$font-path}NotoTraditionalNushu-Regular-subset.woff2") format("woff2"), url("#{$font-path}NotoTraditionalNushu-Regular-subset.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1B170-1B2FF;
 }
 @font-face {
@@ -931,7 +931,7 @@
   src: url("#{$font-path}NotoSansOriya-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansOriya-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B00-0B7F;
 }
 @font-face {
@@ -939,7 +939,7 @@
   src: url("#{$font-path}NotoSansSinhala-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansSinhala-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D80-0DFF;
 }
 @font-face {
@@ -947,7 +947,7 @@
   src: url("#{$font-path}NotoSansTagalog-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTagalog-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1700-171F, U+1735;
 }
 @font-face {
@@ -955,7 +955,7 @@
   src: url("#{$font-path}NotoSansTaiLe-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTaiLe-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1950-197F;
 }
 @font-face {
@@ -963,7 +963,7 @@
   src: url("#{$font-path}NotoSansTaiTham-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTaiTham-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1A20-1AAF;
 }
 @font-face {
@@ -971,7 +971,7 @@
   src: url("#{$font-path}NotoSansTaiViet-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTaiViet-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+AA80-AADF;
 }
 @font-face {
@@ -979,7 +979,7 @@
   src: url("#{$font-path}NotoSansThaana-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansThaana-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0780-07BF;
 }
 @font-face {
@@ -987,7 +987,7 @@
   src: url("#{$font-path}NotoSansThai-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansThai-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E00-0E7F;
 }
 @font-face {
@@ -995,7 +995,7 @@
   src: url("#{$font-path}NotoSansTakri-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTakri-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+11680-116CF;
 }
 @font-face {
@@ -1003,7 +1003,7 @@
   src: url("#{$font-path}NotoSansTelugu-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTelugu-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C00-0C7F;
 }
 @font-face {
@@ -1011,7 +1011,7 @@
   src: url("#{$font-path}NotoSansTamil-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTamil-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -1019,7 +1019,7 @@
   src: url("#{$font-path}NotoSansWarangCiti-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansWarangCiti-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+118A0-118FF;
 }
 @font-face {
@@ -1027,7 +1027,7 @@
   src: url("#{$font-path}NotoSansZanabazarSquare-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansZanabazarSquare-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+11A00-11A4F;
 }
 @font-face {
@@ -1035,7 +1035,7 @@
   src: url("#{$font-path}NotoSerifArmenian-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifArmenian-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0530-058F;
 }
 @font-face {
@@ -1043,7 +1043,7 @@
   src: url("#{$font-path}NotoSerifBalinese-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifBalinese-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1B00-1B7F;
 }
 @font-face {
@@ -1051,7 +1051,7 @@
   src: url("#{$font-path}NotoSerifBengali-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifBengali-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0980-09FF;
 }
 @font-face {
@@ -1059,7 +1059,7 @@
   src: url("#{$font-path}NotoSerifDevanagari-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifDevanagari-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
@@ -1067,7 +1067,7 @@
   src: url("#{$font-path}NotoSerifEthiopic-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifEthiopic-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1200-137F, U+1380-139F, U+2D80-2DDF;
 }
 @font-face {
@@ -1075,7 +1075,7 @@
   src: url("#{$font-path}NotoSerifGeorgian-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifGeorgian-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+10A0-10FF, U+1C90-1CBF, U+2D00-2D2F;
 }
 @font-face {
@@ -1083,7 +1083,7 @@
   src: url("#{$font-path}NotoSerifGujarati-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifGujarati-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A80-0AFF;
 }
 @font-face {
@@ -1091,7 +1091,7 @@
   src: url("#{$font-path}NotoSerifGurmukhi-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifGurmukhi-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A00-0A7F;
 }
 @font-face {
@@ -1099,7 +1099,7 @@
   src: url("#{$font-path}NotoSerifHebrew-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifHebrew-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0590-05FF, U+FB1D-FB4F;
 }
 @font-face {
@@ -1107,7 +1107,7 @@
   src: url("#{$font-path}NotoSerifKannada-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifKannada-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C80-0CFF;
 }
 @font-face {
@@ -1115,7 +1115,7 @@
   src: url("#{$font-path}NotoSerifKhmer-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifKhmer-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
@@ -1123,7 +1123,7 @@
   src: url("#{$font-path}NotoSerifLao-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifLao-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E80-0EFF;
 }
 @font-face {
@@ -1131,7 +1131,7 @@
   src: url("#{$font-path}NotoSerifLatin-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifLatin-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+????;
 }
 @font-face {
@@ -1139,7 +1139,7 @@
   src: url("#{$font-path}NotoSerifMalayalam-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifMalayalam-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D00-0D7F;
 }
 @font-face {
@@ -1147,7 +1147,7 @@
   src: url("#{$font-path}NotoSerifMyanmar-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifMyanmar-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
@@ -1155,7 +1155,7 @@
   src: url("#{$font-path}NotoSerifSinhala-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifSinhala-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D80-0DFF;
 }
 @font-face {
@@ -1163,7 +1163,7 @@
   src: url("#{$font-path}NotoSerifTamil-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTamil-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -1171,7 +1171,7 @@
   src: url("#{$font-path}NotoSerifTelugu-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTelugu-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C00-0C7F;
 }
 @font-face {
@@ -1179,7 +1179,7 @@
   src: url("#{$font-path}NotoSerifThai-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifThai-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E00-0E7F;
 }
 @font-face {
@@ -1187,7 +1187,7 @@
   src: url("#{$font-path}NotoSerifTibetan-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSerifTibetan-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0F00-0FFF;
 }
 @font-face {
@@ -1195,7 +1195,7 @@
   src: url("#{$font-path}NotoSansArabicUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansArabicUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+1EE00-1EEFF;
 }
 @font-face {
@@ -1203,7 +1203,7 @@
   src: url("#{$font-path}NotoSansBengaliUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansBengaliUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0980-09FF;
 }
 @font-face {
@@ -1211,7 +1211,7 @@
   src: url("#{$font-path}NotoSansDevanagariUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansDevanagariUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0900-097F, U+A8E0-A8FF;
 }
 @font-face {
@@ -1219,7 +1219,7 @@
   src: url("#{$font-path}NotoSansGurmukhiUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansGurmukhiUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0A00-0A7F;
 }
 @font-face {
@@ -1227,7 +1227,7 @@
   src: url("#{$font-path}NotoSansKannadaUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKannadaUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C80-0CFF;
 }
 @font-face {
@@ -1235,7 +1235,7 @@
   src: url("#{$font-path}NotoSansKhmerUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansKhmerUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1780-17FF, U+19E0-19FF;
 }
 @font-face {
@@ -1243,7 +1243,7 @@
   src: url("#{$font-path}NotoSansLaoUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansLaoUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E80-0EFF;
 }
 @font-face {
@@ -1251,7 +1251,7 @@
   src: url("#{$font-path}NotoSansMalayalamUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMalayalamUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0D00-0D7F;
 }
 @font-face {
@@ -1259,7 +1259,7 @@
   src: url("#{$font-path}NotoSansMyanmarUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansMyanmarUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+1000-109F, U+AA60-AA7F, U+A9E0-A9FF;
 }
 @font-face {
@@ -1267,7 +1267,7 @@
   src: url("#{$font-path}NotoSansOriyaUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansOriyaUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B00-0B7F;
 }
 @font-face {
@@ -1275,7 +1275,7 @@
   src: url("#{$font-path}NotoSansTamilUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTamilUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0B80-0BFF, U+11FC0-11FFF;
 }
 @font-face {
@@ -1283,7 +1283,7 @@
   src: url("#{$font-path}NotoSansTeluguUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansTeluguUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0C00-0C7F;
 }
 @font-face {
@@ -1291,6 +1291,6 @@
   src: url("#{$font-path}NotoSansThaiUI-VF-subset.woff2") format("woff2"), url("#{$font-path}NotoSansThaiUI-VF-subset.woff") format("woff");
   font-weight: 100 900;
   font-style: normal;
-  font-display: $global-font-display;
+  font-display: $font-display;
   unicode-range: U+0E00-0E7F;
 }

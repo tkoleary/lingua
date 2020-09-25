@@ -8,6 +8,8 @@ $background-tone:		#f5f5f5;
 $text-light:				#555;
 $transition: 				background-color 0.1s ease;
 $radius:						4px;
+$bg-success: 				#dffddf;
+$bg-warn: 					#ffe4e4;
 
 blockquote {
 	color: $text-light !important;
@@ -43,7 +45,20 @@ table {
 	}
 
 	tr:nth-child(2n) {
-	  background-color: $background !important;
+	  background-color: initial !important;
+	}
+
+	td {
+
+		&.cell-success {
+			background-color: $bg-success;
+			text-align: center;
+		}
+
+		&.cell-warn  {
+			background-color: $bg-warn;
+			text-align: center;
+		}
 	}
 }
 
@@ -52,7 +67,7 @@ table {
 	margin-bottom: 3rem;
 
 	h1 {
-		font-weight: 100 !important;
+		font-weight: 200 !important;
 		margin: 2rem 0 0 !important;
 	}
 
@@ -122,7 +137,7 @@ table {
 
 @media screen and (max-width: 450px) {
 
-	lf-specimen {
+	.lf-specimen {
 		font-size: .75rem;
 	}
 

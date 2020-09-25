@@ -1,7 +1,7 @@
 ---
 title: About
 lang: en
-sidebarDepth: 2
+sidebarDepth: 1
 ---
 
 ## About

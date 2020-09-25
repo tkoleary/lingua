@@ -34,6 +34,7 @@ module.exports = {
         sidebarDepth: 1,
         children: [
 					'/guide/docs/helper-classes/',
+					'/guide/docs/font-avialability/',
 					['/guide/docs/variables/', 'Add your own fonts']
         ]
       }

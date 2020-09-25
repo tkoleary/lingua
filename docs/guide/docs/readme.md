@@ -5,28 +5,34 @@ lang: en
 
 # Global variables
 
-*Font path*
+### Global font path
 
-If you need to locate fonts in a different place in your dev or live environment you can change this variable.
+The font path variable is prepended to the url of every file in `webfonts.scss`. If you need to locate fonts in a different place in your environment you can change this variable.
+
+The default value is `"fonts/"`. You can re-configure it to any absolute or relative path, eg.
 
 ```scss
-$font-path: "fonts/";
+$font-path: "assets/fonts/";
 ```
 
-*font-display*
+### Gloabl font-display
 
-Use this variable to set a different font display property for all webfonts
+Use this variable to set a global font display property for all webfonts.
+
+The  default value is `"swap"`. Options are `"auto", "block", "swap", "fallback", "optional"`, eg.
 
 ```scss
-$global-font-display: "swap";
+$font-display: "fallback";
 ```
 
-*Class prefix*
+### Global class prefix
 
-Use this variable to to change the "lf-" prefix on classes if it conflicts with your classes.
+Use this variable adds a prefix to classes.
+
+The default value is `"lf-"`, I that conflicts with your class names you can change it, eg.
 
 ```scss
-$prefix: "lf-";
+$prefix: "myprefix-";
 ```
 
 Note: the '.' is not part of the prefix variable.

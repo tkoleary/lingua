@@ -6,7 +6,7 @@
 	font-family: 'Noto Sans HK';
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 	src:	url('#{$font-path}noto-sans-hk-v5-latin_chinese-hongkong-regular.woff2') format('woff2'),
 				url('#{$font-path}noto-sans-hk-v5-latin_chinese-hongkong-regular.woff') format('woff');
 				unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
@@ -16,7 +16,7 @@
 	font-family: 'Noto Sans SC';
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 	src:	url('#{$font-path}noto-sans-sc-v11-latin_chinese-simplified-regular.woff2') format('woff2'),
 				url('#{$font-path}noto-sans-sc-v11-latin_chinese-simplified-regular.woff') format('woff');
 				unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
@@ -26,7 +26,7 @@
 	font-family: 'Noto Sans TC';
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 	src: 	url('#{$font-path}noto-sans-tc-v10-latin_chinese-traditional-regular.woff2') format('woff2'),
 				url('#{$font-path}noto-sans-tc-v10-latin_chinese-traditional-regular.woff') format('woff');
 				unicode-range: U+4E00-9FFF, U+31C0-31EF, U+3300-33FF, U+3000-303F, U+2E80-2EFF, U+FE30-FE4F, U+2F00-2FDF, U+FF0C;
@@ -36,7 +36,7 @@
 	font-family: 'Noto Sans JP';
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 	src:	url('#{$font-path}noto-sans-jp-v25-latin_japanese-regular.woff2') format('woff2'),
 				url('#{$font-path}noto-sans-jp-v25-latin_japanese-regular.woff') format('woff'),
 }
@@ -45,7 +45,7 @@
 	font-family: 'Noto Sans KR';
 	font-style: normal;
 	font-weight: normal;
-	font-display: $global-font-display;
+	font-display: $font-display;
 	src:	url('#{$font-path}noto-sans-kr-v12-latin_korean-regular.woff2') format('woff2'),
 				url('#{$font-path}noto-sans-kr-v12-latin_korean-regular.woff') format('woff'),
 }

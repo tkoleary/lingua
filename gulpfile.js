@@ -13,6 +13,7 @@ sass.compiler									= require('dart-sass');
 var config = {
 	scss:								'./scss/**/**.scss',
 	fonts:							'./scss/fonts/**/**.*',
+	factoryFonts:				'./node_modules/webfont-factory/dist/fonts/**.*',
 	autoprefixerOptions: {
 		browsers:						['last 2 versions', '> 5%']
 	},
@@ -55,10 +56,17 @@ function compileSass(cb) {
 	cb();
 }
 
-// Move the fonts from their subfolders to one big folder
-function flattenFonts(cb) {
+// Get the user fonts move to CSS
+function userFonts(cb) {
 	return src(config.fonts)
 	.pipe(flatten())
+	.pipe(dest(config.buildFonts))
+	cb();
+}
+
+// Get the webfont-factory fonts and move to CSS
+function factoryFonts(cb) {
+	return src(config.factoryFonts)
 	.pipe(dest(config.buildFonts))
 	cb();
 }
@@ -68,4 +76,4 @@ function watchScss(cb) {
   cb();
 }
 
-task('default', series(wipeFonts, wipeCss, flattenFonts, watchScss));
+task('default', series(wipeFonts, wipeCss, userFonts, factoryFonts, watchScss));
