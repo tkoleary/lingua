@@ -41,7 +41,7 @@ lang: en
 
 ## The web has changed, multilingual should too
 
-The web was designed to be device-independent but for language we still rely heavily on device fonts and settings. It's time we aknowledged that users who speak non-latin languages want a web that works everytwhere, not just on their own machine or their own locale. Webfonts have been here for more than a decade and are central to the design of the web. Now that we have open-source fonts covering virtually all of Unicode there should be an easy way to have our sites do the same. That's why Lingua was created.
+The web was designed to be device-independent but for language we still rely heavily on device fonts and settings. It's time we aknowledged that users of all languages want a web that works everywhere, not just their own machine and locale. Webfonts have been here for more than a decade and are central to the design of the web. Now that we have open-source fonts covering virtually all of Unicode there should be an easy way to have our sites do the same. That's why Lingua was created.
 
 ### We believe:
 
