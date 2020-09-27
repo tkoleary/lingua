@@ -15,11 +15,11 @@ The default value is `"fonts/"`. You can re-configure it to any absolute or rela
 $font-path: "assets/fonts/";
 ```
 
-### Gloabl font-display
+### Global font display
 
-Use this variable to set a global font display property for all webfonts.
+Use this variable to set a global [font display](https://css-tricks.com/almanac/properties/f/font-display/) property for all webfonts.
 
-The  default value is `"swap"`. Options are `"auto", "block", "swap", "fallback", "optional"`, eg.
+The default value is `"swap"`. Options are `"auto", "block", "swap", "fallback", "optional"`, eg.
 
 ```scss
 $font-display: "fallback";
@@ -35,4 +35,4 @@ The default value is `"lf-"`, I that conflicts with your class names you can cha
 $prefix: "myprefix-";
 ```
 
-Note: the '.' is not part of the prefix variable.
+*Note: the '.' is not part of the prefix variable.*

@@ -18,8 +18,8 @@ Primary style classes can be combined with secondary but not with one another, e
 		<tr><th>Primary styles</th><th>Classes</th><th>Coverage</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>Sans-serif </td><td><code>lf-sans </code></td><td>Most scripts </td></tr>
-		<tr><td>Serif </td><td><code>lf-serif </code></td><td>Most scripts </td></tr>
+		<tr><td>Sans-serif </td><td><code>lf-sans </code></td><td>All scripts </td></tr>
+		<tr><td>Serif </td><td><code>lf-serif </code></td><td>All scripts except Arabic, Gujariati, Nushu, Tibetan, Chinese (HK), Chinese (S), Sara Sompeng, Chinese (T), Japanese, Korean, Balinese, Brahmi, Takri, NKo, Tagalog, Tai-le, Tai-tham, Tai-viet </td></tr>
 		<tr><td>Naskh </td><td><code>lf-naskh </code></td><td>Arabic only </td></tr>
 		<tr><td>Kufi </td><td><code>lf-kufi </code></td><td>Arabic only </td></tr>
 		<tr><td>Rashi </td><td><code>lf-rashi </code></td><td>Hebrew only </td></tr>

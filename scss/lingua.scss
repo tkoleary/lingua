@@ -1,3 +1,15 @@
+// Lingua.scss is the main file into which all others are imported
+
+// Global variables
+
+// Change this variable if you need to locate fonts in a different place in your environment
+$font-path: "fonts/";
+
+// Change this variable to set a different font display property for all webfonts
+$global-font-display: swap;
+
+// Change this if it conflicts with your own class prefixes
+$prefix: "lf-";
 
 // Import the variables
 @import "variables/all-variables";
@@ -5,7 +17,7 @@
 // Import the webfonts
 @import "webfonts/static-sans";
 @import "webfonts/static-serif";
-@import "webfonts/webfonts";
+@import "../node_modules/webfont-factory/src/scss/webfonts";
 
 // Import files to load scripts based on the :lang property
 

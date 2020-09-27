@@ -1,14 +1,5 @@
 // Font variables
 
-// Change this variable if you need to locate fonts in a different place in your environment
-$font-path: "fonts/";
-
-// Change this variable to set a different font display property for all webfonts
-$font-display: "swap";
-
-// Change this if it conflicts with your own class prefixes
-$prefix: "lf-";
-
 @import "sans";
 @import "sans-ui";
 @import "serif";

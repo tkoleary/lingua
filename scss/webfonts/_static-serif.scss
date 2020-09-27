@@ -8,7 +8,7 @@
 				url('#{$font-path}noto-serif-sc-v7-latin_chinese-simplified-regular.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
-	font-display: $font-display;
+	font-display: $global-font-display;
 }
 // noto-serif-tc-regular - latin_chinese-traditional
 @font-face {
@@ -17,7 +17,7 @@
 				url('#{$font-path}noto-serif-tc-v7-latin_chinese-traditional-regular.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
-	font-display: $font-display;
+	font-display: $global-font-display;
 }
 // noto-serif-jp-regular - latin_japanese
 @font-face {
@@ -26,7 +26,7 @@
 				url('#{$font-path}noto-serif-jp-v7-latin_japanese-regular.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
-	font-display: $font-display;
+	font-display: $global-font-display;
 }
 // noto-serif-kr-regular - latin_korean
 @font-face {
@@ -35,5 +35,5 @@
 				url('#{$font-path}noto-serif-kr-v6-latin_korean-regular.woff') format('woff');
 	font-style: normal;
 	font-weight: normal;
-	font-display: $font-display;
+	font-display: $global-font-display;
 }
