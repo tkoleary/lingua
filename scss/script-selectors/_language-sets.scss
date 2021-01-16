@@ -11,6 +11,7 @@
   }
 }
 
+//
 // Script selector template -- replace 'thelang' with language name and 'code' with scrpt code
 // @import "language-sets";
 //
@@ -30,12 +31,12 @@
 // .#{$prefix}sans-ui {
 // 	@include langlist($ui-stack, ltr, $langs-code...);
 // }
-
+//
 
 @mixin langrule($langs...) {
 	@each $lang in $langs {
 		&:lang(#{$lang}) {
-			@content
+			@content;
 		}
   }
 }
